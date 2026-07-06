@@ -1,0 +1,658 @@
+{
+  "business": {
+    "name": "Anderson Auto Body",
+    "shortName": "Anderson",
+    "vertical": "Auto Body & Collision",
+    "phone": "(815) 784-5006",
+    "phoneHref": "+18157845006",
+    "address": "707 Pearson Drive",
+    "city": "Genoa",
+    "state": "IL",
+    "zip": "60135",
+    "mapsQuery": "Anderson Auto Body, 707 Pearson Drive, Genoa, IL",
+    "lat": 42.0902884,
+    "lon": -88.681891
+  },
+  "en": {
+    "meta": {
+      "title": "Anderson Auto Body | Collision & Body Repair in Genoa, IL",
+      "description": "Collision and auto body repair in Genoa, IL. Dent and rust repair, factory paint matching, frame work, and insurance claim help. Free written estimates."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About",
+      "gallery": "Our Work",
+      "visit": "Visit",
+      "order": "Free Estimate"
+    },
+    "hero": {
+      "eyebrow": "Genoa's Body Shop on Pearson Drive",
+      "title": "Bodywork Done Right",
+      "titleAccent": "From Fender to Frame",
+      "subtitle": "Dents, rust, collision damage, and paint matched so well it looks like nothing ever happened. Straight answers, honest estimates, and help with your insurance claim from start to finish.",
+      "ctaPrimary": "View Services",
+      "ctaSecondary": "Get a Free Estimate",
+      "badge": "Free Estimates - Insurance Claims Welcome - All Makes & Models"
+    },
+    "highlights": [
+      {
+        "icon": "car",
+        "title": "Collision Repair",
+        "text": "From parking-lot scrapes to hard hits: we tear down, repair, and get your body lines back where they belong."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Factory Paint Match",
+        "text": "We mix your exact factory color and blend it into the panels around it so the repair disappears."
+      },
+      {
+        "icon": "wrench",
+        "title": "Dents, Rust & Frame",
+        "text": "Paintless dent repair, rust patches, and frame pulls measured on the rack — fixed right the first time."
+      },
+      {
+        "icon": "check",
+        "title": "Insurance Claim Help",
+        "text": "We document the damage, write the paperwork, and deal with your adjuster directly so you don't have to."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Services and prices shown are illustrative demo content only. Every repair starts with a free written estimate at the shop.",
+      "categories": [
+        {
+          "id": "collision-repair",
+          "name": "Collision Repair",
+          "blurb": "From fender benders to major hits, we get your car straight again.",
+          "items": [
+            {
+              "name": "Collision Damage Repair",
+              "desc": "Full repair of front, rear, and side impact damage, from teardown to final fit.",
+              "price": "Free Estimate",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bumper Repair & Replacement",
+              "desc": "Cracked, scraped, or sagging bumpers repaired or replaced and refinished to match.",
+              "price": "$150-$600",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Fender & Quarter Panel Work",
+              "desc": "Damaged panels pulled, repaired, or replaced with clean body lines restored.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Frame Straightening",
+              "desc": "Bent unibody and frame rails measured and pulled back to factory spec on the rack.",
+              "price": "Free Estimate",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Headlight & Trim Replacement",
+              "desc": "Broken lights, grilles, and trim swapped so the repair looks finished, not patched.",
+              "price": "$75-$300",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paint-finish",
+          "name": "Paint & Finish",
+          "blurb": "Paint mixed to your factory color and blended so the repair disappears.",
+          "items": [
+            {
+              "name": "Paint Matching & Blending",
+              "desc": "Your factory color mixed and blended into nearby panels so the new paint disappears.",
+              "price": "Free Estimate",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Panel Repaint",
+              "desc": "Single doors, hoods, and fenders sanded, primed, and sprayed in our paint booth.",
+              "price": "$250-$700",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Full Repaint",
+              "desc": "A fresh, even coat over the whole vehicle when patch jobs won't cut it anymore.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Clear Coat & Scratch Repair",
+              "desc": "Peeling clear coat and deep scratches sanded and refinished before they spread.",
+              "price": "$150-$450",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Buff & Polish",
+              "desc": "Machine polish that brings back the gloss on tired, oxidized paint.",
+              "price": "$100-$250",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "dents-rust",
+          "name": "Dents & Rust",
+          "blurb": "Small dings and creeping rust handled before they turn into big repairs.",
+          "items": [
+            {
+              "name": "Paintless Dent Repair",
+              "desc": "Door dings and small dents worked out without repainting, when the paint is intact.",
+              "price": "$95-$350",
+              "tags": [
+                "popular",
+                "fast"
+              ]
+            },
+            {
+              "name": "Hail Damage Repair",
+              "desc": "Dozens of small dents mapped and worked out panel by panel after a storm.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Rust Repair & Patch Panels",
+              "desc": "Rusted rockers, wheel arches, and cab corners cut out, patched, and sealed.",
+              "price": "Free Estimate",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Undercoating & Rust Protection",
+              "desc": "Guard your repair against Illinois winters with undercoating and cavity wax.",
+              "price": "$150-$400",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "insurance-estimates",
+          "name": "Insurance & Estimates",
+          "blurb": "We handle the paperwork so you can get back on the road.",
+          "items": [
+            {
+              "name": "Free Written Estimate",
+              "desc": "Bring the car by and leave with a clear written estimate, no strings attached.",
+              "price": "Free",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Insurance Claim Assistance",
+              "desc": "We document the damage, write the supplement, and work with your adjuster directly.",
+              "price": "Included",
+              "tags": [
+                "guarantee"
+              ]
+            },
+            {
+              "name": "Photo Damage Review",
+              "desc": "Send photos through the estimate form and get a ballpark before you drive over.",
+              "price": "Free",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Tow & Rental Coordination",
+              "desc": "We help line up a tow to the shop and point you to nearby rental options.",
+              "price": "Free",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Small-Town Shop That Shoots Straight",
+      "lead": "Anderson Auto Body is a Genoa collision shop where the estimate is honest, the paint matches, and the work is done when we say it will be.",
+      "paragraphs": [
+        "Serving Genoa since 2002, we handle the repairs local drivers actually need: fender benders, door dings, hail damage, rust that keeps coming back, and the bigger hits that need frame work. Every job starts with a walk-around and a written estimate, so you know exactly what we found and what it takes to fix it.",
+        "If an insurance company is involved, we document the damage, handle the supplement paperwork, and work with your adjuster so the repair is done right — not just done cheap. Stop by the shop on Pearson Drive and we'll take a look."
+      ],
+      "stats": [
+        {
+          "value": "Free",
+          "label": "Written Estimates"
+        },
+        {
+          "value": "All Makes",
+          "label": "Cars, Trucks & SUVs"
+        },
+        {
+          "value": "Insurance",
+          "label": "Claims Welcome"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Our Work",
+      "subheading": "Straight from the shop floor: repairs, refinishes, and the details in between.",
+      "captions": [
+        "New quarter panel fitted and gapped after a collision repair",
+        "Fresh blended paint curing under the booth lights",
+        "Door ding worked out with paintless dent repair",
+        "Rocker panel rust cut out and patched before sealing",
+        "Unibody squared up on the frame rack for measuring",
+        "Final buff and inspection before the keys go back"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Genoa Drivers Say",
+      "items": [
+        {
+          "quote": "A deer took out the front end and you honestly can't tell anything ever happened. The paint match on an older truck came out perfect.",
+          "name": "Dale H.",
+          "role": "Genoa driver"
+        },
+        {
+          "quote": "They walked me through the insurance claim, dealt with the adjuster, and the estimate never changed. Zero runaround.",
+          "name": "Maria G.",
+          "role": "Kingston driver"
+        },
+        {
+          "quote": "Took my truck in for rust on the rockers. Fair price, solid patch work, and they showed me exactly what they did.",
+          "name": "Tom B.",
+          "role": "Genoa driver"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Stop By the Shop",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Friday",
+          "time": "8:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "By Appointment"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        },
+        {
+          "day": "Estimates",
+          "time": "Walk-Ins Welcome"
+        }
+      ],
+      "phoneLabel": "Get in Touch",
+      "directions": "You'll find us at 707 Pearson Drive in Genoa, IL. Swing by for a walk-around estimate, or send the details through the form and we'll get back to you.",
+      "neighborhood": "We're just a few minutes from Genoa's historic Main Street, in a small town on the banks of the Kishwaukee River in the northeast corner of DeKalb County."
+    },
+    "cta": {
+      "heading": "Got a Dent, a Scrape, or Worse?",
+      "text": "Send us a few details and photos through the form, or stop by the shop for a walk-around. Free written estimates, straight answers, and help with your insurance claim.",
+      "button": "Get a Free Estimate"
+    },
+    "form": {
+      "heading": "Get a Free Estimate",
+      "subheading": "Tell us what happened and what you're driving. We'll look it over and get back to you with next steps.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Contact Number",
+      "partySize": "Vehicle (Year, Make, Model)",
+      "date": "Preferred Drop-Off Date",
+      "message": "What happened? Describe the damage.",
+      "submit": "Request Free Estimate",
+      "sending": "Sending...",
+      "success": "Thanks! We got your request and will be in touch soon.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Small-town collision and body repair in Genoa, IL — honest estimates and paint that matches.",
+      "rights": "© Anderson Auto Body. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Services & prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Anderson Auto Body | Carrocería y Pintura en Genoa, IL",
+      "description": "Taller de carrocería en Genoa, IL. Golpes y óxido, pintura igualada de fábrica, enderezado de chasis y ayuda con reclamos de seguro. Presupuestos gratis."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Nuestro Trabajo",
+      "visit": "Visítanos",
+      "order": "Presupuesto Gratis"
+    },
+    "hero": {
+      "eyebrow": "El Taller de Carrocería de Genoa",
+      "title": "Carrocería y Pintura",
+      "titleAccent": "Bien Hecha, Sin Rodeos",
+      "subtitle": "Golpes, óxido, daños por choque y pintura tan bien igualada que parece que nada pasó. Respuestas directas, presupuestos honestos y ayuda con tu reclamo de seguro de principio a fin.",
+      "ctaPrimary": "Ver Servicios",
+      "ctaSecondary": "Pide tu Presupuesto",
+      "badge": "Presupuestos Gratis - Reclamos de Seguro Bienvenidos - Todas las Marcas"
+    },
+    "highlights": [
+      {
+        "icon": "car",
+        "title": "Reparación de Choques",
+        "text": "De un roce en el estacionamiento a un golpe fuerte: desarmamos, reparamos y dejamos las líneas de la carrocería donde deben estar."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Pintura Igualada de Fábrica",
+        "text": "Mezclamos tu color exacto de fábrica y lo difuminamos en los paneles vecinos para que la reparación desaparezca."
+      },
+      {
+        "icon": "wrench",
+        "title": "Golpes, Óxido y Chasis",
+        "text": "Abolladuras sin repintar, parches de óxido y chasis enderezado con medición en la bancada: bien hecho a la primera."
+      },
+      {
+        "icon": "check",
+        "title": "Ayuda con tu Seguro",
+        "text": "Documentamos el daño, preparamos el papeleo y tratamos directo con tu ajustador para que tú no tengas que hacerlo."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Los servicios y precios mostrados son contenido demostrativo e ilustrativo. Cada reparación comienza con un presupuesto gratis por escrito en el taller.",
+      "categories": [
+        {
+          "id": "collision-repair",
+          "name": "Reparación de Choques",
+          "blurb": "De un roce leve a un golpe fuerte, dejamos tu auto derecho otra vez.",
+          "items": [
+            {
+              "name": "Reparación de Daños por Choque",
+              "desc": "Reparación completa de impactos frontales, traseros y laterales, del desarmado al ajuste final.",
+              "price": "Presupuesto Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Reparación y Cambio de Defensas",
+              "desc": "Defensas rajadas, raspadas o caídas, reparadas o reemplazadas y pintadas a juego.",
+              "price": "$150-$600",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Salpicaderas y Paneles Laterales",
+              "desc": "Paneles dañados enderezados, reparados o reemplazados con las líneas de carrocería restauradas.",
+              "price": "Presupuesto Gratis",
+              "tags": []
+            },
+            {
+              "name": "Enderezado de Chasis",
+              "desc": "Chasis y largueros doblados, medidos y regresados a especificación de fábrica en la bancada.",
+              "price": "Presupuesto Gratis",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Cambio de Faros y Molduras",
+              "desc": "Faros rotos, parrillas y molduras reemplazados para que la reparación se vea terminada, no parchada.",
+              "price": "$75-$300",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paint-finish",
+          "name": "Pintura y Acabado",
+          "blurb": "Pintura mezclada a tu color de fábrica y difuminada para que la reparación desaparezca.",
+          "items": [
+            {
+              "name": "Igualado y Difuminado de Pintura",
+              "desc": "Tu color de fábrica mezclado y difuminado en los paneles cercanos para que la pintura nueva desaparezca.",
+              "price": "Presupuesto Gratis",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Repintado de Panel",
+              "desc": "Puertas, cofres y salpicaderas lijados, con primario y pintados en nuestra cabina.",
+              "price": "$250-$700",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Repintado Completo",
+              "desc": "Una capa fresca y pareja en todo el vehículo cuando los parches ya no alcanzan.",
+              "price": "Presupuesto Gratis",
+              "tags": []
+            },
+            {
+              "name": "Barniz y Rayones",
+              "desc": "Barniz descascarado y rayones profundos lijados y renovados antes de que se extiendan.",
+              "price": "$150-$450",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Pulido y Abrillantado",
+              "desc": "Pulido a máquina que devuelve el brillo a la pintura opaca y gastada.",
+              "price": "$100-$250",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "dents-rust",
+          "name": "Abolladuras y Óxido",
+          "blurb": "Golpecitos y óxido atendidos antes de que se vuelvan reparaciones grandes.",
+          "items": [
+            {
+              "name": "Reparación de Abolladuras sin Pintura",
+              "desc": "Golpes de puerta y abolladuras chicas trabajadas sin repintar, cuando la pintura está intacta.",
+              "price": "$95-$350",
+              "tags": [
+                "popular",
+                "fast"
+              ]
+            },
+            {
+              "name": "Reparación de Daño por Granizo",
+              "desc": "Decenas de abolladuras pequeñas mapeadas y trabajadas panel por panel después de la tormenta.",
+              "price": "Presupuesto Gratis",
+              "tags": []
+            },
+            {
+              "name": "Óxido y Parches de Lámina",
+              "desc": "Estribos, arcos de rueda y esquinas oxidadas cortadas, parchadas y selladas.",
+              "price": "Presupuesto Gratis",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Anticorrosivo y Protección",
+              "desc": "Protege la reparación contra los inviernos de Illinois con anticorrosivo y cera para cavidades.",
+              "price": "$150-$400",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "insurance-estimates",
+          "name": "Seguros y Presupuestos",
+          "blurb": "Nosotros nos encargamos del papeleo para que tú vuelvas al camino.",
+          "items": [
+            {
+              "name": "Presupuesto Gratis por Escrito",
+              "desc": "Trae el auto y sal con un presupuesto claro por escrito, sin compromiso.",
+              "price": "Gratis",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Ayuda con Reclamos de Seguro",
+              "desc": "Documentamos el daño, preparamos el suplemento y tratamos directo con tu ajustador.",
+              "price": "Incluido",
+              "tags": [
+                "guarantee"
+              ]
+            },
+            {
+              "name": "Revisión de Daños por Foto",
+              "desc": "Envía fotos por el formulario de presupuesto y recibe una idea del costo antes de venir.",
+              "price": "Gratis",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Grúa y Auto de Renta",
+              "desc": "Te ayudamos a coordinar la grúa al taller y te orientamos con opciones de renta cercanas.",
+              "price": "Gratis",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Un Taller de Pueblo que Habla Claro",
+      "lead": "Anderson Auto Body es un taller de carrocería en Genoa donde el presupuesto es honesto, la pintura combina y el trabajo se entrega cuando se promete.",
+      "paragraphs": [
+        "Al servicio de Genoa desde 2002, hacemos las reparaciones que los conductores de la zona de verdad necesitan: choques leves, golpes de puerta, daño por granizo, óxido que vuelve una y otra vez y los impactos fuertes que requieren trabajo de chasis. Cada trabajo comienza con una revisión alrededor del vehículo y un presupuesto por escrito, para que sepas exactamente qué encontramos y qué se necesita para arreglarlo.",
+        "Si hay una aseguradora de por medio, documentamos el daño, nos encargamos del papeleo del suplemento y tratamos con tu ajustador para que la reparación quede bien hecha, no solo barata. Pasa por el taller en Pearson Drive y le echamos un vistazo."
+      ],
+      "stats": [
+        {
+          "value": "Gratis",
+          "label": "Presupuestos Escritos"
+        },
+        {
+          "value": "Todas Marcas",
+          "label": "Autos, Camionetas y SUVs"
+        },
+        {
+          "value": "Seguros",
+          "label": "Reclamos Bienvenidos"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Nuestro Trabajo",
+      "subheading": "Directo del taller: reparaciones, pintura y los detalles entre una y otra.",
+      "captions": [
+        "Panel trasero nuevo ajustado tras una reparación de choque",
+        "Pintura recién difuminada secando bajo las luces de la cabina",
+        "Golpe de puerta eliminado con reparación sin pintura",
+        "Óxido del estribo cortado y parchado antes de sellar",
+        "Carrocería escuadrada en la bancada para medición",
+        "Pulido final e inspección antes de entregar las llaves"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen los Conductores de Genoa",
+      "items": [
+        {
+          "quote": "Un venado destrozó el frente y honestamente no se nota que pasó algo. El igualado de pintura en una camioneta con años quedó perfecto.",
+          "name": "Dale H.",
+          "role": "Conductor de Genoa"
+        },
+        {
+          "quote": "Me guiaron con el reclamo del seguro, trataron con el ajustador y el presupuesto nunca cambió. Cero vueltas.",
+          "name": "Maria G.",
+          "role": "Conductora de Kingston"
+        },
+        {
+          "quote": "Llevé mi camioneta por óxido en los estribos. Precio justo, parches sólidos y me mostraron exactamente lo que hicieron.",
+          "name": "Tom B.",
+          "role": "Conductor de Genoa"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Pasa por el Taller",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Viernes",
+          "time": "8:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "Con Cita"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        },
+        {
+          "day": "Presupuestos",
+          "time": "Sin Cita Previa"
+        }
+      ],
+      "phoneLabel": "Escríbenos",
+      "directions": "Estamos en 707 Pearson Drive en Genoa, IL. Pasa para un presupuesto con el auto a la vista, o envía los detalles por el formulario y te respondemos pronto.",
+      "neighborhood": "Estamos a unos minutos de la histórica calle Main de Genoa, en un pueblito a orillas del río Kishwaukee, en la esquina noreste del condado de DeKalb."
+    },
+    "cta": {
+      "heading": "¿Un Golpe, un Rayón o Algo Peor?",
+      "text": "Envíanos los detalles y unas fotos por el formulario, o pasa por el taller para revisarlo juntos. Presupuestos gratis por escrito, respuestas directas y ayuda con tu reclamo de seguro.",
+      "button": "Pide tu Presupuesto"
+    },
+    "form": {
+      "heading": "Pide tu Presupuesto",
+      "subheading": "Cuéntanos qué pasó y qué vehículo tienes. Lo revisamos y te respondemos con los siguientes pasos.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Contacto",
+      "partySize": "Vehículo (Año, Marca, Modelo)",
+      "date": "Fecha Preferida de Entrega",
+      "message": "¿Qué pasó? Describe el daño.",
+      "submit": "Pedir Presupuesto",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Carrocería y pintura de pueblo en Genoa, IL: presupuestos honestos y pintura que sí combina.",
+      "rights": "© Anderson Auto Body. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Servicios y precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

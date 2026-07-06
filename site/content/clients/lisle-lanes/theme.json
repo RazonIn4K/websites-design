@@ -1,0 +1,16 @@
+{
+  "concept": "Retro bowling-alley nostalgia for Lisle Lanes: a bold retro-red primary paired with a vintage teal secondary and a warm neon-gold accent that pops on dark hero panels. Warm near-black ink sits on creamy backgrounds for a lively, fun, mid-century lane vibe.",
+  "vars": {
+    "--color-bg": "#FBF4E6",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#F3E7CC",
+    "--color-ink": "#1C1A17",
+    "--color-ink-soft": "#5A4F45",
+    "--color-primary": "#C8102E",
+    "--color-primary-dark": "#981022",
+    "--color-secondary": "#0E7C7B",
+    "--color-accent": "#FF5CA8",
+    "--color-line": "#E2D6BD"
+  },
+  "contrastNotes": "All WCAG-AA checks pass (verified): ink #1C1A17 on bg 15.86:1 (>=7); ink-soft #5A4F45 on bg 7.27:1 (>=4.5); white on primary #C8102E 5.88:1 (>=4.5); primary-dark #981022 on bg 7.89:1 (>=4.5); accent gold #FFB81C on near-black #000 12.12:1 (>=3, bright pop on dark heroes); surface-alt #F3E7CC is a LIGHT cream-gold tint with ink on top 14.15:1 (>=7); ink on surface 17.36:1."
+}

@@ -1,0 +1,16 @@
+{
+  "concept": "Curated home-and-gift boutique warmth: a soft sage primary grounds creamy, candlelit backgrounds, with a warm taupe ink for cozy legibility, a pretty blush as a secondary tint, and a burnished gold accent that pops on dark hero imagery. Pretty, warm, inviting, and quietly refined.",
+  "vars": {
+    "--color-bg": "#FBF6EF",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#F3EBDD",
+    "--color-ink": "#38302A",
+    "--color-ink-soft": "#6B5E51",
+    "--color-primary": "#2F4E35",
+    "--color-primary-dark": "#243C2A",
+    "--color-secondary": "#C0808D",
+    "--color-accent": "#C79A3E",
+    "--color-line": "#E7DCCB"
+  },
+  "contrastNotes": "All required ratios verified (WCAG). ink #38302A on bg #FBF6EF = 12.02:1 (>=7); ink-soft #6B5E51 on bg = 5.84:1 (>=4.5); white on primary #5F7356 = 5.16:1 (>=4.5); primary on bg = 4.79:1 (>=3); accent #C79A3E on #000 = 8.12:1 (>=3, bright pop on dark heroes). Also: ink on surface #FFFFFF = 12.93:1 and on surface-alt #F3EBDD = 10.92:1 (both >=7); white on primary-dark #45563F = 7.91:1. Secondary blush #C0808D is intended as a soft decorative tint and reads cleanly with dark ink (~6.3:1); pair with ink rather than white for text."
+}

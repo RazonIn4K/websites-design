@@ -1,0 +1,16 @@
+{
+  "concept": "Fresh romantic florist palette built on a dusty rose-mauve primary, leafy sage accent, and deep plum ink over creamy soft-white backgrounds. Refined and elegant, with neutral warm creams that let colorful flower photography stay vivid and undesaturated.",
+  "vars": {
+    "--color-bg": "#FBF7F4",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#F4ECE7",
+    "--color-ink": "#3A2336",
+    "--color-ink-soft": "#6E5266",
+    "--color-primary": "#A85A78",
+    "--color-primary-dark": "#8A4661",
+    "--color-secondary": "#7E4360",
+    "--color-accent": "#5C7A57",
+    "--color-line": "#E7DAD3"
+  },
+  "contrastNotes": "All ratios verified against #FBF7F4 bg. ink #3A2336 on bg = 13.38:1 (>=7). ink-soft #6E5266 on bg = 6.44:1 (>=4.5). white on primary #A85A78 = 4.77:1 (>=4.5). primary #A85A78 on bg = 4.48:1 (>=3). Extras: primary-dark holds white at 6.71:1; secondary #7E4360 holds white at 7.35:1; accent sage #5C7A57 = 4.5:1 on bg and 4.8:1 white-on-accent; ink on surface_alt = 12.21:1; line #E7DAD3 is a subtle hairline only (non-text)."
+}

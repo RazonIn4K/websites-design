@@ -1,0 +1,654 @@
+{
+  "business": {
+    "name": "Celidan Creations Florist",
+    "shortName": "Celidan Creations",
+    "vertical": "Florist & Gift Shop",
+    "phone": "(630) 904-0164",
+    "phoneHref": "+16309040164",
+    "address": "152 West Gartner Road",
+    "city": "Naperville",
+    "state": "IL",
+    "zip": "60540",
+    "mapsQuery": "Celidan Creations Florist, 152 West Gartner Road, Naperville, IL 60540"
+  },
+  "en": {
+    "meta": {
+      "title": "Celidan Creations Florist | Fresh Flowers & Same-Day Delivery in Naperville, IL",
+      "description": "Family florist & gift shop in Naperville, IL. Hand-arranged bouquets, weddings, sympathy, plants & gifts, with same-day local delivery. Call (630) 904-0164."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Shop",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Order Flowers"
+    },
+    "hero": {
+      "eyebrow": "Family Florist · Naperville, IL",
+      "title": "Fresh, Hand-Arranged Flowers",
+      "titleAccent": "For Every Moment That Matters",
+      "subtitle": "A family florist creating fresh bouquets and arrangements by hand, from a Tuesday pick-me-up to the wedding of the year, with same-day delivery around Naperville and a warm, personal touch.",
+      "ctaPrimary": "Shop Flowers",
+      "ctaSecondary": "Call (630) 904-0164",
+      "badge": "Hand-Arranged Daily · Same-Day Local Delivery"
+    },
+    "highlights": [
+      {
+        "icon": "leaf",
+        "title": "Fresh & Hand-Arranged",
+        "text": "Every bouquet is designed by hand with fresh, seasonal blooms, never a pre-packed box, so each arrangement feels personal."
+      },
+      {
+        "icon": "heart",
+        "title": "A Family Touch",
+        "text": "We're a family shop that knows flowers say what words can't, and we treat every order like it's for someone we love."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Weddings & Events",
+        "text": "From bridal bouquets to ceremony pieces and centerpieces, we bring your big day to life with flowers that fit your vision."
+      },
+      {
+        "icon": "star",
+        "title": "Same-Day Local Delivery",
+        "text": "Order by our daily cutoff and we'll deliver fresh flowers around Naperville the very same day, right to their door."
+      }
+    ],
+    "menu": {
+      "heading": "Our Shop",
+      "subheading": "Products and prices shown are illustrative demo content for this sample site. Please call or stop in for current selection, seasonal availability, and pricing.",
+      "categories": [
+        {
+          "id": "bouquets-arrangements",
+          "name": "Bouquets & Arrangements",
+          "blurb": "Our everyday signatures, designer bouquets and vase arrangements built by hand from the freshest blooms in the cooler.",
+          "items": [
+            {
+              "name": "Designer's Choice Bouquet",
+              "desc": "Let our florists surprise you with the best of the day, hand-gathered in a fresh, seasonal palette just for the occasion.",
+              "price": "From $55",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Garden Vase Arrangement",
+              "desc": "A lush, all-around arrangement in a keepsake glass vase, ready to set on the table and enjoy the moment it arrives.",
+              "price": "From $65",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Classic Dozen Roses",
+              "desc": "A dozen long-stem roses arranged with fresh greens, the timeless way to say I love you or simply thinking of you.",
+              "price": "From $75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Seasonal Market Bunch",
+              "desc": "A cheerful hand-tied bunch of whatever's freshest right now, perfect for a Tuesday pick-me-up or a sweet little surprise.",
+              "price": "From $45",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Premium Mixed Bouquet",
+              "desc": "An abundant mix of premium blooms and textures, designed to make a statement for the celebrations that call for more.",
+              "price": "From $95",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "weddings-events",
+          "name": "Weddings & Events",
+          "blurb": "Flowers for the moments you'll remember forever, from bridal bouquets to ceremony pieces and reception centerpieces.",
+          "items": [
+            {
+              "name": "Bridal Bouquet",
+              "desc": "A bouquet designed around your dress, your colors, and your story, hand-tied to carry beautifully down the aisle.",
+              "price": "From $185",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Bridesmaid Bouquet",
+              "desc": "Coordinated petite bouquets that complement the bridal flowers and frame your wedding party in fresh blooms.",
+              "price": "From $65",
+              "tags": []
+            },
+            {
+              "name": "Ceremony Arrangement",
+              "desc": "Statement florals for arches, altars, and aisles that set the scene and look stunning in every photo.",
+              "price": "From $250",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Reception Centerpiece",
+              "desc": "Elegant table centerpieces in your palette, sized for sweetheart tables to long banquet runs and everything between.",
+              "price": "From $85",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sympathy-occasions",
+          "name": "Sympathy & Occasions",
+          "blurb": "Thoughtful flowers for every chapter, from comforting sympathy tributes to birthdays, get-wells, and congratulations.",
+          "items": [
+            {
+              "name": "Sympathy Arrangement",
+              "desc": "A serene, respectful tribute arranged with care, sent to a home or service to offer comfort when words fall short.",
+              "price": "From $75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Standing Sympathy Spray",
+              "desc": "A graceful standing tribute in soft, peaceful tones, a meaningful way to honor a life and support a grieving family.",
+              "price": "From $150",
+              "tags": []
+            },
+            {
+              "name": "Get-Well Bouquet",
+              "desc": "Bright, uplifting blooms put together to lift spirits and send a little sunshine to someone on the mend.",
+              "price": "From $50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Birthday Celebration Bouquet",
+              "desc": "A colorful, festive arrangement made to make their day, delivered with a smile and plenty of cheer.",
+              "price": "From $55",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Congratulations Bouquet",
+              "desc": "A vibrant bouquet to mark new jobs, new babies, graduations, and every milestone worth celebrating in fresh flowers.",
+              "price": "From $60",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "plants-gifts",
+          "name": "Plants & Gifts",
+          "blurb": "Beyond the bouquet, lasting houseplants, easy-care succulents, candles, and ready-to-give gift baskets from the shop.",
+          "items": [
+            {
+              "name": "Blooming Houseplant",
+              "desc": "A potted, blooming plant that keeps on giving long after cut flowers fade, a living gift for any home or office.",
+              "price": "From $45",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Succulent Garden",
+              "desc": "A low-maintenance trio of succulents arranged in a stylish dish, perfect for the friend with a not-so-green thumb.",
+              "price": "From $40",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Hand-Poured Candle",
+              "desc": "A locally sourced candle in a warm, inviting scent, a lovely add-on to a bouquet or a thoughtful gift on its own.",
+              "price": "From $22",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Gift Basket",
+              "desc": "A curated basket of little treats and treasures, thoughtfully arranged and ready to gift for any happy occasion.",
+              "price": "From $65",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Family Florist in the Heart of Naperville",
+      "lead": "Celidan Creations Florist is an independent, family-run flower and gift shop on West Gartner Road, where every bouquet is arranged by hand and every order is treated like it's for someone we love.",
+      "paragraphs": [
+        "We believe flowers say what words sometimes can't. That's why we design each arrangement by hand with fresh, seasonal blooms, whether it's a simple Tuesday pick-me-up, a heartfelt sympathy tribute, or the centerpiece of the wedding of the year. Nothing comes pre-packed from a box, and nothing leaves the shop unless we'd be proud to send it ourselves.",
+        "As a local family shop, we love being part of your celebrations and your quiet moments alike. Call us, stop in, or order online, and we'll arrange something beautiful and get it to you or your someone special with same-day delivery around Naperville and a warm, personal touch."
+      ],
+      "stats": [
+        {
+          "value": "Hand-Arranged",
+          "label": "Fresh, Seasonal Blooms"
+        },
+        {
+          "value": "Same-Day",
+          "label": "Local Naperville Delivery"
+        },
+        {
+          "value": "Family-Run",
+          "label": "On West Gartner Road"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "From Our Studio",
+      "subheading": "A look at the bouquets, wedding work, and gifts our florists arrange by hand right here in Naperville.",
+      "captions": [
+        "A hand-tied designer bouquet in fresh seasonal blooms",
+        "Long-stem roses arranged for someone special",
+        "A bridal bouquet ready to carry down the aisle",
+        "Elegant centerpieces set for a reception",
+        "A serene sympathy tribute arranged with care",
+        "Succulents and houseplants waiting in the shop"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Naperville Is Saying",
+      "items": [
+        {
+          "quote": "I ordered in the morning and the most gorgeous bouquet showed up that same afternoon. My mom was over the moon. This is my flower shop now.",
+          "name": "Allison R.",
+          "role": "Same-day delivery customer"
+        },
+        {
+          "quote": "They did the flowers for our wedding and absolutely nailed our vision. The bridal bouquet brought me to tears. Truly a special, personal touch.",
+          "name": "Marcus D.",
+          "role": "Wedding client"
+        },
+        {
+          "quote": "When we lost my father, they put together a sympathy arrangement so beautiful and thoughtful. You can tell this is a family that cares.",
+          "name": "Priya S.",
+          "role": "Local customer"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit Us in Naperville",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Friday",
+          "time": "9:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "9:00 AM - 4:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Orders & Delivery",
+      "directions": "Find us at 152 West Gartner Road in Naperville. Stop in to browse the cooler, or call ahead and we'll have your arrangement ready for pickup or out for same-day local delivery."
+    },
+    "cta": {
+      "heading": "Need Flowers Today? We're Ready",
+      "text": "From a just-because bouquet to weddings, sympathy, and every celebration in between, give us a call and we'll arrange something beautiful with same-day delivery around Naperville.",
+      "button": "Call (630) 904-0164"
+    },
+    "form": {
+      "heading": "Request Flowers or an Order",
+      "subheading": "Planning a wedding, sending a gift, or need a bouquet today? Tell us what you have in mind and we'll get right back to you with the details.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Occasion",
+      "date": "Preferred Delivery Date",
+      "message": "Tell us about your order, occasion, colors, budget, and delivery details.",
+      "submit": "Send Request",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your order. No spam, ever."
+    },
+    "footer": {
+      "tagline": "An independent family florist and gift shop in Naperville, fresh hand-arranged bouquets, weddings, sympathy, plants, and gifts with same-day local delivery.",
+      "rights": "© Celidan Creations Florist. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Celidan Creations Florist | Flores Frescas y Entrega el Mismo Día en Naperville, IL",
+      "description": "Floristería y tienda de regalos familiar en Naperville, IL. Ramos hechos a mano, bodas, condolencias, plantas y regalos, con entrega local el mismo día. Llama al (630) 904-0164."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Tienda",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Pedir Flores"
+    },
+    "hero": {
+      "eyebrow": "Floristería Familiar · Naperville, IL",
+      "title": "Flores Frescas, Hechas a Mano",
+      "titleAccent": "Para Cada Momento Que Importa",
+      "subtitle": "Una floristería familiar que crea ramos y arreglos frescos a mano, desde un detalle de martes hasta la boda del año, con entrega el mismo día por todo Naperville y un toque cálido y personal.",
+      "ctaPrimary": "Comprar Flores",
+      "ctaSecondary": "Llamar al (630) 904-0164",
+      "badge": "Hechos a Mano a Diario · Entrega Local el Mismo Día"
+    },
+    "highlights": [
+      {
+        "icon": "leaf",
+        "title": "Frescas y Hechas a Mano",
+        "text": "Cada ramo se diseña a mano con flores frescas de temporada, nunca una caja prearmada, para que cada arreglo se sienta personal."
+      },
+      {
+        "icon": "heart",
+        "title": "Un Toque Familiar",
+        "text": "Somos una tienda familiar que sabe que las flores dicen lo que las palabras no pueden, y tratamos cada pedido como si fuera para alguien que amamos."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Bodas y Eventos",
+        "text": "De ramos de novia a piezas de ceremonia y centros de mesa, damos vida a tu gran día con flores que reflejan tu visión."
+      },
+      {
+        "icon": "star",
+        "title": "Entrega Local el Mismo Día",
+        "text": "Pide antes de nuestra hora límite diaria y entregaremos flores frescas por todo Naperville el mismo día, directo a su puerta."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestra Tienda",
+      "subheading": "Los productos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Llámanos o visítanos para conocer la selección actual, la disponibilidad de temporada y los precios.",
+      "categories": [
+        {
+          "id": "bouquets-arrangements",
+          "name": "Ramos y Arreglos",
+          "blurb": "Nuestros clásicos de todos los días, ramos de diseño y arreglos en florero armados a mano con las flores más frescas del refrigerador.",
+          "items": [
+            {
+              "name": "Ramo Elección del Florista",
+              "desc": "Deja que nuestros floristas te sorprendan con lo mejor del día, recogido a mano en una paleta fresca de temporada justo para la ocasión.",
+              "price": "Desde $55",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Arreglo de Jardín en Florero",
+              "desc": "Un arreglo frondoso y completo en un florero de cristal de recuerdo, listo para poner en la mesa y disfrutar desde que llega.",
+              "price": "Desde $65",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Docena Clásica de Rosas",
+              "desc": "Una docena de rosas de tallo largo arregladas con verdes frescos, la forma eterna de decir te amo o simplemente pienso en ti.",
+              "price": "Desde $75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Manojo de Temporada",
+              "desc": "Un alegre manojo atado a mano con lo más fresco del momento, perfecto para un detalle de martes o una dulce sorpresa.",
+              "price": "Desde $45",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Ramo Mixto Premium",
+              "desc": "Una mezcla abundante de flores y texturas premium, diseñada para impresionar en las celebraciones que piden algo más.",
+              "price": "Desde $95",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "weddings-events",
+          "name": "Bodas y Eventos",
+          "blurb": "Flores para los momentos que recordarás para siempre, de ramos de novia a piezas de ceremonia y centros de mesa para la recepción.",
+          "items": [
+            {
+              "name": "Ramo de Novia",
+              "desc": "Un ramo diseñado en torno a tu vestido, tus colores y tu historia, atado a mano para lucir hermoso camino al altar.",
+              "price": "Desde $185",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Ramo de Dama de Honor",
+              "desc": "Ramos pequeños coordinados que complementan las flores de la novia y enmarcan a tu cortejo en flores frescas.",
+              "price": "Desde $65",
+              "tags": []
+            },
+            {
+              "name": "Arreglo de Ceremonia",
+              "desc": "Flores de impacto para arcos, altares y pasillos que crean el ambiente y lucen espectaculares en cada foto.",
+              "price": "Desde $250",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Centro de Mesa para Recepción",
+              "desc": "Elegantes centros de mesa en tu paleta, en tamaños para mesas íntimas o largas mesas de banquete y todo lo intermedio.",
+              "price": "Desde $85",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sympathy-occasions",
+          "name": "Condolencias y Ocasiones",
+          "blurb": "Flores con cariño para cada capítulo, desde reconfortantes tributos de condolencia hasta cumpleaños, recuperaciones y felicitaciones.",
+          "items": [
+            {
+              "name": "Arreglo de Condolencias",
+              "desc": "Un tributo sereno y respetuoso armado con cuidado, enviado a un hogar o servicio para ofrecer consuelo cuando faltan las palabras.",
+              "price": "Desde $75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Corona de Pie de Condolencias",
+              "desc": "Un grácil tributo de pie en tonos suaves y apacibles, una forma significativa de honrar una vida y acompañar a la familia.",
+              "price": "Desde $150",
+              "tags": []
+            },
+            {
+              "name": "Ramo de Pronta Recuperación",
+              "desc": "Flores brillantes y animadas reunidas para levantar el ánimo y enviar un poco de sol a quien se está recuperando.",
+              "price": "Desde $50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Ramo de Cumpleaños",
+              "desc": "Un arreglo colorido y festivo hecho para alegrarle el día, entregado con una sonrisa y mucha alegría.",
+              "price": "Desde $55",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Ramo de Felicitaciones",
+              "desc": "Un ramo vibrante para celebrar nuevos empleos, bebés, graduaciones y cada logro que merezca festejarse con flores frescas.",
+              "price": "Desde $60",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "plants-gifts",
+          "name": "Plantas y Regalos",
+          "blurb": "Más allá del ramo, plantas de interior duraderas, suculentas fáciles de cuidar, velas y canastas de regalo listas para obsequiar.",
+          "items": [
+            {
+              "name": "Planta de Interior Florida",
+              "desc": "Una planta en maceta y en flor que sigue dando alegría mucho después de que las flores cortadas se marchitan, un regalo vivo para cualquier hogar u oficina.",
+              "price": "Desde $45",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Jardín de Suculentas",
+              "desc": "Un trío de suculentas de bajo mantenimiento en un recipiente con estilo, perfecto para el amigo sin mano verde.",
+              "price": "Desde $40",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Vela Hecha a Mano",
+              "desc": "Una vela de origen local en un aroma cálido y acogedor, un lindo complemento para un ramo o un detalle por sí sola.",
+              "price": "Desde $22",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Canasta de Regalo",
+              "desc": "Una canasta seleccionada de pequeños gustos y tesoros, armada con cariño y lista para regalar en cualquier ocasión feliz.",
+              "price": "Desde $65",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Una Floristería Familiar en el Corazón de Naperville",
+      "lead": "Celidan Creations Florist es una floristería y tienda de regalos familiar e independiente en West Gartner Road, donde cada ramo se arregla a mano y cada pedido se trata como si fuera para alguien que amamos.",
+      "paragraphs": [
+        "Creemos que las flores dicen lo que a veces las palabras no pueden. Por eso diseñamos cada arreglo a mano con flores frescas de temporada, ya sea un sencillo detalle de martes, un sentido tributo de condolencia o el centro de mesa de la boda del año. Nada viene prearmado de una caja, y nada sale de la tienda a menos que estemos orgullosos de enviarlo nosotros mismos.",
+        "Como tienda familiar local, nos encanta ser parte de tus celebraciones y también de tus momentos más callados. Llámanos, visítanos o haz tu pedido en línea, y arreglaremos algo hermoso para llevártelo a ti o a tu persona especial con entrega el mismo día por todo Naperville y un toque cálido y personal."
+      ],
+      "stats": [
+        {
+          "value": "Hechas a Mano",
+          "label": "Flores Frescas de Temporada"
+        },
+        {
+          "value": "Mismo Día",
+          "label": "Entrega Local en Naperville"
+        },
+        {
+          "value": "Familiar",
+          "label": "En West Gartner Road"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Desde Nuestro Estudio",
+      "subheading": "Un vistazo a los ramos, el trabajo de bodas y los regalos que nuestros floristas arreglan a mano aquí en Naperville.",
+      "captions": [
+        "Un ramo de diseño atado a mano con flores frescas de temporada",
+        "Rosas de tallo largo arregladas para alguien especial",
+        "Un ramo de novia listo para llevar al altar",
+        "Elegantes centros de mesa dispuestos para una recepción",
+        "Un sereno tributo de condolencia armado con cuidado",
+        "Suculentas y plantas de interior esperando en la tienda"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice Naperville",
+      "items": [
+        {
+          "quote": "Pedí en la mañana y el ramo más precioso llegó esa misma tarde. Mi mamá estaba feliz. Esta ya es mi floristería.",
+          "name": "Allison R.",
+          "role": "Cliente de entrega el mismo día"
+        },
+        {
+          "quote": "Hicieron las flores de nuestra boda y capturaron nuestra visión a la perfección. El ramo de novia me hizo llorar. De verdad un toque especial y personal.",
+          "name": "Marcus D.",
+          "role": "Cliente de boda"
+        },
+        {
+          "quote": "Cuando perdimos a mi padre, armaron un arreglo de condolencia tan hermoso y considerado. Se nota que es una familia que se preocupa.",
+          "name": "Priya S.",
+          "role": "Cliente local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visítanos en Naperville",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Viernes",
+          "time": "9:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "9:00 AM - 4:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Pedidos y Entregas",
+      "directions": "Encuéntranos en 152 West Gartner Road en Naperville. Pásate a ver el refrigerador, o llama con anticipación y tendremos tu arreglo listo para recoger o en camino con entrega local el mismo día."
+    },
+    "cta": {
+      "heading": "¿Necesitas Flores Hoy? Estamos Listos",
+      "text": "Desde un ramo porque sí hasta bodas, condolencias y cada celebración intermedia, llámanos y arreglaremos algo hermoso con entrega el mismo día por todo Naperville.",
+      "button": "Llamar al (630) 904-0164"
+    },
+    "form": {
+      "heading": "Solicita Flores o un Pedido",
+      "subheading": "¿Planeas una boda, envías un regalo o necesitas un ramo hoy? Cuéntanos lo que tienes en mente y te responderemos enseguida con los detalles.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Ocasión",
+      "date": "Fecha de Entrega Preferida",
+      "message": "Cuéntanos sobre tu pedido, ocasión, colores, presupuesto y detalles de entrega.",
+      "submit": "Enviar Solicitud",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu pedido. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Una floristería y tienda de regalos familiar e independiente en Naperville, ramos frescos hechos a mano, bodas, condolencias, plantas y regalos con entrega local el mismo día.",
+      "rights": "© Celidan Creations Florist. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

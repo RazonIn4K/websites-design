@@ -1,0 +1,48 @@
+{
+  "en": {
+    "ritual": {
+      "heading": "Your Visit, Start to Finish",
+      "steps": [
+        {
+          "title": "Book or Walk In",
+          "text": "Reserve your spot online or stroll in on Sycamore Road. Settle into the calm and let the day slow down."
+        },
+        {
+          "title": "Share Your Look",
+          "text": "Tell your tech what you're picturing, or show a screenshot. We'll help you choose colors, shapes, and art that fit you."
+        },
+        {
+          "title": "Relax & Be Pampered",
+          "text": "Sink into a massage chair while we shape, soak, and polish with sanitized tools, taking our time so everything looks flawless."
+        },
+        {
+          "title": "Glow & Come Back",
+          "text": "Leave relaxed with nails you love, plus simple care tips. Rebook online whenever you're ready for your next escape."
+        }
+      ]
+    }
+  },
+  "es": {
+    "ritual": {
+      "heading": "Tu Visita, de Principio a Fin",
+      "steps": [
+        {
+          "title": "Reserva o Llega sin Cita",
+          "text": "Aparta tu lugar en línea o pásate por Sycamore Road. Acomódate en la calma y deja que el día baje el ritmo."
+        },
+        {
+          "title": "Cuéntanos tu Estilo",
+          "text": "Dile a tu técnica lo que imaginas o muéstrale una captura. Te ayudamos a elegir colores, formas y arte que van contigo."
+        },
+        {
+          "title": "Relájate y Consiéntete",
+          "text": "Húndete en una silla de masaje mientras limamos, remojamos y esmaltamos con herramientas esterilizadas, sin prisa, para que todo quede impecable."
+        },
+        {
+          "title": "Sal Radiante y Vuelve",
+          "text": "Sal relajada y con uñas que te encantan, más consejos sencillos de cuidado. Reserva en línea cuando quieras tu próximo escape."
+        }
+      ]
+    }
+  }
+}

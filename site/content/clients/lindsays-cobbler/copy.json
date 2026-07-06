@@ -1,0 +1,646 @@
+{
+  "business": {
+    "name": "Lindsay's Leather and Shoe Repair",
+    "shortName": "Lindsay's Leather",
+    "vertical": "Shoe repair & leather goods",
+    "phone": "(630) 955-1550",
+    "phoneHref": "+16309551550",
+    "address": "2035 South Washington Street, Suite 115",
+    "city": "Naperville",
+    "state": "IL",
+    "zip": "60565",
+    "mapsQuery": "Lindsay's Leather and Shoe Repair, 2035 South Washington Street, Naperville, IL 60565",
+    "lat": 41.7308757,
+    "lon": -88.1303978
+  },
+  "en": {
+    "meta": {
+      "title": "Lindsay's Leather and Shoe Repair — Cobbler in Naperville, IL",
+      "description": "Expert shoe & leather repair in Naperville, IL. Resoling, heels, handbag & jacket repair, conditioning. Honest quotes, while-you-wait service. (630) 955-1550."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About",
+      "gallery": "Our Work",
+      "visit": "Visit",
+      "order": "Get a Quote"
+    },
+    "hero": {
+      "eyebrow": "Naperville's Neighborhood Cobbler",
+      "title": "Loved It Once.",
+      "titleAccent": "Wear It Again.",
+      "subtitle": "From resoling fine shoes to rescuing favorite boots and repairing leather the way it was meant to last, we bring careful hands and honest quotes to every piece you bring through the door.",
+      "ctaPrimary": "See Our Services",
+      "ctaSecondary": "Call for a Quote",
+      "badge": "Craft Repairs · Honest Quotes · While-You-Wait Service"
+    },
+    "highlights": [
+      {
+        "icon": "wrench",
+        "title": "True Craft Repairs",
+        "text": "Resoling, reheeling, restitching — done by hand the old-fashioned way. We treat every shoe and bag like it matters, because to you it does."
+      },
+      {
+        "icon": "heart",
+        "title": "Rescue Your Favorites",
+        "text": "That broken-in boot or beloved handbag isn't a lost cause. Bring it in and we'll tell you honestly what it takes to give it years of new life."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Leather Brought Back",
+        "text": "Conditioning, cleaning, refinishing, and dyeing that restores worn leather to a rich, supple finish you'll be proud to carry."
+      },
+      {
+        "icon": "star",
+        "title": "Honest Quotes, Every Time",
+        "text": "No surprises and no upsell. We look it over, give you a straight price, and only do the work that's worth doing."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Craft repair for the things you don't want to part with. Services and prices shown are illustrative demo examples — please call (630) 955-1550 for an honest quote on your piece.",
+      "categories": [
+        {
+          "id": "shoe-repair",
+          "name": "Shoe Repair",
+          "blurb": "Resoling, heels, stretching, and refinishing to keep your favorite shoes on their feet for years to come.",
+          "items": [
+            {
+              "name": "Full & Half Resoling",
+              "desc": "New leather or rubber soles stitched and finished to factory standard, so good shoes walk like new again.",
+              "price": "From $45",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Heel Replacement",
+              "desc": "Worn-down heels rebuilt and replaced — from dress shoes to stilettos — for a steady, level stride.",
+              "price": "From $18",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Shoe Stretching",
+              "desc": "Tight spots eased and widths opened up so pinching shoes finally fit the way they should.",
+              "price": "From $15",
+              "tags": [
+                "fast",
+                "value"
+              ]
+            },
+            {
+              "name": "Cleaning & Refinishing",
+              "desc": "Scuffs buffed, color restored, and a fresh shine that makes tired shoes look showroom-ready.",
+              "price": "From $20",
+              "tags": []
+            },
+            {
+              "name": "Sole & Toe Protection",
+              "desc": "Protective sole guards and toe taps added to new or favorite shoes to stop wear before it starts.",
+              "price": "From $15",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leather-care",
+          "name": "Leather Care",
+          "blurb": "Handbags, jackets, and fine leather goods cleaned, conditioned, repaired, and re-dyed to last another lifetime.",
+          "items": [
+            {
+              "name": "Handbag Repair",
+              "desc": "Broken straps, torn linings, failing zippers, and loose stitching set right so your bag is ready for daily duty.",
+              "price": "Quote",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Leather Jacket Repair",
+              "desc": "Seams, zippers, snaps, and worn cuffs repaired and reinforced to keep a great jacket in rotation.",
+              "price": "Quote",
+              "tags": []
+            },
+            {
+              "name": "Conditioning & Cleaning",
+              "desc": "Deep cleaning and conditioning that lifts grime, feeds the leather, and brings back its natural suppleness.",
+              "price": "From $25",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Leather Dyeing & Recoloring",
+              "desc": "Faded or scuffed leather re-dyed to an even, rich color — a fresh look without buying new.",
+              "price": "From $35",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "boots-specialty",
+          "name": "Boots & Specialty",
+          "blurb": "Work boots, cowboy boots, orthopedic, and athletic footwear repaired and built up for comfort that lasts.",
+          "items": [
+            {
+              "name": "Work Boot Resole & Repair",
+              "desc": "New soles, heel blocks, and stitching for boots that take a beating — back to job-site tough.",
+              "price": "From $55",
+              "tags": [
+                "popular",
+                "guarantee"
+              ]
+            },
+            {
+              "name": "Cowboy Boot Restoration",
+              "desc": "Heels rebuilt, soles replaced, and leather refinished to bring beloved western boots back to life.",
+              "price": "Quote",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Orthopedic Modifications",
+              "desc": "Lifts, build-ups, and adjustments made carefully to doctor's specs for all-day comfort and support.",
+              "price": "Quote",
+              "tags": []
+            },
+            {
+              "name": "Athletic Shoe Repair",
+              "desc": "Reglued soles, fresh treads, and reinforced seams to get more miles out of the shoes you love to run in.",
+              "price": "From $25",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "accessories-goods",
+          "name": "Accessories & Goods",
+          "blurb": "Belts, custom leather work, shoe care products, and gift cards — handmade and stocked right in the shop.",
+          "items": [
+            {
+              "name": "Belt Repair & Resizing",
+              "desc": "New holes, replaced buckles, and resized straps so a good belt fits and lasts for years.",
+              "price": "From $12",
+              "tags": [
+                "fast",
+                "value"
+              ]
+            },
+            {
+              "name": "Custom Leather Work",
+              "desc": "One-of-a-kind straps, keepers, and small goods cut and stitched to order from quality hides.",
+              "price": "Quote",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Shoe Care Products",
+              "desc": "Brushes, polishes, conditioners, and protectants — the same products we trust here in the shop.",
+              "price": "From $8",
+              "tags": []
+            },
+            {
+              "name": "Gift Cards",
+              "desc": "The perfect gift for anyone with a favorite pair of shoes or a bag worth saving. Any amount.",
+              "price": "From $25",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "About Lindsay's Leather and Shoe Repair",
+      "lead": "A real cobbler in Naperville keeping a near-lost craft alive — one careful repair at a time.",
+      "paragraphs": [
+        "Lindsay's Leather and Shoe Repair is an independent shop where the old craft still lives. In a world of throwaway shoes, we believe the best pair you own is usually the one already in your closet. So we resole, reheel, restitch, condition, and dye — by hand, the way leatherwork was meant to last — and we take real pride in handing back something that walks out better than it came in.",
+        "Whether it's a dress shoe that deserves a new sole, a handbag that's been everywhere with you, or work boots that still have years left in them, you'll get a straight look and an honest quote. Many small repairs are done while you wait, and the bigger ones are worth the wait. Bring us the things you're not ready to give up on — that's exactly what we're here for."
+      ],
+      "stats": [
+        {
+          "value": "By Hand",
+          "label": "Craft Repairs"
+        },
+        {
+          "value": "Honest",
+          "label": "Upfront Quotes"
+        },
+        {
+          "value": "While-You-Wait",
+          "label": "Service Available"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Look at the Work",
+      "subheading": "Careful hands, honest quotes, and pride in every repair.",
+      "captions": [
+        "Fresh soles stitched on a well-loved pair",
+        "Worn heels rebuilt good as new",
+        "Leather conditioned back to a rich finish",
+        "A favorite handbag brought back to life",
+        "Work boots ready for another season",
+        "The bench where the craft happens"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Our Customers Say",
+      "items": [
+        {
+          "quote": "I almost tossed my favorite boots, but they resoled them and they fit better than when they were new. Honest quote and the work is beautiful. So glad this kind of shop still exists.",
+          "name": "Megan R.",
+          "role": "Naperville Local"
+        },
+        {
+          "quote": "Brought in a leather bag with a busted strap and a torn lining. They fixed it like it never happened and didn't charge me for things it didn't need. True craftsmanship.",
+          "name": "David T.",
+          "role": "Repeat Customer"
+        },
+        {
+          "quote": "Needed new heels in a hurry and they did it while I waited. Fair price, friendly, and the work is top notch. This is my shop from now on.",
+          "name": "Sofia L.",
+          "role": "Downtown Commuter"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Shop",
+      "addressLabel": "Location",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday – Friday",
+          "time": "9:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "9:00 AM – 3:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Phone",
+      "directions": "Get Directions",
+      "neighborhood": "The shop is in a retail plaza on South Washington Street on Naperville's south side, a straight shot down Washington from downtown Naperville and the Riverwalk, and an easy stop on an errand run."
+    },
+    "cta": {
+      "heading": "Worth Saving? Let's Take a Look.",
+      "text": "Bring in your shoes, boots, or leather goods and we'll give you an honest quote. Careful hands, fair prices, and pride in every repair.",
+      "button": "Call (630) 955-1550"
+    },
+    "form": {
+      "heading": "Get a Quote",
+      "subheading": "Tell us what needs fixing and we'll get back to you with an honest quote.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Item Type (shoes, boots, bag, jacket…)",
+      "date": "Preferred Drop-Off Date",
+      "message": "What needs repair? Tell us about the piece.",
+      "submit": "Request Quote",
+      "sending": "Sending…",
+      "success": "Thanks! We'll be in touch shortly with your quote.",
+      "error": "Something went wrong. Please call us directly at (630) 955-1550.",
+      "consent": "By submitting this form you agree to be contacted about your repair request."
+    },
+    "footer": {
+      "tagline": "Craft shoe & leather repair in Naperville, IL — loved it once, wear it again.",
+      "rights": "© Lindsay's Leather and Shoe Repair. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Lindsay's Leather and Shoe Repair — Zapatero en Naperville, IL",
+      "description": "Reparación experta de calzado y cuero en Naperville, IL. Resuelas, tacones, bolsos y chaquetas. Cotizaciones honestas, servicio al momento. (630) 955-1550."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Nuestro Trabajo",
+      "visit": "Visítanos",
+      "order": "Pedir Cotización"
+    },
+    "hero": {
+      "eyebrow": "El Zapatero del Barrio en Naperville",
+      "title": "Lo Quisiste Una Vez.",
+      "titleAccent": "Úsalo de Nuevo.",
+      "subtitle": "Desde poner resuelas a zapatos finos hasta rescatar tus botas favoritas y reparar el cuero como debe durar, ponemos manos cuidadosas y cotizaciones honestas en cada pieza que entra por la puerta.",
+      "ctaPrimary": "Ver Nuestros Servicios",
+      "ctaSecondary": "Llama para Cotizar",
+      "badge": "Reparaciones Artesanales · Cotizaciones Honestas · Servicio Mientras Esperas"
+    },
+    "highlights": [
+      {
+        "icon": "wrench",
+        "title": "Reparaciones Artesanales",
+        "text": "Resuelas, tacones, costuras — hechos a mano a la antigua. Tratamos cada zapato y bolso como si importara, porque para ti importa."
+      },
+      {
+        "icon": "heart",
+        "title": "Rescata Tus Favoritos",
+        "text": "Esa bota ya amoldada o ese bolso querido no son una causa perdida. Tráelos y te decimos con honestidad qué se necesita para darles años de vida nueva."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Cuero Como Nuevo",
+        "text": "Acondicionado, limpieza, restauración y teñido que devuelven al cuero gastado un acabado rico y suave que cargarás con orgullo."
+      },
+      {
+        "icon": "star",
+        "title": "Cotizaciones Honestas, Siempre",
+        "text": "Sin sorpresas y sin ventas de más. Lo revisamos, te damos un precio directo y solo hacemos el trabajo que vale la pena."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Reparación artesanal para las cosas de las que no quieres deshacerte. Los servicios y precios mostrados son ejemplos ilustrativos de demostración — por favor llama al (630) 955-1550 para una cotización honesta de tu pieza.",
+      "categories": [
+        {
+          "id": "shoe-repair",
+          "name": "Reparación de Calzado",
+          "blurb": "Resuelas, tacones, ensanche y restauración para mantener tus zapatos favoritos en pie por muchos años.",
+          "items": [
+            {
+              "name": "Resuela Completa y Media",
+              "desc": "Suelas nuevas de cuero o hule cosidas y terminadas con calidad de fábrica, para que los buenos zapatos caminen como nuevos.",
+              "price": "Desde $45",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Cambio de Tacón",
+              "desc": "Tacones gastados reconstruidos y reemplazados — de zapatos de vestir a tacones de aguja — para un paso firme y nivelado.",
+              "price": "Desde $18",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Ensanche de Calzado",
+              "desc": "Puntos apretados aflojados y anchos abiertos para que los zapatos que aprietan por fin queden como deben.",
+              "price": "Desde $15",
+              "tags": [
+                "fast",
+                "value"
+              ]
+            },
+            {
+              "name": "Limpieza y Restauración",
+              "desc": "Raspones pulidos, color restaurado y un brillo fresco que hace que los zapatos cansados luzcan de aparador.",
+              "price": "Desde $20",
+              "tags": []
+            },
+            {
+              "name": "Protección de Suela y Punta",
+              "desc": "Protectores de suela y tapas en la punta para zapatos nuevos o favoritos, deteniendo el desgaste antes de que empiece.",
+              "price": "Desde $15",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leather-care",
+          "name": "Cuidado del Cuero",
+          "blurb": "Bolsos, chaquetas y artículos finos de cuero limpiados, acondicionados, reparados y reteñidos para durar otra vida.",
+          "items": [
+            {
+              "name": "Reparación de Bolsos",
+              "desc": "Correas rotas, forros rasgados, cierres dañados y costuras sueltas dejados como nuevos para el uso diario.",
+              "price": "Cotización",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Reparación de Chaqueta de Cuero",
+              "desc": "Costuras, cierres, broches y puños gastados reparados y reforzados para mantener una buena chaqueta en uso.",
+              "price": "Cotización",
+              "tags": []
+            },
+            {
+              "name": "Acondicionado y Limpieza",
+              "desc": "Limpieza profunda y acondicionado que levantan la mugre, nutren el cuero y devuelven su suavidad natural.",
+              "price": "Desde $25",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Teñido y Recoloreado de Cuero",
+              "desc": "Cuero descolorido o raspado reteñido a un color parejo y rico — un look fresco sin comprar nuevo.",
+              "price": "Desde $35",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "boots-specialty",
+          "name": "Botas y Especialidad",
+          "blurb": "Botas de trabajo, vaqueras, ortopédicas y calzado deportivo reparados y reforzados para una comodidad que dura.",
+          "items": [
+            {
+              "name": "Resuela y Reparación de Botas de Trabajo",
+              "desc": "Suelas nuevas, bloques de tacón y costuras para botas que aguantan duro — listas de nuevo para la obra.",
+              "price": "Desde $55",
+              "tags": [
+                "popular",
+                "guarantee"
+              ]
+            },
+            {
+              "name": "Restauración de Botas Vaqueras",
+              "desc": "Tacones reconstruidos, suelas reemplazadas y cuero restaurado para revivir las queridas botas del oeste.",
+              "price": "Cotización",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Modificaciones Ortopédicas",
+              "desc": "Alzas, realces y ajustes hechos con cuidado según indicación médica para comodidad y soporte todo el día.",
+              "price": "Cotización",
+              "tags": []
+            },
+            {
+              "name": "Reparación de Calzado Deportivo",
+              "desc": "Suelas repegadas, dibujo nuevo y costuras reforzadas para sacarle más kilómetros a los tenis que amas correr.",
+              "price": "Desde $25",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "accessories-goods",
+          "name": "Accesorios y Artículos",
+          "blurb": "Cinturones, trabajo en cuero a la medida, productos para el cuidado del calzado y tarjetas de regalo — hechos a mano en el taller.",
+          "items": [
+            {
+              "name": "Reparación y Ajuste de Cinturón",
+              "desc": "Nuevos hoyos, hebillas reemplazadas y correas ajustadas para que un buen cinturón quede y dure por años.",
+              "price": "Desde $12",
+              "tags": [
+                "fast",
+                "value"
+              ]
+            },
+            {
+              "name": "Trabajo en Cuero a la Medida",
+              "desc": "Correas, pasadores y artículos pequeños únicos, cortados y cosidos a pedido con cueros de calidad.",
+              "price": "Cotización",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Productos para el Calzado",
+              "desc": "Cepillos, betunes, acondicionadores y protectores — los mismos productos en los que confiamos aquí en el taller.",
+              "price": "Desde $8",
+              "tags": []
+            },
+            {
+              "name": "Tarjetas de Regalo",
+              "desc": "El regalo perfecto para quien tenga un par favorito o un bolso que vale la pena salvar. Cualquier monto.",
+              "price": "Desde $25",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Sobre Lindsay's Leather and Shoe Repair",
+      "lead": "Un verdadero zapatero en Naperville manteniendo vivo un oficio casi perdido — una reparación cuidadosa a la vez.",
+      "paragraphs": [
+        "Lindsay's Leather and Shoe Repair es un taller independiente donde el viejo oficio sigue vivo. En un mundo de zapatos desechables, creemos que el mejor par que tienes suele ser el que ya está en tu clóset. Por eso ponemos resuelas, cambiamos tacones, recosemos, acondicionamos y teñimos — a mano, como el trabajo en cuero debe durar — y sentimos verdadero orgullo al devolverte algo que sale mejor de como entró.",
+        "Ya sea un zapato de vestir que merece una suela nueva, un bolso que ha estado en todas partes contigo, o botas de trabajo que aún tienen años por delante, recibirás una mirada directa y una cotización honesta. Muchas reparaciones pequeñas se hacen mientras esperas, y las grandes valen la espera. Tráenos las cosas de las que no estás listo para deshacerte — para eso estamos aquí."
+      ],
+      "stats": [
+        {
+          "value": "A Mano",
+          "label": "Reparaciones Artesanales"
+        },
+        {
+          "value": "Honestas",
+          "label": "Cotizaciones Claras"
+        },
+        {
+          "value": "Mientras Esperas",
+          "label": "Servicio Disponible"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Vistazo al Trabajo",
+      "subheading": "Manos cuidadosas, cotizaciones honestas y orgullo en cada reparación.",
+      "captions": [
+        "Suelas nuevas cosidas en un par muy querido",
+        "Tacones gastados reconstruidos como nuevos",
+        "Cuero acondicionado a un acabado rico",
+        "Un bolso favorito devuelto a la vida",
+        "Botas de trabajo listas para otra temporada",
+        "La banca donde sucede el oficio"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen Nuestros Clientes",
+      "items": [
+        {
+          "quote": "Casi tiro mis botas favoritas, pero les pusieron resuela y quedaron mejor que cuando eran nuevas. Cotización honesta y el trabajo es precioso. Qué bueno que todavía existe un taller así.",
+          "name": "Megan R.",
+          "role": "Vecina de Naperville"
+        },
+        {
+          "quote": "Llevé un bolso de cuero con la correa rota y el forro rasgado. Lo dejaron como si nunca hubiera pasado y no me cobraron por cosas que no necesitaba. Verdadera artesanía.",
+          "name": "David T.",
+          "role": "Cliente Frecuente"
+        },
+        {
+          "quote": "Necesitaba tacones nuevos con prisa y los hicieron mientras esperaba. Precio justo, amables y el trabajo es de primera. De ahora en adelante este es mi taller.",
+          "name": "Sofia L.",
+          "role": "Viajera del Centro"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita el Taller",
+      "addressLabel": "Ubicación",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes – Viernes",
+          "time": "9:00 a.m. – 6:00 p.m."
+        },
+        {
+          "day": "Sábado",
+          "time": "9:00 a.m. – 3:00 p.m."
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Teléfono",
+      "directions": "Cómo Llegar",
+      "neighborhood": "El taller está en una plaza comercial sobre South Washington Street, en el lado sur de Naperville, bajando derecho por Washington desde el centro de Naperville y su Riverwalk, una parada fácil cuando andas de mandados."
+    },
+    "cta": {
+      "heading": "¿Vale la Pena Salvarlo? Vamos a Verlo.",
+      "text": "Trae tus zapatos, botas o artículos de cuero y te damos una cotización honesta. Manos cuidadosas, precios justos y orgullo en cada reparación.",
+      "button": "Llamar al (630) 955-1550"
+    },
+    "form": {
+      "heading": "Pedir Cotización",
+      "subheading": "Cuéntanos qué necesita reparación y te contestamos con una cotización honesta.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tipo de Artículo (zapatos, botas, bolso, chaqueta…)",
+      "date": "Fecha Preferida de Entrega",
+      "message": "¿Qué necesita reparación? Cuéntanos sobre la pieza.",
+      "submit": "Solicitar Cotización",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Nos pondremos en contacto pronto con tu cotización.",
+      "error": "Algo salió mal. Por favor llámanos directamente al (630) 955-1550.",
+      "consent": "Al enviar este formulario aceptas ser contactado en relación con tu solicitud de reparación."
+    },
+    "footer": {
+      "tagline": "Reparación artesanal de calzado y cuero en Naperville, IL — lo quisiste una vez, úsalo de nuevo.",
+      "rights": "© Lindsay's Leather and Shoe Repair. Todos los derechos reservados.",
+      "quickLinks": "Accesos Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "concept": "Wired Nutrition — an energetic wellness palette for a loaded-tea, shake and supplement bar. Electric teal/cyan leads as the primary for that charged, hydrating feel, balanced by a vivid magenta accent for pops of youthful energy on CTAs and highlights. Charcoal-teal ink keeps copy crisp and readable on clean, bright near-white backgrounds with a faint teal tint, so the brand reads fresh, modern and energizing.",
+  "vars": {
+    "--color-bg": "#F6FCFB",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#E8F6F5",
+    "--color-ink": "#10212A",
+    "--color-ink-soft": "#46606B",
+    "--color-primary": "#0A7C80",
+    "--color-primary-dark": "#066165",
+    "--color-secondary": "#15C2CC",
+    "--color-accent": "#D11C80",
+    "--color-line": "#CFE3E2"
+  },
+  "contrastNotes": "All required ratios verified (WCAG sRGB). ink #10212A on bg #F6FCFB = 15.9:1 (>=7); ink-soft #46606B on bg = 6.43:1 (>=4.5); white on primary #0A7C80 = 4.99:1 (>=4.5); primary on bg = 4.81:1 (>=3). Extras: white on primary-dark #066165 = 7.23:1; white on accent #D11C80 = 5.01:1 (safe for white-text CTAs); accent on bg = 4.83:1; ink on surface-alt #E8F6F5 = 14.87:1; ink on line = 12.36:1. Secondary #15C2CC is a bright cyan for fills/illustration accents (use ink, not white, for text on it). Line #CFE3E2 is decorative only."
+}

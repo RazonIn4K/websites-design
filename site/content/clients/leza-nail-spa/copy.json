@@ -1,0 +1,740 @@
+{
+  "business": {
+    "name": "Leza Nail Spa",
+    "shortName": "Leza",
+    "vertical": "Nail Salon & Spa",
+    "phone": "",
+    "phoneHref": "",
+    "address": "2444 Sycamore Road",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Leza Nail Spa, 2444 Sycamore Road, DeKalb, IL 60115",
+    "lat": 41.9541125,
+    "lon": -88.7223355
+  },
+  "en": {
+    "meta": {
+      "title": "Leza Nail Spa | Manicures, Pedicures & Nail Art in DeKalb, IL",
+      "description": "Relaxing manicures, spa pedicures, gel, dip powder, and on-trend nail art on Sycamore Road in DeKalb, IL. Book online or walk in to a spotlessly clean spa."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About",
+      "gallery": "Our Work",
+      "visit": "Visit",
+      "order": "Book Now"
+    },
+    "hero": {
+      "eyebrow": "Your Self-Care Escape in DeKalb",
+      "title": "Beautiful Nails,",
+      "titleAccent": "A Little Spa Day Every Time",
+      "subtitle": "Step into a calm, spotlessly clean nail spa on Sycamore Road. From classic manicures and soothing spa pedicures to on-trend gel and custom nail art, our skilled techs help you slow down, relax, and leave glowing.",
+      "ctaPrimary": "View Services",
+      "ctaSecondary": "Book Your Appointment",
+      "badge": "Walk-ins welcome. Online booking available."
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Spotlessly Clean",
+        "text": "Sanitized tools, fresh files and buffers, and a pristine spa kept immaculate for every single guest."
+      },
+      {
+        "icon": "heart",
+        "title": "Soothing Escape",
+        "text": "Soft music, massage chairs, and a calm atmosphere designed to melt away the stress of your day."
+      },
+      {
+        "icon": "crown",
+        "title": "On-Trend Nail Art",
+        "text": "From timeless French to chrome, ombré, and hand-painted designs, our techs bring your inspo to life."
+      },
+      {
+        "icon": "star",
+        "title": "Skilled Techs",
+        "text": "Detail-obsessed nail technicians who take their time so your set looks flawless and lasts longer."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Services and prices shown are illustrative demo content for this concept site and may not reflect the spa's actual menu.",
+      "categories": [
+        {
+          "id": "manicures",
+          "name": "Manicures",
+          "blurb": "Shaped, buffed, and polished to a flawless finish.",
+          "items": [
+            {
+              "name": "Classic Manicure",
+              "desc": "Nail shaping, cuticle care, a relaxing hand massage, and your choice of polish.",
+              "price": "$25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Gel Manicure",
+              "desc": "Long-lasting, chip-resistant gel color cured to a high-gloss shine.",
+              "price": "$35",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Dip Powder Manicure",
+              "desc": "Durable, lightweight dip powder for strong, glossy color that wears for weeks.",
+              "price": "$45"
+            },
+            {
+              "name": "Express Manicure",
+              "desc": "A quick shape, tidy, and polish for when you're short on time.",
+              "price": "$20",
+              "tags": [
+                "fast",
+                "value"
+              ]
+            },
+            {
+              "name": "Kids Manicure",
+              "desc": "A gentle, fun manicure with polish for little ones ages 10 and under.",
+              "price": "$15"
+            }
+          ]
+        },
+        {
+          "id": "pedicures",
+          "name": "Pedicures",
+          "blurb": "Sit back, soak, and let tired feet feel brand new.",
+          "items": [
+            {
+              "name": "Classic Pedicure",
+              "desc": "Warm soak, nail and cuticle care, light callus smoothing, and polish.",
+              "price": "$35",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Spa Deluxe Pedicure",
+              "desc": "Sugar scrub, hydrating mask, extended massage, and a luxurious finish.",
+              "price": "$55",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Hot-Stone Pedicure",
+              "desc": "Our deluxe pedicure plus a soothing warm hot-stone leg and foot massage.",
+              "price": "$65"
+            },
+            {
+              "name": "Gel Pedicure",
+              "desc": "A classic pedicure finished with long-lasting, high-shine gel color.",
+              "price": "$50"
+            },
+            {
+              "name": "Express Pedicure",
+              "desc": "A refreshing soak, quick smoothing, and polish to keep toes looking great.",
+              "price": "$30",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "enhancements",
+          "name": "Enhancements",
+          "blurb": "Length, strength, and custom art made just for you.",
+          "items": [
+            {
+              "name": "Acrylic Full Set",
+              "desc": "Sculpted acrylic extensions shaped to your perfect length and finished with color.",
+              "price": "$50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Acrylic Fill",
+              "desc": "Refresh and rebalance your existing set to keep it looking freshly done.",
+              "price": "$35",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "French Finish",
+              "desc": "The timeless clean white tip, added to any manicure or full set.",
+              "price": "$10"
+            },
+            {
+              "name": "Custom Nail Art",
+              "desc": "Hand-painted designs, chrome, rhinestones, or ombré, priced per nail.",
+              "price": "From $5",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Ombré Full Set",
+              "desc": "Seamless faded color or glittery baby-boomer ombré on a sculpted set.",
+              "price": "$60",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "addons-waxing",
+          "name": "Add-Ons & Waxing",
+          "blurb": "The finishing touches for hands, feet, and brows.",
+          "items": [
+            {
+              "name": "Paraffin Treatment",
+              "desc": "A warm paraffin wax dip that deeply softens and hydrates hands or feet.",
+              "price": "$12",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Callus Treatment",
+              "desc": "Extra smoothing and softening for rough heels and calluses.",
+              "price": "$15"
+            },
+            {
+              "name": "Eyebrow Wax",
+              "desc": "Clean, precise brow shaping for a polished, lifted look.",
+              "price": "$12"
+            },
+            {
+              "name": "Lip Wax",
+              "desc": "Quick, gentle waxing to keep the upper lip smooth.",
+              "price": "$8",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Gel Polish Removal",
+              "desc": "Safe, careful soak-off removal of existing gel polish.",
+              "price": "$10"
+            },
+            {
+              "name": "Nail Repair",
+              "desc": "Quick fix for a single chipped or broken nail, per nail.",
+              "price": "$5"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Calm Corner of DeKalb",
+      "lead": "Leza Nail Spa is an independent nail salon and spa built around clean, relaxing, feel-good self-care.",
+      "paragraphs": [
+        "Right on Sycamore Road, Leza Nail Spa is the kind of place you exhale the moment you walk in. We keep our space spotless, our tools sanitized, and our atmosphere calm, so your appointment feels less like an errand and more like a little escape from a busy day in DeKalb.",
+        "Our skilled technicians take real pride in their work, whether you're after a simple classic manicure, a soothing hot-stone pedicure, or a bold custom set with the latest nail art. We listen, we take our time, and we send you out the door glowing, relaxed, and ready to show off your nails."
+      ],
+      "stats": [
+        {
+          "value": "Walk-Ins",
+          "label": "Always Welcome"
+        },
+        {
+          "value": "Spotless",
+          "label": "Clean & Sanitized"
+        },
+        {
+          "value": "All Styles",
+          "label": "Classic to Custom"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Our Work",
+      "subheading": "A peek at the manicures, pedicures, and nail art coming out of our spa.",
+      "captions": [
+        "Glossy gel manicure in a soft nude",
+        "Relaxing spa pedicure with a fresh finish",
+        "Hand-painted custom nail art",
+        "Classic French on a sculpted set",
+        "Chrome and ombré statement nails",
+        "Warm paraffin treatment for soft hands"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Is Saying",
+      "items": [
+        {
+          "quote": "The cleanest, calmest nail spa I've been to in DeKalb. My gel set still looked perfect three weeks later.",
+          "name": "Ashley R.",
+          "role": "Regular Guest"
+        },
+        {
+          "quote": "I came in with a screenshot of nail art I loved and they nailed it exactly. So talented and so patient.",
+          "name": "Maria S.",
+          "role": "Nail Art Fan"
+        },
+        {
+          "quote": "The hot-stone pedicure is pure heaven. I leave relaxed every time and my feet feel amazing.",
+          "name": "Jenna P.",
+          "role": "Local Mom"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Spa",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "9:30 AM – 7:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "time": "9:30 AM – 7:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "9:30 AM – 7:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "9:30 AM – 7:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "9:30 AM – 7:30 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "9:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM – 4:00 PM"
+        }
+      ],
+      "phoneLabel": "Booking",
+      "directions": "On Sycamore Road in DeKalb with easy parking right out front. Walk in anytime or book your appointment online ahead.",
+      "neighborhood": "The spa is on Sycamore Road, the busy retail corridor on DeKalb's north side that runs toward neighboring Sycamore."
+    },
+    "cta": {
+      "heading": "Ready to Treat Yourself?",
+      "text": "Book your appointment online or walk right in. Either way, you'll leave relaxed with nails you'll love.",
+      "button": "Book Your Appointment"
+    },
+    "form": {
+      "heading": "Book an Appointment",
+      "subheading": "Tell us the service you'd like and your preferred time. We'll confirm your spot, walk-ins are always welcome too.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Service Needed",
+      "date": "Preferred Date & Time",
+      "message": "Anything Else?",
+      "submit": "Request Appointment",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and will confirm your appointment shortly.",
+      "error": "Something went wrong. Please try again or stop by the spa.",
+      "consent": "By submitting, you agree to be contacted about your appointment request."
+    },
+    "footer": {
+      "tagline": "A clean, relaxing nail spa and self-care escape in DeKalb.",
+      "rights": "© Leza Nail Spa. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Spa Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    },
+    "ritual": {
+      "heading": "Your Visit, Start to Finish",
+      "steps": [
+        {
+          "title": "Book or Walk In",
+          "text": "Reserve your spot online or stroll in on Sycamore Road. Settle into the calm and let the day slow down."
+        },
+        {
+          "title": "Share Your Look",
+          "text": "Tell your tech what you're picturing, or show a screenshot. We'll help you choose colors, shapes, and art that fit you."
+        },
+        {
+          "title": "Relax & Be Pampered",
+          "text": "Sink into a massage chair while we shape, soak, and polish with sanitized tools, taking our time so everything looks flawless."
+        },
+        {
+          "title": "Glow & Come Back",
+          "text": "Leave relaxed with nails you love, plus simple care tips. Rebook online whenever you're ready for your next escape."
+        }
+      ]
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Leza Nail Spa | Manicuras, Pedicuras y Arte de Uñas en DeKalb, IL",
+      "description": "Manicuras relajantes, pedicuras spa, gel, dip powder y arte de uñas sobre Sycamore Road en DeKalb, IL. Reserva en línea o llega sin cita a un spa impecable."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Nuestro Trabajo",
+      "visit": "Visítanos",
+      "order": "Reservar"
+    },
+    "hero": {
+      "eyebrow": "Tu Escape de Autocuidado en DeKalb",
+      "title": "Uñas Hermosas,",
+      "titleAccent": "Un Día de Spa en Cada Visita",
+      "subtitle": "Entra a un nail spa tranquilo e impecablemente limpio en Sycamore Road. Desde manicuras clásicas y pedicuras spa relajantes hasta gel de moda y arte de uñas personalizado, nuestras técnicas expertas te ayudan a desconectar, relajarte y salir radiante.",
+      "ctaPrimary": "Ver Servicios",
+      "ctaSecondary": "Reserva tu Cita",
+      "badge": "Aceptamos sin cita. Reservación en línea disponible."
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Impecablemente Limpio",
+        "text": "Herramientas esterilizadas, limas y pulidores nuevos, y un spa que mantenemos impecable para cada cliente."
+      },
+      {
+        "icon": "heart",
+        "title": "Un Escape Relajante",
+        "text": "Música suave, sillas de masaje y un ambiente tranquilo, diseñado para disolver el estrés de tu día."
+      },
+      {
+        "icon": "crown",
+        "title": "Arte de Uñas de Moda",
+        "text": "Desde el francés clásico hasta cromo, ombré y diseños pintados a mano, nuestras técnicas dan vida a tu inspiración."
+      },
+      {
+        "icon": "star",
+        "title": "Técnicas Expertas",
+        "text": "Técnicas obsesionadas con el detalle que se toman su tiempo para que tu set quede impecable y dure más."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Los servicios y precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar el menú real del spa.",
+      "categories": [
+        {
+          "id": "manicures",
+          "name": "Manicuras",
+          "blurb": "Limadas, pulidas y esmaltadas con un acabado impecable.",
+          "items": [
+            {
+              "name": "Manicura Clásica",
+              "desc": "Limado de uñas, cuidado de cutículas, un masaje relajante de manos y el esmalte que elijas.",
+              "price": "$25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Manicura en Gel",
+              "desc": "Color en gel duradero y resistente a las astillas, curado con un brillo intenso.",
+              "price": "$35",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Manicura con Dip Powder",
+              "desc": "Polvo de inmersión resistente y ligero para un color fuerte y brillante que dura semanas.",
+              "price": "$45"
+            },
+            {
+              "name": "Manicura Exprés",
+              "desc": "Un limado, arreglo y esmaltado rápido para cuando andas con poco tiempo.",
+              "price": "$20",
+              "tags": [
+                "fast",
+                "value"
+              ]
+            },
+            {
+              "name": "Manicura para Niños",
+              "desc": "Una manicura suave y divertida con esmalte para los pequeños de 10 años o menos.",
+              "price": "$15"
+            }
+          ]
+        },
+        {
+          "id": "pedicures",
+          "name": "Pedicuras",
+          "blurb": "Recuéstate, remoja y deja que tus pies cansados se sientan como nuevos.",
+          "items": [
+            {
+              "name": "Pedicura Clásica",
+              "desc": "Remojo tibio, cuidado de uñas y cutículas, suavizado ligero de callos y esmalte.",
+              "price": "$35",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pedicura Spa Deluxe",
+              "desc": "Exfoliación con azúcar, mascarilla hidratante, masaje prolongado y un acabado de lujo.",
+              "price": "$55",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Pedicura con Piedras Calientes",
+              "desc": "Nuestra pedicura deluxe más un relajante masaje de piernas y pies con piedras calientes.",
+              "price": "$65"
+            },
+            {
+              "name": "Pedicura en Gel",
+              "desc": "Una pedicura clásica rematada con color en gel duradero y de alto brillo.",
+              "price": "$50"
+            },
+            {
+              "name": "Pedicura Exprés",
+              "desc": "Un remojo refrescante, suavizado rápido y esmalte para mantener tus pies luciendo de lo mejor.",
+              "price": "$30",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "enhancements",
+          "name": "Extensiones",
+          "blurb": "Largo, resistencia y arte personalizado hecho solo para ti.",
+          "items": [
+            {
+              "name": "Set Completo de Acrílico",
+              "desc": "Extensiones de acrílico esculpidas al largo perfecto y rematadas con color.",
+              "price": "$50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Relleno de Acrílico",
+              "desc": "Refresca y reequilibra tu set actual para que luzca recién hecho.",
+              "price": "$35",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Acabado Francés",
+              "desc": "La clásica punta blanca y limpia, añadida a cualquier manicura o set completo.",
+              "price": "$10"
+            },
+            {
+              "name": "Arte de Uñas Personalizado",
+              "desc": "Diseños pintados a mano, cromo, pedrería u ombré, con precio por uña.",
+              "price": "Desde $5",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Set Completo Ombré",
+              "desc": "Color difuminado sin costuras u ombré baby-boomer con brillos sobre un set esculpido.",
+              "price": "$60",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "addons-waxing",
+          "name": "Extras y Depilación",
+          "blurb": "Los toques finales para manos, pies y cejas.",
+          "items": [
+            {
+              "name": "Tratamiento de Parafina",
+              "desc": "Un baño de cera de parafina tibia que suaviza e hidrata profundamente manos o pies.",
+              "price": "$12",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Tratamiento de Callos",
+              "desc": "Suavizado y ablandado extra para talones ásperos y callosidades.",
+              "price": "$15"
+            },
+            {
+              "name": "Depilación de Cejas",
+              "desc": "Perfilado de cejas limpio y preciso para una mirada pulida y levantada.",
+              "price": "$12"
+            },
+            {
+              "name": "Depilación de Labio",
+              "desc": "Depilación rápida y suave para mantener el labio superior terso.",
+              "price": "$8",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Retiro de Esmalte en Gel",
+              "desc": "Retiro seguro y cuidadoso del esmalte en gel existente por remojo.",
+              "price": "$10"
+            },
+            {
+              "name": "Reparación de Uña",
+              "desc": "Arreglo rápido de una sola uña astillada o rota, por uña.",
+              "price": "$5"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Un Rincón Tranquilo de DeKalb",
+      "lead": "Leza Nail Spa es un salón de uñas y spa independiente creado en torno al autocuidado limpio, relajante y que te hace sentir bien.",
+      "paragraphs": [
+        "Justo sobre Sycamore Road, Leza Nail Spa es de esos lugares donde exhalas en cuanto entras. Mantenemos nuestro espacio impecable, nuestras herramientas esterilizadas y nuestro ambiente tranquilo, para que tu cita se sienta menos como un mandado y más como un pequeño escape de un día ocupado en DeKalb.",
+        "Nuestras técnicas expertas se enorgullecen de verdad de su trabajo, ya sea que busques una sencilla manicura clásica, una relajante pedicura con piedras calientes o un set personalizado y atrevido con el arte de uñas más reciente. Te escuchamos, nos tomamos nuestro tiempo y te despedimos radiante, relajada y lista para presumir tus uñas."
+      ],
+      "stats": [
+        {
+          "value": "Sin Cita",
+          "label": "Siempre Bienvenidos"
+        },
+        {
+          "value": "Impecable",
+          "label": "Limpio y Esterilizado"
+        },
+        {
+          "value": "Todo Estilo",
+          "label": "De Clásico a Personalizado"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Nuestro Trabajo",
+      "subheading": "Un vistazo a las manicuras, pedicuras y arte de uñas que salen de nuestro spa.",
+      "captions": [
+        "Manicura en gel brillante en un nude suave",
+        "Pedicura spa relajante con un acabado fresco",
+        "Arte de uñas personalizado pintado a mano",
+        "Francés clásico sobre un set esculpido",
+        "Uñas llamativas en cromo y ombré",
+        "Tratamiento de parafina tibia para manos suaves"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice DeKalb",
+      "items": [
+        {
+          "quote": "El nail spa más limpio y tranquilo al que he ido en DeKalb. Mi set en gel seguía perfecto tres semanas después.",
+          "name": "Ashley R.",
+          "role": "Cliente Frecuente"
+        },
+        {
+          "quote": "Llegué con una captura del arte de uñas que me encantaba y lo hicieron tal cual. Muy talentosas y muy pacientes.",
+          "name": "Maria S.",
+          "role": "Fan del Arte de Uñas"
+        },
+        {
+          "quote": "La pedicura con piedras calientes es la gloria. Salgo relajada cada vez y mis pies se sienten increíbles.",
+          "name": "Jenna P.",
+          "role": "Mamá Local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita el Spa",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "9:30 AM – 7:00 PM"
+        },
+        {
+          "day": "Martes",
+          "time": "9:30 AM – 7:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "9:30 AM – 7:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "9:30 AM – 7:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "9:30 AM – 7:30 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "9:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM – 4:00 PM"
+        }
+      ],
+      "phoneLabel": "Reservaciones",
+      "directions": "Sobre Sycamore Road en DeKalb, con fácil estacionamiento justo al frente. Pásate cuando quieras o reserva tu cita en línea por adelantado.",
+      "neighborhood": "El spa está sobre Sycamore Road, el concurrido corredor comercial del lado norte de DeKalb que lleva hacia la vecina Sycamore."
+    },
+    "cta": {
+      "heading": "¿Lista para Consentirte?",
+      "text": "Reserva tu cita en línea o pásate directo. De cualquier forma, saldrás relajada y con unas uñas que te van a encantar.",
+      "button": "Reserva tu Cita"
+    },
+    "form": {
+      "heading": "Reservar una Cita",
+      "subheading": "Dinos el servicio que quieres y tu horario preferido. Confirmaremos tu lugar; los sin cita siempre son bienvenidos también.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Servicio que Necesitas",
+      "date": "Fecha y Hora Preferida",
+      "message": "¿Algo Más?",
+      "submit": "Solicitar Cita",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y confirmaremos tu cita en breve.",
+      "error": "Algo salió mal. Inténtalo de nuevo o pásate por el spa.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud de cita."
+    },
+    "footer": {
+      "tagline": "Un nail spa limpio y relajante, tu escape de autocuidado en DeKalb.",
+      "rights": "© Leza Nail Spa. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario del Spa",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    },
+    "ritual": {
+      "heading": "Tu Visita, de Principio a Fin",
+      "steps": [
+        {
+          "title": "Reserva o Llega sin Cita",
+          "text": "Aparta tu lugar en línea o pásate por Sycamore Road. Acomódate en la calma y deja que el día baje el ritmo."
+        },
+        {
+          "title": "Cuéntanos tu Estilo",
+          "text": "Dile a tu técnica lo que imaginas o muéstrale una captura. Te ayudamos a elegir colores, formas y arte que van contigo."
+        },
+        {
+          "title": "Relájate y Consiéntete",
+          "text": "Húndete en una silla de masaje mientras limamos, remojamos y esmaltamos con herramientas esterilizadas, sin prisa, para que todo quede impecable."
+        },
+        {
+          "title": "Sal Radiante y Vuelve",
+          "text": "Sal relajada y con uñas que te encantan, más consejos sencillos de cuidado. Reserva en línea cuando quieras tu próximo escape."
+        }
+      ]
+    }
+  }
+}

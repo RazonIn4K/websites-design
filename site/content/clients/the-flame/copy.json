@@ -1,0 +1,605 @@
+{
+  "business": {
+    "name": "The Flame",
+    "shortName": "The Flame",
+    "vertical": "Greek Family Restaurant",
+    "phone": "",
+    "phoneHref": "",
+    "address": "209 East Lincoln Highway",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "The Flame, 209 East Lincoln Highway, DeKalb, IL",
+    "lat": 41.930452,
+    "lon": -88.7521232,
+    "cuisine": "Greek"
+  },
+  "en": {
+    "meta": {
+      "title": "The Flame | Greek Family Restaurant in DeKalb, IL",
+      "description": "Family-run Greek diner in downtown DeKalb, IL, near the 1929 Egyptian Theatre. Gyros, saganaki, souvlaki, and big breakfasts in honest portions."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Stop By"
+    },
+    "hero": {
+      "eyebrow": "A Greek Family Diner on Lincoln Highway",
+      "title": "Gyros, Saganaki &",
+      "titleAccent": "Honest Portions",
+      "subtitle": "Gyros carved to order, saganaki flamed tableside, souvlaki off the charbroiler, and breakfasts that cover the plate. Honest food at honest prices, every day in DeKalb.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Find Us",
+      "badge": "Family-Owned · Big Breakfasts · Honest Portions"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Fired Up Fresh",
+        "text": "Gyros carved off the spit, skewers off the charbroiler, and saganaki flamed right at your table."
+      },
+      {
+        "icon": "heart",
+        "title": "Family-Run Warmth",
+        "text": "A Greek family kitchen where regulars are greeted like cousins and nobody leaves hungry."
+      },
+      {
+        "icon": "star",
+        "title": "A Lincoln Highway Favorite",
+        "text": "A beloved DeKalb stop for gyros, weekend breakfasts, and honest diner comfort."
+      },
+      {
+        "icon": "leaf",
+        "title": "Honest Portions",
+        "text": "Real food, plate-filling helpings, and prices that respect a hard day's work."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Menu items and prices shown are illustrative demo content for this sample site. Stop in at 209 East Lincoln Highway for current offerings and pricing.",
+      "categories": [
+        {
+          "id": "greek-favorites",
+          "name": "Greek Favorites",
+          "blurb": "The gyros, skewers, and flaming cheese that keep DeKalb coming back.",
+          "items": [
+            {
+              "name": "Gyros Plate",
+              "desc": "Seasoned gyros meat carved thin, piled over fries with warm pita, onion, tomato, and house tzatziki.",
+              "price": "$12.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Saganaki",
+              "desc": "Kasseri cheese flamed at your table and finished with fresh lemon. Opa!",
+              "price": "$8.50",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Chicken Souvlaki",
+              "desc": "Two charbroiled skewers in a lemon-oregano marinade with rice, warm pita, and tzatziki.",
+              "price": "$11.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Spanakopita",
+              "desc": "Flaky phyllo layered with spinach, feta, and fresh dill, baked golden.",
+              "price": "$7.95",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Greek Salad",
+              "desc": "Crisp greens with feta, Kalamata olives, tomato, cucumber, and our house Greek dressing.",
+              "price": "$9.50",
+              "tags": [
+                "vegetarian",
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "big-breakfasts",
+          "name": "Big Breakfasts",
+          "blurb": "Griddle classics served in honest, plate-covering portions.",
+          "items": [
+            {
+              "name": "The Flame Skillet",
+              "desc": "Gyros meat, onions, and peppers over hash browns, topped with two eggs and crumbled feta.",
+              "price": "$10.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Feta & Spinach Omelette",
+              "desc": "Three-egg omelette with spinach and crumbled feta, served with hash browns and toast.",
+              "price": "$9.95",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Buttermilk Pancake Stack",
+              "desc": "Three fluffy griddle pancakes with butter and warm syrup.",
+              "price": "$7.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Gyros & Eggs",
+              "desc": "Grilled gyros meat with two eggs any style, hash browns, and toast.",
+              "price": "$10.50",
+              "tags": []
+            },
+            {
+              "name": "Country Breakfast Plate",
+              "desc": "Two eggs with your choice of bacon or sausage, hash browns, and toast.",
+              "price": "$9.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plates-handhelds",
+          "name": "Plates & Hand-Helds",
+          "blurb": "Hearty diner plates and pita-wrapped favorites, made to order.",
+          "items": [
+            {
+              "name": "Gyros Sandwich",
+              "desc": "Warm pita stuffed with gyros meat, onion, tomato, and a generous swipe of tzatziki.",
+              "price": "$8.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Souvlaki Pita",
+              "desc": "Char-grilled pork skewer wrapped in warm pita with onion, tomato, and tzatziki.",
+              "price": "$8.95",
+              "tags": []
+            },
+            {
+              "name": "Athenian Chicken Plate",
+              "desc": "Half chicken roasted with lemon, oregano, and olive oil, served with rice or fries.",
+              "price": "$12.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Feta Burger",
+              "desc": "Charbroiled half-pound patty topped with feta and grilled onions on a toasted bun.",
+              "price": "$9.95",
+              "tags": []
+            },
+            {
+              "name": "Spicy Feta Pita Melt",
+              "desc": "Grilled pita layered with tirokafteri spicy whipped feta, tomato, and olives.",
+              "price": "$9.25",
+              "tags": [
+                "spicy",
+                "vegetarian"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Greek Family Diner on Lincoln Highway",
+      "lead": "The Flame is a family-run Greek diner in DeKalb serving gyros, saganaki, souvlaki, and big breakfasts in portions that mean it.",
+      "paragraphs": [
+        "On Lincoln Highway in downtown DeKalb — a block from the 1929 Egyptian Theatre — The Flame keeps things the way a Greek family diner should: gyros carved to order, souvlaki off the charbroiler, saganaki flamed tableside, and breakfasts that cover the plate. Everything is made to order and served with real diner hospitality.",
+        "We keep it simple: honest portions, fair prices, and familiar faces at the counter. Whether you're in for a gyros sandwich, a stack of pancakes, or a long Sunday breakfast, there's a booth waiting for you."
+      ],
+      "stats": [
+        {
+          "value": "Fresh",
+          "label": "Off the Grill"
+        },
+        {
+          "value": "Honest",
+          "label": "Portions"
+        },
+        {
+          "value": "Family",
+          "label": "Owned & Run"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Taste of The Flame",
+      "subheading": "A look at the plates coming off our grill and griddle every day.",
+      "captions": [
+        "A gyros plate stacked high with warm pita and tzatziki",
+        "Saganaki flamed tableside in a hot skillet",
+        "Chicken souvlaki skewers coming off the charbroiler",
+        "A breakfast skillet topped with eggs and crumbled feta",
+        "Greek salad dressed with feta and Kalamata olives",
+        "Booths and the counter filling up at lunch on Lincoln Highway"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Is Saying",
+      "items": [
+        {
+          "quote": "The gyros plate is a mountain — warm pita, plenty of tzatziki, and fries underneath. It never disappoints.",
+          "name": "Angela P.",
+          "role": "DeKalb regular"
+        },
+        {
+          "quote": "Saganaki at the table, big breakfasts on the weekend, and everyone treats you like family. This place is a gem.",
+          "name": "Marcus T.",
+          "role": "Breakfast regular"
+        },
+        {
+          "quote": "Honest food and honest portions. The souvlaki comes off the grill smoky and tender every single time.",
+          "name": "Sofia R.",
+          "role": "NIU student"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us on Lincoln Highway",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "6:00 AM - 8:00 PM"
+        },
+        {
+          "day": "Friday - Saturday",
+          "time": "6:00 AM - 9:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "7:00 AM - 3:00 PM"
+        }
+      ],
+      "phoneLabel": "Order at the Counter",
+      "directions": "Find us at 209 East Lincoln Highway in DeKalb, IL, right on the historic Lincoln Highway. Grab a booth, or order at the counter and your food comes off the grill hot and ready to go.",
+      "neighborhood": "Our block of East Lincoln Highway runs through the heart of downtown DeKalb, just around the corner from the historic 1929 Egyptian Theatre on North Second Street."
+    },
+    "cta": {
+      "heading": "Hungry? Stop By The Flame",
+      "text": "Grab a booth or step up to the counter. Gyros, souvlaki, and big breakfasts come off the grill hot, with carryout ready while you wait.",
+      "button": "Stop By Today"
+    },
+    "form": {
+      "heading": "Send Us a Message",
+      "subheading": "Have a question about carryout, catering, or a large group? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Contact Number",
+      "partySize": "Order Size / Party Size",
+      "date": "Preferred Date/Time",
+      "message": "How can we help? Tell us about your order or question.",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We received your message and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "A Greek family diner keeping DeKalb fed with gyros, big breakfasts, and honest portions.",
+      "rights": "© The Flame. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "The Flame | Restaurante Griego Familiar en DeKalb, IL",
+      "description": "Diner griego familiar en el centro de DeKalb, IL, cerca del Egyptian Theatre de 1929. Gyros, saganaki, souvlaki y desayunos abundantes en porciones honestas."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Pasa a Vernos"
+    },
+    "hero": {
+      "eyebrow": "Diner Griego Familiar en DeKalb",
+      "title": "Gyros, Saganaki y",
+      "titleAccent": "Porciones Honestas",
+      "subtitle": "Gyros rebanado al momento, saganaki flameado en la mesa, souvlaki a la parrilla y desayunos que llenan el plato. Comida honesta a precios honestos, todos los días en DeKalb.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Visítanos",
+      "badge": "Empresa Familiar · Desayunos Abundantes · Porciones Honestas"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Recién Hecho al Fuego",
+        "text": "Gyros rebanado del trompo, brochetas a la parrilla y saganaki flameado en tu propia mesa."
+      },
+      {
+        "icon": "heart",
+        "title": "Calidez Familiar",
+        "text": "Una cocina griega familiar donde a los clientes de siempre se les recibe como primos y nadie se va con hambre."
+      },
+      {
+        "icon": "star",
+        "title": "Favorito de Lincoln Highway",
+        "text": "Una parada querida en DeKalb para gyros, desayunos de fin de semana y sabor casero honesto."
+      },
+      {
+        "icon": "leaf",
+        "title": "Porciones Honestas",
+        "text": "Comida de verdad, platos bien servidos y precios que respetan el trabajo duro."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Los platillos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Visítanos en el 209 East Lincoln Highway para conocer la oferta y los precios actuales.",
+      "categories": [
+        {
+          "id": "greek-favorites",
+          "name": "Favoritos Griegos",
+          "blurb": "Los gyros, las brochetas y el queso flameado que hacen que DeKalb regrese.",
+          "items": [
+            {
+              "name": "Plato de Gyros",
+              "desc": "Carne de gyros sazonada y rebanada fina, servida sobre papas fritas con pita caliente, cebolla, tomate y tzatziki de la casa.",
+              "price": "$12.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Saganaki",
+              "desc": "Queso kasseri flameado en tu mesa y terminado con limón fresco. ¡Opa!",
+              "price": "$8.50",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Souvlaki de Pollo",
+              "desc": "Dos brochetas a la parrilla marinadas en limón y orégano, con arroz, pita caliente y tzatziki.",
+              "price": "$11.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Spanakopita",
+              "desc": "Capas de masa filo con espinaca, queso feta y eneldo fresco, horneadas hasta dorar.",
+              "price": "$7.95",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Ensalada Griega",
+              "desc": "Lechuga fresca con feta, aceitunas Kalamata, tomate, pepino y nuestro aderezo griego de la casa.",
+              "price": "$9.50",
+              "tags": [
+                "vegetarian",
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "big-breakfasts",
+          "name": "Desayunos Abundantes",
+          "blurb": "Clásicos de la plancha servidos en porciones honestas que llenan el plato.",
+          "items": [
+            {
+              "name": "Sartén The Flame",
+              "desc": "Carne de gyros, cebolla y pimientos sobre papas doradas, con dos huevos y feta desmoronado.",
+              "price": "$10.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Omelette de Feta y Espinaca",
+              "desc": "Omelette de tres huevos con espinaca y feta desmoronado, servido con papas doradas y pan tostado.",
+              "price": "$9.95",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Torre de Hot Cakes",
+              "desc": "Tres hot cakes esponjosos de la plancha con mantequilla y miel tibia.",
+              "price": "$7.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Gyros con Huevos",
+              "desc": "Carne de gyros a la plancha con dos huevos al gusto, papas doradas y pan tostado.",
+              "price": "$10.50",
+              "tags": []
+            },
+            {
+              "name": "Desayuno Campestre",
+              "desc": "Dos huevos con tocino o salchicha a elegir, papas doradas y pan tostado.",
+              "price": "$9.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plates-handhelds",
+          "name": "Platos y Pitas",
+          "blurb": "Platos abundantes estilo diner y favoritos envueltos en pita, hechos al momento.",
+          "items": [
+            {
+              "name": "Sándwich de Gyros",
+              "desc": "Pita caliente rellena de carne de gyros, cebolla, tomate y una generosa capa de tzatziki.",
+              "price": "$8.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Pita de Souvlaki",
+              "desc": "Brocheta de cerdo a la parrilla envuelta en pita caliente con cebolla, tomate y tzatziki.",
+              "price": "$8.95",
+              "tags": []
+            },
+            {
+              "name": "Plato de Pollo Ateniense",
+              "desc": "Medio pollo horneado con limón, orégano y aceite de oliva, servido con arroz o papas fritas.",
+              "price": "$12.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Hamburguesa con Feta",
+              "desc": "Carne de media libra a la parrilla con feta y cebolla asada en pan tostado.",
+              "price": "$9.95",
+              "tags": []
+            },
+            {
+              "name": "Pita Fundida de Feta Picante",
+              "desc": "Pita a la plancha con tirokafteri, un feta batido picante, tomate y aceitunas.",
+              "price": "$9.25",
+              "tags": [
+                "spicy",
+                "vegetarian"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Un Diner Griego Familiar en Lincoln Highway",
+      "lead": "The Flame es un diner griego familiar en DeKalb que sirve gyros, saganaki, souvlaki y desayunos abundantes en porciones de verdad.",
+      "paragraphs": [
+        "En Lincoln Highway, en el centro de DeKalb — a una cuadra del Egyptian Theatre de 1929 —, The Flame mantiene las cosas como deben ser en un diner griego familiar: gyros rebanado al momento, souvlaki a la parrilla, saganaki flameado en la mesa y desayunos que llenan el plato. Todo se prepara al momento y se sirve con verdadera hospitalidad de diner.",
+        "Lo mantenemos sencillo: porciones honestas, precios justos y caras conocidas en el mostrador. Ya sea que vengas por un sándwich de gyros, una torre de hot cakes o un desayuno largo de domingo, hay una mesa esperándote."
+      ],
+      "stats": [
+        {
+          "value": "Fresco",
+          "label": "De la Parrilla"
+        },
+        {
+          "value": "Honestas",
+          "label": "Porciones"
+        },
+        {
+          "value": "Familiar",
+          "label": "De Principio a Fin"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Sabor de The Flame",
+      "subheading": "Un vistazo a los platos que salen de nuestra parrilla y plancha cada día.",
+      "captions": [
+        "Un plato de gyros bien servido con pita caliente y tzatziki",
+        "Saganaki flameado en la mesa en un sartén caliente",
+        "Brochetas de souvlaki de pollo recién salidas de la parrilla",
+        "Un sartén de desayuno con huevos y feta desmoronado",
+        "Ensalada griega con feta y aceitunas Kalamata",
+        "Mesas y mostrador llenos a la hora del almuerzo en Lincoln Highway"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice DeKalb",
+      "items": [
+        {
+          "quote": "El plato de gyros es una montaña: pita caliente, tzatziki de sobra y papas fritas debajo. Nunca decepciona.",
+          "name": "Angela P.",
+          "role": "Cliente frecuente en DeKalb"
+        },
+        {
+          "quote": "Saganaki en la mesa, desayunos abundantes el fin de semana y todos te tratan como familia. Este lugar es una joya.",
+          "name": "Marcus T.",
+          "role": "Cliente de desayunos"
+        },
+        {
+          "quote": "Comida honesta y porciones honestas. El souvlaki sale de la parrilla ahumado y tierno todas las veces.",
+          "name": "Sofia R.",
+          "role": "Estudiante de NIU"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en Lincoln Highway",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "6:00 AM - 8:00 PM"
+        },
+        {
+          "day": "Viernes - Sábado",
+          "time": "6:00 AM - 9:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "7:00 AM - 3:00 PM"
+        }
+      ],
+      "phoneLabel": "Ordena en el Mostrador",
+      "directions": "Encuéntranos en el 209 East Lincoln Highway en DeKalb, IL, sobre la histórica Lincoln Highway. Toma una mesa, u ordena en el mostrador y tu comida sale de la parrilla caliente y lista para llevar.",
+      "neighborhood": "Nuestra cuadra de East Lincoln Highway atraviesa el corazón del centro de DeKalb, a la vuelta de la esquina del histórico Egyptian Theatre de 1929, en North Second Street."
+    },
+    "cta": {
+      "heading": "¿Con Hambre? Pasa por The Flame",
+      "text": "Toma una mesa o acércate al mostrador. Gyros, souvlaki y desayunos abundantes salen de la parrilla calientes, con órdenes para llevar listas mientras esperas.",
+      "button": "Visítanos Hoy"
+    },
+    "form": {
+      "heading": "Envíanos un Mensaje",
+      "subheading": "¿Tienes una pregunta sobre pedidos para llevar, banquetes o grupos grandes? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Contacto",
+      "partySize": "Tamaño del Pedido / Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo podemos ayudarte? Cuéntanos sobre tu pedido o pregunta.",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Un diner griego familiar que mantiene a DeKalb bien servido con gyros, desayunos abundantes y porciones honestas.",
+      "rights": "© The Flame. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

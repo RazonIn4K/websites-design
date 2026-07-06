@@ -1,0 +1,16 @@
+{
+  "concept": "Heritage leather-craft palette for Lindsay's Leather and Shoe Repair: a rich saddle-brown primary evokes hand-tooled leather and decades of craftsmanship, deepened by an oxblood secondary that nods to polished dress shoes. A warm brass accent supplies the artisanal gleam of buckles and stitching hardware, deep espresso ink reads like a cobbler's hand-stamped lettering, and warm parchment backgrounds keep the experience traditional, trustworthy, and inviting.",
+  "vars": {
+    "--color-bg": "#F6EEE0",
+    "--color-surface": "#FFFCF6",
+    "--color-surface-alt": "#EFE2CC",
+    "--color-ink": "#2A1C12",
+    "--color-ink-soft": "#6E5239",
+    "--color-primary": "#7A3B22",
+    "--color-primary-dark": "#592512",
+    "--color-secondary": "#5E2027",
+    "--color-accent": "#C8972F",
+    "--color-line": "#E3D5BE"
+  },
+  "contrastNotes": "All WCAG-AA targets hold against the warm parchment bg #F6EEE0 (L=0.838). Ink #2A1C12 on bg = 14.31:1 (>=7). Ink-soft #6E5239 on bg = 6.22:1 (>=4.5). White on primary saddle-brown #7A3B22 = 8.48:1 (>=4.5). Primary-dark #592512 on bg = 10.73:1 (>=4.5) and carries white at 12.37:1 for hover/active. Primary on bg = 7.36:1 (>=3). Brass accent #C8972F on near-black #000 = 7.92:1 (>=3) for bright pops on dark heroes. CRITICAL surface-alt #EFE2CC is a LIGHT parchment tint (slightly deeper than bg): ink on surface-alt = 12.90:1 (>=7). Bonus: ink on surface #FFFCF6 = 16.11:1; white on oxblood secondary #5E2027 = 12.27:1. Brass accent is reserved for decorative gleam, dividers, and large display text, not body copy on light bg (2.3:1)."
+}

@@ -1,0 +1,758 @@
+{
+  "business": {
+    "name": "Pizza Villa",
+    "shortName": "Pizza Villa",
+    "vertical": "Pizzeria",
+    "phone": "",
+    "phoneHref": "",
+    "address": "824 West Lincoln Highway",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Pizza Villa, 824 West Lincoln Highway, DeKalb, IL 60115"
+  },
+  "en": {
+    "meta": {
+      "title": "Pizza Villa | Hand-Tossed Pizza & Late-Night Slices in DeKalb, IL",
+      "description": "NIU's go-to neighborhood pizzeria in DeKalb, IL. Hand-tossed dough, generous toppings, late-night slices, and fast campus delivery. Order online today."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Order Now"
+    },
+    "hero": {
+      "eyebrow": "NIU's Go-To Neighborhood Pizzeria",
+      "title": "Hand-Tossed Pizza,",
+      "titleAccent": "Loaded with Flavor",
+      "subtitle": "Family-recipe dough tossed fresh, piled high with generous toppings, and fired to a golden, bubbly crust. Late-night slices and fast delivery straight to campus, every single day.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Order Online",
+      "badge": "Hand-Tossed Daily · Fast Campus Delivery · Late-Night Slices"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Hand-Tossed & Fired Fresh",
+        "text": "Dough tossed by hand every day and baked to a golden, bubbly crust that's crisp outside and pillowy inside."
+      },
+      {
+        "icon": "heart",
+        "title": "Family Recipe",
+        "text": "An independent, family-run pizzeria built on a recipe we've never changed, because the regulars won't let us."
+      },
+      {
+        "icon": "star",
+        "title": "A Student Favorite",
+        "text": "The campus go-to for generous toppings, great value, and late-night slices that hit just right after a long study session."
+      },
+      {
+        "icon": "leaf",
+        "title": "Generous, Quality Toppings",
+        "text": "Real cheese, fresh veggies, and loaded toppings that give you more on every slice without the premium price."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Menu items and prices shown are illustrative demo content for this sample site. Please order online for current offerings and pricing.",
+      "categories": [
+        {
+          "id": "pizzas",
+          "name": "Pizzas",
+          "blurb": "Hand-tossed specialty pies, build-your-own, and fresh slices by the slice.",
+          "items": [
+            {
+              "name": "The Villa Supreme",
+              "desc": "Pepperoni, sausage, peppers, onions, mushrooms, and black olives loaded on our signature crust.",
+              "price": "$18.99",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Classic Pepperoni",
+              "desc": "A generous double layer of crispy-edge pepperoni over real mozzarella and house red sauce.",
+              "price": "$14.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Build-Your-Own Pizza",
+              "desc": "Start with hand-tossed dough and mozzarella, then pile on your favorite toppings.",
+              "price": "From $12.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Garden Veggie",
+              "desc": "Mushrooms, peppers, onions, fresh tomato, spinach, and black olives on a light garlic base.",
+              "price": "$16.99",
+              "tags": []
+            },
+            {
+              "name": "BBQ Chicken",
+              "desc": "Grilled chicken, smoky BBQ sauce, red onion, and mozzarella with a cilantro finish.",
+              "price": "$17.99",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Cheese Slice",
+              "desc": "A big, foldable slice of our hand-tossed cheese pizza, ready fast for the late-night rush.",
+              "price": "$3.49",
+              "tags": [
+                "fast",
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "calzones-strombolis",
+          "name": "Calzones & Strombolis",
+          "blurb": "Hand-folded, golden-baked, and stuffed with cheese and your favorite fillings.",
+          "items": [
+            {
+              "name": "Classic Cheese Calzone",
+              "desc": "Ricotta and mozzarella folded into golden dough, served with a side of marinara.",
+              "price": "$10.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pepperoni Stromboli",
+              "desc": "Rolled and baked with pepperoni, mozzarella, and house sauce for a crispy, cheesy bite.",
+              "price": "$11.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Meat Lovers Calzone",
+              "desc": "Pepperoni, sausage, and ham stuffed with mozzarella and baked until golden.",
+              "price": "$12.99",
+              "tags": []
+            },
+            {
+              "name": "Veggie Stromboli",
+              "desc": "Peppers, onions, mushrooms, and spinach rolled with mozzarella and a touch of garlic.",
+              "price": "$11.49",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pasta",
+          "name": "Pasta",
+          "blurb": "Comforting Italian classics baked and served with garlic bread.",
+          "items": [
+            {
+              "name": "Spaghetti & Meatballs",
+              "desc": "House marinara over tender spaghetti with hand-rolled meatballs and garlic bread.",
+              "price": "$12.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Baked Ziti",
+              "desc": "Ziti baked in marinara with ricotta and mozzarella until bubbly and golden.",
+              "price": "$11.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Lasagna",
+              "desc": "Layers of pasta, seasoned meat sauce, ricotta, and mozzarella, baked to order.",
+              "price": "$13.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Fettuccine Alfredo",
+              "desc": "Fettuccine tossed in a rich, creamy parmesan Alfredo sauce.",
+              "price": "$12.49",
+              "tags": []
+            },
+            {
+              "name": "Chicken Parmesan",
+              "desc": "Breaded chicken over spaghetti with marinara and melted mozzarella.",
+              "price": "$14.49",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wings",
+          "name": "Wings",
+          "blurb": "Crispy, saucy, and tossed to order, perfect for sharing or the late-night crew.",
+          "items": [
+            {
+              "name": "Buffalo Wings (10)",
+              "desc": "Crispy wings tossed in classic buffalo sauce with ranch or blue cheese.",
+              "price": "$11.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "BBQ Wings (10)",
+              "desc": "Golden wings glazed in smoky-sweet BBQ sauce.",
+              "price": "$11.99",
+              "tags": []
+            },
+            {
+              "name": "Garlic Parmesan Wings (10)",
+              "desc": "Crispy wings tossed in buttery garlic and grated parmesan.",
+              "price": "$12.49",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Boneless Wings (10)",
+              "desc": "Tender breaded bites tossed in your choice of sauce, fast and easy to share.",
+              "price": "$10.99",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sides-salads",
+          "name": "Sides & Salads",
+          "blurb": "Fresh-made starters, sides, and salads to round out your order.",
+          "items": [
+            {
+              "name": "Garlic Bread Sticks (6)",
+              "desc": "Warm hand-tossed dough sticks brushed with garlic butter and served with marinara.",
+              "price": "$5.99",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Mozzarella Sticks (6)",
+              "desc": "Golden, crispy mozzarella sticks served with a side of marinara.",
+              "price": "$6.49",
+              "tags": []
+            },
+            {
+              "name": "Garden Salad",
+              "desc": "Crisp romaine, tomato, cucumber, red onion, and croutons with your choice of dressing.",
+              "price": "$6.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Caesar Salad",
+              "desc": "Romaine tossed in creamy Caesar with parmesan and crunchy croutons.",
+              "price": "$7.49",
+              "tags": []
+            },
+            {
+              "name": "Cheesy Garlic Knots (6)",
+              "desc": "Soft dough knots topped with garlic, mozzarella, and parmesan, served with marinara.",
+              "price": "$6.99",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Your Neighborhood Pizzeria",
+      "lead": "Pizza Villa is DeKalb's go-to neighborhood pizzeria, serving hand-tossed pies, generous toppings, and late-night slices on a family recipe we've never changed.",
+      "paragraphs": [
+        "From hungry NIU students to families grabbing an easy dinner, DeKalb has trusted Pizza Villa for hand-tossed pizza done right. Every pie starts with dough we toss fresh each day, gets piled with generous toppings, and bakes up golden and bubbly, ready fast for delivery straight to campus.",
+        "We keep it simple: a family recipe, quality ingredients, and great value that fills you up without emptying your wallet. Whether you're ordering a full supreme for the group or grabbing a late-night slice between study sessions, we're proud to be your neighborhood pizzeria."
+      ],
+      "stats": [
+        {
+          "value": "Hand-Tossed",
+          "label": "Fresh Daily"
+        },
+        {
+          "value": "Fast",
+          "label": "Campus Delivery"
+        },
+        {
+          "value": "Late",
+          "label": "Night Slices"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Taste of Pizza Villa",
+      "subheading": "A look at the hand-tossed pies and fresh favorites coming out of our oven every day.",
+      "captions": [
+        "Hand-tossed supreme loaded with toppings",
+        "Golden, bubbly cheese pizza fresh from the oven",
+        "Crispy wings tossed to order",
+        "Stuffed calzones and rolled strombolis",
+        "Baked ziti and lasagna, hot and cheesy",
+        "Late-night slices ready for the campus crowd"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Is Saying",
+      "items": [
+        {
+          "quote": "Best pizza near campus, hands down. The crust is perfect and they load on the toppings. My late-night go-to since freshman year.",
+          "name": "Tyler M.",
+          "role": "NIU student"
+        },
+        {
+          "quote": "We order from Pizza Villa almost every Friday. Always fresh, always fast to our place by campus, and a great value for the whole family.",
+          "name": "Ashley R.",
+          "role": "DeKalb regular"
+        },
+        {
+          "quote": "The calzones are huge and the wings are always crispy. Delivery shows up right on time even on a busy game night.",
+          "name": "Marcus D.",
+          "role": "Local customer"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in DeKalb",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "11:00 AM - 12:00 AM"
+        },
+        {
+          "day": "Friday - Saturday",
+          "time": "11:00 AM - 2:00 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "12:00 PM - 11:00 PM"
+        }
+      ],
+      "phoneLabel": "Order Online",
+      "directions": "Find us at 824 West Lincoln Highway in DeKalb, IL, just minutes from NIU. Order online and we'll have it ready fast for pickup, or get it delivered hot and fresh straight to campus."
+    },
+    "cta": {
+      "heading": "Hungry? Order Online Now",
+      "text": "Skip the wait and order online. Your hand-tossed favorites will be ready fast for pickup, or delivered hot and fresh straight to campus.",
+      "button": "Order Online"
+    },
+    "form": {
+      "heading": "Send Us a Message",
+      "subheading": "Have a question about your order, catering, or a big group order for the dorm or office? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Order Size / Group Size",
+      "date": "Preferred Date/Time",
+      "message": "How can we help? Tell us about your order or question.",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We received your message and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "NIU's go-to neighborhood pizzeria, hand-tossing fresh pies and late-night slices for all of DeKalb.",
+      "rights": "© Pizza Villa. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Pizza Villa | Pizza Hecha a Mano y Rebanadas de Madrugada en DeKalb, IL",
+      "description": "La pizzería de barrio favorita de NIU en DeKalb, IL. Masa hecha a mano, ingredientes generosos, rebanadas de madrugada y entrega rápida al campus. Ordena en línea hoy."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Ordenar"
+    },
+    "hero": {
+      "eyebrow": "La Pizzería de Barrio Favorita de NIU",
+      "title": "Pizza Hecha a Mano,",
+      "titleAccent": "Llena de Sabor",
+      "subtitle": "Masa de receta familiar estirada al momento, cargada de ingredientes generosos y horneada hasta lograr una orilla dorada y esponjada. Rebanadas de madrugada y entrega rápida directo al campus, todos los días.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Ordena en Línea",
+      "badge": "Hecha a Mano a Diario · Entrega Rápida al Campus · Rebanadas de Madrugada"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Hecha a Mano y al Horno al Momento",
+        "text": "Masa estirada a mano cada día y horneada hasta una orilla dorada y esponjada, crujiente por fuera y suave por dentro."
+      },
+      {
+        "icon": "heart",
+        "title": "Receta Familiar",
+        "text": "Una pizzería independiente y familiar construida sobre una receta que nunca hemos cambiado, porque los clientes de siempre no nos dejan."
+      },
+      {
+        "icon": "star",
+        "title": "Favorita de los Estudiantes",
+        "text": "La opción preferida del campus por sus ingredientes generosos, gran valor y rebanadas de madrugada que caen perfecto después de una larga noche de estudio."
+      },
+      {
+        "icon": "leaf",
+        "title": "Ingredientes Generosos y de Calidad",
+        "text": "Queso de verdad, verduras frescas e ingredientes cargados que te dan más en cada rebanada sin el precio premium."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Los platillos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Ordena en línea para conocer la oferta y los precios actuales.",
+      "categories": [
+        {
+          "id": "pizzas",
+          "name": "Pizzas",
+          "blurb": "Pizzas especiales hechas a mano, arma la tuya y rebanadas individuales.",
+          "items": [
+            {
+              "name": "La Villa Suprema",
+              "desc": "Pepperoni, salchicha, pimientos, cebolla, champiñones y aceitunas negras cargadas sobre nuestra masa especial.",
+              "price": "$18.99",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Pepperoni Clásica",
+              "desc": "Una capa doble y generosa de pepperoni crujiente sobre mozzarella de verdad y salsa roja de la casa.",
+              "price": "$14.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Arma Tu Propia Pizza",
+              "desc": "Comienza con masa hecha a mano y mozzarella, luego agrega todos tus ingredientes favoritos.",
+              "price": "Desde $12.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Vegetariana del Huerto",
+              "desc": "Champiñones, pimientos, cebolla, tomate fresco, espinaca y aceitunas negras sobre una base ligera de ajo.",
+              "price": "$16.99",
+              "tags": []
+            },
+            {
+              "name": "Pollo BBQ",
+              "desc": "Pollo a la parrilla, salsa BBQ ahumada, cebolla morada y mozzarella con un toque de cilantro.",
+              "price": "$17.99",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Rebanada de Queso",
+              "desc": "Una rebanada grande y doblable de nuestra pizza de queso hecha a mano, lista rápido para la hora pico de madrugada.",
+              "price": "$3.49",
+              "tags": [
+                "fast",
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "calzones-strombolis",
+          "name": "Calzones y Strombolis",
+          "blurb": "Doblados a mano, horneados dorados y rellenos de queso y tus ingredientes favoritos.",
+          "items": [
+            {
+              "name": "Calzone Clásico de Queso",
+              "desc": "Ricotta y mozzarella envueltos en masa dorada, servidos con salsa marinara aparte.",
+              "price": "$10.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Stromboli de Pepperoni",
+              "desc": "Enrollado y horneado con pepperoni, mozzarella y salsa de la casa para un bocado crujiente y lleno de queso.",
+              "price": "$11.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Calzone Amante de la Carne",
+              "desc": "Pepperoni, salchicha y jamón rellenos de mozzarella y horneados hasta dorar.",
+              "price": "$12.99",
+              "tags": []
+            },
+            {
+              "name": "Stromboli Vegetariano",
+              "desc": "Pimientos, cebolla, champiñones y espinaca enrollados con mozzarella y un toque de ajo.",
+              "price": "$11.49",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pasta",
+          "name": "Pasta",
+          "blurb": "Clásicos italianos reconfortantes, horneados y servidos con pan de ajo.",
+          "items": [
+            {
+              "name": "Espagueti con Albóndigas",
+              "desc": "Marinara de la casa sobre espagueti tierno con albóndigas hechas a mano y pan de ajo.",
+              "price": "$12.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Ziti al Horno",
+              "desc": "Ziti horneado en marinara con ricotta y mozzarella hasta quedar burbujeante y dorado.",
+              "price": "$11.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Lasaña",
+              "desc": "Capas de pasta, salsa de carne sazonada, ricotta y mozzarella, horneadas al momento.",
+              "price": "$13.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Fettuccine Alfredo",
+              "desc": "Fettuccine bañado en una salsa Alfredo cremosa y rica de parmesano.",
+              "price": "$12.49",
+              "tags": []
+            },
+            {
+              "name": "Pollo a la Parmesana",
+              "desc": "Pollo empanizado sobre espagueti con marinara y mozzarella fundida.",
+              "price": "$14.49",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wings",
+          "name": "Alitas",
+          "blurb": "Crujientes, bañadas en salsa y preparadas al momento, perfectas para compartir o para la banda de madrugada.",
+          "items": [
+            {
+              "name": "Alitas Buffalo (10)",
+              "desc": "Alitas crujientes bañadas en salsa buffalo clásica con aderezo ranch o de queso azul.",
+              "price": "$11.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Alitas BBQ (10)",
+              "desc": "Alitas doradas glaseadas en salsa BBQ ahumada y dulce.",
+              "price": "$11.99",
+              "tags": []
+            },
+            {
+              "name": "Alitas de Ajo y Parmesano (10)",
+              "desc": "Alitas crujientes bañadas en mantequilla de ajo y parmesano rallado.",
+              "price": "$12.49",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Alitas sin Hueso (10)",
+              "desc": "Tiernos bocados empanizados bañados en la salsa que elijas, fáciles de compartir y rápidos.",
+              "price": "$10.99",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sides-salads",
+          "name": "Acompañamientos y Ensaladas",
+          "blurb": "Entradas, acompañamientos y ensaladas hechos al momento para completar tu orden.",
+          "items": [
+            {
+              "name": "Palitos de Pan de Ajo (6)",
+              "desc": "Palitos calientes de masa hecha a mano untados con mantequilla de ajo y servidos con marinara.",
+              "price": "$5.99",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Palitos de Mozzarella (6)",
+              "desc": "Palitos de mozzarella dorados y crujientes servidos con marinara aparte.",
+              "price": "$6.49",
+              "tags": []
+            },
+            {
+              "name": "Ensalada del Huerto",
+              "desc": "Lechuga romana crujiente, tomate, pepino, cebolla morada y crutones con el aderezo que elijas.",
+              "price": "$6.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Ensalada César",
+              "desc": "Lechuga romana bañada en aderezo César cremoso con parmesano y crutones crujientes.",
+              "price": "$7.49",
+              "tags": []
+            },
+            {
+              "name": "Nudos de Ajo con Queso (6)",
+              "desc": "Suaves nudos de masa cubiertos de ajo, mozzarella y parmesano, servidos con marinara.",
+              "price": "$6.99",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Tu Pizzería de Barrio",
+      "lead": "Pizza Villa es la pizzería de barrio favorita de DeKalb, sirviendo pizzas hechas a mano, ingredientes generosos y rebanadas de madrugada con una receta familiar que nunca hemos cambiado.",
+      "paragraphs": [
+        "Desde estudiantes hambrientos de NIU hasta familias que buscan una cena fácil, DeKalb ha confiado en Pizza Villa para su pizza hecha a mano como se debe. Cada pizza comienza con masa que estiramos fresca cada día, se carga con ingredientes generosos y se hornea dorada y esponjada, lista rápido para entrega directo al campus.",
+        "Lo mantenemos sencillo: una receta familiar, ingredientes de calidad y un gran valor que te llena sin vaciar tu bolsillo. Ya sea que pidas una suprema completa para el grupo o agarres una rebanada de madrugada entre sesiones de estudio, nos enorgullece ser tu pizzería de barrio."
+      ],
+      "stats": [
+        {
+          "value": "Hecha a Mano",
+          "label": "Fresca a Diario"
+        },
+        {
+          "value": "Rápida",
+          "label": "Entrega al Campus"
+        },
+        {
+          "value": "De Madrugada",
+          "label": "Rebanadas"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Sabor de Pizza Villa",
+      "subheading": "Un vistazo a las pizzas hechas a mano y los favoritos frescos que salen de nuestro horno cada día.",
+      "captions": [
+        "Pizza suprema hecha a mano y cargada de ingredientes",
+        "Pizza de queso dorada y burbujeante recién salida del horno",
+        "Alitas crujientes preparadas al momento",
+        "Calzones rellenos y strombolis enrollados",
+        "Ziti al horno y lasaña, bien calientes y llenos de queso",
+        "Rebanadas de madrugada listas para la banda del campus"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice DeKalb",
+      "items": [
+        {
+          "quote": "La mejor pizza cerca del campus, sin duda. La masa es perfecta y le cargan los ingredientes. Mi opción de madrugada desde primer año.",
+          "name": "Tyler M.",
+          "role": "Estudiante de NIU"
+        },
+        {
+          "quote": "Pedimos de Pizza Villa casi todos los viernes. Siempre fresca, siempre rápida a nuestra casa cerca del campus, y un gran valor para toda la familia.",
+          "name": "Ashley R.",
+          "role": "Cliente frecuente en DeKalb"
+        },
+        {
+          "quote": "Los calzones son enormes y las alitas siempre están crujientes. La entrega llega justo a tiempo incluso en una noche de partido bien ocupada.",
+          "name": "Marcus D.",
+          "role": "Cliente local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en DeKalb",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "11:00 AM - 12:00 AM"
+        },
+        {
+          "day": "Viernes - Sábado",
+          "time": "11:00 AM - 2:00 AM"
+        },
+        {
+          "day": "Domingo",
+          "time": "12:00 PM - 11:00 PM"
+        }
+      ],
+      "phoneLabel": "Ordena en Línea",
+      "directions": "Encuéntranos en 824 West Lincoln Highway en DeKalb, IL, a solo minutos de NIU. Ordena en línea y la tendremos lista rápido para recoger, o recíbela caliente y fresca directo al campus."
+    },
+    "cta": {
+      "heading": "¿Con Hambre? Ordena en Línea Ahora",
+      "text": "Evita la espera y ordena en línea. Tus favoritos hechos a mano estarán listos rápido para recoger, o se entregan calientes y frescos directo al campus.",
+      "button": "Ordena en Línea"
+    },
+    "form": {
+      "heading": "Envíanos un Mensaje",
+      "subheading": "¿Tienes una pregunta sobre tu orden, banquetes o un pedido grande para el dormitorio o la oficina? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Pedido / Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo podemos ayudarte? Cuéntanos sobre tu pedido o pregunta.",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "La pizzería de barrio favorita de NIU, haciendo pizzas frescas a mano y rebanadas de madrugada para todo DeKalb.",
+      "rights": "© Pizza Villa. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

@@ -1,0 +1,712 @@
+{
+  "business": {
+    "name": "DeKalb Mechanical",
+    "shortName": "DeKalb Mechanical",
+    "vertical": "HVAC / Heating & Cooling",
+    "phone": "",
+    "phoneHref": "",
+    "address": "Wurlitzer Drive",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "DeKalb Mechanical, Wurlitzer Drive, DeKalb, IL 60115",
+    "lat": 41.9298117,
+    "lon": -88.731916
+  },
+  "en": {
+    "meta": {
+      "title": "DeKalb Mechanical | HVAC, Heating & Cooling in DeKalb, IL",
+      "description": "Licensed, family-owned HVAC in DeKalb, IL. Furnace & A/C repair, install, and maintenance. 24/7 emergency service, free estimates, satisfaction guaranteed."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About",
+      "gallery": "Our Work",
+      "visit": "Visit",
+      "order": "Free Estimate"
+    },
+    "hero": {
+      "eyebrow": "DeKalb's Home Comfort Experts",
+      "title": "Heating & Cooling",
+      "titleAccent": "Done Right, On Time",
+      "subtitle": "Family-owned, licensed HVAC pros keeping DeKalb-area homes warm in winter and cool all summer. Fast response, honest pricing, and 24/7 emergency service when you need it most.",
+      "ctaPrimary": "View Services",
+      "ctaSecondary": "Request a Free Estimate",
+      "badge": "Licensed - Family-Owned - 24/7 Emergency Service"
+    },
+    "highlights": [
+      {
+        "icon": "clock",
+        "title": "24/7 Emergency Service",
+        "text": "Heat out at midnight? A/C down in a heat wave? We answer fast and get your home comfortable again."
+      },
+      {
+        "icon": "flame",
+        "title": "Heating Experts",
+        "text": "Furnaces, boilers, and heat pumps repaired, tuned, and installed by licensed technicians who know Illinois winters."
+      },
+      {
+        "icon": "snowflake",
+        "title": "Cooling Specialists",
+        "text": "A/C and ductless mini-split repair and installation sized right for your home and your budget."
+      },
+      {
+        "icon": "shield",
+        "title": "Licensed & Guaranteed",
+        "text": "Up-front estimates, financing-friendly options, and a satisfaction guarantee on every job we do."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Prices shown are illustrative demo pricing only. Every job starts with a free, no-obligation estimate.",
+      "categories": [
+        {
+          "id": "heating",
+          "name": "Heating",
+          "blurb": "Stay warm all winter with reliable furnace, boiler, and heat pump service.",
+          "items": [
+            {
+              "name": "Furnace Repair",
+              "desc": "Fast diagnosis and repair for noisy, short-cycling, or no-heat furnaces.",
+              "price": "From $89",
+              "tags": [
+                "popular",
+                "fast"
+              ]
+            },
+            {
+              "name": "Furnace Installation",
+              "desc": "High-efficiency furnace replacement sized and installed for your home.",
+              "price": "Free Estimate",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Boiler Service",
+              "desc": "Inspection, repair, and maintenance for hot water and steam boilers.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Heat Pump Service",
+              "desc": "Install and repair of energy-saving heat pumps for year-round comfort.",
+              "price": "Free Estimate",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cooling",
+          "name": "Cooling",
+          "blurb": "Beat the heat with dependable air conditioning and ductless solutions.",
+          "items": [
+            {
+              "name": "A/C Repair",
+              "desc": "Quick fixes for warm air, leaks, frozen coils, and units that won't start.",
+              "price": "From $89",
+              "tags": [
+                "popular",
+                "fast"
+              ]
+            },
+            {
+              "name": "A/C Installation",
+              "desc": "New central air systems matched to your home for quiet, efficient cooling.",
+              "price": "Free Estimate",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Ductless Mini-Split",
+              "desc": "Targeted heating and cooling for additions, garages, and older homes.",
+              "price": "Free Estimate",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Refrigerant Recharge & Leak Check",
+              "desc": "Restore cooling power and pinpoint leaks before they cost you more.",
+              "price": "From $129",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "maintenance-plans",
+          "name": "Maintenance Plans",
+          "blurb": "Protect your system and avoid surprise breakdowns with seasonal care.",
+          "items": [
+            {
+              "name": "Seasonal Tune-Up",
+              "desc": "Full inspection and cleaning to keep heating or cooling running efficiently.",
+              "price": "From $99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Spring & Fall Combo",
+              "desc": "Two visits a year for both your A/C and your furnace at a bundled rate.",
+              "price": "From $179",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Priority Membership",
+              "desc": "Front-of-line scheduling, member discounts, and waived diagnostic fees.",
+              "price": "Free Estimate",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "New System Warranty Care",
+              "desc": "Scheduled upkeep that keeps your manufacturer warranty in good standing.",
+              "price": "Free Estimate",
+              "tags": [
+                "guarantee"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "indoor-air-quality",
+          "name": "Indoor Air Quality",
+          "blurb": "Breathe easier with cleaner, healthier, better-balanced indoor air.",
+          "items": [
+            {
+              "name": "Filter Upgrades",
+              "desc": "High-efficiency and media filters that trap more dust and allergens.",
+              "price": "From $49",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Whole-Home Humidifier",
+              "desc": "Beat dry Illinois winters with balanced humidity in every room.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Duct Cleaning",
+              "desc": "Remove built-up dust and debris for cleaner air and better airflow.",
+              "price": "Free Estimate",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Air Purifier & UV",
+              "desc": "Advanced filtration and UV systems that reduce germs and odors.",
+              "price": "Free Estimate",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "water-heaters",
+          "name": "Water Heaters",
+          "blurb": "Reliable hot water with repair, replacement, and tankless options.",
+          "items": [
+            {
+              "name": "Water Heater Repair",
+              "desc": "Fix no-hot-water, leaks, and pilot or element problems fast.",
+              "price": "From $89",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Tank Water Heater Install",
+              "desc": "Dependable, properly sized replacement for steady household hot water.",
+              "price": "Free Estimate",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Tankless Install",
+              "desc": "Endless on-demand hot water with a space-saving tankless system.",
+              "price": "Free Estimate",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Flush & Maintenance",
+              "desc": "Annual flush and inspection to extend the life of your water heater.",
+              "price": "From $129",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Your Neighbors in Home Comfort",
+      "lead": "DeKalb Mechanical is a family-owned heating and cooling company built on fast response, honest work, and treating your home like our own.",
+      "paragraphs": [
+        "From the first cold snap to the hottest week of summer, DeKalb-area homeowners have counted on us since 1991 to keep their homes comfortable. We repair, maintain, and install furnaces, air conditioners, heat pumps, boilers, and water heaters, and we explain every option in plain language before any work begins.",
+        "Our licensed technicians show up on time, respect your home, and stand behind every job with a satisfaction guarantee. With free estimates and financing-friendly options, comfort and peace of mind stay within reach, day or night."
+      ],
+      "stats": [
+        {
+          "value": "24/7",
+          "label": "Emergency Service"
+        },
+        {
+          "value": "Free",
+          "label": "Estimates"
+        },
+        {
+          "value": "100%",
+          "label": "Satisfaction Guarantee"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Our Work",
+      "subheading": "A look at the heating and cooling systems we install, repair, and maintain across DeKalb.",
+      "captions": [
+        "Clean, professional furnace installation",
+        "Central air condenser set and ready",
+        "Ductless mini-split for year-round comfort",
+        "Tankless water heater upgrade",
+        "Seasonal tune-up and safety check",
+        "Tidy ductwork and airflow done right"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Homeowners Say",
+      "items": [
+        {
+          "quote": "Our furnace quit on the coldest night of the year and they had us warm again before morning. Fast, friendly, and fair.",
+          "name": "Sarah M.",
+          "role": "DeKalb homeowner"
+        },
+        {
+          "quote": "They installed our new A/C, walked us through every option, and the price was exactly what they quoted. Highly recommend.",
+          "name": "Marcus T.",
+          "role": "Sycamore homeowner"
+        },
+        {
+          "quote": "Signed up for the maintenance plan and it's paid for itself. The tech is always on time and explains everything clearly.",
+          "name": "Linda R.",
+          "role": "DeKalb homeowner"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Serving DeKalb & Surrounding Areas",
+      "addressLabel": "Service Area",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Friday",
+          "time": "7:00 AM - 7:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "8:00 AM - 4:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "Emergency Service Only"
+        },
+        {
+          "day": "Emergencies",
+          "time": "24/7, Day or Night"
+        }
+      ],
+      "phoneLabel": "Get in Touch",
+      "directions": "Based on Wurlitzer Drive in DeKalb, IL, we proudly serve homeowners throughout DeKalb and the surrounding communities. Request a free estimate online and we'll respond fast.",
+      "neighborhood": "Our shop is on Wurlitzer Drive on DeKalb's east side — a street that carries the name of the Wurlitzer company, whose DeKalb factory built pianos for much of the 20th century."
+    },
+    "cta": {
+      "heading": "Ready for Reliable Comfort?",
+      "text": "Tell us what's going on and we'll get back to you fast. Free estimates, financing-friendly options, and 24/7 emergency service whenever you need us.",
+      "button": "Request a Free Estimate"
+    },
+    "form": {
+      "heading": "Request a Free Estimate",
+      "subheading": "Share a few details about your home and what you need. We'll follow up quickly to schedule your service.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Service Needed",
+      "date": "Preferred Date/Time",
+      "message": "How can we help? Describe the issue or system.",
+      "submit": "Request Free Estimate",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Family-owned heating & cooling keeping DeKalb-area homes comfortable, day and night.",
+      "rights": "© DeKalb Mechanical. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "DeKalb Mechanical | Calefacción y Aire Acondicionado en DeKalb, IL",
+      "description": "HVAC familiar y con licencia en DeKalb, IL. Reparación e instalación de calefacción y aire. Emergencias 24/7, cotizaciones gratis y satisfacción garantizada."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Nuestro Trabajo",
+      "visit": "Visítanos",
+      "order": "Cotización Gratis"
+    },
+    "hero": {
+      "eyebrow": "Los Expertos en Confort del Hogar de DeKalb",
+      "title": "Calefacción y Aire",
+      "titleAccent": "Bien Hecho y a Tiempo",
+      "subtitle": "Profesionales de HVAC con licencia y de propiedad familiar que mantienen los hogares de DeKalb cálidos en invierno y frescos todo el verano. Respuesta rápida, precios honestos y servicio de emergencia 24/7 cuando más lo necesitas.",
+      "ctaPrimary": "Ver Servicios",
+      "ctaSecondary": "Pide tu Cotización",
+      "badge": "Con Licencia - Empresa Familiar - Emergencias 24/7"
+    },
+    "highlights": [
+      {
+        "icon": "clock",
+        "title": "Servicio de Emergencia 24/7",
+        "text": "¿Sin calefacción a medianoche? ¿El aire falló en plena ola de calor? Respondemos rápido y devolvemos la comodidad a tu hogar."
+      },
+      {
+        "icon": "flame",
+        "title": "Expertos en Calefacción",
+        "text": "Calderas, hornos y bombas de calor reparados, ajustados e instalados por técnicos con licencia que conocen los inviernos de Illinois."
+      },
+      {
+        "icon": "snowflake",
+        "title": "Especialistas en Aire",
+        "text": "Reparación e instalación de aire acondicionado y mini-splits sin ductos, del tamaño justo para tu hogar y tu presupuesto."
+      },
+      {
+        "icon": "shield",
+        "title": "Con Licencia y Garantía",
+        "text": "Cotizaciones claras de antemano, opciones de financiamiento y satisfacción garantizada en cada trabajo que hacemos."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Los precios mostrados son solo demostrativos e ilustrativos. Cada trabajo comienza con una cotización gratis y sin compromiso.",
+      "categories": [
+        {
+          "id": "heating",
+          "name": "Calefacción",
+          "blurb": "Mantente cálido todo el invierno con servicio confiable de hornos, calderas y bombas de calor.",
+          "items": [
+            {
+              "name": "Reparación de Horno",
+              "desc": "Diagnóstico y reparación rápidos para hornos ruidosos, intermitentes o sin calor.",
+              "price": "Desde $89",
+              "tags": [
+                "popular",
+                "fast"
+              ]
+            },
+            {
+              "name": "Instalación de Horno",
+              "desc": "Reemplazo de horno de alta eficiencia, dimensionado e instalado para tu hogar.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Servicio de Caldera",
+              "desc": "Inspección, reparación y mantenimiento para calderas de agua caliente y vapor.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Servicio de Bomba de Calor",
+              "desc": "Instalación y reparación de bombas de calor que ahorran energía todo el año.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cooling",
+          "name": "Aire Acondicionado",
+          "blurb": "Vence el calor con aire acondicionado confiable y soluciones sin ductos.",
+          "items": [
+            {
+              "name": "Reparación de Aire",
+              "desc": "Soluciones rápidas para aire tibio, fugas, serpentines congelados y unidades que no encienden.",
+              "price": "Desde $89",
+              "tags": [
+                "popular",
+                "fast"
+              ]
+            },
+            {
+              "name": "Instalación de Aire",
+              "desc": "Sistemas nuevos de aire central a la medida de tu hogar para un enfriamiento silencioso y eficiente.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Mini-Split sin Ductos",
+              "desc": "Calefacción y enfriamiento puntual para ampliaciones, garajes y casas antiguas.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Recarga de Refrigerante y Revisión de Fugas",
+              "desc": "Recupera la potencia de enfriamiento y detecta fugas antes de que te cuesten más.",
+              "price": "Desde $129",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "maintenance-plans",
+          "name": "Planes de Mantenimiento",
+          "blurb": "Protege tu sistema y evita fallas sorpresa con cuidado de temporada.",
+          "items": [
+            {
+              "name": "Afinación de Temporada",
+              "desc": "Inspección y limpieza completas para mantener tu calefacción o aire funcionando con eficiencia.",
+              "price": "Desde $99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Combo Primavera y Otoño",
+              "desc": "Dos visitas al año para tu aire y tu horno a un precio combinado.",
+              "price": "Desde $179",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Membresía Prioritaria",
+              "desc": "Citas con prioridad, descuentos para miembros y diagnóstico sin cargo.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Cuidado de Garantía de Sistema Nuevo",
+              "desc": "Mantenimiento programado que mantiene vigente la garantía del fabricante.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "guarantee"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "indoor-air-quality",
+          "name": "Calidad del Aire Interior",
+          "blurb": "Respira mejor con aire interior más limpio, saludable y equilibrado.",
+          "items": [
+            {
+              "name": "Mejora de Filtros",
+              "desc": "Filtros de alta eficiencia y de medio que atrapan más polvo y alérgenos.",
+              "price": "Desde $49",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Humidificador para Toda la Casa",
+              "desc": "Vence los inviernos secos de Illinois con humedad equilibrada en cada habitación.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Limpieza de Ductos",
+              "desc": "Elimina el polvo y los residuos acumulados para un aire más limpio y mejor flujo.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Purificador de Aire y UV",
+              "desc": "Filtración avanzada y sistemas UV que reducen gérmenes y olores.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "water-heaters",
+          "name": "Calentadores de Agua",
+          "blurb": "Agua caliente confiable con reparación, reemplazo y opciones sin tanque.",
+          "items": [
+            {
+              "name": "Reparación de Calentador",
+              "desc": "Soluciona la falta de agua caliente, fugas y problemas de piloto o resistencia, rápido.",
+              "price": "Desde $89",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Instalación de Calentador con Tanque",
+              "desc": "Reemplazo confiable y bien dimensionado para agua caliente constante en casa.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Instalación sin Tanque",
+              "desc": "Agua caliente ilimitada bajo demanda con un sistema sin tanque que ahorra espacio.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Lavado y Mantenimiento",
+              "desc": "Lavado e inspección anual para alargar la vida de tu calentador de agua.",
+              "price": "Desde $129",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Tus Vecinos en Confort del Hogar",
+      "lead": "DeKalb Mechanical es una empresa familiar de calefacción y aire construida sobre la respuesta rápida, el trabajo honesto y tratar tu hogar como el nuestro.",
+      "paragraphs": [
+        "Desde la primera helada hasta la semana más calurosa del verano, los hogares de DeKalb cuentan con nosotros desde 1991 para mantenerse cómodos. Reparamos, mantenemos e instalamos hornos, aires acondicionados, bombas de calor, calderas y calentadores de agua, y explicamos cada opción en palabras claras antes de empezar cualquier trabajo.",
+        "Nuestros técnicos con licencia llegan a tiempo, respetan tu hogar y respaldan cada trabajo con satisfacción garantizada. Con cotizaciones gratis y opciones de financiamiento, la comodidad y la tranquilidad están a tu alcance, de día o de noche."
+      ],
+      "stats": [
+        {
+          "value": "24/7",
+          "label": "Servicio de Emergencia"
+        },
+        {
+          "value": "Gratis",
+          "label": "Cotizaciones"
+        },
+        {
+          "value": "100%",
+          "label": "Satisfacción Garantizada"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Nuestro Trabajo",
+      "subheading": "Un vistazo a los sistemas de calefacción y aire que instalamos, reparamos y mantenemos en todo DeKalb.",
+      "captions": [
+        "Instalación de horno limpia y profesional",
+        "Condensador de aire central listo para usar",
+        "Mini-split sin ductos para confort todo el año",
+        "Mejora a calentador de agua sin tanque",
+        "Afinación de temporada y revisión de seguridad",
+        "Ductos ordenados y flujo de aire bien hecho"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen los Hogares de DeKalb",
+      "items": [
+        {
+          "quote": "Nuestro horno falló en la noche más fría del año y nos tuvieron calientes otra vez antes del amanecer. Rápidos, amables y justos.",
+          "name": "Sarah M.",
+          "role": "Propietaria en DeKalb"
+        },
+        {
+          "quote": "Instalaron nuestro aire nuevo, nos explicaron cada opción y el precio fue exactamente el que cotizaron. Muy recomendados.",
+          "name": "Marcus T.",
+          "role": "Propietario en Sycamore"
+        },
+        {
+          "quote": "Me inscribí en el plan de mantenimiento y ya se pagó solo. El técnico siempre llega a tiempo y explica todo con claridad.",
+          "name": "Linda R.",
+          "role": "Propietaria en DeKalb"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Servimos a DeKalb y Áreas Cercanas",
+      "addressLabel": "Área de Servicio",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Viernes",
+          "time": "7:00 AM - 7:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "8:00 AM - 4:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "Solo Emergencias"
+        },
+        {
+          "day": "Emergencias",
+          "time": "24/7, de Día o de Noche"
+        }
+      ],
+      "phoneLabel": "Contáctanos",
+      "directions": "Ubicados en Wurlitzer Drive en DeKalb, IL, servimos con orgullo a los hogares de DeKalb y las comunidades cercanas. Solicita una cotización gratis en línea y te responderemos rápido.",
+      "neighborhood": "Nuestro taller está en Wurlitzer Drive, en el lado este de DeKalb — una calle que lleva el nombre de la compañía Wurlitzer, cuya fábrica en DeKalb produjo pianos durante gran parte del siglo XX."
+    },
+    "cta": {
+      "heading": "¿Listo para un Confort Confiable?",
+      "text": "Cuéntanos qué está pasando y te responderemos rápido. Cotizaciones gratis, opciones de financiamiento y servicio de emergencia 24/7 cuando nos necesites.",
+      "button": "Pide tu Cotización"
+    },
+    "form": {
+      "heading": "Pide tu Cotización",
+      "subheading": "Comparte algunos detalles sobre tu hogar y lo que necesitas. Te contactaremos pronto para programar tu servicio.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Servicio que Necesitas",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo podemos ayudarte? Describe el problema o el sistema.",
+      "submit": "Pedir Cotización",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Calefacción y aire de propiedad familiar que mantienen cómodos los hogares de DeKalb, de día y de noche.",
+      "rights": "© DeKalb Mechanical. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

@@ -1,0 +1,666 @@
+{
+  "business": {
+    "name": "MVP Sports Bar",
+    "shortName": "MVP",
+    "vertical": "Sports Bar & Grill",
+    "phone": "",
+    "phoneHref": "",
+    "address": "124 South California Street",
+    "city": "Sycamore",
+    "state": "IL",
+    "zip": "60178",
+    "mapsQuery": "MVP Sports Bar, 124 South California Street, Sycamore, IL 60178",
+    "lat": 41.9881872,
+    "lon": -88.688215
+  },
+  "en": {
+    "meta": {
+      "title": "MVP Sports Bar | Wings, Beer & Every Game in Sycamore, IL",
+      "description": "Sycamore's home for game day. Jumbo wings, cold beer buckets, big screens, and every game on. Family-friendly sports bar & grill on California St."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Catch the Game"
+    },
+    "hero": {
+      "eyebrow": "Sycamore's Game-Day Headquarters",
+      "title": "Every Game On.",
+      "titleAccent": "Cold Beer & Jumbo Wings.",
+      "subtitle": "Big screens in every direction, ice-cold beer buckets, and wings worth shouting about. MVP Sports Bar is where Sycamore fans, families, and game-day crews come to win the day.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Plan Your Visit",
+      "badge": "Every Game On · Big Screens Everywhere · Family-Friendly"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Jumbo Wings & Hot Apps",
+        "text": "Crispy jumbo wings tossed in your favorite sauce, loaded fries, gooey mozz sticks, and nachos built to share."
+      },
+      {
+        "icon": "star",
+        "title": "Every Game On",
+        "text": "Big screens in every direction with the sound up on the big games. Whatever your team, you'll catch it here."
+      },
+      {
+        "icon": "gauge",
+        "title": "Game-Day Energy",
+        "text": "Cold beer buckets, fast service, and a buzzing crowd. Roll in with your crew and the vibe is already on."
+      },
+      {
+        "icon": "heart",
+        "title": "Fans & Families Welcome",
+        "text": "Loud, fun, and friendly. Bring the whole crew, the kids, or the team. There's a seat and a screen for everyone."
+      }
+    ],
+    "menu": {
+      "heading": "The Lineup",
+      "subheading": "Menu items and prices shown are illustrative demo content for this sample site. Stop in to see our current menu, specials, and game-day features.",
+      "categories": [
+        {
+          "id": "wings-apps",
+          "name": "Wings & Apps",
+          "blurb": "The starters that win the table, built for sharing and made for game day.",
+          "items": [
+            {
+              "name": "Jumbo Wings (10)",
+              "desc": "Plump, crispy jumbo wings tossed in your choice of buffalo, BBQ, garlic parm, or mango habanero.",
+              "price": "$13.99",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Loaded Nachos",
+              "desc": "A mountain of tortilla chips piled with melted cheese, jalapeños, pico, and sour cream. Add chicken or beef.",
+              "price": "$11.99",
+              "tags": []
+            },
+            {
+              "name": "Mozzarella Sticks",
+              "desc": "Golden, hand-breaded mozzarella fried crispy and served with warm marinara.",
+              "price": "$8.99",
+              "tags": []
+            },
+            {
+              "name": "Loaded Fries",
+              "desc": "Crispy fries smothered in melted cheese, bacon, and scallions with a side of ranch.",
+              "price": "$9.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Boneless Wings (12)",
+              "desc": "Crispy boneless bites tossed in your favorite sauce and stacked high for the table.",
+              "price": "$11.99",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "burgers-sandwiches",
+          "name": "Burgers & Sandwiches",
+          "blurb": "Big, juicy handhelds served with fries. Built to fuel the whole game.",
+          "items": [
+            {
+              "name": "The MVP Burger",
+              "desc": "A half-pound smashed patty with American cheese, bacon, lettuce, tomato, and house sauce on a toasted bun.",
+              "price": "$13.99",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Classic Cheeseburger",
+              "desc": "A juicy char-grilled patty with melted cheddar, pickles, onion, and the works on a brioche bun.",
+              "price": "$11.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Crispy Chicken Sandwich",
+              "desc": "Hand-breaded crispy chicken breast with pickles and creamy slaw on a buttery bun.",
+              "price": "$12.49",
+              "tags": []
+            },
+            {
+              "name": "Buffalo Chicken Wrap",
+              "desc": "Crispy buffalo chicken with lettuce, tomato, cheese, and ranch wrapped up and grilled.",
+              "price": "$11.49",
+              "tags": []
+            },
+            {
+              "name": "Pulled Pork Sandwich",
+              "desc": "Slow-cooked pulled pork piled high with tangy BBQ sauce and crispy onion straws.",
+              "price": "$12.99",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "game-day-platters",
+          "name": "Game-Day Platters",
+          "blurb": "Shareable combos and sliders built to feed the whole crew through overtime.",
+          "items": [
+            {
+              "name": "MVP Sampler Platter",
+              "desc": "Jumbo wings, mozzarella sticks, loaded fries, and boneless bites all on one big shareable platter.",
+              "price": "$24.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Slider Trio",
+              "desc": "Three juicy cheeseburger sliders stacked with pickles and house sauce, served with fries.",
+              "price": "$13.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Wing Bucket (24)",
+              "desc": "Two dozen jumbo wings tossed in up to three sauces. The ultimate crew-sized order.",
+              "price": "$29.99",
+              "tags": []
+            },
+            {
+              "name": "Game-Day Combo for Four",
+              "desc": "Wings, sliders, loaded nachos, and a basket of fries. Everything the table needs in one combo.",
+              "price": "$39.99",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "drinks",
+          "name": "Drinks",
+          "blurb": "Cold beer buckets, ice-cold drafts, and game-day cocktails to keep the table going.",
+          "items": [
+            {
+              "name": "Beer Bucket (5)",
+              "desc": "Five ice-cold domestic bottles packed on ice and ready for the table.",
+              "price": "$22.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Draft Beer",
+              "desc": "Rotating taps of cold domestic and craft drafts. Ask your server what's pouring today.",
+              "price": "$5.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "House Margarita",
+              "desc": "Tequila, fresh lime, and orange liqueur shaken and served on the rocks with a salted rim.",
+              "price": "$8.99",
+              "tags": []
+            },
+            {
+              "name": "Game-Day Bloody Mary",
+              "desc": "A bold, savory Bloody Mary loaded with garnishes. The perfect kickoff cocktail.",
+              "price": "$9.49",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Soft Drinks & Iced Tea",
+              "desc": "Free refills on fountain sodas, lemonade, and fresh-brewed iced tea.",
+              "price": "$2.99",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Sycamore's Spot for Game Day",
+      "lead": "MVP Sports Bar is where Sycamore comes together for big games, cold beer, jumbo wings, and a crowd that always brings the energy.",
+      "paragraphs": [
+        "Step inside and there's a screen wherever you look, the sound up on the big games, and a buzzing crowd of fans cheering on their teams. Whether you're rolling in with the whole crew, grabbing a family dinner, or catching the away game you can't watch anywhere else, MVP Sports Bar has a seat for you.",
+        "We keep it simple: every game on, ice-cold beer buckets, wings worth shouting about, and shareable platters built to feed the table. Loud, fun, and welcoming since 2004, MVP Sports Bar is your home field on California Street in downtown Sycamore — and when the sun's out, the rooftop, the county's only open-air rooftop seating, is the best seat in the house."
+      ],
+      "stats": [
+        {
+          "value": "Every",
+          "label": "Game On"
+        },
+        {
+          "value": "Big",
+          "label": "Screens Everywhere"
+        },
+        {
+          "value": "Ice-Cold",
+          "label": "Beer Buckets"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Game Day at MVP Sports Bar",
+      "subheading": "A look at the wings, the screens, the buckets, and the crowd that make MVP Sports Bar the place to be.",
+      "captions": [
+        "Crispy jumbo wings tossed and ready to share",
+        "Big screens lighting up every wall on game day",
+        "Ice-cold beer buckets packed for the table",
+        "The MVP sampler platter built for the whole crew",
+        "A packed house cheering on the big game",
+        "Sliders, nachos, and loaded fries all around"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Sycamore Is Saying",
+      "items": [
+        {
+          "quote": "Our go-to for every Bears game. The wings are huge, the beer is ice cold, and you can catch every game on the screens. The energy is unbeatable.",
+          "name": "Tyler M.",
+          "role": "Game-day regular"
+        },
+        {
+          "quote": "We bring the whole family here on weekends. Loud and fun but still welcoming for the kids, and the sampler platter feeds everyone.",
+          "name": "Christina R.",
+          "role": "Sycamore local"
+        },
+        {
+          "quote": "Best spot in town to watch the away games with friends. Grab a beer bucket, order some wings, and you're set for the whole night.",
+          "name": "Marcus D.",
+          "role": "Sports fan"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Sycamore",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "11:00 AM - 12:00 AM"
+        },
+        {
+          "day": "Friday - Saturday",
+          "time": "11:00 AM - 2:00 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM - 9:00 PM"
+        }
+      ],
+      "phoneLabel": "Plan Your Visit",
+      "directions": "Find us at 124 South California Street in downtown Sycamore, IL. Bring your crew, grab a table near the big screens, and catch every game. Use the form to plan your visit or ask about big groups.",
+      "neighborhood": "We're on South California Street in Sycamore's historic downtown, just off State Street and a short walk from the 1905 DeKalb County Courthouse, whose lawn fills with thousands of decorated pumpkins during the Sycamore Pumpkin Festival each October."
+    },
+    "cta": {
+      "heading": "Game On? Grab Your Table.",
+      "text": "Round up the crew and head to MVP Sports Bar for every game, cold beer buckets, and jumbo wings. Use the form to plan your visit or reserve space for the big group.",
+      "button": "Plan Your Visit"
+    },
+    "form": {
+      "heading": "Plan Your Visit",
+      "subheading": "Bringing a big group for the game? Got a question about reservations or the menu? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Party Size",
+      "date": "Preferred Date/Time",
+      "message": "Which game are you coming for? Tell us about your visit or group.",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We received your message and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Sycamore's home for game day. Every game on, cold beer buckets, and jumbo wings for fans, families, and crews.",
+      "rights": "© MVP Sports Bar. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "MVP Sports Bar | Alitas, Cerveza y Todos los Partidos en Sycamore, IL",
+      "description": "El hogar del día de partido en Sycamore. Alitas jumbo, cubetas de cerveza fría, pantallas gigantes y todos los partidos. Bar deportivo y grill familiar."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Ver el Partido"
+    },
+    "hero": {
+      "eyebrow": "El Cuartel del Día de Partido en Sycamore",
+      "title": "Todos los Partidos.",
+      "titleAccent": "Cerveza Fría y Alitas Jumbo.",
+      "subtitle": "Pantallas gigantes por todos lados, cubetas de cerveza bien fría y alitas que dan de qué hablar. MVP Sports Bar es donde los aficionados, las familias y los grupos de Sycamore vienen a ganar el día.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Planea tu Visita",
+      "badge": "Todos los Partidos · Pantallas por Todos Lados · Ambiente Familiar"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Alitas Jumbo y Entradas Calientes",
+        "text": "Alitas jumbo crujientes bañadas en tu salsa favorita, papas cargadas, palitos de mozzarella derretidos y nachos para compartir."
+      },
+      {
+        "icon": "star",
+        "title": "Todos los Partidos",
+        "text": "Pantallas gigantes por todos lados con el sonido a tope en los grandes partidos. Sea cual sea tu equipo, aquí lo ves."
+      },
+      {
+        "icon": "gauge",
+        "title": "Energía de Día de Partido",
+        "text": "Cubetas de cerveza fría, servicio rápido y un ambiente vibrante. Llega con tu grupo y la fiesta ya está prendida."
+      },
+      {
+        "icon": "heart",
+        "title": "Aficionados y Familias Bienvenidos",
+        "text": "Ruidoso, divertido y acogedor. Trae a todo el grupo, a los niños o al equipo. Hay lugar y pantalla para todos."
+      }
+    ],
+    "menu": {
+      "heading": "La Alineación",
+      "subheading": "Los platillos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Visítanos para ver nuestro menú actual, especiales y novedades de día de partido.",
+      "categories": [
+        {
+          "id": "wings-apps",
+          "name": "Alitas y Entradas",
+          "blurb": "Las entradas que conquistan la mesa, hechas para compartir y para el día de partido.",
+          "items": [
+            {
+              "name": "Alitas Jumbo (10)",
+              "desc": "Alitas jumbo gorditas y crujientes bañadas en buffalo, BBQ, ajo parmesano o mango habanero a tu elección.",
+              "price": "$13.99",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Nachos Cargados",
+              "desc": "Una montaña de totopos cubiertos de queso derretido, jalapeños, pico de gallo y crema. Agrega pollo o res.",
+              "price": "$11.99",
+              "tags": []
+            },
+            {
+              "name": "Palitos de Mozzarella",
+              "desc": "Mozzarella empanizada a mano, frita y dorada, servida con marinara caliente.",
+              "price": "$8.99",
+              "tags": []
+            },
+            {
+              "name": "Papas Cargadas",
+              "desc": "Papas crujientes cubiertas de queso derretido, tocino y cebollín con ranch a un lado.",
+              "price": "$9.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Alitas sin Hueso (12)",
+              "desc": "Bocados crujientes sin hueso bañados en tu salsa favorita y apilados para la mesa.",
+              "price": "$11.99",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "burgers-sandwiches",
+          "name": "Hamburguesas y Sándwiches",
+          "blurb": "Grandes y jugosos, servidos con papas. Hechos para aguantar todo el partido.",
+          "items": [
+            {
+              "name": "La Hamburguesa MVP",
+              "desc": "Carne aplastada de media libra con queso americano, tocino, lechuga, tomate y salsa de la casa en pan tostado.",
+              "price": "$13.99",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Hamburguesa con Queso Clásica",
+              "desc": "Jugosa carne a la parrilla con queso cheddar derretido, pepinillos, cebolla y todo lo demás en pan brioche.",
+              "price": "$11.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Sándwich de Pollo Crujiente",
+              "desc": "Pechuga de pollo empanizada a mano y crujiente con pepinillos y ensalada cremosa en pan mantecoso.",
+              "price": "$12.49",
+              "tags": []
+            },
+            {
+              "name": "Wrap de Pollo Buffalo",
+              "desc": "Pollo buffalo crujiente con lechuga, tomate, queso y ranch envuelto y dorado a la plancha.",
+              "price": "$11.49",
+              "tags": []
+            },
+            {
+              "name": "Sándwich de Cerdo Desmenuzado",
+              "desc": "Cerdo desmenuzado cocido a fuego lento, bien cargado con salsa BBQ y cebolla crujiente.",
+              "price": "$12.99",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "game-day-platters",
+          "name": "Platillos de Día de Partido",
+          "blurb": "Combos para compartir y sliders hechos para alimentar a todo el grupo hasta el tiempo extra.",
+          "items": [
+            {
+              "name": "Tabla Variada MVP",
+              "desc": "Alitas jumbo, palitos de mozzarella, papas cargadas y bocados sin hueso, todo en una gran tabla para compartir.",
+              "price": "$24.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Trío de Sliders",
+              "desc": "Tres jugosas mini hamburguesas con queso, pepinillos y salsa de la casa, servidas con papas.",
+              "price": "$13.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Cubeta de Alitas (24)",
+              "desc": "Dos docenas de alitas jumbo bañadas hasta en tres salsas. El pedido definitivo para el grupo.",
+              "price": "$29.99",
+              "tags": []
+            },
+            {
+              "name": "Combo de Día de Partido para Cuatro",
+              "desc": "Alitas, sliders, nachos cargados y una canasta de papas. Todo lo que la mesa necesita en un combo.",
+              "price": "$39.99",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "drinks",
+          "name": "Bebidas",
+          "blurb": "Cubetas de cerveza fría, cervezas de barril bien heladas y cócteles de día de partido para mantener la mesa.",
+          "items": [
+            {
+              "name": "Cubeta de Cerveza (5)",
+              "desc": "Cinco cervezas nacionales bien frías en botella, sobre hielo y listas para la mesa.",
+              "price": "$22.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Cerveza de Barril",
+              "desc": "Grifos rotativos de cerveza nacional y artesanal bien fría. Pregunta a tu mesero qué hay hoy.",
+              "price": "$5.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Margarita de la Casa",
+              "desc": "Tequila, jugo de limón fresco y licor de naranja agitados y servidos en las rocas con borde de sal.",
+              "price": "$8.99",
+              "tags": []
+            },
+            {
+              "name": "Bloody Mary de Día de Partido",
+              "desc": "Un Bloody Mary intenso y sabroso cargado de aderezos. El cóctel perfecto para el saque inicial.",
+              "price": "$9.49",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Refrescos y Té Helado",
+              "desc": "Refills gratis en refrescos de fuente, limonada y té helado recién preparado.",
+              "price": "$2.99",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "El Lugar de Sycamore para el Día de Partido",
+      "lead": "MVP Sports Bar es donde Sycamore se reúne para los grandes partidos, la cerveza fría, las alitas jumbo y una multitud que siempre trae la energía.",
+      "paragraphs": [
+        "Entra y hay una pantalla por donde mires, el sonido a tope en los grandes partidos y un ambiente vibrante de aficionados animando a sus equipos. Ya sea que llegues con todo el grupo, busques una cena en familia o quieras ver el partido de visitante que no puedes ver en ningún otro lado, MVP Sports Bar tiene un lugar para ti.",
+        "Lo mantenemos sencillo: todos los partidos, cubetas de cerveza bien fría, alitas que dan de qué hablar y platillos para compartir hechos para alimentar la mesa. Ruidoso, divertido y acogedor desde 2004, MVP Sports Bar es tu cancha local en California Street, en el centro de Sycamore — y cuando sale el sol, la terraza en la azotea, la única al aire libre del condado, es el mejor asiento de la casa."
+      ],
+      "stats": [
+        {
+          "value": "Todos",
+          "label": "los Partidos"
+        },
+        {
+          "value": "Pantallas",
+          "label": "por Todos Lados"
+        },
+        {
+          "value": "Bien Fría",
+          "label": "Cubeta de Cerveza"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Día de Partido en MVP Sports Bar",
+      "subheading": "Un vistazo a las alitas, las pantallas, las cubetas y la multitud que hacen de MVP Sports Bar el lugar para estar.",
+      "captions": [
+        "Alitas jumbo crujientes bañadas y listas para compartir",
+        "Pantallas gigantes iluminando cada pared en día de partido",
+        "Cubetas de cerveza bien fría listas para la mesa",
+        "La tabla variada MVP hecha para todo el grupo",
+        "Un lugar a reventar animando el gran partido",
+        "Sliders, nachos y papas cargadas por todas partes"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice Sycamore",
+      "items": [
+        {
+          "quote": "Nuestro lugar de cabecera para cada partido de los Bears. Las alitas son enormes, la cerveza está bien fría y puedes ver todos los partidos en las pantallas. La energía es inigualable.",
+          "name": "Tyler M.",
+          "role": "Cliente de día de partido"
+        },
+        {
+          "quote": "Traemos a toda la familia los fines de semana. Ruidoso y divertido pero acogedor para los niños, y la tabla variada alcanza para todos.",
+          "name": "Christina R.",
+          "role": "Local de Sycamore"
+        },
+        {
+          "quote": "El mejor lugar del pueblo para ver los partidos de visitante con amigos. Pide una cubeta de cerveza, unas alitas y ya estás listo para toda la noche.",
+          "name": "Marcus D.",
+          "role": "Aficionado deportivo"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en Sycamore",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "11:00 AM - 12:00 AM"
+        },
+        {
+          "day": "Viernes - Sábado",
+          "time": "11:00 AM - 2:00 AM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM - 9:00 PM"
+        }
+      ],
+      "phoneLabel": "Planea tu Visita",
+      "directions": "Encuéntranos en 124 South California Street en el centro de Sycamore, IL. Trae a tu grupo, agarra una mesa cerca de las pantallas gigantes y mira todos los partidos. Usa el formulario para planear tu visita o preguntar por grupos grandes.",
+      "neighborhood": "Estamos en South California Street, en el centro histórico de Sycamore, a unos pasos de State Street y a corta caminata del Tribunal del Condado de DeKalb de 1905, cuyo jardín se llena de miles de calabazas decoradas cada octubre durante el Sycamore Pumpkin Festival."
+    },
+    "cta": {
+      "heading": "¿Listo para el Partido? Agarra tu Mesa.",
+      "text": "Reúne al grupo y vente a MVP Sports Bar para todos los partidos, cubetas de cerveza fría y alitas jumbo. Usa el formulario para planear tu visita o reservar espacio para el grupo grande.",
+      "button": "Planea tu Visita"
+    },
+    "form": {
+      "heading": "Planea tu Visita",
+      "subheading": "¿Vienes con un grupo grande al partido? ¿Tienes una pregunta sobre reservaciones o el menú? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Para qué partido vienes? Cuéntanos sobre tu visita o grupo.",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "El hogar del día de partido en Sycamore. Todos los partidos, cubetas de cerveza fría y alitas jumbo para aficionados, familias y grupos.",
+      "rights": "© MVP Sports Bar. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

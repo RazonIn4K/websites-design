@@ -1,0 +1,16 @@
+{
+  "concept": "Pottery Bayou Studio Splash — a cheerful turquoise glaze primary paired with a sunny yellow accent and a coral pop, on bright warm off-white backgrounds with friendly charcoal ink. Playful, colorful and welcoming, it frames vibrant painted pottery without competing with it.",
+  "vars": {
+    "--color-bg": "#FFFBF4",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#FFF3E0",
+    "--color-ink": "#2B2A33",
+    "--color-ink-soft": "#5C5560",
+    "--color-primary": "#0C817B",
+    "--color-primary-dark": "#0A6E69",
+    "--color-secondary": "#E5543C",
+    "--color-accent": "#FFC233",
+    "--color-line": "#ECE2D4"
+  },
+  "contrastNotes": "All required ratios pass WCAG-AA. ink #2B2A33 on bg #FFFBF4 = 13.7:1 (>=7). ink-soft #5C5560 on bg = 6.96:1 (>=4.5). white on primary #0C817B = 4.73:1 (>=4.5). primary on bg = 4.58:1 (>=3). Extras: ink on surface #FFFFFF 14.2:1 and on surface-alt #FFF3E0 12.9:1; white on primary-dark #0A6E69 6.09:1; ink on accent #FFC233 8.78:1 (use ink, not white, on yellow); white on secondary coral #E5543C 3.71:1 (large/bold text or decorative use only)."
+}

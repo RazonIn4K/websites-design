@@ -1,0 +1,16 @@
+{
+  "concept": "A warm rustic-autumn palette pairing a deep apple-red primary and harvest-gold accent over creamy natural backgrounds with earthy espresso-brown ink for a cozy, seasonal, family-friendly orchard feel.",
+  "vars": {
+    "--color-bg": "#FBF6EC",
+    "--color-surface": "#FFFDF8",
+    "--color-surface-alt": "#F4E9D4",
+    "--color-ink": "#3A2417",
+    "--color-ink-soft": "#6E5337",
+    "--color-primary": "#B23218",
+    "--color-primary-dark": "#8A2410",
+    "--color-secondary": "#C0531F",
+    "--color-accent": "#DDA42B",
+    "--color-line": "#E6D6BC"
+  },
+  "contrastNotes": "All WCAG-AA requirements verified. ink #3A2417 on bg #FBF6EC = 13.50:1 (>=7 required). ink-soft #6E5337 on bg = 6.60:1 (>=4.5). White #FFFFFF on primary #B23218 = 6.25:1 and on primary-dark #8A2410 = 8.97:1 (>=4.5 for CTA labels). primary #B23218 on bg = 5.80:1 (>=3). Additional: white on secondary #C0531F = 4.67:1; ink-soft on surface-alt #F4E9D4 = 5.91:1; ink on surface = 14.30:1. Accent #DDA42B is decorative (large/graphic use) and not used for body text."
+}

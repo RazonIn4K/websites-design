@@ -1,0 +1,678 @@
+{
+  "business": {
+    "name": "The Growing Place",
+    "shortName": "Growing Place",
+    "vertical": "Garden Center & Nursery",
+    "phone": "(630) 355-4000",
+    "phoneHref": "+16303554000",
+    "address": "25w471 Plank Road",
+    "city": "Naperville",
+    "state": "IL",
+    "zip": "60563",
+    "mapsQuery": "The Growing Place, 25w471 Plank Road, Naperville, IL 60563"
+  },
+  "en": {
+    "meta": {
+      "title": "The Growing Place | Garden Center & Plant Nursery in Naperville, IL",
+      "description": "Family-owned garden center & nursery in Naperville, IL. Healthy plants, trees, houseplants, soil, decor & honest advice from staff who garden. Call (630) 355-4000."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Shop",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Visit the Nursery"
+    },
+    "hero": {
+      "eyebrow": "Family-Owned Garden Center · Naperville, IL",
+      "title": "Everything You Need",
+      "titleAccent": "To Make Something Grow",
+      "subtitle": "A sprawling, family-owned garden center and nursery where the staff actually garden, acres of healthy plants, honest advice, and everything from your first houseplant to a full backyard, with expert help and delivery available.",
+      "ctaPrimary": "Shop Plants",
+      "ctaSecondary": "Call (630) 355-4000",
+      "badge": "Acres of Healthy Plants · Expert Advice · Delivery Available"
+    },
+    "highlights": [
+      {
+        "icon": "leaf",
+        "title": "Acres of Healthy Plants",
+        "text": "Perennials, annuals, shrubs, trees, and natives grown and cared for on site, so what you take home is ready to thrive in your yard."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Staff Who Actually Garden",
+        "text": "Ask us anything. Our team gardens for real and gives honest, plain-spoken advice on what to plant, where, and how to keep it alive."
+      },
+      {
+        "icon": "droplet",
+        "title": "From First Plant to Full Yard",
+        "text": "Whether it's a single houseplant or a whole backyard makeover, we'll help you pick the right plants and the soil and tools to match."
+      },
+      {
+        "icon": "star",
+        "title": "Delivery Available",
+        "text": "Picked out trees, shrubs, or bags of soil? Ask about local delivery and let us bring the heavy lifting straight to your door."
+      }
+    ],
+    "menu": {
+      "heading": "What's in the Nursery",
+      "subheading": "Departments, items, and prices shown are illustrative demo content for this sample site. Please call or stop in for current selection, seasonal availability, and pricing.",
+      "categories": [
+        {
+          "id": "plants-trees",
+          "name": "Plants & Trees",
+          "blurb": "The heart of the nursery, healthy perennials, annuals, shrubs, trees, and Illinois natives grown and cared for right here on site.",
+          "items": [
+            {
+              "name": "Hardy Perennials",
+              "desc": "Come-back-every-year favorites like coneflower, hosta, and daylily, picked to thrive in our Midwest soil and seasons.",
+              "price": "From $9",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Seasonal Annuals & Flats",
+              "desc": "Bright, season-long color in flats and pots, petunias, marigolds, geraniums, and more for beds, borders, and containers.",
+              "price": "From $6",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Flowering & Foundation Shrubs",
+              "desc": "Hydrangeas, viburnum, boxwood, and other dependable shrubs to anchor your beds and add structure year after year.",
+              "price": "From $29",
+              "tags": []
+            },
+            {
+              "name": "Shade & Ornamental Trees",
+              "desc": "Maples, redbuds, and ornamentals balled or in containers, ready to give your yard shade, blooms, and lasting curb appeal.",
+              "price": "From $89",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Illinois Native Plants",
+              "desc": "Pollinator-friendly natives like milkweed, prairie grasses, and black-eyed Susan that support local birds, bees, and butterflies.",
+              "price": "From $12",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Vegetable & Herb Starts",
+              "desc": "Garden-ready tomato, pepper, and herb starts so you can skip the seed wait and get straight to growing dinner.",
+              "price": "From $5",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "indoor-tropical",
+          "name": "Indoor & Tropical",
+          "blurb": "Greenery for every windowsill, easy houseplants, statement tropicals, low-fuss succulents, and the pots to put them in.",
+          "items": [
+            {
+              "name": "Easy-Care Houseplants",
+              "desc": "Pothos, snake plant, and other forgiving favorites that brighten any room and put up with a missed watering or two.",
+              "price": "From $8",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Statement Tropicals",
+              "desc": "Big, leafy showstoppers like monstera, fiddle-leaf fig, and bird of paradise to bring the jungle indoors.",
+              "price": "From $34",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Succulents & Cacti",
+              "desc": "A whole bench of low-water succulents and cacti, perfect for sunny sills, desks, and the not-so-green thumb.",
+              "price": "From $6",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Pots & Planters",
+              "desc": "Indoor pots in every size and finish, from terracotta classics to glazed ceramics, with drainage and saucers to match.",
+              "price": "From $12",
+              "tags": []
+            },
+            {
+              "name": "Build-Your-Own Terrarium",
+              "desc": "Glass vessels, tiny plants, moss, and stones to put together a little living world for your shelf or desk.",
+              "price": "From $24",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "garden-soil",
+          "name": "Garden & Soil",
+          "blurb": "The stuff that makes things grow, quality soil, mulch, fertilizer, seeds, and the tools to get the job done right.",
+          "items": [
+            {
+              "name": "Potting Soil & Garden Mixes",
+              "desc": "Premium bagged potting mixes and garden soil blended for containers, raised beds, and everything you're putting in the ground.",
+              "price": "From $11",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Mulch & Compost",
+              "desc": "Hardwood mulch, shredded bark, and rich compost by the bag to feed your beds, lock in moisture, and keep weeds down.",
+              "price": "From $7",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Fertilizer & Plant Food",
+              "desc": "Granular and liquid feeds for lawns, flowers, veggies, and trees, plus organic options to keep everything growing strong.",
+              "price": "From $9",
+              "tags": []
+            },
+            {
+              "name": "Seeds & Bulbs",
+              "desc": "Flower, vegetable, and herb seeds plus spring and fall bulbs, with honest advice on what to plant and when around here.",
+              "price": "From $4",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Hand Tools & Gloves",
+              "desc": "Trowels, pruners, gloves, and the everyday tools our staff actually reach for, built to last more than one season.",
+              "price": "From $8",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "decor-gifts",
+          "name": "Decor & Gifts",
+          "blurb": "The finishing touches, decorative planters, garden art, gifts for the plant lover, and seasonal pieces all year round.",
+          "items": [
+            {
+              "name": "Decorative Planters",
+              "desc": "Statement pots and outdoor planters in glazed, stone, and metal finishes to dress up a porch, patio, or front step.",
+              "price": "From $18",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Garden Art & Decor",
+              "desc": "Stakes, stepping stones, wind chimes, and whimsical touches to give your beds and borders a little personality.",
+              "price": "From $14",
+              "tags": []
+            },
+            {
+              "name": "Gifts for Plant Lovers",
+              "desc": "Tools, candles, books, and ready-to-give plant gifts for the gardener in your life, or a treat for yourself.",
+              "price": "From $10",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Seasonal Pieces",
+              "desc": "Fresh decor for every season, spring containers, summer hanging baskets, fall mums, and holiday greens as the year turns.",
+              "price": "From $16",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Family-Owned Garden Center in Naperville",
+      "lead": "The Growing Place is a sprawling, independent garden center and nursery on Plank Road, where the staff actually garden and there's everything you need to make something grow, from your first houseplant to a full backyard.",
+      "paragraphs": [
+        "We're a family-owned nursery, not a big-box garden aisle. That means acres of healthy plants we grow and care for ourselves, perennials, annuals, shrubs, trees, and natives that are ready to thrive when you get them home. It also means honest, plain-spoken advice from people who garden for real and would rather steer you to the right plant than the priciest one.",
+        "Whether you're nursing your very first houseplant or redesigning the whole backyard, we'll help you pick the plants, soil, and tools to match, and we'll be here when you have questions later. Stop in to wander the rows, ask the staff anything, and ask about delivery if you'd rather we bring the heavy stuff to you."
+      ],
+      "stats": [
+        {
+          "value": "Acres",
+          "label": "Of Healthy Plants On Site"
+        },
+        {
+          "value": "Family-Owned",
+          "label": "Independent on Plank Road"
+        },
+        {
+          "value": "Delivery",
+          "label": "Available Around Naperville"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Around the Nursery",
+      "subheading": "A look around the greenhouses, plant rows, and shelves at our family-owned garden center here in Naperville.",
+      "captions": [
+        "Rows of healthy perennials ready for the garden",
+        "Greenhouse benches full of leafy houseplants",
+        "Shade and ornamental trees lined up in the yard",
+        "Bright flats of seasonal annuals in full color",
+        "Bagged soil, mulch, and compost ready to load",
+        "Decorative planters and garden art on the shelves"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Naperville Is Saying",
+      "items": [
+        {
+          "quote": "The staff here actually know their plants. They walked me through what would survive my shady backyard and everything took off. So much better than the big-box stores.",
+          "name": "Diane K.",
+          "role": "Perennials customer"
+        },
+        {
+          "quote": "I came in for one houseplant and left with three and zero regrets. They told me exactly how to keep each one happy. My windowsill has never looked better.",
+          "name": "Marcus T.",
+          "role": "Houseplant regular"
+        },
+        {
+          "quote": "We redid our whole front yard with their help, shrubs, trees, soil, the works. They even delivered the heavy stuff. Honest advice and healthy plants every time.",
+          "name": "Rosa M.",
+          "role": "Backyard project customer"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit Us in Naperville",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Friday",
+          "time": "9:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "10:00 AM - 4:00 PM"
+        }
+      ],
+      "phoneLabel": "Plant Advice & Delivery",
+      "directions": "Find us at 25w471 Plank Road in Naperville. Come wander the rows and greenhouses, ask the staff anything, or call ahead and we'll help you plan your garden and arrange delivery."
+    },
+    "cta": {
+      "heading": "Come Grow Something With Us",
+      "text": "From your first houseplant to a full backyard, our gardeners are here with healthy plants and honest advice. Stop in, or give us a call and we'll help you get growing.",
+      "button": "Call (630) 355-4000"
+    },
+    "form": {
+      "heading": "Ask Our Gardeners",
+      "subheading": "Planning a garden, hunting for the right plant, or wondering about delivery? Tell us what you have in mind and our staff will get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "What You're Growing",
+      "date": "Preferred Visit Date",
+      "message": "Tell us about your project, your space, sun and shade, and what you're hoping to grow.",
+      "submit": "Send Question",
+      "sending": "Sending...",
+      "success": "Thanks! We received your question and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your question. No spam, ever."
+    },
+    "footer": {
+      "tagline": "A family-owned garden center and nursery in Naperville, acres of healthy plants, honest advice, and everything you need to make something grow.",
+      "rights": "© The Growing Place. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "The Growing Place | Vivero y Centro de Jardinería en Naperville, IL",
+      "description": "Vivero y centro de jardinería familiar en Naperville, IL. Plantas sanas, árboles, plantas de interior, tierra, decoración y consejos honestos. Llama al (630) 355-4000."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Tienda",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Visítanos"
+    },
+    "hero": {
+      "eyebrow": "Centro de Jardinería Familiar · Naperville, IL",
+      "title": "Todo Lo Que Necesitas",
+      "titleAccent": "Para Hacer Crecer Algo",
+      "subtitle": "Un amplio vivero y centro de jardinería familiar donde el personal de verdad cultiva, acres de plantas sanas, consejos honestos y todo desde tu primera planta de interior hasta un jardín completo, con ayuda experta y entrega disponible.",
+      "ctaPrimary": "Ver Plantas",
+      "ctaSecondary": "Llamar al (630) 355-4000",
+      "badge": "Acres de Plantas Sanas · Consejos Expertos · Entrega Disponible"
+    },
+    "highlights": [
+      {
+        "icon": "leaf",
+        "title": "Acres de Plantas Sanas",
+        "text": "Perennes, anuales, arbustos, árboles y plantas nativas cultivadas y cuidadas aquí mismo, para que lo que te lleves esté listo para prosperar en tu jardín."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Personal Que Sí Cultiva",
+        "text": "Pregúntanos lo que sea. Nuestro equipo cultiva de verdad y da consejos honestos y claros sobre qué plantar, dónde y cómo mantenerlo vivo."
+      },
+      {
+        "icon": "droplet",
+        "title": "De La Primera Planta Al Jardín Entero",
+        "text": "Ya sea una sola planta de interior o un patio completo, te ayudamos a elegir las plantas correctas y la tierra y herramientas que combinen."
+      },
+      {
+        "icon": "star",
+        "title": "Entrega Disponible",
+        "text": "¿Elegiste árboles, arbustos o sacos de tierra? Pregunta por la entrega local y deja que llevemos lo pesado directo a tu puerta."
+      }
+    ],
+    "menu": {
+      "heading": "Lo Que Hay en el Vivero",
+      "subheading": "Los departamentos, artículos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Llámanos o visítanos para conocer la selección actual, la disponibilidad de temporada y los precios.",
+      "categories": [
+        {
+          "id": "plants-trees",
+          "name": "Plantas y Árboles",
+          "blurb": "El corazón del vivero, perennes, anuales, arbustos, árboles y plantas nativas de Illinois sanas, cultivadas y cuidadas aquí mismo.",
+          "items": [
+            {
+              "name": "Plantas Perennes Resistentes",
+              "desc": "Favoritas que vuelven cada año como la equinácea, la hosta y la azucena, elegidas para prosperar en nuestra tierra y clima del Medio Oeste.",
+              "price": "Desde $9",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Anuales de Temporada y Bandejas",
+              "desc": "Color brillante de toda la temporada en bandejas y macetas, petunias, caléndulas, geranios y más para canteros, bordes y macetas.",
+              "price": "Desde $6",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Arbustos de Flor y de Base",
+              "desc": "Hortensias, viburno, boj y otros arbustos confiables para anclar tus canteros y dar estructura año tras año.",
+              "price": "Desde $29",
+              "tags": []
+            },
+            {
+              "name": "Árboles de Sombra y Ornamentales",
+              "desc": "Arces, ciclamores y ornamentales en cepellón o en maceta, listos para dar sombra, flores y atractivo duradero a tu jardín.",
+              "price": "Desde $89",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Plantas Nativas de Illinois",
+              "desc": "Nativas amigables con los polinizadores como el algodoncillo, pastos de pradera y rudbeckia que apoyan a aves, abejas y mariposas locales.",
+              "price": "Desde $12",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Plántulas de Verduras y Hierbas",
+              "desc": "Plántulas de tomate, pimiento y hierbas listas para el jardín, para saltarte la espera de la semilla e ir directo a cultivar la cena.",
+              "price": "Desde $5",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "indoor-tropical",
+          "name": "Interior y Tropicales",
+          "blurb": "Verdor para cada ventana, plantas de interior fáciles, tropicales de impacto, suculentas sin complicaciones y las macetas para ponerlas.",
+          "items": [
+            {
+              "name": "Plantas de Interior Fáciles",
+              "desc": "Potos, lengua de suegra y otras favoritas indulgentes que alegran cualquier cuarto y aguantan un riego olvidado o dos.",
+              "price": "Desde $8",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Tropicales de Impacto",
+              "desc": "Grandes protagonistas de hojas frondosas como la monstera, el ficus lira y la ave del paraíso para traer la selva adentro.",
+              "price": "Desde $34",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Suculentas y Cactus",
+              "desc": "Toda una mesa de suculentas y cactus de poco riego, perfectos para ventanas soleadas, escritorios y la mano no tan verde.",
+              "price": "Desde $6",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Macetas y Jardineras",
+              "desc": "Macetas de interior en todo tamaño y acabado, de los clásicos de terracota a las cerámicas esmaltadas, con drenaje y platos a juego.",
+              "price": "Desde $12",
+              "tags": []
+            },
+            {
+              "name": "Arma Tu Propio Terrario",
+              "desc": "Recipientes de vidrio, plantitas, musgo y piedras para armar un pequeño mundo vivo para tu repisa o escritorio.",
+              "price": "Desde $24",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "garden-soil",
+          "name": "Jardín y Tierra",
+          "blurb": "Lo que hace crecer las cosas, tierra de calidad, mantillo, fertilizante, semillas y las herramientas para hacer bien el trabajo.",
+          "items": [
+            {
+              "name": "Tierra para Macetas y Mezclas",
+              "desc": "Mezclas premium en saco para macetas y tierra de jardín combinadas para macetas, canteros elevados y todo lo que vas a sembrar.",
+              "price": "Desde $11",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Mantillo y Composta",
+              "desc": "Mantillo de madera dura, corteza triturada y composta rica por saco para nutrir tus canteros, retener humedad y frenar la maleza.",
+              "price": "Desde $7",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Fertilizante y Alimento Vegetal",
+              "desc": "Abonos granulares y líquidos para césped, flores, verduras y árboles, además de opciones orgánicas para que todo crezca fuerte.",
+              "price": "Desde $9",
+              "tags": []
+            },
+            {
+              "name": "Semillas y Bulbos",
+              "desc": "Semillas de flores, verduras y hierbas, más bulbos de primavera y otoño, con consejos honestos sobre qué plantar y cuándo por aquí.",
+              "price": "Desde $4",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Herramientas de Mano y Guantes",
+              "desc": "Palas, tijeras de podar, guantes y las herramientas que nuestro personal de verdad usa, hechas para durar más de una temporada.",
+              "price": "Desde $8",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "decor-gifts",
+          "name": "Decoración y Regalos",
+          "blurb": "Los toques finales, jardineras decorativas, arte de jardín, regalos para el amante de las plantas y piezas de temporada todo el año.",
+          "items": [
+            {
+              "name": "Jardineras Decorativas",
+              "desc": "Macetas y jardineras de exterior de impacto en acabados esmaltados, de piedra y metal para vestir un porche, patio o escalón de entrada.",
+              "price": "Desde $18",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Arte y Decoración de Jardín",
+              "desc": "Estacas, losas de paso, campanas de viento y toques caprichosos para darle un poco de personalidad a tus canteros y bordes.",
+              "price": "Desde $14",
+              "tags": []
+            },
+            {
+              "name": "Regalos para Amantes de Plantas",
+              "desc": "Herramientas, velas, libros y regalos de plantas listos para obsequiar al jardinero de tu vida, o un gusto para ti mismo.",
+              "price": "Desde $10",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Piezas de Temporada",
+              "desc": "Decoración fresca para cada estación, macetas de primavera, canastas colgantes de verano, crisantemos de otoño y verdes navideños al cambiar el año.",
+              "price": "Desde $16",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Un Centro de Jardinería Familiar en Naperville",
+      "lead": "The Growing Place es un amplio vivero y centro de jardinería independiente en Plank Road, donde el personal de verdad cultiva y hay todo lo que necesitas para hacer crecer algo, desde tu primera planta de interior hasta un jardín completo.",
+      "paragraphs": [
+        "Somos un vivero familiar, no el pasillo de jardín de una gran tienda. Eso significa acres de plantas sanas que nosotros mismos cultivamos y cuidamos, perennes, anuales, arbustos, árboles y nativas que están listas para prosperar al llegar a tu casa. También significa consejos honestos y claros de gente que cultiva de verdad y prefiere guiarte a la planta correcta antes que a la más cara.",
+        "Ya sea que cuides tu primera planta de interior o rediseñes todo el patio, te ayudamos a elegir las plantas, la tierra y las herramientas que combinen, y estaremos aquí cuando tengas preguntas después. Pásate a recorrer las hileras, pregúntale al personal lo que sea, y pregunta por la entrega si prefieres que te llevemos lo pesado a casa."
+      ],
+      "stats": [
+        {
+          "value": "Acres",
+          "label": "De Plantas Sanas en el Sitio"
+        },
+        {
+          "value": "Familiar",
+          "label": "Independiente en Plank Road"
+        },
+        {
+          "value": "Entrega",
+          "label": "Disponible por Naperville"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Por el Vivero",
+      "subheading": "Un recorrido por los invernaderos, las hileras de plantas y los estantes de nuestro centro de jardinería familiar aquí en Naperville.",
+      "captions": [
+        "Hileras de perennes sanas listas para el jardín",
+        "Mesas de invernadero llenas de plantas de interior frondosas",
+        "Árboles de sombra y ornamentales alineados en el patio",
+        "Bandejas brillantes de anuales de temporada a todo color",
+        "Tierra, mantillo y composta en saco listos para cargar",
+        "Jardineras decorativas y arte de jardín en los estantes"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice Naperville",
+      "items": [
+        {
+          "quote": "Aquí el personal de verdad conoce sus plantas. Me explicaron qué sobreviviría en mi patio con sombra y todo despegó. Mucho mejor que las grandes tiendas.",
+          "name": "Diane K.",
+          "role": "Cliente de perennes"
+        },
+        {
+          "quote": "Entré por una planta de interior y salí con tres y sin remordimientos. Me dijeron exactamente cómo mantener feliz a cada una. Mi ventana nunca se vio mejor.",
+          "name": "Marcus T.",
+          "role": "Cliente habitual de plantas de interior"
+        },
+        {
+          "quote": "Rehicimos todo el jardín del frente con su ayuda, arbustos, árboles, tierra, de todo. Hasta entregaron lo pesado. Consejos honestos y plantas sanas siempre.",
+          "name": "Rosa M.",
+          "role": "Cliente de proyecto de patio"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visítanos en Naperville",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Viernes",
+          "time": "9:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "10:00 AM - 4:00 PM"
+        }
+      ],
+      "phoneLabel": "Consejos de Plantas y Entrega",
+      "directions": "Encuéntranos en 25w471 Plank Road en Naperville. Ven a recorrer las hileras y los invernaderos, pregúntale al personal lo que sea, o llama con anticipación y te ayudamos a planear tu jardín y a coordinar la entrega."
+    },
+    "cta": {
+      "heading": "Ven a Cultivar Algo Con Nosotros",
+      "text": "Desde tu primera planta de interior hasta un jardín completo, nuestros jardineros están aquí con plantas sanas y consejos honestos. Pásate, o llámanos y te ayudamos a empezar a cultivar.",
+      "button": "Llamar al (630) 355-4000"
+    },
+    "form": {
+      "heading": "Pregúntale a Nuestros Jardineros",
+      "subheading": "¿Planeas un jardín, buscas la planta correcta o te preguntas por la entrega? Cuéntanos lo que tienes en mente y nuestro personal te responderá enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Qué Vas a Cultivar",
+      "date": "Fecha de Visita Preferida",
+      "message": "Cuéntanos sobre tu proyecto, tu espacio, el sol y la sombra, y qué esperas cultivar.",
+      "submit": "Enviar Pregunta",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu pregunta y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu pregunta. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Un vivero y centro de jardinería familiar en Naperville, acres de plantas sanas, consejos honestos y todo lo que necesitas para hacer crecer algo.",
+      "rights": "© The Growing Place. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

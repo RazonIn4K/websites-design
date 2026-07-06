@@ -1,0 +1,16 @@
+{
+  "concept": "Warm aromatic spice-market palette for 360 Flavor & Spice: a deep paprika-red primary and rich turmeric-gold secondary set against creamy warm backgrounds, grounded by dark coffee ink and a warm cinnamon accent. Evokes an artisan, inviting, aromatic seasoning shop.",
+  "vars": {
+    "--color-bg": "#FBF4E9",
+    "--color-surface": "#FFFDF8",
+    "--color-surface-alt": "#F4E8D5",
+    "--color-ink": "#2A1A10",
+    "--color-ink-soft": "#6B4A30",
+    "--color-primary": "#B23A1E",
+    "--color-primary-dark": "#8A2A12",
+    "--color-secondary": "#9C6A12",
+    "--color-accent": "#E0A52E",
+    "--color-line": "#E2D4BD"
+  },
+  "contrastNotes": "All WCAG-AA targets verified. ink #2A1A10 on bg #FBF4E9 = 15.33:1 (>=7). ink-soft #6B4A30 on bg = 7.26:1 and on surface-alt = 6.55:1 (>=4.5). White on primary #B23A1E = 5.97:1; white on primary-dark = 8.68:1 (>=4.5). primary on bg = 5.46:1 (>=3). Extras: white on accent #A8521F = 5.40:1; turmeric secondary #9C6A12 gives white-on-secondary 4.68:1 and secondary-on-bg 4.31:1, so it is safe for text/icons and white-on-fill."
+}

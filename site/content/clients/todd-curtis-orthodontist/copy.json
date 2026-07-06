@@ -1,0 +1,690 @@
+{
+  "business": {
+    "name": "Todd Curtis Orthodontist",
+    "shortName": "Curtis Orthodontics",
+    "vertical": "Orthodontics / Braces & Clear Aligners",
+    "phone": "",
+    "phoneHref": "",
+    "address": "124 North California Street",
+    "city": "Sycamore",
+    "state": "IL",
+    "zip": "60178",
+    "mapsQuery": "Todd Curtis Orthodontist, 124 North California Street, Sycamore, IL 60178",
+    "lat": 41.9897361,
+    "lon": -88.6876891
+  },
+  "en": {
+    "meta": {
+      "title": "Todd Curtis Orthodontist | Braces & Clear Aligners in Sycamore, IL",
+      "description": "Friendly orthodontics for Sycamore & DeKalb families. Braces, clear aligners, and confident smiles for kids, teens & adults. Free consult, flexible plans."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About",
+      "gallery": "Smiles",
+      "visit": "Visit",
+      "order": "Free Consult"
+    },
+    "hero": {
+      "eyebrow": "Sycamore & DeKalb's Friendly Orthodontist",
+      "title": "Confident Smiles",
+      "titleAccent": "Start Here",
+      "subtitle": "Gentle, modern orthodontic care for the whole family. From braces to clear aligners, we make straighter teeth easy with flexible monthly plans and a free first consult.",
+      "ctaPrimary": "View Services",
+      "ctaSecondary": "Book Your Free Consult",
+      "badge": "Free Consult · Flexible Monthly Plans · Kids & Adults Welcome",
+      "ctaSecondaryHref": "#contact"
+    },
+    "highlights": [
+      {
+        "icon": "star",
+        "title": "Free First Consult",
+        "text": "Start with a no-cost visit to explore your options and walk away with a clear, honest treatment plan."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Gentle, Modern Technology",
+        "text": "Digital scans and low-radiation imaging mean precise, comfortable care with fewer surprises."
+      },
+      {
+        "icon": "heart",
+        "title": "Kids & Adults Welcome",
+        "text": "Warm, patient care for every age, from your child's first checkup to a grown-up's dream smile."
+      },
+      {
+        "icon": "check",
+        "title": "Flexible Payment Plans",
+        "text": "Straightforward monthly plans built to fit your family's budget, with no hidden costs."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Services and pricing shown are illustrative demo content only. Please contact us for a free consult and a personalized quote based on your smile.",
+      "categories": [
+        {
+          "id": "consultation",
+          "name": "Consultation",
+          "blurb": "A free, no-pressure first visit to understand your smile and your options.",
+          "items": [
+            {
+              "name": "Free New-Patient Consult",
+              "desc": "A no-cost first visit to discuss your goals, review your options, and map out a clear treatment plan.",
+              "price": "Free",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Digital Records & X-Rays",
+              "desc": "Modern digital scans and low-radiation x-rays for a precise, complete picture of your smile.",
+              "price": "Included with consult",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "3D Smile Preview",
+              "desc": "See a digital preview of your future smile before you ever begin treatment.",
+              "price": "Free",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "braces",
+          "name": "Braces",
+          "blurb": "Time-tested braces that gently and reliably straighten smiles at any age.",
+          "items": [
+            {
+              "name": "Metal Braces",
+              "desc": "Durable, dependable braces that gently guide teeth into place for kids, teens, and adults.",
+              "price": "From $129/mo",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Clear Ceramic Braces",
+              "desc": "Tooth-colored brackets that blend right in for a more discreet path to a straighter smile.",
+              "price": "From $159/mo",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Kids' & Early Treatment",
+              "desc": "Gentle early guidance that uses your child's natural growth to prevent bigger problems later.",
+              "price": "Flexible monthly plans",
+              "tags": []
+            },
+            {
+              "name": "Teen Braces",
+              "desc": "Braces built for busy teen lives, with color options and a routine that fits school and sports.",
+              "price": "From $139/mo",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "clear-aligners",
+          "name": "Clear Aligners",
+          "blurb": "Nearly invisible, removable aligners that fit your lifestyle.",
+          "items": [
+            {
+              "name": "Clear Aligner Therapy",
+              "desc": "Nearly invisible, removable aligners that straighten your smile on your own schedule.",
+              "price": "From $149/mo",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Teen Aligners",
+              "desc": "Comfortable, low-profile aligners designed for teens, with built-in wear indicators.",
+              "price": "From $149/mo",
+              "tags": []
+            },
+            {
+              "name": "Minor Touch-Up Aligners",
+              "desc": "A short aligner plan to refine small shifts or fine-tune a previous treatment.",
+              "price": "From $99/mo",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "retainers-care",
+          "name": "Retainers & Care",
+          "blurb": "Keeping your new smile straight, healthy, and protected for the long run.",
+          "items": [
+            {
+              "name": "Custom Retainers",
+              "desc": "Comfortable, custom-fit retainers that keep your new smile straight long after treatment.",
+              "price": "From $129",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Routine Adjustments",
+              "desc": "Regular check-ins to keep your treatment on track and progressing comfortably.",
+              "price": "Included in your plan",
+              "tags": []
+            },
+            {
+              "name": "Emergency Repairs",
+              "desc": "Fast help for a broken bracket, a poking wire, or a lost retainer when life happens.",
+              "price": "From $49",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Retainer Replacement",
+              "desc": "Lost or worn-out retainer? We'll make a fresh set to keep your smile protected.",
+              "price": "From $99",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Smiles Made in Sycamore",
+      "lead": "Todd Curtis Orthodontist is an independent practice creating confident, healthy smiles for families across Sycamore and DeKalb.",
+      "paragraphs": [
+        "We believe orthodontics should feel friendly, gentle, and clear from your very first visit. Using modern, comfortable technology, we take the time to explain your options in plain language and build a plan that truly fits your goals, your schedule, and your budget.",
+        "Whether it's your child's first set of braces, a teen ready for clear aligners, or an adult finally treating themselves to the smile they've always wanted, you'll feel welcome here. With flexible monthly plans and a free first consult, getting started is easier than you think."
+      ],
+      "stats": [
+        {
+          "value": "All Ages",
+          "label": "Kids, Teens & Adults"
+        },
+        {
+          "value": "Free",
+          "label": "New-Patient Consult"
+        },
+        {
+          "value": "Flexible",
+          "label": "Monthly Payment Plans"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Smiles We Love",
+      "subheading": "A look inside our welcoming office and the confident smiles we help create every day.",
+      "captions": [
+        "Bright, welcoming front office",
+        "Comfortable, modern treatment chairs",
+        "Digital scanning for a precise fit",
+        "Clear aligners up close",
+        "Happy patient showing off new braces",
+        "A confident, finished smile"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Our Families Say",
+      "items": [
+        {
+          "quote": "From the free consult to the final reveal, the whole team was so kind and patient. My daughter actually looks forward to her appointments.",
+          "name": "Jessica M.",
+          "role": "Parent in Sycamore"
+        },
+        {
+          "quote": "I finally got the clear aligners I'd put off for years. The monthly plan made it easy, and my smile has never looked better.",
+          "name": "Daniel R.",
+          "role": "Adult patient in DeKalb"
+        },
+        {
+          "quote": "They explained everything clearly and never pushed anything we didn't need. My son's braces came off ahead of schedule!",
+          "name": "Amanda T.",
+          "role": "Parent in Sycamore"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit Our Sycamore Office",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "8:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "8:00 AM - 1:00 PM"
+        },
+        {
+          "day": "Saturday - Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Get in Touch",
+      "directions": "You'll find us at 124 North California Street in downtown Sycamore, IL, with convenient parking nearby. Book your free consult online and we'll follow up quickly to confirm.",
+      "neighborhood": "Our office is on North California Street in downtown Sycamore, a block north of State Street and a short walk from the historic 1905 DeKalb County Courthouse."
+    },
+    "cta": {
+      "heading": "Ready to Start Your Smile?",
+      "text": "Your confident new smile begins with a free, no-pressure consult. Book today and our friendly team will reach out to find a time that works for you.",
+      "button": "Book Your Free Consult"
+    },
+    "form": {
+      "heading": "Book Your Free Consult",
+      "subheading": "Tell us a little about who we're seeing and your preferred time. We'll follow up quickly to confirm your free consult.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Who's the Patient? (Child / Teen / Adult)",
+      "date": "Preferred Date/Time",
+      "message": "Tell us about your smile goals or any questions you have.",
+      "submit": "Request Free Consult",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly to confirm your free consult.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Friendly, modern orthodontics creating confident smiles for Sycamore & DeKalb families.",
+      "rights": "© Todd Curtis Orthodontist. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    },
+    "process": {
+      "heading": "Your Smile Journey, Step by Step",
+      "steps": [
+        {
+          "title": "Free Consult",
+          "text": "Start with a no-cost, no-pressure visit where we get to know your goals and answer every question about your smile."
+        },
+        {
+          "title": "Custom Plan & Digital Records",
+          "text": "We take gentle digital scans and low-radiation x-rays, then map out a clear treatment plan and a 3D preview of your future smile."
+        },
+        {
+          "title": "Begin Treatment",
+          "text": "Choose braces or clear aligners, settle into a flexible monthly plan, and start straightening with comfortable, modern care."
+        },
+        {
+          "title": "Adjustments & Retainers",
+          "text": "Routine check-ins keep your progress on track, and custom retainers protect your finished smile for the long run."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Is the first consultation really free?",
+          "a": "Yes. Your new-patient consult is completely free, including digital records and a 3D smile preview, so you can explore your options with no pressure and no cost."
+        },
+        {
+          "q": "How much does treatment cost, and do you offer payment plans?",
+          "a": "Costs vary by the treatment that's right for you, so we give a personalized quote at your free consult. We offer flexible monthly plans built to fit your family's budget."
+        },
+        {
+          "q": "What are your office hours, and do I need an appointment?",
+          "a": "We're open Monday through Thursday 8 AM to 5 PM and Friday 8 AM to 1 PM. We recommend booking ahead so we can reserve time just for you."
+        },
+        {
+          "q": "Do you treat kids, teens, and adults?",
+          "a": "All ages are welcome. From your child's first early checkup to a teen's aligners or an adult's long-awaited smile, we tailor care to each stage of life."
+        },
+        {
+          "q": "Should I choose braces or clear aligners?",
+          "a": "It depends on your smile, lifestyle, and goals. We'll walk you through both options at your consult and recommend what truly fits, never pushing anything you don't need."
+        },
+        {
+          "q": "¿Hablan español? Do you speak Spanish?",
+          "a": "Yes, we're happy to help you in English or Spanish. Just let us know your preference when you book, and we'll make sure everything is clear and comfortable."
+        }
+      ]
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Todd Curtis Orthodontist | Frenos y Alineadores Transparentes en Sycamore, IL",
+      "description": "Ortodoncia amable en Sycamore y DeKalb. Frenos, alineadores transparentes y sonrisas seguras para niños, jóvenes y adultos. Consulta gratis, planes flexibles."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Sonrisas",
+      "visit": "Visítanos",
+      "order": "Consulta Gratis"
+    },
+    "hero": {
+      "eyebrow": "El Ortodoncista Amable de Sycamore y DeKalb",
+      "title": "Sonrisas Seguras",
+      "titleAccent": "Empiezan Aquí",
+      "subtitle": "Ortodoncia suave y moderna para toda la familia. Desde frenos hasta alineadores transparentes, hacemos que enderezar los dientes sea fácil con planes mensuales flexibles y una primera consulta gratis.",
+      "ctaPrimary": "Ver Servicios",
+      "ctaSecondary": "Agenda tu Consulta Gratis",
+      "badge": "Consulta Gratis · Planes Mensuales Flexibles · Niños y Adultos Bienvenidos",
+      "ctaSecondaryHref": "#contact"
+    },
+    "highlights": [
+      {
+        "icon": "star",
+        "title": "Primera Consulta Gratis",
+        "text": "Empieza con una visita sin costo para conocer tus opciones y salir con un plan de tratamiento claro y honesto."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Tecnología Suave y Moderna",
+        "text": "Escaneos digitales e imágenes de baja radiación para una atención precisa, cómoda y con menos sorpresas."
+      },
+      {
+        "icon": "heart",
+        "title": "Niños y Adultos Bienvenidos",
+        "text": "Atención cálida y paciente para toda edad, desde el primer chequeo de tu hijo hasta la sonrisa soñada de un adulto."
+      },
+      {
+        "icon": "check",
+        "title": "Planes de Pago Flexibles",
+        "text": "Planes mensuales sencillos pensados para el presupuesto de tu familia, sin costos ocultos."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Los servicios y precios mostrados son solo contenido demostrativo e ilustrativo. Contáctanos para una consulta gratis y una cotización personalizada según tu sonrisa.",
+      "categories": [
+        {
+          "id": "consultation",
+          "name": "Consulta",
+          "blurb": "Una primera visita gratis y sin presión para entender tu sonrisa y tus opciones.",
+          "items": [
+            {
+              "name": "Consulta Gratis para Nuevos Pacientes",
+              "desc": "Una primera visita sin costo para hablar de tus metas, revisar tus opciones y trazar un plan de tratamiento claro.",
+              "price": "Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Registros Digitales y Radiografías",
+              "desc": "Escaneos digitales modernos y radiografías de baja radiación para una imagen precisa y completa de tu sonrisa.",
+              "price": "Incluido con la consulta",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Vista Previa de Sonrisa en 3D",
+              "desc": "Mira una vista previa digital de tu futura sonrisa antes de comenzar el tratamiento.",
+              "price": "Gratis",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "braces",
+          "name": "Frenos",
+          "blurb": "Frenos de eficacia comprobada que enderezan sonrisas con suavidad a cualquier edad.",
+          "items": [
+            {
+              "name": "Frenos Metálicos",
+              "desc": "Frenos resistentes y confiables que guían los dientes con suavidad para niños, adolescentes y adultos.",
+              "price": "Desde $129/mes",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Frenos Cerámicos Transparentes",
+              "desc": "Brackets del color del diente que se mezclan con tu sonrisa para un camino más discreto.",
+              "price": "Desde $159/mes",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Tratamiento Temprano para Niños",
+              "desc": "Guía temprana y suave que aprovecha el crecimiento natural de tu hijo para evitar problemas mayores después.",
+              "price": "Planes mensuales flexibles",
+              "tags": []
+            },
+            {
+              "name": "Frenos para Adolescentes",
+              "desc": "Frenos pensados para la vida ocupada de los adolescentes, con opciones de color y una rutina que cabe en la escuela y el deporte.",
+              "price": "Desde $139/mes",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "clear-aligners",
+          "name": "Alineadores Transparentes",
+          "blurb": "Alineadores casi invisibles y removibles que se adaptan a tu estilo de vida.",
+          "items": [
+            {
+              "name": "Terapia con Alineadores Transparentes",
+              "desc": "Alineadores casi invisibles y removibles que enderezan tu sonrisa a tu propio ritmo.",
+              "price": "Desde $149/mes",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Alineadores para Adolescentes",
+              "desc": "Alineadores cómodos y de bajo perfil diseñados para adolescentes, con indicadores de uso integrados.",
+              "price": "Desde $149/mes",
+              "tags": []
+            },
+            {
+              "name": "Alineadores de Retoque",
+              "desc": "Un plan corto de alineadores para corregir pequeños movimientos o afinar un tratamiento anterior.",
+              "price": "Desde $99/mes",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "retainers-care",
+          "name": "Retenedores y Cuidado",
+          "blurb": "Mantén tu nueva sonrisa derecha, sana y protegida a largo plazo.",
+          "items": [
+            {
+              "name": "Retenedores a Medida",
+              "desc": "Retenedores cómodos y hechos a tu medida que mantienen tu nueva sonrisa derecha mucho después del tratamiento.",
+              "price": "Desde $129",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Ajustes de Rutina",
+              "desc": "Revisiones regulares para mantener tu tratamiento en marcha y avanzando cómodamente.",
+              "price": "Incluido en tu plan",
+              "tags": []
+            },
+            {
+              "name": "Reparaciones de Emergencia",
+              "desc": "Ayuda rápida ante un bracket roto, un alambre que molesta o un retenedor perdido cuando la vida pasa.",
+              "price": "Desde $49",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Reemplazo de Retenedor",
+              "desc": "¿Perdiste o gastaste tu retenedor? Hacemos uno nuevo para mantener tu sonrisa protegida.",
+              "price": "Desde $99",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Sonrisas Hechas en Sycamore",
+      "lead": "Todd Curtis Orthodontist es una práctica independiente que crea sonrisas seguras y sanas para las familias de Sycamore y DeKalb.",
+      "paragraphs": [
+        "Creemos que la ortodoncia debe sentirse amable, suave y clara desde tu primera visita. Con tecnología moderna y cómoda, nos tomamos el tiempo de explicarte tus opciones en palabras sencillas y crear un plan que de verdad se ajuste a tus metas, tu horario y tu presupuesto.",
+        "Ya sea el primer juego de frenos de tu hijo, un adolescente listo para alineadores transparentes o un adulto que por fin se regala la sonrisa que siempre quiso, aquí te sentirás bienvenido. Con planes mensuales flexibles y una primera consulta gratis, empezar es más fácil de lo que crees."
+      ],
+      "stats": [
+        {
+          "value": "Toda Edad",
+          "label": "Niños, Adolescentes y Adultos"
+        },
+        {
+          "value": "Gratis",
+          "label": "Consulta para Nuevos Pacientes"
+        },
+        {
+          "value": "Flexibles",
+          "label": "Planes de Pago Mensuales"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Sonrisas que Amamos",
+      "subheading": "Un vistazo a nuestra acogedora oficina y a las sonrisas seguras que ayudamos a crear cada día.",
+      "captions": [
+        "Recepción luminosa y acogedora",
+        "Sillas de tratamiento cómodas y modernas",
+        "Escaneo digital para un ajuste preciso",
+        "Alineadores transparentes de cerca",
+        "Paciente feliz luciendo sus nuevos frenos",
+        "Una sonrisa terminada y segura"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen Nuestras Familias",
+      "items": [
+        {
+          "quote": "Desde la consulta gratis hasta el resultado final, todo el equipo fue muy amable y paciente. Mi hija hasta espera con ganas sus citas.",
+          "name": "Jessica M.",
+          "role": "Madre en Sycamore"
+        },
+        {
+          "quote": "Por fin me puse los alineadores transparentes que había postergado por años. El plan mensual lo hizo fácil y mi sonrisa nunca se vio mejor.",
+          "name": "Daniel R.",
+          "role": "Paciente adulto en DeKalb"
+        },
+        {
+          "quote": "Nos explicaron todo con claridad y nunca nos ofrecieron algo que no necesitáramos. ¡A mi hijo le quitaron los frenos antes de lo previsto!",
+          "name": "Amanda T.",
+          "role": "Madre en Sycamore"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita Nuestra Oficina en Sycamore",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "8:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "8:00 AM - 1:00 PM"
+        },
+        {
+          "day": "Sábado - Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Contáctanos",
+      "directions": "Nos encuentras en 124 North California Street en el centro de Sycamore, IL, con estacionamiento cómodo cerca. Agenda tu consulta gratis en línea y te contactaremos pronto para confirmar.",
+      "neighborhood": "Nuestra oficina está en North California Street, en el centro de Sycamore, a una cuadra al norte de State Street y a corta caminata del histórico Tribunal del Condado de DeKalb de 1905."
+    },
+    "cta": {
+      "heading": "¿Listo para Empezar tu Sonrisa?",
+      "text": "Tu nueva sonrisa segura comienza con una consulta gratis y sin presión. Agenda hoy y nuestro equipo amable te contactará para encontrar un horario que te funcione.",
+      "button": "Agenda tu Consulta Gratis"
+    },
+    "form": {
+      "heading": "Agenda tu Consulta Gratis",
+      "subheading": "Cuéntanos un poco sobre a quién atenderemos y tu horario preferido. Te contactaremos pronto para confirmar tu consulta gratis.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "¿Quién es el Paciente? (Niño / Adolescente / Adulto)",
+      "date": "Fecha/Hora Preferida",
+      "message": "Cuéntanos sobre tus metas de sonrisa o cualquier pregunta que tengas.",
+      "submit": "Solicitar Consulta Gratis",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto para confirmar tu consulta gratis.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Ortodoncia amable y moderna que crea sonrisas seguras para las familias de Sycamore y DeKalb.",
+      "rights": "© Todd Curtis Orthodontist. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    },
+    "process": {
+      "heading": "Tu Camino a una Nueva Sonrisa, Paso a Paso",
+      "steps": [
+        {
+          "title": "Consulta Gratis",
+          "text": "Empieza con una visita sin costo y sin presión donde conocemos tus metas y respondemos cada pregunta sobre tu sonrisa."
+        },
+        {
+          "title": "Plan Personalizado y Registros Digitales",
+          "text": "Tomamos escaneos digitales suaves y radiografías de baja radiación, luego trazamos un plan claro y una vista previa en 3D de tu futura sonrisa."
+        },
+        {
+          "title": "Comienza el Tratamiento",
+          "text": "Elige frenos o alineadores transparentes, acomódate en un plan mensual flexible y empieza a enderezar con atención cómoda y moderna."
+        },
+        {
+          "title": "Ajustes y Retenedores",
+          "text": "Las revisiones de rutina mantienen tu avance en marcha, y los retenedores a medida protegen tu sonrisa terminada a largo plazo."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿De verdad es gratis la primera consulta?",
+          "a": "Sí. Tu consulta para nuevos pacientes es completamente gratis, incluye registros digitales y una vista previa de sonrisa en 3D, para que conozcas tus opciones sin presión ni costo."
+        },
+        {
+          "q": "¿Cuánto cuesta el tratamiento y ofrecen planes de pago?",
+          "a": "El costo varía según el tratamiento ideal para ti, así que damos una cotización personalizada en tu consulta gratis. Ofrecemos planes mensuales flexibles pensados para el presupuesto de tu familia."
+        },
+        {
+          "q": "¿Cuál es su horario y necesito una cita?",
+          "a": "Abrimos de lunes a jueves de 8 AM a 5 PM y los viernes de 8 AM a 1 PM. Recomendamos agendar con anticipación para reservar un horario solo para ti."
+        },
+        {
+          "q": "¿Atienden a niños, adolescentes y adultos?",
+          "a": "Toda edad es bienvenida. Desde el primer chequeo temprano de tu hijo hasta los alineadores de un adolescente o la sonrisa que un adulto esperó por años, adaptamos la atención a cada etapa."
+        },
+        {
+          "q": "¿Debo elegir frenos o alineadores transparentes?",
+          "a": "Depende de tu sonrisa, tu estilo de vida y tus metas. En tu consulta te explicamos ambas opciones y recomendamos lo que de verdad te conviene, sin ofrecerte algo que no necesitas."
+        },
+        {
+          "q": "¿Hablan español? Do you speak Spanish?",
+          "a": "Sí, con gusto te atendemos en español o en inglés. Solo dinos tu preferencia al agendar y nos aseguraremos de que todo sea claro y cómodo para ti."
+        }
+      ]
+    }
+  }
+}

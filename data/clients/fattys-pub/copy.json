@@ -1,0 +1,692 @@
+{
+  "business": {
+    "name": "Fatty's Pub & Grille",
+    "shortName": "Fatty's",
+    "vertical": "Pub & Grille",
+    "phone": "",
+    "phoneHref": "",
+    "address": "1213 West Lincoln Highway",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Fatty's Pub & Grille, 1213 West Lincoln Highway, DeKalb, IL 60115"
+  },
+  "en": {
+    "meta": {
+      "title": "Fatty's Pub & Grille | Jumbo Wings, Burgers & Every Game in DeKalb, IL",
+      "description": "DeKalb's easygoing neighborhood pub & grille. Jumbo wings, juicy burgers, cold drafts, and every game on. The NIU hangout where everybody fits in. Plan your visit."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "See Specials"
+    },
+    "hero": {
+      "eyebrow": "DeKalb's Neighborhood Pub & Grille",
+      "title": "Cold Drafts. Jumbo Wings.",
+      "titleAccent": "Every Game On.",
+      "subtitle": "A hearty DeKalb hangout where the wings are jumbo, the burgers are juicy, and the beer is always cold. Pull up a stool, grab a booth, and catch the game with your crew.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Plan Your Visit",
+      "badge": "Game Day · Cold Beer · Everybody Fits In"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Jumbo Wings & Hot Starters",
+        "text": "Crispy jumbo wings tossed in your favorite sauce, loaded nachos, golden cheese curds, and fried pickles built to share."
+      },
+      {
+        "icon": "star",
+        "title": "Every Game On",
+        "text": "Screens around the room with the sound up on the big games. Whatever your team, you'll catch the action here."
+      },
+      {
+        "icon": "gauge",
+        "title": "Cold Drafts & Happy Hour",
+        "text": "Ice-cold drafts, easy cocktails, and happy-hour specials that keep the table going from kickoff to last call."
+      },
+      {
+        "icon": "heart",
+        "title": "Everybody Fits In",
+        "text": "Easygoing, friendly, and full of regulars. Bring the crew, the team, or the whole table. There's a seat for everyone."
+      }
+    ],
+    "menu": {
+      "heading": "The Menu",
+      "subheading": "Menu items and prices shown are illustrative demo content for this sample site. Stop in to see our current menu, specials, and happy-hour features.",
+      "categories": [
+        {
+          "id": "wings-starters",
+          "name": "Wings & Starters",
+          "blurb": "The shareables that start every game right, made for the table and built for game day.",
+          "items": [
+            {
+              "name": "Jumbo Wings (10)",
+              "desc": "Plump, crispy jumbo wings tossed in buffalo, BBQ, garlic parm, or mango habanero with ranch or blue cheese.",
+              "price": "$13.99",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Loaded Nachos",
+              "desc": "A mountain of tortilla chips piled with melted cheese, jalapeños, pico, and sour cream. Add chicken or beef.",
+              "price": "$11.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Wisconsin Cheese Curds",
+              "desc": "Golden, hand-battered white cheddar curds fried crispy and served with house ranch.",
+              "price": "$8.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Fried Pickles",
+              "desc": "Crispy hand-breaded dill pickle chips fried golden and served with creamy chipotle dip.",
+              "price": "$7.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Boneless Wings (12)",
+              "desc": "Crispy boneless bites tossed in your favorite sauce and stacked high for the table.",
+              "price": "$11.99",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "burgers-sandwiches",
+          "name": "Burgers & Sandwiches",
+          "blurb": "Big, juicy handhelds served with fries. Built to fuel the whole game.",
+          "items": [
+            {
+              "name": "The Fatty Burger",
+              "desc": "A half-pound smashed patty with American cheese, bacon, lettuce, tomato, and house sauce on a toasted bun.",
+              "price": "$13.99",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Classic Cheeseburger",
+              "desc": "A juicy char-grilled patty with melted cheddar, pickles, onion, and the works on a brioche bun.",
+              "price": "$11.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Crispy Chicken Sandwich",
+              "desc": "Hand-breaded crispy chicken breast with pickles and creamy slaw on a buttery toasted bun.",
+              "price": "$12.49",
+              "tags": []
+            },
+            {
+              "name": "Pub Patty Melt",
+              "desc": "A char-grilled patty with grilled onions and melted Swiss on toasted marble rye, griddled crisp.",
+              "price": "$12.99",
+              "tags": []
+            },
+            {
+              "name": "Pulled Pork Sandwich",
+              "desc": "Slow-cooked pulled pork piled high with tangy BBQ sauce and crispy onion straws on a soft bun.",
+              "price": "$12.99",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "from-the-grille",
+          "name": "From the Grille",
+          "blurb": "Hearty plates and baskets off the grille, built to satisfy after a long game.",
+          "items": [
+            {
+              "name": "Full Rack of Ribs",
+              "desc": "Slow-smoked baby back ribs glazed in tangy BBQ and served with fries and slaw.",
+              "price": "$22.99",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Chicken Tenders Basket",
+              "desc": "Hand-breaded crispy tenders with fries and your choice of dipping sauce.",
+              "price": "$12.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Buffalo Chicken Wrap",
+              "desc": "Crispy buffalo chicken with lettuce, tomato, cheese, and ranch wrapped up and grilled, served with fries.",
+              "price": "$11.49",
+              "tags": []
+            },
+            {
+              "name": "Half Rack & Wings Combo",
+              "desc": "A half rack of smoky ribs paired with six jumbo wings, fries, and slaw. A plate built for game day.",
+              "price": "$19.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Grilled Chicken Wrap",
+              "desc": "Char-grilled chicken with lettuce, tomato, cheddar, and chipotle ranch in a warm tortilla, with fries.",
+              "price": "$11.49",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "drinks-specials",
+          "name": "Drinks & Specials",
+          "blurb": "Cold drafts, easy cocktails, and happy-hour specials to keep the table going all game.",
+          "items": [
+            {
+              "name": "Draft Beer",
+              "desc": "Rotating taps of cold domestic and craft drafts. Ask your server what's pouring today.",
+              "price": "$5.99",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Happy Hour Special",
+              "desc": "Weekday happy-hour pricing on select drafts, well drinks, and shareable starters. Ask for today's deals.",
+              "price": "$4.99",
+              "tags": [
+                "value",
+                "signature"
+              ]
+            },
+            {
+              "name": "House Margarita",
+              "desc": "Tequila, fresh lime, and orange liqueur shaken and served on the rocks with a salted rim.",
+              "price": "$8.99",
+              "tags": []
+            },
+            {
+              "name": "Game-Day Bloody Mary",
+              "desc": "A bold, savory Bloody Mary loaded with garnishes. The perfect kickoff cocktail.",
+              "price": "$9.49",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Soft Drinks & Iced Tea",
+              "desc": "Free refills on fountain sodas, lemonade, and fresh-brewed iced tea.",
+              "price": "$2.99",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "DeKalb's Easygoing Neighborhood Pub",
+      "lead": "Fatty's Pub & Grille is the hearty DeKalb hangout where jumbo wings, juicy burgers, cold drafts, and every game on bring the whole neighborhood together.",
+      "paragraphs": [
+        "Step inside and you'll find screens around the room, cold drafts at the bar, and a friendly crowd of regulars, students, and families settling in for the game. Whether you're rolling in with your crew after class, catching the away game, or grabbing a burger on a weeknight, Fatty's has a seat for you.",
+        "We keep it simple: jumbo wings worth the mess, juicy burgers off the grille, ice-cold beer, and a welcoming room where everybody fits in. Easygoing, hearty, and always game-day ready, Fatty's is your spot on West Lincoln Highway in the heart of DeKalb near NIU."
+      ],
+      "stats": [
+        {
+          "value": "Every",
+          "label": "Game On"
+        },
+        {
+          "value": "Cold",
+          "label": "Drafts on Tap"
+        },
+        {
+          "value": "Jumbo",
+          "label": "Wings & Burgers"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Game Day at Fatty's",
+      "subheading": "A look at the wings, the burgers, the drafts, and the easygoing crowd that make Fatty's the DeKalb hangout.",
+      "captions": [
+        "Crispy jumbo wings tossed and ready to share",
+        "Juicy burgers fresh off the grille",
+        "Ice-cold drafts poured at the bar",
+        "Screens lit up with the big game on",
+        "Smoky ribs glazed in tangy BBQ",
+        "A packed, easygoing crowd cheering it on"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Is Saying",
+      "items": [
+        {
+          "quote": "Our go-to after every NIU game. The jumbo wings are huge, the drafts are ice cold, and you can catch every game on the screens. The vibe is just easy.",
+          "name": "Tyler M.",
+          "role": "Game-day regular"
+        },
+        {
+          "quote": "Best burger in DeKalb, hands down. Friendly staff, cold beer, and a spot where everybody fits in. We're here every week.",
+          "name": "Christina R.",
+          "role": "DeKalb local"
+        },
+        {
+          "quote": "Happy hour at Fatty's is unbeatable. Grab some cheese curds, a cold draft, and a booth and you're set for the whole night.",
+          "name": "Marcus D.",
+          "role": "NIU student"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in DeKalb",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "11:00 AM - 11:00 PM"
+        },
+        {
+          "day": "Friday - Saturday",
+          "time": "11:00 AM - 1:00 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM - 10:00 PM"
+        }
+      ],
+      "phoneLabel": "Plan Your Visit",
+      "directions": "Find us at 1213 West Lincoln Highway in DeKalb, IL, just minutes from NIU. Bring your crew, grab a booth near the screens, and catch every game. Use the form to plan your visit or ask about big groups."
+    },
+    "cta": {
+      "heading": "Game On? Grab Your Table.",
+      "text": "Round up the crew and head to Fatty's for every game, cold drafts, and jumbo wings. Use the form to plan your visit or reserve space for the big group.",
+      "button": "Plan Your Visit"
+    },
+    "form": {
+      "heading": "Plan Your Visit",
+      "subheading": "Bringing a big group for the game? Got a question about the menu or happy hour? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Party Size",
+      "date": "Preferred Date/Time",
+      "message": "Which game are you coming for? Tell us about your visit or group.",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We received your message and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "DeKalb's easygoing neighborhood pub & grille. Jumbo wings, juicy burgers, cold drafts, and every game on, where everybody fits in.",
+      "rights": "© Fatty's Pub & Grille. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Fatty's Pub & Grille | Alitas Jumbo, Hamburguesas y Todos los Partidos en DeKalb, IL",
+      "description": "El pub de barrio relajado de DeKalb. Alitas jumbo, hamburguesas jugosas, cervezas frías y todos los partidos. El punto de NIU donde todos encajan. Planea tu visita."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Especiales"
+    },
+    "hero": {
+      "eyebrow": "El Pub & Grille de Barrio de DeKalb",
+      "title": "Cervezas Frías. Alitas Jumbo.",
+      "titleAccent": "Todos los Partidos.",
+      "subtitle": "Un punto acogedor de DeKalb donde las alitas son jumbo, las hamburguesas son jugosas y la cerveza siempre está fría. Agarra un banco, una mesa, y mira el partido con tu grupo.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Planea tu Visita",
+      "badge": "Día de Partido · Cerveza Fría · Todos Encajan"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Alitas Jumbo y Entradas Calientes",
+        "text": "Alitas jumbo crujientes bañadas en tu salsa favorita, nachos cargados, queso frito dorado y pepinillos fritos para compartir."
+      },
+      {
+        "icon": "star",
+        "title": "Todos los Partidos",
+        "text": "Pantallas por toda la sala con el sonido a tope en los grandes partidos. Sea cual sea tu equipo, aquí ves la acción."
+      },
+      {
+        "icon": "gauge",
+        "title": "Cervezas Frías y Happy Hour",
+        "text": "Cervezas de barril bien heladas, cócteles sencillos y especiales de happy hour que mantienen la mesa del saque inicial al último trago."
+      },
+      {
+        "icon": "heart",
+        "title": "Todos Encajan",
+        "text": "Relajado, amigable y lleno de clientes de siempre. Trae al grupo, al equipo o a toda la mesa. Hay lugar para todos."
+      }
+    ],
+    "menu": {
+      "heading": "El Menú",
+      "subheading": "Los platillos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Visítanos para ver nuestro menú actual, especiales y novedades de happy hour.",
+      "categories": [
+        {
+          "id": "wings-starters",
+          "name": "Alitas y Entradas",
+          "blurb": "Las entradas para compartir que arrancan bien cada partido, hechas para la mesa y para el día de partido.",
+          "items": [
+            {
+              "name": "Alitas Jumbo (10)",
+              "desc": "Alitas jumbo gorditas y crujientes bañadas en buffalo, BBQ, ajo parmesano o mango habanero con ranch o blue cheese.",
+              "price": "$13.99",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Nachos Cargados",
+              "desc": "Una montaña de totopos cubiertos de queso derretido, jalapeños, pico de gallo y crema. Agrega pollo o res.",
+              "price": "$11.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Queso Cheddar Frito de Wisconsin",
+              "desc": "Bolitas de queso cheddar blanco empanizadas a mano, fritas y doradas, servidas con ranch de la casa.",
+              "price": "$8.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Pepinillos Fritos",
+              "desc": "Rodajas de pepinillo eneldo empanizadas a mano y fritas doradas, servidas con dip cremoso de chipotle.",
+              "price": "$7.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Alitas sin Hueso (12)",
+              "desc": "Bocados crujientes sin hueso bañados en tu salsa favorita y apilados para la mesa.",
+              "price": "$11.99",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "burgers-sandwiches",
+          "name": "Hamburguesas y Sándwiches",
+          "blurb": "Grandes y jugosos, servidos con papas. Hechos para aguantar todo el partido.",
+          "items": [
+            {
+              "name": "La Hamburguesa Fatty",
+              "desc": "Carne aplastada de media libra con queso americano, tocino, lechuga, tomate y salsa de la casa en pan tostado.",
+              "price": "$13.99",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Hamburguesa con Queso Clásica",
+              "desc": "Jugosa carne a la parrilla con queso cheddar derretido, pepinillos, cebolla y todo lo demás en pan brioche.",
+              "price": "$11.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Sándwich de Pollo Crujiente",
+              "desc": "Pechuga de pollo empanizada a mano y crujiente con pepinillos y ensalada cremosa en pan mantecoso tostado.",
+              "price": "$12.49",
+              "tags": []
+            },
+            {
+              "name": "Patty Melt del Pub",
+              "desc": "Carne a la parrilla con cebolla salteada y queso suizo derretido en pan de centeno tostado y dorado a la plancha.",
+              "price": "$12.99",
+              "tags": []
+            },
+            {
+              "name": "Sándwich de Cerdo Desmenuzado",
+              "desc": "Cerdo desmenuzado cocido a fuego lento, bien cargado con salsa BBQ y cebolla crujiente en pan suave.",
+              "price": "$12.99",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "from-the-grille",
+          "name": "De la Parrilla",
+          "blurb": "Platos abundantes y canastas de la parrilla, hechos para satisfacer después de un largo partido.",
+          "items": [
+            {
+              "name": "Costillar Completo",
+              "desc": "Costillitas baby back ahumadas a fuego lento, glaseadas en BBQ y servidas con papas y ensalada de col.",
+              "price": "$22.99",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Canasta de Tiras de Pollo",
+              "desc": "Tiras de pollo empanizadas a mano y crujientes con papas y tu salsa para acompañar a elección.",
+              "price": "$12.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Wrap de Pollo Buffalo",
+              "desc": "Pollo buffalo crujiente con lechuga, tomate, queso y ranch envuelto y dorado a la plancha, servido con papas.",
+              "price": "$11.49",
+              "tags": []
+            },
+            {
+              "name": "Combo de Medio Costillar y Alitas",
+              "desc": "Medio costillar de costillas ahumadas con seis alitas jumbo, papas y ensalada de col. Un plato para el día de partido.",
+              "price": "$19.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Wrap de Pollo a la Parrilla",
+              "desc": "Pollo a la parrilla con lechuga, tomate, cheddar y ranch de chipotle en una tortilla caliente, con papas.",
+              "price": "$11.49",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "drinks-specials",
+          "name": "Bebidas y Especiales",
+          "blurb": "Cervezas frías, cócteles sencillos y especiales de happy hour para mantener la mesa todo el partido.",
+          "items": [
+            {
+              "name": "Cerveza de Barril",
+              "desc": "Grifos rotativos de cerveza nacional y artesanal bien fría. Pregunta a tu mesero qué hay hoy.",
+              "price": "$5.99",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Especial de Happy Hour",
+              "desc": "Precios de happy hour entre semana en cervezas de barril, tragos y entradas para compartir. Pregunta por las ofertas de hoy.",
+              "price": "$4.99",
+              "tags": [
+                "value",
+                "signature"
+              ]
+            },
+            {
+              "name": "Margarita de la Casa",
+              "desc": "Tequila, jugo de limón fresco y licor de naranja agitados y servidos en las rocas con borde de sal.",
+              "price": "$8.99",
+              "tags": []
+            },
+            {
+              "name": "Bloody Mary de Día de Partido",
+              "desc": "Un Bloody Mary intenso y sabroso cargado de aderezos. El cóctel perfecto para el saque inicial.",
+              "price": "$9.49",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Refrescos y Té Helado",
+              "desc": "Refills gratis en refrescos de fuente, limonada y té helado recién preparado.",
+              "price": "$2.99",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "El Pub de Barrio Relajado de DeKalb",
+      "lead": "Fatty's Pub & Grille es el punto acogedor de DeKalb donde las alitas jumbo, las hamburguesas jugosas, las cervezas frías y todos los partidos reúnen a todo el barrio.",
+      "paragraphs": [
+        "Entra y encontrarás pantallas por toda la sala, cervezas frías en la barra y un ambiente amigable de clientes de siempre, estudiantes y familias instalándose para el partido. Ya sea que llegues con tu grupo después de clase, quieras ver el partido de visitante o buscar una hamburguesa entre semana, Fatty's tiene un lugar para ti.",
+        "Lo mantenemos sencillo: alitas jumbo que valen el desorden, hamburguesas jugosas de la parrilla, cerveza bien fría y una sala acogedora donde todos encajan. Relajado, abundante y siempre listo para el día de partido, Fatty's es tu lugar en West Lincoln Highway, en el corazón de DeKalb cerca de NIU."
+      ],
+      "stats": [
+        {
+          "value": "Todos",
+          "label": "los Partidos"
+        },
+        {
+          "value": "Frías",
+          "label": "Cervezas de Barril"
+        },
+        {
+          "value": "Jumbo",
+          "label": "Alitas y Hamburguesas"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Día de Partido en Fatty's",
+      "subheading": "Un vistazo a las alitas, las hamburguesas, las cervezas y el ambiente relajado que hacen de Fatty's el punto de DeKalb.",
+      "captions": [
+        "Alitas jumbo crujientes bañadas y listas para compartir",
+        "Hamburguesas jugosas recién salidas de la parrilla",
+        "Cervezas de barril bien frías servidas en la barra",
+        "Pantallas encendidas con el gran partido",
+        "Costillas ahumadas glaseadas en BBQ",
+        "Un ambiente lleno y relajado animando el partido"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice DeKalb",
+      "items": [
+        {
+          "quote": "Nuestro lugar de cabecera después de cada partido de NIU. Las alitas jumbo son enormes, las cervezas están bien frías y puedes ver todos los partidos en las pantallas. El ambiente es de lo más relajado.",
+          "name": "Tyler M.",
+          "role": "Cliente de día de partido"
+        },
+        {
+          "quote": "La mejor hamburguesa de DeKalb, sin duda. Personal amable, cerveza fría y un lugar donde todos encajan. Venimos cada semana.",
+          "name": "Christina R.",
+          "role": "Local de DeKalb"
+        },
+        {
+          "quote": "El happy hour de Fatty's es inigualable. Pide unos quesos fritos, una cerveza fría y una mesa y ya estás listo para toda la noche.",
+          "name": "Marcus D.",
+          "role": "Estudiante de NIU"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en DeKalb",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "11:00 AM - 11:00 PM"
+        },
+        {
+          "day": "Viernes - Sábado",
+          "time": "11:00 AM - 1:00 AM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM - 10:00 PM"
+        }
+      ],
+      "phoneLabel": "Planea tu Visita",
+      "directions": "Encuéntranos en 1213 West Lincoln Highway en DeKalb, IL, a solo minutos de NIU. Trae a tu grupo, agarra una mesa cerca de las pantallas y mira todos los partidos. Usa el formulario para planear tu visita o preguntar por grupos grandes."
+    },
+    "cta": {
+      "heading": "¿Listo para el Partido? Agarra tu Mesa.",
+      "text": "Reúne al grupo y vente a Fatty's para todos los partidos, cervezas frías y alitas jumbo. Usa el formulario para planear tu visita o reservar espacio para el grupo grande.",
+      "button": "Planea tu Visita"
+    },
+    "form": {
+      "heading": "Planea tu Visita",
+      "subheading": "¿Vienes con un grupo grande al partido? ¿Tienes una pregunta sobre el menú o el happy hour? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Para qué partido vienes? Cuéntanos sobre tu visita o grupo.",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "El pub & grille de barrio relajado de DeKalb. Alitas jumbo, hamburguesas jugosas, cervezas frías y todos los partidos, donde todos encajan.",
+      "rights": "© Fatty's Pub & Grille. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

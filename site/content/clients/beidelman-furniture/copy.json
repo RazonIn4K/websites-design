@@ -1,0 +1,678 @@
+{
+  "business": {
+    "name": "Beidelman Furniture",
+    "shortName": "Beidelman",
+    "vertical": "Furniture & Home Store",
+    "phone": "(630) 355-5770",
+    "phoneHref": "+16303555770",
+    "address": "239 South Washington Street",
+    "city": "Naperville",
+    "state": "IL",
+    "zip": "60540",
+    "mapsQuery": "Beidelman Furniture, 239 South Washington Street, Naperville, IL 60540",
+    "lat": 41.772028,
+    "lon": -88.1481603
+  },
+  "en": {
+    "meta": {
+      "title": "Beidelman Furniture | Family-Owned Furniture & Home Store in Naperville, IL",
+      "description": "Family-run furniture store in downtown Naperville since 1861. Solid-wood pieces built to last, free design help, and personal service. Call (630) 355-5770."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Shop",
+      "about": "About",
+      "gallery": "Showroom",
+      "visit": "Visit",
+      "order": "Visit the Showroom"
+    },
+    "hero": {
+      "eyebrow": "Naperville's Family-Owned Furniture Store",
+      "title": "Solid-Wood Furniture",
+      "titleAccent": "Built to Last a Lifetime",
+      "subtitle": "A family-owned Naperville furniture store from back when downtown was downtown. We sell well-made, solid-wood pieces, offer free design help, and give you the kind of personal service the big-box stores forgot.",
+      "ctaPrimary": "Shop Collections",
+      "ctaSecondary": "Call (630) 355-5770",
+      "badge": "Free in-home design help · Local delivery available"
+    },
+    "highlights": [
+      {
+        "icon": "star",
+        "title": "Built to Last",
+        "text": "Solid-wood frames and quality construction you can feel, chosen to be handed down rather than hauled to the curb in a few years."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Free Design Help",
+        "text": "Sit down with someone who'll help you pick finishes, fabrics, and layouts that actually work in your home, at no extra charge."
+      },
+      {
+        "icon": "home",
+        "title": "In-Home & Delivery",
+        "text": "We'll measure your space, plan the room, and deliver and set everything in place so it looks just right the day it arrives."
+      },
+      {
+        "icon": "heart",
+        "title": "Personal Service",
+        "text": "A locally owned shop where you talk to real people who know furniture, not a commissioned crowd pushing this week's special."
+      }
+    ],
+    "menu": {
+      "heading": "Shop Our Collections",
+      "subheading": "Pieces and prices shown are illustrative demo content for this concept site and may not reflect the store's actual selection or pricing.",
+      "categories": [
+        {
+          "id": "living-room",
+          "name": "Living Room",
+          "blurb": "Sofas, sectionals, accent chairs, and tables to anchor the room you live in most.",
+          "items": [
+            {
+              "name": "Solid-Wood Frame Sofa",
+              "desc": "A classic three-seat sofa on a kiln-dried hardwood frame, with your choice of fabric and cushion firmness.",
+              "price": "From $1,299",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Modular Sectional",
+              "desc": "Configure it to your room with a chaise on the left or right and add-on pieces as your space changes.",
+              "price": "From $2,199",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Accent Chair",
+              "desc": "A comfortable statement chair to fill an empty corner or round out a seating group.",
+              "price": "From $499",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Solid-Wood Coffee Table",
+              "desc": "A sturdy hardwood coffee table with a hand-finished top made to take everyday life.",
+              "price": "From $399"
+            },
+            {
+              "name": "Storage Ottoman",
+              "desc": "A soft upholstered ottoman that works as a footrest, extra seat, or tidy spot to stash throws.",
+              "price": "From $249",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dining-bar",
+          "name": "Dining & Bar",
+          "blurb": "Dining sets, buffets, and bar stools to gather the whole family around.",
+          "items": [
+            {
+              "name": "Solid-Wood Dining Set",
+              "desc": "A hardwood table with matching chairs, built to host Sunday dinners for years to come.",
+              "price": "From $1,499",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Extension Dining Table",
+              "desc": "Seats the everyday four and opens up with a leaf when the whole family comes over.",
+              "price": "From $999",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Sideboard Buffet",
+              "desc": "A solid-wood buffet with room for linens, serveware, and everything you only use on holidays.",
+              "price": "From $899"
+            },
+            {
+              "name": "Counter Bar Stool",
+              "desc": "Wood-and-upholstery stools sized for your counter or island, sold individually or as a set.",
+              "price": "From $179"
+            }
+          ]
+        },
+        {
+          "id": "bedroom",
+          "name": "Bedroom",
+          "blurb": "Beds, dressers, nightstands, and mattresses for a room that finally feels restful.",
+          "items": [
+            {
+              "name": "Solid-Wood Bed Frame",
+              "desc": "A hardwood platform or panel bed in twin through king, finished to match the rest of your set.",
+              "price": "From $899",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Six-Drawer Dresser",
+              "desc": "A roomy dresser with smooth-gliding, dovetailed drawers that hold up to daily use.",
+              "price": "From $799"
+            },
+            {
+              "name": "Nightstand",
+              "desc": "A bedside table with a drawer and open shelf, sized to match your bed and dresser.",
+              "price": "From $249",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Hybrid Mattress",
+              "desc": "A supportive coil-and-foam mattress in multiple firmness levels, with delivery and setup.",
+              "price": "From $699",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Five-Drawer Chest",
+              "desc": "A tall hardwood chest that adds storage without taking up much floor space.",
+              "price": "From $649",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "office-accents",
+          "name": "Home Office & Accents",
+          "blurb": "Desks, bookcases, rugs, and lamps to finish off every room in the house.",
+          "items": [
+            {
+              "name": "Solid-Wood Writing Desk",
+              "desc": "A clean-lined hardwood desk with a drawer or two, right at home in an office or a quiet corner.",
+              "price": "From $549",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bookcase",
+              "desc": "An adjustable-shelf hardwood bookcase for books, baskets, and the things you love to show off.",
+              "price": "From $399",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Area Rug",
+              "desc": "A durable, good-looking rug to ground a room and tie your colors together.",
+              "price": "From $199"
+            },
+            {
+              "name": "Lamps & Decor",
+              "desc": "Table and floor lamps plus accents and decor to warm up the room and finish the look.",
+              "price": "From $59",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Naperville Family Furniture Store",
+      "lead": "We're an independent, family-owned furniture and home store right downtown on South Washington Street.",
+      "paragraphs": [
+        "Beidelman Furniture has been part of downtown Naperville since 1861, when cabinetmaker Frederick Long founded the business that would stay in the same family for five generations, and its 1928 building on Washington Street was designated a City of Naperville landmark in 2024, the first commercial building in the city to earn that honor. It's a neighborhood store where you're greeted by name and helped by people who actually know furniture, selling solid-wood pieces and quality construction made to be lived on and handed down, not replaced every few years.",
+        "Our free design help is the part folks remember. Sit down with us and we'll work through finishes, fabrics, and floor plans, measure your space, and deliver and set everything in place so the room looks right the day it arrives. It's the kind of personal service the big-box stores forgot, and it's why families keep coming back."
+      ],
+      "stats": [
+        {
+          "value": "Solid Wood",
+          "label": "Built to Last"
+        },
+        {
+          "value": "Free",
+          "label": "In-Home Design Help"
+        },
+        {
+          "value": "Local",
+          "label": "Delivery & Setup"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside the Showroom",
+      "subheading": "A look around our downtown Naperville showroom, room by room.",
+      "captions": [
+        "Living room sets styled in the showroom",
+        "Solid-wood dining tables and chairs",
+        "Bedroom collections and mattresses",
+        "Accent chairs and fabric swatches",
+        "Bookcases, desks, and home-office pieces",
+        "Lamps, rugs, and finishing touches"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Naperville Is Saying",
+      "items": [
+        {
+          "quote": "We furnished our whole living room here and the help with fabrics and layout made it painless. The sofa is solid as a rock years later.",
+          "name": "Karen M.",
+          "role": "Naperville Homeowner"
+        },
+        {
+          "quote": "Real wood, real people, and they delivered and set everything up exactly where we wanted it. You don't get that at the big stores.",
+          "name": "Tom R.",
+          "role": "Repeat Customer"
+        },
+        {
+          "quote": "Bought our dining set here and it's hosted every holiday since. Worth every penny and then some.",
+          "name": "Linda S.",
+          "role": "Downtown Neighbor"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Showroom",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "10:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "10:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Call the Store",
+      "directions": "On South Washington Street in downtown Naperville with nearby parking. Stop in to browse the showroom, or call ahead and we'll have a designer ready to help plan your room.",
+      "neighborhood": "The showroom sits at the south end of downtown Naperville on Washington Street, steps from where the Riverwalk's brick paths follow the DuPage River through town."
+    },
+    "cta": {
+      "heading": "Ready to Furnish Your Home?",
+      "text": "Stop by the showroom or call to plan a room with free design help. We'll help you pick the pieces, then deliver and set everything in place.",
+      "button": "Call (630) 355-5770"
+    },
+    "form": {
+      "heading": "Plan a Room With Us",
+      "subheading": "Tell us what you're shopping for and we'll set up free design help, share availability, or arrange a delivery time.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Rooms to Furnish",
+      "date": "Preferred Visit Date",
+      "message": "What Are You Looking For?",
+      "submit": "Send Request",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and will reach out to set up your design help or visit.",
+      "error": "Something went wrong. Please try again or call us at (630) 355-5770.",
+      "consent": "By submitting, you agree to be contacted about your furniture request."
+    },
+    "footer": {
+      "tagline": "Solid-wood furniture, free design help, and personal service in downtown Naperville, IL.",
+      "rights": "© Beidelman Furniture. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Store Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Beidelman Furniture | Mueblería Familiar para el Hogar en Naperville, IL",
+      "description": "Mueblería familiar en el centro de Naperville desde 1861. Muebles de madera maciza hechos para durar, ayuda de diseño gratis y servicio personal. (630) 355-5770"
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Tienda",
+      "about": "Nosotros",
+      "gallery": "Sala de Exhibición",
+      "visit": "Visítanos",
+      "order": "Visítanos"
+    },
+    "hero": {
+      "eyebrow": "La Mueblería Familiar de Naperville",
+      "title": "Muebles de Madera Maciza",
+      "titleAccent": "Hechos para Durar Toda la Vida",
+      "subtitle": "Una mueblería familiar de Naperville de cuando el centro era el centro. Vendemos piezas de madera maciza bien hechas, ofrecemos ayuda de diseño gratis y te damos ese servicio personal que las grandes cadenas olvidaron.",
+      "ctaPrimary": "Ver Colecciones",
+      "ctaSecondary": "Llama al (630) 355-5770",
+      "badge": "Ayuda de diseño gratis a domicilio · Entrega local disponible"
+    },
+    "highlights": [
+      {
+        "icon": "star",
+        "title": "Hechos para Durar",
+        "text": "Estructuras de madera maciza y construcción de calidad que se sienten, pensadas para heredarse y no para terminar en la acera en unos años."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Ayuda de Diseño Gratis",
+        "text": "Siéntate con alguien que te ayudará a elegir acabados, telas y distribuciones que de verdad funcionan en tu casa, sin costo adicional."
+      },
+      {
+        "icon": "home",
+        "title": "A Domicilio y Entrega",
+        "text": "Medimos tu espacio, planeamos la habitación y entregamos y colocamos todo en su lugar para que luzca perfecto el día que llega."
+      },
+      {
+        "icon": "heart",
+        "title": "Servicio Personal",
+        "text": "Una tienda local donde hablas con personas de verdad que conocen los muebles, no con vendedores a comisión empujando la oferta de la semana."
+      }
+    ],
+    "menu": {
+      "heading": "Compra Nuestras Colecciones",
+      "subheading": "Las piezas y precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar la selección o los precios reales de la tienda.",
+      "categories": [
+        {
+          "id": "living-room",
+          "name": "Sala",
+          "blurb": "Sofás, seccionales, sillas de acento y mesas para anclar la habitación donde más vives.",
+          "items": [
+            {
+              "name": "Sofá con Estructura de Madera Maciza",
+              "desc": "Un sofá clásico de tres plazas sobre una estructura de madera dura secada al horno, con tela y firmeza de cojín a tu elección.",
+              "price": "Desde $1,299",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Seccional Modular",
+              "desc": "Configúralo a tu habitación con el chaise a la izquierda o derecha y agrega piezas a medida que cambia tu espacio.",
+              "price": "Desde $2,199",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Silla de Acento",
+              "desc": "Una silla cómoda y llamativa para llenar un rincón vacío o completar un grupo de asientos.",
+              "price": "Desde $499",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Mesa de Centro de Madera Maciza",
+              "desc": "Una resistente mesa de centro de madera dura con superficie acabada a mano, hecha para el día a día.",
+              "price": "Desde $399"
+            },
+            {
+              "name": "Otomana con Almacenamiento",
+              "desc": "Una otomana tapizada y suave que sirve de reposapiés, asiento extra o lugar ordenado para guardar mantas.",
+              "price": "Desde $249",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dining-bar",
+          "name": "Comedor y Bar",
+          "blurb": "Juegos de comedor, bufeteras y bancos de bar para reunir a toda la familia.",
+          "items": [
+            {
+              "name": "Juego de Comedor de Madera Maciza",
+              "desc": "Una mesa de madera dura con sillas a juego, hecha para las cenas de domingo por muchos años.",
+              "price": "Desde $1,499",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Mesa de Comedor Extensible",
+              "desc": "Acomoda a cuatro a diario y se abre con una extensión cuando llega toda la familia.",
+              "price": "Desde $999",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Bufetera",
+              "desc": "Una bufetera de madera maciza con espacio para manteles, vajilla y todo lo que solo usas en las fiestas.",
+              "price": "Desde $899"
+            },
+            {
+              "name": "Banco de Bar",
+              "desc": "Bancos de madera y tapizado a la medida de tu barra o isla, vendidos por unidad o en juego.",
+              "price": "Desde $179"
+            }
+          ]
+        },
+        {
+          "id": "bedroom",
+          "name": "Recámara",
+          "blurb": "Camas, cómodas, burós y colchones para una habitación que por fin se siente de descanso.",
+          "items": [
+            {
+              "name": "Cama de Madera Maciza",
+              "desc": "Una cama de plataforma o de paneles de madera dura, de individual a king, con acabado a juego con el resto de tu set.",
+              "price": "Desde $899",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Cómoda de Seis Cajones",
+              "desc": "Una cómoda amplia con cajones de deslizamiento suave y ensamble de cola de milano que aguantan el uso diario.",
+              "price": "Desde $799"
+            },
+            {
+              "name": "Buró",
+              "desc": "Una mesa de noche con cajón y repisa abierta, a la medida de tu cama y tu cómoda.",
+              "price": "Desde $249",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Colchón Híbrido",
+              "desc": "Un colchón de resortes y espuma con buen soporte en varios niveles de firmeza, con entrega e instalación.",
+              "price": "Desde $699",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Chifonier de Cinco Cajones",
+              "desc": "Un chifonier alto de madera dura que agrega almacenamiento sin ocupar mucho espacio de piso.",
+              "price": "Desde $649",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "office-accents",
+          "name": "Oficina en Casa y Accesorios",
+          "blurb": "Escritorios, libreros, tapetes y lámparas para rematar cada rincón de la casa.",
+          "items": [
+            {
+              "name": "Escritorio de Madera Maciza",
+              "desc": "Un escritorio de madera dura de líneas limpias con uno o dos cajones, ideal en una oficina o un rincón tranquilo.",
+              "price": "Desde $549",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Librero",
+              "desc": "Un librero de madera dura con repisas ajustables para libros, canastas y lo que te gusta lucir.",
+              "price": "Desde $399",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Tapete",
+              "desc": "Un tapete duradero y de buen ver para anclar la habitación y unir tus colores.",
+              "price": "Desde $199"
+            },
+            {
+              "name": "Lámparas y Decoración",
+              "desc": "Lámparas de mesa y de piso, además de accesorios y decoración para dar calidez y rematar el look.",
+              "price": "Desde $59",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Una Mueblería Familiar de Naperville",
+      "lead": "Somos una mueblería y tienda para el hogar independiente y familiar, aquí mismo en el centro, sobre South Washington Street.",
+      "paragraphs": [
+        "Beidelman Furniture ha sido parte del centro de Naperville desde 1861, cuando el ebanista Frederick Long fundó el negocio que permanecería en la misma familia por cinco generaciones, y su edificio de 1928 sobre Washington Street fue designado monumento histórico de la ciudad de Naperville en 2024, el primer edificio comercial de la ciudad en recibir ese honor. Es una tienda de barrio donde te saludan por tu nombre y te atienden personas que de verdad conocen los muebles, con piezas de madera maciza y construcción de calidad hechas para vivirse y heredarse, no para reemplazarse cada pocos años.",
+        "Nuestra ayuda de diseño gratis es lo que la gente recuerda. Siéntate con nosotros y repasamos acabados, telas y planos, medimos tu espacio, y entregamos y colocamos todo en su lugar para que la habitación luzca bien el día que llega. Es ese servicio personal que las grandes cadenas olvidaron, y por eso las familias siguen volviendo."
+      ],
+      "stats": [
+        {
+          "value": "Madera Maciza",
+          "label": "Hechos para Durar"
+        },
+        {
+          "value": "Gratis",
+          "label": "Ayuda de Diseño a Domicilio"
+        },
+        {
+          "value": "Local",
+          "label": "Entrega e Instalación"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Dentro de la Sala de Exhibición",
+      "subheading": "Un recorrido por nuestra sala de exhibición en el centro de Naperville, habitación por habitación.",
+      "captions": [
+        "Juegos de sala montados en la exhibición",
+        "Mesas y sillas de comedor de madera maciza",
+        "Colecciones de recámara y colchones",
+        "Sillas de acento y muestras de tela",
+        "Libreros, escritorios y piezas de oficina en casa",
+        "Lámparas, tapetes y toques finales"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice Naperville",
+      "items": [
+        {
+          "quote": "Amueblamos toda la sala aquí y la ayuda con telas y distribución lo hizo todo fácil. El sofá sigue firme como una roca años después.",
+          "name": "Karen M.",
+          "role": "Propietaria en Naperville"
+        },
+        {
+          "quote": "Madera de verdad, gente de verdad, y entregaron y acomodaron todo justo donde lo queríamos. Eso no lo consigues en las grandes tiendas.",
+          "name": "Tom R.",
+          "role": "Cliente Frecuente"
+        },
+        {
+          "quote": "Compramos aquí nuestro juego de comedor y ha sido el centro de cada fiesta desde entonces. Vale cada centavo y más.",
+          "name": "Linda S.",
+          "role": "Vecina del Centro"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita la Sala de Exhibición",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Martes",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "10:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "10:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Llama a la Tienda",
+      "directions": "Sobre South Washington Street en el centro de Naperville, con estacionamiento cercano. Pasa a recorrer la sala de exhibición, o llama con anticipación y tendremos a un diseñador listo para ayudarte a planear tu habitación.",
+      "neighborhood": "La sala de exhibición está en el extremo sur del centro de Naperville sobre Washington Street, a unos pasos de donde los senderos de ladrillo del Riverwalk acompañan al río DuPage a su paso por la ciudad."
+    },
+    "cta": {
+      "heading": "¿Listo para Amueblar tu Hogar?",
+      "text": "Pasa por la sala de exhibición o llama para planear una habitación con ayuda de diseño gratis. Te ayudamos a elegir las piezas y luego entregamos y colocamos todo en su lugar.",
+      "button": "Llamar al (630) 355-5770"
+    },
+    "form": {
+      "heading": "Planea una Habitación con Nosotros",
+      "subheading": "Cuéntanos qué estás buscando y coordinamos ayuda de diseño gratis, compartimos disponibilidad o agendamos una hora de entrega.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Habitaciones a Amueblar",
+      "date": "Fecha de Visita Preferida",
+      "message": "¿Qué Estás Buscando?",
+      "submit": "Enviar Solicitud",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos para coordinar tu ayuda de diseño o tu visita.",
+      "error": "Algo salió mal. Inténtalo de nuevo o llámanos al (630) 355-5770.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud de muebles."
+    },
+    "footer": {
+      "tagline": "Muebles de madera maciza, ayuda de diseño gratis y servicio personal en el centro de Naperville, IL.",
+      "rights": "© Beidelman Furniture. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario de la Tienda",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

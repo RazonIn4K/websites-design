@@ -1,0 +1,613 @@
+{
+  "business": {
+    "name": "Pub West",
+    "shortName": "Pub West",
+    "vertical": "Grill Pub",
+    "phone": "(815) 264-3736",
+    "phoneHref": "+18152643736",
+    "address": "100 East Adams Street",
+    "city": "Waterman",
+    "state": "IL",
+    "zip": "60556",
+    "mapsQuery": "Pub West, 100 East Adams Street, Waterman, IL",
+    "lat": 41.7685248,
+    "lon": -88.7731644,
+    "cuisine": "Grill"
+  },
+  "en": {
+    "meta": {
+      "title": "Pub West | Small-Town Grill Pub in Waterman, IL — Burgers & Cold Drafts",
+      "description": "Waterman's small-town grill pub. Char-grilled burgers, hearty plates, and ice-cold drafts on Adams Street, where farmers and families land on Friday night."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Specials"
+    },
+    "hero": {
+      "eyebrow": "Waterman's Small-Town Grill Pub",
+      "title": "Good Burgers. Cold Beer.",
+      "titleAccent": "Right on Adams Street.",
+      "subtitle": "Pub West is where Waterman lands on a Friday night — farmers coming in from the field, families grabbing a booth, neighbors catching up at the bar. Burgers off the grill, drafts poured cold, and no fuss about any of it.",
+      "ctaPrimary": "See the Menu",
+      "ctaSecondary": "Plan Your Visit",
+      "badge": "Off the Grill · Cold Drafts · Everybody's Welcome"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Burgers Off the Grill",
+        "text": "Half-pound patties char-grilled over open flame and served in a basket with hand-cut fries. Simple food done right."
+      },
+      {
+        "icon": "star",
+        "title": "Small-Town Friendly",
+        "text": "You'll get a hello at the door and probably spot somebody you know at the bar. That's just how Waterman works."
+      },
+      {
+        "icon": "gauge",
+        "title": "Cold Drafts, Fair Prices",
+        "text": "Ice-cold taps, longnecks from the back of the cooler, and small-town prices that don't spoil the night out."
+      },
+      {
+        "icon": "heart",
+        "title": "Farm Crews & Families",
+        "text": "Friday night brings in the crews from the field and the families from town, and there's a table for every one of them."
+      }
+    ],
+    "menu": {
+      "heading": "The Menu",
+      "subheading": "Menu items and prices shown here are illustrative demo content for this sample site. Stop in or give us a call to hear what's actually on the grill tonight.",
+      "categories": [
+        {
+          "id": "burgers-handhelds",
+          "name": "Burgers & Handhelds",
+          "blurb": "Char-grilled patties and hand-breaded classics, served in a basket with hand-cut fries.",
+          "items": [
+            {
+              "name": "The Adams Street Burger",
+              "desc": "A half-pound char-grilled patty stacked with sharp cheddar, bacon, grilled onions, and house sauce on a toasted bun.",
+              "price": "$12.49",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Plain & Simple Cheeseburger",
+              "desc": "A char-grilled patty with American cheese, pickles, and onion. No frills, done right.",
+              "price": "$9.49",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Breaded Pork Tenderloin",
+              "desc": "Hand-breaded tenderloin fried golden and hanging well past the edge of the bun, with pickles and mustard.",
+              "price": "$11.49",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Firehouse Jalapeño Burger",
+              "desc": "Pepper jack, fried jalapeños, and chipotle mayo for the folks who like a little heat with their beef.",
+              "price": "$11.99",
+              "tags": [
+                "spicy"
+              ]
+            },
+            {
+              "name": "Garden Griller",
+              "desc": "A grilled veggie patty with lettuce, tomato, and herb mayo on a toasted wheat bun.",
+              "price": "$10.49",
+              "tags": [
+                "vegetarian"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "off-the-grill",
+          "name": "Off the Grill",
+          "blurb": "Hearty plates straight off the flame — the kind of supper that ends a long day right.",
+          "items": [
+            {
+              "name": "Grilled Ribeye Plate",
+              "desc": "A hand-cut ribeye grilled over open flame, finished with garlic butter and served with fries and slaw.",
+              "price": "$21.99",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Smoked Pork Chop",
+              "desc": "A thick-cut smoked chop finished on the grill, with mashed potatoes and buttered corn.",
+              "price": "$16.49",
+              "tags": []
+            },
+            {
+              "name": "Grilled Chicken Dinner",
+              "desc": "Char-grilled chicken breast with seasonal vegetables and your choice of side.",
+              "price": "$13.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Scorcher Wings Basket",
+              "desc": "Crispy wings tossed in a hot pepper glaze that sneaks up on you. Ranch on the side, if you need it.",
+              "price": "$11.99",
+              "tags": [
+                "spicy"
+              ]
+            },
+            {
+              "name": "Grilled Cheese & Tomato Soup",
+              "desc": "Buttery griddled sourdough with melted cheddar and a cup of creamy tomato soup.",
+              "price": "$8.49",
+              "tags": [
+                "vegetarian",
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "drinks-sides",
+          "name": "Drinks & Sides",
+          "blurb": "Cold pours and the sides that go with them, priced the way a small town likes it.",
+          "items": [
+            {
+              "name": "Cold Draft Pint",
+              "desc": "Domestic and regional taps poured ice cold. Ask what's flowing tonight.",
+              "price": "$4.49",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Bottles & Seltzers",
+              "desc": "Longnecks and hard seltzers straight from the back of the cooler, always ice cold.",
+              "price": "$3.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Hand-Cut Fries",
+              "desc": "Skin-on fries cut in-house and fried crisp with sea salt.",
+              "price": "$3.99",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Beer-Battered Onion Rings",
+              "desc": "Thick-cut rings in a golden beer batter with house dipping sauce.",
+              "price": "$5.49",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "House Old-Fashioned",
+              "desc": "Bourbon, bitters, orange, and a cherry, stirred the old way and never rushed.",
+              "price": "$7.99",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "The Grill Pub on Adams Street",
+      "lead": "Pub West is Waterman's gathering spot — char-grilled burgers, hearty plates, and cold drafts in the middle of Illinois corn country.",
+      "paragraphs": [
+        "Waterman is a small town, and Pub West has been its small-town pub since 2005 — the kind of place where the grill does the talking and the bar stools fill up with familiar faces. Come in off the field, off the road, or off the couch, and there's a burger in a basket and a cold draft waiting for you.",
+        "We keep the menu honest: beef on an open flame, fries cut by hand, and beer that never sits long enough to warm up. Friday nights the booths fill with farm crews and families alike, and everybody leaves full. You'll find us at 100 East Adams Street, right in the heart of Waterman."
+      ],
+      "stats": [
+        {
+          "value": "Hot",
+          "label": "Off the Grill"
+        },
+        {
+          "value": "Cold",
+          "label": "Drafts on Tap"
+        },
+        {
+          "value": "All",
+          "label": "Welcome Here"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Around the Pub",
+      "subheading": "The burgers, the pours, and the worn wood that make Pub West the spot in Waterman.",
+      "captions": [
+        "A char-grilled burger stacked high in a paper-lined basket",
+        "A ribeye sizzling on the grill with garlic butter melting over the top",
+        "A cold draft pint poured slow at the tap",
+        "A worn wooden booth by the front window at dusk",
+        "A hand-breaded pork tenderloin hanging over the edge of its bun",
+        "Neighbors catching up over supper at the bar"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Waterman Says",
+      "items": [
+        {
+          "quote": "The burgers come off the grill just right and the beer is cold every single time. You can't sit down without seeing somebody you know.",
+          "name": "Dale K.",
+          "role": "Waterman regular"
+        },
+        {
+          "quote": "We bring the kids on Friday nights and there's always a booth for all of us. Good food, fair prices, zero fuss.",
+          "name": "Anna M.",
+          "role": "Friday night family"
+        },
+        {
+          "quote": "After a long day in the field, a ribeye and a cold draft at the bar is about as good as it gets.",
+          "name": "Roy T.",
+          "role": "Farms outside town"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Waterman",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "11:00 AM - 12:00 AM"
+        },
+        {
+          "day": "Friday - Saturday",
+          "time": "11:00 AM - 1:00 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "12:00 PM - 11:00 PM"
+        }
+      ],
+      "phoneLabel": "Call Us",
+      "directions": "You'll find us at 100 East Adams Street in downtown Waterman, IL. Park out front, grab a booth or a bar stool, and settle in. Call (815) 264-3736 or use the form to plan your visit or ask about bigger groups.",
+      "neighborhood": "Pub West sits in the heart of Waterman, a farm village of about 1,400 in southern DeKalb County that turns out every July for the Lions Club Summerfest and its antique tractor and truck show."
+    },
+    "cta": {
+      "heading": "Pull Up a Chair.",
+      "text": "Round up the family or the crew and head to Pub West for burgers off the grill and drafts poured cold. Use the form to plan your visit or give us a call.",
+      "button": "Plan Your Visit"
+    },
+    "form": {
+      "heading": "Plan Your Visit",
+      "subheading": "Coming in with a big group? Wondering what's on the grill or on tap? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Party Size",
+      "date": "Preferred Date/Time",
+      "message": "Tell us about your visit — how many folks, what night, any questions.",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We received your message and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Waterman's small-town grill pub. Burgers off the grill, cold drafts, and a table for everybody on Adams Street.",
+      "rights": "© Pub West. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Menu, prices & hours illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Pub West | Grill Pub de Pueblo en Waterman, IL — Hamburguesas y Cerveza Fría",
+      "description": "El grill pub de Waterman, IL. Hamburguesas a la parrilla, platos abundantes y cerveza fría en la Calle Adams, donde caen agricultores y familias el viernes."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Especiales"
+    },
+    "hero": {
+      "eyebrow": "El Grill Pub de Pueblo de Waterman",
+      "title": "Hamburguesas Ricas. Cerveza Fría.",
+      "titleAccent": "Aquí en la Calle Adams.",
+      "subtitle": "Pub West es donde Waterman cae el viernes por la noche: agricultores que llegan del campo, familias que agarran una mesa y vecinos platicando en la barra. Hamburguesas a la parrilla, cerveza bien fría y cero pretensiones.",
+      "ctaPrimary": "Ver el Menú",
+      "ctaSecondary": "Planea tu Visita",
+      "badge": "A la Parrilla · Cerveza Fría · Todos Son Bienvenidos"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Hamburguesas a la Parrilla",
+        "text": "Carne de media libra asada sobre fuego abierto y servida en canasta con papas cortadas a mano. Comida sencilla, bien hecha."
+      },
+      {
+        "icon": "star",
+        "title": "Trato de Pueblo",
+        "text": "Te saludan al entrar y seguro encuentras una cara conocida en la barra. Así funciona Waterman."
+      },
+      {
+        "icon": "gauge",
+        "title": "Cerveza Fría, Precios Justos",
+        "text": "Barriles bien helados, botellas del fondo del refri y precios de pueblo que no arruinan la salida."
+      },
+      {
+        "icon": "heart",
+        "title": "Del Campo y de la Familia",
+        "text": "El viernes por la noche llegan las cuadrillas del campo y las familias del pueblo, y hay mesa para todos."
+      }
+    ],
+    "menu": {
+      "heading": "El Menú",
+      "subheading": "Los platillos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Pasa a vernos o llámanos para saber qué hay en la parrilla esta noche.",
+      "categories": [
+        {
+          "id": "burgers-handhelds",
+          "name": "Hamburguesas y Sándwiches",
+          "blurb": "Carnes a la parrilla y clásicos empanizados a mano, servidos en canasta con papas cortadas a mano.",
+          "items": [
+            {
+              "name": "La Hamburguesa Adams Street",
+              "desc": "Media libra de carne a la parrilla con queso cheddar, tocino, cebolla asada y salsa de la casa en pan tostado.",
+              "price": "$12.49",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Hamburguesa Sencilla con Queso",
+              "desc": "Carne a la parrilla con queso americano, pepinillos y cebolla. Sin adornos, bien hecha.",
+              "price": "$9.49",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Milanesa de Cerdo Empanizada",
+              "desc": "Milanesa empanizada a mano, frita y dorada, tan grande que se sale del pan, con pepinillos y mostaza.",
+              "price": "$11.49",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Hamburguesa Jalapeño Firehouse",
+              "desc": "Queso pepper jack, jalapeños fritos y mayonesa de chipotle para quienes quieren su carne con algo de picante.",
+              "price": "$11.99",
+              "tags": [
+                "spicy"
+              ]
+            },
+            {
+              "name": "La Vegetariana a la Parrilla",
+              "desc": "Hamburguesa de verduras a la parrilla con lechuga, tomate y mayonesa de hierbas en pan integral tostado.",
+              "price": "$10.49",
+              "tags": [
+                "vegetarian"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "off-the-grill",
+          "name": "De la Parrilla",
+          "blurb": "Platos abundantes directo del fuego: la cena que cierra bien un día largo.",
+          "items": [
+            {
+              "name": "Ribeye a la Parrilla",
+              "desc": "Ribeye cortado a mano, asado sobre fuego abierto y terminado con mantequilla de ajo, con papas y ensalada de col.",
+              "price": "$21.99",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Chuleta de Cerdo Ahumada",
+              "desc": "Chuleta gruesa ahumada y terminada en la parrilla, con puré de papa y elote con mantequilla.",
+              "price": "$16.49",
+              "tags": []
+            },
+            {
+              "name": "Pollo a la Parrilla",
+              "desc": "Pechuga de pollo a la parrilla con verduras de temporada y tu guarnición a elección.",
+              "price": "$13.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Canasta de Alitas Bravas",
+              "desc": "Alitas crujientes bañadas en un glaseado de chile que pega sin avisar. Ranch aparte, por si lo necesitas.",
+              "price": "$11.99",
+              "tags": [
+                "spicy"
+              ]
+            },
+            {
+              "name": "Sándwich de Queso Fundido con Sopa de Tomate",
+              "desc": "Pan de masa madre dorado con mantequilla, queso cheddar fundido y una taza de sopa cremosa de tomate.",
+              "price": "$8.49",
+              "tags": [
+                "vegetarian",
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "drinks-sides",
+          "name": "Bebidas y Guarniciones",
+          "blurb": "Tragos fríos y las guarniciones que los acompañan, a precios de pueblo.",
+          "items": [
+            {
+              "name": "Cerveza de Barril",
+              "desc": "Grifos nacionales y regionales servidos bien fríos. Pregunta qué hay esta noche.",
+              "price": "$4.49",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Botellas y Seltzers",
+              "desc": "Botellas y hard seltzers directo del fondo del refri, siempre bien fríos.",
+              "price": "$3.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Papas Cortadas a Mano",
+              "desc": "Papas con cáscara cortadas en casa y fritas crujientes con sal de mar.",
+              "price": "$3.99",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Aros de Cebolla en Cerveza",
+              "desc": "Aros gruesos en capeado dorado de cerveza con salsa de la casa para acompañar.",
+              "price": "$5.49",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Old-Fashioned de la Casa",
+              "desc": "Bourbon, amargos, naranja y una cereza, preparado a la antigua y sin prisa.",
+              "price": "$7.99",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "El Grill Pub de la Calle Adams",
+      "lead": "Pub West es el punto de encuentro de Waterman: hamburguesas a la parrilla, platos abundantes y cerveza fría en plena zona maicera de Illinois.",
+      "paragraphs": [
+        "Waterman es un pueblo chico, y Pub West es su pub de pueblo desde 2005: el tipo de lugar donde la parrilla habla por sí sola y los bancos de la barra se llenan de caras conocidas. Llega del campo, de la carretera o del sillón, y te espera una hamburguesa en canasta y una cerveza bien fría.",
+        "El menú es honesto: carne sobre fuego abierto, papas cortadas a mano y cerveza que nunca alcanza a entibiarse. Los viernes por la noche las mesas se llenan de cuadrillas del campo y familias por igual, y todos se van satisfechos. Nos encuentras en el 100 East Adams Street, en pleno corazón de Waterman."
+      ],
+      "stats": [
+        {
+          "value": "Recién",
+          "label": "de la Parrilla"
+        },
+        {
+          "value": "Frías",
+          "label": "Cervezas de Barril"
+        },
+        {
+          "value": "Todos",
+          "label": "Son Bienvenidos"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Por el Pub",
+      "subheading": "Las hamburguesas, las cervezas y la madera gastada que hacen de Pub West el punto de Waterman.",
+      "captions": [
+        "Una hamburguesa a la parrilla bien armada en su canasta con papel",
+        "Un ribeye chisporroteando en la parrilla con mantequilla de ajo derritiéndose encima",
+        "Una cerveza de barril servida despacio y bien fría",
+        "Una banca de madera gastada junto a la ventana al atardecer",
+        "Una milanesa de cerdo empanizada que se sale del pan",
+        "Vecinos platicando en la barra a la hora de la cena"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice Waterman",
+      "items": [
+        {
+          "quote": "Las hamburguesas salen de la parrilla en su punto y la cerveza está fría todas las veces. No puedes sentarte sin encontrar a alguien conocido.",
+          "name": "Dale K.",
+          "role": "Cliente de siempre en Waterman"
+        },
+        {
+          "quote": "Traemos a los niños los viernes por la noche y siempre hay mesa para todos. Buena comida, precios justos y cero complicaciones.",
+          "name": "Anna M.",
+          "role": "Familia de los viernes"
+        },
+        {
+          "quote": "Después de un día largo en el campo, un ribeye y una cerveza fría en la barra es lo mejor que hay.",
+          "name": "Roy T.",
+          "role": "De las granjas a las afueras"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en Waterman",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "11:00 AM - 12:00 AM"
+        },
+        {
+          "day": "Viernes - Sábado",
+          "time": "11:00 AM - 1:00 AM"
+        },
+        {
+          "day": "Domingo",
+          "time": "12:00 PM - 11:00 PM"
+        }
+      ],
+      "phoneLabel": "Llámanos",
+      "directions": "Nos encuentras en el 100 East Adams Street, en el centro de Waterman, IL. Estaciónate enfrente, agarra una mesa o un banco en la barra y ponte cómodo. Llama al (815) 264-3736 o usa el formulario para planear tu visita o preguntar por grupos grandes.",
+      "neighborhood": "Pub West está en pleno corazón de Waterman, un pueblo agrícola de unos 1,400 habitantes en el sur del condado de DeKalb que cada julio se vuelca al Summerfest del Club de Leones y su exhibición de tractores y camiones antiguos."
+    },
+    "cta": {
+      "heading": "Acércate una Silla.",
+      "text": "Reúne a la familia o a la cuadrilla y vente a Pub West por hamburguesas a la parrilla y cerveza bien fría. Usa el formulario para planear tu visita o llámanos.",
+      "button": "Planea tu Visita"
+    },
+    "form": {
+      "heading": "Planea tu Visita",
+      "subheading": "¿Vienes con un grupo grande? ¿Quieres saber qué hay en la parrilla o de barril? Escríbenos y te respondemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "Cuéntanos sobre tu visita: cuántas personas, qué noche y cualquier pregunta.",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "El grill pub de pueblo de Waterman. Hamburguesas a la parrilla, cerveza fría y mesa para todos en la Calle Adams.",
+      "rights": "© Pub West. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio demo · Menú, precios y horarios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

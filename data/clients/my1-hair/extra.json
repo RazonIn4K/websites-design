@@ -1,0 +1,48 @@
+{
+  "en": {
+    "ritual": {
+      "heading": "Your Visit, Start to Finish",
+      "steps": [
+        {
+          "title": "Book or Walk In",
+          "text": "Reserve online in a few taps or stop by anytime. Settle in, and let the day be yours."
+        },
+        {
+          "title": "Sit Down & Consult",
+          "text": "We start by really listening to your hair, your routine, and the look you've been picturing."
+        },
+        {
+          "title": "Relax Into the Chair",
+          "text": "Sink into a warm shampoo, then let your stylist work color, cut, or balayage at an easy pace."
+        },
+        {
+          "title": "Leave Loving It",
+          "text": "We finish with styling tips and book your next visit, so your look stays fresh between appointments."
+        }
+      ]
+    }
+  },
+  "es": {
+    "ritual": {
+      "heading": "Tu Visita, de Principio a Fin",
+      "steps": [
+        {
+          "title": "Reserva o Pásate",
+          "text": "Reserva en línea en unos toques o pásate cuando quieras. Acomódate y deja que el día sea tuyo."
+        },
+        {
+          "title": "Siéntate y Consulta",
+          "text": "Empezamos por escuchar de verdad tu cabello, tu rutina y el look que has estado imaginando."
+        },
+        {
+          "title": "Relájate en la Silla",
+          "text": "Disfruta un lavado tibio y deja que tu estilista trabaje color, corte o balayage a un ritmo tranquilo."
+        },
+        {
+          "title": "Sal Enamorada",
+          "text": "Terminamos con consejos de peinado y reservamos tu próxima visita, para que tu look siga fresco entre citas."
+        }
+      ]
+    }
+  }
+}

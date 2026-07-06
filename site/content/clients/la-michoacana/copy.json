@@ -1,0 +1,607 @@
+{
+  "business": {
+    "name": "La Michoacana",
+    "shortName": "La Michoacana",
+    "vertical": "Paletería & Ice Cream",
+    "phone": "",
+    "phoneHref": "",
+    "address": "162 West Lincoln Highway",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "La Michoacana, 162 West Lincoln Highway, DeKalb, IL",
+    "lat": 41.9305371,
+    "lon": -88.7570022,
+    "cuisine": "Ice Cream"
+  },
+  "en": {
+    "meta": {
+      "title": "La Michoacana | Paletas, Nieves & Aguas Frescas in DeKalb, IL",
+      "description": "Hand-made paletas, mangonadas dripping with chamoy, nieves, and aguas frescas on Lincoln Highway in downtown DeKalb, IL. Walk right up and pick your flavor."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Stop By"
+    },
+    "hero": {
+      "eyebrow": "DeKalb's Paletería",
+      "title": "Hand-Made Paletas,",
+      "titleAccent": "Real Fruit in Every Bite",
+      "subtitle": "Step up to the counter for paletas cut from whole fruit, mangonadas swirled with chamoy, and aguas frescas ladled straight from the jar. A little corner of Michoacán-style sweetness, right on Lincoln Highway.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Get Directions",
+      "badge": "Walk-up counter · Paletas made in small batches"
+    },
+    "highlights": [
+      {
+        "icon": "icecream",
+        "title": "Hand-Made Paletas",
+        "text": "Cream and water-based paletas poured in small batches, with real pieces of strawberry, coconut, and mango in every bar."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Mangonadas & Chamoy",
+        "text": "Mango nieve layered with chamoy, fresh mango, and chile-lime spice, crowned with a tamarind candy straw."
+      },
+      {
+        "icon": "star",
+        "title": "Aguas Frescas",
+        "text": "Horchata, jamaica, and tamarindo stirred fresh in the big glass jars and served over ice, sweet and cold."
+      },
+      {
+        "icon": "heart",
+        "title": "For the Whole Familia",
+        "text": "A bilingual sweet spot where kids press up to the case to pick a color and neighbors leave with something cold in hand."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Items and prices shown are illustrative demo content for this concept site and may not reflect the shop's actual menu or pricing.",
+      "categories": [
+        {
+          "id": "paletas",
+          "name": "Paletas",
+          "blurb": "Hand-poured ice pops in cream and fresh-fruit flavors, straight from the molds.",
+          "items": [
+            {
+              "name": "Fresas con Crema",
+              "desc": "Sweet cream paleta ribboned with real strawberry pieces in every bite.",
+              "price": "$3.75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Coco",
+              "desc": "Creamy coconut-milk paleta flecked with toasted shredded coconut.",
+              "price": "$3.50"
+            },
+            {
+              "name": "Tamarindo",
+              "desc": "Tangy-sweet tamarind water paleta with a gentle kick of chile.",
+              "price": "$3.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Limón",
+              "desc": "Bright, icy lime paleta that tastes like fresh-squeezed limones.",
+              "price": "$3.25",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Sandía",
+              "desc": "Juicy watermelon paleta with chocolate-chip seeds — summer on a stick.",
+              "price": "$3.50",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nieves-mangonadas",
+          "name": "Nieves & Mangonadas",
+          "blurb": "Scooped nieves and chamoy-swirled cups, built cold and colorful.",
+          "items": [
+            {
+              "name": "Mangonada",
+              "desc": "Mango nieve swirled with chamoy, fresh mango, and chile-lime spice, topped with a tamarind candy straw.",
+              "price": "$6.50",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Nieve (Two Scoops)",
+              "desc": "Two generous scoops from the case, from mango to fresa to pistache.",
+              "price": "$4.25"
+            },
+            {
+              "name": "Fresas con Crema Cup",
+              "desc": "Fresh-cut strawberries folded into sweet cream, served chilled by the cupful.",
+              "price": "$5.95"
+            },
+            {
+              "name": "Raspado",
+              "desc": "Shaved ice drenched in your choice of fruit syrup, piled high in the cup.",
+              "price": "$4.50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Banana Split",
+              "desc": "A split banana with three scoops of nieve, whipped cream, and a cherry.",
+              "price": "$6.95"
+            }
+          ]
+        },
+        {
+          "id": "aguas-antojitos",
+          "name": "Aguas & Antojitos",
+          "blurb": "Fresh aguas frescas from the jar and snack-cart favorites on the salty side.",
+          "items": [
+            {
+              "name": "Agua de Horchata",
+              "desc": "Creamy rice-and-cinnamon agua fresca, stirred fresh and poured over ice.",
+              "price": "$3.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Agua de Jamaica",
+              "desc": "Ruby-red hibiscus agua fresca — tart, floral, and endlessly refreshing.",
+              "price": "$3.25"
+            },
+            {
+              "name": "Agua de Tamarindo",
+              "desc": "Sweet-and-sour tamarind agua fresca with the pucker regulars crave.",
+              "price": "$3.25",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Esquites",
+              "desc": "Warm corn in a cup with crema, cotija, chile, and a squeeze of limón.",
+              "price": "$4.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Duros Preparados",
+              "desc": "Crunchy wheat duros loaded with cucumber, chamoy, and fresh limón.",
+              "price": "$4.25"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A True Paletería",
+      "lead": "La Michoacana is an independent paletería and ice-cream shop on West Lincoln Highway, serving DeKalb real-fruit treats made the traditional way.",
+      "paragraphs": [
+        "Every paleta starts with fruit you can see: strawberries folded into sweet cream, coconut flecked through the mold, tamarind balanced with a whisper of chile. We pour small batches by hand, so the case is always changing and always fresh — when a flavor runs out, another takes its place.",
+        "Ours is a counter where Spanish comes first and everyone is welcome. Kids press their noses to the glass to pick a color, students cool off with a mangonada, and abuelitas order fresas con crema just like back home. Come as you are — the case is full and the door is open."
+      ],
+      "stats": [
+        {
+          "value": "Hand-Made",
+          "label": "Poured in-house"
+        },
+        {
+          "value": "Real Fruit",
+          "label": "Whole fruit in the mold"
+        },
+        {
+          "value": "Walk-In",
+          "label": "No order ahead needed"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Gallery",
+      "subheading": "Straight from the case on Lincoln Highway, from paletas to aguas frescas.",
+      "captions": [
+        "Fresas con crema paletas fresh from the molds",
+        "A mangonada dripping with chamoy, tamarind straw on top",
+        "Glass jars of horchata and jamaica sweating on the counter",
+        "Rows of bright paletas lined up in the freezer case",
+        "A warm cup of esquites dusted with chile and cotija",
+        "The sweet-shop counter on West Lincoln Highway"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Neighbors Are Saying",
+      "items": [
+        {
+          "quote": "The fresas con crema paleta tastes like real strawberries, not syrup. You can tell everything is made by hand.",
+          "name": "Maribel G.",
+          "role": "DeKalb Neighbor"
+        },
+        {
+          "quote": "Best mangonada I've found since moving here. Sweet, spicy, ice cold — I stop in after class more than I should admit.",
+          "name": "Kevin O.",
+          "role": "Student"
+        },
+        {
+          "quote": "My kids press up to the case and take forever to choose. Nobody rushes us, and the horchata is fresh every time.",
+          "name": "Lupita R.",
+          "role": "Regular"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Shop",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "11:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "time": "11:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "11:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "11:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "11:00 AM – 10:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "11:00 AM – 10:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "12:00 PM – 9:00 PM"
+        }
+      ],
+      "phoneLabel": "Walk-Up Counter",
+      "directions": "Find us at 162 West Lincoln Highway in downtown DeKalb, with easy parking out front. No order ahead needed — just walk up to the counter and pick from the case.",
+      "neighborhood": "The shop sits in the 100 block of West Lincoln Highway in downtown DeKalb, a couple of blocks from the historic Egyptian Theatre (1929)."
+    },
+    "cta": {
+      "heading": "Craving Something Cold?",
+      "text": "The case is stocked and the aguas are on ice. Stop by 162 West Lincoln Highway, point at your flavor, and we'll hand it over the counter.",
+      "button": "Get Directions"
+    },
+    "form": {
+      "heading": "Get in Touch",
+      "subheading": "Planning a party, a school event, or a big group treat run? Send us a note and we'll write back.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Contact Number",
+      "partySize": "Group Size",
+      "date": "Preferred Date/Time",
+      "message": "How Can We Help?",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your message and will write back soon.",
+      "error": "Something went wrong. Please try again, or stop by the counter and ask for us in person.",
+      "consent": "By submitting, you agree to be contacted about your request."
+    },
+    "footer": {
+      "tagline": "Hand-made paletas, nieves, mangonadas, and aguas frescas in DeKalb, IL.",
+      "rights": "© La Michoacana. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Shop Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "La Michoacana | Paletas, Nieves y Aguas Frescas en DeKalb, IL",
+      "description": "Paletas artesanales, mangonadas con chamoy, nieves y aguas frescas sobre Lincoln Highway, en el centro de DeKalb, IL. Pásale y escoge tu sabor."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Pásale"
+    },
+    "hero": {
+      "eyebrow": "La Paletería de DeKalb",
+      "title": "Paletas Hechas a Mano,",
+      "titleAccent": "con Fruta de Verdad",
+      "subtitle": "Arrímate al mostrador por paletas con trozos de fruta de verdad, mangonadas bañadas en chamoy y aguas frescas servidas de la vitrolera. Un rinconcito de dulzura al estilo Michoacán, aquí mero en Lincoln Highway.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Cómo Llegar",
+      "badge": "Mostrador al paso · Paletas en lotes pequeños"
+    },
+    "highlights": [
+      {
+        "icon": "icecream",
+        "title": "Paletas Hechas a Mano",
+        "text": "Paletas de agua y de crema vaciadas en lotes pequeños, con trozos de fresa, coco y mango en cada una."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Mangonadas con Chamoy",
+        "text": "Nieve de mango en capas con chamoy, mango fresco y chilito en polvo, coronada con su banderilla de tamarindo."
+      },
+      {
+        "icon": "star",
+        "title": "Aguas Frescas",
+        "text": "Horchata, jamaica y tamarindo recién batidas en la vitrolera, servidas sobre hielo, dulces y bien frías."
+      },
+      {
+        "icon": "heart",
+        "title": "Para Toda la Familia",
+        "text": "Un rinconcito donde el español se oye primero, los niños escogen su color pegaditos a la vitrina y nadie se va con las manos vacías."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Los productos y precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar el menú o los precios reales de la tienda.",
+      "categories": [
+        {
+          "id": "paletas",
+          "name": "Paletas",
+          "blurb": "Paletas vaciadas a mano, de crema y de agua, recién salidas de los moldes.",
+          "items": [
+            {
+              "name": "Fresas con Crema",
+              "desc": "Paleta de crema dulce con trozos de fresa de verdad en cada mordida.",
+              "price": "$3.75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Coco",
+              "desc": "Paleta cremosa de leche de coco con ralladura de coco tostado.",
+              "price": "$3.50"
+            },
+            {
+              "name": "Tamarindo",
+              "desc": "Paleta de agua de tamarindo, agridulce y con su toquecito de chile.",
+              "price": "$3.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Limón",
+              "desc": "Paleta de limón bien fría, como de limones recién exprimidos.",
+              "price": "$3.25",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Sandía",
+              "desc": "Paleta jugosa de sandía con semillitas de chocolate — puro verano en un palito.",
+              "price": "$3.50",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nieves-mangonadas",
+          "name": "Nieves y Mangonadas",
+          "blurb": "Nieves servidas al momento y vasos con chamoy, bien fríos y bien coloridos.",
+          "items": [
+            {
+              "name": "Mangonada",
+              "desc": "Nieve de mango con chamoy, mango fresco y chilito en polvo, coronada con su banderilla de tamarindo.",
+              "price": "$6.50",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Nieve (Dos Bolas)",
+              "desc": "Dos bolas generosas de la vitrina, del mango a la fresa al pistache.",
+              "price": "$4.25"
+            },
+            {
+              "name": "Vaso de Fresas con Crema",
+              "desc": "Fresas recién picadas envueltas en crema dulce, servidas bien frías.",
+              "price": "$5.95"
+            },
+            {
+              "name": "Raspado",
+              "desc": "Hielo raspado bañado con el jarabe de fruta que tú escojas, servido copeteado.",
+              "price": "$4.50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Banana Split",
+              "desc": "Un plátano partido con tres bolas de nieve, crema batida y su cereza.",
+              "price": "$6.95"
+            }
+          ]
+        },
+        {
+          "id": "aguas-antojitos",
+          "name": "Aguas y Antojitos",
+          "blurb": "Aguas frescas de la vitrolera y antojitos para el lado salado.",
+          "items": [
+            {
+              "name": "Agua de Horchata",
+              "desc": "Agua fresca de arroz con canela, batida al momento y servida con hielo.",
+              "price": "$3.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Agua de Jamaica",
+              "desc": "Agua de jamaica color rubí — acidita, floral y bien refrescante.",
+              "price": "$3.25"
+            },
+            {
+              "name": "Agua de Tamarindo",
+              "desc": "Agua de tamarindo agridulce, con ese piquete que la clientela busca.",
+              "price": "$3.25",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Esquites",
+              "desc": "Elote calientito en vaso con crema, queso cotija, chile y su limón.",
+              "price": "$4.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Duros Preparados",
+              "desc": "Duritos crujientes preparados con pepino, chamoy y limón fresco.",
+              "price": "$4.25"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Una Paletería de Verdad",
+      "lead": "La Michoacana es una paletería y nevería independiente sobre West Lincoln Highway, que sirve a DeKalb antojos de fruta de verdad hechos como es la tradición.",
+      "paragraphs": [
+        "Cada paleta empieza con fruta que se ve: fresas envueltas en crema dulce, coco regado por todo el molde, tamarindo con su puntito de chile. Vaciamos lotes pequeños a mano, así que la vitrina siempre está cambiando y siempre está fresca — cuando un sabor se acaba, otro toma su lugar.",
+        "El nuestro es un mostrador donde el español va primero y todos son bienvenidos. Los niños pegan la nariz al vidrio para escoger su color, los estudiantes se refrescan con una mangonada y las abuelitas piden sus fresas con crema como las de allá. Ven como estés — la vitrina está llena y la puerta abierta."
+      ],
+      "stats": [
+        {
+          "value": "A Mano",
+          "label": "Hechas en casa"
+        },
+        {
+          "value": "Fruta Real",
+          "label": "Fruta entera en el molde"
+        },
+        {
+          "value": "Al Paso",
+          "label": "Sin pedido por adelantado"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Galería",
+      "subheading": "Directo de la vitrina en Lincoln Highway, de las paletas a las aguas frescas.",
+      "captions": [
+        "Paletas de fresas con crema recién salidas de los moldes",
+        "Una mangonada escurriendo chamoy, con su banderilla de tamarindo",
+        "Vitroleras de horchata y jamaica sudando en el mostrador",
+        "Filas de paletas de colores formadas en la vitrina",
+        "Un vaso de esquites calientito con chile y cotija",
+        "El mostrador de la paletería sobre West Lincoln Highway"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice la Vecindad",
+      "items": [
+        {
+          "quote": "La paleta de fresas con crema sabe a fresas de a de veras, no a jarabe. Se nota que todo está hecho a mano.",
+          "name": "Maribel G.",
+          "role": "Vecina de DeKalb"
+        },
+        {
+          "quote": "La mejor mangonada que he encontrado desde que me mudé. Dulce, picosita, bien fría — paso después de clases más seguido de lo que debería.",
+          "name": "Kevin O.",
+          "role": "Estudiante"
+        },
+        {
+          "quote": "Mis hijos se pegan a la vitrina y se tardan una eternidad en escoger. Nadie nos apura, y la horchata está fresca cada vez.",
+          "name": "Lupita R.",
+          "role": "Clienta de Siempre"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita la Tienda",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "11:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Martes",
+          "time": "11:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "11:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "11:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "11:00 AM – 10:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "11:00 AM – 10:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "12:00 PM – 9:00 PM"
+        }
+      ],
+      "phoneLabel": "Mostrador al Paso",
+      "directions": "Estamos en el 162 de West Lincoln Highway, en el centro de DeKalb, con estacionamiento fácil enfrente. No necesitas pedir por adelantado — arrímate al mostrador y escoge de la vitrina.",
+      "neighborhood": "La tienda está en la cuadra 100 de West Lincoln Highway, en el centro de DeKalb, a un par de cuadras del histórico Egyptian Theatre (1929)."
+    },
+    "cta": {
+      "heading": "¿Se te Antoja Algo Frío?",
+      "text": "La vitrina está llena y las aguas ya están en hielo. Pásale al 162 de West Lincoln Highway, señala tu sabor y te lo entregamos por el mostrador.",
+      "button": "Cómo Llegar"
+    },
+    "form": {
+      "heading": "Contáctanos",
+      "subheading": "¿Estás organizando una fiesta, un evento escolar o un antojo para todo el grupo? Mándanos un mensaje y te escribimos de vuelta.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Contacto",
+      "partySize": "Tamaño del Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo Podemos Ayudarte?",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y te escribimos muy pronto.",
+      "error": "Algo salió mal. Inténtalo de nuevo o pásale al mostrador y platicamos en persona.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud."
+    },
+    "footer": {
+      "tagline": "Paletas artesanales, nieves, mangonadas y aguas frescas en DeKalb, IL.",
+      "rights": "© La Michoacana. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario de la Tienda",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

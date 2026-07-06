@@ -1,0 +1,658 @@
+{
+  "business": {
+    "name": "Lisle Lanes",
+    "shortName": "Lisle Lanes",
+    "vertical": "Bowling Alley & Bar & Grill",
+    "phone": "(630) 968-1300",
+    "phoneHref": "+16309681300",
+    "address": "4920 Lincoln Avenue",
+    "city": "Lisle",
+    "state": "IL",
+    "zip": "60532",
+    "mapsQuery": "Lisle Lanes, 4920 Lincoln Avenue, Lisle, IL 60532"
+  },
+  "en": {
+    "meta": {
+      "title": "Lisle Lanes | Bowling, Leagues & Bar & Grill in Lisle, IL",
+      "description": "Lisle's neighborhood bowling alley — open bowling, weekend glow bowling, friendly leagues, parties, and a bar & grill with cold pitchers and hot wings. Call (630) 968-1300."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Lanes & Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Reserve a Lane"
+    },
+    "hero": {
+      "eyebrow": "Lisle's Neighborhood Lanes",
+      "title": "Where Everybody",
+      "titleAccent": "Finds Their Lane",
+      "subtitle": "Well-kept lanes, glow bowling on weekends, friendly leagues for every age, and a bar & grill with cold pitchers and hot wings. Bring the family, the team, or the whole crew.",
+      "ctaPrimary": "View Lanes & Menu",
+      "ctaSecondary": "Call (630) 968-1300",
+      "badge": "Open Bowling · Glow Weekends · Leagues · Bar & Grill"
+    },
+    "highlights": [
+      {
+        "icon": "star",
+        "title": "Well-Kept Lanes",
+        "text": "Smooth, freshly conditioned lanes ready for open bowling any day of the week — bumpers and lighter balls available for the kids."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Glow Bowling Weekends",
+        "text": "Friday and Saturday nights light up with cosmic glow bowling — black lights, music, and neon pins for the whole family."
+      },
+      {
+        "icon": "flame",
+        "title": "Friendly Leagues",
+        "text": "Adult, youth, and senior leagues that are about good times as much as good scores. New bowlers always welcome."
+      },
+      {
+        "icon": "heart",
+        "title": "Bar & Grill",
+        "text": "Hot wings, fresh burgers, stone-baked pizza, and cold pitchers — the perfect lineup between frames."
+      }
+    ],
+    "menu": {
+      "heading": "Lanes & Menu",
+      "subheading": "Lane rates, league fees, party packages, and food prices shown are illustrative demo content for this sample site and may not reflect current offerings or pricing.",
+      "categories": [
+        {
+          "id": "bowling",
+          "name": "Bowling",
+          "blurb": "Grab a lane and roll. Open daily, with glow bowling lighting up the weekends.",
+          "items": [
+            {
+              "name": "Open Bowling",
+              "desc": "Walk in and bowl by the game on our freshly conditioned lanes. Great for families, friends, and quick games.",
+              "price": "From $4/game",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Cosmic Glow Bowling",
+              "desc": "Friday and Saturday nights under black lights with music, glowing pins, and neon lanes. The weekend favorite.",
+              "price": "From $6/game",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Lane Rental (Hourly)",
+              "desc": "Reserve a lane by the hour for your group and bowl as many games as you like. Up to six bowlers per lane.",
+              "price": "From $28/hour",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Shoe Rental",
+              "desc": "Clean, sanitized bowling shoes in every size, from little kids to big feet. Required on the lanes.",
+              "price": "$4",
+              "tags": []
+            },
+            {
+              "name": "Family Lane Package",
+              "desc": "Two hours of bowling for up to five, shoe rental included, plus a pitcher of soda. Easy family night out.",
+              "price": "$45",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leagues",
+          "name": "Leagues",
+          "blurb": "From rookies to lifelong keglers — there's a league with your name on it. Sign-ups open year-round.",
+          "items": [
+            {
+              "name": "Adult Leagues",
+              "desc": "Weeknight men's, women's, and mixed leagues for every skill level. Make friends, have fun, sharpen your game.",
+              "price": "From $18/week",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Youth Leagues",
+              "desc": "Coached, age-grouped leagues that teach the basics and build confidence. Bumpers available for the youngest bowlers.",
+              "price": "From $12/week",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Senior Leagues",
+              "desc": "Relaxed daytime leagues for the 55-and-better crowd. Good company, gentle pace, and plenty of laughs.",
+              "price": "From $10/week",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "League Sign-Ups",
+              "desc": "New to leagues or looking for a team? Stop by or call and we'll help you find the right fit. No experience needed.",
+              "price": "Free",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "parties-events",
+          "name": "Parties & Events",
+          "blurb": "Birthdays, team nights, work outings, and fundraisers — we make group bowling easy.",
+          "items": [
+            {
+              "name": "Birthday Party Package",
+              "desc": "Reserved lanes, shoe rental, pizza, and soda for the group, plus a reserved table for cake. We handle the setup.",
+              "price": "From $20/guest",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Group & Team Events",
+              "desc": "Lanes side by side for sports teams, clubs, and friend groups. Add food and pitchers for the full night out.",
+              "price": "From $25/person",
+              "tags": []
+            },
+            {
+              "name": "Corporate Outings",
+              "desc": "Team-building made fun. Reserved lanes, catered bites, and bar service tailored to your headcount.",
+              "price": "Custom",
+              "tags": []
+            },
+            {
+              "name": "Fundraiser Nights",
+              "desc": "Host a bowl-a-thon for your school, team, or cause. We'll help with lanes, scoring, and a portion back to your group.",
+              "price": "Custom",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bar-grill",
+          "name": "Bar & Grill",
+          "blurb": "Hot food and cold drinks, lane-side or at the bar. The perfect snack between frames.",
+          "items": [
+            {
+              "name": "House Burger",
+              "desc": "A juicy char-grilled burger with lettuce, tomato, onion, and pickle on a toasted bun, served with fries.",
+              "price": "$11",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Stone-Baked Pizza",
+              "desc": "Hand-tossed pizza baked crispy with your choice of toppings. Great for sharing across the lane.",
+              "price": "$14",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Buffalo Wings",
+              "desc": "Crispy jumbo wings tossed in classic buffalo sauce, served with ranch or blue cheese and celery.",
+              "price": "$12",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Loaded Fries",
+              "desc": "A heaping basket of fries topped with melted cheese, bacon, and scallions. Easy to share.",
+              "price": "$8",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Beer Pitcher",
+              "desc": "An ice-cold pitcher of your favorite draft to share with the lane. Domestic and craft on tap.",
+              "price": "$16",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Your Lane Is Waiting",
+      "lead": "Lisle Lanes is the classic neighborhood bowling alley in Lisle — well-kept lanes, glow bowling on weekends, friendly leagues, and a bar & grill where everybody finds their lane.",
+      "paragraphs": [
+        "We're the kind of place where the regulars know your name and first-timers feel right at home. Roll a few open games with the family, light up the weekend with cosmic glow bowling, or join a league and make it your weekly tradition. Bumpers and lighter balls keep the kids in the game, and the lanes stay smooth and ready every day.",
+        "When you're hungry, the bar & grill has you covered with hot wings, fresh burgers, stone-baked pizza, and ice-cold pitchers to share between frames. From birthday parties to team nights, fundraisers to corporate outings, we make group bowling easy and fun. Come find your lane."
+      ],
+      "stats": [
+        {
+          "value": "Daily",
+          "label": "Open Bowling"
+        },
+        {
+          "value": "Weekends",
+          "label": "Glow Bowling"
+        },
+        {
+          "value": "All Ages",
+          "label": "Leagues & Parties"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Look Around Lisle Lanes",
+      "subheading": "From smooth lanes to glow nights and the bar & grill — here's a peek at the action.",
+      "captions": [
+        "Freshly conditioned lanes ready to roll",
+        "Cosmic glow bowling lighting up the weekend",
+        "Friendly league night with the regulars",
+        "Birthday parties and group events done right",
+        "Hot wings, burgers, and stone-baked pizza",
+        "Cold pitchers shared lane-side at the bar & grill"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Lisle Is Saying",
+      "items": [
+        {
+          "quote": "Our go-to family spot. The kids love the bumpers and glow nights, and the wings and pizza are actually great. Everybody has a blast.",
+          "name": "Megan D.",
+          "role": "Lisle regular"
+        },
+        {
+          "quote": "Joined the Tuesday league on a whim and never looked back. Friendly crowd, well-kept lanes, and cold pitchers waiting at the bar.",
+          "name": "Carlos M.",
+          "role": "League bowler"
+        },
+        {
+          "quote": "Booked my son's birthday here and they handled everything. Lanes, pizza, the whole setup. Easiest party I've ever thrown.",
+          "name": "Stephanie R.",
+          "role": "Party host"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Lisle",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "11:00 AM - 11:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "11:00 AM - 1:00 AM"
+        },
+        {
+          "day": "Saturday",
+          "time": "10:00 AM - 1:00 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "10:00 AM - 10:00 PM"
+        }
+      ],
+      "phoneLabel": "Phone",
+      "directions": "Find us at 4920 Lincoln Avenue in Lisle, IL. Walk in for open bowling or call (630) 968-1300 to reserve a lane, book a party, or ask about leagues."
+    },
+    "cta": {
+      "heading": "Ready to Roll?",
+      "text": "Reserve a lane, book a party, or join a league. Call us and we'll get you set up for your next night out at the lanes.",
+      "button": "Call (630) 968-1300"
+    },
+    "form": {
+      "heading": "Reserve a Lane or Send a Message",
+      "subheading": "Planning a party, joining a league, or booking lanes for the group? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Number of Bowlers",
+      "date": "Preferred Date/Time",
+      "message": "Tell us what you're planning — open bowling, a party, a league, or a group event.",
+      "submit": "Send Request",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Lisle's neighborhood bowling alley — well-kept lanes, glow weekends, friendly leagues, and a bar & grill where everybody finds their lane.",
+      "rights": "© Lisle Lanes. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Lisle Lanes | Boliche, Ligas y Bar & Grill en Lisle, IL",
+      "description": "El boliche del barrio en Lisle — juego abierto, boliche glow los fines de semana, ligas amistosas, fiestas y un bar & grill con jarras frías y alitas calientes. Llama al (630) 968-1300."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Pistas y Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Reservar Pista"
+    },
+    "hero": {
+      "eyebrow": "El Boliche del Barrio en Lisle",
+      "title": "Donde Todos",
+      "titleAccent": "Encuentran su Pista",
+      "subtitle": "Pistas bien cuidadas, boliche glow los fines de semana, ligas amistosas para todas las edades y un bar & grill con jarras frías y alitas calientes. Trae a la familia, al equipo o a toda la pandilla.",
+      "ctaPrimary": "Ver Pistas y Menú",
+      "ctaSecondary": "Llamar al (630) 968-1300",
+      "badge": "Juego Abierto · Glow los Fines de Semana · Ligas · Bar & Grill"
+    },
+    "highlights": [
+      {
+        "icon": "star",
+        "title": "Pistas Bien Cuidadas",
+        "text": "Pistas suaves y recién acondicionadas, listas para el juego abierto cualquier día de la semana — con barreras y bolas más ligeras para los niños."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Boliche Glow los Fines de Semana",
+        "text": "Las noches de viernes y sábado se iluminan con boliche cósmico glow — luces negras, música y pinos neón para toda la familia."
+      },
+      {
+        "icon": "flame",
+        "title": "Ligas Amistosas",
+        "text": "Ligas para adultos, jóvenes y adultos mayores donde se trata tanto de pasarla bien como de buenos puntajes. Los nuevos jugadores siempre son bienvenidos."
+      },
+      {
+        "icon": "heart",
+        "title": "Bar & Grill",
+        "text": "Alitas calientes, hamburguesas frescas, pizza al horno de piedra y jarras frías — la combinación perfecta entre tiradas."
+      }
+    ],
+    "menu": {
+      "heading": "Pistas y Menú",
+      "subheading": "Las tarifas de pista, cuotas de liga, paquetes de fiesta y precios de comida mostrados son contenido demostrativo e ilustrativo para este sitio de muestra y podrían no reflejar la oferta ni los precios actuales.",
+      "categories": [
+        {
+          "id": "bowling",
+          "name": "Boliche",
+          "blurb": "Toma una pista y a jugar. Abierto a diario, con boliche glow que ilumina los fines de semana.",
+          "items": [
+            {
+              "name": "Juego Abierto",
+              "desc": "Entra y juega por partida en nuestras pistas recién acondicionadas. Ideal para familias, amigos y partidas rápidas.",
+              "price": "Desde $4/partida",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Boliche Cósmico Glow",
+              "desc": "Noches de viernes y sábado bajo luces negras con música, pinos brillantes y pistas neón. El favorito del fin de semana.",
+              "price": "Desde $6/partida",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Renta de Pista (por Hora)",
+              "desc": "Reserva una pista por hora para tu grupo y juega todas las partidas que quieras. Hasta seis jugadores por pista.",
+              "price": "Desde $28/hora",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Renta de Zapatos",
+              "desc": "Zapatos de boliche limpios y desinfectados en todas las tallas, desde los más pequeños hasta los pies grandes. Obligatorios en las pistas.",
+              "price": "$4",
+              "tags": []
+            },
+            {
+              "name": "Paquete Familiar de Pista",
+              "desc": "Dos horas de boliche para hasta cinco personas, renta de zapatos incluida, más una jarra de refresco. Una noche familiar sin complicaciones.",
+              "price": "$45",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leagues",
+          "name": "Ligas",
+          "blurb": "Desde principiantes hasta veteranos de toda la vida — hay una liga con tu nombre. Inscripciones abiertas todo el año.",
+          "items": [
+            {
+              "name": "Ligas para Adultos",
+              "desc": "Ligas de hombres, mujeres y mixtas entre semana para todos los niveles. Haz amigos, diviértete y mejora tu juego.",
+              "price": "Desde $18/semana",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Ligas Juveniles",
+              "desc": "Ligas con entrenador, agrupadas por edad, que enseñan lo básico y dan confianza. Barreras disponibles para los más pequeños.",
+              "price": "Desde $12/semana",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Ligas para Adultos Mayores",
+              "desc": "Ligas relajadas de día para el grupo de 55 años en adelante. Buena compañía, ritmo tranquilo y muchas risas.",
+              "price": "Desde $10/semana",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Inscripciones a Ligas",
+              "desc": "¿Nuevo en las ligas o buscas equipo? Pasa o llama y te ayudamos a encontrar el lugar perfecto. No se necesita experiencia.",
+              "price": "Gratis",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "parties-events",
+          "name": "Fiestas y Eventos",
+          "blurb": "Cumpleaños, noches de equipo, salidas de trabajo y recaudaciones — hacemos fácil el boliche en grupo.",
+          "items": [
+            {
+              "name": "Paquete de Fiesta de Cumpleaños",
+              "desc": "Pistas reservadas, renta de zapatos, pizza y refresco para el grupo, más una mesa reservada para el pastel. Nosotros nos encargamos del montaje.",
+              "price": "Desde $20/invitado",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Eventos de Grupo y Equipo",
+              "desc": "Pistas una al lado de la otra para equipos deportivos, clubes y grupos de amigos. Agrega comida y jarras para la noche completa.",
+              "price": "Desde $25/persona",
+              "tags": []
+            },
+            {
+              "name": "Salidas Corporativas",
+              "desc": "Integración de equipo, pero divertida. Pistas reservadas, bocadillos y servicio de bar a la medida de tu grupo.",
+              "price": "A medida",
+              "tags": []
+            },
+            {
+              "name": "Noches de Recaudación",
+              "desc": "Organiza un torneo de boliche para tu escuela, equipo o causa. Te ayudamos con pistas, puntajes y una parte de regreso para tu grupo.",
+              "price": "A medida",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bar-grill",
+          "name": "Bar & Grill",
+          "blurb": "Comida caliente y bebidas frías, junto a la pista o en la barra. El antojo perfecto entre tiradas.",
+          "items": [
+            {
+              "name": "Hamburguesa de la Casa",
+              "desc": "Una jugosa hamburguesa a la parrilla con lechuga, tomate, cebolla y pepinillo en pan tostado, servida con papas fritas.",
+              "price": "$11",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pizza al Horno de Piedra",
+              "desc": "Pizza amasada a mano y horneada crujiente con los ingredientes que elijas. Ideal para compartir en la pista.",
+              "price": "$14",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Alitas Buffalo",
+              "desc": "Alitas jumbo crujientes bañadas en salsa buffalo clásica, servidas con aderezo ranch o blue cheese y apio.",
+              "price": "$12",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Papas Cargadas",
+              "desc": "Una canasta generosa de papas fritas cubiertas con queso fundido, tocino y cebollín. Fáciles de compartir.",
+              "price": "$8",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Jarra de Cerveza",
+              "desc": "Una jarra bien fría de tu cerveza de barril favorita para compartir en la pista. Nacionales y artesanales de barril.",
+              "price": "$16",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Tu Pista te Espera",
+      "lead": "Lisle Lanes es el clásico boliche del barrio en Lisle — pistas bien cuidadas, boliche glow los fines de semana, ligas amistosas y un bar & grill donde todos encuentran su pista.",
+      "paragraphs": [
+        "Somos el tipo de lugar donde los clientes de siempre saben tu nombre y los que vienen por primera vez se sienten como en casa. Juega unas partidas abiertas con la familia, ilumina el fin de semana con boliche cósmico glow, o únete a una liga y conviértela en tu tradición semanal. Las barreras y las bolas más ligeras mantienen a los niños en el juego, y las pistas se quedan suaves y listas todos los días.",
+        "Cuando te dé hambre, el bar & grill te tiene cubierto con alitas calientes, hamburguesas frescas, pizza al horno de piedra y jarras bien frías para compartir entre tiradas. Desde fiestas de cumpleaños hasta noches de equipo, recaudaciones y salidas corporativas, hacemos fácil y divertido el boliche en grupo. Ven a encontrar tu pista."
+      ],
+      "stats": [
+        {
+          "value": "A Diario",
+          "label": "Juego Abierto"
+        },
+        {
+          "value": "Fines de Semana",
+          "label": "Boliche Glow"
+        },
+        {
+          "value": "Todas las Edades",
+          "label": "Ligas y Fiestas"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Vistazo a Lisle Lanes",
+      "subheading": "De las pistas suaves a las noches glow y el bar & grill — aquí un vistazo a la acción.",
+      "captions": [
+        "Pistas recién acondicionadas listas para jugar",
+        "Boliche cósmico glow iluminando el fin de semana",
+        "Noche de liga amistosa con los de siempre",
+        "Fiestas de cumpleaños y eventos de grupo bien hechos",
+        "Alitas calientes, hamburguesas y pizza al horno de piedra",
+        "Jarras frías compartidas junto a la pista en el bar & grill"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice Lisle",
+      "items": [
+        {
+          "quote": "Nuestro lugar favorito en familia. A los niños les encantan las barreras y las noches glow, y las alitas y la pizza están buenísimas. Todos la pasamos genial.",
+          "name": "Megan D.",
+          "role": "Cliente frecuente de Lisle"
+        },
+        {
+          "quote": "Me uní a la liga de los martes sin pensarlo y nunca me arrepentí. Buena gente, pistas bien cuidadas y jarras frías esperando en la barra.",
+          "name": "Carlos M.",
+          "role": "Jugador de liga"
+        },
+        {
+          "quote": "Reservé el cumpleaños de mi hijo aquí y se encargaron de todo. Pistas, pizza, el montaje completo. La fiesta más fácil que he organizado.",
+          "name": "Stephanie R.",
+          "role": "Anfitriona de fiesta"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en Lisle",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "11:00 AM - 11:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "11:00 AM - 1:00 AM"
+        },
+        {
+          "day": "Sábado",
+          "time": "10:00 AM - 1:00 AM"
+        },
+        {
+          "day": "Domingo",
+          "time": "10:00 AM - 10:00 PM"
+        }
+      ],
+      "phoneLabel": "Teléfono",
+      "directions": "Encuéntranos en 4920 Lincoln Avenue en Lisle, IL. Entra para el juego abierto o llama al (630) 968-1300 para reservar una pista, organizar una fiesta o preguntar por las ligas."
+    },
+    "cta": {
+      "heading": "¿Listo para Jugar?",
+      "text": "Reserva una pista, organiza una fiesta o únete a una liga. Llámanos y te dejamos todo listo para tu próxima salida al boliche.",
+      "button": "Llamar al (630) 968-1300"
+    },
+    "form": {
+      "heading": "Reserva una Pista o Envíanos un Mensaje",
+      "subheading": "¿Planeas una fiesta, te unes a una liga o reservas pistas para el grupo? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Número de Jugadores",
+      "date": "Fecha/Hora Preferida",
+      "message": "Cuéntanos qué estás planeando — juego abierto, una fiesta, una liga o un evento de grupo.",
+      "submit": "Enviar Solicitud",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "El boliche del barrio en Lisle — pistas bien cuidadas, fines de semana glow, ligas amistosas y un bar & grill donde todos encuentran su pista.",
+      "rights": "© Lisle Lanes. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

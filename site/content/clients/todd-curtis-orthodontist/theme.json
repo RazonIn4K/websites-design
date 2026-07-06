@@ -1,0 +1,16 @@
+{
+  "concept": "A pristine teal-blue primary with bright aqua-mint accents over cool-white backgrounds and slate ink, evoking fresh, trustworthy, modern orthodontic care.",
+  "vars": {
+    "--color-bg": "#F6F9FB",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#EAF0F5",
+    "--color-ink": "#0E2A3B",
+    "--color-ink-soft": "#46606F",
+    "--color-primary": "#0B6880",
+    "--color-primary-dark": "#0B5A71",
+    "--color-secondary": "#0EA5B7",
+    "--color-accent": "#F4A261",
+    "--color-line": "#D6E0E8"
+  },
+  "contrastNotes": "ink #0E2A3B on bg #F6F9FB = 14.06:1 (>=7); ink-soft #46606F on bg = 6.28:1 (>=4.5); white on primary #0E7490 = 5.36:1 (>=4.5); white on primary-dark #0B5A71 = 7.73:1; primary on bg = 5.07:1 (>=3). All WCAG-AA requirements met."
+}

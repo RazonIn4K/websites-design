@@ -1,0 +1,16 @@
+{
+  "concept": "Heritage butcher-shop palette evoking a classic, premium meat market: a deep butcher-red/maroon primary anchors the brand with hearty trustworthiness, a warm gold accent adds an artisanal, premium gleam, dark espresso-brown ink reads like hand-stamped butcher's lettering, and creamy butcher-paper backgrounds keep the experience warm, traditional, and inviting.",
+  "vars": {
+    "--color-bg": "#F7F1E3",
+    "--color-surface": "#FFFCF5",
+    "--color-surface-alt": "#F0E6D2",
+    "--color-ink": "#2B1D14",
+    "--color-ink-soft": "#7A5C45",
+    "--color-primary": "#8E2A20",
+    "--color-primary-dark": "#6E1E16",
+    "--color-secondary": "#43301E",
+    "--color-accent": "#C9961F",
+    "--color-line": "#E0D4BC"
+  },
+  "contrastNotes": "All required ratios hold against the creamy butcher-paper bg (#F7F1E3, L=0.882). Ink #2B1D14 on bg = 14.5:1 (>=7:1). Ink-soft #7A5C45 on bg = 5.4:1 (>=4.5:1). White on primary #8E2A20 = 8.4:1 (>=4.5:1). Primary #8E2A20 on bg = 7.5:1 (>=3:1). Bonus: ink on surface #FFFCF5 = 15.9:1; primary-dark #6E1E16 carries white at 11.4:1 for hover/active states; warm gold accent #C9961F is used for decorative gleam/dividers, not body text, on dark primary/secondary fields."
+}

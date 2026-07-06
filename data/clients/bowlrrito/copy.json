@@ -1,0 +1,674 @@
+{
+  "business": {
+    "name": "Bowlrrito",
+    "shortName": "Bowlrrito",
+    "vertical": "Build-Your-Own Bowls & Burritos",
+    "phone": "",
+    "phoneHref": "",
+    "address": "1180 West Lincoln Highway",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Bowlrrito, 1180 West Lincoln Highway, DeKalb, IL 60115"
+  },
+  "en": {
+    "meta": {
+      "title": "Bowlrrito | Build-Your-Own Bowls & Burritos in DeKalb, IL",
+      "description": "Fast-casual build-your-own bowls, burritos, tacos & more in DeKalb, IL. Pick your base, protein, and toppings — made fast, made fresh. The NIU campus go-to."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Order Now"
+    },
+    "hero": {
+      "eyebrow": "The NIU Campus Go-To",
+      "title": "Pick Your Base, Protein",
+      "titleAccent": "& Toppings",
+      "subtitle": "Fresh, fast-casual bowls and burritos built exactly how you like them. Choose your base, load up your protein and toppings, and grab it fast — made fresh, every single time.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Build Your Bowl",
+      "badge": "Build Your Own · Made Fresh · Fast Campus Pickup"
+    },
+    "highlights": [
+      {
+        "icon": "leaf",
+        "title": "Made Fresh, Built Your Way",
+        "text": "Start with a base, pick your protein, and pile on fresh toppings. Every bowl and burrito is built to order, just for you."
+      },
+      {
+        "icon": "flame",
+        "title": "Fast-Casual, Always Quick",
+        "text": "From the line to your hands in minutes. Perfect for a packed schedule, a quick lunch, or a between-class grab-and-go."
+      },
+      {
+        "icon": "star",
+        "title": "The NIU Campus Favorite",
+        "text": "Right by Northern Illinois University, we're the healthy quick meal students and locals keep coming back for."
+      },
+      {
+        "icon": "heart",
+        "title": "Fresh, Healthy & Filling",
+        "text": "Quality proteins, crisp veggies, and bold flavors that fuel your day without weighing you down."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Menu items and prices shown are illustrative demo content for this sample site and may not reflect current offerings or pricing.",
+      "categories": [
+        {
+          "id": "build-your-own",
+          "name": "Build Your Own",
+          "blurb": "Start here. Pick your style, then load up your base, protein, and toppings.",
+          "items": [
+            {
+              "name": "Build Your Own Bowl",
+              "desc": "Your base, your protein, and all the fresh toppings you want, served in a bowl.",
+              "price": "$9.50",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Build Your Own Burrito",
+              "desc": "A warm flour tortilla wrapped around your base, protein, and favorite fillings.",
+              "price": "$9.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Build Your Own Tacos",
+              "desc": "Three soft tacos loaded with your protein and the toppings you crave.",
+              "price": "$9.00",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Build Your Own Quesadilla",
+              "desc": "A grilled tortilla stuffed with melted cheese, your protein, and fresh add-ons.",
+              "price": "$8.50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Build Your Own Salad",
+              "desc": "A crisp greens base topped with your protein, veggies, and a drizzle of dressing.",
+              "price": "$9.50",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "proteins",
+          "name": "Proteins",
+          "blurb": "Add one to any base, or double up. Grilled fresh and seasoned just right.",
+          "items": [
+            {
+              "name": "Grilled Chicken",
+              "desc": "Tender, marinated chicken grilled fresh and sliced for any bowl or burrito.",
+              "price": "$2.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Steak",
+              "desc": "Seasoned, flame-grilled steak for a hearty, satisfying build.",
+              "price": "$3.00",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Carnitas",
+              "desc": "Slow-cooked pork, tender and full of flavor in every bite.",
+              "price": "$2.75",
+              "tags": []
+            },
+            {
+              "name": "Tofu",
+              "desc": "Seasoned, grilled tofu for a plant-based protein that holds its own.",
+              "price": "$2.25",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "signature-bowls",
+          "name": "Signature Bowls",
+          "blurb": "Chef-built combos when you want it dialed in for you. No decisions required.",
+          "items": [
+            {
+              "name": "The Campus Crunch",
+              "desc": "Cilantro-lime rice, grilled chicken, black beans, corn salsa, fresh pico, and crispy tortilla strips.",
+              "price": "$10.50",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Steak Fiesta Bowl",
+              "desc": "Cilantro-lime rice, flame-grilled steak, peppers and onions, guac, queso, and pico.",
+              "price": "$11.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Carnitas Verde Bowl",
+              "desc": "Brown rice, slow-cooked carnitas, salsa verde, pickled onions, and cotija cheese.",
+              "price": "$10.95",
+              "tags": []
+            },
+            {
+              "name": "Green Goddess Bowl",
+              "desc": "Mixed greens, grilled tofu, avocado, roasted veggies, corn salsa, and lime vinaigrette.",
+              "price": "$10.50",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "The Power Bowl",
+              "desc": "Brown rice, double grilled chicken, black beans, fajita veggies, guac, and pico.",
+              "price": "$11.95",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sides-drinks",
+          "name": "Sides & Drinks",
+          "blurb": "Round out your order with shareable sides and fresh, cooling drinks.",
+          "items": [
+            {
+              "name": "Chips & Guac",
+              "desc": "Warm tortilla chips with a generous scoop of fresh-made guacamole.",
+              "price": "$4.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Chips & Queso",
+              "desc": "Crispy tortilla chips with warm, creamy melted queso.",
+              "price": "$4.25",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Chips & Salsa",
+              "desc": "Fresh tortilla chips with your choice of house salsa.",
+              "price": "$2.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Agua Fresca",
+              "desc": "Refreshing house-made fruit water, light, sweet, and ice-cold.",
+              "price": "$2.95",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Bottled Drink",
+              "desc": "Choose from a selection of chilled bottled sodas and water.",
+              "price": "$2.25",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Build-Your-Own, Done Fresh",
+      "lead": "Bowlrrito is DeKalb's fast-casual spot for build-your-own bowls and burritos — you pick the base, protein, and toppings, and we make it fast and fresh.",
+      "paragraphs": [
+        "We built Bowlrrito around a simple idea: great food, your way, without the wait. Start with a base, choose your protein, and load up on fresh toppings. Whether you want a loaded burrito, a packed bowl, tacos, a quesadilla, or a crisp salad, every order comes together fast and fresh.",
+        "Right by the NIU campus, we're the go-to for a healthy quick meal between classes, on a study break, or whenever hunger hits. Quality ingredients, bold flavors, and a line that moves — that's the Bowlrrito way."
+      ],
+      "stats": [
+        {
+          "value": "Your Way",
+          "label": "Built to Order"
+        },
+        {
+          "value": "Fresh",
+          "label": "Made Daily"
+        },
+        {
+          "value": "Fast",
+          "label": "Campus Pickup"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Look at Bowlrrito",
+      "subheading": "A peek at the fresh bases, proteins, and toppings that go into every build.",
+      "captions": [
+        "Loaded build-your-own bowls fresh off the line",
+        "Hand-rolled burritos packed with flavor",
+        "Grilled chicken, steak, carnitas, and tofu",
+        "Fresh-made guacamole and warm tortilla chips",
+        "Crisp veggies and vibrant toppings ready to go",
+        "Cool, refreshing agua fresca to finish"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Is Saying",
+      "items": [
+        {
+          "quote": "My go-to between classes. The bowls are huge, everything tastes fresh, and the line moves so fast. Build-your-own is the best.",
+          "name": "Alex R.",
+          "role": "NIU student"
+        },
+        {
+          "quote": "Finally a quick, healthy option near campus. I build the same power bowl every time and it never disappoints.",
+          "name": "Priya M.",
+          "role": "DeKalb regular"
+        },
+        {
+          "quote": "Fresh ingredients, friendly staff, and you get exactly what you want. The chips and guac are a must.",
+          "name": "Marcus T.",
+          "role": "Local customer"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in DeKalb",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "10:30 AM - 9:00 PM"
+        },
+        {
+          "day": "Friday - Saturday",
+          "time": "10:30 AM - 10:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM - 8:00 PM"
+        }
+      ],
+      "phoneLabel": "Order Online",
+      "directions": "Find us at 1180 West Lincoln Highway in DeKalb, IL, right by the NIU campus. Order ahead with our form and your fresh build will be ready for fast pickup."
+    },
+    "cta": {
+      "heading": "Hungry? Build Your Bowl Now",
+      "text": "Pick your base, protein, and toppings, and we'll have it made fresh and ready for fast campus pickup.",
+      "button": "Build Your Bowl"
+    },
+    "form": {
+      "heading": "Place an Order or Send a Message",
+      "subheading": "Ready to order, planning a group pickup, or have a question? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Order Size / Group",
+      "date": "Preferred Pickup Date/Time",
+      "message": "Tell us your order or question. Include your base, protein, and toppings!",
+      "submit": "Send Order Request",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Build-your-own bowls and burritos made fast and fresh, right by the NIU campus.",
+      "rights": "© Bowlrrito. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Bowlrrito | Bowls y Burritos Hechos a tu Gusto en DeKalb, IL",
+      "description": "Bowls, burritos, tacos y más hechos a tu gusto en DeKalb, IL. Elige tu base, proteína y toppings — rápido y fresco. El favorito del campus de NIU."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Ordenar"
+    },
+    "hero": {
+      "eyebrow": "El Favorito del Campus de NIU",
+      "title": "Elige tu Base, Proteína",
+      "titleAccent": "y Toppings",
+      "subtitle": "Bowls y burritos frescos, de comida rápida casual, hechos exactamente como te gustan. Elige tu base, llénalo de proteína y toppings, y llévatelo rápido — hecho fresco, siempre.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Arma tu Bowl",
+      "badge": "Hecho a tu Gusto · Recién Preparado · Recoge Rápido en el Campus"
+    },
+    "highlights": [
+      {
+        "icon": "leaf",
+        "title": "Fresco y a tu Manera",
+        "text": "Empieza con una base, elige tu proteína y agrega todos los toppings frescos que quieras. Cada bowl y burrito se arma al momento, solo para ti."
+      },
+      {
+        "icon": "flame",
+        "title": "Comida Rápida Casual, Siempre Veloz",
+        "text": "De la línea a tus manos en minutos. Perfecto para una agenda apretada, un almuerzo rápido o algo para llevar entre clases."
+      },
+      {
+        "icon": "star",
+        "title": "El Favorito del Campus de NIU",
+        "text": "Justo al lado de Northern Illinois University, somos la comida sana y rápida a la que estudiantes y locales siempre regresan."
+      },
+      {
+        "icon": "heart",
+        "title": "Fresco, Saludable y Llenador",
+        "text": "Proteínas de calidad, verduras crujientes y sabores intensos que te dan energía sin pesarte."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Los platillos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra y podrían no reflejar la oferta ni los precios actuales.",
+      "categories": [
+        {
+          "id": "build-your-own",
+          "name": "Hazlo a tu Gusto",
+          "blurb": "Empieza aquí. Elige tu estilo y luego llénalo de base, proteína y toppings.",
+          "items": [
+            {
+              "name": "Bowl a tu Gusto",
+              "desc": "Tu base, tu proteína y todos los toppings frescos que quieras, servidos en un bowl.",
+              "price": "$9.50",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Burrito a tu Gusto",
+              "desc": "Una tortilla de harina calientita envuelta alrededor de tu base, proteína y rellenos favoritos.",
+              "price": "$9.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Tacos a tu Gusto",
+              "desc": "Tres tacos suaves rellenos de tu proteína y los toppings que se te antojen.",
+              "price": "$9.00",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Quesadilla a tu Gusto",
+              "desc": "Una tortilla a la plancha rellena de queso derretido, tu proteína y agregados frescos.",
+              "price": "$8.50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Ensalada a tu Gusto",
+              "desc": "Una base de verduras crujientes con tu proteína, vegetales y un toque de aderezo.",
+              "price": "$9.50",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "proteins",
+          "name": "Proteínas",
+          "blurb": "Agrega una a cualquier base, o ponle doble. A la parrilla y bien sazonadas.",
+          "items": [
+            {
+              "name": "Pollo a la Parrilla",
+              "desc": "Pollo marinado y tierno, asado al momento y rebanado para cualquier bowl o burrito.",
+              "price": "$2.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bistec",
+              "desc": "Bistec sazonado y asado a la parrilla para una preparación abundante y satisfactoria.",
+              "price": "$3.00",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Carnitas",
+              "desc": "Cerdo cocido a fuego lento, tierno y lleno de sabor en cada bocado.",
+              "price": "$2.75",
+              "tags": []
+            },
+            {
+              "name": "Tofu",
+              "desc": "Tofu sazonado y a la parrilla, una proteína vegetal que se luce por sí sola.",
+              "price": "$2.25",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "signature-bowls",
+          "name": "Bowls de la Casa",
+          "blurb": "Combinaciones del chef cuando lo quieres listo para ti. Sin decisiones que tomar.",
+          "items": [
+            {
+              "name": "El Campus Crunch",
+              "desc": "Arroz al cilantro y limón, pollo a la parrilla, frijoles negros, salsa de elote, pico fresco y tiras de tortilla crujientes.",
+              "price": "$10.50",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Bowl Fiesta de Bistec",
+              "desc": "Arroz al cilantro y limón, bistec a la parrilla, pimientos y cebolla, guacamole, queso y pico.",
+              "price": "$11.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Bowl de Carnitas Verde",
+              "desc": "Arroz integral, carnitas cocidas a fuego lento, salsa verde, cebolla encurtida y queso cotija.",
+              "price": "$10.95",
+              "tags": []
+            },
+            {
+              "name": "Bowl Diosa Verde",
+              "desc": "Verduras mixtas, tofu a la parrilla, aguacate, vegetales asados, salsa de elote y vinagreta de limón.",
+              "price": "$10.50",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "El Bowl Power",
+              "desc": "Arroz integral, doble pollo a la parrilla, frijoles negros, vegetales fajita, guacamole y pico.",
+              "price": "$11.95",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sides-drinks",
+          "name": "Acompañamientos y Bebidas",
+          "blurb": "Completa tu orden con acompañamientos para compartir y bebidas frescas y refrescantes.",
+          "items": [
+            {
+              "name": "Totopos y Guacamole",
+              "desc": "Totopos calientitos con una porción generosa de guacamole recién hecho.",
+              "price": "$4.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Totopos y Queso",
+              "desc": "Totopos crujientes con queso fundido cremoso y calientito.",
+              "price": "$4.25",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Totopos y Salsa",
+              "desc": "Totopos frescos con la salsa de la casa que elijas.",
+              "price": "$2.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Agua Fresca",
+              "desc": "Refrescante agua de fruta hecha en casa, ligera, dulce y bien fría.",
+              "price": "$2.95",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Bebida Embotellada",
+              "desc": "Elige de una selección de refrescos embotellados y agua bien fríos.",
+              "price": "$2.25",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Hecho a tu Gusto, Siempre Fresco",
+      "lead": "Bowlrrito es el lugar de comida rápida casual de DeKalb para bowls y burritos hechos a tu gusto — tú eliges la base, la proteína y los toppings, y nosotros lo hacemos rápido y fresco.",
+      "paragraphs": [
+        "Creamos Bowlrrito con una idea sencilla: buena comida, a tu manera, sin la espera. Empieza con una base, elige tu proteína y llénalo de toppings frescos. Ya sea un burrito bien cargado, un bowl repleto, tacos, una quesadilla o una ensalada crujiente, cada orden se prepara rápido y fresco.",
+        "Justo al lado del campus de NIU, somos la opción favorita para una comida sana y rápida entre clases, en un descanso de estudio o cuando te dé hambre. Ingredientes de calidad, sabores intensos y una fila que avanza — así es Bowlrrito."
+      ],
+      "stats": [
+        {
+          "value": "A tu Gusto",
+          "label": "Hecho al Momento"
+        },
+        {
+          "value": "Fresco",
+          "label": "Hecho a Diario"
+        },
+        {
+          "value": "Rápido",
+          "label": "Recoge en el Campus"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Vistazo a Bowlrrito",
+      "subheading": "Un vistazo a las bases, proteínas y toppings frescos que van en cada preparación.",
+      "captions": [
+        "Bowls cargados hechos a tu gusto recién salidos de la línea",
+        "Burritos enrollados a mano y llenos de sabor",
+        "Pollo a la parrilla, bistec, carnitas y tofu",
+        "Guacamole recién hecho y totopos calientitos",
+        "Verduras crujientes y toppings vibrantes listos para servir",
+        "Agua fresca fría y refrescante para terminar"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice DeKalb",
+      "items": [
+        {
+          "quote": "Mi opción favorita entre clases. Los bowls son enormes, todo sabe fresco y la fila avanza rapidísimo. Hacerlo a tu gusto es lo mejor.",
+          "name": "Alex R.",
+          "role": "Estudiante de NIU"
+        },
+        {
+          "quote": "Por fin una opción rápida y saludable cerca del campus. Armo el mismo power bowl cada vez y nunca decepciona.",
+          "name": "Priya M.",
+          "role": "Cliente frecuente en DeKalb"
+        },
+        {
+          "quote": "Ingredientes frescos, personal amable y te dan justo lo que quieres. Los totopos con guacamole son obligatorios.",
+          "name": "Marcus T.",
+          "role": "Cliente local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en DeKalb",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "10:30 AM - 9:00 PM"
+        },
+        {
+          "day": "Viernes - Sábado",
+          "time": "10:30 AM - 10:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM - 8:00 PM"
+        }
+      ],
+      "phoneLabel": "Ordena en Línea",
+      "directions": "Encuéntranos en 1180 West Lincoln Highway en DeKalb, IL, justo al lado del campus de NIU. Ordena con anticipación usando nuestro formulario y tu preparación fresca estará lista para recoger rápido."
+    },
+    "cta": {
+      "heading": "¿Con Hambre? Arma tu Bowl Ahora",
+      "text": "Elige tu base, proteína y toppings, y lo tendremos hecho fresco y listo para recoger rápido en el campus.",
+      "button": "Arma tu Bowl"
+    },
+    "form": {
+      "heading": "Haz un Pedido o Envíanos un Mensaje",
+      "subheading": "¿Listo para ordenar, planeas un pedido para grupo o tienes una pregunta? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Pedido / Grupo",
+      "date": "Fecha/Hora Preferida para Recoger",
+      "message": "Cuéntanos tu pedido o pregunta. ¡Incluye tu base, proteína y toppings!",
+      "submit": "Enviar Pedido",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Bowls y burritos hechos a tu gusto, rápidos y frescos, justo al lado del campus de NIU.",
+      "rights": "© Bowlrrito. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

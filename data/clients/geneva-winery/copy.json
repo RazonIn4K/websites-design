@@ -1,0 +1,698 @@
+{
+  "business": {
+    "name": "Geneva Winery & Coffeehouse",
+    "shortName": "Geneva Winery",
+    "vertical": "Urban Winery, Wine Bar & Coffeehouse",
+    "phone": "(630) 402-0739",
+    "phoneHref": "+16304020739",
+    "address": "426 South 3rd Street",
+    "city": "Geneva",
+    "state": "IL",
+    "zip": "60134",
+    "mapsQuery": "Geneva Winery & Coffeehouse, 426 South 3rd Street, Geneva, IL 60134"
+  },
+  "en": {
+    "meta": {
+      "title": "Geneva Winery & Coffeehouse | Urban Winery, Wine Bar & Coffeehouse in Geneva, IL",
+      "description": "An intimate urban winery, wine bar & coffeehouse in downtown Geneva, IL. Small-batch wines by the glass, espresso by day, candlelit flights by night. Reserve: (630) 402-0739."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Wine List",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Reserve"
+    },
+    "hero": {
+      "eyebrow": "Urban Winery · Wine Bar · Coffeehouse",
+      "title": "Espresso by Day,",
+      "titleAccent": "Candlelit Flights by Night",
+      "subtitle": "An intimate urban winery and coffeehouse in downtown Geneva, small-batch wines by the glass, espresso drinks worth slowing down for, and a curated board to linger over.",
+      "ctaPrimary": "View Wine List",
+      "ctaSecondary": "Call to Reserve",
+      "badge": "Small-Batch Wines · Espresso by Day · Candlelit by Night"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Small-Batch Wines",
+        "text": "House wines made in small lots and poured by the glass, plus rotating flights to taste your way through reds, whites, rosé, and sparkling."
+      },
+      {
+        "icon": "leaf",
+        "title": "Espresso by Day",
+        "text": "A proper coffeehouse before the wine comes out, pulled espresso, slow drip, and seasonal drinks in a warm, unhurried room."
+      },
+      {
+        "icon": "heart",
+        "title": "A Curated Board",
+        "text": "Cheese and charcuterie boards, warm flatbreads, and sweets built to share, the perfect excuse to linger a little longer."
+      },
+      {
+        "icon": "star",
+        "title": "Candlelit by Night",
+        "text": "When the sun drops, so do the lights. Settle into a candlelit table for a flight, a glass, and easy conversation."
+      }
+    ],
+    "menu": {
+      "heading": "Our Wine List",
+      "subheading": "Menu items and prices shown are illustrative demo content for this sample site. Please call (630) 402-0739 for our current pours, flights, and seasonal offerings.",
+      "categories": [
+        {
+          "id": "wines-by-the-glass",
+          "name": "Wines by the Glass",
+          "blurb": "Small-batch reds, whites, rosé, and sparkling, poured by the glass and ready to linger over.",
+          "items": [
+            {
+              "name": "House Cabernet Sauvignon",
+              "desc": "Bold and velvety with dark cherry, cocoa, and a whisper of oak, our flagship red by the glass.",
+              "price": "$12",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Pinot Noir",
+              "desc": "Silky and bright with red berry, baking spice, and an earthy, lingering finish.",
+              "price": "$13",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Barrel-Aged Chardonnay",
+              "desc": "Round and golden with notes of pear, vanilla, and toasted brioche from time in oak.",
+              "price": "$11",
+              "tags": []
+            },
+            {
+              "name": "Dry Riesling",
+              "desc": "Crisp and aromatic with green apple, citrus zest, and a clean mineral edge.",
+              "price": "$10",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Provence-Style Rosé",
+              "desc": "Pale, dry, and refreshing with strawberry, melon, and a bright floral lift.",
+              "price": "$11",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Brut Sparkling",
+              "desc": "Lively and elegant with fine bubbles, crisp apple, and a toasty, celebratory finish.",
+              "price": "$12",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bottles-flights",
+          "name": "Bottles & Flights",
+          "blurb": "Take home a house bottle, taste your way through a guided flight, or join the wine club.",
+          "items": [
+            {
+              "name": "House Red Bottle",
+              "desc": "Our small-batch Cabernet or Pinot to share at the table or take home, ask about this week's pour.",
+              "price": "$42",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "House White Bottle",
+              "desc": "A full bottle of our barrel-aged Chardonnay or dry Riesling, made in small lots right here.",
+              "price": "$38",
+              "tags": []
+            },
+            {
+              "name": "Red Flight",
+              "desc": "Three guided two-ounce pours through our reds, from silky Pinot to bold, oaky Cabernet.",
+              "price": "$18",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Sparkling & Rosé Flight",
+              "desc": "Three bright, easygoing pours, crisp Brut, dry rosé, and a seasonal sparkling surprise.",
+              "price": "$17",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Wine Club Tasting",
+              "desc": "A members' flight of our newest small-batch releases, ask about joining for monthly pours and perks.",
+              "price": "$22",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coffee-espresso",
+          "name": "Coffee & Espresso",
+          "blurb": "A proper coffeehouse by day, pulled espresso, slow drip, and seasonal drinks worth lingering over.",
+          "items": [
+            {
+              "name": "House Drip Coffee",
+              "desc": "A fresh-brewed cup of our medium roast, smooth, balanced, and endlessly refillable.",
+              "price": "$3",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Espresso",
+              "desc": "A carefully pulled double shot with rich crema and a deep, lingering finish.",
+              "price": "$4",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Cappuccino",
+              "desc": "Equal parts espresso, steamed milk, and airy foam for a classic, balanced cup.",
+              "price": "$5",
+              "tags": []
+            },
+            {
+              "name": "Vanilla Oat Latte",
+              "desc": "Two shots with creamy oat milk and a touch of real vanilla, smooth from the first sip.",
+              "price": "$6",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Seasonal Mocha",
+              "desc": "Espresso and steamed milk with our rotating seasonal chocolate, ask about today's pour.",
+              "price": "$6",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "small-plates-sweets",
+          "name": "Small Plates & Sweets",
+          "blurb": "Boards, flatbreads, and desserts made to share, the perfect reason to linger over another glass.",
+          "items": [
+            {
+              "name": "Cheese & Charcuterie Board",
+              "desc": "A curated spread of artisan cheeses, cured meats, marcona almonds, honey, and crostini.",
+              "price": "$24",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Cheese Lover's Board",
+              "desc": "Three rotating artisan cheeses with fig jam, fresh fruit, and warm crostini to share.",
+              "price": "$18",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Margherita Flatbread",
+              "desc": "Crisp, blistered flatbread with fresh mozzarella, tomato, basil, and a drizzle of olive oil.",
+              "price": "$14",
+              "tags": []
+            },
+            {
+              "name": "Prosciutto & Fig Flatbread",
+              "desc": "Warm flatbread with fig jam, prosciutto, arugula, and shaved parmesan, sweet meets savory.",
+              "price": "$16",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Flourless Chocolate Torte",
+              "desc": "Dense, rich, and just sweet enough, a perfect close to any glass of red.",
+              "price": "$9",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Winery & Coffeehouse in Downtown Geneva",
+      "lead": "Geneva Winery & Coffeehouse is an intimate urban winery, wine bar, and coffeehouse on South 3rd Street, where espresso by day gives way to candlelit flights by night.",
+      "paragraphs": [
+        "We make wine in small batches and pour it by the glass, so there's always something new to taste, a silky Pinot, a barrel-aged Chardonnay, a crisp Brut to celebrate the small stuff. By day, the same room is a proper coffeehouse, with pulled espresso, slow drip, and a quiet corner to call your own.",
+        "Pull up to the bar, build a board, and stay a while. Whether you're catching up over a flight, planning a private tasting, or just need an unhurried cup, there's a candlelit table in downtown Geneva waiting for you."
+      ],
+      "stats": [
+        {
+          "value": "Small-Batch",
+          "label": "Wines by the Glass"
+        },
+        {
+          "value": "Espresso by Day",
+          "label": "Candlelit by Night"
+        },
+        {
+          "value": "Private Events",
+          "label": "Tastings & Gatherings"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside Geneva Winery & Coffeehouse",
+      "subheading": "A peek at the candlelit tables, small-batch pours, and curated boards waiting for you in downtown Geneva.",
+      "captions": [
+        "A glass of small-batch red catching the candlelight",
+        "A tasting flight lined up and ready to pour",
+        "A carefully pulled espresso with rich crema",
+        "A curated cheese and charcuterie board to share",
+        "A warm flatbread fresh from the oven",
+        "Candlelit tables set for an unhurried evening"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Geneva Is Saying",
+      "items": [
+        {
+          "quote": "My favorite spot in town, espresso in the morning, a flight at night, and the charcuterie board is unreal. Cozy, candlelit, and never rushed.",
+          "name": "Allison M.",
+          "role": "Regular customer"
+        },
+        {
+          "quote": "We hosted a private tasting here and it was perfect. The small-batch reds were a hit and the staff knows their pours. We'll be back.",
+          "name": "Greg T.",
+          "role": "Private event host"
+        },
+        {
+          "quote": "The fact that I can get a great latte by day and a glass of Brut by night in the same beautiful room is everything. My go-to in downtown Geneva.",
+          "name": "Nina R.",
+          "role": "Local regular"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Downtown Geneva",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "8:00 AM - 9:00 PM"
+        },
+        {
+          "day": "Friday - Saturday",
+          "time": "8:00 AM - 11:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "9:00 AM - 6:00 PM"
+        }
+      ],
+      "phoneLabel": "Call to Reserve",
+      "directions": "Find us at 426 South 3rd Street in downtown Geneva. Reserve a candlelit table, book a private tasting, or just stop in for a glass, a board, and an unhurried evening."
+    },
+    "cta": {
+      "heading": "Reserve Your Table Tonight",
+      "text": "Call ahead to reserve a candlelit table, book a tasting flight, or plan a private event, then settle in for a glass and a curated board to linger over.",
+      "button": "Call (630) 402-0739"
+    },
+    "form": {
+      "heading": "Reserve or Get in Touch",
+      "subheading": "Planning a private tasting, a small gathering, or just have a question about our pours? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Party Size",
+      "date": "Preferred Date/Time",
+      "message": "Tell us about your reservation, event, or question.",
+      "submit": "Send Request",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "An intimate urban winery, wine bar, and coffeehouse in downtown Geneva, small-batch wines by the glass, espresso by day, and candlelit flights by night.",
+      "rights": "© Geneva Winery & Coffeehouse. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Geneva Winery & Coffeehouse | Vinería Urbana, Wine Bar y Cafetería en Geneva, IL",
+      "description": "Una vinería urbana, wine bar y cafetería íntima en el centro de Geneva, IL. Vinos de lote pequeño por copa, espresso de día y flights a la luz de las velas de noche. Reserva: (630) 402-0739."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Carta de Vinos",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Reservar"
+    },
+    "hero": {
+      "eyebrow": "Vinería Urbana · Wine Bar · Cafetería",
+      "title": "Espresso de Día,",
+      "titleAccent": "Degustaciones a la Luz de las Velas de Noche",
+      "subtitle": "Una vinería urbana y cafetería íntima en el centro de Geneva, vinos de lote pequeño por copa, bebidas de espresso que invitan a bajar el ritmo y una tabla curada para disfrutar sin prisa.",
+      "ctaPrimary": "Ver Carta de Vinos",
+      "ctaSecondary": "Llama para Reservar",
+      "badge": "Vinos de Lote Pequeño · Espresso de Día · Velas de Noche"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Vinos de Lote Pequeño",
+        "text": "Vinos de la casa elaborados en lotes pequeños y servidos por copa, además de flights rotativos para recorrer tintos, blancos, rosado y espumoso."
+      },
+      {
+        "icon": "leaf",
+        "title": "Espresso de Día",
+        "text": "Una verdadera cafetería antes de que salga el vino, espresso bien preparado, café de filtro y bebidas de temporada en un salón cálido y sin prisa."
+      },
+      {
+        "icon": "heart",
+        "title": "Una Tabla Curada",
+        "text": "Tablas de quesos y charcutería, flatbreads calientes y postres para compartir, la excusa perfecta para quedarte un rato más."
+      },
+      {
+        "icon": "star",
+        "title": "A la Luz de las Velas de Noche",
+        "text": "Cuando cae el sol, bajan las luces. Acomódate en una mesa a la luz de las velas para un flight, una copa y buena conversación."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestra Carta de Vinos",
+      "subheading": "Los platillos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Llama al (630) 402-0739 para conocer nuestras copas, flights y ofertas de temporada actuales.",
+      "categories": [
+        {
+          "id": "wines-by-the-glass",
+          "name": "Vinos por Copa",
+          "blurb": "Tintos, blancos, rosado y espumoso de lote pequeño, servidos por copa y listos para disfrutar sin prisa.",
+          "items": [
+            {
+              "name": "Cabernet Sauvignon de la Casa",
+              "desc": "Intenso y aterciopelado con cereza oscura, cocoa y un susurro de roble, nuestro tinto insignia por copa.",
+              "price": "$12",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Pinot Noir",
+              "desc": "Sedoso y brillante con frutos rojos, especias de repostería y un final terroso y persistente.",
+              "price": "$13",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Chardonnay Añejado en Barrica",
+              "desc": "Redondo y dorado con notas de pera, vainilla y brioche tostado por su tiempo en roble.",
+              "price": "$11",
+              "tags": []
+            },
+            {
+              "name": "Riesling Seco",
+              "desc": "Crujiente y aromático con manzana verde, ralladura de cítricos y un filo mineral limpio.",
+              "price": "$10",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Rosado Estilo Provenza",
+              "desc": "Pálido, seco y refrescante con fresa, melón y un brillante toque floral.",
+              "price": "$11",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Espumoso Brut",
+              "desc": "Vivo y elegante con burbujas finas, manzana crujiente y un final tostado y festivo.",
+              "price": "$12",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bottles-flights",
+          "name": "Botellas y Flights",
+          "blurb": "Llévate una botella de la casa, recorre un flight guiado o únete al club de vinos.",
+          "items": [
+            {
+              "name": "Botella de Tinto de la Casa",
+              "desc": "Nuestro Cabernet o Pinot de lote pequeño para compartir en la mesa o llevar a casa, pregunta por la copa de la semana.",
+              "price": "$42",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Botella de Blanco de la Casa",
+              "desc": "Una botella completa de nuestro Chardonnay añejado en barrica o Riesling seco, elaborado en lotes pequeños aquí mismo.",
+              "price": "$38",
+              "tags": []
+            },
+            {
+              "name": "Flight de Tintos",
+              "desc": "Tres copas guiadas de dos onzas a través de nuestros tintos, del sedoso Pinot al intenso Cabernet con roble.",
+              "price": "$18",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Flight de Espumoso y Rosado",
+              "desc": "Tres copas brillantes y ligeras, Brut crujiente, rosado seco y un espumoso sorpresa de temporada.",
+              "price": "$17",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Cata del Club de Vinos",
+              "desc": "Un flight para socios con nuestros lanzamientos de lote pequeño más recientes, pregunta por unirte para copas y beneficios mensuales.",
+              "price": "$22",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coffee-espresso",
+          "name": "Café y Espresso",
+          "blurb": "Una verdadera cafetería de día, espresso bien preparado, café de filtro y bebidas de temporada para disfrutar sin prisa.",
+          "items": [
+            {
+              "name": "Café de Filtro de la Casa",
+              "desc": "Una taza recién hecha de nuestro tueste medio, suave, equilibrada y con rellenos sin fin.",
+              "price": "$3",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Espresso",
+              "desc": "Un doble shot cuidadosamente preparado con rica crema y un final profundo y persistente.",
+              "price": "$4",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Cappuccino",
+              "desc": "Partes iguales de espresso, leche vaporizada y espuma ligera para una taza clásica y equilibrada.",
+              "price": "$5",
+              "tags": []
+            },
+            {
+              "name": "Latte de Vainilla con Avena",
+              "desc": "Dos shots con cremosa leche de avena y un toque de vainilla auténtica, suave desde el primer sorbo.",
+              "price": "$6",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Mocha de Temporada",
+              "desc": "Espresso y leche vaporizada con nuestro chocolate rotativo de temporada, pregunta por el del día.",
+              "price": "$6",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "small-plates-sweets",
+          "name": "Platos Pequeños y Postres",
+          "blurb": "Tablas, flatbreads y postres para compartir, la razón perfecta para disfrutar otra copa sin prisa.",
+          "items": [
+            {
+              "name": "Tabla de Quesos y Charcutería",
+              "desc": "Una selección curada de quesos artesanales, carnes curadas, almendras marcona, miel y crostini.",
+              "price": "$24",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Tabla para Amantes del Queso",
+              "desc": "Tres quesos artesanales rotativos con mermelada de higo, fruta fresca y crostini calientes para compartir.",
+              "price": "$18",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Flatbread Margherita",
+              "desc": "Flatbread crujiente y dorado con mozzarella fresca, tomate, albahaca y un hilo de aceite de oliva.",
+              "price": "$14",
+              "tags": []
+            },
+            {
+              "name": "Flatbread de Prosciutto e Higo",
+              "desc": "Flatbread caliente con mermelada de higo, prosciutto, arúgula y parmesano en lascas, lo dulce se encuentra con lo salado.",
+              "price": "$16",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Torta de Chocolate sin Harina",
+              "desc": "Densa, rica y justo lo dulce necesario, un cierre perfecto para cualquier copa de tinto.",
+              "price": "$9",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Una Vinería y Cafetería en el Centro de Geneva",
+      "lead": "Geneva Winery & Coffeehouse es una vinería urbana, wine bar y cafetería íntima en South 3rd Street, donde el espresso de día da paso a los flights a la luz de las velas de noche.",
+      "paragraphs": [
+        "Elaboramos vino en lotes pequeños y lo servimos por copa, así que siempre hay algo nuevo que probar, un Pinot sedoso, un Chardonnay añejado en barrica, un Brut crujiente para celebrar las pequeñas cosas. De día, el mismo salón es una verdadera cafetería, con espresso bien preparado, café de filtro y un rincón tranquilo para hacerlo tuyo.",
+        "Acércate a la barra, arma una tabla y quédate un rato. Ya sea que te pongas al día con un flight, planees una cata privada o solo necesites una taza sin prisa, hay una mesa a la luz de las velas en el centro de Geneva esperándote."
+      ],
+      "stats": [
+        {
+          "value": "Lote Pequeño",
+          "label": "Vinos por Copa"
+        },
+        {
+          "value": "Espresso de Día",
+          "label": "Velas de Noche"
+        },
+        {
+          "value": "Eventos Privados",
+          "label": "Catas y Reuniones"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Dentro de Geneva Winery & Coffeehouse",
+      "subheading": "Un vistazo a las mesas a la luz de las velas, las copas de lote pequeño y las tablas curadas que te esperan en el centro de Geneva.",
+      "captions": [
+        "Una copa de tinto de lote pequeño captando la luz de las velas",
+        "Un flight de cata alineado y listo para servir",
+        "Un espresso cuidadosamente preparado con rica crema",
+        "Una tabla curada de quesos y charcutería para compartir",
+        "Un flatbread caliente recién salido del horno",
+        "Mesas a la luz de las velas listas para una velada sin prisa"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice Geneva",
+      "items": [
+        {
+          "quote": "Mi lugar favorito del pueblo, espresso por la mañana, un flight por la noche, y la tabla de charcutería es increíble. Acogedor, a la luz de las velas y nunca con prisa.",
+          "name": "Allison M.",
+          "role": "Cliente frecuente"
+        },
+        {
+          "quote": "Organizamos una cata privada aquí y fue perfecta. Los tintos de lote pequeño encantaron y el personal conoce sus copas. Volveremos.",
+          "name": "Greg T.",
+          "role": "Anfitrión de evento privado"
+        },
+        {
+          "quote": "El hecho de que pueda tomar un gran latte de día y una copa de Brut de noche en el mismo salón hermoso lo es todo. Mi favorito en el centro de Geneva.",
+          "name": "Nina R.",
+          "role": "Cliente local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en el Centro de Geneva",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "8:00 AM - 9:00 PM"
+        },
+        {
+          "day": "Viernes - Sábado",
+          "time": "8:00 AM - 11:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "9:00 AM - 6:00 PM"
+        }
+      ],
+      "phoneLabel": "Llama para Reservar",
+      "directions": "Encuéntranos en 426 South 3rd Street en el centro de Geneva. Reserva una mesa a la luz de las velas, agenda una cata privada o simplemente pásate por una copa, una tabla y una velada sin prisa."
+    },
+    "cta": {
+      "heading": "Reserva Tu Mesa Esta Noche",
+      "text": "Llama con anticipación para reservar una mesa a la luz de las velas, agendar un flight de cata o planear un evento privado, y luego acomódate con una copa y una tabla curada para disfrutar sin prisa.",
+      "button": "Llamar al (630) 402-0739"
+    },
+    "form": {
+      "heading": "Reserva o Contáctanos",
+      "subheading": "¿Planeas una cata privada, una reunión pequeña o solo tienes una pregunta sobre nuestras copas? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Número de Personas",
+      "date": "Fecha/Hora Preferida",
+      "message": "Cuéntanos sobre tu reserva, evento o pregunta.",
+      "submit": "Enviar Solicitud",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Una vinería urbana, wine bar y cafetería íntima en el centro de Geneva, vinos de lote pequeño por copa, espresso de día y flights a la luz de las velas de noche.",
+      "rights": "© Geneva Winery & Coffeehouse. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

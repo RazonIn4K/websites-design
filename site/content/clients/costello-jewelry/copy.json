@@ -1,0 +1,664 @@
+{
+  "business": {
+    "name": "Costello Jewelry Company",
+    "shortName": "Costello",
+    "vertical": "Fine Jewelry Store",
+    "phone": "(630) 355-1311",
+    "phoneHref": "+16303551311",
+    "address": "33 West Jefferson Avenue",
+    "city": "Naperville",
+    "state": "IL",
+    "zip": "60540",
+    "mapsQuery": "Costello Jewelry Company, 33 West Jefferson Avenue, Naperville, IL 60540",
+    "lat": 41.7730877,
+    "lon": -88.1490914
+  },
+  "en": {
+    "meta": {
+      "title": "Costello Jewelry Company | Fine Jewelry & Engagement Rings in Naperville, IL",
+      "description": "Family jeweler in downtown Naperville since 1979. Engagement rings, custom design, and expert repairs on Jefferson Avenue. Call (630) 355-1311."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Collections",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Book a Consultation"
+    },
+    "hero": {
+      "eyebrow": "Downtown Naperville's Family Jeweler",
+      "title": "Fine Jewelry for",
+      "titleAccent": "the Moments That Matter",
+      "subtitle": "A trusted downtown Naperville jeweler for engagement rings designed with you, expert repairs, and the kind of personal attention you only get from a family jeweler.",
+      "ctaPrimary": "View Collections",
+      "ctaSecondary": "Call (630) 355-1311",
+      "badge": "Free design consultation · By appointment or walk-in"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Designed With You",
+        "text": "Sit down with a jeweler who listens, then watch your engagement ring or custom piece come to life exactly the way you imagined it."
+      },
+      {
+        "icon": "crown",
+        "title": "Expert Repairs",
+        "text": "Resizing, restringing, stone setting, and watch service done on-site by experienced hands that treat your pieces like their own."
+      },
+      {
+        "icon": "heart",
+        "title": "Personal Attention",
+        "text": "No pressure and no commission chase, just honest guidance from a family jeweler who's here for every anniversary after the first."
+      },
+      {
+        "icon": "star",
+        "title": "Trusted Downtown",
+        "text": "An independent jeweler right in the heart of downtown Naperville, where neighbors come back for the moments worth celebrating."
+      }
+    ],
+    "menu": {
+      "heading": "Collections & Services",
+      "subheading": "Pieces, prices, and services shown are illustrative demo content for this concept site and may not reflect the store's actual selection, pricing, or availability.",
+      "categories": [
+        {
+          "id": "engagement-bridal",
+          "name": "Engagement & Bridal",
+          "blurb": "Engagement rings, wedding bands, and bridal sets for the moment you've been planning.",
+          "items": [
+            {
+              "name": "Custom Engagement Ring",
+              "desc": "Designed with you from the center stone out, in your choice of diamond, setting, and metal for a ring that's truly one of a kind.",
+              "price": "From $2,500",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Diamond Solitaire Ring",
+              "desc": "A timeless single-stone setting that lets a beautiful diamond take center stage, sized and set just for you.",
+              "price": "From $1,800",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Wedding Bands",
+              "desc": "Classic and contemporary bands in gold and platinum, sold individually or as a matched his-and-hers pair.",
+              "price": "From $600",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Bridal Set",
+              "desc": "A coordinated engagement ring and wedding band designed to sit together perfectly, finished as one complete look.",
+              "price": "From $3,200"
+            }
+          ]
+        },
+        {
+          "id": "fine-jewelry",
+          "name": "Fine Jewelry",
+          "blurb": "Necklaces, earrings, bracelets, and loose diamonds for everyday sparkle and special days alike.",
+          "items": [
+            {
+              "name": "Diamond Pendant Necklace",
+              "desc": "A delicate diamond pendant on a fine gold chain, an easy-to-wear gift that goes with everything.",
+              "price": "From $750",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Diamond Stud Earrings",
+              "desc": "Brilliant-cut studs in your choice of carat weight and metal, a classic that never goes out of style.",
+              "price": "From $900",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Tennis Bracelet",
+              "desc": "A continuous line of matched stones set in gold for steady, elegant sparkle on the wrist.",
+              "price": "From $2,200"
+            },
+            {
+              "name": "Gemstone Earrings",
+              "desc": "Colored stones from sapphire to emerald set as studs or drops to mark a birthday, milestone, or just because.",
+              "price": "From $650",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Loose Diamonds",
+              "desc": "Hand-selected loose diamonds across a range of cuts and grades, ready to set into the piece you have in mind.",
+              "price": "Consult"
+            }
+          ]
+        },
+        {
+          "id": "watches-gifts",
+          "name": "Watches & Gifts",
+          "blurb": "Luxury watches, anniversary pieces, and gifts to mark the occasions worth remembering.",
+          "items": [
+            {
+              "name": "Luxury Timepiece",
+              "desc": "A refined automatic or quartz watch chosen to be worn for years and handed down for many more.",
+              "price": "From $1,500",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Anniversary Jewelry",
+              "desc": "Thoughtful pieces for every milestone, from a first-year keepsake to a stone that marks decades together.",
+              "price": "From $500",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Pearl Strand",
+              "desc": "A hand-knotted strand of cultured pearls with a secure clasp, a graceful gift for any generation.",
+              "price": "From $450",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Gift Selections",
+              "desc": "Pendants, charms, and small luxuries gift-wrapped and ready, with help finding something they'll love.",
+              "price": "From $150",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "services",
+          "name": "Services",
+          "blurb": "Custom design, repairs, and appraisals handled with care by our in-house team.",
+          "items": [
+            {
+              "name": "Custom Design",
+              "desc": "Bring an idea, a sketch, or an heirloom to reimagine, and we'll design and craft a piece that's entirely yours.",
+              "price": "Consult",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Repair & Resizing",
+              "desc": "Ring sizing, prong retipping, chain repair, and stone setting done on-site so your favorites are good as new.",
+              "price": "From $45",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Jewelry & Insurance Appraisal",
+              "desc": "A detailed written appraisal of your pieces for insurance, estate, or peace of mind.",
+              "price": "From $75"
+            },
+            {
+              "name": "Watch Battery & Service",
+              "desc": "Battery replacement, band adjustment, and cleaning while you wait, plus full service for finer timepieces.",
+              "price": "From $15",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Your Family Jeweler in Naperville",
+      "lead": "We're an independent fine jewelry store in the heart of downtown Naperville, here for the moments that matter most.",
+      "paragraphs": [
+        "Founded by Joe Costello in 1979 and family-owned ever since, Costello Jewelry Company is the kind of jeweler you remember, a downtown Naperville shop where you're greeted warmly, never rushed, and helped by people who genuinely love what they do. From the first engagement ring to every anniversary after, we're honored to be part of the moments families gather to celebrate.",
+        "Whether you're designing a ring from scratch, choosing a gift, or trusting us with a treasured heirloom to repair, you'll get the same honest, personal attention every time. It's the kind of care that's hard to find anymore, and it's exactly why our neighbors keep coming back."
+      ],
+      "stats": [
+        {
+          "value": "Custom",
+          "label": "Design With You"
+        },
+        {
+          "value": "On-Site",
+          "label": "Expert Repairs"
+        },
+        {
+          "value": "Free",
+          "label": "Design Consultation"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Closer Look",
+      "subheading": "A glimpse of the craftsmanship and pieces you'll find in our downtown Naperville showroom.",
+      "captions": [
+        "Engagement rings in the showroom case",
+        "A custom design taking shape at the bench",
+        "Diamond studs and fine necklaces",
+        "Wedding bands in gold and platinum",
+        "A luxury timepiece up close",
+        "Repairs and resizing done on-site"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Naperville Is Saying",
+      "items": [
+        {
+          "quote": "They designed my engagement ring exactly the way I pictured it and made the whole process feel special instead of stressful. She said yes.",
+          "name": "Michael D.",
+          "role": "Naperville Customer"
+        },
+        {
+          "quote": "I've trusted them with resizing, a new setting, and my grandmother's necklace. Always honest, always beautiful work, never any pressure.",
+          "name": "Patricia L.",
+          "role": "Longtime Customer"
+        },
+        {
+          "quote": "Picked out an anniversary gift here and they took the time to help me get it just right. You can tell it's a family business that cares.",
+          "name": "James R.",
+          "role": "Downtown Neighbor"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit Our Store",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "10:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Call the Store",
+      "directions": "On West Jefferson Avenue in the heart of downtown Naperville, with nearby parking. Stop in to browse, or call ahead to book a free design consultation and we'll have a jeweler ready for you.",
+      "neighborhood": "We're on Jefferson Avenue in the middle of downtown Naperville's shopping district, a short walk from the covered bridges and fountains of the Riverwalk along the DuPage River."
+    },
+    "cta": {
+      "heading": "Let's Create Something Unforgettable",
+      "text": "Book a free design consultation or stop by the store. Whether it's an engagement ring, a gift, or a repair, we'd love to help you with the moment that matters.",
+      "button": "Call (630) 355-1311"
+    },
+    "form": {
+      "heading": "Book a Consultation",
+      "subheading": "Tell us what you have in mind and we'll set up a free design consultation, answer your questions, or arrange a time for a repair or appraisal.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "What's the Occasion?",
+      "date": "Preferred Date/Time",
+      "message": "How Can We Help?",
+      "submit": "Send Request",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and will reach out to set up your consultation or visit.",
+      "error": "Something went wrong. Please try again or call us at (630) 355-1311.",
+      "consent": "By submitting, you agree to be contacted about your jewelry request."
+    },
+    "footer": {
+      "tagline": "A trusted downtown Naperville jeweler for engagement rings, custom design, and expert repairs.",
+      "rights": "© Costello Jewelry Company. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Store Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Costello Jewelry Company | Joyería Fina y Anillos de Compromiso en Naperville, IL",
+      "description": "Joyería familiar en el centro de Naperville desde 1979. Anillos de compromiso, diseño a medida y reparaciones expertas en Jefferson Avenue. (630) 355-1311"
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Colecciones",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Reservar"
+    },
+    "hero": {
+      "eyebrow": "El Joyero Familiar del Centro de Naperville",
+      "title": "Joyería Fina para",
+      "titleAccent": "los Momentos que Importan",
+      "subtitle": "Un joyero de confianza en el centro de Naperville para anillos de compromiso diseñados contigo, reparaciones expertas y esa atención personal que solo te da un joyero familiar.",
+      "ctaPrimary": "Ver Colecciones",
+      "ctaSecondary": "Llama al (630) 355-1311",
+      "badge": "Consulta de diseño gratis · Con cita o sin cita"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Diseñado Contigo",
+        "text": "Siéntate con un joyero que te escucha y mira cómo tu anillo de compromiso o pieza personalizada cobra vida tal como lo imaginaste."
+      },
+      {
+        "icon": "crown",
+        "title": "Reparaciones Expertas",
+        "text": "Ajuste de talla, reensartado, engaste de piedras y servicio de relojes hechos en el taller por manos expertas que tratan tus piezas como propias."
+      },
+      {
+        "icon": "heart",
+        "title": "Atención Personal",
+        "text": "Sin presión y sin venta a comisión, solo orientación honesta de un joyero familiar que está aquí para cada aniversario después del primero."
+      },
+      {
+        "icon": "star",
+        "title": "Confianza en el Centro",
+        "text": "Un joyero independiente en pleno centro de Naperville, adonde los vecinos vuelven para los momentos que vale la pena celebrar."
+      }
+    ],
+    "menu": {
+      "heading": "Colecciones y Servicios",
+      "subheading": "Las piezas, los precios y los servicios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar la selección, los precios o la disponibilidad reales de la tienda.",
+      "categories": [
+        {
+          "id": "engagement-bridal",
+          "name": "Compromiso y Boda",
+          "blurb": "Anillos de compromiso, argollas de boda y juegos nupciales para el momento que has estado planeando.",
+          "items": [
+            {
+              "name": "Anillo de Compromiso Personalizado",
+              "desc": "Diseñado contigo desde la piedra central hacia afuera, con el diamante, el engaste y el metal que elijas, para un anillo verdaderamente único.",
+              "price": "Desde $2,500",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Anillo Solitario de Diamante",
+              "desc": "Un engaste atemporal de una sola piedra que deja brillar a un hermoso diamante, ajustado y montado solo para ti.",
+              "price": "Desde $1,800",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Argollas de Boda",
+              "desc": "Argollas clásicas y contemporáneas en oro y platino, vendidas por separado o como un par a juego para los dos.",
+              "price": "Desde $600",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Juego Nupcial",
+              "desc": "Un anillo de compromiso y una argolla de boda diseñados para encajar a la perfección, terminados como un look completo.",
+              "price": "Desde $3,200"
+            }
+          ]
+        },
+        {
+          "id": "fine-jewelry",
+          "name": "Joyería Fina",
+          "blurb": "Collares, aretes, pulseras y diamantes sueltos para el brillo de todos los días y de las ocasiones especiales.",
+          "items": [
+            {
+              "name": "Collar con Dije de Diamante",
+              "desc": "Un delicado dije de diamante en una fina cadena de oro, un regalo fácil de llevar que combina con todo.",
+              "price": "Desde $750",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Aretes de Diamante",
+              "desc": "Aretes de corte brillante en el peso en quilates y el metal que prefieras, un clásico que nunca pasa de moda.",
+              "price": "Desde $900",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Pulsera Tennis",
+              "desc": "Una línea continua de piedras a juego montadas en oro para un brillo constante y elegante en la muñeca.",
+              "price": "Desde $2,200"
+            },
+            {
+              "name": "Aretes con Piedras de Color",
+              "desc": "Piedras de color, del zafiro a la esmeralda, montadas como broqueles o pendientes para celebrar un cumpleaños, un logro o porque sí.",
+              "price": "Desde $650",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Diamantes Sueltos",
+              "desc": "Diamantes sueltos seleccionados a mano en una variedad de cortes y grados, listos para montarse en la pieza que tienes en mente.",
+              "price": "Consulta"
+            }
+          ]
+        },
+        {
+          "id": "watches-gifts",
+          "name": "Relojes y Regalos",
+          "blurb": "Relojes de lujo, piezas de aniversario y regalos para marcar las ocasiones que vale la pena recordar.",
+          "items": [
+            {
+              "name": "Reloj de Lujo",
+              "desc": "Un refinado reloj automático o de cuarzo elegido para llevarse por años y heredarse por muchos más.",
+              "price": "Desde $1,500",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Joyería de Aniversario",
+              "desc": "Piezas pensadas para cada hito, desde un recuerdo del primer año hasta una piedra que marca décadas juntos.",
+              "price": "Desde $500",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Collar de Perlas",
+              "desc": "Un collar de perlas cultivadas anudado a mano con un broche seguro, un regalo elegante para cualquier generación.",
+              "price": "Desde $450",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Selección de Regalos",
+              "desc": "Dijes, charms y pequeños lujos envueltos y listos, con ayuda para encontrar algo que les encante.",
+              "price": "Desde $150",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "services",
+          "name": "Servicios",
+          "blurb": "Diseño personalizado, reparaciones y avalúos atendidos con cuidado por nuestro equipo del taller.",
+          "items": [
+            {
+              "name": "Diseño Personalizado",
+              "desc": "Trae una idea, un boceto o una reliquia para reinventar, y diseñaremos y crearemos una pieza completamente tuya.",
+              "price": "Consulta",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Reparación y Ajuste de Talla",
+              "desc": "Ajuste de talla, reparación de garras, arreglo de cadenas y engaste de piedras hechos en el taller para dejar tus favoritas como nuevas.",
+              "price": "Desde $45",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Avalúo de Joyas y Seguro",
+              "desc": "Un avalúo detallado por escrito de tus piezas para seguro, herencia o tu tranquilidad.",
+              "price": "Desde $75"
+            },
+            {
+              "name": "Pila y Servicio de Reloj",
+              "desc": "Cambio de pila, ajuste de extensible y limpieza mientras esperas, además de servicio completo para relojes finos.",
+              "price": "Desde $15",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Tu Joyero Familiar en Naperville",
+      "lead": "Somos una joyería fina independiente en pleno centro de Naperville, aquí para los momentos que más importan.",
+      "paragraphs": [
+        "Fundada por Joe Costello en 1979 y en manos de la familia desde entonces, Costello Jewelry Company es ese joyero que se recuerda, una tienda del centro de Naperville donde te reciben con calidez, nunca te apuran y te atienden personas que de verdad aman lo que hacen. Desde el primer anillo de compromiso hasta cada aniversario después, nos honra ser parte de los momentos que las familias se reúnen a celebrar.",
+        "Ya sea que diseñes un anillo desde cero, elijas un regalo o nos confíes una reliquia querida para reparar, recibirás la misma atención honesta y personal cada vez. Es ese cuidado que cuesta encontrar hoy en día, y es justo por eso que nuestros vecinos siguen volviendo."
+      ],
+      "stats": [
+        {
+          "value": "A Medida",
+          "label": "Diseño Contigo"
+        },
+        {
+          "value": "En Taller",
+          "label": "Reparaciones Expertas"
+        },
+        {
+          "value": "Gratis",
+          "label": "Consulta de Diseño"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Una Mirada de Cerca",
+      "subheading": "Un vistazo a la artesanía y las piezas que encontrarás en nuestra sala del centro de Naperville.",
+      "captions": [
+        "Anillos de compromiso en la vitrina",
+        "Un diseño personalizado tomando forma en el banco",
+        "Aretes de diamante y collares finos",
+        "Argollas de boda en oro y platino",
+        "Un reloj de lujo de cerca",
+        "Reparaciones y ajustes de talla en el taller"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice Naperville",
+      "items": [
+        {
+          "quote": "Diseñaron mi anillo de compromiso justo como lo imaginé e hicieron que todo el proceso se sintiera especial en lugar de estresante. Dijo que sí.",
+          "name": "Michael D.",
+          "role": "Cliente en Naperville"
+        },
+        {
+          "quote": "Les he confiado ajustes de talla, un engaste nuevo y el collar de mi abuela. Siempre honestos, siempre un trabajo hermoso, nunca presión.",
+          "name": "Patricia L.",
+          "role": "Cliente de Años"
+        },
+        {
+          "quote": "Elegí aquí un regalo de aniversario y se tomaron el tiempo de ayudarme a dejarlo perfecto. Se nota que es un negocio familiar que se preocupa.",
+          "name": "James R.",
+          "role": "Vecino del Centro"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita Nuestra Tienda",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Martes",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "10:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Llama a la Tienda",
+      "directions": "Sobre West Jefferson Avenue en pleno centro de Naperville, con estacionamiento cercano. Pasa a ver las piezas, o llama con anticipación para reservar una consulta de diseño gratis y tendremos a un joyero listo para ti.",
+      "neighborhood": "Estamos sobre Jefferson Avenue, en pleno distrito comercial del centro de Naperville, a una corta caminata de los puentes cubiertos y las fuentes del Riverwalk junto al río DuPage."
+    },
+    "cta": {
+      "heading": "Creemos Algo Inolvidable",
+      "text": "Reserva una consulta de diseño gratis o pasa por la tienda. Ya sea un anillo de compromiso, un regalo o una reparación, nos encantaría ayudarte con el momento que importa.",
+      "button": "Llamar al (630) 355-1311"
+    },
+    "form": {
+      "heading": "Reserva una Consulta",
+      "subheading": "Cuéntanos qué tienes en mente y coordinamos una consulta de diseño gratis, respondemos tus preguntas o agendamos una hora para una reparación o avalúo.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "¿Cuál es la Ocasión?",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo Podemos Ayudarte?",
+      "submit": "Enviar Solicitud",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos para coordinar tu consulta o visita.",
+      "error": "Algo salió mal. Inténtalo de nuevo o llámanos al (630) 355-1311.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud de joyería."
+    },
+    "footer": {
+      "tagline": "Un joyero de confianza en el centro de Naperville para anillos de compromiso, diseño personalizado y reparaciones expertas.",
+      "rights": "© Costello Jewelry Company. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario de la Tienda",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

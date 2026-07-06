@@ -1,0 +1,16 @@
+{
+  "concept": "Fresh-pressed fast-casual energy for Bowlrrito: a bright avocado-lime primary that reads as just-chopped greens, balanced by a warm chipotle-terracotta accent and a smoky charcoal-green ink. Creamy off-white backgrounds keep the spread appetizing, modern, and bright while every text/UI pairing clears WCAG-AA.",
+  "vars": {
+    "--color-bg": "#FAF6EC",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#F1EADA",
+    "--color-ink": "#1E2318",
+    "--color-ink-soft": "#55614A",
+    "--color-primary": "#557F28",
+    "--color-primary-dark": "#436321",
+    "--color-secondary": "#9C5A2C",
+    "--color-accent": "#BE5230",
+    "--color-line": "#E2D9C5"
+  },
+  "contrastNotes": "All required pairs pass WCAG-AA. Ink #1E2318 on bg #FAF6EC = 14.9:1 (>=7), on surface #FFFFFF = 16.1:1, on surface-alt = 13.4:1. Ink-soft #55614A on bg = 6.1:1, on surface = 6.6:1 (>=4.5). White on primary #557F28 = 4.72:1, on primary-dark = 6.9:1, on secondary #9C5A2C = 5.4:1, on accent #BE5230 = 4.73:1 (all >=4.5). Primary on bg = 4.37:1 and accent on bg = 4.38:1 (>=3, comfortably AA-Large/UI). Line #E2D9C5 is a non-text hairline only."
+}

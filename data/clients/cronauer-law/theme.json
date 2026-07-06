@@ -1,0 +1,16 @@
+{
+  "concept": "Authoritative legal identity for Cronauer Law: a deep navy primary conveys trust and established expertise, paired with a refined antique-gold accent for distinction and prestige. Near-black ink sits on soft warm-white backgrounds for a classic, professional, highly legible reading experience.",
+  "vars": {
+    "--color-bg": "#FAF7F1",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#F0EBE1",
+    "--color-ink": "#15171C",
+    "--color-ink-soft": "#4D525C",
+    "--color-primary": "#16284A",
+    "--color-primary-dark": "#0E1B33",
+    "--color-secondary": "#3B5278",
+    "--color-accent": "#9A6C16",
+    "--color-line": "#DED7C9"
+  },
+  "contrastNotes": "All ratios verified WCAG-AA+. ink on bg 16.77:1 (>=7); ink-soft on bg 7.34:1 (>=4.5); white on primary 14.62:1 (>=4.5); primary on bg 13.67:1 (>=3). Also: ink on surface 17.93:1; ink-soft on surface-alt 6.60:1; white on primary-dark 17.17:1; white on secondary 7.88:1; gold accent on bg 4.33:1 and white on accent 4.64:1 (both pass AA for text/UI). Line color is decorative (non-text)."
+}

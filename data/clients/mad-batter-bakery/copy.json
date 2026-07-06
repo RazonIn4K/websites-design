@@ -1,0 +1,718 @@
+{
+  "business": {
+    "name": "Mad Batter Bakery and Confections",
+    "shortName": "Mad Batter",
+    "vertical": "From-Scratch Bakery & Confections",
+    "phone": "",
+    "phoneHref": "",
+    "address": "228 South 3rd Street",
+    "city": "Geneva",
+    "state": "IL",
+    "zip": "60134",
+    "mapsQuery": "Mad Batter Bakery and Confections, 228 South 3rd Street, Geneva, IL 60134"
+  },
+  "en": {
+    "meta": {
+      "title": "Mad Batter Bakery and Confections | From-Scratch Bakery in Geneva, IL",
+      "description": "Independent from-scratch bakery & confections in downtown Geneva, IL. Flaky morning pastries, show-stopping custom cakes, and a glass case of sweets. Order online today."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "The Shop",
+      "visit": "Visit",
+      "order": "Order a Cake"
+    },
+    "hero": {
+      "eyebrow": "From-Scratch Bakery · Downtown Geneva",
+      "title": "Flaky Pastries, Show-Stopping Cakes,",
+      "titleAccent": "Confections Worth the Trip",
+      "subtitle": "A charming from-scratch bakery in downtown Geneva, where buttery morning pastries come out warm, custom cakes steal the show, and a glass case of confections makes everyone press their nose to the window.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Place a Custom Order",
+      "badge": "Baked From Scratch · Custom Cakes · Catering"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "Baked From Scratch",
+        "text": "Everything is made by hand from scratch each morning, real butter, real ingredients, and no shortcuts in the mix."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Show-Stopping Custom Cakes",
+        "text": "Birthdays, weddings, and just-because celebrations, designed and decorated to be the centerpiece of your day."
+      },
+      {
+        "icon": "star",
+        "title": "A Glass Case of Confections",
+        "text": "Cookies, brownies, fudge, and candies in a case so tempting everyone presses their nose to the window."
+      },
+      {
+        "icon": "leaf",
+        "title": "Fresh Every Morning",
+        "text": "Croissants, scones, muffins, and artisan loaves baked at dawn so they reach you flaky, warm, and at their best."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Menu items and prices shown are illustrative demo content for this sample site. Please visit us or place an order online for current offerings and pricing.",
+      "categories": [
+        {
+          "id": "breads-pastries",
+          "name": "Breads & Pastries",
+          "blurb": "Buttery, flaky, and baked at dawn, the morning lineup that fills the case with the smell of fresh bread.",
+          "items": [
+            {
+              "name": "Butter Croissant",
+              "desc": "Laminated by hand with real butter and baked until golden, shatteringly flaky outside, soft and airy within.",
+              "price": "$4.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Almond Croissant",
+              "desc": "A buttery croissant filled with almond cream, topped with toasted almonds and a dusting of powdered sugar.",
+              "price": "$5.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Buttermilk Scone",
+              "desc": "Tender and crumbly with a delicate glaze, baked fresh daily in a rotating selection of seasonal flavors.",
+              "price": "$3.75",
+              "tags": []
+            },
+            {
+              "name": "Blueberry Muffin",
+              "desc": "Packed with plump blueberries and finished with a crackly sugar top, a classic done right.",
+              "price": "$3.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Artisan Sourdough Loaf",
+              "desc": "Naturally leavened and slow-proofed for a crackling crust and a tangy, open crumb. Sliced on request.",
+              "price": "$8.00",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Cinnamon Roll",
+              "desc": "A swirl of buttery dough, brown sugar, and cinnamon under a generous layer of cream cheese frosting.",
+              "price": "$4.95",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cakes-cupcakes",
+          "name": "Cakes & Cupcakes",
+          "blurb": "The show-stoppers, custom cakes for every celebration plus cupcakes and slices ready to take home today.",
+          "items": [
+            {
+              "name": "Custom Celebration Cake",
+              "desc": "Designed and decorated just for you, from birthdays to weddings. Pick your flavors and we'll do the rest.",
+              "price": "From $55",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Classic Vanilla Cupcake",
+              "desc": "Light vanilla bean cake crowned with a swirl of silky buttercream, a little celebration in every bite.",
+              "price": "$4.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Chocolate Fudge Cupcake",
+              "desc": "Deep, moist chocolate cake topped with rich fudge frosting for true chocolate lovers.",
+              "price": "$4.25",
+              "tags": []
+            },
+            {
+              "name": "Cake Slice of the Day",
+              "desc": "A generous slice from today's whole cakes, ask the case what's fresh and tempting right now.",
+              "price": "$6.50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Red Velvet Cupcake",
+              "desc": "Velvety cocoa cake with a tender crumb and a swirl of tangy cream cheese frosting.",
+              "price": "$4.50",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cookies-confections",
+          "name": "Cookies & Confections",
+          "blurb": "The glass case everyone presses their nose to, cookies, brownies, fudge, and house-made candies.",
+          "items": [
+            {
+              "name": "Chocolate Chunk Cookie",
+              "desc": "Big, chewy, and loaded with melty chocolate chunks and a sprinkle of flaky sea salt.",
+              "price": "$3.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Fudge Brownie",
+              "desc": "Dense, gooey, and impossibly rich, a from-scratch brownie with a glossy, crackly top.",
+              "price": "$3.75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Old-Fashioned Fudge",
+              "desc": "Slow-cooked in small batches for a smooth, melt-in-your-mouth square. Ask about today's flavors.",
+              "price": "$4.50",
+              "tags": []
+            },
+            {
+              "name": "Sea Salt Caramels",
+              "desc": "Soft, buttery caramels made by hand and finished with a pinch of sea salt, sold by the half-dozen.",
+              "price": "$7.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Frosted Sugar Cookie",
+              "desc": "A soft, buttery sugar cookie hand-decorated for the season, almost too pretty to eat.",
+              "price": "$3.50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Chocolate Truffles",
+              "desc": "Silky ganache rolled and dipped by hand, a box of these makes the perfect little gift.",
+              "price": "$9.00",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coffee-drinks",
+          "name": "Coffee & Drinks",
+          "blurb": "The perfect pairing for a pastry, fresh-brewed coffee, espresso drinks, and cocoa to sip in or take to go.",
+          "items": [
+            {
+              "name": "Drip Coffee",
+              "desc": "A fresh-brewed cup of our house blend, simple, smooth, and the ideal partner for a warm croissant.",
+              "price": "$3.00",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Espresso",
+              "desc": "A rich, balanced double shot pulled to order, bold enough to stand up to anything in the case.",
+              "price": "$3.25",
+              "tags": []
+            },
+            {
+              "name": "Vanilla Latte",
+              "desc": "Espresso and steamed milk with a touch of real vanilla, finished with a delicate layer of microfoam.",
+              "price": "$4.75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Cappuccino",
+              "desc": "Equal parts espresso, steamed milk, and airy foam for a classic, comforting cup.",
+              "price": "$4.50",
+              "tags": []
+            },
+            {
+              "name": "Hot Cocoa",
+              "desc": "Steamed milk and real melted chocolate topped with a generous swirl of whipped cream.",
+              "price": "$4.25",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A From-Scratch Bakery in the Heart of Geneva",
+      "lead": "Mad Batter Bakery and Confections is an independent, from-scratch bakery in downtown Geneva, where flaky morning pastries, show-stopping custom cakes, and a glass case of confections come together under one roof.",
+      "paragraphs": [
+        "We believe the best things are made by hand. Every morning starts before sunrise with real butter, good flour, and a little patience, laminating croissants, proofing artisan loaves, and frosting cookies one at a time. Nothing is rushed and nothing comes from a box.",
+        "Whether you're grabbing a warm scone on your way through downtown, picking up a box of confections for someone special, or dreaming up the centerpiece cake for your big day, we'd love to make it for you. Stop by the case, press your nose to the glass, and find your new favorite."
+      ],
+      "stats": [
+        {
+          "value": "From Scratch",
+          "label": "Baked by Hand Daily"
+        },
+        {
+          "value": "Custom Cakes",
+          "label": "Designed for Your Day"
+        },
+        {
+          "value": "Downtown Geneva",
+          "label": "On South 3rd Street"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside the Shop",
+      "subheading": "A peek at the morning bake, the custom cakes, and the glass case of confections waiting in downtown Geneva.",
+      "captions": [
+        "Flaky butter croissants fresh from the oven",
+        "A custom celebration cake decorated by hand",
+        "The glass case lined with cookies and confections",
+        "Trays of fudge brownies cooling on the rack",
+        "Artisan sourdough with a crackling golden crust",
+        "Hand-rolled chocolate truffles ready to box up"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Geneva Is Saying",
+      "items": [
+        {
+          "quote": "The croissants are the real deal, flaky, buttery, and gone before I get home. This is our Saturday morning tradition now.",
+          "name": "Megan T.",
+          "role": "Regular customer"
+        },
+        {
+          "quote": "They made my daughter's birthday cake and it was stunning, and somehow tasted even better than it looked. We'll never order anywhere else.",
+          "name": "Carlos M.",
+          "role": "Custom cake client"
+        },
+        {
+          "quote": "I came in for a coffee and left with a box of fudge and three cookies. That glass case gets me every single time.",
+          "name": "Hannah P.",
+          "role": "Local regular"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Downtown Geneva",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Tuesday - Friday",
+          "time": "7:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "7:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "8:00 AM - 2:00 PM"
+        },
+        {
+          "day": "Monday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Custom Orders & Catering",
+      "directions": "Find us at 228 South 3rd Street in downtown Geneva. Stop in to browse the case, or place a custom order online and we'll have your cake or confections ready for pickup."
+    },
+    "cta": {
+      "heading": "Dreaming Up a Cake? Let's Make It",
+      "text": "From birthday showstoppers to wedding tiers and catering trays, tell us what you're celebrating and we'll bake something unforgettable, all from scratch.",
+      "button": "Place a Custom Order"
+    },
+    "form": {
+      "heading": "Start Your Custom Order",
+      "subheading": "Planning a celebration or need catering for an event? Tell us what you have in mind and we'll get right back to you with the sweet details.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Servings Needed",
+      "date": "Preferred Pickup Date",
+      "message": "Tell us about your cake or order, flavors, occasion, and any details.",
+      "submit": "Send Order Request",
+      "sending": "Sending...",
+      "success": "Thanks! We received your order request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your order. No spam, ever."
+    },
+    "footer": {
+      "tagline": "An independent from-scratch bakery and confections shop in downtown Geneva, flaky pastries, custom cakes, and a glass case of sweets.",
+      "rights": "© Mad Batter Bakery and Confections. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Mad Batter Bakery and Confections | Panadería Artesanal en Geneva, IL",
+      "description": "Panadería artesanal independiente y confitería en el centro de Geneva, IL. Hojaldres de la mañana, pasteles personalizados espectaculares y una vitrina de dulces. Pide en línea hoy."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "La Tienda",
+      "visit": "Visítanos",
+      "order": "Pedir Pastel"
+    },
+    "hero": {
+      "eyebrow": "Panadería Artesanal · Centro de Geneva",
+      "title": "Hojaldres, Pasteles Espectaculares,",
+      "titleAccent": "Dulces Que Valen el Viaje",
+      "subtitle": "Una encantadora panadería artesanal en el centro de Geneva, donde los hojaldres de la mañana salen calientes, los pasteles personalizados se roban el show y una vitrina de dulces hace que todos peguen la nariz al cristal.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Haz un Pedido",
+      "badge": "Hecho desde Cero · Pasteles Personalizados · Catering"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "Hecho desde Cero",
+        "text": "Todo se hace a mano desde cero cada mañana, mantequilla de verdad, ingredientes de verdad y nada de atajos en la mezcla."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Pasteles Personalizados Espectaculares",
+        "text": "Cumpleaños, bodas y celebraciones porque sí, diseñados y decorados para ser el centro de tu día."
+      },
+      {
+        "icon": "star",
+        "title": "Una Vitrina de Dulces",
+        "text": "Galletas, brownies, fudge y caramelos en una vitrina tan tentadora que todos pegan la nariz al cristal."
+      },
+      {
+        "icon": "leaf",
+        "title": "Fresco Cada Mañana",
+        "text": "Croissants, scones, muffins y panes artesanales horneados al amanecer para que te lleguen hojaldrados, calientes y en su punto."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Los platillos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Visítanos o haz un pedido en línea para conocer la oferta y los precios actuales.",
+      "categories": [
+        {
+          "id": "breads-pastries",
+          "name": "Panes y Hojaldres",
+          "blurb": "Mantecosos, hojaldrados y horneados al amanecer, la selección de la mañana que llena la vitrina con olor a pan fresco.",
+          "items": [
+            {
+              "name": "Croissant de Mantequilla",
+              "desc": "Laminado a mano con mantequilla de verdad y horneado hasta dorar, crujiente por fuera, suave y aireado por dentro.",
+              "price": "$4.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Croissant de Almendra",
+              "desc": "Un croissant mantecoso relleno de crema de almendra, cubierto con almendras tostadas y azúcar glas.",
+              "price": "$5.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Scone de Suero de Leche",
+              "desc": "Tierno y desmoronable con un glaseado delicado, horneado fresco a diario en sabores de temporada rotativos.",
+              "price": "$3.75",
+              "tags": []
+            },
+            {
+              "name": "Muffin de Arándano",
+              "desc": "Repleto de arándanos jugosos y terminado con una capa crujiente de azúcar, un clásico bien hecho.",
+              "price": "$3.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Pan de Masa Madre Artesanal",
+              "desc": "Fermentado naturalmente y de levado lento para una corteza crujiente y una miga ácida y abierta. Rebanado a pedido.",
+              "price": "$8.00",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Rollo de Canela",
+              "desc": "Un remolino de masa mantecosa, azúcar morena y canela bajo una capa generosa de glaseado de queso crema.",
+              "price": "$4.95",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cakes-cupcakes",
+          "name": "Pasteles y Cupcakes",
+          "blurb": "Los espectaculares, pasteles personalizados para cada celebración más cupcakes y rebanadas listas para llevar hoy.",
+          "items": [
+            {
+              "name": "Pastel de Celebración Personalizado",
+              "desc": "Diseñado y decorado solo para ti, de cumpleaños a bodas. Elige tus sabores y nosotros hacemos el resto.",
+              "price": "Desde $55",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Cupcake Clásico de Vainilla",
+              "desc": "Ligero pastel de vainilla coronado con un remolino de buttercream sedoso, una pequeña celebración en cada bocado.",
+              "price": "$4.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Cupcake de Chocolate y Fudge",
+              "desc": "Pastel de chocolate profundo y húmedo cubierto con rico glaseado de fudge para los verdaderos amantes del chocolate.",
+              "price": "$4.25",
+              "tags": []
+            },
+            {
+              "name": "Rebanada de Pastel del Día",
+              "desc": "Una rebanada generosa de los pasteles enteros de hoy, pregunta a la vitrina qué está fresco y tentador ahora.",
+              "price": "$6.50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Cupcake de Red Velvet",
+              "desc": "Aterciopelado pastel de cocoa con miga tierna y un remolino de glaseado ácido de queso crema.",
+              "price": "$4.50",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cookies-confections",
+          "name": "Galletas y Dulces",
+          "blurb": "La vitrina a la que todos pegan la nariz, galletas, brownies, fudge y caramelos hechos en casa.",
+          "items": [
+            {
+              "name": "Galleta de Trozos de Chocolate",
+              "desc": "Grande, suave y cargada de trozos de chocolate derretido con una pizca de sal de mar en hojuelas.",
+              "price": "$3.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Brownie de Fudge",
+              "desc": "Denso, pegajoso e increíblemente rico, un brownie desde cero con una superficie brillante y crujiente.",
+              "price": "$3.75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Fudge a la Antigua",
+              "desc": "Cocinado lento en lotes pequeños para un cuadrito suave que se derrite en la boca. Pregunta por los sabores del día.",
+              "price": "$4.50",
+              "tags": []
+            },
+            {
+              "name": "Caramelos con Sal de Mar",
+              "desc": "Caramelos suaves y mantecosos hechos a mano y terminados con una pizca de sal de mar, vendidos por media docena.",
+              "price": "$7.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Galleta de Azúcar Glaseada",
+              "desc": "Una galleta de azúcar suave y mantecosa decorada a mano para la temporada, casi demasiado bonita para comer.",
+              "price": "$3.50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Trufas de Chocolate",
+              "desc": "Sedosa ganache enrollada y bañada a mano, una caja de estas es el regalito perfecto.",
+              "price": "$9.00",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coffee-drinks",
+          "name": "Café y Bebidas",
+          "blurb": "El acompañante perfecto para un hojaldre, café recién hecho, bebidas de espresso y cocoa para tomar aquí o para llevar.",
+          "items": [
+            {
+              "name": "Café de Filtro",
+              "desc": "Una taza recién hecha de nuestra mezcla de la casa, simple, suave y el compañero ideal de un croissant caliente.",
+              "price": "$3.00",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Espresso",
+              "desc": "Un doble shot rico y equilibrado preparado al momento, lo bastante intenso para acompañar cualquier cosa de la vitrina.",
+              "price": "$3.25",
+              "tags": []
+            },
+            {
+              "name": "Latte de Vainilla",
+              "desc": "Espresso y leche vaporizada con un toque de vainilla de verdad, terminado con una delicada capa de microespuma.",
+              "price": "$4.75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Cappuccino",
+              "desc": "Partes iguales de espresso, leche vaporizada y espuma ligera para una taza clásica y reconfortante.",
+              "price": "$4.50",
+              "tags": []
+            },
+            {
+              "name": "Chocolate Caliente",
+              "desc": "Leche vaporizada y chocolate derretido de verdad coronados con un generoso remolino de crema batida.",
+              "price": "$4.25",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Una Panadería Artesanal en el Corazón de Geneva",
+      "lead": "Mad Batter Bakery and Confections es una panadería artesanal independiente en el centro de Geneva, donde los hojaldres de la mañana, los pasteles personalizados espectaculares y una vitrina de dulces se reúnen bajo un mismo techo.",
+      "paragraphs": [
+        "Creemos que lo mejor se hace a mano. Cada mañana empieza antes del amanecer con mantequilla de verdad, buena harina y un poco de paciencia, laminando croissants, levando panes artesanales y decorando galletas una por una. Nada se apura y nada sale de una caja.",
+        "Ya sea que pases por un scone caliente camino al centro, recojas una caja de dulces para alguien especial o sueñes con el pastel principal de tu gran día, nos encantaría hacerlo para ti. Pásate por la vitrina, pega la nariz al cristal y encuentra tu nuevo favorito."
+      ],
+      "stats": [
+        {
+          "value": "Desde Cero",
+          "label": "Horneado a Mano a Diario"
+        },
+        {
+          "value": "Pasteles Personalizados",
+          "label": "Diseñados para Tu Día"
+        },
+        {
+          "value": "Centro de Geneva",
+          "label": "En South 3rd Street"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Dentro de la Tienda",
+      "subheading": "Un vistazo al horneado de la mañana, los pasteles personalizados y la vitrina de dulces que te esperan en el centro de Geneva.",
+      "captions": [
+        "Croissants de mantequilla hojaldrados recién salidos del horno",
+        "Un pastel de celebración personalizado decorado a mano",
+        "La vitrina llena de galletas y dulces",
+        "Bandejas de brownies de fudge enfriándose en la rejilla",
+        "Pan de masa madre artesanal con una corteza dorada y crujiente",
+        "Trufas de chocolate hechas a mano listas para empacar"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice Geneva",
+      "items": [
+        {
+          "quote": "Los croissants son la cosa real, hojaldrados, mantecosos y se acaban antes de que llegue a casa. Ya es nuestra tradición de los sábados.",
+          "name": "Megan T.",
+          "role": "Cliente frecuente"
+        },
+        {
+          "quote": "Hicieron el pastel de cumpleaños de mi hija y quedó precioso, y de alguna forma sabía aún mejor de lo que se veía. No pediremos en ningún otro lado.",
+          "name": "Carlos M.",
+          "role": "Cliente de pastel personalizado"
+        },
+        {
+          "quote": "Entré por un café y salí con una caja de fudge y tres galletas. Esa vitrina me atrapa cada vez.",
+          "name": "Hannah P.",
+          "role": "Cliente local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en el Centro de Geneva",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Martes - Viernes",
+          "time": "7:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "7:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "8:00 AM - 2:00 PM"
+        },
+        {
+          "day": "Lunes",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Pedidos Personalizados y Catering",
+      "directions": "Encuéntranos en 228 South 3rd Street en el centro de Geneva. Pásate a ver la vitrina, o haz un pedido personalizado en línea y tendremos tu pastel o dulces listos para recoger."
+    },
+    "cta": {
+      "heading": "¿Soñando con un Pastel? Hagámoslo",
+      "text": "De cumpleaños espectaculares a pisos de boda y bandejas de catering, cuéntanos qué celebras y hornearemos algo inolvidable, todo desde cero.",
+      "button": "Haz un Pedido"
+    },
+    "form": {
+      "heading": "Comienza Tu Pedido Personalizado",
+      "subheading": "¿Planeas una celebración o necesitas catering para un evento? Cuéntanos lo que tienes en mente y te responderemos enseguida con los detalles dulces.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Porciones Necesarias",
+      "date": "Fecha de Recogida Preferida",
+      "message": "Cuéntanos sobre tu pastel o pedido, sabores, ocasión y cualquier detalle.",
+      "submit": "Enviar Solicitud de Pedido",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud de pedido y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu pedido. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Una panadería artesanal independiente y confitería en el centro de Geneva, hojaldres, pasteles personalizados y una vitrina de dulces.",
+      "rights": "© Mad Batter Bakery and Confections. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "concept": "Vibrant fresh Asian street-kitchen palette for Bea's Wok N Roll: a warm chili-red primary for appetite and energy, a fresh jade-green accent for herbs and freshness, a golden secondary for warmth and richness, all grounded on warm ivory backgrounds with a deep espresso-ink for crisp, lively, modern reading.",
+  "vars": {
+    "--color-bg": "#FFF8EE",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#FBEFDD",
+    "--color-ink": "#1C1410",
+    "--color-ink-soft": "#6B5544",
+    "--color-primary": "#C62828",
+    "--color-primary-dark": "#9B1C1C",
+    "--color-secondary": "#E3A21A",
+    "--color-accent": "#168F56",
+    "--color-line": "#EADBC4"
+  },
+  "contrastNotes": "All ratios computed against --color-bg #FFF8EE (L=0.946) unless noted. ink #1C1410 on bg = 17.2:1 (>=7 PASS). ink-soft #6B5544 on bg = 6.6:1 (>=4.5 PASS). white on primary #C62828 = 5.6:1 (>=4.5 PASS). primary #C62828 on bg = 5.3:1 (>=3 PASS). Bonus: white on primary-dark #9B1C1C = 8.2:1; accent #168F56 on bg = 3.9:1 (good for large text/UI/icons). Gold secondary #E3A21A is decorative only (low contrast on ivory) and should not carry body text."
+}

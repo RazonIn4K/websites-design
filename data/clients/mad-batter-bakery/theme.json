@@ -1,0 +1,16 @@
+{
+  "concept": "Sweet Shop Confectionery - a charming, handmade bakery palette built on creamy vanilla backgrounds, warm cocoa-brown ink, a rosy berry-pink primary that feels like frosting and fresh raspberries, and a glaze of warm caramel-gold accents. Pretty, inviting, and unmistakably made by hand.",
+  "vars": {
+    "--color-bg": "#FFF8F1",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#FBEBDD",
+    "--color-ink": "#3A2117",
+    "--color-ink-soft": "#6E4A3A",
+    "--color-primary": "#B23A6F",
+    "--color-primary-dark": "#8E2A57",
+    "--color-secondary": "#C98A2E",
+    "--color-accent": "#D98A3D",
+    "--color-line": "#EAD7C6"
+  },
+  "contrastNotes": "All required pairings pass WCAG-AA. ink #3A2117 on bg #FFF8F1 = 14.15:1 (>=7); ink-soft #6E4A3A on bg = 7.38:1 (>=4.5); white on primary #B23A6F = 5.63:1 (>=4.5); primary on bg = 5.35:1 (>=3). Extras: primary-dark on bg = 7.62:1, white on primary-dark = 8.02:1, ink on surface-alt = 12.79:1. Caramel secondary #C98A2E and accent #D98A3D are decorative warm tones for borders/icons/large display; pair with cocoa ink (ink on secondary = 5.08:1) rather than white for any text use."
+}

@@ -1,0 +1,16 @@
+{
+  "concept": "Grounded, established accounting identity for White Oak Tax Solutions. A deep forest-green primary signals stability and growth, paired with a warm bronze/gold accent that reads as credible and traditional. Charcoal-green ink on warm off-white backgrounds keeps the palette professional and easy to read, evoking the steadiness of a long-trusted DeKalb firm.",
+  "vars": {
+    "--color-bg": "#F7F4ED",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#EFE9DC",
+    "--color-ink": "#1E2A23",
+    "--color-ink-soft": "#515C54",
+    "--color-primary": "#1F5A3D",
+    "--color-primary-dark": "#16432D",
+    "--color-secondary": "#33433A",
+    "--color-accent": "#9A6A2B",
+    "--color-line": "#DCD4C4"
+  },
+  "contrastNotes": "All WCAG-AA targets met. ink #1E2A23 on bg #F7F4ED = 13.55:1 (>=7). ink-soft #515C54 on bg = 6.35:1 (>=4.5). white on primary #1F5A3D = 8.11:1 (>=4.5). primary #1F5A3D on bg = 7.39:1 (>=3). Bonus: ink on surface #FFFFFF = 14.89:1; ink-soft on surface-alt #EFE9DC = 5.77:1; white on primary-dark #16432D = 11.2:1; white on secondary #33433A = 10.48:1; white on accent #9A6A2B = 4.7:1 (AA for normal text)."
+}

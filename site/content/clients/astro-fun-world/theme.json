@@ -1,0 +1,16 @@
+{
+  "concept": "Cosmic arcade energy for Astro Fun World: a vivid royal-blue primary rockets across bright off-white space, sparked by sunny electric-yellow pops and a magenta secondary for that primary-color carnival thrill. Friendly navy ink keeps everything readable and grounded while light blue tints map out the play zones.",
+  "vars": {
+    "--color-bg": "#FBFAFF",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#E9EEFF",
+    "--color-ink": "#131C44",
+    "--color-ink-soft": "#454F7C",
+    "--color-primary": "#2A41D8",
+    "--color-primary-dark": "#2032A6",
+    "--color-secondary": "#D6219B",
+    "--color-accent": "#FFD21E",
+    "--color-line": "#DBE2F4"
+  },
+  "contrastNotes": "All AA targets verified. ink #131C44 on bg 15.83:1 (>=7); ink-soft #454F7C on bg 7.59:1 (>=4.5); white on primary #2A41D8 7.38:1 (>=4.5); primary-dark #2032A6 on bg 9.78:1 (>=4.5); accent #FFD21E on #000 14.49:1 (>=3, bright pop on dark heroes); white on secondary #D6219B 4.62:1. surface-alt #E9EEFF is a LIGHT blue tint close to bg: ink on surface-alt 14.20:1 (>=7) and ink-soft on surface-alt 6.81:1 (>=4.5) so dark text holds on painted section backgrounds."
+}

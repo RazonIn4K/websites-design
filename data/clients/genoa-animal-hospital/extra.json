@@ -1,0 +1,106 @@
+{
+  "en": {
+    "process": {
+      "heading": "What to Expect at Your Visit",
+      "steps": [
+        {
+          "title": "Book Your Appointment",
+          "text": "Request a time online or reach out, and we'll confirm a visit that fits your schedule and your pet's needs."
+        },
+        {
+          "title": "Gentle Nose-to-Tail Exam",
+          "text": "We greet your pet by name and take time for a calm, thorough head-to-paw check at their pace."
+        },
+        {
+          "title": "Clear Diagnosis & Plan",
+          "text": "Using exams, lab work, or imaging as needed, we explain what's going on and walk you through every option."
+        },
+        {
+          "title": "Follow-Up & Ongoing Care",
+          "text": "We send your pet home with clear aftercare and check in to keep them comfortable through recovery and beyond."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "What are your hours, and do you see walk-ins?",
+          "a": "We're open Monday through Friday and Saturday mornings. We recommend booking ahead, but please call us if your pet needs to be seen urgently."
+        },
+        {
+          "q": "What should I bring to our first visit?",
+          "a": "Bring any prior medical or vaccine records, a list of current medications, and your pet's usual food brand if you have diet questions."
+        },
+        {
+          "q": "Do you offer same-day sick or urgent appointments?",
+          "a": "Yes, we set aside time for sick-pet exams and aim to see urgent concerns the same day. Call us as early as you can so we can fit you in."
+        },
+        {
+          "q": "How does pricing and payment work?",
+          "a": "We'll review estimated costs with you before treatment so there are no surprises. Please contact us for current pricing and accepted payment options."
+        },
+        {
+          "q": "Do you speak Spanish?",
+          "a": "Yes, we're happy to help you in English or Spanish so you fully understand your pet's care and feel comfortable asking any questions."
+        },
+        {
+          "q": "What pets do you care for?",
+          "a": "We care for dogs, cats, and small pets through every life stage, from first puppy and kitten visits to gentle senior support."
+        }
+      ]
+    }
+  },
+  "es": {
+    "process": {
+      "heading": "Qué Esperar en Tu Visita",
+      "steps": [
+        {
+          "title": "Agenda Tu Cita",
+          "text": "Solicita un horario en línea o contáctanos, y confirmaremos una visita que se adapte a tu agenda y a tu mascota."
+        },
+        {
+          "title": "Examen Gentil de la Nariz a la Cola",
+          "text": "Saludamos a tu mascota por su nombre y tomamos el tiempo para una revisión completa, tranquila y a su ritmo."
+        },
+        {
+          "title": "Diagnóstico y Plan Claros",
+          "text": "Con exámenes, análisis o imágenes según se necesite, te explicamos qué sucede y repasamos contigo cada opción."
+        },
+        {
+          "title": "Seguimiento y Cuidado Continuo",
+          "text": "Enviamos a tu mascota a casa con cuidados claros y damos seguimiento para mantenerla cómoda durante la recuperación y después."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿Cuál es su horario y atienden sin cita?",
+          "a": "Abrimos de lunes a viernes y los sábados por la mañana. Recomendamos agendar con anticipación, pero llámanos si tu mascota necesita atención urgente."
+        },
+        {
+          "q": "¿Qué debo traer a nuestra primera visita?",
+          "a": "Trae los registros médicos o de vacunas anteriores, una lista de medicamentos actuales y la marca de alimento habitual si tienes dudas sobre la dieta."
+        },
+        {
+          "q": "¿Ofrecen citas el mismo día para mascotas enfermas o urgencias?",
+          "a": "Sí, reservamos tiempo para exámenes de mascotas enfermas y buscamos atender urgencias el mismo día. Llámanos lo antes posible para acomodarte."
+        },
+        {
+          "q": "¿Cómo funcionan los precios y el pago?",
+          "a": "Repasaremos los costos estimados contigo antes del tratamiento para que no haya sorpresas. Contáctanos para conocer precios y formas de pago aceptadas."
+        },
+        {
+          "q": "¿Hablan español?",
+          "a": "Sí, con gusto te atendemos en inglés o español para que entiendas por completo el cuidado de tu mascota y te sientas cómodo preguntando."
+        },
+        {
+          "q": "¿Qué mascotas atienden?",
+          "a": "Cuidamos perros, gatos y mascotas pequeñas en cada etapa de la vida, desde las primeras visitas de cachorros y gatitos hasta el apoyo para mascotas mayores."
+        }
+      ]
+    }
+  }
+}

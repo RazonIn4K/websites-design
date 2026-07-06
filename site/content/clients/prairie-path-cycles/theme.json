@@ -1,0 +1,16 @@
+{
+  "concept": "Trail-green energy for Prairie Path Cycles: a vivid trail-green primary evokes the wooded Fox River bike paths around Batavia, paired with a high-vis signal-orange accent borrowed from cycling safety gear. Deep slate ink and clean cool-white surfaces keep the system sporty, confident, and active while staying readable in the shop and on the trail.",
+  "vars": {
+    "--color-bg": "#F5F9FA",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#E8F0F2",
+    "--color-ink": "#0E1F2A",
+    "--color-ink-soft": "#516170",
+    "--color-primary": "#15803D",
+    "--color-primary-dark": "#0F5E2C",
+    "--color-secondary": "#0369A1",
+    "--color-accent": "#4ADE80",
+    "--color-line": "#CDDCDF"
+  },
+  "contrastNotes": "WCAG-AA verified against --color-bg #F5F9FA. Ink #0E1F2A on bg = 15.87:1 (req >=7). Ink-soft #516170 on bg = 6.02:1 (req >=4.5). White on primary #15803D = 5.02:1 (req >=4.5). Primary on bg = 4.73:1 (req >=3). Bonus: white on primary-dark #0F5E2C = 7.9:1, white on secondary #0369A1 = 5.93:1, ink on surface #FFFFFF = 16.83:1, ink on surface-alt #E8F0F2 = 14.56:1. High-vis accent #EA580C is reserved for non-text UI (badges, CTAs, focus rings, iconography); use ink for any text placed on the accent."
+}

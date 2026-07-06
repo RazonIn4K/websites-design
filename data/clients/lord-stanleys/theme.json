@@ -1,0 +1,16 @@
+{
+  "concept": "A cozy timeless tavern palette pairing deep British racing green and warm brass against aged-cream and dark walnut for a woody, classic neighborhood pub feel.",
+  "vars": {
+    "--color-bg": "#F5EFE1",
+    "--color-surface": "#FBF7EC",
+    "--color-surface-alt": "#EAE0CC",
+    "--color-ink": "#2B211A",
+    "--color-ink-soft": "#756250",
+    "--color-primary": "#14532D",
+    "--color-primary-dark": "#0E3A1F",
+    "--color-secondary": "#3A5A40",
+    "--color-accent": "#A47E2C",
+    "--color-line": "#DCD0B8"
+  },
+  "contrastNotes": "ink #2B211A on bg #F5EFE1 = 13.72:1 (>=7); ink-soft #756250 on bg = 5.06:1 (>=4.5); white on primary #14532D = 9.11:1 (>=4.5); primary on bg = 7.95:1 (>=3). Extras: white on primary-dark #0E3A1F = 12.78:1; white on secondary #3A5A40 = 7.73:1; ink on surface #FBF7EC = 14.69:1. All WCAG-AA requirements satisfied."
+}

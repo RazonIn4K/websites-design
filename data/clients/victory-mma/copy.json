@@ -1,0 +1,600 @@
+{
+  "business": {
+    "name": "Victory Mixed Martial Arts",
+    "shortName": "Victory MMA",
+    "vertical": "Martial Arts & MMA Gym",
+    "phone": "(331) 330-7501",
+    "phoneHref": "+13313307501",
+    "address": "1224 West Ogden Avenue",
+    "city": "Naperville",
+    "state": "IL",
+    "zip": "60563",
+    "mapsQuery": "Victory Mixed Martial Arts, 1224 West Ogden Avenue, Naperville, IL 60563"
+  },
+  "en": {
+    "meta": {
+      "title": "Victory Mixed Martial Arts | BJJ, Muay Thai & Kids Classes in Naperville, IL",
+      "description": "World-class jiu-jitsu, striking, and MMA coaching for all levels in Naperville, IL. Beginners welcome. Start your free intro week today. Call (331) 330-7501."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Programs",
+      "about": "About Us",
+      "gallery": "The Gym",
+      "visit": "Visit",
+      "order": "Start Free Trial"
+    },
+    "hero": {
+      "eyebrow": "Naperville's Martial Arts & MMA Gym",
+      "title": "Step On The Mat,",
+      "titleAccent": "Find Your Victory",
+      "subtitle": "World-class jiu-jitsu and striking coaching for total beginners and seasoned competitors alike. From your very first class to the fight team, our coaches meet you where you are and build real skill, real fitness, and real confidence.",
+      "ctaPrimary": "View Programs",
+      "ctaSecondary": "Start Your Free Week",
+      "badge": "Free intro week. No contracts, no pressure, no experience needed."
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "World-Class Coaching",
+        "text": "Learn proven jiu-jitsu and striking from coaches who break it down step by step, no matter where you're starting."
+      },
+      {
+        "icon": "shield",
+        "title": "Beginners Always Welcome",
+        "text": "Never trained before? Perfect. Our intro classes are built for first-timers, with zero judgment and plenty of guidance."
+      },
+      {
+        "icon": "gauge",
+        "title": "Get In The Best Shape",
+        "text": "Burn calories, build strength, and move better while you learn skills you'll actually use. Way more fun than a treadmill."
+      },
+      {
+        "icon": "star",
+        "title": "Confidence For Kids",
+        "text": "Our youth programs build focus, discipline, and real confidence in a safe, encouraging environment kids love."
+      }
+    ],
+    "menu": {
+      "heading": "Our Programs",
+      "subheading": "Programs, memberships, and prices shown are illustrative demo content for this concept site and may not reflect the gym's actual offerings or rates.",
+      "categories": [
+        {
+          "id": "kids-programs",
+          "name": "Kids Programs",
+          "blurb": "Age-appropriate classes that build confidence, focus, and discipline while kids have a blast on the mat.",
+          "items": [
+            {
+              "name": "Little Ninjas (Ages 4-6)",
+              "desc": "Playful, structured classes that teach coordination, listening skills, and the basics of martial arts.",
+              "price": "From $99/mo",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Youth Brazilian Jiu-Jitsu",
+              "desc": "Grappling fundamentals that build problem-solving, body awareness, and quiet confidence for ages 7-13.",
+              "price": "From $119/mo",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Youth Striking & Kickboxing",
+              "desc": "Padwork, footwork, and conditioning that channel energy into focus, fitness, and respect.",
+              "price": "From $119/mo"
+            }
+          ]
+        },
+        {
+          "id": "adult-programs",
+          "name": "Adult Programs",
+          "blurb": "From your first day to the competition floor, train striking, grappling, and MMA with expert coaches.",
+          "items": [
+            {
+              "name": "Brazilian Jiu-Jitsu",
+              "desc": "The gentle art of leverage and technique. Gi and no-gi classes for every level, beginners included.",
+              "price": "From $149/mo",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Muay Thai & Kickboxing",
+              "desc": "The art of eight limbs. Sharpen your strikes, clinch, and conditioning on the bags and pads.",
+              "price": "From $149/mo",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Mixed Martial Arts (MMA)",
+              "desc": "Bring it all together, striking, takedowns, and ground game, in coached, controlled training.",
+              "price": "From $169/mo"
+            },
+            {
+              "name": "Fitness Kickboxing",
+              "desc": "A high-energy, full-body workout on the bags. All the sweat and skills, no sparring required.",
+              "price": "From $119/mo",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "memberships-trials",
+          "name": "Memberships & Trials",
+          "blurb": "Flexible ways to train, starting with a no-pressure free intro week so you can try before you commit.",
+          "items": [
+            {
+              "name": "Free Intro Week",
+              "desc": "Seven days of classes on the house. Meet the coaches, hit the mat, and see if it's for you.",
+              "price": "Free",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Monthly Unlimited",
+              "desc": "Train as much as you want across every program, month to month with no long-term contract.",
+              "price": "From $169/mo",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Family Plan",
+              "desc": "Get the whole household on the mat together at a price that keeps everyone training.",
+              "price": "From $299/mo",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "private-competition",
+          "name": "Private & Competition",
+          "blurb": "Accelerate your progress with one-on-one coaching, the fight team, and visiting expert seminars.",
+          "items": [
+            {
+              "name": "Private Lessons",
+              "desc": "Focused one-on-one coaching tailored to your goals, whether you're refining details or just starting out.",
+              "price": "From $75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Fight Team",
+              "desc": "Competition-focused training for dedicated athletes preparing for tournaments and the cage. By coach invite.",
+              "price": "Included"
+            },
+            {
+              "name": "Seminars & Workshops",
+              "desc": "Special sessions with visiting black belts and coaches to level up specific skills and techniques.",
+              "price": "From $50",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Welcoming Gym With A Serious Mat",
+      "lead": "Victory Mixed Martial Arts is an independent Naperville gym where total beginners and competitors train side by side under world-class coaching.",
+      "paragraphs": [
+        "On West Ogden Avenue in Naperville, Victory was built on a simple idea: world-class martial arts should be welcoming, not intimidating. Walk through our doors and you'll find friendly faces, clean mats, and coaches who care more about your progress than your ego. Whether you've never thrown a punch or you're chasing your next tournament, you belong here.",
+        "Our jiu-jitsu and striking programs give adults a smarter way to get fit and a real skill to carry for life, while our kids classes build the focus, discipline, and confidence that follow them off the mat. No-nonsense training, a genuine community, and the kind of coaching that keeps you coming back, that's the Victory difference."
+      ],
+      "stats": [
+        {
+          "value": "All Levels",
+          "label": "Beginners to Competitors"
+        },
+        {
+          "value": "Free",
+          "label": "Intro Week"
+        },
+        {
+          "value": "Naperville",
+          "label": "Locally Owned"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside The Gym",
+      "subheading": "A look at the mats, the training, and the community that makes Victory MMA feel like home.",
+      "captions": [
+        "Rolling on the jiu-jitsu mats",
+        "Pad work and Muay Thai striking",
+        "Little Ninjas building confidence",
+        "Coached MMA training session",
+        "Heavy bag and fitness kickboxing",
+        "The team after a hard class"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Naperville Is Saying",
+      "items": [
+        {
+          "quote": "I walked in having never trained a day in my life and the coaches made me feel welcome from class one. Six months in and I'm hooked.",
+          "name": "Daniel R.",
+          "role": "Adult BJJ Member"
+        },
+        {
+          "quote": "My son was shy and unsure of himself. The kids program gave him confidence and focus I see at home and at school. Worth every penny.",
+          "name": "Marisol G.",
+          "role": "Little Ninjas Parent"
+        },
+        {
+          "quote": "Best workout I've ever had and I'm actually learning real skills. The Muay Thai classes are tough but the coaching keeps me coming back.",
+          "name": "Ashley T.",
+          "role": "Muay Thai Member"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit The Gym",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "6:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "time": "6:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "6:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "6:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "6:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "8:00 AM – 2:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "9:00 AM – 12:00 PM"
+        }
+      ],
+      "phoneLabel": "Get Started",
+      "directions": "On West Ogden Avenue in Naperville with easy parking right out front. Stop in for a tour or call to claim your free intro week and try a class first."
+    },
+    "cta": {
+      "heading": "Ready To Step On The Mat?",
+      "text": "Your first week is free, with no contracts and no pressure. Come see why Naperville trains at Victory.",
+      "button": "Call (331) 330-7501"
+    },
+    "form": {
+      "heading": "Start Your Free Trial",
+      "subheading": "Tell us a little about yourself and we'll set you up with your free intro week and the right program to get started.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Program of Interest",
+      "date": "Preferred Date & Time",
+      "message": "Anything Else?",
+      "submit": "Claim My Free Week",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and a coach will reach out to book your free intro week.",
+      "error": "Something went wrong. Please try again or call us at (331) 330-7501.",
+      "consent": "By submitting, you agree to be contacted about your free trial and membership options."
+    },
+    "footer": {
+      "tagline": "World-class martial arts, a welcoming community, in the heart of Naperville.",
+      "rights": "© Victory Mixed Martial Arts. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Gym Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Victory Mixed Martial Arts | BJJ, Muay Thai y Clases para Niños en Naperville, IL",
+      "description": "Entrenamiento de jiu-jitsu, striking y MMA de clase mundial para todos los niveles en Naperville, IL. Principiantes bienvenidos. Comienza tu semana gratis. Llama al (331) 330-7501."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Programas",
+      "about": "Nosotros",
+      "gallery": "El Gimnasio",
+      "visit": "Visítanos",
+      "order": "Prueba Gratis"
+    },
+    "hero": {
+      "eyebrow": "El Gimnasio de Artes Marciales y MMA de Naperville",
+      "title": "Súbete al Tatami,",
+      "titleAccent": "Encuentra Tu Victoria",
+      "subtitle": "Entrenamiento de jiu-jitsu y striking de clase mundial, para principiantes totales y competidores experimentados por igual. Desde tu primera clase hasta el equipo de competencia, nuestros entrenadores te reciben donde estás y desarrollan habilidad real, condición física real y confianza real.",
+      "ctaPrimary": "Ver Programas",
+      "ctaSecondary": "Comienza Tu Semana Gratis",
+      "badge": "Semana de prueba gratis. Sin contratos, sin presión y sin experiencia previa."
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Entrenamiento de Clase Mundial",
+        "text": "Aprende jiu-jitsu y striking comprobados con entrenadores que lo explican paso a paso, sin importar tu nivel."
+      },
+      {
+        "icon": "shield",
+        "title": "Principiantes Siempre Bienvenidos",
+        "text": "¿Nunca has entrenado? Perfecto. Nuestras clases de iniciación están hechas para novatos, sin juicios y con mucha guía."
+      },
+      {
+        "icon": "gauge",
+        "title": "Ponte en la Mejor Forma",
+        "text": "Quema calorías, gana fuerza y muévete mejor mientras aprendes habilidades que de verdad usarás. Mucho más divertido que una caminadora."
+      },
+      {
+        "icon": "star",
+        "title": "Confianza para los Niños",
+        "text": "Nuestros programas infantiles desarrollan concentración, disciplina y confianza real en un ambiente seguro que les encanta."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Programas",
+      "subheading": "Los programas, las membresías y los precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar la oferta o las tarifas reales del gimnasio.",
+      "categories": [
+        {
+          "id": "kids-programs",
+          "name": "Programas para Niños",
+          "blurb": "Clases adecuadas a la edad que desarrollan confianza, concentración y disciplina mientras los niños se divierten en el tatami.",
+          "items": [
+            {
+              "name": "Pequeños Ninjas (4-6 años)",
+              "desc": "Clases divertidas y estructuradas que enseñan coordinación, capacidad de escuchar y los fundamentos de las artes marciales.",
+              "price": "Desde $99/mes",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Jiu-Jitsu Brasileño Juvenil",
+              "desc": "Fundamentos de grappling que desarrollan resolución de problemas, conciencia corporal y confianza serena para edades de 7 a 13.",
+              "price": "Desde $119/mes",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Striking y Kickboxing Juvenil",
+              "desc": "Trabajo de manoplas, juego de pies y acondicionamiento que canalizan la energía en concentración, condición física y respeto.",
+              "price": "Desde $119/mes"
+            }
+          ]
+        },
+        {
+          "id": "adult-programs",
+          "name": "Programas para Adultos",
+          "blurb": "Desde tu primer día hasta el área de competencia, entrena striking, grappling y MMA con entrenadores expertos.",
+          "items": [
+            {
+              "name": "Jiu-Jitsu Brasileño",
+              "desc": "El arte suave de la palanca y la técnica. Clases con gi y sin gi para todos los niveles, principiantes incluidos.",
+              "price": "Desde $149/mes",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Muay Thai y Kickboxing",
+              "desc": "El arte de las ocho extremidades. Afina tus golpes, tu clinch y tu acondicionamiento en los sacos y las manoplas.",
+              "price": "Desde $149/mes",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Artes Marciales Mixtas (MMA)",
+              "desc": "Únelo todo, golpeo, derribos y suelo, en un entrenamiento guiado y controlado.",
+              "price": "Desde $169/mes"
+            },
+            {
+              "name": "Fitness Kickboxing",
+              "desc": "Un entrenamiento de cuerpo completo y mucha energía en los sacos. Todo el sudor y las habilidades, sin sparring.",
+              "price": "Desde $119/mes",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "memberships-trials",
+          "name": "Membresías y Pruebas",
+          "blurb": "Formas flexibles de entrenar, empezando con una semana de prueba gratis sin presión para que pruebes antes de comprometerte.",
+          "items": [
+            {
+              "name": "Semana de Prueba Gratis",
+              "desc": "Siete días de clases por nuestra cuenta. Conoce a los entrenadores, súbete al tatami y descubre si es para ti.",
+              "price": "Gratis",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Mensualidad Ilimitada",
+              "desc": "Entrena todo lo que quieras en todos los programas, mes a mes y sin contrato a largo plazo.",
+              "price": "Desde $169/mes",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Plan Familiar",
+              "desc": "Lleva a toda la familia al tatami a un precio que mantiene a todos entrenando.",
+              "price": "Desde $299/mes",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "private-competition",
+          "name": "Privadas y Competencia",
+          "blurb": "Acelera tu progreso con entrenamiento uno a uno, el equipo de competencia y seminarios con expertos invitados.",
+          "items": [
+            {
+              "name": "Clases Privadas",
+              "desc": "Entrenamiento enfocado uno a uno adaptado a tus metas, ya sea que afines detalles o apenas comiences.",
+              "price": "Desde $75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Equipo de Competencia",
+              "desc": "Entrenamiento enfocado en la competencia para atletas dedicados que se preparan para torneos y la jaula. Por invitación del entrenador.",
+              "price": "Incluido"
+            },
+            {
+              "name": "Seminarios y Talleres",
+              "desc": "Sesiones especiales con cinturones negros y entrenadores invitados para subir de nivel en habilidades y técnicas específicas.",
+              "price": "Desde $50",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Un Gimnasio Acogedor con un Tatami Serio",
+      "lead": "Victory Mixed Martial Arts es un gimnasio independiente de Naperville donde principiantes totales y competidores entrenan lado a lado bajo entrenamiento de clase mundial.",
+      "paragraphs": [
+        "Sobre West Ogden Avenue en Naperville, Victory nació de una idea simple: las artes marciales de clase mundial deben ser acogedoras, no intimidantes. Cruza nuestras puertas y encontrarás caras amables, tatamis limpios y entrenadores que se preocupan más por tu progreso que por tu ego. Ya sea que nunca hayas lanzado un golpe o que persigas tu próximo torneo, aquí perteneces.",
+        "Nuestros programas de jiu-jitsu y striking le dan a los adultos una forma más inteligente de ponerse en forma y una habilidad real para toda la vida, mientras que nuestras clases para niños desarrollan la concentración, la disciplina y la confianza que los acompañan fuera del tatami. Entrenamiento sin rodeos, una comunidad genuina y el tipo de enseñanza que te hace volver, esa es la diferencia de Victory."
+      ],
+      "stats": [
+        {
+          "value": "Todos los Niveles",
+          "label": "De Principiantes a Competidores"
+        },
+        {
+          "value": "Gratis",
+          "label": "Semana de Prueba"
+        },
+        {
+          "value": "Naperville",
+          "label": "Negocio Local"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Por Dentro del Gimnasio",
+      "subheading": "Un vistazo a los tatamis, el entrenamiento y la comunidad que hacen que Victory MMA se sienta como en casa.",
+      "captions": [
+        "Rodando en los tatamis de jiu-jitsu",
+        "Trabajo de manoplas y golpeo de Muay Thai",
+        "Pequeños Ninjas ganando confianza",
+        "Sesión de entrenamiento de MMA guiada",
+        "Saco pesado y fitness kickboxing",
+        "El equipo después de una clase dura"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice Naperville",
+      "items": [
+        {
+          "quote": "Entré sin haber entrenado un solo día en mi vida y los entrenadores me hicieron sentir bienvenido desde la primera clase. Seis meses después y estoy enganchado.",
+          "name": "Daniel R.",
+          "role": "Miembro de BJJ Adultos"
+        },
+        {
+          "quote": "Mi hijo era tímido e inseguro de sí mismo. El programa infantil le dio confianza y concentración que veo en casa y en la escuela. Vale cada centavo.",
+          "name": "Marisol G.",
+          "role": "Mamá de Pequeños Ninjas"
+        },
+        {
+          "quote": "El mejor ejercicio que he hecho y de verdad estoy aprendiendo habilidades reales. Las clases de Muay Thai son duras, pero el entrenamiento me hace volver.",
+          "name": "Ashley T.",
+          "role": "Miembro de Muay Thai"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita el Gimnasio",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "6:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Martes",
+          "time": "6:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "6:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "6:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "6:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "8:00 AM – 2:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "9:00 AM – 12:00 PM"
+        }
+      ],
+      "phoneLabel": "Empieza",
+      "directions": "Sobre West Ogden Avenue en Naperville, con estacionamiento fácil justo enfrente. Pásate por un recorrido o llama para reclamar tu semana de prueba gratis y probar una clase primero."
+    },
+    "cta": {
+      "heading": "¿Listo para Subirte al Tatami?",
+      "text": "Tu primera semana es gratis, sin contratos y sin presión. Ven a ver por qué Naperville entrena en Victory.",
+      "button": "Llamar al (331) 330-7501"
+    },
+    "form": {
+      "heading": "Comienza Tu Prueba Gratis",
+      "subheading": "Cuéntanos un poco sobre ti y te conectamos con tu semana de prueba gratis y el programa correcto para empezar.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Programa de Interés",
+      "date": "Fecha y Hora Preferida",
+      "message": "¿Algo Más?",
+      "submit": "Reclamar Mi Semana Gratis",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y un entrenador se comunicará para agendar tu semana de prueba gratis.",
+      "error": "Algo salió mal. Inténtalo de nuevo o llámanos al (331) 330-7501.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu prueba gratis y tus opciones de membresía."
+    },
+    "footer": {
+      "tagline": "Artes marciales de clase mundial, una comunidad acogedora, en el corazón de Naperville.",
+      "rights": "© Victory Mixed Martial Arts. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario del Gimnasio",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

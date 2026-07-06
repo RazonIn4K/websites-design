@@ -1,0 +1,736 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Brand Colors ─────────────────────────────── */
+  --color-bg: #FAF8F3;
+  --color-surface: #F2EBE0;
+  --color-surface-alt: #E8DDD0;
+  --color-ink: #1A1210;
+  --color-ink-soft: #5C5248;
+  --color-primary: #C13A0F;
+  --color-primary-dark: #8B2200;
+  --color-secondary: #2E6B4A;
+  --color-accent: #F5A623;
+  --color-line: #DED5C7;
+  --color-white: #FFFFFF;
+
+  /* ── Typography ───────────────────────────────── */
+  --font-display: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --font-body: var(--font-inter), system-ui, -apple-system, sans-serif;
+
+  /* ── Border Radius ────────────────────────────── */
+  --radius-xs: 0.25rem;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 2rem;
+  --radius-2xl: 3rem;
+  --radius-full: 9999px;
+
+  /* ── Shadows ──────────────────────────────────── */
+  /* Layered elevation (single top light source; offset/blur double, opacity tapers)
+     tinted with each tenant's own ink/primary so shadows read on-brand. */
+  --shadow-card:
+    0 1px 2px color-mix(in srgb, var(--color-ink) 10%, transparent),
+    0 2px 4px color-mix(in srgb, var(--color-ink) 9%, transparent),
+    0 4px 8px color-mix(in srgb, var(--color-ink) 8%, transparent),
+    0 8px 16px color-mix(in srgb, var(--color-ink) 7%, transparent);
+  --shadow-lifted:
+    0 2px 4px color-mix(in srgb, var(--color-primary) 16%, transparent),
+    0 6px 12px color-mix(in srgb, var(--color-primary) 13%, transparent),
+    0 12px 24px color-mix(in srgb, var(--color-primary) 11%, transparent),
+    0 24px 48px color-mix(in srgb, var(--color-primary) 8%, transparent);
+  --shadow-glass: 0 8px 32px 0 rgba(26,18,16,0.08);
+  --shadow-focus: 0 0 0 3px color-mix(in srgb, var(--color-primary) 35%, transparent);
+
+  /* ── Layout Tokens ────────────────────────────── */
+  --section-y: clamp(4rem, 3rem + 5vw, 7rem);
+  --header-gap: clamp(2rem, 1.5rem + 2vw, 3.5rem);
+  --container-max: 1280px;
+  --gutter: 1.5rem;
+  --bento-gap: 1rem;
+
+  /* ── Fluid type scale (Utopia-style clamp steps) ── */
+  --step--1: clamp(0.8rem, 0.76rem + 0.18vw, 0.9rem);
+  --step-0: 1rem;
+  --step-1: clamp(1.12rem, 1.05rem + 0.3vw, 1.3rem);
+  --step-2: clamp(1.4rem, 1.25rem + 0.7vw, 1.8rem);
+  --step-3: clamp(1.85rem, 1.55rem + 1.4vw, 2.6rem);
+  --step-4: clamp(2.3rem, 1.85rem + 2.1vw, 3.4rem);
+  --step-6: clamp(3.2rem, 2.1rem + 5.6vw, 6rem);
+  --measure: 66ch;
+  --measure-lead: 46ch;
+  --color-divider: color-mix(in srgb, var(--color-line) 70%, transparent);
+}
+
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-optical-sizing: auto; /* engage Fraunces' opsz axis for display sizes */
+    font-size: 16px;
+    scroll-padding-top: 5rem;
+    /* Do NOT add overflow-x to html: in Chromium any non-visible overflow-x
+       on the root (even `clip`) stops position:sticky from pinning (verified
+       empirically — Story's lg:sticky figure). Horizontal spill is instead
+       clipped at its source (e.g. .glow-conic) and body's overflow-x:hidden
+       propagates a scrollbar-hide to the viewport. */
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.6;
+    min-height: 100dvh;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-optical-sizing: auto;
+    line-height: 1.05;
+    letter-spacing: -0.025em;
+    color: var(--color-ink);
+    text-wrap: balance;
+  }
+
+  p {
+    color: var(--color-ink-soft);
+    max-width: var(--measure);
+    text-wrap: pretty;
+  }
+
+  a {
+    color: var(--color-primary);
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 1px;
+    transition: color 0.2s ease;
+  }
+
+  a:hover {
+    color: var(--color-primary-dark);
+  }
+
+  img, video {
+    max-width: 100%;
+    display: block;
+  }
+
+  /* Long placeholders (esp. Spanish, 15-25% longer) fade out with an ellipsis
+     instead of clipping mid-word at the field edge. */
+  input::placeholder {
+    text-overflow: ellipsis;
+  }
+
+  ul, ol {
+    list-style: none;
+  }
+
+  button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-family: inherit;
+  }
+
+  ::selection {
+    background-color: var(--color-primary);
+    color: #FFFFFF;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 3px;
+    border-radius: var(--radius-sm);
+  }
+  /* On dark surfaces the brand-colored ring can fall below 3:1; use white. */
+  .glass-dark :focus-visible,
+  footer :focus-visible,
+  .gradient-brand :focus-visible {
+    outline-color: #FFFFFF;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  /* ── Glassmorphism ────────────────────────────── */
+  .glass {
+    background: color-mix(in srgb, var(--color-bg) 78%, transparent);
+    backdrop-filter: blur(20px) saturate(1.5);
+    -webkit-backdrop-filter: blur(20px) saturate(1.5);
+    border: 1px solid color-mix(in srgb, var(--color-line) 60%, transparent);
+    /* specular top rim + soft inner shade reads as curved glass, not a flat panel */
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.65),
+      inset 0 -1px 1px color-mix(in srgb, var(--color-ink) 8%, transparent),
+      0 8px 32px color-mix(in srgb, var(--color-ink) 10%, transparent);
+  }
+
+  .glass-dark {
+    background: color-mix(in srgb, var(--color-ink) 82%, transparent);
+    backdrop-filter: blur(20px) saturate(1.4);
+    -webkit-backdrop-filter: blur(20px) saturate(1.4);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    color: #FFFFFF;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.22),
+      inset 0 -1px 2px rgba(0, 0, 0, 0.30),
+      0 12px 40px -8px rgba(0, 0, 0, 0.45);
+  }
+
+  .glass-primary {
+    background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+    backdrop-filter: blur(16px) saturate(1.3);
+    -webkit-backdrop-filter: blur(16px) saturate(1.3);
+    border: 1px solid color-mix(in srgb, var(--color-primary) 22%, transparent);
+  }
+
+  /* ── Typography helpers ───────────────────────── */
+  .text-balance { text-wrap: balance; }
+  .text-pretty { text-wrap: pretty; }
+  .font-display { font-family: var(--font-display); }
+  .font-body { font-family: var(--font-body); }
+
+  /* ── Layout helpers ───────────────────────────── */
+  .container-max {
+    max-width: var(--container-max);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--gutter);
+    padding-right: var(--gutter);
+  }
+
+  /* ── Brand gradients ──────────────────────────── */
+  .gradient-brand {
+    /* Accent stop pushed past 100% so white text sits over the darker
+       primary range (keeps AA contrast across every client palette). */
+    background: linear-gradient(135deg in oklch, var(--color-primary-dark) 0%, var(--color-primary) 62%, var(--color-accent) 128%);
+  }
+  .gradient-warm {
+    background: linear-gradient(160deg in oklab, var(--color-bg) 0%, var(--color-surface) 100%);
+  }
+  /* oklab fade-to-transparent avoids the gray "dead zone" sRGB produces. */
+  .gradient-mesh {
+    background:
+      radial-gradient(50% 60% at 12% 18% in oklab, color-mix(in oklab, var(--color-accent) 22%, transparent) 0%, transparent 60%),
+      radial-gradient(55% 65% at 88% 12% in oklab, color-mix(in oklab, var(--color-primary) 20%, transparent) 0%, transparent 62%),
+      radial-gradient(60% 70% at 75% 92% in oklab, color-mix(in oklab, var(--color-secondary) 16%, transparent) 0%, transparent 60%),
+      var(--color-bg);
+  }
+
+  /* ── Card base ────────────────────────────────── */
+  .card {
+    background-color: var(--color-surface);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-card);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+
+  /* ── Noise texture overlay ────────────────────── */
+  .noise-overlay { position: relative; isolation: isolate; }
+  .noise-overlay::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+    pointer-events: none;
+    border-radius: inherit;
+    z-index: 1;
+  }
+
+  /* ── Pill badges ──────────────────────────────── */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.2em 0.65em;
+    border-radius: var(--radius-full);
+    font-size: 0.7rem;
+    font-weight: 600;
+    font-family: var(--font-body);
+    line-height: 1.4;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  /* Tinted-toward-ink text deterministically clears AA 4.5:1 on every palette
+     (small uppercase text) regardless of how light/dark the brand token is. */
+  .badge-veg {
+    background-color: color-mix(in srgb, var(--color-secondary) 14%, var(--color-surface));
+    color: color-mix(in srgb, var(--color-secondary) 45%, var(--color-ink));
+    border: 1px solid color-mix(in srgb, var(--color-secondary) 28%, transparent);
+  }
+  .badge-spicy {
+    background-color: color-mix(in srgb, var(--color-primary) 12%, var(--color-surface));
+    color: color-mix(in srgb, var(--color-primary) 45%, var(--color-ink));
+    border: 1px solid color-mix(in srgb, var(--color-primary) 25%, transparent);
+  }
+  .badge-accent {
+    background-color: color-mix(in srgb, var(--color-accent) 18%, var(--color-surface));
+    color: color-mix(in srgb, var(--color-accent) 32%, var(--color-ink));
+    border: 1px solid color-mix(in srgb, var(--color-accent) 32%, transparent);
+  }
+  .badge-primary { background-color: var(--color-primary); color: #FFFFFF; }
+
+  /* ── Scroll snap (gallery) ────────────────────── */
+  .snap-x-mandatory { scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
+  .snap-start { scroll-snap-align: start; }
+
+  .no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+
+  /* ── Hero entrance (CSS-driven, degrades to visible) ── */
+  /* fill-mode `both` holds the start frame during the delay and the end frame
+     after; under prefers-reduced-motion the duration collapses (see base layer)
+     so content lands fully visible without depending on JS. */
+  .animate-rise {
+    animation: riseIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+}
+
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(22px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* ── Scroll reveal (progressive enhancement) ───────────────
+   Visible by default. Only hidden once JS marks <html class="js">,
+   then revealed when IntersectionObserver adds .is-visible.
+   Under reduced motion (or no JS) content is always shown — so it
+   can never get stuck invisible. */
+.reveal {
+  transition:
+    opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+html.js .reveal:not(.is-visible) {
+  opacity: 0;
+  transform: translateY(26px);
+}
+
+/* ── Hover lift (CSS, no JS dependency) ──
+   transform only — the 4-layer blurred shadow snaps instead of animating
+   (per-frame repaint of a large soft-shadow region is the classic box-shadow
+   paint storm; the compositor-driven lift carries the motion). */
+.hover-lift {
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.hover-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lifted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.js .reveal:not(.is-visible) { opacity: 1; transform: none; }
+  .reveal { transition: none; }
+  .hover-lift:hover { transform: none; }
+  .animate-rise { animation: none; }
+}
+
+/* ══════════════════ Design system v2 (overhaul) ══════════════════ */
+
+/* ── Type tiers (fluid, font/palette-agnostic) ── */
+/* Display tiers force the DISPLAY optical master (opsz) and co-list wght so it
+   isn't reset to default — the classic font-variation-settings gotcha. opsz is
+   harmlessly ignored by Archivo (no such axis). Tracking is per-archetype. */
+/* overflow-wrap only engages when a single word can't fit the line (long
+   Spanish words — "Hamburguesas", "Transformación" — were silently clipped
+   at 390px inside overflow-hidden hero panels). */
+.text-display { font-family: var(--font-display); font-size: var(--step-6); line-height: 0.92; letter-spacing: var(--display-tracking, -0.035em); font-weight: 900; font-variation-settings: "opsz" 144, "wght" var(--fvs-wght, 900); font-variant-numeric: lining-nums proportional-nums; overflow-wrap: break-word; }
+/* Spanish-only hyphenation: emergency breaks get a proper hyphen
+   ("Recomendacio-/nes") instead of a bare mid-word cut. English headings
+   never hyphenate. */
+:lang(es) :is(.text-display, .text-h2, .text-h3, .wrap-break-word) { hyphens: auto; }
+.text-h2 { font-family: var(--font-display); font-size: var(--step-4); line-height: 1.04; letter-spacing: var(--display-tracking, -0.02em); font-weight: 700; font-variation-settings: "opsz" 72, "wght" var(--fvs-wght, 700); font-variant-numeric: lining-nums proportional-nums; }
+.text-h3 { font-family: var(--font-display); font-size: var(--step-2); line-height: 1.1; letter-spacing: -0.015em; font-weight: 600; font-variation-settings: "opsz" 36, "wght" 600; }
+/* Lighter display weight for the italic hero accent — declares its OWN axis so
+   it isn't pinned to the parent .text-display "wght" 900 (font-variation-settings
+   inherits as a resolved value, so a child must re-declare to override). */
+.display-accent { font-variation-settings: "opsz" 144, "wght" 500; }
+
+/* text-box-trim seats display/heading + eyebrow glyphs flush to cap-height and
+   baseline (kills invisible half-leading) for Figma-precise vertical rhythm.
+   Progressive enhancement (Chrome 133+/Safari 18.2+); kept off body + buttons. */
+@supports (text-box: trim-both cap alphabetic) {
+  .text-display, .text-h2, .text-h3, .eyebrow, .eyebrow-on-dark { text-box: trim-both cap alphabetic; }
+}
+.text-lead { font-size: var(--step-1); line-height: 1.5; color: color-mix(in srgb, var(--color-ink) 70%, var(--color-ink-soft)); max-width: var(--measure-lead); }
+
+.eyebrow { font-family: var(--font-body); font-size: var(--step--1); font-weight: 600; text-transform: uppercase; letter-spacing: 0.18em; color: var(--color-primary-dark); }
+.eyebrow-on-dark { font-family: var(--font-body); font-size: var(--step--1); font-weight: 600; text-transform: uppercase; letter-spacing: 0.18em; color: rgba(255,255,255,0.85); }
+.rule-accent { height: 1px; background: linear-gradient(90deg, var(--color-primary), transparent); }
+
+/* ── Vertical rhythm ── */
+.section { padding-block: var(--section-y); }
+
+/* ── Button system ── */
+.btn { display: inline-flex; align-items: center; gap: 0.5rem; border-radius: var(--radius-full); font-weight: 600; text-decoration: none; transition: transform 0.25s cubic-bezier(0.22,1,0.36,1), box-shadow 0.25s ease, background-color 0.2s ease, color 0.2s ease; }
+.btn:active { transform: scale(0.97); }
+.btn-primary { background: var(--color-primary); color: #fff; box-shadow: var(--shadow-card); padding: 0.875rem 1.75rem; }
+.btn-primary:hover { background: var(--color-primary-dark); transform: translateY(-2px); box-shadow: var(--shadow-lifted); }
+.btn-ghost { padding: 0.875rem 1.75rem; border: 1px solid color-mix(in srgb, #fff 40%, transparent); background: rgba(255,255,255,0.06); color: #fff; backdrop-filter: blur(8px); }
+.btn-ghost:hover { transform: translateY(-2px); background: rgba(255,255,255,0.16); }
+.btn-ink { padding: 0.875rem 1.75rem; border: 1px solid color-mix(in srgb, var(--color-ink) 18%, transparent); background: color-mix(in srgb, var(--color-bg) 50%, transparent); color: var(--color-ink); }
+.btn-ink:hover { transform: translateY(-2px); border-color: var(--color-primary); color: var(--color-primary); }
+
+/* ── Animated link underline ── */
+.link-underline { position: relative; }
+.link-underline::after { content: ""; position: absolute; left: 0; bottom: -0.15em; height: 2px; width: 100%; background: currentColor; transform: scaleX(0); transform-origin: right; transition: transform 0.3s cubic-bezier(0.22,1,0.36,1); }
+.link-underline:hover::after { transform: scaleX(1); transform-origin: left; }
+
+/* ── Hero accent gradient text + Ken Burns ── */
+/* padding-bottom + equal negative margin: text-box-trim ends the heading's box
+   at the last baseline, and background-clip:text only paints inside the box —
+   without the padding, final-line descenders (y/g/p) lose their gradient and
+   render clipped ("Family" → "Familv"). Net layout shift: zero. */
+.text-gradient-accent { background: linear-gradient(92deg in oklch, var(--color-accent), color-mix(in oklab, var(--color-accent) 45%, #fff)); -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(0 2px 10px rgba(0,0,0,0.45)); padding-bottom: 0.15em; margin-bottom: -0.15em; }
+@supports not ((-webkit-background-clip: text) or (background-clip: text)) { .text-gradient-accent { color: var(--color-accent); } }
+@media (forced-colors: active) { .text-gradient-accent { color: CanvasText; -webkit-text-fill-color: CanvasText; } }
+@keyframes kenburns { from { transform: scale(1.02); } to { transform: scale(1.1); } }
+.animate-kenburns { animation: kenburns 26s cubic-bezier(0.4,0,0.2,1) both; transform-origin: 50% 42%; }
+
+/* ── Scroll clip-reveal for photos (progressive enhancement) ──
+   CRITICAL: the curtain clip lives on the CHILDREN, never on the observed
+   element itself. Chromium's IntersectionObserver resolves the target's
+   visible rect through the clip tree INCLUDING the target's own clip-path,
+   so a fully self-clipped element reports zero intersection forever and the
+   reveal deadlocks (photos never appear for non-reduced-motion users).
+   Clipping the children gives the identical curtain visual while the
+   observed box stays visible to the observer. */
+.reveal-clip { transition: transform 0.28s cubic-bezier(0.22,1,0.36,1), opacity 0.6s cubic-bezier(0.22,1,0.36,1); }
+.reveal-clip > * { transition: clip-path 0.7s cubic-bezier(0.22,1,0.36,1); }
+.reveal-clip img { transition: transform 0.9s cubic-bezier(0.22,1,0.36,1), clip-path 0.7s cubic-bezier(0.22,1,0.36,1); }
+html.js .reveal-clip:not(.is-visible) > * { clip-path: inset(0 0 100% 0); }
+html.js .reveal-clip:not(.is-visible) img { transform: scale(1.12); }
+
+/* ── Marquee band ── */
+@keyframes marquee { to { transform: translateX(-50%); } }
+.animate-marquee { animation: marquee 34s linear infinite; }
+.animate-marquee:hover { animation-play-state: paused; }
+.marquee-mask { -webkit-mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent); mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent); }
+
+@media (prefers-reduced-motion: reduce) {
+  .btn, .btn:hover, .btn:active { transform: none; }
+  .link-underline::after { transition: none; }
+  .animate-kenburns { animation: none; transform: none; }
+  html.js .reveal-clip:not(.is-visible) > * { clip-path: none; }
+  html.js .reveal-clip:not(.is-visible) img { transform: none; }
+  .animate-marquee { animation: none; }
+}
+
+/* ══════════════════ Archetype scope levers ══════════════════
+   Cross-cutting looks applied via data-attrs on the per-client wrapper
+   (set in Providers from the layout config). Pure token/scope CSS — one
+   line flips a whole client's register with no component edits, and an
+   unset attribute leaves the default look untouched. */
+
+/* ── edge: hard — brutalist/industrial corners + offset shadows ── */
+[data-edge="hard"] {
+  --radius-xs: 2px; --radius-sm: 2px; --radius-md: 2px; --radius-lg: 3px;
+  --radius-xl: 4px; --radius-2xl: 6px; /* keep --radius-full round so circles/pills stay round */
+  --display-tracking: -0.04em; /* industrial Archivo display reads tight */
+}
+[data-edge="hard"] .card,
+[data-edge="hard"] .hover-lift,
+[data-edge="hard"] .shadow-card {
+  border: 1.5px solid var(--color-ink);
+  box-shadow: 5px 5px 0 0 var(--color-ink);
+}
+[data-edge="hard"] .hover-lift { transition: transform 0.15s ease, box-shadow 0.15s ease; }
+[data-edge="hard"] .hover-lift:hover { transform: translate(3px, 3px); box-shadow: 2px 2px 0 0 var(--color-ink); }
+[data-edge="hard"] .eyebrow { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; letter-spacing: 0.2em; }
+/* Industrial sites: the soft gradient italic reads "luxury lounge" on a tool
+   bench (design-critique consensus) — flatten the hero accent to solid brand
+   accent for a harder, more confident hit. */
+[data-edge="hard"] .text-gradient-accent {
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  color: var(--color-accent);
+  -webkit-text-fill-color: var(--color-accent);
+}
+
+/* ── surface: ink — dark sections (scope-only palette swap) ── */
+[data-surface="ink"] {
+  --color-bg: #14110F;
+  --color-surface: #1E1A17;
+  --color-surface-alt: #272220;
+  --color-ink: #F4EFE9;
+  --color-ink-soft: #B8AEA4;
+  --color-line: #3A332E;
+}
+[data-surface="ink"] :focus-visible { outline-color: #FFFFFF; }
+
+/* ── surface: mono — desaturated editorial imagery + ink secondary ──
+   (the img rule is declared after the tone block below so it outranks
+   [data-tone] img, which has the same specificity and would otherwise win.) */
+[data-surface="mono"] { --color-secondary: var(--color-ink); }
+
+/* ── tone: calm — airy, restrained (authority/medical) ── */
+[data-tone="calm"] {
+  --section-y: clamp(4.5rem, 3.5rem + 5vw, 8rem);
+  --header-gap: clamp(2.5rem, 2rem + 2vw, 4rem);
+}
+/* ── tone: editorial — literary, generous (fine dining / wellness) ── */
+[data-tone="editorial"] {
+  --section-y: clamp(5rem, 3.5rem + 6vw, 9rem);
+  --header-gap: clamp(2.5rem, 2rem + 2.5vw, 4.5rem);
+  --display-tracking: -0.018em; /* serif display breathes a touch */
+}
+[data-tone="editorial"] img { filter: saturate(0.92); }
+/* ── tone: energetic — tight, punchy (craft/gym/trades) ── */
+[data-tone="energetic"] {
+  --section-y: clamp(3.5rem, 2.5rem + 4vw, 6rem);
+}
+[data-tone="energetic"] img { filter: saturate(1.1) contrast(1.05); }
+[data-tone="energetic"] .animate-marquee { animation-duration: 22s; }
+
+/* mono image desaturation — placed after tone so the combined selector
+   (specificity 0,2,1) beats any [data-tone] img rule (0,1,1). */
+[data-surface="mono"] img,
+[data-surface="mono"][data-tone] img { filter: saturate(0.7) contrast(1.02); }
+
+@media (prefers-reduced-motion: reduce) {
+  /* keep the brutalist offset shadow but don't translate on hover */
+  [data-edge="hard"] .hover-lift:hover { transform: none; box-shadow: 5px 5px 0 0 var(--color-ink); }
+}
+
+/* ══════════════════ 2025 best-practice hardening ══════════════════
+   Cross-tenant, progressive-enhancement polish from a web-research pass:
+   current WCAG 2.2 + touch/forced-colors handling. Pure CSS, no component
+   or copy changes; each block is inert unless its condition matches. */
+
+/* WCAG 2.4.11 Focus Not Obscured is already covered by the root
+   `scroll-padding-top: 5rem`, which offsets hash, programmatic, and keyboard
+   scrolls under the 64px sticky header. (A separate scroll-margin-top would
+   *add* to that padding and over-offset, so it is intentionally omitted.) */
+
+/* Hover feedback only for real pointers — on touch devices :hover "sticks"
+   after a tap, so revert every hover effect (transform, lift shadow, and the
+   bg/border/color shifts) to its resting value; the .btn:active press, being
+   later in source order, still fires for tactile feedback. */
+@media (hover: none), (pointer: coarse) {
+  .hover-lift:hover,
+  .btn-primary:hover,
+  .btn-ghost:hover,
+  .btn-ink:hover { transform: none; }
+  .btn-primary:hover { background: var(--color-primary); box-shadow: var(--shadow-card); }
+  .btn-ghost:hover { background: rgba(255, 255, 255, 0.06); }
+  .btn-ink:hover { border-color: color-mix(in srgb, var(--color-ink) 18%, transparent); color: var(--color-ink); }
+  [data-edge="hard"] .hover-lift:hover { transform: none; box-shadow: 5px 5px 0 0 var(--color-ink); }
+  .link-underline:hover::after { transform: scaleX(0); }
+}
+.btn:active { transform: scale(0.97); }
+
+/* Windows High Contrast / forced-colors — color-mix fills + shadows flatten
+   in this mode, so draw real focus outlines and interactive/card boundaries. */
+@media (forced-colors: active) {
+  :where(a, button, input, select, textarea, summary, [role="tab"]):focus-visible {
+    outline: 2px solid; outline-offset: 2px;
+  }
+  .card, .bento, input, select, textarea { border: 1px solid; }
+  /* bento/CTA gradient fills flatten to one block in forced-colors — border the
+     individual cells and the feature so structure survives. */
+  .bento > * { border: 1px solid; }
+  .bento > :first-child { border-width: 2px; }
+}
+
+/* ══════════════════ Ambient premium accents (research wave) ══════════════════ */
+
+/* Conic atmospheric glow — a slowly-rotating brand-colored halo that leaks
+   around the CTA band (Linear/Stripe ambient light). Blurred + radially masked
+   so it reads as soft light, not a shape. Reduced-motion freezes the rotation. */
+/* overflow-x: clip contains the -20% inset halo horizontally (it was expanding
+   the mobile layout viewport by 20vw on every page); vertical spill still
+   bleeds into neighboring sections as intended. */
+.glow-conic { position: relative; isolation: isolate; overflow-x: clip; }
+.glow-conic::before {
+  content: "";
+  position: absolute; inset: -20%; z-index: -1; pointer-events: none;
+  background: conic-gradient(from 210deg at 50% 50% in oklch,
+    color-mix(in srgb, var(--color-accent) 55%, transparent),
+    color-mix(in srgb, var(--color-primary) 55%, transparent),
+    color-mix(in srgb, var(--color-secondary) 45%, transparent),
+    color-mix(in srgb, var(--color-accent) 55%, transparent));
+  filter: blur(40px);
+  opacity: 0.42;
+  -webkit-mask-image: radial-gradient(60% 60% at 50% 50%, #000, transparent 75%);
+          mask-image: radial-gradient(60% 60% at 50% 50%, #000, transparent 75%);
+  animation: glow-spin 40s linear infinite;
+}
+@keyframes glow-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .glow-conic::before { animation: none; } }
+
+/* Breathing ambient mesh — a slowly drifting, compositor-only brand-tinted
+   light wash for light-surface heroes that otherwise sit on a flat fill
+   (Linear-style cinematic light). Subtle radials behind content; the text
+   layer sits above (z-index auto > -1). Reduced-motion freezes it. */
+.gradient-mesh-anim { position: relative; isolation: isolate; overflow: hidden; }
+.gradient-mesh-anim::before {
+  content: ""; position: absolute; inset: -25%; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(40% 50% at 18% 22% in oklab, color-mix(in srgb, var(--color-accent) 22%, transparent), transparent 60%),
+    radial-gradient(45% 55% at 82% 14% in oklab, color-mix(in srgb, var(--color-primary) 18%, transparent), transparent 62%),
+    radial-gradient(50% 60% at 70% 88% in oklab, color-mix(in srgb, var(--color-secondary) 15%, transparent), transparent 60%);
+}
+@keyframes mesh-drift {
+  from { transform: translate3d(-2%, -1%, 0) scale(1.05) rotate(0deg); }
+  to   { transform: translate3d(2%, 2%, 0) scale(1.15) rotate(6deg); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .gradient-mesh-anim::before { animation: mesh-drift 26s ease-in-out infinite alternate; }
+}
+
+/* Apple-style asymmetric bento — one dominant feature cell + mixed sizes.
+   Dense auto-flow + the n+6 rule tile cleanly for any item count (3-6 across
+   the fleet); collapses to a single column below lg. */
+.bento { display: grid; gap: var(--bento-gap); grid-template-columns: 1fr; }
+@media (min-width: 1024px) {
+  .bento { grid-template-columns: repeat(6, 1fr); grid-auto-rows: minmax(11rem, auto); grid-auto-flow: dense; }
+  .bento > :first-child { grid-column: span 4; grid-row: span 2; }
+  .bento > :nth-child(2) { grid-column: span 2; }
+  .bento > :nth-child(3) { grid-column: span 2; }
+  .bento > :nth-child(4) { grid-column: span 3; }
+  .bento > :nth-child(5) { grid-column: span 3; }
+  .bento > :nth-child(n+6) { grid-column: span 2; }
+  /* a trailing 4th or 6th cell would sit alone on its row — fill the width
+     instead of leaving a gap (3- and 5-item counts already tile flush). */
+  .bento > :nth-child(4):last-child,
+  .bento > :nth-child(6):last-child { grid-column: 1 / -1; }
+}
+
+/* Solid overlay badge for small labels over photos (gallery index, shelf price)
+   — white text on an opaque dark pill keeps contrast on any image WITHOUT a
+   backdrop-filter, removing up to ~9 live blur layers per page (6 in the
+   gallery alone). Real backdrop blur is reserved for large glass surfaces. */
+.badge-overlay { background: rgba(18, 14, 12, 0.62); color: #fff; }
+
+/* ══════════════════ Layered depth wave (scroll-driven) ══════════════════ */
+
+/* Stacking deck — process/ritual cards pile up as you scroll (position:sticky
+   with per-card top offsets set inline, so stacked edges peek out like a hand
+   of cards). Pure layout, no animation: works everywhere sticky works and is
+   inherently reduced-motion safe. Cards must be opaque — they overlap. */
+.deck { display: grid; row-gap: 4.5rem; }
+.deck > * { position: sticky; }
+
+/* Ghost display type — oversized outlined word layered behind content
+   (editorial/industrial depth). Paint-only, aria-hidden in markup. */
+.ghost-word {
+  pointer-events: none;
+  user-select: none;
+  font-family: var(--font-display);
+  font-weight: 900;
+  line-height: 1;
+  white-space: nowrap;
+  letter-spacing: -0.02em;
+  color: transparent;
+  -webkit-text-stroke: 1.5px color-mix(in srgb, var(--color-ink) 28%, transparent);
+}
+/* Soft edge fade for ghost words inside clipped containers (collage hero):
+   a hard mid-glyph cut at the container edge reads as a render bug; fading
+   the ends reads as intentional depth. */
+.ghost-fade {
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 18%, #000 82%, transparent);
+          mask-image: linear-gradient(90deg, transparent, #000 18%, #000 82%, transparent);
+}
+/* Scroll-linked horizontal drift (Chrome 115+/Safari 26+; static elsewhere).
+   The global reduced-motion duration collapse does NOT stop timeline-driven
+   animations (duration is ignored on scroll timelines), so disable explicitly. */
+@supports (animation-timeline: view()) {
+  .ghost-scroll {
+    animation: ghost-drift linear both;
+    animation-timeline: view();
+    animation-range: cover 0% cover 100%;
+  }
+}
+@keyframes ghost-drift {
+  from { transform: translateX(4%); }
+  to { transform: translateX(-12%); }
+}
+@media (prefers-reduced-motion: reduce) { .ghost-scroll { animation: none; } }
+
+/* Polaroid frame for the collage hero's layered photo stack. */
+.polaroid {
+  background: #fff;
+  padding: 0.6rem 0.6rem 0.8rem;
+  border-radius: 0.9rem;
+  box-shadow: var(--shadow-lifted);
+}
+[data-edge="hard"] .polaroid { border-radius: 3px; }
+
+/* ── Animated accordion (FAQ) ──
+   ::details-content is Baseline; the height auto interpolation needs
+   interpolate-size (Chromium) — Safari/Firefox snap open, which is the
+   pre-existing behavior. Browsers without ::details-content drop the whole
+   rule, so nothing regresses. */
+@supports (interpolate-size: allow-keywords) {
+  html { interpolate-size: allow-keywords; }
+}
+details::details-content {
+  height: 0;
+  overflow: clip;
+  transition:
+    height 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    content-visibility 0.35s allow-discrete;
+}
+details[open]::details-content { height: auto; }
+@media (prefers-reduced-motion: reduce) {
+  details::details-content { transition: none; }
+}
+
+/* ── Language-switch view transition ──
+   A faster-than-default full-page crossfade when the EN/ES toggle re-renders
+   the tree (startViewTransition is called in LanguageProvider where
+   supported; this only tunes the timing). */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ── Cross-document view transitions (portfolio → site) ──
+   Chromium + Safari 18.2+; other engines just navigate normally. The /sites
+   explorer uses real <a> navigations + speculation-rules prerender, so the
+   clicked card's photo (named vt-hero at click time — exactly one per
+   document) morphs into the destination's hero image. */
+@view-transition {
+  navigation: auto;
+}
+@media (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: none;
+  }
+}
+::view-transition-group(vt-hero) {
+  animation-duration: 0.45s;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+::view-transition-old(vt-hero),
+::view-transition-new(vt-hero) {
+  /* cover-fit both snapshots so the aspect change (card 16:9 → hero) doesn't distort */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: clip;
+}

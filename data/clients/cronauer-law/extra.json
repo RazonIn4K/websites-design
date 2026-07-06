@@ -1,0 +1,106 @@
+{
+  "en": {
+    "process": {
+      "heading": "How We Work With You",
+      "steps": [
+        {
+          "title": "Free Consultation",
+          "text": "Call or request a meeting and tell us what you're facing. The first consultation is free and completely confidential."
+        },
+        {
+          "title": "Case Review",
+          "text": "We listen closely, review your documents and the facts, and explain honestly how the law applies to your situation."
+        },
+        {
+          "title": "Your Strategy",
+          "text": "Together we map out your options and a clear plan, so you always know the next step and what to expect."
+        },
+        {
+          "title": "Moving Forward",
+          "text": "We handle the legal pressure and advocate for you, whether your matter settles, resolves in court, or simply gets done right."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Is the first consultation really free?",
+          "a": "Yes. Your initial consultation is free and confidential, with no pressure and no obligation. We'll listen to your situation and explain your options clearly."
+        },
+        {
+          "q": "What should I bring to my consultation?",
+          "a": "Bring any documents related to your matter, such as accident reports, court papers, contracts, or letters. If you're unsure, just bring what you have and we'll guide you."
+        },
+        {
+          "q": "How much will my case cost?",
+          "a": "It depends on the matter. Many personal injury cases are handled on a contingency basis, and we'll explain any fees clearly during your free consultation before you commit."
+        },
+        {
+          "q": "Do you speak Spanish?",
+          "a": "Yes, we serve our DeKalb County neighbors in both English and Spanish, so you can explain your situation comfortably in the language you prefer."
+        },
+        {
+          "q": "What are your hours and do I need an appointment?",
+          "a": "We're open Monday through Friday, 8:30 AM to 5:00 PM, with Saturday by appointment. Please call ahead so we can set aside time to talk things through."
+        },
+        {
+          "q": "What kinds of cases do you handle?",
+          "a": "We focus on personal injury, family law, estate planning, and criminal defense for DeKalb County families. If we're not the right fit, we'll point you in the right direction."
+        }
+      ]
+    }
+  },
+  "es": {
+    "process": {
+      "heading": "Cómo Trabajamos con Usted",
+      "steps": [
+        {
+          "title": "Consulta Gratis",
+          "text": "Llámenos o solicite una cita y cuéntenos lo que enfrenta. La primera consulta es gratis y totalmente confidencial."
+        },
+        {
+          "title": "Revisión del Caso",
+          "text": "Escuchamos con atención, revisamos sus documentos y los hechos, y le explicamos con honestidad cómo aplica la ley a su situación."
+        },
+        {
+          "title": "Su Estrategia",
+          "text": "Juntos trazamos sus opciones y un plan claro, para que siempre sepa el siguiente paso y qué esperar."
+        },
+        {
+          "title": "Seguir Adelante",
+          "text": "Asumimos la presión legal y luchamos por usted, ya sea que su caso se resuelva con un acuerdo, en el tribunal o como corresponda."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿La primera consulta de verdad es gratis?",
+          "a": "Sí. Su consulta inicial es gratis y confidencial, sin presión y sin compromiso. Escuchamos su situación y le explicamos sus opciones con claridad."
+        },
+        {
+          "q": "¿Qué debo llevar a mi consulta?",
+          "a": "Lleve cualquier documento relacionado con su asunto, como reportes de accidente, papeles del tribunal, contratos o cartas. Si no está seguro, traiga lo que tenga y le orientamos."
+        },
+        {
+          "q": "¿Cuánto costará mi caso?",
+          "a": "Depende del asunto. Muchos casos de lesiones personales se manejan por contingencia, y le explicaremos cualquier tarifa con claridad durante su consulta gratis antes de comprometerse."
+        },
+        {
+          "q": "¿Hablan español?",
+          "a": "Sí, atendemos a nuestros vecinos del Condado de DeKalb en inglés y español, para que explique su situación con comodidad en el idioma que prefiera."
+        },
+        {
+          "q": "¿Cuál es su horario y necesito cita?",
+          "a": "Abrimos de lunes a viernes, de 8:30 AM a 5:00 PM, y los sábados con cita previa. Llame con anticipación para reservar tiempo y conversar con calma."
+        },
+        {
+          "q": "¿Qué tipo de casos manejan?",
+          "a": "Nos enfocamos en lesiones personales, derecho familiar, planificación patrimonial y defensa penal para las familias del Condado de DeKalb. Si no somos la opción indicada, le orientamos."
+        }
+      ]
+    }
+  }
+}

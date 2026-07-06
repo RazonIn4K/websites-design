@@ -1,0 +1,710 @@
+{
+  "business": {
+    "name": "Wired Nutrition",
+    "shortName": "Wired",
+    "vertical": "Nutrition & Smoothie Shop",
+    "phone": "",
+    "phoneHref": "",
+    "address": "830 West Lincoln Highway",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Wired Nutrition, 830 West Lincoln Highway, DeKalb, IL 60115"
+  },
+  "en": {
+    "meta": {
+      "title": "Wired Nutrition | Protein Shakes, Loaded Teas & Smoothies in DeKalb, IL",
+      "description": "Energizing protein shakes, loaded teas, and smoothies in DeKalb, IL. Healthy fuel for NIU students, athletes, and busy people. Order online and build your shake today."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About Us",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Order Now"
+    },
+    "hero": {
+      "eyebrow": "DeKalb's Nutrition & Smoothie Shop",
+      "title": "Fuel Up, Power Through,",
+      "titleAccent": "Feel the Energy",
+      "subtitle": "Energizing protein shakes, loaded teas, and smoothies made fresh to fuel NIU students, athletes, and anyone on the go. Tasty, healthy, and a friendly vibe right on Lincoln Highway.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Order Now",
+      "badge": "Fresh, made-to-order, and built around your goals."
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Protein Shakes That Hit",
+        "text": "Meal-replacement and post-workout shakes packed with protein and dessert-worthy flavor, blended fresh every time."
+      },
+      {
+        "icon": "gauge",
+        "title": "Loaded Teas for Energy",
+        "text": "Refreshing, energizing teas to power you through class, a workout, or a long shift without the crash."
+      },
+      {
+        "icon": "leaf",
+        "title": "Real, Feel-Good Fuel",
+        "text": "Fruit, green, and protein smoothies made with ingredients that taste great and actually keep you going."
+      },
+      {
+        "icon": "heart",
+        "title": "A Friendly Local Vibe",
+        "text": "An independent shop that knows your name and your order, here to keep DeKalb fueled and feeling good."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Menu items and prices shown are illustrative demo content for this concept site and may not reflect the shop's actual offerings.",
+      "categories": [
+        {
+          "id": "protein-shakes",
+          "name": "Protein Shakes",
+          "blurb": "Thick, creamy, and loaded with protein, from meal-replacement to dessert-inspired flavors.",
+          "items": [
+            {
+              "name": "Cookies & Cream Shake",
+              "desc": "A dessert-flavored meal replacement that tastes like a milkshake and keeps you full for hours.",
+              "price": "$8",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Peanut Butter Power",
+              "desc": "Rich peanut butter blended with protein for a satisfying, energy-packed meal on the go.",
+              "price": "$8",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Post-Workout Recovery",
+              "desc": "High-protein, lower-sugar blend built to help your muscles bounce back after training.",
+              "price": "$8",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Strawberry Shortcake",
+              "desc": "Sweet strawberry and creamy vanilla protein that drinks like a treat without the guilt.",
+              "price": "$8"
+            },
+            {
+              "name": "Mocha Espresso Shake",
+              "desc": "Chocolate, coffee, and protein in one cup for a morning pick-me-up that fills you up.",
+              "price": "$8",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Birthday Cake Shake",
+              "desc": "A fun, sprinkle-flavored protein shake that turns hitting your goals into a celebration.",
+              "price": "$8"
+            }
+          ]
+        },
+        {
+          "id": "loaded-teas-energy",
+          "name": "Loaded Teas & Energy",
+          "blurb": "Bright, energizing teas and refreshers to power you through the day, no crash included.",
+          "items": [
+            {
+              "name": "Blue Raspberry Loaded Tea",
+              "desc": "A vibrant, energizing tea bursting with blue raspberry flavor to kick-start your day.",
+              "price": "$7",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Mango Tango Refresher",
+              "desc": "Juicy mango and a clean energy boost in a light, refreshing sipper for hot days.",
+              "price": "$7",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Watermelon Wave",
+              "desc": "Crisp watermelon flavor with a smooth lift to keep you going from class to gym.",
+              "price": "$7"
+            },
+            {
+              "name": "Tropical Sunrise Tea",
+              "desc": "A blend of tropical fruits and energizing tea for an all-day, feel-good buzz.",
+              "price": "$7"
+            },
+            {
+              "name": "Strawberry Lemonade Refresher",
+              "desc": "Sweet strawberry meets tart lemonade in a refreshing, lightly energizing favorite.",
+              "price": "$7",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "smoothies",
+          "name": "Smoothies",
+          "blurb": "Fresh fruit, green, and protein smoothies blended to order with real ingredients.",
+          "items": [
+            {
+              "name": "Berry Blast Smoothie",
+              "desc": "Strawberry, blueberry, and banana blended thick and fruity for an easy, healthy boost.",
+              "price": "$7",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Green Machine",
+              "desc": "Spinach, pineapple, and banana that taste sweet while sneaking in your greens.",
+              "price": "$7",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Tropical Protein Smoothie",
+              "desc": "Mango, pineapple, and a scoop of protein for a refreshing, muscle-friendly blend.",
+              "price": "$8",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Peanut Butter Banana",
+              "desc": "Creamy peanut butter and banana smoothie that satisfies cravings and keeps you full.",
+              "price": "$7"
+            },
+            {
+              "name": "Acai Energy Bowl",
+              "desc": "A thick acai smoothie topped with fresh fruit and granola, served bowl-style.",
+              "price": "$9",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "supplements",
+          "name": "Supplements",
+          "blurb": "Protein, pre-workout, vitamins, and custom plans to help you hit your goals.",
+          "items": [
+            {
+              "name": "Protein Powder Tub",
+              "desc": "Take-home whey or plant protein in crowd-favorite flavors to keep your goals on track.",
+              "price": "$45",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pre-Workout Scoop",
+              "desc": "A single serving of clean energy and focus to power your toughest training sessions.",
+              "price": "$4",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Daily Vitamin Pack",
+              "desc": "A convenient bundle of everyday vitamins to round out a busy, active lifestyle.",
+              "price": "$25"
+            },
+            {
+              "name": "Custom Nutrition Plan",
+              "desc": "A personalized plan built around your goals, schedule, and the flavors you love.",
+              "price": "$30",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Recovery & Hydration Mix",
+              "desc": "Electrolytes and recovery support to help you bounce back and stay hydrated.",
+              "price": "$3",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Healthy Fuel for the Way You Move",
+      "lead": "Wired Nutrition is an independent nutrition and smoothie shop serving up energizing shakes, loaded teas, and supplements right here in DeKalb.",
+      "paragraphs": [
+        "On West Lincoln Highway in the heart of DeKalb, Wired Nutrition is where NIU students, athletes, and busy people refuel. Every protein shake, loaded tea, and smoothie is made to order with flavors so good you'll forget they're good for you. We're here to help you crush class, training, and everything in between.",
+        "Whether you need a quick meal replacement between classes, a clean energy boost before the gym, or a custom plan to hit your goals, our friendly team has you covered. Tasty, healthy, and made fresh, that's the Wired way."
+      ],
+      "stats": [
+        {
+          "value": "Made Fresh",
+          "label": "Blended to Order"
+        },
+        {
+          "value": "All Goals",
+          "label": "Students to Athletes"
+        },
+        {
+          "value": "DeKalb",
+          "label": "Locally Owned"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Taste of Wired",
+      "subheading": "A look at the shakes, teas, and the friendly energy that keeps DeKalb fueled.",
+      "captions": [
+        "A loaded tea glowing in the afternoon sun",
+        "Creamy protein shakes ready to go",
+        "Fresh fruit waiting for the blender",
+        "An acai bowl topped with fruit and granola",
+        "Shelves stocked with protein and supplements",
+        "The crew keeping DeKalb energized"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Is Saying",
+      "items": [
+        {
+          "quote": "The loaded teas get me through afternoon classes without the coffee crash. Blue raspberry is my go-to every single day.",
+          "name": "Hannah M.",
+          "role": "NIU Student"
+        },
+        {
+          "quote": "Post-workout shakes here taste like dessert but actually help me recover. The team always remembers my order.",
+          "name": "Devon T.",
+          "role": "Local Athlete"
+        },
+        {
+          "quote": "Quick, healthy, and right on Lincoln Highway. It's my grab-and-go fuel between work and the gym.",
+          "name": "Carlos R.",
+          "role": "Regular Customer"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Shop",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "7:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "time": "7:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "7:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "7:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "7:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "8:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "9:00 AM – 4:00 PM"
+        }
+      ],
+      "phoneLabel": "Order Ahead",
+      "directions": "On West Lincoln Highway in DeKalb, just minutes from NIU with easy parking nearby. Stop in or order ahead and we'll have your shake ready."
+    },
+    "cta": {
+      "heading": "Ready to Get Wired?",
+      "text": "Build your perfect shake, grab a loaded tea, or pick up a smoothie. Fresh, healthy fuel is just an order away.",
+      "button": "Build Your Shake"
+    },
+    "form": {
+      "heading": "Order Now",
+      "subheading": "Tell us what you're craving and when you'll swing by, and we'll have your order fresh and ready.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Order Size",
+      "date": "Preferred Pickup Time",
+      "message": "Your Order or Question",
+      "submit": "Build Your Shake",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your order request and we'll have it ready for you soon.",
+      "error": "Something went wrong. Please try again or stop by the shop.",
+      "consent": "By submitting, you agree to be contacted about your order."
+    },
+    "footer": {
+      "tagline": "Energizing shakes, loaded teas, and healthy fuel in the heart of DeKalb.",
+      "rights": "© Wired Nutrition. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Shop Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Wired Nutrition | Batidos de Proteína, Tés Energéticos y Smoothies en DeKalb, IL",
+      "description": "Batidos de proteína energizantes, tés cargados y smoothies en DeKalb, IL. Combustible saludable para estudiantes de NIU, atletas y gente ocupada. Ordena en línea y arma tu batido hoy."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Ordenar"
+    },
+    "hero": {
+      "eyebrow": "La Tienda de Nutrición y Smoothies de DeKalb",
+      "title": "Recarga, Avanza,",
+      "titleAccent": "Siente la Energía",
+      "subtitle": "Batidos de proteína energizantes, tés cargados y smoothies hechos al momento para darle combustible a estudiantes de NIU, atletas y a cualquiera que ande de prisa. Ricos, saludables y con buena vibra, aquí mismo en Lincoln Highway.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Ordenar",
+      "badge": "Frescos, hechos a tu gusto y pensados para tus metas."
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Batidos de Proteína que Llenan",
+        "text": "Batidos sustitutivos de comida y post-entrenamiento llenos de proteína y con sabor de postre, licuados frescos siempre."
+      },
+      {
+        "icon": "gauge",
+        "title": "Tés Cargados de Energía",
+        "text": "Tés refrescantes y energizantes para impulsarte en clase, en el gimnasio o en un turno largo, sin el bajón."
+      },
+      {
+        "icon": "leaf",
+        "title": "Combustible Real que Sienta Bien",
+        "text": "Smoothies de fruta, verdes y de proteína hechos con ingredientes que saben rico y de verdad te mantienen en marcha."
+      },
+      {
+        "icon": "heart",
+        "title": "Una Vibra Local y Amigable",
+        "text": "Una tienda independiente que se sabe tu nombre y tu orden, aquí para mantener a DeKalb con energía y sintiéndose bien."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Los platillos y los precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar la oferta real de la tienda.",
+      "categories": [
+        {
+          "id": "protein-shakes",
+          "name": "Batidos de Proteína",
+          "blurb": "Espesos, cremosos y llenos de proteína, desde sustitutivos de comida hasta sabores inspirados en postres.",
+          "items": [
+            {
+              "name": "Batido de Galletas y Crema",
+              "desc": "Un sustitutivo de comida con sabor a postre que sabe a malteada y te mantiene lleno por horas.",
+              "price": "$8",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Poder de Mantequilla de Maní",
+              "desc": "Mantequilla de maní cremosa licuada con proteína para una comida satisfactoria y llena de energía sobre la marcha.",
+              "price": "$8",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Recuperación Post-Entrenamiento",
+              "desc": "Mezcla alta en proteína y baja en azúcar hecha para ayudar a tus músculos a recuperarse después de entrenar.",
+              "price": "$8",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Pastel de Fresa",
+              "desc": "Fresa dulce y proteína de vainilla cremosa que se toma como un antojo sin culpa.",
+              "price": "$8"
+            },
+            {
+              "name": "Batido Mocha Espresso",
+              "desc": "Chocolate, café y proteína en un solo vaso para un impulso mañanero que te llena.",
+              "price": "$8",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Batido de Pastel de Cumpleaños",
+              "desc": "Un divertido batido de proteína con sabor a chispas que convierte alcanzar tus metas en una celebración.",
+              "price": "$8"
+            }
+          ]
+        },
+        {
+          "id": "loaded-teas-energy",
+          "name": "Tés Cargados y Energía",
+          "blurb": "Tés brillantes y energizantes y refrescos para impulsarte todo el día, sin bajón incluido.",
+          "items": [
+            {
+              "name": "Té Cargado de Frambuesa Azul",
+              "desc": "Un té vibrante y energizante lleno de sabor a frambuesa azul para arrancar tu día.",
+              "price": "$7",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Refresco Mango Tango",
+              "desc": "Mango jugoso y un impulso de energía limpia en un trago ligero y refrescante para los días calurosos.",
+              "price": "$7",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Ola de Sandía",
+              "desc": "Sabor fresco de sandía con un impulso suave para seguir de la clase al gimnasio.",
+              "price": "$7"
+            },
+            {
+              "name": "Té Amanecer Tropical",
+              "desc": "Una mezcla de frutas tropicales y té energizante para una buena vibra que dura todo el día.",
+              "price": "$7"
+            },
+            {
+              "name": "Refresco de Limonada con Fresa",
+              "desc": "Fresa dulce se encuentra con limonada ácida en un favorito refrescante y ligeramente energizante.",
+              "price": "$7",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "smoothies",
+          "name": "Smoothies",
+          "blurb": "Smoothies frescos de fruta, verdes y de proteína, licuados al momento con ingredientes de verdad.",
+          "items": [
+            {
+              "name": "Smoothie Explosión de Bayas",
+              "desc": "Fresa, arándano y plátano licuados espesos y frutales para un impulso saludable y fácil.",
+              "price": "$7",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Máquina Verde",
+              "desc": "Espinaca, piña y plátano que saben dulces mientras le meten tus verduras.",
+              "price": "$7",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Smoothie Tropical de Proteína",
+              "desc": "Mango, piña y una porción de proteína para una mezcla refrescante y amigable con los músculos.",
+              "price": "$8",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Mantequilla de Maní y Plátano",
+              "desc": "Smoothie cremoso de mantequilla de maní y plátano que calma los antojos y te mantiene lleno.",
+              "price": "$7"
+            },
+            {
+              "name": "Bowl Energético de Acai",
+              "desc": "Un smoothie espeso de acai cubierto con fruta fresca y granola, servido estilo bowl.",
+              "price": "$9",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "supplements",
+          "name": "Suplementos",
+          "blurb": "Proteína, pre-entreno, vitaminas y planes personalizados para ayudarte a alcanzar tus metas.",
+          "items": [
+            {
+              "name": "Bote de Proteína en Polvo",
+              "desc": "Proteína de suero o vegetal para llevar a casa en los sabores favoritos para mantener tus metas en marcha.",
+              "price": "$45",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Porción de Pre-Entreno",
+              "desc": "Una sola porción de energía y enfoque limpios para potenciar tus entrenamientos más duros.",
+              "price": "$4",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Paquete de Vitaminas Diarias",
+              "desc": "Un práctico paquete de vitaminas para el día a día que complementa una vida ocupada y activa.",
+              "price": "$25"
+            },
+            {
+              "name": "Plan de Nutrición Personalizado",
+              "desc": "Un plan a tu medida creado en torno a tus metas, tu horario y los sabores que te encantan.",
+              "price": "$30",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Mezcla de Recuperación e Hidratación",
+              "desc": "Electrolitos y apoyo de recuperación para ayudarte a recuperarte y mantenerte hidratado.",
+              "price": "$3",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Combustible Saludable para tu Ritmo",
+      "lead": "Wired Nutrition es una tienda independiente de nutrición y smoothies que sirve batidos energizantes, tés cargados y suplementos aquí mismo en DeKalb.",
+      "paragraphs": [
+        "Sobre West Lincoln Highway en el corazón de DeKalb, Wired Nutrition es donde los estudiantes de NIU, los atletas y la gente ocupada recargan energía. Cada batido de proteína, té cargado y smoothie se hace al momento con sabores tan buenos que olvidarás que también son saludables. Estamos aquí para ayudarte a darlo todo en clase, en el entrenamiento y en todo lo demás.",
+        "Ya sea que necesites un sustitutivo de comida rápido entre clases, un impulso de energía limpia antes del gimnasio o un plan personalizado para alcanzar tus metas, nuestro equipo amigable te respalda. Rico, saludable y hecho fresco, así es el estilo Wired."
+      ],
+      "stats": [
+        {
+          "value": "Hecho Fresco",
+          "label": "Licuado al Momento"
+        },
+        {
+          "value": "Todas las Metas",
+          "label": "De Estudiantes a Atletas"
+        },
+        {
+          "value": "DeKalb",
+          "label": "Negocio Local"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Sabor de Wired",
+      "subheading": "Un vistazo a los batidos, los tés y la energía amigable que mantiene a DeKalb con combustible.",
+      "captions": [
+        "Un té cargado brillando bajo el sol de la tarde",
+        "Batidos de proteína cremosos listos para llevar",
+        "Fruta fresca esperando la licuadora",
+        "Un bowl de acai cubierto con fruta y granola",
+        "Estantes surtidos con proteína y suplementos",
+        "El equipo manteniendo a DeKalb con energía"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice DeKalb",
+      "items": [
+        {
+          "quote": "Los tés cargados me ayudan a pasar las clases de la tarde sin el bajón del café. La frambuesa azul es mi favorita todos los días.",
+          "name": "Hannah M.",
+          "role": "Estudiante de NIU"
+        },
+        {
+          "quote": "Los batidos post-entrenamiento de aquí saben a postre pero de verdad me ayudan a recuperarme. El equipo siempre recuerda mi orden.",
+          "name": "Devon T.",
+          "role": "Atleta Local"
+        },
+        {
+          "quote": "Rápido, saludable y justo sobre Lincoln Highway. Es mi combustible para llevar entre el trabajo y el gimnasio.",
+          "name": "Carlos R.",
+          "role": "Cliente Frecuente"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita la Tienda",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "7:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Martes",
+          "time": "7:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "7:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "7:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "7:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "8:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "9:00 AM – 4:00 PM"
+        }
+      ],
+      "phoneLabel": "Ordena con Anticipación",
+      "directions": "Sobre West Lincoln Highway en DeKalb, a minutos de NIU y con estacionamiento fácil cerca. Pásate o ordena con anticipación y tendremos tu batido listo."
+    },
+    "cta": {
+      "heading": "¿Listo para Cargarte de Energía?",
+      "text": "Arma tu batido perfecto, toma un té cargado o llévate un smoothie. El combustible fresco y saludable está a solo una orden de distancia.",
+      "button": "Arma tu Batido"
+    },
+    "form": {
+      "heading": "Ordenar",
+      "subheading": "Cuéntanos qué se te antoja y a qué hora pasas, y tendremos tu orden fresca y lista.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño de la Orden",
+      "date": "Hora de Recogida Preferida",
+      "message": "Tu Orden o Pregunta",
+      "submit": "Arma tu Batido",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud de orden y la tendremos lista para ti pronto.",
+      "error": "Algo salió mal. Inténtalo de nuevo o pásate por la tienda.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu orden."
+    },
+    "footer": {
+      "tagline": "Batidos energizantes, tés cargados y combustible saludable en el corazón de DeKalb.",
+      "rights": "© Wired Nutrition. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario de la Tienda",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

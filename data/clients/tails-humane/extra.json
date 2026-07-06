@@ -1,0 +1,106 @@
+{
+  "en": {
+    "process": {
+      "heading": "How Adoption Works",
+      "steps": [
+        {
+          "title": "Meet the Animals",
+          "text": "Visit our shelter on Barber Greene Road or an adoption event to spend time with the dogs, cats, and small animals waiting for homes."
+        },
+        {
+          "title": "Submit an Application",
+          "text": "Tell us about your home and lifestyle so we can help match you with a pet who truly fits your family."
+        },
+        {
+          "title": "Meet-and-Greet & Home Check",
+          "text": "We arrange a meet-and-greet, including any pets you already have, to make sure it's the right fit for everyone."
+        },
+        {
+          "title": "Welcome Home",
+          "text": "Finalize your adoption, take your new best friend home, and reach out anytime, because we're here to help you settle in."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Do I need an appointment, or can I just walk in?",
+          "a": "You're welcome to visit during our open hours to meet the animals. For adoption, foster, or volunteer questions, stopping by or messaging us first helps us serve you best."
+        },
+        {
+          "q": "What does the adoption fee cover?",
+          "a": "Adoption fees help cover spay/neuter, vaccines, and microchipping so your new pet goes home healthy. Please contact us for current fees, which vary by animal."
+        },
+        {
+          "q": "What should I bring to adopt or visit?",
+          "a": "Bring a valid photo ID and, if possible, everyone in your household, including current pets, so we can find the best match together."
+        },
+        {
+          "q": "Can I adopt if I have other pets or kids at home?",
+          "a": "Often, yes. We'll talk through your household and arrange a meet-and-greet to help make sure the animal is a comfortable fit for everyone."
+        },
+        {
+          "q": "I can't adopt right now. How else can I help?",
+          "a": "You can foster, volunteer, donate, or sponsor a kennel. Every bit of support helps us care for the next animal who needs us."
+        },
+        {
+          "q": "Do you speak Spanish?",
+          "a": "Yes, we're glad to help English- and Spanish-speaking families. Reach out by phone or message and we'll guide you through adopting, fostering, or volunteering."
+        }
+      ]
+    }
+  },
+  "es": {
+    "process": {
+      "heading": "Cómo Funciona la Adopción",
+      "steps": [
+        {
+          "title": "Conoce a los Animales",
+          "text": "Visita nuestro refugio en Barber Greene Road o un evento de adopción para pasar tiempo con los perros, gatos y animales pequeños que esperan un hogar."
+        },
+        {
+          "title": "Envía una Solicitud",
+          "text": "Cuéntanos sobre tu hogar y tu estilo de vida para ayudarte a encontrar la mascota que de verdad encaje con tu familia."
+        },
+        {
+          "title": "Presentación y Revisión del Hogar",
+          "text": "Organizamos una presentación, incluyendo a las mascotas que ya tienes, para asegurarnos de que sea la decisión correcta para todos."
+        },
+        {
+          "title": "Bienvenido a Casa",
+          "text": "Finaliza tu adopción, lleva a tu nuevo mejor amigo a casa y escríbenos cuando quieras, porque estamos aquí para ayudarte a acomodarte."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿Necesito cita o puedo llegar sin avisar?",
+          "a": "Eres bienvenido a visitarnos durante nuestro horario para conocer a los animales. Para preguntas de adopción, hogar temporal o voluntariado, pasar o escribirnos primero nos ayuda a atenderte mejor."
+        },
+        {
+          "q": "¿Qué incluye la cuota de adopción?",
+          "a": "Las cuotas de adopción ayudan a cubrir la esterilización, las vacunas y el microchip para que tu nueva mascota llegue sana a casa. Contáctanos para conocer las cuotas actuales, que varían según el animal."
+        },
+        {
+          "q": "¿Qué debo llevar para adoptar o visitar?",
+          "a": "Trae una identificación con foto válida y, de ser posible, a todos los que viven contigo, incluyendo a tus mascotas actuales, para encontrar juntos la mejor opción."
+        },
+        {
+          "q": "¿Puedo adoptar si tengo otras mascotas o niños en casa?",
+          "a": "Muchas veces, sí. Conversaremos sobre tu hogar y organizaremos una presentación para asegurarnos de que el animal se sienta cómodo con todos."
+        },
+        {
+          "q": "No puedo adoptar ahora. ¿De qué otra forma puedo ayudar?",
+          "a": "Puedes ser hogar temporal, voluntario, donar o apadrinar una jaula. Cada apoyo nos ayuda a cuidar al próximo animal que nos necesite."
+        },
+        {
+          "q": "¿Hablan español?",
+          "a": "Sí, con gusto atendemos a familias que hablan inglés y español. Llámanos o envíanos un mensaje y te guiaremos para adoptar, ser hogar temporal o ser voluntario."
+        }
+      ]
+    }
+  }
+}

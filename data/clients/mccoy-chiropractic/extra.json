@@ -1,0 +1,48 @@
+{
+  "en": {
+    "ritual": {
+      "heading": "Your Visit, Step by Step",
+      "steps": [
+        {
+          "title": "Settle In & Share",
+          "text": "Arrive, take a breath, and tell us what's been bothering you over a relaxed, no-pressure consultation. No rush, no judgment."
+        },
+        {
+          "title": "A Plan Made for You",
+          "text": "We listen, gently examine how you move, and explain a simple care plan built around your goals, comfort, and schedule."
+        },
+        {
+          "title": "Gentle, Hands-On Care",
+          "text": "Ease onto the table for precise, low-force adjustments and soft-tissue work that calm tension and help your body move freely again."
+        },
+        {
+          "title": "Leave Lighter, Stay Well",
+          "text": "We share simple aftercare tips, answer any questions, and help you book your next visit so relief keeps building."
+        }
+      ]
+    }
+  },
+  "es": {
+    "ritual": {
+      "heading": "Tu Visita, Paso a Paso",
+      "steps": [
+        {
+          "title": "Acomódate y Cuéntanos",
+          "text": "Llega, respira y cuéntanos qué te ha estado molestando en una consulta relajada y sin presión. Sin prisa, sin juicios."
+        },
+        {
+          "title": "Un Plan Hecho para Ti",
+          "text": "Escuchamos, examinamos con suavidad cómo te mueves y te explicamos un plan sencillo según tus metas, comodidad y horario."
+        },
+        {
+          "title": "Cuidado Suave y Manual",
+          "text": "Recuéstate en la mesa para ajustes precisos de baja fuerza y trabajo de tejidos que calman la tensión y devuelven el movimiento."
+        },
+        {
+          "title": "Sal Más Ligero y Sigue Bien",
+          "text": "Compartimos consejos sencillos de cuidado, respondemos tus preguntas y te ayudamos a reservar tu próxima visita para seguir mejorando."
+        }
+      ]
+    }
+  }
+}

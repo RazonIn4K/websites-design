@@ -1,0 +1,746 @@
+{
+  "business": {
+    "name": "Tails Humane Society",
+    "shortName": "Tails Humane",
+    "vertical": "Nonprofit Animal Shelter & Pet Adoption Center",
+    "phone": "",
+    "phoneHref": "",
+    "address": "Barber Greene Road",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Tails Humane Society, Barber Greene Road, DeKalb, IL 60115",
+    "lat": 41.9499611,
+    "lon": -88.7144464
+  },
+  "en": {
+    "meta": {
+      "title": "Tails Humane Society | Pet Adoption & Animal Shelter in DeKalb, IL",
+      "description": "Independent nonprofit animal shelter in DeKalb, IL. Adopt a dog, cat, or small pet, foster, volunteer, or donate. Every tail deserves a happy ending."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Adopt",
+      "about": "About",
+      "gallery": "Happy Tails",
+      "visit": "Visit",
+      "order": "Visit Us"
+    },
+    "hero": {
+      "eyebrow": "Independent Nonprofit Animal Shelter in DeKalb",
+      "title": "Every tail deserves",
+      "titleAccent": "a happy ending",
+      "subtitle": "We help local dogs, cats, and small animals find loving homes. Adopt a new best friend, open your home as a foster, lend a hand as a volunteer, or donate to care for the next animal who needs us.",
+      "ctaPrimary": "Meet the Animals",
+      "ctaSecondary": "Donate Today",
+      "badge": "Community-driven, no-judgment care for local pets"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "Compassion First",
+        "text": "Every animal who comes through our doors is met with patience, comfort, and a fresh start."
+      },
+      {
+        "icon": "home",
+        "title": "Loving Homes for Local Pets",
+        "text": "We match dogs, cats, and small animals with families who will love them for life."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Powered by Community",
+        "text": "Volunteers, fosters, and donors make second chances possible for animals in DeKalb County."
+      },
+      {
+        "icon": "check",
+        "title": "Many Ways to Help",
+        "text": "Adopt, foster, volunteer, or donate — there's a meaningful way for everyone to make a difference."
+      }
+    ],
+    "menu": {
+      "heading": "Adopt & Get Involved",
+      "subheading": "Ways to give an animal a second chance. Categories, adoption fees, and program details shown here are illustrative demo content for this preview site — please contact us for current adoptable animals, fees, and programs.",
+      "categories": [
+        {
+          "id": "adopt",
+          "name": "Adopt",
+          "blurb": "Find your new best friend. Adoption fees help cover spay/neuter, vaccines, and microchipping.",
+          "items": [
+            {
+              "name": "Adopt a Dog",
+              "desc": "From playful puppies to mellow companions, our dogs are ready to join your family.",
+              "price": "From $150",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Adopt a Cat",
+              "desc": "Kittens, lap cats, and independent spirits looking for a sunny windowsill to call home.",
+              "price": "From $95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Adopt a Small Animal",
+              "desc": "Rabbits, guinea pigs, and other little companions in need of a caring home.",
+              "price": "From $25",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Adopt a Senior Pet",
+              "desc": "Gentle, grateful older animals with so much love left to give. Reduced fees apply.",
+              "price": "From $50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Adopt a Bonded Pair",
+              "desc": "Two friends who'd rather not be separated, welcomed home together.",
+              "price": "From $175",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "care-services",
+          "name": "Care & Services",
+          "blurb": "Accessible care that keeps pets healthy and helps families stay together.",
+          "items": [
+            {
+              "name": "Low-Cost Vaccine Clinic",
+              "desc": "Affordable core vaccines to keep neighborhood pets protected and healthy.",
+              "price": "From $20",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Spay & Neuter",
+              "desc": "Low-cost surgeries to prevent litters and support a healthier pet community.",
+              "price": "From $75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Microchipping",
+              "desc": "Quick, permanent ID that helps reunite lost pets with the families who love them.",
+              "price": "From $25",
+              "tags": []
+            },
+            {
+              "name": "Owner-Surrender Support",
+              "desc": "Compassionate, judgment-free guidance for families facing difficult decisions.",
+              "price": "By appointment",
+              "tags": []
+            },
+            {
+              "name": "Pet Food Pantry",
+              "desc": "Temporary food assistance to help neighbors keep their pets at home through hard times.",
+              "price": "Free to qualify",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "get-involved",
+          "name": "Get Involved",
+          "blurb": "Your time and generosity create second chances for animals in our community.",
+          "items": [
+            {
+              "name": "Volunteer",
+              "desc": "Walk dogs, socialize cats, and help at events. Training and orientation provided.",
+              "price": "Free to start",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Become a Foster",
+              "desc": "Open your home temporarily to a pet who needs extra time, space, or healing.",
+              "price": "Free to start",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Donate",
+              "desc": "Every gift feeds, shelters, and heals an animal waiting for a forever home.",
+              "price": "Any amount",
+              "tags": []
+            },
+            {
+              "name": "Sponsor a Kennel",
+              "desc": "Cover the cost of care for an animal in our shelter until they're adopted.",
+              "price": "From $25 / month",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "events",
+          "name": "Events",
+          "blurb": "Come together for the animals — from adoption days to community fundraisers.",
+          "items": [
+            {
+              "name": "Adoption Events",
+              "desc": "Meet adoptable dogs, cats, and small animals at our pop-up adoption days.",
+              "price": "Free to attend",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Fundraisers",
+              "desc": "Walks, galas, and seasonal drives that fund care for the animals who need us most.",
+              "price": "Varies",
+              "tags": []
+            },
+            {
+              "name": "Humane Education",
+              "desc": "Classroom visits and workshops that teach kindness and responsible pet care.",
+              "price": "Free",
+              "tags": []
+            },
+            {
+              "name": "Community Outreach",
+              "desc": "Pop-up clinics and resource drives that support pets and people across DeKalb County.",
+              "price": "Free",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Helping local pets find loving homes",
+      "lead": "Tails Humane Society is an independent nonprofit animal shelter where every dog, cat, and small animal is welcomed with compassion and a second chance.",
+      "paragraphs": [
+        "From the moment an animal arrives at our shelter on Barber Greene Road, our focus is simple: comfort, care, and a path to a loving home. We provide shelter, medical attention, and patient, gentle handling until the right family comes along.",
+        "We're powered by our community — the volunteers who walk our dogs, the fosters who open their homes, and the donors who make it all possible. As a managed admission shelter caring for more than 2,200 displaced pets each year, we work toward one mission: building a compassionate community through the care of companion animals — because every tail deserves a happy ending."
+      ],
+      "stats": [
+        {
+          "value": "Dogs · Cats · Small Animals",
+          "label": "Companions we care for"
+        },
+        {
+          "value": "Adopt · Foster · Volunteer · Donate",
+          "label": "Ways to help"
+        },
+        {
+          "value": "Nonprofit",
+          "label": "Independent & community-driven"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Happy Tails",
+      "subheading": "A few of the joyful faces and second chances made possible by our community.",
+      "captions": [
+        "A warm welcome and a fresh start",
+        "Playtime and patient socialization",
+        "Cozy spaces for our feline friends",
+        "Volunteers sharing love and walks",
+        "Foster families opening their homes",
+        "The best moment of all — adoption day"
+      ]
+    },
+    "testimonials": {
+      "heading": "Loved by DeKalb pet families",
+      "items": [
+        {
+          "quote": "We adopted our dog here and the team made the whole process so warm and easy. He's the heart of our family now.",
+          "name": "Megan R.",
+          "role": "Adopter"
+        },
+        {
+          "quote": "Fostering through Tails has been the most rewarding thing I do. They support you every step, and saying yes is so worth it.",
+          "name": "Carlos M.",
+          "role": "Foster volunteer"
+        },
+        {
+          "quote": "Volunteering here is pure joy. You can feel how much everyone cares about getting each animal into the right home.",
+          "name": "Priya S.",
+          "role": "Volunteer"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit Tails Humane Society",
+      "addressLabel": "Our Shelter",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday – Friday",
+          "time": "12:00 PM – 7:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "12:00 PM – 5:30 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "12:00 PM – 5:30 PM"
+        }
+      ],
+      "phoneLabel": "Get in Touch",
+      "directions": "Find us on Barber Greene Road in DeKalb, with parking on site. Stop by to meet the animals, or send us a message to start an adoption, foster, or volunteer application.",
+      "neighborhood": "Our shelter sits at 2250 Barber Greene Road on DeKalb's northeast side, just a few minutes' drive from both downtown DeKalb and neighboring Sycamore."
+    },
+    "cta": {
+      "heading": "Ready to give an animal a happy ending?",
+      "text": "Come meet the animals waiting for a home. You can also donate or sign up to foster and volunteer — every bit of support changes a life.",
+      "button": "Meet the Animals"
+    },
+    "form": {
+      "heading": "Adopt, Foster, Volunteer, or Donate",
+      "subheading": "Tell us how you'd like to help and we'll be in touch to take the next step together.",
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Interest (adopt, foster…)",
+      "date": "Preferred Date / Time to Visit",
+      "message": "How would you like to help?",
+      "submit": "Send My Request",
+      "sending": "Sending...",
+      "success": "Thank you! We've received your message and will be in touch soon to help you take the next step.",
+      "error": "Something went wrong. Please try again or reach out to us directly.",
+      "consent": "By submitting, you agree to be contacted about your adoption, foster, volunteer, or donation request."
+    },
+    "footer": {
+      "tagline": "An independent nonprofit animal shelter helping DeKalb pets find loving homes.",
+      "rights": "© Tails Humane Society. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    },
+    "process": {
+      "heading": "How Adoption Works",
+      "steps": [
+        {
+          "title": "Meet the Animals",
+          "text": "Visit our shelter on Barber Greene Road or an adoption event to spend time with the dogs, cats, and small animals waiting for homes."
+        },
+        {
+          "title": "Submit an Application",
+          "text": "Tell us about your home and lifestyle so we can help match you with a pet who truly fits your family."
+        },
+        {
+          "title": "Meet-and-Greet & Home Check",
+          "text": "We arrange a meet-and-greet, including any pets you already have, to make sure it's the right fit for everyone."
+        },
+        {
+          "title": "Welcome Home",
+          "text": "Finalize your adoption, take your new best friend home, and reach out anytime, because we're here to help you settle in."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Do I need an appointment, or can I just walk in?",
+          "a": "You're welcome to visit during our open hours to meet the animals. For adoption, foster, or volunteer questions, stopping by or messaging us first helps us serve you best."
+        },
+        {
+          "q": "What does the adoption fee cover?",
+          "a": "Adoption fees help cover spay/neuter, vaccines, and microchipping so your new pet goes home healthy. Please contact us for current fees, which vary by animal."
+        },
+        {
+          "q": "What should I bring to adopt or visit?",
+          "a": "Bring a valid photo ID and, if possible, everyone in your household, including current pets, so we can find the best match together."
+        },
+        {
+          "q": "Can I adopt if I have other pets or kids at home?",
+          "a": "Often, yes. We'll talk through your household and arrange a meet-and-greet to help make sure the animal is a comfortable fit for everyone."
+        },
+        {
+          "q": "I can't adopt right now. How else can I help?",
+          "a": "You can foster, volunteer, donate, or sponsor a kennel. Every bit of support helps us care for the next animal who needs us."
+        },
+        {
+          "q": "Do you speak Spanish?",
+          "a": "Yes, we're glad to help English- and Spanish-speaking families. Reach out or send us a message and we'll guide you through adopting, fostering, or volunteering."
+        }
+      ]
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Tails Humane Society | Adopción de Mascotas y Refugio en DeKalb, IL",
+      "description": "Refugio de animales sin fines de lucro en DeKalb, IL. Adopta un perro, gato o mascota pequeña, acoge, sé voluntario o dona. Cada colita merece un final feliz."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Adoptar",
+      "about": "Nosotros",
+      "gallery": "Colitas Felices",
+      "visit": "Visítanos",
+      "order": "Visítanos"
+    },
+    "hero": {
+      "eyebrow": "Refugio de Animales Sin Fines de Lucro en DeKalb",
+      "title": "Cada colita merece",
+      "titleAccent": "un final feliz",
+      "subtitle": "Ayudamos a perros, gatos y animales pequeños de la zona a encontrar hogares llenos de amor. Adopta un nuevo mejor amigo, abre tu hogar como hogar temporal, ayuda como voluntario o dona para cuidar al próximo animal que nos necesite.",
+      "ctaPrimary": "Conoce a los Animales",
+      "ctaSecondary": "Dona Hoy",
+      "badge": "Cuidado comunitario y sin juicios para las mascotas locales"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "Primero la Compasión",
+        "text": "Cada animal que cruza nuestras puertas recibe paciencia, consuelo y un nuevo comienzo."
+      },
+      {
+        "icon": "home",
+        "title": "Hogares Llenos de Amor para Mascotas Locales",
+        "text": "Unimos perros, gatos y animales pequeños con familias que los amarán toda la vida."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Impulsados por la Comunidad",
+        "text": "Voluntarios, hogares temporales y donantes hacen posibles las segundas oportunidades para los animales del condado de DeKalb."
+      },
+      {
+        "icon": "check",
+        "title": "Muchas Formas de Ayudar",
+        "text": "Adopta, sé hogar temporal, sé voluntario o dona — hay una forma significativa para que todos marquen la diferencia."
+      }
+    ],
+    "menu": {
+      "heading": "Adopta y Participa",
+      "subheading": "Formas de darle a un animal una segunda oportunidad. Las categorías, las cuotas de adopción y los detalles de los programas que se muestran aquí son contenido ilustrativo de demostración para este sitio de vista previa — contáctanos para conocer los animales en adopción, las cuotas y los programas actuales.",
+      "categories": [
+        {
+          "id": "adopt",
+          "name": "Adoptar",
+          "blurb": "Encuentra a tu nuevo mejor amigo. Las cuotas de adopción ayudan a cubrir la esterilización, las vacunas y el microchip.",
+          "items": [
+            {
+              "name": "Adopta un Perro",
+              "desc": "Desde cachorros juguetones hasta compañeros tranquilos, nuestros perros están listos para unirse a tu familia.",
+              "price": "Desde $150",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Adopta un Gato",
+              "desc": "Gatitos, gatos cariñosos y espíritus independientes que buscan una ventana soleada a la cual llamar hogar.",
+              "price": "Desde $95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Adopta un Animal Pequeño",
+              "desc": "Conejos, cuyos y otros pequeños compañeros que necesitan un hogar lleno de cariño.",
+              "price": "Desde $25",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Adopta una Mascota Mayor",
+              "desc": "Animales mayores, gentiles y agradecidos con mucho amor por dar. Aplican cuotas reducidas.",
+              "price": "Desde $50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Adopta una Pareja Inseparable",
+              "desc": "Dos amigos que prefieren no separarse, recibidos juntos en un nuevo hogar.",
+              "price": "Desde $175",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "care-services",
+          "name": "Cuidado y Servicios",
+          "blurb": "Cuidado accesible que mantiene sanas a las mascotas y ayuda a las familias a permanecer unidas.",
+          "items": [
+            {
+              "name": "Clínica de Vacunas de Bajo Costo",
+              "desc": "Vacunas esenciales y económicas para mantener protegidas y sanas a las mascotas del vecindario.",
+              "price": "Desde $20",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Esterilización y Castración",
+              "desc": "Cirugías de bajo costo para prevenir camadas y apoyar a una comunidad de mascotas más sana.",
+              "price": "Desde $75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Microchip",
+              "desc": "Identificación rápida y permanente que ayuda a reunir a las mascotas perdidas con las familias que las aman.",
+              "price": "Desde $25",
+              "tags": []
+            },
+            {
+              "name": "Apoyo para Entrega de Mascotas",
+              "desc": "Orientación compasiva y sin juicios para las familias que enfrentan decisiones difíciles.",
+              "price": "Con cita previa",
+              "tags": []
+            },
+            {
+              "name": "Despensa de Alimento para Mascotas",
+              "desc": "Ayuda temporal con alimento para que los vecinos puedan mantener a sus mascotas en casa durante tiempos difíciles.",
+              "price": "Gratis si califica",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "get-involved",
+          "name": "Participa",
+          "blurb": "Tu tiempo y generosidad crean segundas oportunidades para los animales de nuestra comunidad.",
+          "items": [
+            {
+              "name": "Voluntariado",
+              "desc": "Pasea perros, socializa gatos y ayuda en eventos. Se ofrece capacitación y orientación.",
+              "price": "Gratis para empezar",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Sé Hogar Temporal",
+              "desc": "Abre tu hogar de forma temporal a una mascota que necesita más tiempo, espacio o recuperación.",
+              "price": "Gratis para empezar",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Dona",
+              "desc": "Cada donativo alimenta, refugia y sana a un animal que espera un hogar para siempre.",
+              "price": "Cualquier cantidad",
+              "tags": []
+            },
+            {
+              "name": "Apadrina una Jaula",
+              "desc": "Cubre el costo del cuidado de un animal en nuestro refugio hasta que sea adoptado.",
+              "price": "Desde $25 / mes",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "events",
+          "name": "Eventos",
+          "blurb": "Reunámonos por los animales — desde días de adopción hasta recaudaciones comunitarias.",
+          "items": [
+            {
+              "name": "Eventos de Adopción",
+              "desc": "Conoce a perros, gatos y animales pequeños en adopción en nuestros días de adopción itinerantes.",
+              "price": "Entrada gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Recaudaciones de Fondos",
+              "desc": "Caminatas, galas y campañas de temporada que financian el cuidado de los animales que más nos necesitan.",
+              "price": "Varía",
+              "tags": []
+            },
+            {
+              "name": "Educación Humanitaria",
+              "desc": "Visitas a las aulas y talleres que enseñan amabilidad y cuidado responsable de las mascotas.",
+              "price": "Gratis",
+              "tags": []
+            },
+            {
+              "name": "Alcance Comunitario",
+              "desc": "Clínicas itinerantes y campañas de recursos que apoyan a mascotas y personas en todo el condado de DeKalb.",
+              "price": "Gratis",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Ayudando a las mascotas locales a encontrar hogares llenos de amor",
+      "lead": "Tails Humane Society es un refugio de animales sin fines de lucro e independiente donde cada perro, gato y animal pequeño es recibido con compasión y una segunda oportunidad.",
+      "paragraphs": [
+        "Desde el momento en que un animal llega a nuestro refugio en Barber Greene Road, nuestro enfoque es simple: consuelo, cuidado y un camino hacia un hogar lleno de amor. Brindamos refugio, atención médica y un trato paciente y gentil hasta que llega la familia adecuada.",
+        "Nos impulsa nuestra comunidad — los voluntarios que pasean a nuestros perros, los hogares temporales que abren sus puertas y los donantes que lo hacen todo posible. Como refugio de admisión gestionada que cuida a más de 2,200 mascotas desplazadas cada año, trabajamos por una sola misión: construir una comunidad compasiva a través del cuidado de los animales de compañía — porque cada colita merece un final feliz."
+      ],
+      "stats": [
+        {
+          "value": "Perros · Gatos · Animales Pequeños",
+          "label": "Compañeros que cuidamos"
+        },
+        {
+          "value": "Adoptar · Hogar Temporal · Voluntariado · Donar",
+          "label": "Formas de ayudar"
+        },
+        {
+          "value": "Sin Fines de Lucro",
+          "label": "Independiente e impulsado por la comunidad"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Colitas Felices",
+      "subheading": "Algunas de las caritas alegres y segundas oportunidades que nuestra comunidad hace posibles.",
+      "captions": [
+        "Una cálida bienvenida y un nuevo comienzo",
+        "Tiempo de juego y socialización paciente",
+        "Espacios acogedores para nuestros amigos felinos",
+        "Voluntarios compartiendo amor y paseos",
+        "Familias de hogar temporal abriendo sus puertas",
+        "El mejor momento de todos — el día de la adopción"
+      ]
+    },
+    "testimonials": {
+      "heading": "Querido por las familias de mascotas de DeKalb",
+      "items": [
+        {
+          "quote": "Adoptamos a nuestro perro aquí y el equipo hizo que todo el proceso fuera muy cálido y sencillo. Ahora es el corazón de nuestra familia.",
+          "name": "Megan R.",
+          "role": "Adoptante"
+        },
+        {
+          "quote": "Ser hogar temporal a través de Tails ha sido lo más gratificante que hago. Te apoyan en cada paso, y decir que sí vale totalmente la pena.",
+          "name": "Carlos M.",
+          "role": "Voluntario de hogar temporal"
+        },
+        {
+          "quote": "Ser voluntaria aquí es pura alegría. Se siente cuánto le importa a todos lograr que cada animal llegue al hogar correcto.",
+          "name": "Priya S.",
+          "role": "Voluntaria"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita Tails Humane Society",
+      "addressLabel": "Nuestro Refugio",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes – Viernes",
+          "time": "12:00 PM – 7:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "12:00 PM – 5:30 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "12:00 PM – 5:30 PM"
+        }
+      ],
+      "phoneLabel": "Contáctanos",
+      "directions": "Encuéntranos en Barber Greene Road en DeKalb, con estacionamiento en el lugar. Pasa a conocer a los animales o envíanos un mensaje para comenzar una solicitud de adopción, hogar temporal o voluntariado.",
+      "neighborhood": "Nuestro refugio está en el 2250 de Barber Greene Road, en el lado noreste de DeKalb, a solo unos minutos en auto tanto del centro de DeKalb como de la vecina Sycamore."
+    },
+    "cta": {
+      "heading": "¿Listo para darle a un animal un final feliz?",
+      "text": "Ven a conocer a los animales que esperan un hogar. También puedes donar o inscribirte para ser hogar temporal y voluntario — cada apoyo cambia una vida.",
+      "button": "Conoce a los Animales"
+    },
+    "form": {
+      "heading": "Adopta, Sé Hogar Temporal, Voluntario o Dona",
+      "subheading": "Cuéntanos cómo te gustaría ayudar y nos pondremos en contacto para dar el siguiente paso juntos.",
+      "name": "Tu Nombre",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Interés (adoptar, acoger…)",
+      "date": "Fecha / Hora Preferida para Visitar",
+      "message": "¿Cómo te gustaría ayudar?",
+      "submit": "Enviar Mi Solicitud",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Hemos recibido tu mensaje y nos comunicaremos pronto para ayudarte a dar el siguiente paso.",
+      "error": "Algo salió mal. Inténtalo de nuevo o contáctanos directamente.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud de adopción, hogar temporal, voluntariado o donación."
+    },
+    "footer": {
+      "tagline": "Un refugio de animales sin fines de lucro e independiente que ayuda a las mascotas de DeKalb a encontrar hogares llenos de amor.",
+      "rights": "© Tails Humane Society. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    },
+    "process": {
+      "heading": "Cómo Funciona la Adopción",
+      "steps": [
+        {
+          "title": "Conoce a los Animales",
+          "text": "Visita nuestro refugio en Barber Greene Road o un evento de adopción para pasar tiempo con los perros, gatos y animales pequeños que esperan un hogar."
+        },
+        {
+          "title": "Envía una Solicitud",
+          "text": "Cuéntanos sobre tu hogar y tu estilo de vida para ayudarte a encontrar la mascota que de verdad encaje con tu familia."
+        },
+        {
+          "title": "Presentación y Revisión del Hogar",
+          "text": "Organizamos una presentación, incluyendo a las mascotas que ya tienes, para asegurarnos de que sea la decisión correcta para todos."
+        },
+        {
+          "title": "Bienvenido a Casa",
+          "text": "Finaliza tu adopción, lleva a tu nuevo mejor amigo a casa y escríbenos cuando quieras, porque estamos aquí para ayudarte a acomodarte."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿Necesito cita o puedo llegar sin avisar?",
+          "a": "Eres bienvenido a visitarnos durante nuestro horario para conocer a los animales. Para preguntas de adopción, hogar temporal o voluntariado, pasar o escribirnos primero nos ayuda a atenderte mejor."
+        },
+        {
+          "q": "¿Qué incluye la cuota de adopción?",
+          "a": "Las cuotas de adopción ayudan a cubrir la esterilización, las vacunas y el microchip para que tu nueva mascota llegue sana a casa. Contáctanos para conocer las cuotas actuales, que varían según el animal."
+        },
+        {
+          "q": "¿Qué debo llevar para adoptar o visitar?",
+          "a": "Trae una identificación con foto válida y, de ser posible, a todos los que viven contigo, incluyendo a tus mascotas actuales, para encontrar juntos la mejor opción."
+        },
+        {
+          "q": "¿Puedo adoptar si tengo otras mascotas o niños en casa?",
+          "a": "Muchas veces, sí. Conversaremos sobre tu hogar y organizaremos una presentación para asegurarnos de que el animal se sienta cómodo con todos."
+        },
+        {
+          "q": "No puedo adoptar ahora. ¿De qué otra forma puedo ayudar?",
+          "a": "Puedes ser hogar temporal, voluntario, donar o apadrinar una jaula. Cada apoyo nos ayuda a cuidar al próximo animal que nos necesite."
+        },
+        {
+          "q": "¿Hablan español?",
+          "a": "Sí, con gusto atendemos a familias que hablan inglés y español. Escríbenos o envíanos un mensaje y te guiaremos para adoptar, ser hogar temporal o ser voluntario."
+        }
+      ]
+    }
+  }
+}

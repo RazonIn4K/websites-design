@@ -1,0 +1,706 @@
+{
+  "business": {
+    "name": "Noon Whistle Brewing",
+    "shortName": "Noon Whistle",
+    "vertical": "Craft Brewery & Taproom",
+    "phone": "(331) 431-4882",
+    "phoneHref": "+13314314882",
+    "address": "1748 West Jefferson Avenue",
+    "city": "Naperville",
+    "state": "IL",
+    "zip": "60540",
+    "mapsQuery": "Noon Whistle Brewing, 1748 West Jefferson Avenue, Naperville, IL 60540",
+    "lat": 41.7684423,
+    "lon": -88.1936142
+  },
+  "en": {
+    "meta": {
+      "title": "Noon Whistle Brewing | Craft Brewery & Taproom in Naperville, IL",
+      "description": "Independent craft brewery & taproom in Naperville, IL. Small-batch IPAs, crushable sours, rotating food trucks, dog- & kid-friendly. Call (331) 431-4882."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Tap List",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Visit the Taproom"
+    },
+    "hero": {
+      "eyebrow": "Independent Craft Brewery · Taproom",
+      "title": "Fresh Beer,",
+      "titleAccent": "Poured by People Who Feel Like Family",
+      "subtitle": "A community brewery and taproom in Naperville, small-batch IPAs and crushable sours straight from the tank, a dog- and kid-friendly room, and a rotating food truck out front most nights.",
+      "ctaPrimary": "View Tap List",
+      "ctaSecondary": "Call the Taproom",
+      "badge": "Small-Batch · Dog- & Kid-Friendly · Food Trucks"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Small-Batch IPAs",
+        "text": "Hazy, juicy, and West Coast dank, our IPAs are brewed in small batches and poured fresh, so there's always something new on the board."
+      },
+      {
+        "icon": "leaf",
+        "title": "Crushable Sours & Lagers",
+        "text": "Bright kettle sours, clean lagers, and easy-drinking pours made for warm afternoons and long conversations on the patio."
+      },
+      {
+        "icon": "heart",
+        "title": "Dog- & Kid-Friendly",
+        "text": "Bring the whole crew, four legs included. Our taproom is an open, welcoming room where families and good dogs are always at home."
+      },
+      {
+        "icon": "star",
+        "title": "Rotating Food Trucks",
+        "text": "A different food truck rolls up most nights, so the eats are always changing while your favorite pint stays right where you left it."
+      }
+    ],
+    "menu": {
+      "heading": "What's On Tap",
+      "subheading": "Tap list, pricing, and pours shown are illustrative demo content for this sample site. Please call (331) 431-4882 for today's beers, ABVs, and what's pouring fresh.",
+      "categories": [
+        {
+          "id": "on-tap",
+          "name": "On Tap",
+          "blurb": "Small-batch IPAs, crushable sours, clean lagers, and a roasty stout, all poured fresh from the tank.",
+          "items": [
+            {
+              "name": "Whistle Stop IPA",
+              "desc": "Our flagship West Coast IPA, piney and dank with a crisp bitter finish. Around 6.8% ABV.",
+              "price": "$7",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Recess Hazy IPA",
+              "desc": "Soft and juicy New England-style haze bursting with mango, citrus, and stone fruit. Around 6.5% ABV.",
+              "price": "$7",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Tart Whistle Raspberry Sour",
+              "desc": "A bright, crushable kettle sour with real raspberry and a clean pucker. Around 4.5% ABV.",
+              "price": "$6",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Lunch Pail Pilsner",
+              "desc": "A crisp, clean German-style pils with a snappy hop bite, our easy after-work pour. Around 4.8% ABV.",
+              "price": "$6",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Quitting Time Lager",
+              "desc": "A smooth, golden helles-style lager that drinks light and goes down easy. Around 4.6% ABV.",
+              "price": "$6",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Midnight Whistle Oatmeal Stout",
+              "desc": "Silky and roasty with notes of cocoa, coffee, and toasted oats. Around 5.8% ABV.",
+              "price": "$7",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cans-crowlers",
+          "name": "Cans & Crowlers To Go",
+          "blurb": "Take the taproom home, fresh 4-packs, fill-on-demand crowlers, and a variety pack to mix it up.",
+          "items": [
+            {
+              "name": "IPA 4-Pack",
+              "desc": "Four 16oz cans of our Whistle Stop or Recess Hazy, packed fresh to grab and go.",
+              "price": "$18",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Sour 4-Pack",
+              "desc": "Four 16oz cans of our rotating kettle sour, ask which fruit is in the tank this week.",
+              "price": "$17",
+              "tags": []
+            },
+            {
+              "name": "Lager 4-Pack",
+              "desc": "Four 16oz cans of our crushable Lunch Pail Pilsner or Quitting Time Lager.",
+              "price": "$15",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "32oz Crowler",
+              "desc": "Any beer on tap, sealed fresh to order in a single-serve 32oz can to take with you.",
+              "price": "$10",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Mixed Variety 4-Pack",
+              "desc": "Build your own to-go 4-pack from any cans we have on the shelf, a little of everything.",
+              "price": "$19",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "flights-tastings",
+          "name": "Flights & Tastings",
+          "blurb": "Taste your way across the board, build a flight your way or let the brewer pick.",
+          "items": [
+            {
+              "name": "Build-Your-Own Flight",
+              "desc": "Pick any four 5oz pours from the board and taste your way across the tap list.",
+              "price": "$12",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "IPA Flight",
+              "desc": "Four 5oz pours through our hoppy lineup, from West Coast pine to soft, juicy haze.",
+              "price": "$12",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Sour Sampler",
+              "desc": "Four 5oz pours of our brightest, most crushable kettle sours, tart and fruit-forward.",
+              "price": "$12",
+              "tags": []
+            },
+            {
+              "name": "Brewer's Pick Flight",
+              "desc": "Four 5oz pours hand-chosen by the brewer, including whatever just hit the tank.",
+              "price": "$13",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "snacks-eats",
+          "name": "Snacks & Eats",
+          "blurb": "Taproom snacks to keep the pints company, plus whatever food truck rolled up tonight.",
+          "items": [
+            {
+              "name": "Warm Bavarian Pretzel",
+              "desc": "A big, soft pretzel baked warm and salted, served with our house beer-cheese dip.",
+              "price": "$8",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Beer-Cheese Dip",
+              "desc": "Creamy cheese melted with our own lager and served with warm pretzel bites.",
+              "price": "$7",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Fresh Popcorn",
+              "desc": "A bottomless bowl of warm, fresh-popped popcorn, the perfect free-handed snack.",
+              "price": "$4",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Taproom Snack Mix",
+              "desc": "A salty, crunchy house mix of pretzels, nuts, and just enough heat to keep you sipping.",
+              "price": "$5",
+              "tags": []
+            },
+            {
+              "name": "Tonight's Food Truck",
+              "desc": "A rotating food truck parks out front most nights, ask the bar who's cooking and pair it with a pint.",
+              "price": "$12",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "An Independent Brewery & Taproom in Naperville",
+      "lead": "Noon Whistle Brewing is a community craft brewery and taproom on West Jefferson Avenue, where small-batch beer is poured fresh and the regulars feel like family.",
+      "paragraphs": [
+        "Noon Whistle started in Lombard in 2014, when three childhood friends set out to brew drinkable beer, and in September 2020 we brought that mission to Naperville with a 29,000-square-foot production brewery and taproom on West Jefferson Avenue. We brew in small batches and pour straight from the tank, hazy and West Coast IPAs, bright crushable sours, clean lagers, and a roasty stout when the weather turns. The board is always rotating, so there's a reason to pull up a stool and see what's new.",
+        "Our taproom is the kind of room where everyone fits, dogs on the floor, kids at the table, and a different food truck out front most nights. Bring the whole crew, grab a flight or a fresh pint, and stay a while. The first round always feels like coming home."
+      ],
+      "stats": [
+        {
+          "value": "Small-Batch",
+          "label": "Brewed Fresh On-Site"
+        },
+        {
+          "value": "Dog- & Kid-Friendly",
+          "label": "Everyone's Welcome"
+        },
+        {
+          "value": "Food Trucks",
+          "label": "Rotating Most Nights"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside the Taproom",
+      "subheading": "A peek at the fresh pours, full flights, and easygoing room waiting for you on West Jefferson Avenue.",
+      "captions": [
+        "A fresh hazy IPA poured straight from the tank",
+        "A build-your-own flight lined up and ready to taste",
+        "A bright, fruit-forward kettle sour catching the light",
+        "A warm Bavarian pretzel with house beer-cheese dip",
+        "Tonight's food truck parked out front",
+        "A good dog and a full pint on an easy afternoon"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Naperville Is Saying",
+      "items": [
+        {
+          "quote": "My go-to taproom. The hazy IPA is always fresh, the staff knows my order, and they actually welcome my dog. It feels like the neighborhood's living room.",
+          "name": "Marcus T.",
+          "role": "Taproom regular"
+        },
+        {
+          "quote": "We bring the kids, grab whatever food truck is out front, and split a flight. The sours are crushable and the room is so laid-back. We're here every other weekend.",
+          "name": "Priya S.",
+          "role": "Local family"
+        },
+        {
+          "quote": "Filled a crowler of the stout to take home and it was perfect. Small-batch, fresh, and the people behind the bar genuinely care. Best little brewery in town.",
+          "name": "Danny R.",
+          "role": "Craft beer fan"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Naperville",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Tuesday",
+          "time": "Closed"
+        },
+        {
+          "day": "Wednesday - Thursday",
+          "time": "4:00 PM - 10:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "3:00 PM - 11:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "12:00 PM - 11:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "12:00 PM - 8:00 PM"
+        }
+      ],
+      "phoneLabel": "Call the Taproom",
+      "directions": "Find us at 1748 West Jefferson Avenue in Naperville. Pull up a stool for a fresh pint, build a flight, or fill a crowler to go, dogs, kids, and the whole crew welcome.",
+      "neighborhood": "The taproom sits on West Jefferson Avenue on Naperville's west side, just east of Route 59 and a short drive from downtown Naperville and its Riverwalk."
+    },
+    "cta": {
+      "heading": "Come Pull Up a Stool",
+      "text": "Stop by the taproom for a fresh pint, build a flight, or grab a 4-pack and a crowler to go. Bring the family, bring the dog, and see what's pouring tonight.",
+      "button": "Call (331) 431-4882"
+    },
+    "form": {
+      "heading": "Book a Table or Get in Touch",
+      "subheading": "Planning a group hang, a private buyout, or just want to know what's on tap tonight? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Group Size",
+      "date": "Preferred Date/Time",
+      "message": "Tell us about your visit, group, or question.",
+      "submit": "Send Request",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "An independent community craft brewery and taproom in Naperville, small-batch IPAs and crushable sours poured fresh, dog- and kid-friendly, with food trucks most nights.",
+      "rights": "© Noon Whistle Brewing. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Noon Whistle Brewing | Cervecería Artesanal y Taproom en Naperville, IL",
+      "description": "Cervecería artesanal y taproom en Naperville, IL. IPAs de lote pequeño, sours refrescantes, food trucks, ideal para perros y niños. Llama al (331) 431-4882."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Lista de Cervezas",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Visítanos"
+    },
+    "hero": {
+      "eyebrow": "Cervecería Artesanal Independiente · Taproom",
+      "title": "Cerveza Fresca,",
+      "titleAccent": "Servida por Gente Que Se Siente Como Familia",
+      "subtitle": "Una cervecería comunitaria y taproom en Naperville, IPAs de lote pequeño y sours fáciles de tomar directo del tanque, un salón ideal para perros y niños, y un food truck rotativo afuera casi todas las noches.",
+      "ctaPrimary": "Ver Lista de Cervezas",
+      "ctaSecondary": "Llama al Taproom",
+      "badge": "Lote Pequeño · Ideal para Perros y Niños · Food Trucks"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "IPAs de Lote Pequeño",
+        "text": "Turbias, jugosas y al estilo West Coast bien intensas, nuestras IPAs se elaboran en lotes pequeños y se sirven frescas, así que siempre hay algo nuevo en la pizarra."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sours y Lagers Fáciles de Tomar",
+        "text": "Sours de olla brillantes, lagers limpias y cervezas ligeras hechas para tardes cálidas y largas conversaciones en el patio."
+      },
+      {
+        "icon": "heart",
+        "title": "Ideal para Perros y Niños",
+        "text": "Trae a toda la pandilla, las cuatro patas incluidas. Nuestro taproom es un salón abierto y acogedor donde las familias y los buenos perros siempre se sienten en casa."
+      },
+      {
+        "icon": "star",
+        "title": "Food Trucks Rotativos",
+        "text": "Un food truck distinto llega casi todas las noches, así que la comida siempre cambia mientras tu cerveza favorita se queda justo donde la dejaste."
+      }
+    ],
+    "menu": {
+      "heading": "Lo Que Hay en el Tanque",
+      "subheading": "La lista de cervezas, los precios y las copas mostradas son contenido demostrativo e ilustrativo para este sitio de muestra. Llama al (331) 431-4882 para conocer las cervezas del día, sus grados de alcohol y lo que está saliendo fresco.",
+      "categories": [
+        {
+          "id": "on-tap",
+          "name": "En el Grifo",
+          "blurb": "IPAs de lote pequeño, sours fáciles de tomar, lagers limpias y un stout tostado, todo servido fresco del tanque.",
+          "items": [
+            {
+              "name": "Whistle Stop IPA",
+              "desc": "Nuestra IPA insignia estilo West Coast, resinosa e intensa con un final amargo y crujiente. Alrededor de 6.8% de alcohol.",
+              "price": "$7",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Recess Hazy IPA",
+              "desc": "Turbia, suave y jugosa al estilo New England, repleta de mango, cítricos y fruta de hueso. Alrededor de 6.5% de alcohol.",
+              "price": "$7",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Tart Whistle Sour de Frambuesa",
+              "desc": "Un sour de olla brillante y fácil de tomar con frambuesa de verdad y una acidez limpia. Alrededor de 4.5% de alcohol.",
+              "price": "$6",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Lunch Pail Pilsner",
+              "desc": "Una pils estilo alemán crujiente y limpia con un toque amargo del lúpulo, nuestra cerveza fácil para después del trabajo. Alrededor de 4.8% de alcohol.",
+              "price": "$6",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Quitting Time Lager",
+              "desc": "Una lager dorada estilo helles, suave, ligera y que entra con facilidad. Alrededor de 4.6% de alcohol.",
+              "price": "$6",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Midnight Whistle Oatmeal Stout",
+              "desc": "Sedosa y tostada con notas de cocoa, café y avena tostada. Alrededor de 5.8% de alcohol.",
+              "price": "$7",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cans-crowlers",
+          "name": "Latas y Crowlers Para Llevar",
+          "blurb": "Llévate el taproom a casa, 4-packs frescos, crowlers llenados al momento y un variety pack para combinar.",
+          "items": [
+            {
+              "name": "4-Pack de IPA",
+              "desc": "Cuatro latas de 16oz de nuestra Whistle Stop o Recess Hazy, empacadas frescas para llevar.",
+              "price": "$18",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "4-Pack de Sour",
+              "desc": "Cuatro latas de 16oz de nuestro sour de olla rotativo, pregunta qué fruta hay en el tanque esta semana.",
+              "price": "$17",
+              "tags": []
+            },
+            {
+              "name": "4-Pack de Lager",
+              "desc": "Cuatro latas de 16oz de nuestra Lunch Pail Pilsner o Quitting Time Lager, fáciles de tomar.",
+              "price": "$15",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Crowler de 32oz",
+              "desc": "Cualquier cerveza del grifo, sellada fresca al momento en una lata individual de 32oz para llevar.",
+              "price": "$10",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Variety 4-Pack Combinado",
+              "desc": "Arma tu propio 4-pack para llevar con cualquier lata que tengamos en el estante, un poco de todo.",
+              "price": "$19",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "flights-tastings",
+          "name": "Flights y Catas",
+          "blurb": "Prueba de todo en la pizarra, arma tu flight a tu manera o deja que el cervecero elija.",
+          "items": [
+            {
+              "name": "Flight a Tu Manera",
+              "desc": "Elige cualquier cuatro copas de 5oz de la pizarra y prueba a lo largo de la lista de cervezas.",
+              "price": "$12",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Flight de IPA",
+              "desc": "Cuatro copas de 5oz por nuestra línea de cervezas con lúpulo, del pino West Coast a la turbia y jugosa.",
+              "price": "$12",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Sampler de Sours",
+              "desc": "Cuatro copas de 5oz de nuestros sours de olla más brillantes y fáciles de tomar, ácidos y con mucha fruta.",
+              "price": "$12",
+              "tags": []
+            },
+            {
+              "name": "Flight Selección del Cervecero",
+              "desc": "Cuatro copas de 5oz elegidas a mano por el cervecero, incluyendo lo que acaba de llegar al tanque.",
+              "price": "$13",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "snacks-eats",
+          "name": "Antojos y Comida",
+          "blurb": "Antojos del taproom para acompañar las cervezas, además de cualquier food truck que llegó esta noche.",
+          "items": [
+            {
+              "name": "Pretzel Bávaro Caliente",
+              "desc": "Un pretzel grande y suave horneado caliente y con sal, servido con nuestra salsa de queso a la cerveza.",
+              "price": "$8",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Salsa de Queso a la Cerveza",
+              "desc": "Queso cremoso fundido con nuestra propia lager y servido con bocados de pretzel caliente.",
+              "price": "$7",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Palomitas Frescas",
+              "desc": "Un tazón sin fondo de palomitas calientes recién hechas, el antojo perfecto para picar.",
+              "price": "$4",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Mezcla de Antojos del Taproom",
+              "desc": "Una mezcla casera salada y crujiente de pretzels, nueces y el picante justo para seguir tomando.",
+              "price": "$5",
+              "tags": []
+            },
+            {
+              "name": "El Food Truck de Hoy",
+              "desc": "Un food truck rotativo se estaciona afuera casi todas las noches, pregunta en la barra quién cocina y combínalo con una cerveza.",
+              "price": "$12",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Una Cervecería y Taproom Independiente en Naperville",
+      "lead": "Noon Whistle Brewing es una cervecería artesanal comunitaria y taproom en West Jefferson Avenue, donde la cerveza de lote pequeño se sirve fresca y los clientes habituales se sienten como familia.",
+      "paragraphs": [
+        "Noon Whistle nació en Lombard en 2014, cuando tres amigos de la infancia se propusieron elaborar cerveza fácil de tomar, y en septiembre de 2020 trajimos esa misión a Naperville con una cervecería de producción y taproom de 29,000 pies cuadrados en West Jefferson Avenue. Elaboramos en lotes pequeños y servimos directo del tanque, IPAs turbias y estilo West Coast, sours brillantes y fáciles de tomar, lagers limpias y un stout tostado cuando cambia el clima. La pizarra siempre rota, así que siempre hay un motivo para acercarte a la barra y ver qué hay de nuevo.",
+        "Nuestro taproom es de esos salones donde todos caben, perros en el piso, niños en la mesa y un food truck distinto afuera casi todas las noches. Trae a toda la pandilla, pide un flight o una cerveza fresca, y quédate un rato. La primera ronda siempre se siente como volver a casa."
+      ],
+      "stats": [
+        {
+          "value": "Lote Pequeño",
+          "label": "Elaborada Fresca en el Local"
+        },
+        {
+          "value": "Para Perros y Niños",
+          "label": "Todos Son Bienvenidos"
+        },
+        {
+          "value": "Food Trucks",
+          "label": "Rotativos Casi Cada Noche"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Dentro del Taproom",
+      "subheading": "Un vistazo a las cervezas frescas, los flights completos y el salón relajado que te esperan en West Jefferson Avenue.",
+      "captions": [
+        "Una IPA turbia fresca servida directo del tanque",
+        "Un flight armado a tu manera, listo para probar",
+        "Un sour de olla brillante y lleno de fruta captando la luz",
+        "Un pretzel bávaro caliente con salsa de queso a la cerveza",
+        "El food truck de hoy estacionado afuera",
+        "Un buen perro y una cerveza llena en una tarde tranquila"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice Naperville",
+      "items": [
+        {
+          "quote": "Mi taproom de cabecera. La IPA turbia siempre está fresca, el personal se sabe mi pedido y de verdad reciben a mi perro. Se siente como la sala del vecindario.",
+          "name": "Marcus T.",
+          "role": "Cliente habitual del taproom"
+        },
+        {
+          "quote": "Traemos a los niños, pedimos del food truck que esté afuera y compartimos un flight. Los sours son fáciles de tomar y el salón es súper relajado. Venimos cada quince días.",
+          "name": "Priya S.",
+          "role": "Familia local"
+        },
+        {
+          "quote": "Llené un crowler del stout para llevar a casa y quedó perfecto. Lote pequeño, fresco, y la gente detrás de la barra de verdad se preocupa. La mejor cervecería pequeña del pueblo.",
+          "name": "Danny R.",
+          "role": "Aficionado a la cerveza artesanal"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en Naperville",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Martes",
+          "time": "Cerrado"
+        },
+        {
+          "day": "Miércoles - Jueves",
+          "time": "4:00 PM - 10:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "3:00 PM - 11:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "12:00 PM - 11:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "12:00 PM - 8:00 PM"
+        }
+      ],
+      "phoneLabel": "Llama al Taproom",
+      "directions": "Encuéntranos en 1748 West Jefferson Avenue en Naperville. Acércate a la barra por una cerveza fresca, arma un flight o llena un crowler para llevar, perros, niños y toda la pandilla son bienvenidos.",
+      "neighborhood": "El taproom está sobre West Jefferson Avenue, en el lado oeste de Naperville, justo al este de la Ruta 59 y a un corto trayecto en auto del centro de Naperville y su Riverwalk."
+    },
+    "cta": {
+      "heading": "Ven y Acércate a la Barra",
+      "text": "Pásate por el taproom por una cerveza fresca, arma un flight o llévate un 4-pack y un crowler para llevar. Trae a la familia, trae al perro y ve qué está saliendo esta noche.",
+      "button": "Llamar al (331) 431-4882"
+    },
+    "form": {
+      "heading": "Reserva una Mesa o Contáctanos",
+      "subheading": "¿Planeas una reunión de grupo, un evento privado o solo quieres saber qué hay en el grifo esta noche? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "Cuéntanos sobre tu visita, grupo o pregunta.",
+      "submit": "Enviar Solicitud",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Una cervecería artesanal comunitaria e independiente y taproom en Naperville, IPAs de lote pequeño y sours fáciles de tomar servidos frescos, ideal para perros y niños, con food trucks casi todas las noches.",
+      "rights": "© Noon Whistle Brewing. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

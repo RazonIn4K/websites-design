@@ -1,0 +1,684 @@
+{
+  "business": {
+    "name": "Tastee Bite",
+    "shortName": "Tastee Bite",
+    "vertical": "Frozen Custard & Treats Stand",
+    "phone": "(630) 552-0200",
+    "phoneHref": "+16305520200",
+    "address": "7000 Burroughs Avenue",
+    "city": "Plano",
+    "state": "IL",
+    "zip": "60545",
+    "mapsQuery": "Tastee Bite, 7000 Burroughs Avenue, Plano, IL 60545"
+  },
+  "en": {
+    "meta": {
+      "title": "Tastee Bite | Frozen Custard, Concretes & Shakes in Plano, IL",
+      "description": "Old-fashioned frozen custard stand in Plano, IL. Creamy soft-serve cones, loaded concretes, thick shakes, and summer-night treats. Call (630) 552-0200."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Order Now"
+    },
+    "hero": {
+      "eyebrow": "Plano's Frozen Custard Stand",
+      "title": "Creamy Custard,",
+      "titleAccent": "Sweet Summer Nights",
+      "subtitle": "Pull up to the window for fresh frozen custard, loaded concretes, and thick hand-spun shakes. A sweet Plano tradition the whole family comes back for, scoop after scoop.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Call to Order",
+      "badge": "Walk-up window · Family favorite since the first scoop"
+    },
+    "highlights": [
+      {
+        "icon": "icecream",
+        "title": "Fresh Frozen Custard",
+        "text": "Rich, creamy soft-serve churned fresh, served up in cones, cups, and dishes just the way you like it."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Loaded Concretes",
+        "text": "Thick blended concretes packed with your favorite mix-ins, so dense we serve them upside down."
+      },
+      {
+        "icon": "star",
+        "title": "Flavor of the Day",
+        "text": "A new featured flavor every day, made in small batches and gone before you know it."
+      },
+      {
+        "icon": "heart",
+        "title": "A Plano Tradition",
+        "text": "An old-fashioned stand where neighbors gather on warm nights for treats and a little nostalgia."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Items and prices shown are illustrative demo content for this concept site and may not reflect the stand's actual menu or pricing.",
+      "categories": [
+        {
+          "id": "frozen-custard",
+          "name": "Frozen Custard",
+          "blurb": "Creamy soft-serve custard churned fresh, in cones, cups, and dishes.",
+          "items": [
+            {
+              "name": "Custard Cone",
+              "desc": "Smooth vanilla or chocolate custard piled high on a crisp cake or waffle cone.",
+              "price": "$3.75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Custard Cup",
+              "desc": "Your favorite custard in a cup, the no-drip way to enjoy every creamy bite.",
+              "price": "$3.75"
+            },
+            {
+              "name": "Dish of Custard",
+              "desc": "A generous dish of fresh custard, perfect for adding a topping or two.",
+              "price": "$4.25"
+            },
+            {
+              "name": "Flavor of the Day",
+              "desc": "Today's small-batch featured flavor, swirled fresh and always changing.",
+              "price": "$4.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Kiddie Cone",
+              "desc": "A little scoop on a cone, just right for the smallest custard fans.",
+              "price": "$2.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "concretes-sundaes",
+          "name": "Concretes & Sundaes",
+          "blurb": "Loaded blended concretes and classic sundaes built tall.",
+          "items": [
+            {
+              "name": "Loaded Concrete",
+              "desc": "Custard blended thick with candy, cookies, or fruit until it's spoon-standing dense.",
+              "price": "$6.25",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Hot Fudge Sundae",
+              "desc": "Creamy custard under warm hot fudge, whipped cream, and a cherry on top.",
+              "price": "$5.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Banana Split",
+              "desc": "A split banana with three scoops, fudge, strawberry, pineapple, and whipped cream.",
+              "price": "$6.95"
+            },
+            {
+              "name": "Turtle Concrete",
+              "desc": "Blended thick with caramel, hot fudge, and toasted pecans for the full turtle treat.",
+              "price": "$6.50",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Brownie Sundae",
+              "desc": "A warm fudge brownie topped with custard, fudge, and whipped cream.",
+              "price": "$6.25"
+            }
+          ]
+        },
+        {
+          "id": "shakes-malts-floats",
+          "name": "Shakes, Malts & Floats",
+          "blurb": "Thick hand-spun shakes, old-school malts, and fizzy floats.",
+          "items": [
+            {
+              "name": "Thick Vanilla Shake",
+              "desc": "Hand-spun vanilla custard shake, thick enough to make the straw work for it.",
+              "price": "$5.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Chocolate Malt",
+              "desc": "A rich chocolate custard malt with that classic old-fashioned malted flavor.",
+              "price": "$5.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Root Beer Float",
+              "desc": "Frosty root beer poured over creamy custard for a fizzy, foamy treat.",
+              "price": "$4.75",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Strawberry Shake",
+              "desc": "Sweet strawberry blended into a thick, creamy custard shake.",
+              "price": "$5.25"
+            },
+            {
+              "name": "Cookies & Cream Shake",
+              "desc": "Chocolate sandwich cookies spun into a thick vanilla custard shake.",
+              "price": "$5.50"
+            }
+          ]
+        },
+        {
+          "id": "treats-snacks",
+          "name": "Treats & Snacks",
+          "blurb": "Savory bites and cold drinks to round out your stop.",
+          "items": [
+            {
+              "name": "Soft Pretzel",
+              "desc": "A warm, salted soft pretzel served with cheese sauce for dipping.",
+              "price": "$3.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Nachos",
+              "desc": "Crisp tortilla chips piled with warm melted cheese sauce.",
+              "price": "$4.25"
+            },
+            {
+              "name": "Fountain Soda",
+              "desc": "An ice-cold fountain drink in your choice of classic flavors.",
+              "price": "$2.25",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Bottled Water",
+              "desc": "A chilled bottle of water to cool off on a hot summer night.",
+              "price": "$1.75"
+            },
+            {
+              "name": "Kids Snack Pack",
+              "desc": "A small pretzel and a fountain drink, made for the little ones.",
+              "price": "$4.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "An Old-Fashioned Custard Stand",
+      "lead": "Tastee Bite is an independent walk-up stand serving fresh frozen custard and sweet summer treats on Burroughs Avenue in Plano.",
+      "paragraphs": [
+        "There's something timeless about pulling up to the window on a warm evening, ordering a creamy cone, and finding a spot to enjoy it before it melts. At Tastee Bite, we keep that old-fashioned tradition alive with frozen custard churned fresh, loaded concretes blended thick, and shakes spun by hand.",
+        "We're a family-friendly stand where neighbors run into neighbors, kids count out their coins for a kiddie cone, and the flavor of the day keeps regulars coming back. Whether it's a quick treat after the game or a sweet end to a summer night, we'll see you at the window."
+      ],
+      "stats": [
+        {
+          "value": "Fresh Daily",
+          "label": "Custard Churned On-Site"
+        },
+        {
+          "value": "Walk-Up",
+          "label": "Window Service"
+        },
+        {
+          "value": "All Ages",
+          "label": "A Family Treat Stop"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Gallery",
+      "subheading": "A taste of what's waiting at the window, from cones to concretes.",
+      "captions": [
+        "A creamy custard cone swirled fresh",
+        "A loaded concrete packed with mix-ins",
+        "Hot fudge sundae with a cherry on top",
+        "A thick, hand-spun shake ready to go",
+        "Warm soft pretzel with cheese sauce",
+        "Summer nights at the walk-up window"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Neighbors Are Saying",
+      "items": [
+        {
+          "quote": "The custard is unbelievably creamy and the concretes are loaded. We make a stop here part of every summer night.",
+          "name": "Megan T.",
+          "role": "Plano Local"
+        },
+        {
+          "quote": "My kids beg for the flavor of the day. It's the kind of old-fashioned stand I remember as a kid myself.",
+          "name": "Dave R.",
+          "role": "Regular"
+        },
+        {
+          "quote": "Thick shakes, friendly window, and prices that don't break the bank. A real neighborhood gem.",
+          "name": "Christina L.",
+          "role": "Custard Fan"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Stand",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "time": "12:00 PM – 9:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "12:00 PM – 9:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "12:00 PM – 9:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "12:00 PM – 10:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "11:00 AM – 10:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM – 9:00 PM"
+        }
+      ],
+      "phoneLabel": "Call to Order",
+      "directions": "Find our walk-up window on Burroughs Avenue in Plano with easy parking nearby. Call ahead to check the flavor of the day or place your order before you arrive."
+    },
+    "cta": {
+      "heading": "Craving Something Sweet?",
+      "text": "Give us a call to hear today's flavor or place your order, then pull up to the window. We'll have your treat ready.",
+      "button": "Call (630) 552-0200"
+    },
+    "form": {
+      "heading": "Get in Touch",
+      "subheading": "Have a question, a catering idea, or a group order? Send us a note and we'll get back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Group Size",
+      "date": "Preferred Date/Time",
+      "message": "How Can We Help?",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your message and will be in touch soon.",
+      "error": "Something went wrong. Please try again or give us a call at (630) 552-0200.",
+      "consent": "By submitting, you agree to be contacted about your request."
+    },
+    "footer": {
+      "tagline": "Fresh frozen custard, loaded concretes, and thick shakes in Plano, IL.",
+      "rights": "© Tastee Bite. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Stand Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Tastee Bite | Natilla Congelada, Concretes y Malteadas en Plano, IL",
+      "description": "Puesto de natilla congelada al estilo de antes en Plano, IL. Conos cremosos, concretes cargados, malteadas espesas y antojos de verano. Llama al (630) 552-0200."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Ordenar"
+    },
+    "hero": {
+      "eyebrow": "El Puesto de Natilla Congelada de Plano",
+      "title": "Natilla Cremosa,",
+      "titleAccent": "Dulces Noches de Verano",
+      "subtitle": "Acércate a la ventanilla por natilla congelada fresca, concretes cargados y malteadas espesas batidas a mano. Una dulce tradición de Plano a la que toda la familia regresa, cucharada tras cucharada.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Llama para Ordenar",
+      "badge": "Ventanilla de pie · Favorito familiar desde la primera cucharada"
+    },
+    "highlights": [
+      {
+        "icon": "icecream",
+        "title": "Natilla Congelada Fresca",
+        "text": "Natilla suave y cremosa batida al momento, servida en conos, vasos y platos justo como te gusta."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Concretes Cargados",
+        "text": "Concretes espesos batidos con tus complementos favoritos, tan densos que los servimos de cabeza."
+      },
+      {
+        "icon": "star",
+        "title": "Sabor del Día",
+        "text": "Un nuevo sabor destacado cada día, hecho en lotes pequeños y que se acaba antes de que te des cuenta."
+      },
+      {
+        "icon": "heart",
+        "title": "Una Tradición de Plano",
+        "text": "Un puesto al estilo de antes donde los vecinos se reúnen en las noches cálidas por antojos y un poco de nostalgia."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Los productos y precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar el menú o los precios reales del puesto.",
+      "categories": [
+        {
+          "id": "frozen-custard",
+          "name": "Natilla Congelada",
+          "blurb": "Natilla suave y cremosa batida fresca, en conos, vasos y platos.",
+          "items": [
+            {
+              "name": "Cono de Natilla",
+              "desc": "Natilla suave de vainilla o chocolate en abundancia sobre un cono crujiente de barquillo o galleta.",
+              "price": "$3.75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Vaso de Natilla",
+              "desc": "Tu natilla favorita en vaso, la forma sin goteos de disfrutar cada bocado cremoso.",
+              "price": "$3.75"
+            },
+            {
+              "name": "Plato de Natilla",
+              "desc": "Un generoso plato de natilla fresca, perfecto para agregarle uno o dos complementos.",
+              "price": "$4.25"
+            },
+            {
+              "name": "Sabor del Día",
+              "desc": "El sabor destacado de hoy en lote pequeño, batido al momento y siempre cambiante.",
+              "price": "$4.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Cono Infantil",
+              "desc": "Una pequeña porción en cono, ideal para los fans más chiquitos de la natilla.",
+              "price": "$2.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "concretes-sundaes",
+          "name": "Concretes y Sundaes",
+          "blurb": "Concretes cargados y sundaes clásicos servidos bien altos.",
+          "items": [
+            {
+              "name": "Concrete Cargado",
+              "desc": "Natilla batida espesa con dulces, galletas o fruta hasta quedar tan densa que la cuchara se queda parada.",
+              "price": "$6.25",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Sundae de Fudge Caliente",
+              "desc": "Natilla cremosa bajo fudge caliente, crema batida y una cereza encima.",
+              "price": "$5.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Banana Split",
+              "desc": "Un plátano partido con tres porciones, fudge, fresa, piña y crema batida.",
+              "price": "$6.95"
+            },
+            {
+              "name": "Concrete Turtle",
+              "desc": "Batido espeso con caramelo, fudge caliente y nueces tostadas para el sabor turtle completo.",
+              "price": "$6.50",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Sundae de Brownie",
+              "desc": "Un brownie de fudge caliente coronado con natilla, fudge y crema batida.",
+              "price": "$6.25"
+            }
+          ]
+        },
+        {
+          "id": "shakes-malts-floats",
+          "name": "Malteadas, Malts y Floats",
+          "blurb": "Malteadas espesas batidas a mano, malts a la antigua y floats con burbujas.",
+          "items": [
+            {
+              "name": "Malteada Espesa de Vainilla",
+              "desc": "Malteada de natilla de vainilla batida a mano, tan espesa que el popote tiene que esforzarse.",
+              "price": "$5.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Malt de Chocolate",
+              "desc": "Un rico malt de natilla de chocolate con ese clásico sabor malteado de antaño.",
+              "price": "$5.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Float de Root Beer",
+              "desc": "Root beer bien fría servida sobre natilla cremosa para un antojo con burbujas y espuma.",
+              "price": "$4.75",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Malteada de Fresa",
+              "desc": "Dulce fresa batida en una malteada de natilla espesa y cremosa.",
+              "price": "$5.25"
+            },
+            {
+              "name": "Malteada de Cookies & Cream",
+              "desc": "Galletas de chocolate batidas en una malteada espesa de natilla de vainilla.",
+              "price": "$5.50"
+            }
+          ]
+        },
+        {
+          "id": "treats-snacks",
+          "name": "Antojos y Snacks",
+          "blurb": "Bocados salados y bebidas frías para completar tu visita.",
+          "items": [
+            {
+              "name": "Pretzel Suave",
+              "desc": "Un pretzel suave, caliente y con sal, servido con salsa de queso para remojar.",
+              "price": "$3.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Nachos",
+              "desc": "Totopos crujientes cubiertos con salsa de queso caliente y derretida.",
+              "price": "$4.25"
+            },
+            {
+              "name": "Refresco de Fuente",
+              "desc": "Una bebida de fuente bien fría en tu elección de sabores clásicos.",
+              "price": "$2.25",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Agua Embotellada",
+              "desc": "Una botella de agua fría para refrescarte en una calurosa noche de verano.",
+              "price": "$1.75"
+            },
+            {
+              "name": "Combo Infantil",
+              "desc": "Un pretzel pequeño y una bebida de fuente, hecho para los más pequeños.",
+              "price": "$4.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Un Puesto de Natilla al Estilo de Antes",
+      "lead": "Tastee Bite es un puesto independiente de pie que sirve natilla congelada fresca y dulces antojos de verano en Burroughs Avenue en Plano.",
+      "paragraphs": [
+        "Hay algo atemporal en acercarse a la ventanilla en una tarde cálida, pedir un cono cremoso y encontrar un lugar para disfrutarlo antes de que se derrita. En Tastee Bite mantenemos viva esa tradición de antes con natilla congelada batida fresca, concretes cargados bien espesos y malteadas batidas a mano.",
+        "Somos un puesto para toda la familia donde los vecinos se encuentran, los niños cuentan sus monedas para un cono infantil y el sabor del día hace que los clientes habituales regresen. Ya sea un antojo rápido después del partido o un dulce final para una noche de verano, te esperamos en la ventanilla."
+      ],
+      "stats": [
+        {
+          "value": "Fresco a Diario",
+          "label": "Natilla Batida en el Lugar"
+        },
+        {
+          "value": "De Pie",
+          "label": "Servicio en Ventanilla"
+        },
+        {
+          "value": "Todas las Edades",
+          "label": "Una Parada Familiar"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Galería",
+      "subheading": "Un adelanto de lo que te espera en la ventanilla, de los conos a los concretes.",
+      "captions": [
+        "Un cono cremoso de natilla batido fresco",
+        "Un concrete cargado lleno de complementos",
+        "Sundae de fudge caliente con una cereza encima",
+        "Una malteada espesa batida a mano lista para llevar",
+        "Pretzel suave y caliente con salsa de queso",
+        "Noches de verano en la ventanilla de pie"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dicen los Vecinos",
+      "items": [
+        {
+          "quote": "La natilla es increíblemente cremosa y los concretes vienen bien cargados. Pasar por aquí es parte de cada noche de verano.",
+          "name": "Megan T.",
+          "role": "Vecina de Plano"
+        },
+        {
+          "quote": "Mis hijos ruegan por el sabor del día. Es ese tipo de puesto de antes que yo recuerdo de niño.",
+          "name": "Dave R.",
+          "role": "Cliente Habitual"
+        },
+        {
+          "quote": "Malteadas espesas, una ventanilla amable y precios que no rompen el bolsillo. Una verdadera joya del vecindario.",
+          "name": "Christina L.",
+          "role": "Fan de la Natilla"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita el Puesto",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "Cerrado"
+        },
+        {
+          "day": "Martes",
+          "time": "12:00 PM – 9:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "12:00 PM – 9:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "12:00 PM – 9:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "12:00 PM – 10:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "11:00 AM – 10:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM – 9:00 PM"
+        }
+      ],
+      "phoneLabel": "Llama para Ordenar",
+      "directions": "Encuentra nuestra ventanilla de pie en Burroughs Avenue en Plano, con estacionamiento fácil cerca. Llama antes para conocer el sabor del día o hacer tu pedido antes de llegar."
+    },
+    "cta": {
+      "heading": "¿Se te Antoja Algo Dulce?",
+      "text": "Llámanos para conocer el sabor de hoy o hacer tu pedido, y luego acércate a la ventanilla. Tendremos tu antojo listo.",
+      "button": "Llamar al (630) 552-0200"
+    },
+    "form": {
+      "heading": "Contáctanos",
+      "subheading": "¿Tienes una pregunta, una idea de catering o un pedido para grupo? Envíanos un mensaje y te responderemos.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo Podemos Ayudarte?",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y nos pondremos en contacto pronto.",
+      "error": "Algo salió mal. Inténtalo de nuevo o llámanos al (630) 552-0200.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud."
+    },
+    "footer": {
+      "tagline": "Natilla congelada fresca, concretes cargados y malteadas espesas en Plano, IL.",
+      "rights": "© Tastee Bite. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario del Puesto",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

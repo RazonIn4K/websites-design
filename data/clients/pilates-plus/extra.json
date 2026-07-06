@@ -1,0 +1,48 @@
+{
+  "en": {
+    "ritual": {
+      "heading": "Your Visit, Step by Step",
+      "steps": [
+        {
+          "title": "Reserve Your Spot",
+          "text": "Call or book online and pick a class that fits your level. Arrive a few minutes early to settle in."
+        },
+        {
+          "title": "Meet Your Instructor",
+          "text": "We learn your goals, any old injuries, and how your body feels today, then set the reformer up just for you."
+        },
+        {
+          "title": "Move at Your Pace",
+          "text": "Flow through a small, guided session built around your breath, with hands-on cues to refine every movement safely."
+        },
+        {
+          "title": "Cool Down & Come Back",
+          "text": "Stretch, breathe, and ease out feeling taller and stronger. We'll help you book your next class before you leave."
+        }
+      ]
+    }
+  },
+  "es": {
+    "ritual": {
+      "heading": "Tu Visita, Paso a Paso",
+      "steps": [
+        {
+          "title": "Reserva tu Lugar",
+          "text": "Llama o reserva en línea y elige una clase para tu nivel. Llega unos minutos antes para acomodarte con calma."
+        },
+        {
+          "title": "Conoce a tu Instructor",
+          "text": "Conocemos tus metas, lesiones pasadas y cómo se siente tu cuerpo hoy, y preparamos el reformer solo para ti."
+        },
+        {
+          "title": "Muévete a tu Ritmo",
+          "text": "Fluye en una sesión pequeña y guiada en torno a tu respiración, con ajustes manuales para perfeccionar cada movimiento de forma segura."
+        },
+        {
+          "title": "Relájate y Regresa",
+          "text": "Estira, respira y sal sintiéndote más erguido y fuerte. Te ayudamos a reservar tu próxima clase antes de irte."
+        }
+      ]
+    }
+  }
+}

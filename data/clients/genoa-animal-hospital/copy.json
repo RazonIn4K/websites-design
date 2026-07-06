@@ -1,0 +1,726 @@
+{
+  "business": {
+    "name": "Genoa Animal Hospital",
+    "shortName": "Genoa Animal Hospital",
+    "vertical": "Veterinary Clinic & Animal Hospital",
+    "phone": "",
+    "phoneHref": "",
+    "address": "703 Pearson Drive",
+    "city": "Genoa",
+    "state": "IL",
+    "zip": "60135",
+    "mapsQuery": "Genoa Animal Hospital, 703 Pearson Drive, Genoa, IL 60135"
+  },
+  "en": {
+    "meta": {
+      "title": "Genoa Animal Hospital | Compassionate Vet Care in Genoa, IL",
+      "description": "Family-owned veterinary clinic in Genoa, IL caring for dogs, cats & small pets with gentle, modern medicine. Wellness, surgery, dental & urgent care. Book online."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About",
+      "gallery": "Our Patients",
+      "visit": "Visit",
+      "order": "Book Appointment"
+    },
+    "hero": {
+      "eyebrow": "Family-Owned Animal Hospital in Genoa",
+      "title": "Gentle, trusted care for the pets",
+      "titleAccent": "you love like family",
+      "subtitle": "From wagging-tail wellness visits to surgery and senior care, our team treats every dog, cat, and small pet with modern medicine and small-town heart.",
+      "ctaPrimary": "View Our Services",
+      "ctaSecondary": "Book Appointment",
+      "badge": "Compassionate care for Genoa-area pets"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "Pets Treated Like Family",
+        "text": "We slow down, listen, and care for your companion the way we would our own."
+      },
+      {
+        "icon": "shield",
+        "title": "Preventive at Heart",
+        "text": "Annual exams, vaccines, and parasite protection that stop problems before they start."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Modern Medicine, Small-Town Heart",
+        "text": "Up-to-date diagnostics and surgery in a calm, welcoming neighborhood setting."
+      },
+      {
+        "icon": "check",
+        "title": "Care for Every Life Stage",
+        "text": "From first puppy and kitten visits to gentle, dignified senior and end-of-life support."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "A snapshot of the care we provide. Services and prices shown here are illustrative demo content for this preview site — please contact us for current offerings and pricing.",
+      "categories": [
+        {
+          "id": "wellness-prevention",
+          "name": "Wellness & Prevention",
+          "blurb": "Routine care that keeps tails wagging and catches concerns early.",
+          "items": [
+            {
+              "name": "Annual Wellness Exam",
+              "desc": "Nose-to-tail head check with personalized health and lifestyle advice.",
+              "price": "From $55",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Vaccinations",
+              "desc": "Core and lifestyle vaccines tailored to your pet's age and risk.",
+              "price": "From $30",
+              "tags": []
+            },
+            {
+              "name": "Microchipping",
+              "desc": "Quick, permanent ID that helps reunite lost pets with their families.",
+              "price": "From $45",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Parasite Prevention",
+              "desc": "Flea, tick, and heartworm protection plans for year-round defense.",
+              "price": "Pricing on request",
+              "tags": []
+            },
+            {
+              "name": "Puppy & Kitten Packages",
+              "desc": "Bundled early-life visits, vaccines, and guidance for a healthy start.",
+              "price": "Pricing on request",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sick-urgent-care",
+          "name": "Sick & Urgent Care",
+          "blurb": "Prompt, gentle attention when your pet just isn't feeling right.",
+          "items": [
+            {
+              "name": "Illness & Sick-Pet Exam",
+              "desc": "Same-day evaluation to find the cause and start your pet feeling better.",
+              "price": "From $65",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Digital X-Rays",
+              "desc": "Fast, low-stress imaging to look closely at bones, lungs, and more.",
+              "price": "Pricing on request",
+              "tags": []
+            },
+            {
+              "name": "In-House Lab Work",
+              "desc": "Bloodwork and diagnostics with quick results to guide treatment.",
+              "price": "From $80",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Diagnostics & Testing",
+              "desc": "Targeted tests to pinpoint what's going on and chart the next step.",
+              "price": "Pricing on request",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "surgery-dentistry",
+          "name": "Surgery & Dentistry",
+          "blurb": "Safe, carefully monitored procedures with comfort-first anesthesia.",
+          "items": [
+            {
+              "name": "Spay & Neuter",
+              "desc": "Routine surgery with attentive monitoring and clear aftercare.",
+              "price": "From $150",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Dental Cleaning",
+              "desc": "Full cleaning, polishing, and oral exam for fresher breath and health.",
+              "price": "From $250",
+              "tags": []
+            },
+            {
+              "name": "Soft-Tissue Surgery",
+              "desc": "Mass removals, repairs, and more with gentle, modern technique.",
+              "price": "Pricing on request",
+              "tags": []
+            },
+            {
+              "name": "Tooth Extractions",
+              "desc": "Removal of damaged or painful teeth to restore comfort.",
+              "price": "Pricing on request",
+              "tags": []
+            },
+            {
+              "name": "Pre-Surgical Bloodwork",
+              "desc": "Safety screening to plan the right anesthesia for your pet.",
+              "price": "From $90",
+              "tags": [
+                "guarantee"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pet-wellness",
+          "name": "Pet Wellness & Support",
+          "blurb": "Whole-life guidance that supports your pet through every season.",
+          "items": [
+            {
+              "name": "Nutrition Counseling",
+              "desc": "Personalized food and weight plans for energy and a healthy coat.",
+              "price": "From $45",
+              "tags": []
+            },
+            {
+              "name": "Senior Pet Care",
+              "desc": "Tailored exams and screenings to keep older pets comfortable and active.",
+              "price": "From $75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pain Management",
+              "desc": "Compassionate plans to ease arthritis and chronic discomfort.",
+              "price": "Pricing on request",
+              "tags": []
+            },
+            {
+              "name": "End-of-Life Support",
+              "desc": "Gentle, dignified guidance and comfort care for hard goodbyes.",
+              "price": "Pricing on request",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Caring for Genoa's pets like our own",
+      "lead": "We're a family-owned animal hospital where your pet is greeted by name and treated with patience, gentleness, and respect.",
+      "paragraphs": [
+        "Genoa Animal Hospital blends up-to-date veterinary medicine with the warmth of a true neighborhood practice. Whether it's a first puppy visit, a worrisome cough, or a routine senior check-up, we take the time to explain your options and answer every question.",
+        "Right here on Pearson Drive, we care for dogs, cats, and small pets across every stage of life. Our goal is simple: keep your companion healthy, comfortable, and by your side for as many happy years as possible."
+      ],
+      "stats": [
+        {
+          "value": "Dogs · Cats · Small Pets",
+          "label": "Companions we care for"
+        },
+        {
+          "value": "All Ages",
+          "label": "Puppies to seniors"
+        },
+        {
+          "value": "Family-Owned",
+          "label": "Independent & local"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Our Patients",
+      "subheading": "A few of the happy faces and furry friends we're proud to care for.",
+      "captions": [
+        "A calm, comforting welcome at every visit",
+        "Gentle exams from nose to tail",
+        "Bright, clean treatment spaces",
+        "Cozy care for our feline friends",
+        "Patient handling for nervous pups",
+        "Healthy, happy companions going home"
+      ]
+    },
+    "testimonials": {
+      "heading": "Loved by Genoa pet families",
+      "items": [
+        {
+          "quote": "They treated my anxious rescue with so much patience. I've never felt more at ease leaving my dog in someone's care.",
+          "name": "Maria G.",
+          "role": "Dog mom"
+        },
+        {
+          "quote": "Caring, thorough, and never rushed. They explained every step of my cat's dental and checked in with us afterward.",
+          "name": "Daniel R.",
+          "role": "Cat owner"
+        },
+        {
+          "quote": "When our senior pup needed extra support, this team was kind, honest, and gentle every step of the way.",
+          "name": "Karen S.",
+          "role": "Longtime client"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit Genoa Animal Hospital",
+      "addressLabel": "Our Location",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday – Friday",
+          "time": "8:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "8:00 AM – 1:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Get in Touch",
+      "directions": "Find us on Pearson Drive in Genoa, with easy parking right out front. Book online and we'll confirm your appointment."
+    },
+    "cta": {
+      "heading": "Ready to give your pet gentle, trusted care?",
+      "text": "Request an appointment online and our team will reach out to confirm a time that works for you and your companion.",
+      "button": "Request an Appointment"
+    },
+    "form": {
+      "heading": "Book an Appointment",
+      "subheading": "Tell us a little about your pet and we'll be in touch to confirm your visit.",
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Pet & Service Needed",
+      "date": "Preferred Date / Time",
+      "message": "How can we help your pet?",
+      "submit": "Request an Appointment",
+      "sending": "Sending...",
+      "success": "Thank you! We've received your request and will be in touch soon to confirm.",
+      "error": "Something went wrong. Please try again or reach out to us directly.",
+      "consent": "By submitting, you agree to be contacted about your appointment request."
+    },
+    "footer": {
+      "tagline": "Compassionate, family-owned veterinary care for Genoa-area pets.",
+      "rights": "© Genoa Animal Hospital. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    },
+    "process": {
+      "heading": "What to Expect at Your Visit",
+      "steps": [
+        {
+          "title": "Book Your Appointment",
+          "text": "Request a time online or reach out, and we'll confirm a visit that fits your schedule and your pet's needs."
+        },
+        {
+          "title": "Gentle Nose-to-Tail Exam",
+          "text": "We greet your pet by name and take time for a calm, thorough head-to-paw check at their pace."
+        },
+        {
+          "title": "Clear Diagnosis & Plan",
+          "text": "Using exams, lab work, or imaging as needed, we explain what's going on and walk you through every option."
+        },
+        {
+          "title": "Follow-Up & Ongoing Care",
+          "text": "We send your pet home with clear aftercare and check in to keep them comfortable through recovery and beyond."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "What are your hours, and do you see walk-ins?",
+          "a": "We're open Monday through Friday and Saturday mornings. We recommend booking ahead, but please send us a message if your pet needs to be seen urgently."
+        },
+        {
+          "q": "What should I bring to our first visit?",
+          "a": "Bring any prior medical or vaccine records, a list of current medications, and your pet's usual food brand if you have diet questions."
+        },
+        {
+          "q": "Do you offer same-day sick or urgent appointments?",
+          "a": "Yes, we set aside time for sick-pet exams and aim to see urgent concerns the same day. Send us a message as early as you can so we can fit you in."
+        },
+        {
+          "q": "How does pricing and payment work?",
+          "a": "We'll review estimated costs with you before treatment so there are no surprises. Please contact us for current pricing and accepted payment options."
+        },
+        {
+          "q": "Do you speak Spanish?",
+          "a": "Yes, we're happy to help you in English or Spanish so you fully understand your pet's care and feel comfortable asking any questions."
+        },
+        {
+          "q": "What pets do you care for?",
+          "a": "We care for dogs, cats, and small pets through every life stage, from first puppy and kitten visits to gentle senior support."
+        }
+      ]
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Genoa Animal Hospital | Atención Veterinaria Compasiva en Genoa, IL",
+      "description": "Clínica veterinaria familiar en Genoa, IL que cuida perros, gatos y mascotas pequeñas con medicina moderna y trato gentil. Bienestar, cirugía, dental y urgencias."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Nuestros Pacientes",
+      "visit": "Visítanos",
+      "order": "Agendar Cita"
+    },
+    "hero": {
+      "eyebrow": "Hospital de Animales Familiar en Genoa",
+      "title": "Atención gentil y de confianza para las mascotas",
+      "titleAccent": "que amas como familia",
+      "subtitle": "Desde chequeos de bienestar con la colita feliz hasta cirugías y cuidado de mascotas mayores, atendemos a cada perro, gato y mascota pequeña con medicina moderna y corazón de pueblo.",
+      "ctaPrimary": "Ver Nuestros Servicios",
+      "ctaSecondary": "Agendar Cita",
+      "badge": "Atención compasiva para las mascotas del área de Genoa"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "Mascotas Tratadas Como Familia",
+        "text": "Nos tomamos el tiempo, escuchamos y cuidamos a tu compañero como al nuestro."
+      },
+      {
+        "icon": "shield",
+        "title": "La Prevención Primero",
+        "text": "Exámenes anuales, vacunas y protección contra parásitos que evitan problemas antes de que empiecen."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Medicina Moderna con Corazón de Pueblo",
+        "text": "Diagnósticos y cirugía actualizados en un ambiente de barrio tranquilo y acogedor."
+      },
+      {
+        "icon": "check",
+        "title": "Cuidado en Cada Etapa de la Vida",
+        "text": "Desde las primeras visitas de cachorros y gatitos hasta un cuidado gentil y digno para mascotas mayores."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Un vistazo del cuidado que ofrecemos. Los servicios y precios que se muestran aquí son contenido ilustrativo de demostración para este sitio de vista previa — contáctanos para conocer los servicios y precios actuales.",
+      "categories": [
+        {
+          "id": "wellness-prevention",
+          "name": "Bienestar y Prevención",
+          "blurb": "Cuidado de rutina que mantiene las colitas felices y detecta problemas a tiempo.",
+          "items": [
+            {
+              "name": "Examen Anual de Bienestar",
+              "desc": "Revisión completa de la cabeza a la cola con consejos de salud y estilo de vida.",
+              "price": "Desde $55",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Vacunación",
+              "desc": "Vacunas esenciales y según estilo de vida, adaptadas a la edad y el riesgo de tu mascota.",
+              "price": "Desde $30",
+              "tags": []
+            },
+            {
+              "name": "Microchip",
+              "desc": "Identificación rápida y permanente que ayuda a reunir a las mascotas perdidas con su familia.",
+              "price": "Desde $45",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Prevención de Parásitos",
+              "desc": "Planes de protección contra pulgas, garrapatas y gusano del corazón durante todo el año.",
+              "price": "Consultar precio",
+              "tags": []
+            },
+            {
+              "name": "Paquetes para Cachorros y Gatitos",
+              "desc": "Visitas, vacunas y orientación combinadas para un comienzo saludable.",
+              "price": "Consultar precio",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sick-urgent-care",
+          "name": "Cuidado de Enfermedades y Urgencias",
+          "blurb": "Atención rápida y gentil cuando tu mascota simplemente no se siente bien.",
+          "items": [
+            {
+              "name": "Examen de Mascota Enferma",
+              "desc": "Evaluación el mismo día para encontrar la causa y ayudar a tu mascota a sentirse mejor.",
+              "price": "Desde $65",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Rayos X Digitales",
+              "desc": "Imágenes rápidas y de bajo estrés para revisar huesos, pulmones y más.",
+              "price": "Consultar precio",
+              "tags": []
+            },
+            {
+              "name": "Análisis de Laboratorio Internos",
+              "desc": "Análisis de sangre y diagnósticos con resultados rápidos para guiar el tratamiento.",
+              "price": "Desde $80",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Diagnósticos y Pruebas",
+              "desc": "Pruebas específicas para identificar qué sucede y planear el siguiente paso.",
+              "price": "Consultar precio",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "surgery-dentistry",
+          "name": "Cirugía y Odontología",
+          "blurb": "Procedimientos seguros y cuidadosamente monitoreados con anestesia centrada en el confort.",
+          "items": [
+            {
+              "name": "Esterilización y Castración",
+              "desc": "Cirugía de rutina con monitoreo atento y cuidados posteriores claros.",
+              "price": "Desde $150",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Limpieza Dental",
+              "desc": "Limpieza completa, pulido y examen oral para un aliento más fresco y mejor salud.",
+              "price": "Desde $250",
+              "tags": []
+            },
+            {
+              "name": "Cirugía de Tejidos Blandos",
+              "desc": "Extracción de masas, reparaciones y más con técnica gentil y moderna.",
+              "price": "Consultar precio",
+              "tags": []
+            },
+            {
+              "name": "Extracción de Dientes",
+              "desc": "Extracción de dientes dañados o dolorosos para devolver el bienestar.",
+              "price": "Consultar precio",
+              "tags": []
+            },
+            {
+              "name": "Análisis Prequirúrgicos",
+              "desc": "Evaluación de seguridad para planear la anestesia adecuada para tu mascota.",
+              "price": "Desde $90",
+              "tags": [
+                "guarantee"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pet-wellness",
+          "name": "Bienestar y Apoyo para Mascotas",
+          "blurb": "Orientación integral que acompaña a tu mascota en cada temporada de su vida.",
+          "items": [
+            {
+              "name": "Asesoría Nutricional",
+              "desc": "Planes personalizados de alimentación y peso para más energía y un pelaje saludable.",
+              "price": "Desde $45",
+              "tags": []
+            },
+            {
+              "name": "Cuidado de Mascotas Mayores",
+              "desc": "Exámenes y pruebas adaptadas para mantener cómodas y activas a las mascotas mayores.",
+              "price": "Desde $75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Manejo del Dolor",
+              "desc": "Planes compasivos para aliviar la artritis y el malestar crónico.",
+              "price": "Consultar precio",
+              "tags": []
+            },
+            {
+              "name": "Apoyo de Fin de Vida",
+              "desc": "Orientación gentil y digna, y cuidado de confort para las despedidas difíciles.",
+              "price": "Consultar precio",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Cuidamos a las mascotas de Genoa como si fueran nuestras",
+      "lead": "Somos un hospital de animales familiar donde a tu mascota se le saluda por su nombre y se le trata con paciencia, gentileza y respeto.",
+      "paragraphs": [
+        "Genoa Animal Hospital combina medicina veterinaria actualizada con la calidez de una verdadera clínica de barrio. Ya sea la primera visita de un cachorro, una tos preocupante o un chequeo de rutina para una mascota mayor, nos tomamos el tiempo de explicar tus opciones y responder cada pregunta.",
+        "Aquí mismo en Pearson Drive cuidamos perros, gatos y mascotas pequeñas en cada etapa de la vida. Nuestra meta es simple: mantener a tu compañero sano, cómodo y a tu lado por muchos años felices."
+      ],
+      "stats": [
+        {
+          "value": "Perros · Gatos · Mascotas Pequeñas",
+          "label": "Compañeros que cuidamos"
+        },
+        {
+          "value": "Todas las Edades",
+          "label": "De cachorros a mascotas mayores"
+        },
+        {
+          "value": "Negocio Familiar",
+          "label": "Independiente y local"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Nuestros Pacientes",
+      "subheading": "Algunas de las caritas felices y amigos peludos que nos enorgullece cuidar.",
+      "captions": [
+        "Una bienvenida tranquila y reconfortante en cada visita",
+        "Exámenes gentiles de la nariz a la cola",
+        "Espacios de tratamiento luminosos y limpios",
+        "Cuidado acogedor para nuestros amigos felinos",
+        "Trato paciente para los cachorros nerviosos",
+        "Compañeros sanos y felices que vuelven a casa"
+      ]
+    },
+    "testimonials": {
+      "heading": "Querido por las familias de mascotas de Genoa",
+      "items": [
+        {
+          "quote": "Trataron a mi perro rescatado, que es muy ansioso, con tanta paciencia. Nunca me he sentido tan tranquila dejándolo en manos de alguien.",
+          "name": "Maria G.",
+          "role": "Mamá de perro"
+        },
+        {
+          "quote": "Atentos, minuciosos y nunca apurados. Me explicaron cada paso de la limpieza dental de mi gato y nos dieron seguimiento después para ver cómo seguía.",
+          "name": "Daniel R.",
+          "role": "Dueño de gato"
+        },
+        {
+          "quote": "Cuando nuestro perrito mayor necesitó apoyo extra, este equipo fue amable, honesto y gentil en cada paso.",
+          "name": "Karen S.",
+          "role": "Cliente desde hace años"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita Genoa Animal Hospital",
+      "addressLabel": "Nuestra Ubicación",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes – Viernes",
+          "time": "8:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "8:00 AM – 1:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Contáctanos",
+      "directions": "Encuéntranos en Pearson Drive en Genoa, con estacionamiento fácil justo al frente. Agenda en línea y confirmaremos tu cita."
+    },
+    "cta": {
+      "heading": "¿Listo para darle a tu mascota un cuidado gentil y de confianza?",
+      "text": "Solicita una cita en línea y nuestro equipo se comunicará contigo para confirmar un horario que funcione para ti y tu compañero.",
+      "button": "Solicitar Cita"
+    },
+    "form": {
+      "heading": "Agenda una Cita",
+      "subheading": "Cuéntanos un poco sobre tu mascota y nos pondremos en contacto para confirmar tu visita.",
+      "name": "Tu Nombre",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Mascota y Servicio que Necesitas",
+      "date": "Fecha / Hora Preferida",
+      "message": "¿Cómo podemos ayudar a tu mascota?",
+      "submit": "Solicitar Cita",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Hemos recibido tu solicitud y nos comunicaremos pronto para confirmar.",
+      "error": "Algo salió mal. Inténtalo de nuevo o contáctanos directamente.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud de cita."
+    },
+    "footer": {
+      "tagline": "Atención veterinaria compasiva y familiar para las mascotas del área de Genoa.",
+      "rights": "© Genoa Animal Hospital. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    },
+    "process": {
+      "heading": "Qué Esperar en Tu Visita",
+      "steps": [
+        {
+          "title": "Agenda Tu Cita",
+          "text": "Solicita un horario en línea o contáctanos, y confirmaremos una visita que se adapte a tu agenda y a tu mascota."
+        },
+        {
+          "title": "Examen Gentil de la Nariz a la Cola",
+          "text": "Saludamos a tu mascota por su nombre y tomamos el tiempo para una revisión completa, tranquila y a su ritmo."
+        },
+        {
+          "title": "Diagnóstico y Plan Claros",
+          "text": "Con exámenes, análisis o imágenes según se necesite, te explicamos qué sucede y repasamos contigo cada opción."
+        },
+        {
+          "title": "Seguimiento y Cuidado Continuo",
+          "text": "Enviamos a tu mascota a casa con cuidados claros y damos seguimiento para mantenerla cómoda durante la recuperación y después."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿Cuál es su horario y atienden sin cita?",
+          "a": "Abrimos de lunes a viernes y los sábados por la mañana. Recomendamos agendar con anticipación, pero escríbenos si tu mascota necesita atención urgente."
+        },
+        {
+          "q": "¿Qué debo traer a nuestra primera visita?",
+          "a": "Trae los registros médicos o de vacunas anteriores, una lista de medicamentos actuales y la marca de alimento habitual si tienes dudas sobre la dieta."
+        },
+        {
+          "q": "¿Ofrecen citas el mismo día para mascotas enfermas o urgencias?",
+          "a": "Sí, reservamos tiempo para exámenes de mascotas enfermas y buscamos atender urgencias el mismo día. Escríbenos lo antes posible para acomodarte."
+        },
+        {
+          "q": "¿Cómo funcionan los precios y el pago?",
+          "a": "Repasaremos los costos estimados contigo antes del tratamiento para que no haya sorpresas. Contáctanos para conocer precios y formas de pago aceptadas."
+        },
+        {
+          "q": "¿Hablan español?",
+          "a": "Sí, con gusto te atendemos en inglés o español para que entiendas por completo el cuidado de tu mascota y te sientas cómodo preguntando."
+        },
+        {
+          "q": "¿Qué mascotas atienden?",
+          "a": "Cuidamos perros, gatos y mascotas pequeñas en cada etapa de la vida, desde las primeras visitas de cachorros y gatitos hasta el apoyo para mascotas mayores."
+        }
+      ]
+    }
+  }
+}

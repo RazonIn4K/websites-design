@@ -1,0 +1,652 @@
+{
+  "business": {
+    "name": "Riddlebox Escape Rooms",
+    "shortName": "Riddlebox",
+    "vertical": "Escape Room Venue",
+    "phone": "",
+    "phoneHref": "",
+    "address": "620 West 5th Avenue",
+    "city": "Naperville",
+    "state": "IL",
+    "zip": "60563",
+    "mapsQuery": "Riddlebox Escape Rooms, 620 West 5th Avenue, Naperville, IL 60563"
+  },
+  "en": {
+    "meta": {
+      "title": "Riddlebox Escape Rooms | Live Escape Games in Naperville, IL",
+      "description": "Immersive 60-minute escape rooms in downtown Naperville, IL. Clever puzzles, real props, and live game masters. Book your room online for friends, family, or your team."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Escape Rooms",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Book Online"
+    },
+    "hero": {
+      "eyebrow": "Downtown Naperville's Escape Room",
+      "title": "60 Minutes.",
+      "titleAccent": "One Way Out.",
+      "subtitle": "Gather your crew, crack the clues, and beat the clock. Riddlebox is a hands-on escape room venue with cleverly built sets, real props, and live game masters — pure teamwork, puzzles, and adrenaline.",
+      "ctaPrimary": "View Rooms",
+      "ctaSecondary": "Book Your Room",
+      "badge": "Live Game Masters · Real Props · 60-Minute Adventures"
+    },
+    "highlights": [
+      {
+        "icon": "clock",
+        "title": "60 Minutes on the Clock",
+        "text": "Every room runs a full hour of nonstop puzzles, hidden clues, and pressure. The countdown starts the moment the door closes."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Immersive, Hand-Built Sets",
+        "text": "Step into detailed worlds with real props, hidden mechanisms, and surprises around every corner. No screens — just the real thing."
+      },
+      {
+        "icon": "star",
+        "title": "Built for Every Group",
+        "text": "Friends, families, first dates, and office teams all fit right in. Pick a difficulty and theme that matches your crew's vibe."
+      },
+      {
+        "icon": "shield",
+        "title": "A Live Game Master Has Your Back",
+        "text": "A real host guides your game, watches the room, and drops hints when you're stuck — so the challenge stays fun, never frustrating."
+      }
+    ],
+    "menu": {
+      "heading": "Our Escape Rooms",
+      "subheading": "Room themes, difficulty ratings, and prices shown are illustrative demo content for this sample site and may not reflect current rooms, availability, or pricing.",
+      "categories": [
+        {
+          "id": "escape-rooms",
+          "name": "Escape Rooms",
+          "blurb": "Themed adventure rooms by difficulty. Each runs 60 minutes for 2 to 8 players.",
+          "items": [
+            {
+              "name": "The Vault Job",
+              "desc": "A high-stakes heist room. Bypass laser grids, crack the safe, and grab the score before security closes in. Big payoff, bigger pressure.",
+              "price": "From $34/person",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "The Cipher Room",
+              "desc": "A noir detective mystery. Sift through clues, decode the cipher, and unmask the culprit before the case goes cold.",
+              "price": "From $32/person",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Lost Expedition",
+              "desc": "An adventure deep in forgotten ruins. Solve ancient mechanisms and find your way out before the temple seals shut for good.",
+              "price": "From $34/person",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Midnight Manor",
+              "desc": "A spooky, horror-lite haunt. Eerie atmosphere and creepy puzzles — thrills without the gore. Great for brave first-timers.",
+              "price": "From $36/person",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "The Final Hour",
+              "desc": "Our toughest flagship room. A multi-stage countdown packed with our trickiest puzzles. Only the sharpest teams make it out.",
+              "price": "From $38/person",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group-events",
+          "name": "Group & Events",
+          "blurb": "Private bookings for teams, parties, and celebrations. We'll help you plan the whole event.",
+          "items": [
+            {
+              "name": "Corporate Team Building",
+              "desc": "Turn your crew into a real team. Private rooms, group debrief, and friendly competition that gets everyone working together.",
+              "price": "From $40/person",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Birthday Party Package",
+              "desc": "A room booked just for your group, plus our party room for cake and celebrating. The most memorable birthday on the block.",
+              "price": "From $32/person",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Private Event Buyout",
+              "desc": "Reserve the whole venue for your group. Multiple rooms, flexible timing, and the space all to yourselves.",
+              "price": "Custom quote",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Large Group Booking",
+              "desc": "Got a big crew? We'll split you across multiple rooms and run a head-to-head challenge to see which team escapes first.",
+              "price": "From $30/person",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "difficulty-booking",
+          "name": "Difficulty & Booking",
+          "blurb": "From first-timers to puzzle pros — find the right challenge, or grab a gift card for someone who loves a good mystery.",
+          "items": [
+            {
+              "name": "Beginner-Friendly Game",
+              "desc": "New to escape rooms? Start here. Approachable puzzles, plenty of hints, and a satisfying escape for first-timers.",
+              "price": "From $32/person",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Expert Challenge",
+              "desc": "For seasoned escapers who want it hard. Layered puzzles, fewer hints, and a clock that won't wait. Bragging rights included.",
+              "price": "From $36/person",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Family Game",
+              "desc": "All-ages fun built for mixed groups. Kids and grown-ups solve together with puzzles everyone can jump into.",
+              "price": "From $30/person",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Date Night Duo",
+              "desc": "A room sized for two. Team up, beat the clock, and find out how well you really work together.",
+              "price": "From $34/person",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Gift Card",
+              "desc": "The perfect gift for the puzzle lover in your life. Redeemable toward any room — they pick the theme and the time.",
+              "price": "From $32",
+              "tags": [
+                "guarantee"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "add-ons",
+          "name": "Add-Ons",
+          "blurb": "Make game day even better. Add these to any booking when you reserve your time slot.",
+          "items": [
+            {
+              "name": "Extra Hint Pack",
+              "desc": "Want a little more help? Add extra game master hints so your group keeps moving and the fun never stalls.",
+              "price": "From $10/group",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Victory Photo Package",
+              "desc": "Capture the moment with themed props and a group photo after your game. Win or lose, you'll want the picture.",
+              "price": "From $15/group",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Party Room Rental",
+              "desc": "Reserve our private party room before or after your game for cake, food, and hanging out with your group.",
+              "price": "From $60/hour",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Welcome to the Box",
+      "lead": "Riddlebox is downtown Naperville's home for live escape games — cleverly built rooms, real props, and 60 minutes of teamwork, puzzles, and pure adrenaline.",
+      "paragraphs": [
+        "We design every room by hand, from the first clue to the final lock. Step inside and the real world disappears: hidden mechanisms, immersive sets, and a story that pulls your whole group into the action. There are no screens to tap — just real puzzles, real props, and a ticking clock.",
+        "Whether you're rallying friends, planning a birthday, breaking the ice on a first date, or building a stronger office team, there's a room and a difficulty for you. A live game master keeps the game flowing and the hints coming, so every group leaves with a story worth telling."
+      ],
+      "stats": [
+        {
+          "value": "60 Min",
+          "label": "On the Clock"
+        },
+        {
+          "value": "2-8",
+          "label": "Players per Room"
+        },
+        {
+          "value": "Live",
+          "label": "Game Masters"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside the Rooms",
+      "subheading": "A peek at the immersive sets, hidden props, and high-fives waiting inside Riddlebox.",
+      "captions": [
+        "The high-stakes vault waiting to be cracked",
+        "Hidden clues tucked into hand-built sets",
+        "Teams heads-together against the clock",
+        "Real props, locks, and mechanisms everywhere",
+        "The countdown clock ticking down to zero",
+        "Victory high-fives after a winning escape"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Players Are Saying",
+      "items": [
+        {
+          "quote": "Best group activity we've done in Naperville. The room was so detailed and the game master kept us hooked the whole time. We escaped with two minutes to spare!",
+          "name": "Megan T.",
+          "role": "Booked The Vault Job"
+        },
+        {
+          "quote": "Brought my whole team here for a work outing and it was perfect. Everyone got involved, and we learned a lot about how we problem-solve together.",
+          "name": "David R.",
+          "role": "Team building group"
+        },
+        {
+          "quote": "Did the detective room for date night and had a blast. Clever puzzles, great atmosphere, and just the right amount of challenge. We'll be back for the next one.",
+          "name": "Sofia L.",
+          "role": "Date night duo"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Naperville",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "4:00 PM - 10:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "2:00 PM - 11:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "11:00 AM - 11:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM - 8:00 PM"
+        }
+      ],
+      "phoneLabel": "Book Online",
+      "directions": "Find us at 620 West 5th Avenue in Naperville, IL, right near downtown. Reserve a time slot for your group online — walk-ins depend on availability, so booking ahead is the surest way in."
+    },
+    "cta": {
+      "heading": "Think Your Team Can Escape?",
+      "text": "Pick your room, grab a time slot, and bring your sharpest crew. The clock is waiting — reserve your escape today.",
+      "button": "Book Your Room"
+    },
+    "form": {
+      "heading": "Book Your Escape",
+      "subheading": "Reserve a time slot for your group, plan an event, or ask us anything. Send a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Group Size",
+      "date": "Preferred Date/Time",
+      "message": "Tell us which room you want, your group size, and any questions about events or add-ons.",
+      "submit": "Send Booking Request",
+      "sending": "Sending...",
+      "success": "Thanks! We received your booking request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your booking. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Immersive 60-minute escape rooms in downtown Naperville — clever puzzles, real props, and live game masters.",
+      "rights": "© Riddlebox Escape Rooms. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Riddlebox Escape Rooms | Juegos de Escape en Naperville, IL",
+      "description": "Salas de escape inmersivas de 60 minutos en el centro de Naperville, IL. Acertijos ingeniosos, props reales y guías en vivo. Reserva tu sala en línea para amigos, familia o tu equipo."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Salas",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Reservar"
+    },
+    "hero": {
+      "eyebrow": "El Escape Room del Centro de Naperville",
+      "title": "60 Minutos.",
+      "titleAccent": "Una Sola Salida.",
+      "subtitle": "Reúne a tu equipo, descifra las pistas y véncele al reloj. Riddlebox es un escape room práctico con escenarios ingeniosos, props reales y guías en vivo — puro trabajo en equipo, acertijos y adrenalina.",
+      "ctaPrimary": "Ver Salas",
+      "ctaSecondary": "Reserva tu Sala",
+      "badge": "Guías en Vivo · Props Reales · Aventuras de 60 Minutos"
+    },
+    "highlights": [
+      {
+        "icon": "clock",
+        "title": "60 Minutos en el Reloj",
+        "text": "Cada sala dura una hora completa de acertijos sin parar, pistas ocultas y presión. La cuenta regresiva empieza al cerrarse la puerta."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Escenarios Inmersivos Hechos a Mano",
+        "text": "Entra a mundos detallados con props reales, mecanismos ocultos y sorpresas en cada rincón. Sin pantallas — solo lo auténtico."
+      },
+      {
+        "icon": "star",
+        "title": "Hecho para Cada Grupo",
+        "text": "Amigos, familias, primeras citas y equipos de trabajo encajan perfecto. Elige una dificultad y un tema que combinen con tu grupo."
+      },
+      {
+        "icon": "shield",
+        "title": "Una Guía en Vivo te Respalda",
+        "text": "Un anfitrión real guía tu juego, vigila la sala y te da pistas cuando te atoras — para que el reto siga siendo divertido, nunca frustrante."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestras Salas de Escape",
+      "subheading": "Los temas de las salas, los niveles de dificultad y los precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra y podrían no reflejar las salas, la disponibilidad ni los precios actuales.",
+      "categories": [
+        {
+          "id": "escape-rooms",
+          "name": "Salas de Escape",
+          "blurb": "Salas de aventura temáticas por dificultad. Cada una dura 60 minutos para 2 a 8 jugadores.",
+          "items": [
+            {
+              "name": "El Golpe a la Bóveda",
+              "desc": "Una sala de atraco de alto riesgo. Esquiva los rayos láser, abre la caja fuerte y llévate el botín antes de que llegue la seguridad. Gran recompensa, mayor presión.",
+              "price": "Desde $34/persona",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "La Sala del Cifrado",
+              "desc": "Un misterio de detective estilo noir. Examina las pistas, descifra el código y desenmascara al culpable antes de que el caso se enfríe.",
+              "price": "Desde $32/persona",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Expedición Perdida",
+              "desc": "Una aventura en lo profundo de ruinas olvidadas. Resuelve mecanismos antiguos y encuentra la salida antes de que el templo se selle para siempre.",
+              "price": "Desde $34/persona",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "La Mansión de Medianoche",
+              "desc": "Una sala embrujada con un toque de terror ligero. Ambiente escalofriante y acertijos espeluznantes — emoción sin lo sangriento. Ideal para valientes primerizos.",
+              "price": "Desde $36/persona",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "La Hora Final",
+              "desc": "Nuestra sala insignia más difícil. Una cuenta regresiva de varias etapas repleta de nuestros acertijos más complicados. Solo los equipos más astutos logran salir.",
+              "price": "Desde $38/persona",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group-events",
+          "name": "Grupos y Eventos",
+          "blurb": "Reservas privadas para equipos, fiestas y celebraciones. Te ayudamos a planear todo el evento.",
+          "items": [
+            {
+              "name": "Integración de Equipos",
+              "desc": "Convierte a tu grupo en un verdadero equipo. Salas privadas, charla grupal al final y una competencia amistosa que pone a todos a colaborar.",
+              "price": "Desde $40/persona",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Paquete de Cumpleaños",
+              "desc": "Una sala reservada solo para tu grupo, más nuestra sala de fiestas para el pastel y la celebración. El cumpleaños más memorable del barrio.",
+              "price": "Desde $32/persona",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Renta del Local Completo",
+              "desc": "Reserva todo el local para tu grupo. Varias salas, horarios flexibles y el espacio entero para ustedes.",
+              "price": "Cotización personalizada",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Reserva para Grupo Grande",
+              "desc": "¿Tienes un grupo numeroso? Los dividimos en varias salas y montamos un reto cara a cara para ver qué equipo escapa primero.",
+              "price": "Desde $30/persona",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "difficulty-booking",
+          "name": "Dificultad y Reservas",
+          "blurb": "De primerizos a expertos en acertijos — encuentra el reto ideal, o regala una tarjeta a quien ama un buen misterio.",
+          "items": [
+            {
+              "name": "Juego para Principiantes",
+              "desc": "¿Nuevo en los escape rooms? Empieza aquí. Acertijos accesibles, muchas pistas y un escape satisfactorio para primerizos.",
+              "price": "Desde $32/persona",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Reto para Expertos",
+              "desc": "Para escapistas con experiencia que lo quieren difícil. Acertijos en capas, menos pistas y un reloj que no espera. Derecho a presumir incluido.",
+              "price": "Desde $36/persona",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Juego Familiar",
+              "desc": "Diversión para todas las edades pensada para grupos mixtos. Niños y adultos resuelven juntos con acertijos en los que todos pueden participar.",
+              "price": "Desde $30/persona",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Dúo para Cita",
+              "desc": "Una sala del tamaño justo para dos. Hagan equipo, vénzanle al reloj y descubran qué tan bien trabajan juntos.",
+              "price": "Desde $34/persona",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Tarjeta de Regalo",
+              "desc": "El regalo perfecto para el amante de los acertijos en tu vida. Canjeable en cualquier sala — ellos eligen el tema y la hora.",
+              "price": "Desde $32",
+              "tags": [
+                "guarantee"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "add-ons",
+          "name": "Extras",
+          "blurb": "Haz que el día de juego sea aún mejor. Agrégalos a cualquier reserva al apartar tu horario.",
+          "items": [
+            {
+              "name": "Paquete de Pistas Extra",
+              "desc": "¿Quieres un poco más de ayuda? Agrega pistas adicionales de la guía para que tu grupo siga avanzando y la diversión nunca se detenga.",
+              "price": "Desde $10/grupo",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Paquete de Foto de Victoria",
+              "desc": "Captura el momento con props temáticos y una foto grupal al terminar tu juego. Ganen o pierdan, van a querer la foto.",
+              "price": "Desde $15/grupo",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Renta de Sala de Fiestas",
+              "desc": "Reserva nuestra sala de fiestas privada antes o después de tu juego para el pastel, la comida y convivir con tu grupo.",
+              "price": "Desde $60/hora",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Bienvenido a la Caja",
+      "lead": "Riddlebox es el hogar de los juegos de escape en vivo del centro de Naperville — salas ingeniosas, props reales y 60 minutos de trabajo en equipo, acertijos y pura adrenalina.",
+      "paragraphs": [
+        "Diseñamos cada sala a mano, desde la primera pista hasta el último candado. Entra y el mundo real desaparece: mecanismos ocultos, escenarios inmersivos y una historia que mete a todo tu grupo en la acción. No hay pantallas que tocar — solo acertijos reales, props reales y un reloj que avanza.",
+        "Ya sea que reúnas a tus amigos, planees un cumpleaños, rompas el hielo en una primera cita o fortalezcas a tu equipo de trabajo, hay una sala y una dificultad para ti. Una guía en vivo mantiene el juego fluyendo y las pistas llegando, para que cada grupo se vaya con una historia que vale la pena contar."
+      ],
+      "stats": [
+        {
+          "value": "60 Min",
+          "label": "En el Reloj"
+        },
+        {
+          "value": "2-8",
+          "label": "Jugadores por Sala"
+        },
+        {
+          "value": "En Vivo",
+          "label": "Guías de Juego"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Dentro de las Salas",
+      "subheading": "Un vistazo a los escenarios inmersivos, los props ocultos y los choca-esos-cinco que esperan dentro de Riddlebox.",
+      "captions": [
+        "La bóveda de alto riesgo esperando a ser abierta",
+        "Pistas ocultas escondidas en escenarios hechos a mano",
+        "Equipos con las cabezas juntas contra el reloj",
+        "Props, candados y mecanismos reales por todas partes",
+        "El reloj de cuenta regresiva avanzando hacia cero",
+        "Choca-esos-cinco de victoria tras un escape ganador"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen los Jugadores",
+      "items": [
+        {
+          "quote": "La mejor actividad en grupo que hemos hecho en Naperville. La sala estaba súper detallada y la guía nos mantuvo enganchados todo el tiempo. ¡Escapamos con dos minutos de sobra!",
+          "name": "Megan T.",
+          "role": "Reservó El Golpe a la Bóveda"
+        },
+        {
+          "quote": "Traje a todo mi equipo para una salida de trabajo y fue perfecto. Todos participaron y aprendimos mucho sobre cómo resolvemos problemas juntos.",
+          "name": "David R.",
+          "role": "Grupo de integración"
+        },
+        {
+          "quote": "Hicimos la sala de detectives para una cita y la pasamos genial. Acertijos ingeniosos, gran ambiente y justo el nivel de reto adecuado. Volveremos por la siguiente.",
+          "name": "Sofia L.",
+          "role": "Dúo para cita"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en Naperville",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "4:00 PM - 10:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "2:00 PM - 11:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "11:00 AM - 11:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM - 8:00 PM"
+        }
+      ],
+      "phoneLabel": "Reserva en Línea",
+      "directions": "Encuéntranos en 620 West 5th Avenue en Naperville, IL, muy cerca del centro. Aparta un horario para tu grupo en línea — la entrada sin reserva depende de la disponibilidad, así que reservar con anticipación es la forma más segura de entrar."
+    },
+    "cta": {
+      "heading": "¿Crees Que tu Equipo Puede Escapar?",
+      "text": "Elige tu sala, aparta un horario y trae a tu grupo más astuto. El reloj está esperando — reserva tu escape hoy.",
+      "button": "Reserva tu Sala"
+    },
+    "form": {
+      "heading": "Reserva tu Escape",
+      "subheading": "Aparta un horario para tu grupo, planea un evento o pregúntanos lo que quieras. Envíanos una nota y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "Cuéntanos qué sala quieres, el tamaño de tu grupo y cualquier pregunta sobre eventos o extras.",
+      "submit": "Enviar Reserva",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud de reserva y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu reserva. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Salas de escape inmersivas de 60 minutos en el centro de Naperville — acertijos ingeniosos, props reales y guías en vivo.",
+      "rights": "© Riddlebox Escape Rooms. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

@@ -1,0 +1,694 @@
+{
+  "business": {
+    "name": "Inboden's Gourmet Meats & Specialty Foods",
+    "shortName": "Inboden's",
+    "vertical": "Butcher Shop & Specialty Foods Market",
+    "phone": "(815) 756-5852",
+    "phoneHref": "+18157565852",
+    "address": "1106 North 1st Street",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Inboden's Gourmet Meats & Specialty Foods, 1106 North 1st Street, DeKalb, IL 60115",
+    "lat": 41.9418668,
+    "lon": -88.7486765
+  },
+  "en": {
+    "meta": {
+      "title": "Inboden's Gourmet Meats & Specialty Foods | Butcher Shop & Deli in DeKalb, IL",
+      "description": "A full-service butcher counter, fresh deli, and specialty foods market in DeKalb, IL. Family-run since 1962. Call to order: (815) 756-5852."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "The Counter",
+      "about": "About",
+      "gallery": "Our Shop",
+      "visit": "Visit",
+      "order": "Call to Order"
+    },
+    "hero": {
+      "eyebrow": "DeKalb's Hometown Butcher & Specialty Market",
+      "title": "Hand-Cut Meats &",
+      "titleAccent": "Old-Fashioned Quality",
+      "subtitle": "A true DeKalb institution and the real thing: a full-service butcher counter with hand-cut steaks, house-made sausage, a fresh deli, and hard-to-find specialty foods, all served by people who know your name.",
+      "ctaPrimary": "Browse the Counter",
+      "ctaSecondary": "Call to Order",
+      "badge": "Full-service butcher · Custom cuts & catering welcome"
+    },
+    "highlights": [
+      {
+        "icon": "star",
+        "title": "Hand-Cut by a Real Butcher",
+        "text": "Steaks and roasts trimmed to order right at the counter, cut to the thickness you want while you wait."
+      },
+      {
+        "icon": "flame",
+        "title": "House-Made Brats & Sausage",
+        "text": "Small-batch bratwurst and sausage made in-house with our own seasoning blends, never trucked in from somewhere else."
+      },
+      {
+        "icon": "leaf",
+        "title": "Specialty & Local Foods",
+        "text": "Artisan cheeses, small-batch jams, house rubs, and hard-to-find sauces you won't spot on the grocery shelf."
+      },
+      {
+        "icon": "heart",
+        "title": "People Who Know Your Name",
+        "text": "Old-fashioned, full-service care from a neighborhood shop that remembers your order and your favorite cut."
+      }
+    ],
+    "menu": {
+      "heading": "What's Behind the Counter",
+      "subheading": "Items and prices shown are illustrative demo content for this concept site and may not reflect the shop's actual selection or pricing.",
+      "categories": [
+        {
+          "id": "butcher-counter",
+          "name": "The Butcher Counter",
+          "blurb": "Hand-cut steaks, custom cuts, fresh-ground blends, and house-made sausage, all from behind the counter.",
+          "items": [
+            {
+              "name": "USDA Choice Ribeye",
+              "desc": "Thick, well-marbled ribeye, hand-cut to order right at the counter.",
+              "price": "$16.99/lb",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Custom-Cut Steaks",
+              "desc": "Tell us the cut and thickness you want and we'll trim it fresh while you wait.",
+              "price": "$14.99/lb"
+            },
+            {
+              "name": "House Ground Beef Blends",
+              "desc": "Fresh-ground beef blends, perfect for burgers, meatballs, or a weeknight dinner.",
+              "price": "$6.99/lb",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "House-Made Bratwurst",
+              "desc": "Small-batch brats made in-house with our own seasoning blend.",
+              "price": "$7.99/lb",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Smoked Polish Sausage",
+              "desc": "House-made Polish sausage, slow-smoked for a rich, savory snap.",
+              "price": "$8.99/lb",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Bone-In Pork Chops",
+              "desc": "Thick, center-cut chops cut to order, ready for the skillet or grill.",
+              "price": "$5.99/lb"
+            }
+          ]
+        },
+        {
+          "id": "deli-sandwiches",
+          "name": "Deli & Sandwiches",
+          "blurb": "Made-to-order subs, sliced deli meats, and homemade salads and sides.",
+          "items": [
+            {
+              "name": "Build-Your-Own Sub",
+              "desc": "Pick your meats, cheeses, and toppings, stacked to order on fresh bread.",
+              "price": "$8.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Italian Beef Sandwich",
+              "desc": "Slow-roasted seasoned beef piled high on a roll with the juice.",
+              "price": "$9.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Deli Meats by the Pound",
+              "desc": "Premium deli meats sliced fresh to your order, thick or thin.",
+              "price": "$9.99/lb"
+            },
+            {
+              "name": "Homemade Potato Salad",
+              "desc": "Our own creamy potato salad, made fresh and sold by the pound.",
+              "price": "$4.99/lb",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Soup of the Day",
+              "desc": "A rotating pot of homemade soup, served by the cup or bowl.",
+              "price": "$4.99"
+            }
+          ]
+        },
+        {
+          "id": "specialty-local",
+          "name": "Specialty & Local Foods",
+          "blurb": "Artisan cheeses, small-batch jams, house rubs, and hard-to-find sauces.",
+          "items": [
+            {
+              "name": "Artisan Cheese Selection",
+              "desc": "A rotating case of artisan and specialty cheeses, cut and wrapped to order.",
+              "price": "$12.99/lb",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Small-Batch Jams & Preserves",
+              "desc": "Local small-batch jams and preserves to round out any board or breakfast.",
+              "price": "$7.99"
+            },
+            {
+              "name": "House BBQ Rubs & Seasonings",
+              "desc": "Our own blends of dry rubs and seasonings to make your cook shine.",
+              "price": "$6.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Specialty Sauces & Marinades",
+              "desc": "Hard-to-find sauces and marinades you won't spot on the grocery shelf.",
+              "price": "$5.99"
+            },
+            {
+              "name": "Charcuterie Board Kit",
+              "desc": "Build-your-own board kit with cured meats, cheeses, and the fixings.",
+              "price": "$24.99",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "grill-bbq",
+          "name": "Grill-Ready & BBQ Packs",
+          "blurb": "Marinated kabobs, family grill packs, and house-smoked favorites, ready to cook.",
+          "items": [
+            {
+              "name": "Marinated Beef Kabobs",
+              "desc": "Skewered beef and veggies in our house marinade, ready for the grill.",
+              "price": "$10.99/lb",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Family Grill Pack",
+              "desc": "An assortment of steaks, brats, and burgers to feed the whole crew.",
+              "price": "$49.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Smoked Baby Back Ribs",
+              "desc": "Slow-smoked baby back ribs, ready to heat and serve.",
+              "price": "$13.99/lb",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Stuffed Pork Burgers",
+              "desc": "Hand-formed pork burgers stuffed with cheese and seasoning, grill-ready.",
+              "price": "$7.99/lb"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Your Hometown Butcher in DeKalb",
+      "lead": "We're an independent, full-service butcher shop and specialty foods market right on North 1st Street.",
+      "paragraphs": [
+        "A DeKalb institution, Inboden's has been family-run since it opened as Inboden's Supperette in 1962, and the third generation of the family carries it on today. It's a real butcher shop where the meat is cut by hand, the sausage and brats are made in-house, and the deli case is stocked fresh every day. Step up to the counter and you'll find someone ready to trim a steak to your liking, grind a custom blend, or recommend the right cut for Sunday dinner.",
+        "Beyond the counter, our shelves are packed with the kind of specialty and local foods that are hard to find anywhere else: artisan cheeses, small-batch jams, house rubs, and hard-to-find sauces. Whether you're firing up the grill, planning a party, or just want quality you can taste, we'll take care of you the old-fashioned way, by name."
+      ],
+      "stats": [
+        {
+          "value": "Hand-Cut",
+          "label": "Fresh at the Counter"
+        },
+        {
+          "value": "House-Made",
+          "label": "Sausage & Brats"
+        },
+        {
+          "value": "Specialty",
+          "label": "Hard-to-Find Foods"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Our Shop",
+      "subheading": "A look around the counter, the deli, and the shelves of specialty foods.",
+      "captions": [
+        "Our full-service butcher counter",
+        "Hand-cut steaks ready to wrap",
+        "House-made brats and sausage links",
+        "Made-to-order subs at the deli",
+        "Shelves stocked with specialty and local foods",
+        "Grill-ready packs for the weekend"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Is Saying",
+      "items": [
+        {
+          "quote": "The only place I'll buy my steaks. They cut them to order right in front of you, and they always remember how I like them.",
+          "name": "Mark T.",
+          "role": "DeKalb Regular"
+        },
+        {
+          "quote": "Their house-made brats are the star of every cookout I throw. Once you've had them, the grocery store just won't cut it.",
+          "name": "Sarah K.",
+          "role": "Weekend Griller"
+        },
+        {
+          "quote": "Great deli, friendly faces, and specialty foods I can't find anywhere else in town. A real neighborhood gem.",
+          "name": "Dave R.",
+          "role": "Longtime Customer"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Shop",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "8:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "time": "8:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "8:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "8:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "8:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "8:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Call to Order",
+      "directions": "On North 1st Street in DeKalb with free parking out front. Call ahead for custom cuts, large orders, or catering, and we'll have everything cut, wrapped, and ready for pickup.",
+      "neighborhood": "The shop sits on North First Street on DeKalb's near north side, about a mile straight up from the Lincoln Highway blocks of downtown."
+    },
+    "cta": {
+      "heading": "Hungry for Something Better?",
+      "text": "Call the shop to place an order, request a custom cut, or plan your next cookout or catering spread. We'll have it cut, wrapped, and ready for pickup.",
+      "button": "Call (815) 756-5852"
+    },
+    "form": {
+      "heading": "Place an Order or Request",
+      "subheading": "Tell us what you need: custom cuts, a grill pack, deli trays, or catering. We'll call to confirm the details and a pickup time.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Order Size / Headcount",
+      "date": "Preferred Pickup Date",
+      "message": "What Can We Cut for You?",
+      "submit": "Send Request",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and will call to confirm your order and pickup time.",
+      "error": "Something went wrong. Please try again or call us at (815) 756-5852.",
+      "consent": "By submitting, you agree to be contacted about your order request."
+    },
+    "footer": {
+      "tagline": "Hand-cut meats, house-made sausage, fresh deli, and specialty foods in DeKalb, IL.",
+      "rights": "© Inboden's Gourmet Meats & Specialty Foods. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Shop Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Inboden's Gourmet Meats & Specialty Foods | Carnicería y Deli en DeKalb, IL",
+      "description": "Mostrador de carnicería de servicio completo, deli fresco y alimentos especiales en DeKalb, IL. Negocio familiar desde 1962. Ordena: (815) 756-5852."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "El Mostrador",
+      "about": "Nosotros",
+      "gallery": "Nuestra Tienda",
+      "visit": "Visítanos",
+      "order": "Ordenar"
+    },
+    "hero": {
+      "eyebrow": "La Carnicería y Mercado de DeKalb",
+      "title": "Carnes Hechas a Mano y",
+      "titleAccent": "Calidad de Toda la Vida",
+      "subtitle": "Una verdadera institución de DeKalb y la auténtica experiencia: un mostrador de carnicería de servicio completo con cortes hechos a mano, embutidos caseros, un deli fresco y alimentos especiales difíciles de encontrar, atendido por personas que conocen tu nombre.",
+      "ctaPrimary": "Ver el Mostrador",
+      "ctaSecondary": "Llama para Ordenar",
+      "badge": "Carnicería de servicio completo · Cortes personalizados y catering"
+    },
+    "highlights": [
+      {
+        "icon": "star",
+        "title": "Cortado a Mano por un Carnicero de Verdad",
+        "text": "Cortes y asados preparados al momento en el mostrador, cortados al grosor que quieras mientras esperas."
+      },
+      {
+        "icon": "flame",
+        "title": "Bratwurst y Salchichas Caseras",
+        "text": "Bratwurst y salchichas en lotes pequeños, hechas en casa con nuestras propias mezclas de especias, nunca traídas de otro lugar."
+      },
+      {
+        "icon": "leaf",
+        "title": "Alimentos Especiales y Locales",
+        "text": "Quesos artesanales, mermeladas en lotes pequeños, sazonadores de la casa y salsas difíciles de encontrar que no verás en el súper."
+      },
+      {
+        "icon": "heart",
+        "title": "Gente que Conoce tu Nombre",
+        "text": "Atención de servicio completo a la antigua, de una tienda del barrio que recuerda tu pedido y tu corte favorito."
+      }
+    ],
+    "menu": {
+      "heading": "Lo que Hay en el Mostrador",
+      "subheading": "Los artículos y precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar la selección o los precios reales de la tienda.",
+      "categories": [
+        {
+          "id": "butcher-counter",
+          "name": "El Mostrador del Carnicero",
+          "blurb": "Cortes hechos a mano, cortes a tu gusto, mezclas molidas al momento y embutidos caseros, todo desde detrás del mostrador.",
+          "items": [
+            {
+              "name": "Ribeye USDA Choice",
+              "desc": "Ribeye grueso y bien marmoleado, cortado a mano al momento en el mostrador.",
+              "price": "$16.99/lb",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Cortes a tu Gusto",
+              "desc": "Dinos el corte y el grosor que quieres y lo preparamos fresco mientras esperas.",
+              "price": "$14.99/lb"
+            },
+            {
+              "name": "Mezclas de Carne Molida de la Casa",
+              "desc": "Mezclas de carne molida fresca, perfectas para hamburguesas, albóndigas o la cena entre semana.",
+              "price": "$6.99/lb",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Bratwurst Casera",
+              "desc": "Bratwurst en lotes pequeños, hecha en casa con nuestra propia mezcla de especias.",
+              "price": "$7.99/lb",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Salchicha Polaca Ahumada",
+              "desc": "Salchicha polaca casera, ahumada lentamente para un sabor intenso y jugoso.",
+              "price": "$8.99/lb",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Chuletas de Cerdo con Hueso",
+              "desc": "Chuletas gruesas del centro, cortadas al momento, listas para el sartén o la parrilla.",
+              "price": "$5.99/lb"
+            }
+          ]
+        },
+        {
+          "id": "deli-sandwiches",
+          "name": "Deli y Sándwiches",
+          "blurb": "Sándwiches hechos al momento, carnes del deli rebanadas y ensaladas y guarniciones caseras.",
+          "items": [
+            {
+              "name": "Sándwich a tu Gusto",
+              "desc": "Elige tus carnes, quesos e ingredientes, armado al momento en pan fresco.",
+              "price": "$8.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Sándwich de Italian Beef",
+              "desc": "Carne de res sazonada y rostizada lentamente, servida abundante en pan con su jugo.",
+              "price": "$9.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Carnes del Deli por Libra",
+              "desc": "Carnes finas del deli rebanadas frescas a tu pedido, gruesas o delgadas.",
+              "price": "$9.99/lb"
+            },
+            {
+              "name": "Ensalada de Papa Casera",
+              "desc": "Nuestra propia ensalada de papa cremosa, hecha fresca y vendida por libra.",
+              "price": "$4.99/lb",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Sopa del Día",
+              "desc": "Una olla rotativa de sopa casera, servida por vaso o tazón.",
+              "price": "$4.99"
+            }
+          ]
+        },
+        {
+          "id": "specialty-local",
+          "name": "Alimentos Especiales y Locales",
+          "blurb": "Quesos artesanales, mermeladas en lotes pequeños, sazonadores de la casa y salsas difíciles de encontrar.",
+          "items": [
+            {
+              "name": "Selección de Quesos Artesanales",
+              "desc": "Una vitrina rotativa de quesos artesanales y especiales, cortados y envueltos al momento.",
+              "price": "$12.99/lb",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Mermeladas y Conservas en Lotes Pequeños",
+              "desc": "Mermeladas y conservas locales en lotes pequeños para complementar cualquier tabla o desayuno.",
+              "price": "$7.99"
+            },
+            {
+              "name": "Sazonadores y Rubs de BBQ de la Casa",
+              "desc": "Nuestras propias mezclas de rubs y sazonadores para que tu cocción luzca.",
+              "price": "$6.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Salsas y Marinados Especiales",
+              "desc": "Salsas y marinados difíciles de encontrar que no verás en el súper.",
+              "price": "$5.99"
+            },
+            {
+              "name": "Kit de Tabla de Charcutería",
+              "desc": "Kit para armar tu propia tabla con carnes curadas, quesos y los acompañamientos.",
+              "price": "$24.99",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "grill-bbq",
+          "name": "Listo para la Parrilla y Paquetes de BBQ",
+          "blurb": "Brochetas marinadas, paquetes familiares para la parrilla y favoritos ahumados en casa, listos para cocinar.",
+          "items": [
+            {
+              "name": "Brochetas de Res Marinadas",
+              "desc": "Res y verduras en brocheta con nuestro marinado de la casa, listas para la parrilla.",
+              "price": "$10.99/lb",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Paquete Familiar para la Parrilla",
+              "desc": "Un surtido de cortes, bratwurst y hamburguesas para alimentar a todos.",
+              "price": "$49.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Costillitas Baby Back Ahumadas",
+              "desc": "Costillitas baby back ahumadas lentamente, listas para calentar y servir.",
+              "price": "$13.99/lb",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Hamburguesas de Cerdo Rellenas",
+              "desc": "Hamburguesas de cerdo formadas a mano, rellenas de queso y especias, listas para la parrilla.",
+              "price": "$7.99/lb"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Tu Carnicería de Confianza en DeKalb",
+      "lead": "Somos una carnicería independiente de servicio completo y un mercado de alimentos especiales, aquí mismo en North 1st Street.",
+      "paragraphs": [
+        "Toda una institución en DeKalb, Inboden's es un negocio familiar desde que abrió como Inboden's Supperette en 1962, y hoy la tercera generación de la familia lo mantiene en marcha. Es una verdadera carnicería donde la carne se corta a mano, las salchichas y la bratwurst se hacen en casa, y la vitrina del deli se surte fresca todos los días. Acércate al mostrador y encontrarás a alguien listo para recortar un corte a tu gusto, moler una mezcla personalizada o recomendarte el corte ideal para la cena del domingo.",
+        "Más allá del mostrador, nuestras repisas están llenas del tipo de alimentos especiales y locales que son difíciles de encontrar en otro lugar: quesos artesanales, mermeladas en lotes pequeños, sazonadores de la casa y salsas difíciles de conseguir. Ya sea que vayas a encender la parrilla, a planear una fiesta o que simplemente quieras calidad que se nota, te atendemos a la antigua, por tu nombre."
+      ],
+      "stats": [
+        {
+          "value": "Hecho a Mano",
+          "label": "Fresco en el Mostrador"
+        },
+        {
+          "value": "Hecho en Casa",
+          "label": "Salchichas y Bratwurst"
+        },
+        {
+          "value": "Especiales",
+          "label": "Alimentos Difíciles de Encontrar"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Nuestra Tienda",
+      "subheading": "Un recorrido por el mostrador, el deli y las repisas de alimentos especiales.",
+      "captions": [
+        "Nuestro mostrador de carnicería de servicio completo",
+        "Cortes hechos a mano listos para envolver",
+        "Bratwurst y salchichas caseras",
+        "Sándwiches hechos al momento en el deli",
+        "Repisas surtidas con alimentos especiales y locales",
+        "Paquetes listos para la parrilla para el fin de semana"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice DeKalb",
+      "items": [
+        {
+          "quote": "El único lugar donde compro mis cortes. Los cortan al momento frente a ti y siempre recuerdan cómo me gustan.",
+          "name": "Mark T.",
+          "role": "Cliente Habitual de DeKalb"
+        },
+        {
+          "quote": "Su bratwurst casera es la estrella de cada parrillada que hago. Una vez que la pruebas, la del súper ya no te convence.",
+          "name": "Sarah K.",
+          "role": "Parrillero de Fin de Semana"
+        },
+        {
+          "quote": "Excelente deli, caras amables y alimentos especiales que no encuentro en ningún otro lado del pueblo. Una verdadera joya del barrio.",
+          "name": "Dave R.",
+          "role": "Cliente de Toda la Vida"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita la Tienda",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "8:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Martes",
+          "time": "8:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "8:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "8:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "8:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "8:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Llama para Ordenar",
+      "directions": "Sobre North 1st Street en DeKalb, con estacionamiento gratuito al frente. Llama con anticipación para cortes personalizados, pedidos grandes o catering, y te lo tendremos cortado, envuelto y listo para recoger.",
+      "neighborhood": "La tienda está sobre North First Street, en el lado norte de DeKalb, más o menos a una milla en línea recta de las cuadras de Lincoln Highway en el centro."
+    },
+    "cta": {
+      "heading": "¿Con Ganas de Algo Mejor?",
+      "text": "Llama a la tienda para hacer un pedido, solicitar un corte personalizado o planear tu próxima parrillada o catering. Lo tendremos cortado, envuelto y listo para recoger.",
+      "button": "Llamar al (815) 756-5852"
+    },
+    "form": {
+      "heading": "Haz un Pedido o Solicitud",
+      "subheading": "Cuéntanos qué necesitas: cortes personalizados, un paquete para la parrilla, charolas del deli o catering. Te llamamos para confirmar los detalles y una hora de recogida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Pedido / Personas",
+      "date": "Fecha de Recogida Preferida",
+      "message": "¿Qué Podemos Cortar para Ti?",
+      "submit": "Enviar Solicitud",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te llamaremos para confirmar tu pedido y la hora de recogida.",
+      "error": "Algo salió mal. Inténtalo de nuevo o llámanos al (815) 756-5852.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud de pedido."
+    },
+    "footer": {
+      "tagline": "Carnes hechas a mano, embutidos caseros, deli fresco y alimentos especiales en DeKalb, IL.",
+      "rights": "© Inboden's Gourmet Meats & Specialty Foods. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario de la Tienda",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "concept": "Atelier Plum & Champagne - a timeless, gallery-calm palette for Kramer Photographers. A refined deep plum primary evokes artful sophistication, paired with a warm champagne-gold accent for understated luxury. Near-black ink rests on soft, warm-white backgrounds for an elegant, editorial feel that lets portrait and event imagery take center stage.",
+  "vars": {
+    "--color-bg": "#F7F3EE",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#EFE8DF",
+    "--color-ink": "#1A1714",
+    "--color-ink-soft": "#6B6157",
+    "--color-primary": "#4A2C42",
+    "--color-primary-dark": "#351F30",
+    "--color-secondary": "#3A3338",
+    "--color-accent": "#B08D57",
+    "--color-line": "#E2D9CE"
+  },
+  "contrastNotes": "All required ratios pass WCAG-AA. Ink #1A1714 on bg #F7F3EE = 16.16:1 (>=7). Ink-soft #6B6157 on bg = 5.47:1 (>=4.5). White on primary #4A2C42 = 12.14:1 (>=4.5). Primary on bg = 10.99:1 (>=3). Extras: white on primary-dark #351F30 = 15.11:1; white on secondary #3A3338 = 12.28:1; ink on accent #B08D57 = 5.77:1 (use ink/dark text on the champagne accent, not white). Accent is intended for decorative fills, rules, and large-text emphasis rather than small body copy on bg."
+}

@@ -1,0 +1,6758 @@
+{
+  "generated_for": "DeKalb County, IL + corridor toward Chicago",
+  "regions": [
+    "DeKalb / Sycamore / Cortland (county core)",
+    "Genoa / Kingston / Kirkland (north county)",
+    "Sandwich / Somonauk / Waterman (south county)"
+  ],
+  "stats": {
+    "total_businesses": 237,
+    "without_website": 112,
+    "without_website_pct": 47.3,
+    "by_vertical": {
+      "auto": 22,
+      "food_retail": 4,
+      "restaurant": 126,
+      "health": 31,
+      "beauty": 11,
+      "fitness": 13,
+      "trade": 6,
+      "prof_services": 9,
+      "retail": 15
+    },
+    "without_website_by_vertical": {
+      "auto": 13,
+      "food_retail": 2,
+      "restaurant": 54,
+      "health": 18,
+      "beauty": 8,
+      "fitness": 7,
+      "trade": 3,
+      "prof_services": 3,
+      "retail": 4
+    }
+  },
+  "targets": [
+    {
+      "osm_id": "way/806044609",
+      "name": "A-1 Auto Repair",
+      "vertical": "auto",
+      "subtype": "car_repair",
+      "lat": 41.921021,
+      "lon": -88.7543497,
+      "website": "",
+      "social": {},
+      "phone": "+1 815-756-9054",
+      "email": "haendelauto@gmail.com",
+      "opening_hours": "Mo-Fr 10:00-18:00; Sa 09:00-16:00",
+      "cuisine": "",
+      "address": {
+        "line1": "816 Lacas Street",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "816 Lacas Street, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 8,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "email reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/8086283254",
+      "name": "Woody's Orchard & Fun Farm",
+      "vertical": "food_retail",
+      "subtype": "bakery",
+      "lat": 41.6701684,
+      "lon": -88.5653134,
+      "website": "",
+      "social": {},
+      "phone": "+1-630-247-9300",
+      "email": "",
+      "opening_hours": "Jun-Nov: Th-Su 10:00-18:00",
+      "cuisine": "",
+      "address": {
+        "line1": "3223 Creek Road",
+        "city": "Plano",
+        "state": "IL",
+        "postcode": "60545",
+        "full": "3223 Creek Road, Plano, IL 60545"
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 7,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/8901765165",
+      "name": "The Montcler",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.6498276,
+      "lon": -88.5771659,
+      "website": "",
+      "social": {},
+      "phone": "+1-630-273-6000",
+      "email": "",
+      "opening_hours": "Mo-Fr 9:00-17:00, 18:00-23:00 open \"seasonally\"; Sa 7:00-22:00; Su 7:00-14:00",
+      "cuisine": "italian",
+      "address": {
+        "line1": "3300 Drew Avenue",
+        "city": "Plano",
+        "state": "IL",
+        "postcode": "60545",
+        "full": "3300 Drew Avenue, Plano, IL 60545"
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 7,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/9958339222",
+      "name": "Tastee Bite",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.6535884,
+      "lon": -88.5660197,
+      "website": "",
+      "social": {},
+      "phone": "+1-630-552-0200",
+      "email": "",
+      "opening_hours": "Mo-Th 10:30-21:00; Fr-Sa 10:00-22:00; Sun 11:00-21:00",
+      "cuisine": "",
+      "address": {
+        "line1": "7000 Burroughs Avenue",
+        "city": "Plano",
+        "state": "",
+        "postcode": "60545",
+        "full": "7000 Burroughs Avenue, Plano, 60545"
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 7,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/370226190",
+      "name": "Pub West",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.7685248,
+      "lon": -88.7731644,
+      "website": "",
+      "social": {},
+      "phone": "+18152643736",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "grill",
+      "address": {
+        "line1": "100 East Adams Street",
+        "city": "Waterman",
+        "state": "IL",
+        "postcode": "60556",
+        "full": "100 East Adams Street, Waterman, IL 60556"
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 7,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1165159000",
+      "name": "Lovells Discount Tire - DeKalb",
+      "vertical": "auto",
+      "subtype": "tyres",
+      "lat": 41.9290631,
+      "lon": -88.7496661,
+      "website": "",
+      "social": {},
+      "phone": "+1 815-756-5656",
+      "email": "",
+      "opening_hours": "Mo-Fr 07:30-17:00; Sa off; Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "424 East Lincoln Highway",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "424 East Lincoln Highway, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 7,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/9958337526",
+      "name": "Lacey's Place",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.6535796,
+      "lon": -88.5660823,
+      "website": "",
+      "social": {},
+      "phone": "+1-630-552-3630",
+      "email": "",
+      "opening_hours": "Mo-Fr 9:00-17:00",
+      "cuisine": "pizza",
+      "address": {
+        "line1": "7000 Burroughs Avenue",
+        "city": "Plano",
+        "state": "",
+        "postcode": "60545",
+        "full": "7000 Burroughs Avenue, Plano, 60545"
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 7,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/2410010542",
+      "name": "Johnny K's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.647008,
+      "lon": -88.6004537,
+      "website": "",
+      "social": {},
+      "phone": "+1-815-786-3088",
+      "email": "",
+      "opening_hours": "Su-Sa 11:00-20:00",
+      "cuisine": "american",
+      "address": {
+        "line1": "125 Duvick Avenue",
+        "city": "Sandwich",
+        "state": "IL",
+        "postcode": "60548",
+        "full": "125 Duvick Avenue, Sandwich, IL 60548"
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 7,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/327347626",
+      "name": "Flamengo Restaurant and Ice Cream",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9331188,
+      "lon": -88.7399673,
+      "website": "",
+      "social": {},
+      "phone": "+1 815-901-0049",
+      "email": "",
+      "opening_hours": "10:00-22:00",
+      "cuisine": "mexican",
+      "address": {
+        "line1": "1029 Pleasant Street",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1029 Pleasant Street, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 7,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/9928473819",
+      "name": "Exquisite Skillet Pancake House",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.6572286,
+      "lon": -88.5538236,
+      "website": "",
+      "social": {},
+      "phone": "+1-331-808-0001",
+      "email": "",
+      "opening_hours": "Mo-Fr 6:00-15:00",
+      "cuisine": "breakfast",
+      "address": {
+        "line1": "1180 West Route 34",
+        "city": "Plano",
+        "state": "",
+        "postcode": "60545",
+        "full": "1180 West Route 34, Plano, 60545"
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 7,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/9958309777",
+      "name": "Dearborn Cafe",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.6475841,
+      "lon": -88.593866,
+      "website": "",
+      "social": {},
+      "phone": "+1-815-786-6185",
+      "email": "",
+      "opening_hours": "Mo-Sa 7:00-14:00",
+      "cuisine": "breakfast",
+      "address": {
+        "line1": "220 Indian Springs Drive",
+        "city": "Sandwich",
+        "state": "",
+        "postcode": "60548",
+        "full": "220 Indian Springs Drive, Sandwich, 60548"
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 7,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/805756776",
+      "name": "China House",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9473205,
+      "lon": -88.7307185,
+      "website": "",
+      "social": {},
+      "phone": "+1 815-748-0032",
+      "email": "",
+      "opening_hours": "Mo-Th 11:00-21:30; Fr-Sa 11:00-22:30; Su 11:00-21:30",
+      "cuisine": "chinese",
+      "address": {
+        "line1": "1900 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1900 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 7,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/5192627460",
+      "name": "Yen Ching",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9308695,
+      "lon": -88.7684209,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "810 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "810 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1210838365",
+      "name": "Wired Nutrition",
+      "vertical": "health",
+      "subtype": "pharmacy",
+      "lat": 41.929996,
+      "lon": -88.7692615,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "Mo-Fr 07:00-17:00; Sa 08:00-13:00; Su closed",
+      "cuisine": "",
+      "address": {
+        "line1": "830 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "830 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/984135047",
+      "name": "VP Nails",
+      "vertical": "beauty",
+      "subtype": "beauty",
+      "lat": 41.9545782,
+      "lon": -88.7252996,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2447 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2447 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/5192642805",
+      "name": "University City Barbershop",
+      "vertical": "beauty",
+      "subtype": "hairdresser",
+      "lat": 41.9317146,
+      "lon": -88.7689137,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "817 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "817 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/384622160",
+      "name": "Twins Tavern",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9178235,
+      "lon": -88.7529897,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "09:00-01:00",
+      "cuisine": "burger",
+      "address": {
+        "line1": "1028 South 4th Street",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1028 South 4th Street, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/501533085",
+      "name": "Todd Curtis Orthodontist",
+      "vertical": "health",
+      "subtype": "dentist",
+      "lat": 41.9897361,
+      "lon": -88.6876891,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "124 North California Street",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "124 North California Street, Sycamore, IL 60178"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1165158982",
+      "name": "The Lincoln Inn",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9299288,
+      "lon": -88.7521578,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "240 East Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "240 East Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/5192642322",
+      "name": "The Huddle",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9321407,
+      "lon": -88.7689288,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "817 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "817 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1165158968",
+      "name": "The Flame",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.930452,
+      "lon": -88.7521232,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "greek",
+      "address": {
+        "line1": "209 East Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "209 East Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1165158981",
+      "name": "Tapa La Luna",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9299655,
+      "lon": -88.7522793,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "226 East Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "226 East Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1080838642",
+      "name": "Tails Humane Society",
+      "vertical": "health",
+      "subtype": "veterinary",
+      "lat": 41.9499611,
+      "lon": -88.7144464,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "Barber Greene Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "Barber Greene Road, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/5192645321",
+      "name": "Sharks Fish & Chicken",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9366666,
+      "lon": -88.7710857,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "901 Lucinda Avenue",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "901 Lucinda Avenue, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/463741394",
+      "name": "Sam's Family Restaurant",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9223508,
+      "lon": -88.6890169,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "regional",
+      "address": {
+        "line1": "11 West North Avenue",
+        "city": "Pontiac",
+        "state": "IL",
+        "postcode": "60112",
+        "full": "11 West North Avenue, Pontiac, IL 60112"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/745999991",
+      "name": "Realize Athletics",
+      "vertical": "fitness",
+      "subtype": "sports_centre",
+      "lat": 41.9928013,
+      "lon": -88.6832387,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "432 N. Main Street",
+        "city": "Sycamore",
+        "state": "",
+        "postcode": "60178",
+        "full": "432 N. Main Street, Sycamore, 60178"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/4586326736",
+      "name": "Pour House Pub",
+      "vertical": "restaurant",
+      "subtype": "bar",
+      "lat": 42.1001751,
+      "lon": -88.7594684,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "105 Main Street",
+        "city": "Kingston",
+        "state": "IL",
+        "postcode": "60145",
+        "full": "105 Main Street, Kingston, IL 60145"
+      },
+      "is_chain": false,
+      "region": "Genoa / Kingston / Kirkland (north county)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/255689179",
+      "name": "Pizza Villa",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9307007,
+      "lon": -88.7694887,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "pizza",
+      "address": {
+        "line1": "824 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "824 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/5192645526",
+      "name": "Panda House",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9366666,
+      "lon": -88.7712029,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "901 Lucinda Avenue",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "901 Lucinda Avenue, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1001244037",
+      "name": "Orthodontic Experts",
+      "vertical": "health",
+      "subtype": "dentist",
+      "lat": 41.9522306,
+      "lon": -88.7265733,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2335 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2335 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1385223435",
+      "name": "Northwestern Medicine Primary Care Genoa",
+      "vertical": "health",
+      "subtype": "clinic",
+      "lat": 42.0898811,
+      "lon": -88.685958,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "599 Pearson Drive",
+        "city": "Genoa",
+        "state": "IL",
+        "postcode": "60135",
+        "full": "599 Pearson Drive, Genoa, IL 60135"
+      },
+      "is_chain": false,
+      "region": "Genoa / Kingston / Kirkland (north county)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1210838359",
+      "name": "My 1 Hair Solution",
+      "vertical": "beauty",
+      "subtype": "hairdresser",
+      "lat": 41.9306445,
+      "lon": -88.7686699,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "818 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "818 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/2132653265",
+      "name": "MVPs Sports Bar and Grill",
+      "vertical": "restaurant",
+      "subtype": "bar",
+      "lat": 41.9881872,
+      "lon": -88.688215,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "122 South California Street",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": "122 South California Street"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/673190507",
+      "name": "Lord Stanley's and Annex",
+      "vertical": "restaurant",
+      "subtype": "bar",
+      "lat": 41.9302625,
+      "lon": -88.7532828,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "142 East Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "142 East Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/984135014",
+      "name": "Leza Nail Spa",
+      "vertical": "beauty",
+      "subtype": "beauty",
+      "lat": 41.9541125,
+      "lon": -88.7223355,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2444 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2444 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/535777395",
+      "name": "La Michoacana",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9305371,
+      "lon": -88.7570022,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "162 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "162 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/259940386",
+      "name": "Kunes Auto Group",
+      "vertical": "auto",
+      "subtype": "car",
+      "lat": 41.9690777,
+      "lon": -88.719525,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "1875 DeKalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "1875 DeKalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/984135040",
+      "name": "Home Instead Senior Car",
+      "vertical": "health",
+      "subtype": "clinic",
+      "lat": 41.9565729,
+      "lon": -88.7234113,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2585 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2585 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1081235947",
+      "name": "Genoa Animal Hospital",
+      "vertical": "health",
+      "subtype": "veterinary",
+      "lat": 42.0898556,
+      "lon": -88.6832088,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "703 Pearson Drive",
+        "city": "Genoa",
+        "state": "IL",
+        "postcode": "60135",
+        "full": "703 Pearson Drive, Genoa, IL 60135"
+      },
+      "is_chain": false,
+      "region": "Genoa / Kingston / Kirkland (north county)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1210838363",
+      "name": "Fushi Yami",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9299936,
+      "lon": -88.7689467,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "822 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "822 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1000392737",
+      "name": "Friedrichs Eye Surgery & Optical",
+      "vertical": "health",
+      "subtype": "doctors",
+      "lat": 41.9599204,
+      "lon": -88.7200198,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2670 DeKalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "2670 DeKalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/483320507",
+      "name": "Fatty's Pub & Grille",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9304149,
+      "lon": -88.7783593,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "11:30-01:00",
+      "cuisine": "american",
+      "address": {
+        "line1": "1213 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1213 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/4588378482",
+      "name": "DeKalb Mechanical",
+      "vertical": "trade",
+      "subtype": "hvac",
+      "lat": 41.9298117,
+      "lon": -88.731916,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "Wurlitzer Drive",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "Wurlitzer Drive, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/463741408",
+      "name": "Cortland Vet",
+      "vertical": "health",
+      "subtype": "veterinary",
+      "lat": 41.9132457,
+      "lon": -88.685683,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "West Lincoln Highway",
+        "city": "Cortland",
+        "state": "IL",
+        "postcode": "60112",
+        "full": "West Lincoln Highway, Cortland, IL 60112"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1210838361",
+      "name": "Chicago Beauty",
+      "vertical": "beauty",
+      "subtype": "beauty",
+      "lat": 41.9304371,
+      "lon": -88.7686681,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "822 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "822 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/805756771",
+      "name": "Brian Bemis Toyota of DeKalb",
+      "vertical": "auto",
+      "subtype": "car",
+      "lat": 41.9463122,
+      "lon": -88.7307042,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "Mo-Th 09:00-20:00; Fr-Sa 09:00-18:00; Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "1890 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1890 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/535866123",
+      "name": "Bowlrrito",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9305539,
+      "lon": -88.7751128,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "1180 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1180 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/328509319",
+      "name": "Bea's Wok N Roll",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.943494,
+      "lon": -88.73654,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "vietnamese",
+      "address": {
+        "line1": "1402 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1402 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1385223437",
+      "name": "Anderson Auto Body",
+      "vertical": "auto",
+      "subtype": "car_repair",
+      "lat": 42.0902884,
+      "lon": -88.681891,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "707 Pearson Drive",
+        "city": "Genoa",
+        "state": "IL",
+        "postcode": "60135",
+        "full": "707 Pearson Drive, Genoa, IL 60135"
+      },
+      "is_chain": false,
+      "region": "Genoa / Kingston / Kirkland (north county)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1000392736",
+      "name": "21 Nail Spa",
+      "vertical": "beauty",
+      "subtype": "beauty",
+      "lat": 41.959881,
+      "lon": -88.7198364,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2674 DeKalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "2674 DeKalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 5,
+      "audit": [
+        "no website",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1000392743",
+      "name": "pilatesplusunlimited",
+      "vertical": "fitness",
+      "subtype": "fitness_centre",
+      "lat": 41.9596077,
+      "lon": -88.7187601,
+      "website": "https://www.pilatesplusunlimited.com/",
+      "social": {},
+      "phone": "+1 815-970-1494",
+      "email": "pilatesplusunlimited@gmail.com",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2690 DeKalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "2690 DeKalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "phone reachable",
+        "email reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/218538607",
+      "name": "Yordon Center",
+      "vertical": "fitness",
+      "subtype": "sports_centre",
+      "lat": 41.9347917,
+      "lon": -88.7777261,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/1285073582",
+      "name": "White Oak Tax Solutions",
+      "vertical": "prof_services",
+      "subtype": "tax_advisor",
+      "lat": 41.9214411,
+      "lon": -88.7529678,
+      "website": "https://www.whiteoaktaxes.com/",
+      "social": {},
+      "phone": "+1 815-758-7111",
+      "email": "info@whiteoaktaxes.com",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "810 South 4th Street",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "810 South 4th Street, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "phone reachable",
+        "email reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1285433952",
+      "name": "WM. F. Meyer Company",
+      "vertical": "trade",
+      "subtype": "plumber",
+      "lat": 41.9212155,
+      "lon": -88.754349,
+      "website": "https://www.wmfmeyer.com/Dekalb--IL-v5.HTML",
+      "social": {},
+      "phone": "+1 815-756-2789",
+      "email": "markw@wmfmeyerco.com",
+      "opening_hours": "Mo-Fr 07:00-16:30; Sa off; Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "812 Lacas Street",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "812 Lacas Street, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "phone reachable",
+        "email reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/8577143645",
+      "name": "Valley West Medical Center",
+      "vertical": "health",
+      "subtype": "doctors",
+      "lat": 41.6569747,
+      "lon": -88.5547235,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/9128470493",
+      "name": "Ultimate Health and Fitness",
+      "vertical": "fitness",
+      "subtype": "fitness_centre",
+      "lat": 41.6466883,
+      "lon": -88.5957629,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/1218659305",
+      "name": "Tracy Nails",
+      "vertical": "beauty",
+      "subtype": "beauty",
+      "lat": 41.9518479,
+      "lon": -88.7269209,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/1210838357",
+      "name": "The Junction Eating Place",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9308481,
+      "lon": -88.7686717,
+      "website": "https://thejunctioneatingplace.com/#",
+      "social": {},
+      "phone": "+1 815-758-5441",
+      "email": "junctioneatingplace@gmail.com",
+      "opening_hours": "Mo-Su 08:00-21:30",
+      "cuisine": "",
+      "address": {
+        "line1": "816 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "816 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "phone reachable",
+        "email reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/3768063326",
+      "name": "The Confectionary",
+      "vertical": "food_retail",
+      "subtype": "confectionery",
+      "lat": 41.9312576,
+      "lon": -88.752398,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/9128470478",
+      "name": "Teased & Tangled",
+      "vertical": "beauty",
+      "subtype": "hairdresser",
+      "lat": 41.6447927,
+      "lon": -88.6178704,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/2410001156",
+      "name": "Star 34 Family Restaurant",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.6438102,
+      "lon": -88.6267359,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "american",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/259922982",
+      "name": "Spex Expressions",
+      "vertical": "retail",
+      "subtype": "optician",
+      "lat": 41.9610292,
+      "lon": -88.7196428,
+      "website": "https://spexexpressions.com",
+      "social": {},
+      "phone": "+1 815-758-1039",
+      "email": "info@SpexExpressions.com",
+      "opening_hours": "Mo 09:00-17:00; Tu 09:00-19:00; We 09:00-17:00; Th 09:00-19:00; Fr 09:00-15:00; Sa 08:00-14:00; Su",
+      "cuisine": "",
+      "address": {
+        "line1": "2570 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2570 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "phone reachable",
+        "email reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/2410020272",
+      "name": "Santa Fe",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.6440868,
+      "lon": -88.6196603,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "mexican",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/2410009914",
+      "name": "Sandwich Veterinary",
+      "vertical": "health",
+      "subtype": "veterinary",
+      "lat": 41.6463918,
+      "lon": -88.6033578,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/1207622896",
+      "name": "Responsive Roofing",
+      "vertical": "trade",
+      "subtype": "roofer",
+      "lat": 41.9312198,
+      "lon": -88.7592193,
+      "website": "https://responsiveroofing.com",
+      "social": {},
+      "phone": "+1 815-901-8860",
+      "email": "office@responsiveroofing.com",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "221 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60506",
+        "full": "221 West Lincoln Highway, DeKalb, IL 60506"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "phone reachable",
+        "email reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/373321000",
+      "name": "Recreation Center",
+      "vertical": "fitness",
+      "subtype": "sports_centre",
+      "lat": 41.9094624,
+      "lon": -88.7547256,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/5465467380",
+      "name": "Properties office",
+      "vertical": "prof_services",
+      "subtype": "estate_agent",
+      "lat": 41.923143,
+      "lon": -88.7701633,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/4588378467",
+      "name": "Pinkston-Tadd Roofing",
+      "vertical": "trade",
+      "subtype": "roofer",
+      "lat": 41.9200416,
+      "lon": -88.7328429,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/373321002",
+      "name": "Ollie's Frozen Custard",
+      "vertical": "restaurant",
+      "subtype": "ice_cream",
+      "lat": 41.9577691,
+      "lon": -88.7199843,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/11148649409",
+      "name": "OPENDOOR COFFEE",
+      "vertical": "restaurant",
+      "subtype": "cafe",
+      "lat": 42.0977356,
+      "lon": -88.6972331,
+      "website": "https://opendoorgenoa.com/",
+      "social": {
+        "facebook": "https://www.facebook.com/opendoorcoffeegenoa"
+      },
+      "phone": "+17797713503",
+      "email": "INFO@OPENDOORGENOA.COM",
+      "opening_hours": "Mo-Su 08:00-16:00",
+      "cuisine": "coffee_shop",
+      "address": {
+        "line1": "502 West Main Street",
+        "city": "genoa",
+        "state": "IL",
+        "postcode": "60135",
+        "full": "502 West Main Street, genoa, IL 60135"
+      },
+      "is_chain": false,
+      "region": "Genoa / Kingston / Kirkland (north county)",
+      "lead_score": 4,
+      "audit": [
+        "phone reachable",
+        "email reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/255563207",
+      "name": "Molly's",
+      "vertical": "restaurant",
+      "subtype": "bar",
+      "lat": 41.9305519,
+      "lon": -88.771128,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/984134985",
+      "name": "Merlin 200,000 Mile Shop",
+      "vertical": "auto",
+      "subtype": "car_repair",
+      "lat": 41.9466013,
+      "lon": -88.7320807,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/1016755788",
+      "name": "Mardi Gras Lanes DeKalb",
+      "vertical": "fitness",
+      "subtype": "sports_centre",
+      "lat": 41.9449497,
+      "lon": -88.7322372,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/259940387",
+      "name": "Kunes Auto Group Collision Center",
+      "vertical": "auto",
+      "subtype": "car_repair",
+      "lat": 41.9699186,
+      "lon": -88.719769,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/865424451",
+      "name": "Just the Details",
+      "vertical": "auto",
+      "subtype": "car_repair",
+      "lat": 41.980806,
+      "lon": -88.7039474,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/5638325797",
+      "name": "Jewel-Osco Pharmacy",
+      "vertical": "health",
+      "subtype": "pharmacy",
+      "lat": 42.0135975,
+      "lon": -88.6785126,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "Mo-Fr 08:00-20:00; Sa-Su 08:00-15:00; PH \"unknown\"",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/1000392738",
+      "name": "Jamrah Middle Eastern Cusine",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9598333,
+      "lon": -88.7200196,
+      "website": "https://www.jamrahrestaurant.com/",
+      "social": {},
+      "phone": "+1 815-517-0007",
+      "email": "info@jamrahrestaurant.com",
+      "opening_hours": "Fr-Sa 11:30-20:00; Su 11:30-19:00",
+      "cuisine": "middle_eastern",
+      "address": {
+        "line1": "2672 DeKalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "2672 DeKalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "phone reachable",
+        "email reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/2132740794",
+      "name": "Hink's Bar and Grill",
+      "vertical": "restaurant",
+      "subtype": "bar",
+      "lat": 41.9881912,
+      "lon": -88.688671,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/8577143646",
+      "name": "Healthy Beginnings Pediatrics",
+      "vertical": "health",
+      "subtype": "doctors",
+      "lat": 41.6571292,
+      "lon": -88.5547032,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/535760582",
+      "name": "Happy Wok",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9305555,
+      "lon": -88.775379,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "chinese",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/6343750194",
+      "name": "Forge Brewhouse",
+      "vertical": "trade",
+      "subtype": "brewery",
+      "lat": 41.9301365,
+      "lon": -88.7464076,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/4586332067",
+      "name": "Five Points Pub",
+      "vertical": "restaurant",
+      "subtype": "bar",
+      "lat": 42.0997663,
+      "lon": -88.7593237,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "Genoa / Kingston / Kirkland (north county)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/370226177",
+      "name": "Fay's Finest Foods",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.7695073,
+      "lon": -88.7547774,
+      "website": "https://www.faysfinestfood.com/",
+      "social": {
+        "facebook": "https://www.facebook.com/people/Fays-Finest-Foods"
+      },
+      "phone": "+1-815-286-4123",
+      "email": "faysfinestfoods@gmail.com",
+      "opening_hours": "Fr 11:00-19:00",
+      "cuisine": "american;barbecue",
+      "address": {
+        "line1": "9999 West Lincoln Highway",
+        "city": "Waterman",
+        "state": "IL",
+        "postcode": "60556",
+        "full": "9999 West Lincoln Highway, Waterman, IL 60556"
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 4,
+      "audit": [
+        "phone reachable",
+        "email reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1165158977",
+      "name": "Eduardo's Mexican Restaurant",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9300723,
+      "lon": -88.7526332,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "mexican",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/1218659306",
+      "name": "Dental Fields",
+      "vertical": "health",
+      "subtype": "dentist",
+      "lat": 41.9519124,
+      "lon": -88.7268484,
+      "website": "http://www.dentalfields.com/contact/",
+      "social": {},
+      "phone": "+1 815-517-0178",
+      "email": "dentalfields@yahoo.com",
+      "opening_hours": "Mo-Tu 10:00-18:00; We 09:00-18:00; Th 10:00-18:00; Fr 10:00-19:00; Sa 09:00-14:00; Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "2235 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2235 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "phone reachable",
+        "email reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/7194079970",
+      "name": "Cub and Spanks",
+      "vertical": "restaurant",
+      "subtype": "bar",
+      "lat": 41.9891152,
+      "lon": -88.6860773,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/754704241",
+      "name": "Cronauer Law",
+      "vertical": "prof_services",
+      "subtype": "lawyer",
+      "lat": 41.9833606,
+      "lon": -88.702645,
+      "website": "https://www.cronauerlaw.com/",
+      "social": {},
+      "phone": "+1 815-895-8585",
+      "email": "info@cronauerlaw.com",
+      "opening_hours": "Mo-Fr 08:00-17:00",
+      "cuisine": "",
+      "address": {
+        "line1": "1101 Dekalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "1101 Dekalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "phone reachable",
+        "email reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/2410014351",
+      "name": "Church St ",
+      "vertical": "restaurant",
+      "subtype": "bar",
+      "lat": 41.6466529,
+      "lon": -88.6052565,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/2410013920",
+      "name": "Chinese Buffet",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.6465327,
+      "lon": -88.6056964,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "chinese",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/450880847",
+      "name": "Burritoville",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9448639,
+      "lon": -88.7721118,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/9128470483",
+      "name": "Burless",
+      "vertical": "restaurant",
+      "subtype": "cafe",
+      "lat": 41.644805,
+      "lon": -88.6187387,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/373321019",
+      "name": "Burger Naan",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9307863,
+      "lon": -88.7527302,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "indian;american;fusion",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/2410000974",
+      "name": "BullMoose Pub",
+      "vertical": "restaurant",
+      "subtype": "pub",
+      "lat": 41.6439826,
+      "lon": -88.6213823,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/2410019943",
+      "name": "Brenda's Custard",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.6439465,
+      "lon": -88.6204864,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "ice_cream",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/13336327119",
+      "name": "Boss Roofing Siding Experts",
+      "vertical": "trade",
+      "subtype": "roofer",
+      "lat": 41.9206089,
+      "lon": -88.7538932,
+      "website": "https://bossroofingsiding.com/roofing-company-dekalb-il/",
+      "social": {
+        "facebook": "https://www.facebook.com/bossroofing1"
+      },
+      "phone": "+1-815-446-1564",
+      "email": "office@bossroofing.net",
+      "opening_hours": "Mo-Sa 00:00-24:00; Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "835 South 4th Street",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "835 South 4th Street, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "phone reachable",
+        "email reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/11932130895",
+      "name": "Bosma Dental",
+      "vertical": "health",
+      "subtype": "dentist",
+      "lat": 41.9605123,
+      "lon": -88.7196744,
+      "website": "https://www.bosmadental.com/",
+      "social": {},
+      "phone": "+1 815-758-5045",
+      "email": "bosmadental@gmail.com",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2600 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2600 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "phone reachable",
+        "email reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/9128470479",
+      "name": "Bookkeeping Express",
+      "vertical": "prof_services",
+      "subtype": "accountant",
+      "lat": 41.6448134,
+      "lon": -88.6176672,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/479986075",
+      "name": "Batting Cage",
+      "vertical": "fitness",
+      "subtype": "sports_centre",
+      "lat": 42.0904566,
+      "lon": -88.8439682,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "Genoa / Kingston / Kirkland (north county)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "node/9128470486",
+      "name": "Angie's Sugar Buzz Bakery",
+      "vertical": "restaurant",
+      "subtype": "cafe",
+      "lat": 41.6448209,
+      "lon": -88.6085272,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 4,
+      "audit": [
+        "no website"
+      ]
+    },
+    {
+      "osm_id": "way/806044637",
+      "name": "AJ's Auto Repair Shop",
+      "vertical": "auto",
+      "subtype": "car_repair",
+      "lat": 41.920387,
+      "lon": -88.7538197,
+      "website": "https://ajs-auto-repair-shop.square.site/",
+      "social": {},
+      "phone": "+1 815-997-9461",
+      "email": "aj.autorepair815@gmail.com",
+      "opening_hours": "Mo-Fr 09:00-18:00; Sa 08:00-15:00; Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "849 South 4th Street",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "849 South 4th Street, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 4,
+      "audit": [
+        "phone reachable",
+        "email reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1207622895",
+      "name": "Vinny's Pizza",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9312168,
+      "lon": -88.7590542,
+      "website": "https://www.vinnyspizzadekalb.com/",
+      "social": {},
+      "phone": "+1 815-551-0925",
+      "email": "",
+      "opening_hours": "Mo-We,Su 10:30-02:00; Th-Sa 10:30-03:00",
+      "cuisine": "pizza",
+      "address": {
+        "line1": "221 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60506",
+        "full": "221 West Lincoln Highway, DeKalb, IL 60506"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/12156369500",
+      "name": "The Grove Tavern",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9306248,
+      "lon": -88.7491691,
+      "website": "https://www.thegrovetavern.com/",
+      "social": {},
+      "phone": "+1-815-264-2125",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "american",
+      "address": {
+        "line1": "204 N 4th St",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "204 N 4th St, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/11736155144",
+      "name": "The Dirty Bird",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9878899,
+      "lon": -88.6859095,
+      "website": "https://thedirtybird815.com",
+      "social": {},
+      "phone": "+1 815-991-5877",
+      "email": "",
+      "opening_hours": "We-Fr 16:00-21:00; Sa 11:00-21:00; Su 11:00-19:00",
+      "cuisine": "chicken_restaurant",
+      "address": {
+        "line1": "124 S Maple St",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "124 S Maple St, Sycamore, IL 60178"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1165158975",
+      "name": "Thai Pavillion",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9302962,
+      "lon": -88.7515001,
+      "website": "https://thaipavilionskokie.com/indexHome.php",
+      "social": {},
+      "phone": "+1-815-756-6445",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "thai",
+      "address": {
+        "line1": "251 East Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "251 East Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/4422669390",
+      "name": "South Moon BBQ",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.7692323,
+      "lon": -88.6408424,
+      "website": "https://www.southmoonbbq.com",
+      "social": {},
+      "phone": "+1-815-286-9227",
+      "email": "",
+      "opening_hours": "We-Su 11:00-19:00; Sa-Fr 11:00-20:00",
+      "cuisine": "barbecue",
+      "address": {
+        "line1": "100 East Lincoln Avenue",
+        "city": "Hinckley",
+        "state": "IL",
+        "postcode": "60520",
+        "full": "100 East Lincoln Avenue, Hinckley, IL 60520"
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/7483059908",
+      "name": "Realize Athletics",
+      "vertical": "fitness",
+      "subtype": "fitness_centre",
+      "lat": 41.9156107,
+      "lon": -88.6997754,
+      "website": "https://realizeathletics.com/",
+      "social": {},
+      "phone": "+1-224-563-4638",
+      "email": "",
+      "opening_hours": "Mo-Su 05:00-20:00",
+      "cuisine": "",
+      "address": {
+        "line1": "300 West Lincoln Highway",
+        "city": "Cortland",
+        "state": "IL",
+        "postcode": "60112",
+        "full": "300 West Lincoln Highway, Cortland, IL 60112"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1000392740",
+      "name": "Paw Lickin Good",
+      "vertical": "retail",
+      "subtype": "pet",
+      "lat": 41.9598185,
+      "lon": -88.7186999,
+      "website": "https://www.pawlickingoodtreats.com/",
+      "social": {},
+      "phone": "+1 815-758-8300",
+      "email": "",
+      "opening_hours": "Mo-Tu 10:00-18:00; We 10:00-18:00; Fr 10:00-18:00; Sa 10:00-17:00; Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "2684 DeKalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "2684 DeKalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1286465728",
+      "name": "Pardridge Insurance",
+      "vertical": "prof_services",
+      "subtype": "insurance",
+      "lat": 41.9609184,
+      "lon": -88.7196408,
+      "website": "https://www.pardridge.com",
+      "social": {},
+      "phone": "+1 815-758-4447",
+      "email": "",
+      "opening_hours": "Mo-Fr 08:00-17:00; Sa-Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "2580 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2580 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/806044882",
+      "name": "Motor Works",
+      "vertical": "auto",
+      "subtype": "car_repair",
+      "lat": 41.9215873,
+      "lon": -88.7543623,
+      "website": "https://www.motorw.com",
+      "social": {},
+      "phone": "+1 815-206-8908",
+      "email": "",
+      "opening_hours": "Mo-Fr 08:00-17:30; Sa-Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "316 East Taylor Street",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "316 East Taylor Street, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1000392735",
+      "name": "McCoy Chiropractic",
+      "vertical": "health",
+      "subtype": "clinic",
+      "lat": 41.9598811,
+      "lon": -88.7197501,
+      "website": "http://mccoychiropractic.net",
+      "social": {},
+      "phone": "+1 815-895-5111",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2676 DeKalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "2676 DeKalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/328676619",
+      "name": "Los Rancheros",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9512303,
+      "lon": -88.7232502,
+      "website": "https://www.losrancherosrestaurante.com/location/los-rancheros-dekalb/",
+      "social": {},
+      "phone": "+1 815-758-2200",
+      "email": "",
+      "opening_hours": "Mo-Sa 11:00-23:00, Su 11:00-21:00",
+      "cuisine": "mexican",
+      "address": {
+        "line1": "2350 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2350 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/448151439",
+      "name": "Inboden's Gourmet Meats & Specialty Foods",
+      "vertical": "food_retail",
+      "subtype": "deli",
+      "lat": 41.9418668,
+      "lon": -88.7486765,
+      "website": "https://meatplace.com/",
+      "social": {},
+      "phone": "+1 815-756-5852",
+      "email": "",
+      "opening_hours": "Mo-Sa 08:00-19:00; PH off",
+      "cuisine": "",
+      "address": {
+        "line1": "1106 North 1st Street",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1106 North 1st Street, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1218659240",
+      "name": "Heights Finance - DeKalb",
+      "vertical": "prof_services",
+      "subtype": "tax_advisor",
+      "lat": 41.9455516,
+      "lon": -88.7330622,
+      "website": "https://www.heightsfinance.com/loan-office-location/heights-finance-in-dekalb/",
+      "social": {},
+      "phone": "+1 815-748-9094",
+      "email": "",
+      "opening_hours": "Mo-Fr 08:30-17:30",
+      "cuisine": "",
+      "address": {
+        "line1": "1742 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1742 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/806044813",
+      "name": "French Toast Pancake House",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.920895,
+      "lon": -88.7539355,
+      "website": "https://frenchtoastpancakehouse.menufy.com/",
+      "social": {},
+      "phone": "+1 815-754-6900",
+      "email": "",
+      "opening_hours": "Mo-Th 06:00-14:00; Fr-Su 06:00-14:30",
+      "cuisine": "pancake",
+      "address": {
+        "line1": "831 South 4th Street",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "831 South 4th Street, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1218659304",
+      "name": "Elwood Steak & Fish House",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9517477,
+      "lon": -88.7270339,
+      "website": "https://www.ellwoodsteakandfishhouse.com",
+      "social": {},
+      "phone": "+1 815-901-0270",
+      "email": "",
+      "opening_hours": "Mo off; Tu-Th 12:00-21:00; Fr-Sa 12:00-22:00; Su 12:00-21:00",
+      "cuisine": "steak_house",
+      "address": {
+        "line1": "2219 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2219 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1165158987",
+      "name": "El Jimador Mexican Grill",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9297902,
+      "lon": -88.7516346,
+      "website": "https://eljimadordekalb.com/",
+      "social": {},
+      "phone": "+18153015008",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "mexican",
+      "address": {
+        "line1": "260 East Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "260 East Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/984135003",
+      "name": "Egg Haven Cafe",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9559611,
+      "lon": -88.7213599,
+      "website": "https://egghavencafe.com/",
+      "social": {},
+      "phone": "+1 815-748-1200",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2562 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2562 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1286465729",
+      "name": "DeKalb Dental Group",
+      "vertical": "health",
+      "subtype": "dentist",
+      "lat": 41.9587749,
+      "lon": -88.7215274,
+      "website": "https://www.dekalbdentalgroup.com/",
+      "social": {},
+      "phone": "+1 815-756-4430",
+      "email": "",
+      "opening_hours": "Mo-Fr 08:00-14:00; Sa off; Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "2707 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2707 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/821229147",
+      "name": "Dairy Joy Drive In",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.7689924,
+      "lon": -88.6356513,
+      "website": "https://www.dairyjoydrivein.com/",
+      "social": {},
+      "phone": "+1-815-286-7701",
+      "email": "",
+      "opening_hours": "Mo-Su 11:00-20:00",
+      "cuisine": "american",
+      "address": {
+        "line1": "435 East Lincoln Highway",
+        "city": "Hinckley",
+        "state": "IL",
+        "postcode": "60520",
+        "full": "435 East Lincoln Highway, Hinckley, IL 60520"
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1165158999",
+      "name": "China One",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.929034,
+      "lon": -88.7505179,
+      "website": "http://chinaonedekalb.com/",
+      "social": {},
+      "phone": "+1 815-756-9102",
+      "email": "",
+      "opening_hours": "11:00-23:00; Tu off",
+      "cuisine": "chinese",
+      "address": {
+        "line1": "131 South 4th Street",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "131 South 4th Street, Dekalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/12010554614",
+      "name": "Cast Iron Coffee",
+      "vertical": "restaurant",
+      "subtype": "cafe",
+      "lat": 41.9366665,
+      "lon": -88.7716058,
+      "website": "https://www.castiron-coffee.com/",
+      "social": {},
+      "phone": "+1-815-517-0654",
+      "email": "",
+      "opening_hours": "Mo-Sa 07:00-20:00; Su 07:00-18:00",
+      "cuisine": "coffee_shop;tea",
+      "address": {
+        "line1": "901 Lucinda Avenue",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "901 Lucinda Avenue, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1218659299",
+      "name": "All about eye's",
+      "vertical": "retail",
+      "subtype": "optician",
+      "lat": 41.9514111,
+      "lon": -88.7274294,
+      "website": "https://allabouteyes.com/locations-2/dekalb/",
+      "social": {},
+      "phone": "+1 815-754-2020",
+      "email": "",
+      "opening_hours": "Mo 09:00-19:00; Tu-Th 09:00-18:00; Fr 08:00-17:00; Sa 08:00-16:00; Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "2201 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2201 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 3,
+      "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/984135042",
+      "name": "Shelby's",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9565175,
+      "lon": -88.7235764,
+      "website": "https://www.laredohospitality.com/locations/",
+      "social": {},
+      "phone": "+1 815-809-0620",
+      "email": "",
+      "opening_hours": "Mo-We 08:00-01:00, Th-Sa 08:00-02:00, Su 10:00-01:00",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 2,
+      "audit": [
+        "phone reachable"
+      ]
+    },
+    {
+      "osm_id": "way/259940384",
+      "name": "Red Tag Motors",
+      "vertical": "auto",
+      "subtype": "car",
+      "lat": 41.968084,
+      "lon": -88.7195071,
+      "website": "https://www.redtagmotors.net/",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "1925 DeKalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "1925 DeKalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 1,
+      "audit": [
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/373321010",
+      "name": "Los 3 Buritos",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9310596,
+      "lon": -88.7573033,
+      "website": "https://los3burritosdekalb.com/29044",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "mexican",
+      "address": {
+        "line1": "185 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "185 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 1,
+      "audit": [
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/984135013",
+      "name": "DeKamore Dental",
+      "vertical": "health",
+      "subtype": "dentist",
+      "lat": 41.9541019,
+      "lon": -88.7226191,
+      "website": "https://www.dekamoredental.com/",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2442 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2442 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 1,
+      "audit": [
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/218638069",
+      "name": "Chessick Practice Center",
+      "vertical": "fitness",
+      "subtype": "sports_centre",
+      "lat": 41.9352595,
+      "lon": -88.7778666,
+      "website": "https://niuhuskies.com/sports/hasf/spec-rel/chessick-center.html",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "1200 Stadium Drive North",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1200 Stadium Drive North, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 1,
+      "audit": [
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/12010351649",
+      "name": "Barb City Bagels",
+      "vertical": "restaurant",
+      "subtype": "cafe",
+      "lat": 41.930483,
+      "lon": -88.7537419,
+      "website": "https://www.barbcitybagels.com/",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "Mo-Su 07:00-14:00",
+      "cuisine": "bagel",
+      "address": {
+        "line1": "118 East Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "118 East Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": 1,
+      "audit": [
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "node/13327197153",
+      "name": "Aurora Sportsmen's Club",
+      "vertical": "fitness",
+      "subtype": "sports_centre",
+      "lat": 41.7524928,
+      "lon": -88.7914132,
+      "website": "https://aurorasc.org/",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "7749 Rueff Road",
+        "city": "Waterman",
+        "state": "IL",
+        "postcode": "60556",
+        "full": "7749 Rueff Road, Waterman, IL 60556"
+      },
+      "is_chain": false,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": 1,
+      "audit": [
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/1284553625",
+      "name": "Wendy's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.943443,
+      "lon": -88.7376506,
+      "website": "",
+      "social": {},
+      "phone": "+1 815-756-3400",
+      "email": "",
+      "opening_hours": "06:00-22:00",
+      "cuisine": "burger",
+      "address": {
+        "line1": "1321 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1321 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -1,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/1024304375",
+      "name": "Subway",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9290425,
+      "lon": -88.7491146,
+      "website": "",
+      "social": {},
+      "phone": "+1 815-981-8989",
+      "email": "",
+      "opening_hours": "Mo-Su 09:00-21:00",
+      "cuisine": "sandwich",
+      "address": {
+        "line1": "452 East Lincoln Highway",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "452 East Lincoln Highway, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -1,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/12737498182",
+      "name": "Subway",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.6528383,
+      "lon": -88.5635457,
+      "website": "",
+      "social": {},
+      "phone": "+1 630-552-0066",
+      "email": "",
+      "opening_hours": "Mo-Su 8:30-20:30",
+      "cuisine": "sandwich",
+      "address": {
+        "line1": "6800 US 34",
+        "city": "Plano",
+        "state": "IL",
+        "postcode": "60545",
+        "full": "6800 US 34, Plano, IL 60545"
+      },
+      "is_chain": true,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": -1,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/12736946223",
+      "name": "Smoothie King",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.6527843,
+      "lon": -88.5702596,
+      "website": "",
+      "social": {},
+      "phone": "+1 331-808-4756",
+      "email": "",
+      "opening_hours": "Mo-Fr 7:00-21:00; Sa 8:00-21:00; Su 10:00-20:00",
+      "cuisine": "juice",
+      "address": {
+        "line1": "7060 Burroughs Avenue",
+        "city": "Plano",
+        "state": "IL",
+        "postcode": "60545",
+        "full": "7060 Burroughs Avenue, Plano, IL 60545"
+      },
+      "is_chain": true,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": -1,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/9958347613",
+      "name": "Pizza Hut",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.6535451,
+      "lon": -88.5662073,
+      "website": "",
+      "social": {},
+      "phone": "+1-630-552-9111",
+      "email": "",
+      "opening_hours": "Su-Th 10:00-23:00; Fr-Sa 10:00-24:00",
+      "cuisine": "pizza",
+      "address": {
+        "line1": "7000 Burroughs Avenue",
+        "city": "Plano",
+        "state": "",
+        "postcode": "60545",
+        "full": "7000 Burroughs Avenue, Plano, 60545"
+      },
+      "is_chain": true,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": -1,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "relation/17631418",
+      "name": "Kishwaukee Family YMCA",
+      "vertical": "fitness",
+      "subtype": "sports_centre",
+      "lat": 41.9651947,
+      "lon": -88.7240021,
+      "website": "",
+      "social": {},
+      "phone": "+1 815-756-9577",
+      "email": "",
+      "opening_hours": "Mo-Fr 05:00-09:00; Sa 07:00-05:00; Su 08:00-04:00",
+      "cuisine": "",
+      "address": {
+        "line1": "2500 Bethany Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2500 Bethany Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -1,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/824411168",
+      "name": "Bethney Animal Hospital",
+      "vertical": "health",
+      "subtype": "veterinary",
+      "lat": 41.9657203,
+      "lon": -88.7213358,
+      "website": "",
+      "social": {},
+      "phone": "+1 815-756-8925",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2400 Bethany Road",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "2400 Bethany Road, Sycamore, IL 60178"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -1,
+      "audit": [
+        "no website",
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/1024304374",
+      "name": "Rosati's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9290206,
+      "lon": -88.7490463,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "pizza",
+      "address": {
+        "line1": "456 East Lincoln Highway",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "456 East Lincoln Highway, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -3,
+      "audit": [
+        "no website",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/599128818",
+      "name": "Portillo's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9714421,
+      "lon": -88.7173618,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "hot_dog;burger",
+      "address": {
+        "line1": "1780 Dekalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "1780 Dekalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -3,
+      "audit": [
+        "no website",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/373321013",
+      "name": "Northwestern Medicine - MRI Center",
+      "vertical": "health",
+      "subtype": "clinic",
+      "lat": 41.9666009,
+      "lon": -88.7235037,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2475 Bethany Road",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "2475 Bethany Road, Sycamore, IL 60178"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -3,
+      "audit": [
+        "no website",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/744528523",
+      "name": "Midas",
+      "vertical": "auto",
+      "subtype": "car_repair",
+      "lat": 41.9574631,
+      "lon": -88.7207134,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2820 Dekalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "2820 Dekalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -3,
+      "audit": [
+        "no website",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135046",
+      "name": "Maurices",
+      "vertical": "retail",
+      "subtype": "clothes",
+      "lat": 41.9547008,
+      "lon": -88.7253392,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2451 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2451 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -3,
+      "audit": [
+        "no website",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/599128073",
+      "name": "Kay Jewelers",
+      "vertical": "retail",
+      "subtype": "jewelry",
+      "lat": 41.9540494,
+      "lon": -88.7214869,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2462 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2462 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -3,
+      "audit": [
+        "no website",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/1210838358",
+      "name": "H&R Block",
+      "vertical": "prof_services",
+      "subtype": "tax_advisor",
+      "lat": 41.9307281,
+      "lon": -88.7686707,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "Mo 14:00-18:00; Tu off; We off; Th 09:00-13:00; Fr off; Sa off; Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "818 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "818 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -3,
+      "audit": [
+        "no website",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135045",
+      "name": "Famous Footwear",
+      "vertical": "retail",
+      "subtype": "shoes",
+      "lat": 41.954887,
+      "lon": -88.7252774,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "Mo-Sa 10:00-21:00, Su 11:00-18:00",
+      "cuisine": "",
+      "address": {
+        "line1": "2453 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2453 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -3,
+      "audit": [
+        "no website",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135019",
+      "name": "America's Best Contacts & Eyeglasses",
+      "vertical": "retail",
+      "subtype": "optician",
+      "lat": 41.9531323,
+      "lon": -88.7201478,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2506 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2506 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -3,
+      "audit": [
+        "no website",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/987011073",
+      "name": "Wendy's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9750609,
+      "lon": -88.7169677,
+      "website": "https://www.facebook.com/mysycamorewendys/",
+      "social": {},
+      "phone": "+1 815-223-2032",
+      "email": "sarenst11@gmail.com",
+      "opening_hours": "07:00-22:00",
+      "cuisine": "burger",
+      "address": {
+        "line1": "1645 DeKalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "1645 DeKalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -4,
+      "audit": [
+        "phone reachable",
+        "email reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/6231739044",
+      "name": "Walgreens",
+      "vertical": "health",
+      "subtype": "pharmacy",
+      "lat": 41.9791542,
+      "lon": -88.7074332,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -4,
+      "audit": [
+        "no website",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/9128470473",
+      "name": "Walgreens",
+      "vertical": "health",
+      "subtype": "pharmacy",
+      "lat": 41.6436625,
+      "lon": -88.622341,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": true,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": -4,
+      "audit": [
+        "no website",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/259940383",
+      "name": "Texas Roadhouse",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9673949,
+      "lon": -88.7181743,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "steak_house",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -4,
+      "audit": [
+        "no website",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/7697854875",
+      "name": "Sycamore Dodge Chrysler Jeep Ram;",
+      "vertical": "auto",
+      "subtype": "car",
+      "lat": 41.9705764,
+      "lon": -88.7190658,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -4,
+      "audit": [
+        "no website",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/963651193",
+      "name": "Starbucks",
+      "vertical": "restaurant",
+      "subtype": "cafe",
+      "lat": 41.900778,
+      "lon": -88.7389289,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "coffee_shop",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -4,
+      "audit": [
+        "no website",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/918675750",
+      "name": "Jiffy Lube",
+      "vertical": "auto",
+      "subtype": "car_repair",
+      "lat": 41.9852456,
+      "lon": -88.7094728,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -4,
+      "audit": [
+        "no website",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/7697874001",
+      "name": "Gerber Collision & Glass",
+      "vertical": "auto",
+      "subtype": "car_repair",
+      "lat": 41.9707824,
+      "lon": -88.7193799,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -4,
+      "audit": [
+        "no website",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/865424449",
+      "name": "DeKalb Sycamore Cadillac",
+      "vertical": "auto",
+      "subtype": "car",
+      "lat": 41.9718269,
+      "lon": -88.715399,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -4,
+      "audit": [
+        "no website",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/986087467",
+      "name": "DaVita Dialysis",
+      "vertical": "health",
+      "subtype": "clinic",
+      "lat": 41.9188489,
+      "lon": -88.7757352,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -4,
+      "audit": [
+        "no website",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/12593877114",
+      "name": "Baskin-Robbins",
+      "vertical": "restaurant",
+      "subtype": "ice_cream",
+      "lat": 41.9313499,
+      "lon": -88.7737045,
+      "website": "",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "ice_cream",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -4,
+      "audit": [
+        "no website",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135034",
+      "name": "uBreakiFix",
+      "vertical": "food_retail",
+      "subtype": "electronics",
+      "lat": 41.9565782,
+      "lon": -88.7222964,
+      "website": "https://www.ubreakifix.com/locations/dekalb?utm_source=google&utm_medium=gmb&utm_campaign=dekalb",
+      "social": {},
+      "phone": "+1 815-517-1193",
+      "email": "",
+      "opening_hours": "Mo-Sa 10:00-19:00, Su 12:00-17:00",
+      "cuisine": "",
+      "address": {
+        "line1": "2583 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2583 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984134988",
+      "name": "Ulta Beauty",
+      "vertical": "beauty",
+      "subtype": "beauty",
+      "lat": 41.9471836,
+      "lon": -88.7241023,
+      "website": "https://www.ulta.com/stores/dekalb-il-613",
+      "social": {},
+      "phone": "+1 815-748-0990",
+      "email": "",
+      "opening_hours": "Mo-We 10:00-20:00; Th-Sa 10:00-21:00; Su 11:00-18:00",
+      "cuisine": "",
+      "address": {
+        "line1": "2064 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2064 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/255709194",
+      "name": "Taco Bell",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9312187,
+      "lon": -88.7764837,
+      "website": "https://locations.tacobell.com/il/de-kalb/1209-w-lincoln-hwy.html",
+      "social": {},
+      "phone": "+1 815-756-7947",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "tex-mex",
+      "address": {
+        "line1": "1209 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1209 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/759905660",
+      "name": "Taco Bell",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9814489,
+      "lon": -88.7070935,
+      "website": "https://locations.tacobell.com/il/sycamore/1301-dekalb-avenue.html",
+      "social": {},
+      "phone": "+1-815-895-3660",
+      "email": "",
+      "opening_hours": "Mo-Th 06:00-00:30, Fr,Sa 06:00-02:00, Su 07:00-00:30",
+      "cuisine": "tex-mex",
+      "address": {
+        "line1": "1301 Dekalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "1301 Dekalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/963651196",
+      "name": "Subway",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9008169,
+      "lon": -88.7391756,
+      "website": "https://restaurants.subway.com/united-states/il/dekalb/2700-crego-road",
+      "social": {},
+      "phone": "+1 815-390-9006",
+      "email": "",
+      "opening_hours": "Mo-Th 08:30-20:00; Fr 08:30-21:00; Sa-Su 08:30-20:00",
+      "cuisine": "sandwich",
+      "address": {
+        "line1": "2700 Crego Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2700 Crego Road, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135009",
+      "name": "Subway",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9551328,
+      "lon": -88.7218616,
+      "website": "https://restaurants.subway.com/united-states/il/dekalb/2472-sycamore-rd",
+      "social": {},
+      "phone": "+1 815-754-7827",
+      "email": "",
+      "opening_hours": "Mo-Sa 08:00-21:30, Su 09:00-21:00",
+      "cuisine": "sandwich",
+      "address": {
+        "line1": "2472 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2472 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/1007906089",
+      "name": "Subway",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9305574,
+      "lon": -88.7709822,
+      "website": "https://restaurants.subway.com/united-states/il/dekalb/928-w-lincoln-hwy",
+      "social": {},
+      "phone": "+1 815-758-7827",
+      "email": "",
+      "opening_hours": "Mo-Su 09:00-21:00",
+      "cuisine": "sandwich",
+      "address": {
+        "line1": "928 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "928 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/2410000548",
+      "name": "Subway",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.6444756,
+      "lon": -88.6165757,
+      "website": "https://restaurants.subway.com/united-states/il/sandwich/400-e-church-st",
+      "social": {},
+      "phone": "+1 815-786-2940",
+      "email": "",
+      "opening_hours": "Mo-Fr 07:00-21:00; Sa 08:00-21:00; Su 09:00-21:00",
+      "cuisine": "sandwich",
+      "address": {
+        "line1": "400 East Church Street",
+        "city": "Sandwich",
+        "state": "IL",
+        "postcode": "60548",
+        "full": "400 East Church Street, Sandwich, IL 60548"
+      },
+      "is_chain": true,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/3405856313",
+      "name": "Subway",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.7691675,
+      "lon": -88.6424826,
+      "website": "https://restaurants.subway.com/united-states/il/hinckley/200-w-lincoln-hwy",
+      "social": {},
+      "phone": "+1 815-286-7007",
+      "email": "",
+      "opening_hours": "Mo-Fr 07:00-21:30; Sa-Su 09:30-20:00",
+      "cuisine": "sandwich",
+      "address": {
+        "line1": "200 West Lincoln Avenue",
+        "city": "Hinckley",
+        "state": "IL",
+        "postcode": "60520",
+        "full": "200 West Lincoln Avenue, Hinckley, IL 60520"
+      },
+      "is_chain": true,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/328661275",
+      "name": "Steak 'n Shake",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9524569,
+      "lon": -88.7243676,
+      "website": "https://www.steaknshake.com/locations/il-dekalb-sycamore-road/",
+      "social": {},
+      "phone": "+1 815-758-5582",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "burger",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/5638325798",
+      "name": "Starbucks",
+      "vertical": "restaurant",
+      "subtype": "cafe",
+      "lat": 42.0135496,
+      "lon": -88.6782014,
+      "website": "https://www.starbucks.com/store-locator/store/1017276/jewel-osco-sycamore-3381-220-w-peace-road-sycamore-il-60178-us",
+      "social": {},
+      "phone": "+1 815-895-5276",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "coffee_shop",
+      "address": {
+        "line1": "220 West Peace Road",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "220 West Peace Road, Sycamore, IL 60178"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/805801512",
+      "name": "Starbucks",
+      "vertical": "restaurant",
+      "subtype": "cafe",
+      "lat": 41.956013,
+      "lon": -88.7227752,
+      "website": "https://www.starbucks.com/store-locator/store/9691/sycamore-barber-greene-2577-sycamore-road-de-kalb-il-601152051-us",
+      "social": {},
+      "phone": "+1 815-756-2971",
+      "email": "",
+      "opening_hours": "Mo-Su 05:00-22:00",
+      "cuisine": "coffee_shop",
+      "address": {
+        "line1": "2577 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2577 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/1210838484",
+      "name": "Starbucks",
+      "vertical": "restaurant",
+      "subtype": "cafe",
+      "lat": 41.9318001,
+      "lon": -88.7722342,
+      "website": "https://www.starbucks.com/store-locator/store/8551/route-38-annie-glidden-1015-w-lincoln-hwy-de-kalb-il-601153027-us",
+      "social": {},
+      "phone": "+1 815-756-1620",
+      "email": "",
+      "opening_hours": "Mo-Su 05:30-20:00",
+      "cuisine": "coffee_shop",
+      "address": {
+        "line1": "1015 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1015 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/1000392741",
+      "name": "Sport Clips",
+      "vertical": "beauty",
+      "subtype": "hairdresser",
+      "lat": 41.9597424,
+      "lon": -88.7186999,
+      "website": "https://haircutmensycamoreil.com/",
+      "social": {},
+      "phone": "+1 815-517-1959",
+      "email": "",
+      "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-17:00; Su 09:00-16:00",
+      "cuisine": "",
+      "address": {
+        "line1": "2686 DeKalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "2686 DeKalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/255683806",
+      "name": "Sonic",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9313304,
+      "lon": -88.7742181,
+      "website": "https://locations.sonicdrivein.com/il/dekalb/1115-west-lincoln-highway.html",
+      "social": {},
+      "phone": "+1 815-901-0934",
+      "email": "",
+      "opening_hours": "Mo-Th 07:00-23:00; Fr-Sa 07:00-24:00; Su 07:00-23:00",
+      "cuisine": "burger",
+      "address": {
+        "line1": "1115 West Lincoln Highway",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1115 West Lincoln Highway, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/1218659296",
+      "name": "Shopko Optical - DeKalb",
+      "vertical": "retail",
+      "subtype": "optician",
+      "lat": 41.9506287,
+      "lon": -88.7280085,
+      "website": "https://www.shopko.com/eye-care/il/dekalb/store-243/",
+      "social": {},
+      "phone": "+1 815-981-8291",
+      "email": "",
+      "opening_hours": "Mo off; Tu-Fr 10:00-18:00; Sa 09:00-15:00; Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "2101 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2101 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135022",
+      "name": "Shoe Sensation",
+      "vertical": "retail",
+      "subtype": "shoes",
+      "lat": 41.9535068,
+      "lon": -88.7200006,
+      "website": "https://www.shoesensation.com/stores/illinois/dekalb/shoe-sensation-in-dekalb-il",
+      "social": {},
+      "phone": "+1 815-714-6306",
+      "email": "",
+      "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-19:00",
+      "cuisine": "",
+      "address": {
+        "line1": "2516 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2516 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135035",
+      "name": "Scott Zeimet - State Farm Agent",
+      "vertical": "prof_services",
+      "subtype": "insurance",
+      "lat": 41.9565781,
+      "lon": -88.7223654,
+      "website": "https://www.scottzeimet.com/",
+      "social": {},
+      "phone": "+1 815-748-3101",
+      "email": "",
+      "opening_hours": "Mo-Fr 09:00-17:00",
+      "cuisine": "",
+      "address": {
+        "line1": "2587 Sycamore Rd",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2587 Sycamore Rd, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/9054699641",
+      "name": "Sbarro",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9009085,
+      "lon": -88.7390895,
+      "website": "https://sbarro.com/locations/il/dekalb/dekalb-oasis/",
+      "social": {},
+      "phone": "+1 815-748-7807",
+      "email": "",
+      "opening_hours": "Mo-Su 06:00-21:00",
+      "cuisine": "pizza",
+      "address": {
+        "line1": "2700 Crego Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2700 Crego Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/1000392744",
+      "name": "Red Wing",
+      "vertical": "retail",
+      "subtype": "shoes",
+      "lat": 41.9595275,
+      "lon": -88.7188293,
+      "website": "https://stores.redwing.com/sycamore-il",
+      "social": {},
+      "phone": "+1 815-517-0579",
+      "email": "",
+      "opening_hours": "Mo-Th 10:00-19:00; Fr-Sa 10:00-17:00; Su 11:00-16:00",
+      "cuisine": "",
+      "address": {
+        "line1": "2692 DeKalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "2692 DeKalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/805801507",
+      "name": "Raising Cane's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9540091,
+      "lon": -88.724371,
+      "website": "https://www.raisingcanes.com/location/now-open-dekalb",
+      "social": {},
+      "phone": "+1 815-754-5432",
+      "email": "",
+      "opening_hours": "Sa-Su 10:00-24:00",
+      "cuisine": "chicken",
+      "address": {
+        "line1": "2411 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2411 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/1210838477",
+      "name": "Potbelly",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9314509,
+      "lon": -88.7714936,
+      "website": "https://www.potbelly.com/locations/illinois/dekalb",
+      "social": {},
+      "phone": "+1 815-756-1658",
+      "email": "",
+      "opening_hours": "Mo-Su 10:00-21:00",
+      "cuisine": "sandwich",
+      "address": {
+        "line1": "1013 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1013 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/255683805",
+      "name": "Popeyes",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9313294,
+      "lon": -88.7750266,
+      "website": "https://www.popeyes.com/store-locator/store/restaurant_85295",
+      "social": {},
+      "phone": "+1 872-310-4594",
+      "email": "",
+      "opening_hours": "Mo-We 10:00-23:00; Th-Sa 10:00-24:00; Su 10:00-23:00",
+      "cuisine": "chicken",
+      "address": {
+        "line1": "1127 West Lincoln Highway",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1127 West Lincoln Highway, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135030",
+      "name": "Planet Fitness",
+      "vertical": "fitness",
+      "subtype": "fitness_centre",
+      "lat": 41.955394,
+      "lon": -88.7192613,
+      "website": "https://www.planetfitness.com/gyms/dekalb-il",
+      "social": {},
+      "phone": "+1 779-255-5252",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2560 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2560 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/328660450",
+      "name": "Petco",
+      "vertical": "retail",
+      "subtype": "pet",
+      "lat": 41.9481179,
+      "lon": -88.7232221,
+      "website": "https://stores.petco.com/il/dekalb/pet-supplies-dekalb-il-1933.html?cm_mmc=GMAPSPET-_-GMB-_-CCY-_-CCO-_-PM-_-AQU-_-NA-_-PM_GMB_Evergreen_InStoreGen_IL_Dekalb_1933-_-GMB-_-MainListing",
+      "social": {},
+      "phone": "+1 815-787-6565",
+      "email": "",
+      "opening_hours": "Mo-Sa 09:00-20:00, Su 10:00-19:00",
+      "cuisine": "",
+      "address": {
+        "line1": "2072 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2072 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135020",
+      "name": "PetSmart",
+      "vertical": "retail",
+      "subtype": "pet",
+      "lat": 41.9532966,
+      "lon": -88.720099,
+      "website": "https://www.petsmart.com/stores/us/il/dekalb-store1805.html",
+      "social": {},
+      "phone": "+1 815-758-6193",
+      "email": "",
+      "opening_hours": "Mo-Sa 09:00-21:00, Su 10:00-19:00",
+      "cuisine": "",
+      "address": {
+        "line1": "2512 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2512 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/535657469",
+      "name": "Papa John's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9310815,
+      "lon": -88.7579518,
+      "website": "https://locations.papajohns.com/united-states/il/60115/dekalb/203-west-lincoln-highway",
+      "social": {},
+      "phone": "+1 815-787-7272",
+      "email": "",
+      "opening_hours": "Mo-Th 09:30-01:00; Fr-Sa 09:30-02:00; Su 09:30-01:00",
+      "cuisine": "pizza",
+      "address": {
+        "line1": "203 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "203 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135010",
+      "name": "Panera Bread",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9551663,
+      "lon": -88.7216772,
+      "website": "https://locations.panerabread.com/il/dekalb/2476-sycamore-road.html?utm_medium=yext&utm_source=local&utm_campaign=yext&utm_content=local-search",
+      "social": {},
+      "phone": "+1 815-748-2135",
+      "email": "",
+      "opening_hours": "Mo-Sa 06:00-21:00, Su 07:00-21:00",
+      "cuisine": "sandwich;bakery",
+      "address": {
+        "line1": "2474 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2474 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135012",
+      "name": "Panda Express",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9542479,
+      "lon": -88.7226646,
+      "website": "https://www.pandaexpress.com/locations/il/dekalb/1441",
+      "social": {},
+      "phone": "+1 815-748-3333",
+      "email": "",
+      "opening_hours": "Mo-Th 09:30-21:30; Fr 09:30-22:00; Sa 10:00-21:30; Su 10:00-21:00",
+      "cuisine": "chinese",
+      "address": {
+        "line1": "2434 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2434 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135049",
+      "name": "Old Navy",
+      "vertical": "retail",
+      "subtype": "clothes",
+      "lat": 41.9542587,
+      "lon": -88.7254236,
+      "website": "https://oldnavy.gap.com/stores/il/dekalb/oldnavy-9289.html",
+      "social": {},
+      "phone": "+1 779-270-9034",
+      "email": "",
+      "opening_hours": "Mo-Sa 10:00-21:00, Su 10:00-19:00",
+      "cuisine": "",
+      "address": {
+        "line1": "2439 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2439 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/805801946",
+      "name": "Northwestern Medicine Ben Gordon Center",
+      "vertical": "health",
+      "subtype": "clinic",
+      "lat": 41.9645423,
+      "lon": -88.7203104,
+      "website": "http://www.kishhealth.org/services/behavioral-health/",
+      "social": {},
+      "phone": "+1 815 756 4875",
+      "email": "",
+      "opening_hours": "Mo-Th 08:00-20:30; Fr 08:00-17:00",
+      "cuisine": "",
+      "address": {
+        "line1": "12 Health Services Drive",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "12 Health Services Drive, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/261365930",
+      "name": "Northwestern Medicine - Sycamore Gateway Drive",
+      "vertical": "health",
+      "subtype": "clinic",
+      "lat": 41.960579,
+      "lon": -88.7119489,
+      "website": "https://www.nm.org/locations/sycamore-gateway-drive",
+      "social": {},
+      "phone": "+1 815-758-8671",
+      "email": "",
+      "opening_hours": "Mo-Fr 08:00-17:00",
+      "cuisine": "",
+      "address": {
+        "line1": "1850 Gateway Drive",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "1850 Gateway Drive, Sycamore, IL 60178"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/1286465738",
+      "name": "Northwestern Medicine - Outpatient Rehabilitation",
+      "vertical": "health",
+      "subtype": "clinic",
+      "lat": 41.9592082,
+      "lon": -88.7212276,
+      "website": "https://www.nm.org/locations/outpatient-rehabilitation-dekalb",
+      "social": {},
+      "phone": "+1 630-933-1500",
+      "email": "",
+      "opening_hours": "Mo-Th 08:00-18:00; Fr off; Sa off; Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "2727 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2727 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/1000392787",
+      "name": "Northwestern Medicine - Kishwaukee Hospital Cancer Center",
+      "vertical": "health",
+      "subtype": "clinic",
+      "lat": 41.9635255,
+      "lon": -88.7209591,
+      "website": "https://www.nm.org/locations/cancer-center-dekalb",
+      "social": {},
+      "phone": "+1 815-756-5255",
+      "email": "",
+      "opening_hours": "Mo-Fr 08:00-16:30; Sa off; Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "10 Health Services Drive",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "10 Health Services Drive, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/1000392788",
+      "name": "Northwestern Medicine - Kishwaukee Health & Wellness Center",
+      "vertical": "health",
+      "subtype": "clinic",
+      "lat": 41.9649494,
+      "lon": -88.7265012,
+      "website": "https://www.nm.org/locations/kishwaukee-health-and-wellness-center",
+      "social": {},
+      "phone": "+1 815-754-1098",
+      "email": "",
+      "opening_hours": "Mo-Th 05:00-22:00; Fr 05:00-21:00; Sa-Su 07:00-18:00",
+      "cuisine": "",
+      "address": {
+        "line1": "626 East Bethany Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "626 East Bethany Road, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135033",
+      "name": "Noodles & Company",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9555968,
+      "lon": -88.7231022,
+      "website": "https://locations.noodles.com/il/dekalb/2561-sycamore-road.html",
+      "social": {},
+      "phone": "+1 815-756-2145",
+      "email": "",
+      "opening_hours": "Mo-Su 12:00-20:00",
+      "cuisine": "pasta",
+      "address": {
+        "line1": "2561 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2561 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/461515697",
+      "name": "McDonald's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9008566,
+      "lon": -88.7389579,
+      "website": "https://www.mcdonalds.com/us/en-us/location/6148.html",
+      "social": {},
+      "phone": "+1 815-758-4900",
+      "email": "",
+      "opening_hours": "24/7",
+      "cuisine": "burger",
+      "address": {
+        "line1": "2700 Crego Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2700 Crego Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/255566261",
+      "name": "McDonald's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.931545,
+      "lon": -88.7681338,
+      "website": "https://www.mcdonalds.com/us/en-us/location/216.html",
+      "social": {},
+      "phone": "+1 815-756-5202",
+      "email": "",
+      "opening_hours": "24/7",
+      "cuisine": "burger",
+      "address": {
+        "line1": "805 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "805 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/255606628",
+      "name": "McDonald's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9291458,
+      "lon": -88.7475977,
+      "website": "https://www.mcdonalds.com/us/en-us/location/5588.html",
+      "social": {},
+      "phone": "+1 815-758-5751",
+      "email": "",
+      "opening_hours": "04:00-23:00",
+      "cuisine": "burger",
+      "address": {
+        "line1": "545 East Lincoln Highway",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "545 East Lincoln Highway, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/259990008",
+      "name": "McDonald's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9744769,
+      "lon": -88.7158793,
+      "website": "https://www.mcdonalds.com/us/en-us/location/3448.html",
+      "social": {},
+      "phone": "+1 815-895-2409",
+      "email": "",
+      "opening_hours": "Mo-Su 06:00-22:00",
+      "cuisine": "burger",
+      "address": {
+        "line1": "1660 Dekalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178-2706",
+        "full": "1660 Dekalb Avenue, Sycamore, IL 60178-2706"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/9128470488",
+      "name": "McDonald's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.6470455,
+      "lon": -88.5971036,
+      "website": "https://www.mcdonalds.com/us/en-us/location/il/sandwich/120-indian-springs-dr/5289.html",
+      "social": {},
+      "phone": "+1-815-786-2519",
+      "email": "",
+      "opening_hours": "Su-We 5:00-24:00; Th-Sa 00:00-24:00",
+      "cuisine": "burger",
+      "address": {
+        "line1": "120 Indian Springs Drive",
+        "city": "Sandwich",
+        "state": "IL",
+        "postcode": "60548",
+        "full": "120 Indian Springs Drive, Sandwich, IL 60548"
+      },
+      "is_chain": true,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984134993",
+      "name": "Little Caesars",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9519185,
+      "lon": -88.7237911,
+      "website": "https://littlecaesars.com/en-us/store/8914",
+      "social": {},
+      "phone": "+1 815-748-8878",
+      "email": "",
+      "opening_hours": "Mo-Su 11:00-21:00",
+      "cuisine": "pizza",
+      "address": {
+        "line1": "2350 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2350 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/1910364678",
+      "name": "KFC / Taco Bell",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.6471404,
+      "lon": -88.5995135,
+      "website": "https://locations.kfc.com/il/sandwich/130-duvick-road",
+      "social": {},
+      "phone": "+1-815-786-1882",
+      "email": "",
+      "opening_hours": "Su-Sa 6:00-23:00",
+      "cuisine": "chicken, tex-mex",
+      "address": {
+        "line1": "130 Duvick Avenue",
+        "city": "Sandwich",
+        "state": "IL",
+        "postcode": "60548",
+        "full": "130 Duvick Avenue, Sandwich, IL 60548"
+      },
+      "is_chain": true,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135044",
+      "name": "Harbor Freight Tools",
+      "vertical": "retail",
+      "subtype": "hardware",
+      "lat": 41.9562552,
+      "lon": -88.7237793,
+      "website": "https://www.harborfreight.com/storelocator/store?number=3217",
+      "social": {},
+      "phone": "+1 779-270-1993",
+      "email": "",
+      "opening_hours": "Mo-Su 08:00-20:00, Su 09:00-18:00",
+      "cuisine": "",
+      "address": {
+        "line1": "2569 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2569 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/11932130899",
+      "name": "H&R Block",
+      "vertical": "prof_services",
+      "subtype": "tax_advisor",
+      "lat": 41.9604395,
+      "lon": -88.7196931,
+      "website": "https://www.hrblock.com/local-tax-offices/illinois/sycamore/2600-dekalb-ave-ste-a/13917/",
+      "social": {},
+      "phone": "+1 815-758-0101",
+      "email": "",
+      "opening_hours": "Mo off; Tu,Th 10:00-17:00; We off; Fr off; Sa off; Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "2600 Sycamore Road",
+        "city": "Dekalb",
+        "state": "",
+        "postcode": "60115",
+        "full": "2600 Sycamore Road, Dekalb, 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135037",
+      "name": "Great Clips",
+      "vertical": "beauty",
+      "subtype": "hairdresser",
+      "lat": 41.9565778,
+      "lon": -88.7225346,
+      "website": "https://salons.greatclips.com/us/il/dekalb/2587-sycamore-rd?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "social": {},
+      "phone": "+1 815-756-2547",
+      "email": "",
+      "opening_hours": "Mo-Fr 09:00-19:00, Sa 08:00-18:00, Su 09:00-17:00",
+      "cuisine": "",
+      "address": {
+        "line1": "2587 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2587 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135015",
+      "name": "Five Guys",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9541189,
+      "lon": -88.7221717,
+      "website": "https://restaurants.fiveguys.com/2446-sycamore-rd",
+      "social": {},
+      "phone": "+1 571-584-3004",
+      "email": "",
+      "opening_hours": "Mo-Su 11:00-22:00",
+      "cuisine": "burger",
+      "address": {
+        "line1": "2446 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2446 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/1007906088",
+      "name": "Dunkin'",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9313523,
+      "lon": -88.7736953,
+      "website": "https://locations.dunkindonuts.com/en/il/dekalb/1101-w-lincoln-hwy/351290",
+      "social": {},
+      "phone": "+1 815-901-0484",
+      "email": "",
+      "opening_hours": "Mo-Su 04:30-20:00",
+      "cuisine": "donut;coffee_shop",
+      "address": {
+        "line1": "1101 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1101 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/1024304373",
+      "name": "Dunkin'",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9289578,
+      "lon": -88.7489816,
+      "website": "https://locations.dunkindonuts.com/en/il/dekalb/460-e-lincoln-hwy/355519",
+      "social": {},
+      "phone": "+1 815-901-4222",
+      "email": "",
+      "opening_hours": "Mo-Th 05:00-18:00; Fr 05:00-14:00; Sa-Su 05:00-18:00",
+      "cuisine": "donut;coffee_shop",
+      "address": {
+        "line1": "460 East Lincoln Highway",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "460 East Lincoln Highway, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/8577143639",
+      "name": "Dunkin'",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.6537722,
+      "lon": -88.5668564,
+      "website": "https://locations.dunkindonuts.com/en/il/plano/7010-burroughs-ave/349645",
+      "social": {},
+      "phone": "+1 630-936-6641",
+      "email": "",
+      "opening_hours": "Mo-Su 5:00-20:00",
+      "cuisine": "donut;coffee_shop",
+      "address": {
+        "line1": "7010 Burroughs Avenue",
+        "city": "Plano",
+        "state": "IL",
+        "postcode": "60545",
+        "full": "7010 Burroughs Avenue, Plano, IL 60545"
+      },
+      "is_chain": true,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/5187327341",
+      "name": "Domino's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9366663,
+      "lon": -88.7721666,
+      "website": "https://pizza.dominos.com/illinois/dekalb/901-p-lucinda-ave",
+      "social": {},
+      "phone": "+1 815-756-3626",
+      "email": "",
+      "opening_hours": "10:00-01:00",
+      "cuisine": "pizza",
+      "address": {
+        "line1": "901 Lucinda Avenue",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "901 Lucinda Avenue, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/9958339793",
+      "name": "Domino's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.6528283,
+      "lon": -88.5702075,
+      "website": "https://pizza.dominos.com/illinois/plano/7060-burroughs-avenue",
+      "social": {},
+      "phone": "+1 630-454-7600",
+      "email": "",
+      "opening_hours": "Mo-Su 10:30-1:00",
+      "cuisine": "pizza",
+      "address": {
+        "line1": "7060 Burroughs Avenue",
+        "city": "Plano",
+        "state": "IL",
+        "postcode": "60545",
+        "full": "7060 Burroughs Avenue, Plano, IL 60545"
+      },
+      "is_chain": true,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/805756768",
+      "name": "DQ Grill & Chill",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.945898,
+      "lon": -88.7327554,
+      "website": "https://www.dairyqueen.com/locations/il/dekalb/1780-sycamore-rd/1068",
+      "social": {},
+      "phone": "+1 815-758-8876",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "ice_cream;burger",
+      "address": {
+        "line1": "1780 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115-2037",
+        "full": "1780 Sycamore Road, Dekalb, IL 60115-2037"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/102923993",
+      "name": "Culver's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9814751,
+      "lon": -88.7044135,
+      "website": "https://www.culvers.com/restaurants/sycamore",
+      "social": {},
+      "phone": "+1 815-899-0200",
+      "email": "",
+      "opening_hours": "Mo-Su 10:00-22:00",
+      "cuisine": "burger",
+      "address": {
+        "line1": "1200 Dekalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "1200 Dekalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/255682086",
+      "name": "Culver's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9303627,
+      "lon": -88.777388,
+      "website": "https://www.culvers.com/restaurants/dekalb-il",
+      "social": {},
+      "phone": "+1 779-777-7997",
+      "email": "",
+      "opening_hours": "10:30-23:00",
+      "cuisine": "burger",
+      "address": {
+        "line1": "1262 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1262 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/11991121576",
+      "name": "Culver's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.6553535,
+      "lon": -88.5610504,
+      "website": "https://www.culvers.com/restaurants/plano-il-lakeside-rd",
+      "social": {},
+      "phone": "+1 630-273-2491",
+      "email": "",
+      "opening_hours": "Mo-Su 10:00-23:00",
+      "cuisine": "burger",
+      "address": {
+        "line1": "6400 Lakeside Road",
+        "city": "Plano",
+        "state": "IL",
+        "postcode": "60545",
+        "full": "6400 Lakeside Road, Plano, IL 60545"
+      },
+      "is_chain": true,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984751516",
+      "name": "Chipotle",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9533068,
+      "lon": -88.7253698,
+      "website": "https://locations.chipotle.com/il/dekalb/2383-sycamore-rd",
+      "social": {},
+      "phone": "+1 815-754-0379",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "mexican",
+      "address": {
+        "line1": "2383 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2383 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/1210838478",
+      "name": "Chipotle",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9314511,
+      "lon": -88.7716296,
+      "website": "https://locations.chipotle.com/il/dekalb/1013-w-lincoln-hwy",
+      "social": {},
+      "phone": "+1 815-756-3715",
+      "email": "",
+      "opening_hours": "Mo-Su 10:45-22:00",
+      "cuisine": "mexican",
+      "address": {
+        "line1": "1013 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1013 West Lincoln Highway, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/328676408",
+      "name": "Chili's",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.951982,
+      "lon": -88.7248393,
+      "website": "https://www.chilis.com/locations/us/illinois/dekalb/dekalb/",
+      "social": {},
+      "phone": "+1 815-766-3515",
+      "email": "",
+      "opening_hours": "Su-Th 11:00-22:00, Fr-Sa 11:00-23:00",
+      "cuisine": "tex-mex",
+      "address": {
+        "line1": "2370 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2370 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/8025852881",
+      "name": "Caribou Coffee",
+      "vertical": "restaurant",
+      "subtype": "cafe",
+      "lat": 41.95871,
+      "lon": -88.7188833,
+      "website": "https://locations.cariboucoffee.com/us/il/sycamore/2700-dekalb-avenue",
+      "social": {},
+      "phone": "+1-815-756-6174",
+      "email": "",
+      "opening_hours": "Mo-Su 07:00-19:00",
+      "cuisine": "coffee_shop",
+      "address": {
+        "line1": "2700 Dekalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "2700 Dekalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/255568490",
+      "name": "Burger King",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9315073,
+      "lon": -88.7696825,
+      "website": "https://www.bk.com/store-locator/store/restaurant_141",
+      "social": {},
+      "phone": "+1 815-517-1489",
+      "email": "",
+      "opening_hours": "07:00-22:00",
+      "cuisine": "burger",
+      "address": {
+        "line1": "913 West Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115-3011",
+        "full": "913 West Lincoln Highway, DeKalb, IL 60115-3011"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/865424450",
+      "name": "Burger King",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9783077,
+      "lon": -88.7135769,
+      "website": "https://www.bk.com/store-locator/store/restaurant_64763",
+      "social": {},
+      "phone": "+1 815-895-9930",
+      "email": "",
+      "opening_hours": "Mo-Tu 06:00-22:00; We 06:00-11:00; Th-Sa 06:00-23:00; Su 06:00-22:00",
+      "cuisine": "burger",
+      "address": {
+        "line1": "1501 DeKalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "1501 DeKalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/11991121575",
+      "name": "Burger King",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.6462921,
+      "lon": -88.6039253,
+      "website": "https://www.bk.com/store-locator/store/restaurant_80687",
+      "social": {},
+      "phone": "+1 815-570-2455",
+      "email": "",
+      "opening_hours": "Mo-Sa 06:00-22:00; Su 07:00-22:00",
+      "cuisine": "burger",
+      "address": {
+        "line1": "1210 East Church Street",
+        "city": "Sandwich",
+        "state": "IL",
+        "postcode": "60548",
+        "full": "1210 East Church Street, Sandwich, IL 60548"
+      },
+      "is_chain": true,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/12255858198",
+      "name": "Burger King",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.655679,
+      "lon": -88.5595279,
+      "website": "https://www.bk.com/store-locator/store/restaurant_6450",
+      "social": {},
+      "phone": "+1 630-552-0529",
+      "email": "",
+      "opening_hours": "Mo-Sa 06:00-22:00; Su 07:00-22:00",
+      "cuisine": "burger",
+      "address": {
+        "line1": "6200 Lakeside Drive",
+        "city": "Plano",
+        "state": "IL",
+        "postcode": "60545",
+        "full": "6200 Lakeside Drive, Plano, IL 60545"
+      },
+      "is_chain": true,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135016",
+      "name": "Buffalo Wild Wings",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9541864,
+      "lon": -88.7214239,
+      "website": "https://www.buffalowildwings.com/en/locations/detail/110/?utm_source=google&utm_medium=organic&utm_campaign=rio",
+      "social": {},
+      "phone": "+1 815-754-9299",
+      "email": "",
+      "opening_hours": "Su-Th 11:00-23:00, Fr-Sa 11:00-24:00",
+      "cuisine": "wings",
+      "address": {
+        "line1": "2463 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2463 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135011",
+      "name": "Athletico Physical Therapy",
+      "vertical": "health",
+      "subtype": "clinic",
+      "lat": 41.9542033,
+      "lon": -88.722494,
+      "website": "https://www.athletico.com/locations/dekalb/",
+      "social": {},
+      "phone": "+1 815-748-1555",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2438 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2438 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/805756794",
+      "name": "Aspen Dental",
+      "vertical": "health",
+      "subtype": "dentist",
+      "lat": 41.9503755,
+      "lon": -88.7283096,
+      "website": "https://www.aspendental.com/dentist/il/dekalb/2061-sycamore-rd/",
+      "social": {},
+      "phone": "+1 815-862-2005",
+      "email": "",
+      "opening_hours": "Mo-We 08:00-18:00; Th 10:00-20:00; Fr 08:00-13:00; Sa off; Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "2061 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2061 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/805756782",
+      "name": "Arby's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9484948,
+      "lon": -88.7293906,
+      "website": "https://www.arbys.com/locations/us/il/de-kalb/2000-sycamore-rd/store-5930/",
+      "social": {},
+      "phone": "+1 815-748-4900",
+      "email": "",
+      "opening_hours": "Mo-Su 10:00-22:00",
+      "cuisine": "sandwich",
+      "address": {
+        "line1": "2000 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2000 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/984135043",
+      "name": "Anytime Fitness",
+      "vertical": "fitness",
+      "subtype": "fitness_centre",
+      "lat": 41.9564472,
+      "lon": -88.7236376,
+      "website": "https://www.anytimefitness.com/gyms/3963/dekalb-il-60115/",
+      "social": {},
+      "phone": "+1 815-517-1536",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2581 Sycamore Road",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2581 Sycamore Road, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/901398106",
+      "name": "Alan Browne Chevrolet",
+      "vertical": "auto",
+      "subtype": "car",
+      "lat": 42.0888539,
+      "lon": -88.683268,
+      "website": "https://www.alanbrownechevy.com/",
+      "social": {},
+      "phone": "+1-815-784-2511",
+      "email": "",
+      "opening_hours": "Mo-Th 09:00-19:00; Fr 09:00-18:00; Sa 09:00-17:00",
+      "cuisine": "",
+      "address": {
+        "line1": "700 Pearson Drive",
+        "city": "Genoa",
+        "state": "IL",
+        "postcode": "60135",
+        "full": "700 Pearson Drive, Genoa, IL 60135"
+      },
+      "is_chain": true,
+      "region": "Genoa / Kingston / Kirkland (north county)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/805756796",
+      "name": "Advance Auto Parts",
+      "vertical": "auto",
+      "subtype": "car_parts",
+      "lat": 41.9511874,
+      "lon": -88.7277634,
+      "website": "https://stores.advanceautoparts.com/il/dekalb/2151-sycamore-rd",
+      "social": {},
+      "phone": "+1 815-748-3021",
+      "email": "",
+      "opening_hours": "Mo-Sa 07:30-21:00; Su 09:00-20:00",
+      "cuisine": "",
+      "address": {
+        "line1": "2151 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "2151 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/1218659239",
+      "name": "Aaron's",
+      "vertical": "retail",
+      "subtype": "furniture",
+      "lat": 41.9454695,
+      "lon": -88.7329536,
+      "website": "https://locations.aarons.com/us/il/dekalb/1748-sycamore-rd",
+      "social": {},
+      "phone": "+1 815-787-7700",
+      "email": "",
+      "opening_hours": "Mo-Th 10:00-19:00; Fr 10:00-20:00; Sa 10:00-18:00; Su off",
+      "cuisine": "",
+      "address": {
+        "line1": "1748 Sycamore Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1748 Sycamore Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -5,
+      "audit": [
+        "phone reachable",
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/6932677712",
+      "name": "Starbucks",
+      "vertical": "restaurant",
+      "subtype": "cafe",
+      "lat": 41.935575,
+      "lon": -88.7663633,
+      "website": "https://www.niu.edu/dining/where-to-eat/starbucks/index.shtml",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "Mo-Fr 07:30-21:00; Sa 08:00-16:00; Su 09:00-16:00",
+      "cuisine": "coffee_shop",
+      "address": {
+        "line1": "340 Carroll Avenue",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "340 Carroll Avenue, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -7,
+      "audit": [
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/12288472570",
+      "name": "Qdoba",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.9358232,
+      "lon": -88.7660938,
+      "website": "https://www.niu.edu/dining/where-to-eat/qdoba/index.shtml",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "Mo-Fr 11:00-21:00",
+      "cuisine": "mexican",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "60115",
+        "full": "60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -7,
+      "audit": [
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/259996612",
+      "name": "Kunes Hyundai of Sycamore",
+      "vertical": "auto",
+      "subtype": "car",
+      "lat": 41.9791411,
+      "lon": -88.7096538,
+      "website": "https://kuneshyundaisycamore.com/",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "1380 DeKalb Avenue",
+        "city": "Sycamore",
+        "state": "IL",
+        "postcode": "60178",
+        "full": "1380 DeKalb Avenue, Sycamore, IL 60178"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -7,
+      "audit": [
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/255683807",
+      "name": "Jersey Mike's Subs",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 41.931354,
+      "lon": -88.7736041,
+      "website": "https://www.jerseymikes.com/27042/dekalb-il",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "10:00-21:00",
+      "cuisine": "sandwich",
+      "address": {
+        "line1": "103 North Annie Glidden Road",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "103 North Annie Glidden Road, DeKalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -7,
+      "audit": [
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "node/9128470496",
+      "name": "Gjovik Ford Inc.",
+      "vertical": "auto",
+      "subtype": "car",
+      "lat": 41.6486325,
+      "lon": -88.5868712,
+      "website": "https://www.gjovikford.com/",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "2600 US-34",
+        "city": "Sandwich",
+        "state": "IL",
+        "postcode": "60548",
+        "full": "2600 US-34, Sandwich, IL 60548"
+      },
+      "is_chain": true,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": -7,
+      "audit": [
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/210989721",
+      "name": "CVS Pharmacy",
+      "vertical": "health",
+      "subtype": "pharmacy",
+      "lat": 41.930289,
+      "lon": -88.7724777,
+      "website": "https://www.cvs.com/store-locator/dekalb-il-pharmacies/1022-w-lincoln-hwy-dekalb-il-60115/storeid=2375",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "1022 West Lincoln Highway",
+        "city": "Dekalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1022 West Lincoln Highway, Dekalb, IL 60115"
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -7,
+      "audit": [
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/688506474",
+      "name": "AutoZone",
+      "vertical": "auto",
+      "subtype": "car_parts",
+      "lat": 41.6578749,
+      "lon": -88.5512016,
+      "website": "https://www.autozone.com/locations/il/plano/1031-w-route-34.html",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "1034 West Route 34",
+        "city": "Plano",
+        "state": "IL",
+        "postcode": "60545",
+        "full": "1034 West Route 34, Plano, IL 60545"
+      },
+      "is_chain": true,
+      "region": "Sandwich / Somonauk / Waterman (south county)",
+      "lead_score": -7,
+      "audit": [
+        "full address",
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/677523641",
+      "name": "McDonald's",
+      "vertical": "restaurant",
+      "subtype": "fast_food",
+      "lat": 42.0953613,
+      "lon": -88.6834865,
+      "website": "https://www.mcdonalds.com/us/en-us/location/il/genoa/704-e-main-st/14013.html",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "burger",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": true,
+      "region": "Genoa / Kingston / Kirkland (north county)",
+      "lead_score": -8,
+      "audit": [
+        "chain/brand (deprioritized)"
+      ]
+    },
+    {
+      "osm_id": "way/622468211",
+      "name": "AutoZone",
+      "vertical": "auto",
+      "subtype": "car_parts",
+      "lat": 41.9442254,
+      "lon": -88.7349152,
+      "website": "https://www.autozone.com/locations/il/dekalb/1530-sycamore-rd.html",
+      "social": {},
+      "phone": "",
+      "email": "",
+      "opening_hours": "",
+      "cuisine": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "full": ""
+      },
+      "is_chain": true,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "lead_score": -8,
+      "audit": [
+        "chain/brand (deprioritized)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "concept": "Taro Pop - a playful taro-purple primary with a sweet bubblegum-pink accent, fresh teal secondary, and bright off-white backgrounds. Youthful, energetic, and sweet like a freshly shaken boba, while every text pairing clears WCAG-AA.",
+  "vars": {
+    "--color-bg": "#FFF8FB",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#F6ECFB",
+    "--color-ink": "#241B2E",
+    "--color-ink-soft": "#5C5169",
+    "--color-primary": "#7A3FB5",
+    "--color-primary-dark": "#5E2A92",
+    "--color-secondary": "#16B6B0",
+    "--color-accent": "#FF6FA5",
+    "--color-line": "#E7DCEF"
+  },
+  "contrastNotes": "All pairings verified WCAG-AA. ink #241B2E on bg #FFF8FB = 15.79:1 (>=7). ink-soft #5C5169 on bg = 7.08:1 (>=4.5). white on primary #7A3FB5 = 6.55:1 and on primary-dark #5E2A92 = 9.45:1 (>=4.5). primary on bg = 6.26:1 (>=3). accent #FF6FA5 on #000 = 8.07:1 (>=3) for bright pops on dark heroes. Secondary teal #16B6B0 is decorative/fill; use ink for text on it. Line #E7DCEF for subtle dividers only."
+}

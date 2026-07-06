@@ -1,0 +1,712 @@
+{
+  "business": {
+    "name": "White Oak Tax Solutions",
+    "shortName": "White Oak Tax",
+    "vertical": "Tax & Accounting Firm",
+    "phone": "(815) 758-7111",
+    "phoneHref": "+18157587111",
+    "address": "810 South 4th Street",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "White Oak Tax Solutions, 810 South 4th Street, DeKalb, IL 60115"
+  },
+  "en": {
+    "meta": {
+      "title": "White Oak Tax Solutions | Tax & Accounting in DeKalb, IL",
+      "description": "Independent tax & accounting firm in DeKalb, IL. Tax prep, bookkeeping, payroll, planning & IRS resolution. Year-round support, no surprise bills. Call (815) 758-7111."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About",
+      "gallery": "Our Office",
+      "visit": "Visit",
+      "order": "Book a Consult"
+    },
+    "hero": {
+      "eyebrow": "DeKalb's Trusted Tax & Accounting Firm",
+      "title": "Organized, Compliant,",
+      "titleAccent": "and Confident at Tax Time",
+      "subtitle": "We keep DeKalb individuals and small businesses on track all year long with clear advice, accurate books, and a plan for tax season, so there are no surprises and no surprise bills.",
+      "ctaPrimary": "View Services",
+      "ctaSecondary": "Book a Free Consultation",
+      "badge": "Independent Firm · Year-Round Support · Clear, Flat Pricing"
+    },
+    "highlights": [
+      {
+        "icon": "check",
+        "title": "No Surprise Bills",
+        "text": "Clear, agreed-upon pricing before we start, so you always know what your tax and accounting work will cost."
+      },
+      {
+        "icon": "shield",
+        "title": "Accurate & Compliant",
+        "text": "Careful, double-checked returns and books that keep you on the right side of the IRS and the State of Illinois."
+      },
+      {
+        "icon": "star",
+        "title": "Year-Round, Not Just April",
+        "text": "We're here in July as much as in April, answering questions and planning ahead, not just filing once a year."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Advice in Plain English",
+        "text": "Straight answers about your taxes, your business, and your options, without the jargon or the runaround."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "A demo overview of services for an independent tax & accounting firm. Service names and prices shown are illustrative demo content only; your actual scope and quote are confirmed at a free consultation.",
+      "categories": [
+        {
+          "id": "tax-preparation",
+          "name": "Tax Preparation",
+          "blurb": "Accurate, on-time returns for individuals and businesses, filed with care.",
+          "items": [
+            {
+              "name": "Individual Tax Return",
+              "desc": "Federal and Illinois returns for individuals and families, with every credit and deduction you've earned.",
+              "price": "From $150",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Business Tax Return",
+              "desc": "Returns for LLCs, S-corps, partnerships, and sole proprietors, prepared and reviewed line by line.",
+              "price": "From $450",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Multi-State Returns",
+              "desc": "Lived or worked across state lines? We sort out the filings so income is reported correctly everywhere.",
+              "price": "From $250",
+              "tags": []
+            },
+            {
+              "name": "Amended & Prior-Year Returns",
+              "desc": "Fix a past mistake or catch up on unfiled years with returns prepared the right way.",
+              "price": "From $200",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "bookkeeping-payroll",
+          "name": "Bookkeeping & Payroll",
+          "blurb": "Clean, current books and worry-free payroll so you can run your business.",
+          "items": [
+            {
+              "name": "Monthly Bookkeeping",
+              "desc": "Reconciled accounts and clear monthly reports that keep your numbers ready all year long.",
+              "price": "From $250",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Payroll Services",
+              "desc": "On-time payroll, direct deposit, and payroll tax filings handled so you never miss a deadline.",
+              "price": "From $99",
+              "tags": []
+            },
+            {
+              "name": "Sales Tax Filing",
+              "desc": "Accurate sales tax calculation and filing to keep your business compliant with Illinois rules.",
+              "price": "From $75",
+              "tags": []
+            },
+            {
+              "name": "Year-End Cleanup",
+              "desc": "Behind on the books? We catch up your records and get everything tax-ready.",
+              "price": "Free Consultation",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tax-planning-advisory",
+          "name": "Tax Planning & Advisory",
+          "blurb": "Plan ahead and keep more of what you earn with proactive, year-round strategy.",
+          "items": [
+            {
+              "name": "Tax Strategy Session",
+              "desc": "A sit-down to map out moves that lower next year's bill before the year is over.",
+              "price": "From $200",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Entity Selection",
+              "desc": "LLC, S-corp, or sole proprietor? We help you choose the structure that fits your goals.",
+              "price": "Free Consultation",
+              "tags": []
+            },
+            {
+              "name": "Quarterly Estimated Planning",
+              "desc": "Right-sized estimated payments so you avoid penalties and surprise balances in April.",
+              "price": "From $150",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Small Business Advisory",
+              "desc": "Year-round guidance on cash flow, owner pay, and decisions that affect your taxes.",
+              "price": "Free Consultation",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "irs-resolution",
+          "name": "IRS Resolution",
+          "blurb": "Got a letter or a problem with the IRS? We help you respond and resolve it.",
+          "items": [
+            {
+              "name": "Audit Support",
+              "desc": "We help you gather records and respond clearly if the IRS or the state takes a closer look.",
+              "price": "Free Consultation",
+              "tags": [
+                "guarantee"
+              ]
+            },
+            {
+              "name": "Back Taxes & Payment Plans",
+              "desc": "Owe more than you can pay now? We help set up a manageable plan to get current.",
+              "price": "Free Consultation",
+              "tags": []
+            },
+            {
+              "name": "IRS Notice Response",
+              "desc": "Bring us that confusing letter and we'll explain it and help you reply the right way.",
+              "price": "From $150",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Penalty Relief Requests",
+              "desc": "When the facts support it, we help request relief from certain penalties and interest.",
+              "price": "Free Consultation",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Your Local Tax & Accounting Partner",
+      "lead": "White Oak Tax Solutions is an independent tax and accounting firm helping DeKalb individuals and small businesses stay organized, compliant, and confident all year round.",
+      "paragraphs": [
+        "Taxes and bookkeeping shouldn't feel like a black box. We take the time to understand your situation, explain your options in plain English, and agree on the price before any work begins, so there are no surprise bills at the end.",
+        "From everyday bookkeeping and payroll to tax planning and IRS notices, we're a steady point of contact you can reach in any month of the year. The goal is simple: keep your numbers clean, your filings on time, and your mind at ease."
+      ],
+      "stats": [
+        {
+          "value": "Year-Round",
+          "label": "Support, Not Just Tax Season"
+        },
+        {
+          "value": "Flat",
+          "label": "Up-Front Pricing"
+        },
+        {
+          "value": "Free",
+          "label": "Initial Consultation"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Our Office",
+      "subheading": "A welcoming, professional space in DeKalb where individuals and business owners get clear answers.",
+      "captions": [
+        "Our office on South 4th Street in DeKalb",
+        "A comfortable spot to talk through your taxes",
+        "Sitting down to review the year together",
+        "Organized records and clean, current books",
+        "Walking through your return line by line",
+        "Year-round help, always a call away"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Clients Say",
+      "items": [
+        {
+          "quote": "They explained my return in plain English and told me the price up front. No surprises, and I finally understand what I'm filing.",
+          "name": "Maria G.",
+          "role": "DeKalb individual filer"
+        },
+        {
+          "quote": "Having them handle our books and payroll took a huge weight off. They answer my questions in July, not just in April.",
+          "name": "Daniel R.",
+          "role": "Small business owner, DeKalb"
+        },
+        {
+          "quote": "I brought in a scary IRS letter and they walked me through exactly what to do. Calm, clear, and genuinely helpful.",
+          "name": "Susan P.",
+          "role": "Sycamore client"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit Our DeKalb Office",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Friday",
+          "time": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "By Appointment"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        },
+        {
+          "day": "Tax Season (Feb - Apr)",
+          "time": "Extended Hours"
+        }
+      ],
+      "phoneLabel": "Call Us",
+      "directions": "Find us at 810 South 4th Street in DeKalb, IL 60115. Free parking is available, and we welcome both walk-ins and scheduled appointments. Call ahead and we'll have time set aside for you."
+    },
+    "cta": {
+      "heading": "Let's Get You Organized",
+      "text": "Book a free consultation to talk through your taxes, your books, or that IRS letter. Clear advice, year-round support, and no surprise bills.",
+      "button": "Call (815) 758-7111"
+    },
+    "form": {
+      "heading": "Book a Free Consultation",
+      "subheading": "Tell us a little about what you need and we'll follow up to set a time that works for you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Service Needed",
+      "date": "Preferred Date/Time",
+      "message": "How can we help? Briefly describe your tax or accounting needs.",
+      "submit": "Request Consultation",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Independent tax & accounting keeping DeKalb individuals and small businesses organized, compliant, and confident all year.",
+      "rights": "© White Oak Tax Solutions. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    },
+    "process": {
+      "heading": "How We Work With You",
+      "steps": [
+        {
+          "title": "Free Consultation",
+          "text": "We sit down at no charge to understand your situation, answer questions, and agree on the price before any work begins."
+        },
+        {
+          "title": "Gather & Organize",
+          "text": "We give you a simple checklist and help collect the records, forms, and statements needed to prepare everything accurately."
+        },
+        {
+          "title": "Prepare & Review Together",
+          "text": "We prepare your return or books, double-check the details, then walk through everything line by line in plain English."
+        },
+        {
+          "title": "File & Plan Ahead",
+          "text": "We file on time and keep in touch year-round, helping you plan ahead so next tax season holds no surprises."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Is the first consultation really free?",
+          "a": "Yes. Your initial consultation is free, with no obligation. We'll talk through your needs and agree on a clear, up-front price before any work starts."
+        },
+        {
+          "q": "What are your hours, and do you take walk-ins?",
+          "a": "We're open Monday through Friday, 9 AM to 5 PM, with Saturdays by appointment. Walk-ins are welcome, but calling ahead means we'll have time set aside for you."
+        },
+        {
+          "q": "What should I bring to my appointment?",
+          "a": "Bring your photo ID, last year's tax return, and any income or expense forms you've received. Not sure? Call us and we'll send a simple checklist."
+        },
+        {
+          "q": "How much will my return or bookkeeping cost?",
+          "a": "It depends on your specific situation, so we confirm a flat, agreed-upon price at your free consultation. No hidden fees and no surprise bills at the end."
+        },
+        {
+          "q": "Do you speak Spanish?",
+          "a": "Yes. We're happy to help you in English or Spanish, and we'll explain your taxes, books, or any IRS letter clearly in the language you prefer."
+        },
+        {
+          "q": "Are you available after tax season?",
+          "a": "Absolutely. We're here year-round, not just in April, ready to answer questions, handle IRS notices, and help you plan in any month."
+        }
+      ]
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "White Oak Tax Solutions | Impuestos y Contabilidad en DeKalb, IL",
+      "description": "Firma independiente de impuestos y contabilidad en DeKalb, IL. Preparación de impuestos, contabilidad, nómina, planeación y resolución con el IRS. Apoyo todo el año, sin facturas sorpresa. Llama al (815) 758-7111."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Nuestra Oficina",
+      "visit": "Visítanos",
+      "order": "Agendar"
+    },
+    "hero": {
+      "eyebrow": "La Firma de Impuestos y Contabilidad de Confianza en DeKalb",
+      "title": "Organizado, en Regla",
+      "titleAccent": "y con Confianza en Tus Impuestos",
+      "subtitle": "Mantenemos a las personas y a los pequeños negocios de DeKalb al día todo el año con consejos claros, libros precisos y un plan para la temporada de impuestos, sin sorpresas y sin facturas sorpresa.",
+      "ctaPrimary": "Ver Servicios",
+      "ctaSecondary": "Agenda una Consulta Gratis",
+      "badge": "Firma Independiente · Apoyo Todo el Año · Precios Claros y Fijos"
+    },
+    "highlights": [
+      {
+        "icon": "check",
+        "title": "Sin Facturas Sorpresa",
+        "text": "Precios claros y acordados antes de empezar, para que siempre sepas cuánto costará tu trabajo de impuestos y contabilidad."
+      },
+      {
+        "icon": "shield",
+        "title": "Preciso y en Regla",
+        "text": "Declaraciones y libros revisados con cuidado que te mantienen del lado correcto del IRS y del Estado de Illinois."
+      },
+      {
+        "icon": "star",
+        "title": "Todo el Año, No Solo en Abril",
+        "text": "Estamos aquí en julio igual que en abril, respondiendo preguntas y planeando con tiempo, no solo declarando una vez al año."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Consejos en Palabras Claras",
+        "text": "Respuestas directas sobre tus impuestos, tu negocio y tus opciones, sin tecnicismos ni vueltas."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Un resumen demostrativo de los servicios de una firma independiente de impuestos y contabilidad. Los nombres y precios mostrados son solo contenido ilustrativo de demostración; tu alcance y cotización reales se confirman en una consulta gratis.",
+      "categories": [
+        {
+          "id": "tax-preparation",
+          "name": "Preparación de Impuestos",
+          "blurb": "Declaraciones precisas y a tiempo para personas y negocios, hechas con cuidado.",
+          "items": [
+            {
+              "name": "Declaración Individual",
+              "desc": "Declaraciones federales y de Illinois para personas y familias, con cada crédito y deducción que te corresponde.",
+              "price": "Desde $150",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Declaración de Negocio",
+              "desc": "Declaraciones para LLC, S-corp, sociedades y propietarios únicos, preparadas y revisadas línea por línea.",
+              "price": "Desde $450",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Declaraciones Multiestatales",
+              "desc": "¿Viviste o trabajaste en varios estados? Organizamos las declaraciones para reportar tus ingresos correctamente en todas partes.",
+              "price": "Desde $250",
+              "tags": []
+            },
+            {
+              "name": "Declaraciones Enmendadas y de Años Anteriores",
+              "desc": "Corrige un error pasado o ponte al día con años sin declarar, con declaraciones hechas de la forma correcta.",
+              "price": "Desde $200",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "bookkeeping-payroll",
+          "name": "Contabilidad y Nómina",
+          "blurb": "Libros limpios y al día y nómina sin preocupaciones para que dirijas tu negocio.",
+          "items": [
+            {
+              "name": "Contabilidad Mensual",
+              "desc": "Cuentas conciliadas e informes mensuales claros que mantienen tus números listos todo el año.",
+              "price": "Desde $250",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Servicios de Nómina",
+              "desc": "Nómina a tiempo, depósito directo y declaraciones de impuestos de nómina, para que nunca pierdas una fecha límite.",
+              "price": "Desde $99",
+              "tags": []
+            },
+            {
+              "name": "Declaración de Impuesto sobre Ventas",
+              "desc": "Cálculo y presentación precisos del impuesto sobre ventas para mantener tu negocio en regla con las normas de Illinois.",
+              "price": "Desde $75",
+              "tags": []
+            },
+            {
+              "name": "Puesta al Día de Fin de Año",
+              "desc": "¿Atrasado con los libros? Ponemos tus registros al día y dejamos todo listo para impuestos.",
+              "price": "Consulta Gratis",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tax-planning-advisory",
+          "name": "Planeación y Asesoría Fiscal",
+          "blurb": "Planea con tiempo y conserva más de lo que ganas con estrategia proactiva todo el año.",
+          "items": [
+            {
+              "name": "Sesión de Estrategia Fiscal",
+              "desc": "Una reunión para trazar movimientos que reduzcan la cuenta del próximo año antes de que termine el año.",
+              "price": "Desde $200",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Selección de Entidad",
+              "desc": "¿LLC, S-corp o propietario único? Te ayudamos a elegir la estructura que se ajusta a tus metas.",
+              "price": "Consulta Gratis",
+              "tags": []
+            },
+            {
+              "name": "Planeación de Pagos Estimados Trimestrales",
+              "desc": "Pagos estimados a la medida para evitar multas y saldos sorpresa en abril.",
+              "price": "Desde $150",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Asesoría para Pequeños Negocios",
+              "desc": "Orientación todo el año sobre flujo de efectivo, pago al dueño y decisiones que afectan tus impuestos.",
+              "price": "Consulta Gratis",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "irs-resolution",
+          "name": "Resolución con el IRS",
+          "blurb": "¿Recibiste una carta o tienes un problema con el IRS? Te ayudamos a responder y resolverlo.",
+          "items": [
+            {
+              "name": "Apoyo en Auditorías",
+              "desc": "Te ayudamos a reunir los registros y a responder con claridad si el IRS o el estado revisan tu caso de cerca.",
+              "price": "Consulta Gratis",
+              "tags": [
+                "guarantee"
+              ]
+            },
+            {
+              "name": "Impuestos Atrasados y Planes de Pago",
+              "desc": "¿Debes más de lo que puedes pagar ahora? Te ayudamos a establecer un plan manejable para ponerte al día.",
+              "price": "Consulta Gratis",
+              "tags": []
+            },
+            {
+              "name": "Respuesta a Avisos del IRS",
+              "desc": "Tráenos esa carta confusa y te la explicamos y te ayudamos a responder de la forma correcta.",
+              "price": "Desde $150",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Solicitudes de Alivio de Multas",
+              "desc": "Cuando los hechos lo respaldan, te ayudamos a solicitar alivio de ciertas multas e intereses.",
+              "price": "Consulta Gratis",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Tu Socio Local de Impuestos y Contabilidad",
+      "lead": "White Oak Tax Solutions es una firma independiente de impuestos y contabilidad que ayuda a las personas y a los pequeños negocios de DeKalb a mantenerse organizados, en regla y con confianza todo el año.",
+      "paragraphs": [
+        "Los impuestos y la contabilidad no deberían sentirse como una caja negra. Nos tomamos el tiempo de entender tu situación, explicar tus opciones en palabras claras y acordar el precio antes de empezar cualquier trabajo, para que no haya facturas sorpresa al final.",
+        "Desde la contabilidad y la nómina del día a día hasta la planeación fiscal y los avisos del IRS, somos un punto de contacto estable al que puedes acudir en cualquier mes del año. La meta es simple: mantener tus números limpios, tus declaraciones a tiempo y tu mente tranquila."
+      ],
+      "stats": [
+        {
+          "value": "Todo el Año",
+          "label": "Apoyo, No Solo en Temporada"
+        },
+        {
+          "value": "Fijo",
+          "label": "Precio por Adelantado"
+        },
+        {
+          "value": "Gratis",
+          "label": "Consulta Inicial"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Nuestra Oficina",
+      "subheading": "Un espacio acogedor y profesional en DeKalb donde las personas y los dueños de negocio reciben respuestas claras.",
+      "captions": [
+        "Nuestra oficina en South 4th Street en DeKalb",
+        "Un lugar cómodo para hablar de tus impuestos",
+        "Sentándonos a revisar el año juntos",
+        "Registros organizados y libros limpios y al día",
+        "Repasando tu declaración línea por línea",
+        "Ayuda todo el año, siempre a una llamada"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen los Clientes de DeKalb",
+      "items": [
+        {
+          "quote": "Me explicaron mi declaración en palabras claras y me dijeron el precio por adelantado. Sin sorpresas, y por fin entiendo lo que estoy declarando.",
+          "name": "Maria G.",
+          "role": "Contribuyente individual en DeKalb"
+        },
+        {
+          "quote": "Que ellos lleven nuestros libros y la nómina nos quitó un gran peso de encima. Responden mis preguntas en julio, no solo en abril.",
+          "name": "Daniel R.",
+          "role": "Dueño de pequeño negocio, DeKalb"
+        },
+        {
+          "quote": "Llegué con una carta del IRS que me asustaba y me guiaron en exactamente qué hacer. Tranquilos, claros y de verdad útiles.",
+          "name": "Susan P.",
+          "role": "Cliente en Sycamore"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita Nuestra Oficina en DeKalb",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Viernes",
+          "time": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "Con Cita"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        },
+        {
+          "day": "Temporada de Impuestos (Feb - Abr)",
+          "time": "Horario Extendido"
+        }
+      ],
+      "phoneLabel": "Llámanos",
+      "directions": "Encuéntranos en 810 South 4th Street en DeKalb, IL 60115. Hay estacionamiento gratis y recibimos tanto visitas sin cita como citas programadas. Llama antes y apartaremos tiempo para ti."
+    },
+    "cta": {
+      "heading": "Pongamos Todo en Orden",
+      "text": "Agenda una consulta gratis para hablar de tus impuestos, tus libros o esa carta del IRS. Consejos claros, apoyo todo el año y sin facturas sorpresa.",
+      "button": "Llamar al (815) 758-7111"
+    },
+    "form": {
+      "heading": "Agenda una Consulta Gratis",
+      "subheading": "Cuéntanos un poco sobre lo que necesitas y te contactaremos para fijar una hora que te funcione.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Servicio que Necesitas",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo podemos ayudarte? Describe brevemente tus necesidades de impuestos o contabilidad.",
+      "submit": "Solicitar Consulta",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Impuestos y contabilidad independientes que mantienen a las personas y a los pequeños negocios de DeKalb organizados, en regla y con confianza todo el año.",
+      "rights": "© White Oak Tax Solutions. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    },
+    "process": {
+      "heading": "Cómo Trabajamos Contigo",
+      "steps": [
+        {
+          "title": "Consulta Gratis",
+          "text": "Nos sentamos sin costo para entender tu situación, responder preguntas y acordar el precio antes de empezar cualquier trabajo."
+        },
+        {
+          "title": "Reunir y Organizar",
+          "text": "Te damos una lista sencilla y te ayudamos a juntar los registros, formularios y estados necesarios para preparar todo con precisión."
+        },
+        {
+          "title": "Preparar y Revisar Juntos",
+          "text": "Preparamos tu declaración o libros, revisamos cada detalle y luego repasamos todo línea por línea en palabras claras."
+        },
+        {
+          "title": "Declarar y Planear con Tiempo",
+          "text": "Declaramos a tiempo y seguimos en contacto todo el año, ayudándote a planear para que la próxima temporada no traiga sorpresas."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿De verdad es gratis la primera consulta?",
+          "a": "Sí. Tu consulta inicial es gratis, sin compromiso. Hablaremos de lo que necesitas y acordaremos un precio claro y por adelantado antes de empezar."
+        },
+        {
+          "q": "¿Cuál es su horario y reciben visitas sin cita?",
+          "a": "Abrimos de lunes a viernes, de 9 AM a 5 PM, y los sábados con cita. Recibimos visitas sin cita, pero si llamas antes, apartaremos tiempo para ti."
+        },
+        {
+          "q": "¿Qué debo traer a mi cita?",
+          "a": "Trae tu identificación con foto, la declaración del año pasado y los formularios de ingresos o gastos que hayas recibido. ¿No estás seguro? Llámanos y te enviamos una lista."
+        },
+        {
+          "q": "¿Cuánto costará mi declaración o contabilidad?",
+          "a": "Depende de tu situación, por eso confirmamos un precio fijo y acordado en tu consulta gratis. Sin cargos ocultos ni facturas sorpresa al final."
+        },
+        {
+          "q": "¿Hablan español?",
+          "a": "Sí. Con gusto te atendemos en inglés o español, y te explicamos tus impuestos, tus libros o cualquier carta del IRS con claridad en el idioma que prefieras."
+        },
+        {
+          "q": "¿Están disponibles después de la temporada de impuestos?",
+          "a": "Claro que sí. Estamos aquí todo el año, no solo en abril, listos para responder preguntas, atender avisos del IRS y ayudarte a planear en cualquier mes."
+        }
+      ]
+    }
+  }
+}

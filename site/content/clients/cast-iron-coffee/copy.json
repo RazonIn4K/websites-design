@@ -1,0 +1,703 @@
+{
+  "business": {
+    "name": "Cast Iron Coffee",
+    "shortName": "Cast Iron",
+    "vertical": "Specialty Coffee Roaster & Espresso Bar",
+    "phone": "(815) 517-0654",
+    "phoneHref": "+18155170654",
+    "address": "901 Lucinda Avenue",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Cast Iron Coffee, 901 Lucinda Avenue, DeKalb, IL 60115",
+    "lat": 41.9366665,
+    "lon": -88.7716058,
+    "cuisine": "Coffee Shop"
+  },
+  "en": {
+    "meta": {
+      "title": "Cast Iron Coffee | Specialty Coffee Roaster & Espresso Bar in DeKalb, IL",
+      "description": "Independent coffee roaster & espresso bar steps from NIU in DeKalb, IL. Small-batch beans, pour-overs, pastries & comfy seats. Order ahead: (815) 517-0654."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Our Space",
+      "visit": "Visit",
+      "order": "Order Ahead"
+    },
+    "hero": {
+      "eyebrow": "Small-Batch Roaster · Steps from NIU",
+      "title": "Meticulously Pulled Espresso,",
+      "titleAccent": "Freshly Roasted Beans",
+      "subtitle": "A cozy, design-forward coffee house and small-batch roaster in DeKalb, single-origin pour-overs, carefully pulled espresso, fresh pastries, and the comfiest seats in town to work or catch up.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Call to Order Ahead",
+      "badge": "Roasted In-House · Single-Origin · Study-Friendly"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Roasted In-House",
+        "text": "We roast in small batches right here, so every cup is fresh, traceable, and pulled at the peak of flavor."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Meticulously Pulled",
+        "text": "Dialed-in espresso and hand-poured single-origin brews, crafted by baristas who care about every detail."
+      },
+      {
+        "icon": "heart",
+        "title": "The Comfiest Seats in DeKalb",
+        "text": "Warm light, soft chairs, and plenty of outlets, the cozy spot steps from NIU to study, work, or catch up."
+      },
+      {
+        "icon": "leaf",
+        "title": "Fresh Daily",
+        "text": "Pastries, bagels, and bites baked and prepped fresh every morning to pair perfectly with your pour."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Menu items and prices shown are illustrative demo content for this sample site. Please call (815) 517-0654 for current offerings and pricing.",
+      "categories": [
+        {
+          "id": "espresso-coffee",
+          "name": "Espresso & Coffee",
+          "blurb": "The heart of the bar, dialed-in espresso, hand-poured single-origins, and smooth cold brew.",
+          "items": [
+            {
+              "name": "Espresso",
+              "desc": "A meticulously pulled double shot of our freshly roasted house blend, rich crema and balanced sweetness.",
+              "price": "$3.25",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Latte",
+              "desc": "Two shots of espresso with silky steamed milk and a delicate layer of microfoam.",
+              "price": "$4.75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Cappuccino",
+              "desc": "Equal parts espresso, steamed milk, and airy foam for a classic, balanced cup.",
+              "price": "$4.50",
+              "tags": []
+            },
+            {
+              "name": "Single-Origin Pour-Over",
+              "desc": "Hand-poured to order from a rotating selection of single-origin beans, bright, clean, and aromatic.",
+              "price": "$5.25",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Cold Brew",
+              "desc": "Steeped slow for 18 hours for a smooth, naturally sweet, low-acidity brew served over ice.",
+              "price": "$4.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Drip Coffee",
+              "desc": "A fresh-brewed cup of our small-batch house roast, simple, honest, and endlessly refillable.",
+              "price": "$3.00",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "specialty-seasonal",
+          "name": "Specialty & Seasonal Drinks",
+          "blurb": "Signature lattes and seasonal pours crafted in-house, a little something beyond the classics.",
+          "items": [
+            {
+              "name": "Cast Iron Mocha",
+              "desc": "Espresso with rich dark chocolate and steamed milk, finished with a dusting of cocoa.",
+              "price": "$5.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Honey Lavender Latte",
+              "desc": "Our signature latte with local honey and a whisper of lavender, floral and just sweet enough.",
+              "price": "$5.75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Matcha Latte",
+              "desc": "Stone-ground ceremonial matcha whisked with steamed milk for a smooth, earthy lift.",
+              "price": "$5.50",
+              "tags": []
+            },
+            {
+              "name": "Spiced Chai Latte",
+              "desc": "House-spiced chai blended with steamed milk, warm cinnamon, cardamom, and ginger in every sip.",
+              "price": "$5.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Maple Brown Sugar Latte",
+              "desc": "Espresso with real maple and brown sugar, a cozy seasonal favorite topped with foam.",
+              "price": "$5.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tea-not-coffee",
+          "name": "Tea & Not-Coffee",
+          "blurb": "For the non-coffee crowd, soothing teas, rich cocoa, and bright house lemonade.",
+          "items": [
+            {
+              "name": "Loose-Leaf Hot Tea",
+              "desc": "A steeped pot of premium loose-leaf tea, choose from black, green, or herbal blends.",
+              "price": "$3.50",
+              "tags": []
+            },
+            {
+              "name": "London Fog",
+              "desc": "Earl Grey steeped with steamed milk and a touch of vanilla for a creamy, fragrant cup.",
+              "price": "$4.75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Hot Chocolate",
+              "desc": "Steamed milk and real dark chocolate topped with a generous swirl of whipped cream.",
+              "price": "$4.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "House Lemonade",
+              "desc": "Fresh-squeezed and lightly sweet, a bright, refreshing pick-me-up served over ice.",
+              "price": "$3.75",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Iced Matcha Lemonade",
+              "desc": "Our house lemonade layered with smooth ceremonial matcha for a vibrant, refreshing twist.",
+              "price": "$5.25",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bakery-bites",
+          "name": "Bakery & Bites",
+          "blurb": "Baked and prepped fresh each morning, the perfect pairing for your pour.",
+          "items": [
+            {
+              "name": "Butter Croissant",
+              "desc": "Flaky, golden, and buttery, baked fresh each morning for the ideal coffee companion.",
+              "price": "$4.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Avocado Toast",
+              "desc": "Smashed avocado on toasted artisan bread with sea salt, chili flakes, and a squeeze of lemon.",
+              "price": "$8.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Everything Bagel",
+              "desc": "Toasted everything bagel with house cream cheese, add avocado or egg to make it a meal.",
+              "price": "$5.50",
+              "tags": []
+            },
+            {
+              "name": "Seasonal Muffin",
+              "desc": "A rotating selection of fresh-baked muffins made with seasonal fruit, ask about today's bake.",
+              "price": "$3.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Brown Butter Cookie",
+              "desc": "A big, chewy chocolate chip cookie with nutty brown butter and flaky sea salt.",
+              "price": "$3.50",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Coffee House Built for DeKalb",
+      "lead": "Cast Iron Coffee is an independent roaster and espresso bar steps from NIU, where small-batch beans, meticulous craft, and the comfiest seats in town come together over a great cup.",
+      "paragraphs": [
+        "Family-owned and serving the DeKalb community since 2020, we started with a simple idea: coffee tastes best when it's roasted close to home and pulled with care. So we roast in small batches in-house, dial in every shot, and hand-pour single-origins that let the bean speak for itself, all in a warm, design-forward space that feels like an extension of your living room.",
+        "Whether you're cramming for an exam, meeting a friend, or just need a quiet corner and a perfect pour-over, there's a comfy seat waiting for you. Settle in, plug in, and stay as long as you like, this is your cozy spot in DeKalb."
+      ],
+      "stats": [
+        {
+          "value": "Small-Batch",
+          "label": "Roasted In-House"
+        },
+        {
+          "value": "Single-Origin",
+          "label": "Pour-Overs to Order"
+        },
+        {
+          "value": "Steps from NIU",
+          "label": "Study-Friendly Seating"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside Cast Iron Coffee",
+      "subheading": "A peek at the cozy space, careful craft, and fresh bakes waiting for you steps from NIU.",
+      "captions": [
+        "A meticulously pulled espresso with rich crema",
+        "Hand-pouring a single-origin brew over the counter",
+        "Latte art crowning a freshly steamed cup",
+        "Small-batch beans roasting in-house",
+        "Flaky butter croissants fresh from the oven",
+        "The comfiest corner seats, ready to work or catch up"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Is Saying",
+      "items": [
+        {
+          "quote": "My go-to study spot near campus. The pour-over is incredible, the seats are unbeatable, and the staff actually knows their beans.",
+          "name": "Maya R.",
+          "role": "NIU student"
+        },
+        {
+          "quote": "You can taste how fresh the roast is. The honey lavender latte is my whole personality now. Cozy, beautiful space too.",
+          "name": "Daniel K.",
+          "role": "Regular customer"
+        },
+        {
+          "quote": "Finally a coffee house in DeKalb that takes espresso seriously. Warm, welcoming, and the croissants are perfect. I'm here every morning.",
+          "name": "Priya S.",
+          "role": "Local regular"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in DeKalb",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Friday",
+          "time": "7:00 AM - 8:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "8:00 AM - 8:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "8:00 AM - 6:00 PM"
+        }
+      ],
+      "phoneLabel": "Call to Order Ahead",
+      "directions": "Find us at 901 Lucinda Avenue in DeKalb, just steps from NIU. Call ahead and we'll have your espresso, pour-over, or pastry ready for pickup, or come in, grab a comfy seat, and stay a while.",
+      "neighborhood": "The shop is on Lucinda Avenue right alongside the NIU campus, in the heart of DeKalb's college-town west side."
+    },
+    "cta": {
+      "heading": "Skip the Line, Order Ahead",
+      "text": "Call ahead and we'll have your freshly roasted coffee, espresso, or pastry hot and ready when you arrive, or come in and grab the comfiest seat in DeKalb.",
+      "button": "Call (815) 517-0654"
+    },
+    "form": {
+      "heading": "Send Us a Message",
+      "subheading": "Have a question about our roasts, hosting a study group, or catering coffee for an event? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Group Size",
+      "date": "Preferred Date/Time",
+      "message": "How can we help? Tell us about your visit or question.",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We received your message and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "An independent small-batch roaster and espresso bar steps from NIU in DeKalb, freshly roasted coffee and the comfiest seats in town.",
+      "rights": "© Cast Iron Coffee. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Cast Iron Coffee | Tostador de Café de Especialidad y Bar de Espresso en DeKalb, IL",
+      "description": "Tostador independiente y bar de espresso a pasos de NIU en DeKalb, IL. Granos de lote pequeño, pour-overs, pan y asientos cómodos. Ordena: (815) 517-0654."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Nuestro Espacio",
+      "visit": "Visítanos",
+      "order": "Ordenar"
+    },
+    "hero": {
+      "eyebrow": "Tostador de Lote Pequeño · A Pasos de NIU",
+      "title": "Espresso Preparado con Esmero,",
+      "titleAccent": "Granos Recién Tostados",
+      "subtitle": "Una acogedora cafetería con diseño y tostador de lote pequeño en DeKalb, pour-overs de origen único, espresso preparado con esmero, pan fresco y los asientos más cómodos del pueblo para trabajar o ponerte al día.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Llama para Ordenar",
+      "badge": "Tostado en Casa · Origen Único · Ideal para Estudiar"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Tostado en Casa",
+        "text": "Tostamos en lotes pequeños aquí mismo, para que cada taza sea fresca, rastreable y preparada en su punto máximo de sabor."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Preparado con Esmero",
+        "text": "Espresso bien calibrado y café de origen único servido a mano, creado por baristas que cuidan cada detalle."
+      },
+      {
+        "icon": "heart",
+        "title": "Los Asientos Más Cómodos de DeKalb",
+        "text": "Luz cálida, sillas suaves y muchos enchufes, el rincón acogedor a pasos de NIU para estudiar, trabajar o ponerte al día."
+      },
+      {
+        "icon": "leaf",
+        "title": "Fresco a Diario",
+        "text": "Pan, bagels y bocadillos horneados y preparados frescos cada mañana para acompañar perfectamente tu café."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Los platillos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Llama al (815) 517-0654 para conocer la oferta y los precios actuales.",
+      "categories": [
+        {
+          "id": "espresso-coffee",
+          "name": "Espresso y Café",
+          "blurb": "El corazón de la barra, espresso bien calibrado, cafés de origen único servidos a mano y suave cold brew.",
+          "items": [
+            {
+              "name": "Espresso",
+              "desc": "Un doble shot cuidadosamente preparado de nuestra mezcla de la casa recién tostada, crema rica y dulzor equilibrado.",
+              "price": "$3.25",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Latte",
+              "desc": "Dos shots de espresso con leche vaporizada sedosa y una delicada capa de microespuma.",
+              "price": "$4.75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Cappuccino",
+              "desc": "Partes iguales de espresso, leche vaporizada y espuma ligera para una taza clásica y equilibrada.",
+              "price": "$4.50",
+              "tags": []
+            },
+            {
+              "name": "Pour-Over de Origen Único",
+              "desc": "Servido a mano al momento de una selección rotativa de granos de origen único, brillante, limpio y aromático.",
+              "price": "$5.25",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Cold Brew",
+              "desc": "Reposado lentamente por 18 horas para un café suave, naturalmente dulce y de baja acidez, servido con hielo.",
+              "price": "$4.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Café de Filtro",
+              "desc": "Una taza recién hecha de nuestro tueste de la casa de lote pequeño, simple, honesto y con rellenos sin fin.",
+              "price": "$3.00",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "specialty-seasonal",
+          "name": "Bebidas Especiales y de Temporada",
+          "blurb": "Lattes de autor y bebidas de temporada creadas en casa, algo más allá de los clásicos.",
+          "items": [
+            {
+              "name": "Mocha Cast Iron",
+              "desc": "Espresso con rico chocolate amargo y leche vaporizada, terminado con un toque de cocoa.",
+              "price": "$5.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Latte de Miel y Lavanda",
+              "desc": "Nuestro latte de autor con miel local y un susurro de lavanda, floral y justo lo dulce necesario.",
+              "price": "$5.75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Latte de Matcha",
+              "desc": "Matcha ceremonial molido en piedra batido con leche vaporizada para un impulso suave y terroso.",
+              "price": "$5.50",
+              "tags": []
+            },
+            {
+              "name": "Latte de Chai Especiado",
+              "desc": "Chai con especias de la casa mezclado con leche vaporizada, canela cálida, cardamomo y jengibre en cada sorbo.",
+              "price": "$5.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Latte de Maple y Azúcar Morena",
+              "desc": "Espresso con maple auténtico y azúcar morena, un favorito acogedor de temporada coronado con espuma.",
+              "price": "$5.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tea-not-coffee",
+          "name": "Té y Sin Café",
+          "blurb": "Para quienes no toman café, tés reconfortantes, cocoa rica y refrescante limonada de la casa.",
+          "items": [
+            {
+              "name": "Té Caliente de Hoja Suelta",
+              "desc": "Una tetera reposada de té premium de hoja suelta, elige entre mezclas negras, verdes o de hierbas.",
+              "price": "$3.50",
+              "tags": []
+            },
+            {
+              "name": "London Fog",
+              "desc": "Earl Grey reposado con leche vaporizada y un toque de vainilla para una taza cremosa y fragante.",
+              "price": "$4.75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Chocolate Caliente",
+              "desc": "Leche vaporizada y chocolate amargo auténtico coronados con un generoso remolino de crema batida.",
+              "price": "$4.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Limonada de la Casa",
+              "desc": "Recién exprimida y ligeramente dulce, un toque brillante y refrescante de energía servido con hielo.",
+              "price": "$3.75",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Limonada de Matcha con Hielo",
+              "desc": "Nuestra limonada de la casa en capas con suave matcha ceremonial para un giro vibrante y refrescante.",
+              "price": "$5.25",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bakery-bites",
+          "name": "Panadería y Bocadillos",
+          "blurb": "Horneados y preparados frescos cada mañana, el acompañante perfecto para tu café.",
+          "items": [
+            {
+              "name": "Croissant de Mantequilla",
+              "desc": "Hojaldrado, dorado y mantecoso, horneado fresco cada mañana, el compañero ideal del café.",
+              "price": "$4.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Tostada de Aguacate",
+              "desc": "Aguacate machacado sobre pan artesanal tostado con sal de mar, hojuelas de chile y un toque de limón.",
+              "price": "$8.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Bagel Everything",
+              "desc": "Bagel everything tostado con queso crema de la casa, agrega aguacate o huevo para hacerlo una comida.",
+              "price": "$5.50",
+              "tags": []
+            },
+            {
+              "name": "Muffin de Temporada",
+              "desc": "Una selección rotativa de muffins recién horneados con fruta de temporada, pregunta por el del día.",
+              "price": "$3.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Galleta de Mantequilla Tostada",
+              "desc": "Una galleta grande y suave de chispas de chocolate con mantequilla tostada y sal de mar en hojuelas.",
+              "price": "$3.50",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Una Cafetería Hecha para DeKalb",
+      "lead": "Cast Iron Coffee es un tostador independiente y bar de espresso a pasos de NIU, donde los granos de lote pequeño, el oficio meticuloso y los asientos más cómodos del pueblo se unen en torno a una gran taza.",
+      "paragraphs": [
+        "Somos un negocio familiar al servicio de la comunidad de DeKalb desde 2020, y empezamos con una idea simple: el café sabe mejor cuando se tuesta cerca de casa y se prepara con cuidado. Por eso tostamos en lotes pequeños aquí mismo, calibramos cada shot y servimos a mano cafés de origen único que dejan que el grano hable por sí mismo, todo en un espacio cálido y con diseño que se siente como una extensión de tu sala.",
+        "Ya sea que estés estudiando para un examen, viéndote con un amigo o solo necesites un rincón tranquilo y un pour-over perfecto, hay un asiento cómodo esperándote. Acomódate, conéctate y quédate todo el tiempo que quieras, este es tu rincón acogedor en DeKalb."
+      ],
+      "stats": [
+        {
+          "value": "Lote Pequeño",
+          "label": "Tostado en Casa"
+        },
+        {
+          "value": "Origen Único",
+          "label": "Pour-Overs al Momento"
+        },
+        {
+          "value": "A Pasos de NIU",
+          "label": "Asientos para Estudiar"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Dentro de Cast Iron Coffee",
+      "subheading": "Un vistazo al espacio acogedor, el oficio cuidadoso y el pan fresco que te esperan a pasos de NIU.",
+      "captions": [
+        "Un espresso cuidadosamente preparado con rica crema",
+        "Sirviendo a mano un café de origen único en la barra",
+        "Arte latte coronando una taza recién vaporizada",
+        "Granos de lote pequeño tostándose en casa",
+        "Croissants de mantequilla hojaldrados recién salidos del horno",
+        "Los asientos de esquina más cómodos, listos para trabajar o ponerte al día"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice DeKalb",
+      "items": [
+        {
+          "quote": "Mi lugar favorito para estudiar cerca del campus. El pour-over es increíble, los asientos son inmejorables y el personal de verdad conoce sus granos.",
+          "name": "Maya R.",
+          "role": "Estudiante de NIU"
+        },
+        {
+          "quote": "Se nota lo fresco que es el tueste. El latte de miel y lavanda ya es toda mi personalidad. Un espacio acogedor y hermoso, además.",
+          "name": "Daniel K.",
+          "role": "Cliente frecuente"
+        },
+        {
+          "quote": "Por fin una cafetería en DeKalb que se toma en serio el espresso. Cálida, acogedora y los croissants son perfectos. Estoy aquí cada mañana.",
+          "name": "Priya S.",
+          "role": "Cliente local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en DeKalb",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Viernes",
+          "time": "7:00 AM - 8:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "8:00 AM - 8:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "8:00 AM - 6:00 PM"
+        }
+      ],
+      "phoneLabel": "Llama para Ordenar",
+      "directions": "Encuéntranos en 901 Lucinda Avenue en DeKalb, a solo pasos de NIU. Llama con anticipación y tendremos tu espresso, pour-over o pan listo para recoger, o pásate, toma un asiento cómodo y quédate un rato.",
+      "neighborhood": "La cafetería está en Lucinda Avenue, justo al lado del campus de NIU, en pleno corazón universitario del oeste de DeKalb."
+    },
+    "cta": {
+      "heading": "Evita la Fila, Ordena con Anticipación",
+      "text": "Llama con anticipación y tendremos tu café recién tostado, espresso o pan caliente y listo cuando llegues, o pásate y toma el asiento más cómodo de DeKalb.",
+      "button": "Llamar al (815) 517-0654"
+    },
+    "form": {
+      "heading": "Envíanos un Mensaje",
+      "subheading": "¿Tienes una pregunta sobre nuestros tuestes, organizar un grupo de estudio o café para un evento? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo podemos ayudarte? Cuéntanos sobre tu visita o pregunta.",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Un tostador independiente de lote pequeño y bar de espresso a pasos de NIU en DeKalb, café recién tostado y los asientos más cómodos del pueblo.",
+      "rights": "© Cast Iron Coffee. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

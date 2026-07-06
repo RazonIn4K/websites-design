@@ -1,0 +1,726 @@
+{
+  "business": {
+    "name": "360 Flavor & Spice",
+    "shortName": "360 Flavor & Spice",
+    "vertical": "Spice & Seasoning Shop",
+    "phone": "(630) 457-5183",
+    "phoneHref": "+16304575183",
+    "address": "507 South 3rd Street",
+    "city": "Geneva",
+    "state": "IL",
+    "zip": "60134",
+    "mapsQuery": "360 Flavor & Spice, 507 South 3rd Street, Geneva, IL 60134",
+    "lat": 41.8824437,
+    "lon": -88.3089565
+  },
+  "en": {
+    "meta": {
+      "title": "360 Flavor & Spice | Spice & Seasoning Shop in Geneva, IL",
+      "description": "A downtown Geneva spice shop where you smell before you buy: small-batch house blends, single-origin spices, and infused oils. Call (630) 457-5183."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Shop",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Visit the Shop"
+    },
+    "hero": {
+      "eyebrow": "Geneva's Small-Batch Spice & Seasoning Shop",
+      "title": "Smell It, Taste It,",
+      "titleAccent": "Cook Something Unforgettable",
+      "subtitle": "Step into our downtown Geneva shop and open the jars: small-batch house blends, single-origin spices, infused oils, and staff who'll help you build the perfect flavor for whatever you're cooking tonight.",
+      "ctaPrimary": "Browse the Shop",
+      "ctaSecondary": "Call the Shop",
+      "badge": "Small-batch house blends · Custom blends made to order"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Smell Before You Buy",
+        "text": "Open the jars, breathe it in, and taste before you take it home. Every spice on our wall is yours to sample first."
+      },
+      {
+        "icon": "flame",
+        "title": "Small-Batch House Blends",
+        "text": "Our signature seasonings, rubs, and salts are mixed in-house in small batches, so every jar is fresh, bold, and never sitting around."
+      },
+      {
+        "icon": "leaf",
+        "title": "Single-Origin Spices",
+        "text": "Peppercorns, cinnamon, paprika, and real vanilla sourced for flavor and freshness, ground in small amounts to keep them lively."
+      },
+      {
+        "icon": "heart",
+        "title": "Staff Who Love to Cook",
+        "text": "Tell us what you're making and we'll point you to the right blend, suggest a swap, or mix a custom seasoning just for you."
+      }
+    ],
+    "menu": {
+      "heading": "What's on the Shelves",
+      "subheading": "Products and prices shown are illustrative demo content for this concept site and may not reflect the shop's actual selection or pricing.",
+      "categories": [
+        {
+          "id": "signature-blends",
+          "name": "Signature Blends",
+          "blurb": "House seasoning blends, rubs, and finishing salts mixed in small batches right here in the shop.",
+          "items": [
+            {
+              "name": "Geneva Steakhouse Rub",
+              "desc": "A bold blend of cracked pepper, garlic, and smoked salt built for steaks, chops, and burgers.",
+              "price": "$9.95",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Everyday All-Purpose Seasoning",
+              "desc": "Our go-to blend for vegetables, chicken, eggs, and just about everything else on the stove.",
+              "price": "$8.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Smoky Maple BBQ Rub",
+              "desc": "Sweet maple, smoked paprika, and a little heat for ribs, pulled pork, and the smoker.",
+              "price": "$9.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Tuscan Herb Blend",
+              "desc": "Rosemary, basil, oregano, and garlic for pasta, roasted vegetables, and dipping oils.",
+              "price": "$8.95"
+            },
+            {
+              "name": "Flaky Finishing Salt",
+              "desc": "Delicate flake salt for that final pinch over steak, chocolate, or fresh tomatoes.",
+              "price": "$11.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Custom Blend (Made to Order)",
+              "desc": "Tell us the dish and the heat level and we'll mix a one-of-a-kind seasoning just for you.",
+              "price": "$12.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "single-spices",
+          "name": "Single Spices",
+          "blurb": "Single-origin peppercorns, cinnamon, paprika, vanilla, and more, ground in small amounts for peak freshness.",
+          "items": [
+            {
+              "name": "Tellicherry Black Peppercorns",
+              "desc": "Big, fragrant peppercorns with a deep, citrusy bite. Grind them fresh and you'll never go back.",
+              "price": "$8.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Saigon Cinnamon",
+              "desc": "Intensely sweet and spicy cinnamon for baking, oatmeal, and morning coffee.",
+              "price": "$7.95"
+            },
+            {
+              "name": "Smoked Spanish Paprika",
+              "desc": "Rich, smoky paprika that brings color and depth to rubs, stews, and roasted potatoes.",
+              "price": "$8.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Madagascar Vanilla Beans",
+              "desc": "Plump, fragrant whole vanilla beans for custards, extracts, and baking that tastes like the real thing.",
+              "price": "$14.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Spanish Saffron Threads",
+              "desc": "Deep red threads of hand-harvested saffron for paella, rice, and slow-simmered dishes.",
+              "price": "$16.95"
+            },
+            {
+              "name": "Whole Nutmeg",
+              "desc": "Whole nutmeg to grate fresh into sauces, baked goods, and holiday drinks.",
+              "price": "$7.95"
+            }
+          ]
+        },
+        {
+          "id": "oils-vinegars-sauces",
+          "name": "Oils, Vinegars & Sauces",
+          "blurb": "Infused olive oils, aged balsamics, and small-batch hot sauces to finish a dish or fire it up.",
+          "items": [
+            {
+              "name": "Garlic-Infused Olive Oil",
+              "desc": "Rich extra-virgin olive oil infused with mellow roasted garlic for pasta, bread, and drizzling.",
+              "price": "$13.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Chili-Infused Olive Oil",
+              "desc": "A slow, warming heat infused into smooth olive oil. A few drops wakes up anything.",
+              "price": "$13.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Aged Dark Balsamic Vinegar",
+              "desc": "Thick, syrupy balsamic aged for a sweet-tart finish over salads, berries, or cheese.",
+              "price": "$14.95"
+            },
+            {
+              "name": "Fig Balsamic Vinegar",
+              "desc": "A fruit-forward balsamic with deep fig sweetness, made for cheese boards and roasted meats.",
+              "price": "$14.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Small-Batch Hot Sauce",
+              "desc": "Our house hot sauce with bright heat and real fruit, bottled in small runs for big flavor.",
+              "price": "$9.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gifts-sets",
+          "name": "Gifts & Sets",
+          "blurb": "Gift tins, sampler sets, and accessories for the cook who wants to taste everything.",
+          "items": [
+            {
+              "name": "Build-Your-Own Gift Tin",
+              "desc": "Pick any blends and spices to fill a keepsake tin, wrapped and ready to give.",
+              "price": "$29.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Signature Blends Sampler",
+              "desc": "A curated set of our most-loved house blends in tasting-size jars.",
+              "price": "$24.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Infused Oil & Balsamic Duo",
+              "desc": "A paired bottle of infused olive oil and aged balsamic, boxed for gifting.",
+              "price": "$32.95"
+            },
+            {
+              "name": "Single-Origin Spice Flight",
+              "desc": "Six small jars to explore single-origin spices side by side at home.",
+              "price": "$26.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Adjustable Spice Grinder",
+              "desc": "A refillable grinder for whole peppercorns and spices, dialed from fine to coarse.",
+              "price": "$18.95"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Spice Shop You Can Smell From the Sidewalk",
+      "lead": "We're an independent spice and seasoning shop in downtown Geneva, built around one simple idea: you should smell and taste before you buy.",
+      "paragraphs": [
+        "Walk into 360 Flavor & Spice and the first thing you notice is the smell, jars of single-origin spices, small-batch house blends, and infused oils lining the walls. Open any of them, breathe it in, and taste before you commit. That's how cooking should start: with your nose. Longtime locals may remember us as the Geneva Spice House — the shop took on the 360 Flavor & Spice name in 2017.",
+        "We make everything in small batches, from our signature rubs to our finishing salts, so it's fresh when it reaches your kitchen. Tell us what you're cooking and our staff will help you find the right blend, suggest a swap, or mix a custom seasoning made just for you. Whether you're a weeknight cook or chasing one unforgettable dish, we'll help you get the flavor right."
+      ],
+      "stats": [
+        {
+          "value": "Small-Batch",
+          "label": "House Blends & Rubs"
+        },
+        {
+          "value": "Single-Origin",
+          "label": "Spices & Real Vanilla"
+        },
+        {
+          "value": "Custom",
+          "label": "Blends Made to Order"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside the Shop",
+      "subheading": "A look around the spice wall, the blending table, and the shelves of oils and gifts.",
+      "captions": [
+        "Our wall of single-origin spices",
+        "Small-batch house blends, freshly mixed",
+        "Open a jar and smell before you buy",
+        "Infused oils and aged balsamics",
+        "Mixing a custom blend to order",
+        "Gift tins and sampler sets ready to give"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Geneva Is Saying",
+      "items": [
+        {
+          "quote": "I came in for pepper and left with three blends and a custom rub. They actually let you smell everything, and the staff knew exactly what I needed.",
+          "name": "Megan R.",
+          "role": "Home Cook"
+        },
+        {
+          "quote": "The steakhouse rub changed how my whole family grills. Once you cook with spices this fresh, the grocery store stuff just tastes flat.",
+          "name": "Tony D.",
+          "role": "Weekend Griller"
+        },
+        {
+          "quote": "My favorite gift to give. The build-your-own tin is gorgeous, and everyone I've given one to asks where I found it.",
+          "name": "Priya S.",
+          "role": "Regular Customer"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Shop",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM – 4:00 PM"
+        }
+      ],
+      "phoneLabel": "Call the Shop",
+      "directions": "Right on South 3rd Street in downtown Geneva with street parking nearby. Stop in to smell, taste, and talk flavor, or call ahead and we'll have a custom blend or gift set ready for pickup.",
+      "neighborhood": "We're at the south end of Geneva's historic Third Street shopping corridor, a short walk from the downtown Metra station and the Victorian storefronts of the historic shopping district."
+    },
+    "cta": {
+      "heading": "Come Smell What's New",
+      "text": "Stop by the shop to sample our latest blends, or call to ask about custom seasonings and gift sets. We love talking flavor and we'll help you cook something unforgettable.",
+      "button": "Call (630) 457-5183"
+    },
+    "form": {
+      "heading": "Ask About a Blend or Gift Set",
+      "subheading": "Have a custom blend in mind, or planning a gift? Tell us what you're after and we'll reply with ideas and have it ready for pickup.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Order / Gift Size",
+      "date": "Preferred Pickup Date",
+      "message": "What Are You Cooking or Gifting?",
+      "submit": "Send Request",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and will reach out to talk flavor and confirm a pickup time.",
+      "error": "Something went wrong. Please try again or call us at (630) 457-5183.",
+      "consent": "By submitting, you agree to be contacted about your request."
+    },
+    "footer": {
+      "tagline": "Small-batch house blends, single-origin spices, and infused oils in downtown Geneva, IL.",
+      "rights": "© 360 Flavor & Spice. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Shop Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "360 Flavor & Spice | Tienda de Especias y Sazonadores en Geneva, IL",
+      "description": "Tienda de especias en el centro de Geneva donde hueles antes de comprar: mezclas caseras en lotes pequeños, especias de origen y aceites. Llama (630) 457-5183."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Tienda",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Visítanos"
+    },
+    "hero": {
+      "eyebrow": "La Tienda de Especias y Sazonadores de Geneva",
+      "title": "Huélelo, Pruébalo,",
+      "titleAccent": "Cocina Algo Inolvidable",
+      "subtitle": "Entra a nuestra tienda en el centro de Geneva y destapa los frascos: mezclas caseras en lotes pequeños, especias de origen, aceites infusionados y un equipo que te ayuda a lograr el sabor perfecto para lo que cocines esta noche.",
+      "ctaPrimary": "Ver la Tienda",
+      "ctaSecondary": "Llama a la Tienda",
+      "badge": "Mezclas caseras en lotes pequeños · Mezclas personalizadas al momento"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Huele Antes de Comprar",
+        "text": "Destapa los frascos, respíralos y prueba antes de llevarlos a casa. Cada especia de nuestra pared es tuya para probar primero."
+      },
+      {
+        "icon": "flame",
+        "title": "Mezclas Caseras en Lotes Pequeños",
+        "text": "Nuestros sazonadores, rubs y sales se mezclan en casa en lotes pequeños, así que cada frasco es fresco, intenso y nunca queda almacenado."
+      },
+      {
+        "icon": "leaf",
+        "title": "Especias de Origen",
+        "text": "Pimienta, canela, paprika y vainilla de verdad, seleccionadas por su sabor y frescura, molidas en pequeñas cantidades para mantenerlas vivas."
+      },
+      {
+        "icon": "heart",
+        "title": "Un Equipo que Ama Cocinar",
+        "text": "Dinos qué estás preparando y te recomendamos la mezcla ideal, te sugerimos un cambio o te preparamos un sazonador personalizado solo para ti."
+      }
+    ],
+    "menu": {
+      "heading": "Lo que Hay en los Estantes",
+      "subheading": "Los productos y precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar la selección o los precios reales de la tienda.",
+      "categories": [
+        {
+          "id": "signature-blends",
+          "name": "Mezclas de la Casa",
+          "blurb": "Sazonadores, rubs y sales de acabado mezclados en lotes pequeños aquí mismo en la tienda.",
+          "items": [
+            {
+              "name": "Rub Steakhouse Geneva",
+              "desc": "Una mezcla intensa de pimienta machacada, ajo y sal ahumada, hecha para cortes, chuletas y hamburguesas.",
+              "price": "$9.95",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Sazonador Multiusos para Todos los Días",
+              "desc": "Nuestra mezcla de cabecera para verduras, pollo, huevos y casi todo lo que va a la estufa.",
+              "price": "$8.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Rub de BBQ con Maple Ahumado",
+              "desc": "Maple dulce, paprika ahumada y un toque de picante para costillas, carne deshebrada y el ahumador.",
+              "price": "$9.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Mezcla de Hierbas Toscanas",
+              "desc": "Romero, albahaca, orégano y ajo para pasta, verduras asadas y aceites para mojar.",
+              "price": "$8.95"
+            },
+            {
+              "name": "Sal de Acabado en Hojuelas",
+              "desc": "Sal en hojuelas delicada para ese toque final sobre el corte, el chocolate o los tomates frescos.",
+              "price": "$11.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Mezcla Personalizada (al Momento)",
+              "desc": "Dinos el platillo y el nivel de picante y te preparamos un sazonador único solo para ti.",
+              "price": "$12.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "single-spices",
+          "name": "Especias Individuales",
+          "blurb": "Pimienta, canela, paprika, vainilla y más, de origen y molidas en pequeñas cantidades para máxima frescura.",
+          "items": [
+            {
+              "name": "Pimienta Negra Tellicherry",
+              "desc": "Granos grandes y fragantes con un mordisco profundo y cítrico. Muélelos al momento y no habrá vuelta atrás.",
+              "price": "$8.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Canela de Saigón",
+              "desc": "Canela intensamente dulce y picante para hornear, avena y el café de la mañana.",
+              "price": "$7.95"
+            },
+            {
+              "name": "Paprika Española Ahumada",
+              "desc": "Paprika rica y ahumada que aporta color y profundidad a rubs, guisos y papas asadas.",
+              "price": "$8.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Vainas de Vainilla de Madagascar",
+              "desc": "Vainas de vainilla enteras, gruesas y fragantes, para natillas, extractos y repostería con sabor de verdad.",
+              "price": "$14.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Hebras de Azafrán Español",
+              "desc": "Hebras rojas y profundas de azafrán cosechado a mano para paella, arroces y platillos a fuego lento.",
+              "price": "$16.95"
+            },
+            {
+              "name": "Nuez Moscada Entera",
+              "desc": "Nuez moscada entera para rallar fresca en salsas, postres y bebidas navideñas.",
+              "price": "$7.95"
+            }
+          ]
+        },
+        {
+          "id": "oils-vinegars-sauces",
+          "name": "Aceites, Vinagres y Salsas",
+          "blurb": "Aceites de oliva infusionados, balsámicos añejados y salsas picantes en lotes pequeños para rematar o encender un platillo.",
+          "items": [
+            {
+              "name": "Aceite de Oliva Infusionado con Ajo",
+              "desc": "Aceite de oliva extra virgen infusionado con ajo rostizado y suave para pasta, pan y para rociar.",
+              "price": "$13.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Aceite de Oliva Infusionado con Chile",
+              "desc": "Un calor lento y envolvente infusionado en aceite de oliva suave. Unas gotas despiertan cualquier platillo.",
+              "price": "$13.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Vinagre Balsámico Oscuro Añejado",
+              "desc": "Balsámico espeso y aterciopelado, añejado para un acabado agridulce sobre ensaladas, frutos rojos o queso.",
+              "price": "$14.95"
+            },
+            {
+              "name": "Vinagre Balsámico de Higo",
+              "desc": "Un balsámico afrutado con dulzura profunda de higo, hecho para tablas de queso y carnes asadas.",
+              "price": "$14.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Salsa Picante en Lotes Pequeños",
+              "desc": "Nuestra salsa picante de la casa con picor brillante y fruta de verdad, embotellada en tandas pequeñas para gran sabor.",
+              "price": "$9.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gifts-sets",
+          "name": "Regalos y Sets",
+          "blurb": "Latas de regalo, sets de degustación y accesorios para quien quiere probarlo todo.",
+          "items": [
+            {
+              "name": "Lata de Regalo Armada a tu Gusto",
+              "desc": "Elige las mezclas y especias que quieras para llenar una lata de recuerdo, envuelta y lista para regalar.",
+              "price": "$29.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Set de Mezclas de la Casa",
+              "desc": "Una selección de nuestras mezclas caseras más queridas en frascos tamaño degustación.",
+              "price": "$24.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Dúo de Aceite Infusionado y Balsámico",
+              "desc": "Una pareja de aceite de oliva infusionado y balsámico añejado, en caja para regalar.",
+              "price": "$32.95"
+            },
+            {
+              "name": "Flight de Especias de Origen",
+              "desc": "Seis frascos pequeños para explorar especias de origen lado a lado en casa.",
+              "price": "$26.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Molinillo de Especias Ajustable",
+              "desc": "Un molinillo recargable para pimienta y especias enteras, ajustable de fino a grueso.",
+              "price": "$18.95"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Una Tienda de Especias que Hueles Desde la Acera",
+      "lead": "Somos una tienda independiente de especias y sazonadores en el centro de Geneva, construida sobre una idea simple: deberías oler y probar antes de comprar.",
+      "paragraphs": [
+        "Entra a 360 Flavor & Spice y lo primero que notas es el aroma: frascos de especias de origen, mezclas caseras en lotes pequeños y aceites infusionados a lo largo de las paredes. Destapa cualquiera, respíralo y pruébalo antes de decidir. Así debería empezar la cocina: por la nariz. Los vecinos de siempre quizá nos recuerden como Geneva Spice House: la tienda tomó el nombre 360 Flavor & Spice en 2017.",
+        "Todo lo hacemos en lotes pequeños, desde nuestros rubs estrella hasta nuestras sales de acabado, para que llegue fresco a tu cocina. Dinos qué estás cocinando y nuestro equipo te ayuda a encontrar la mezcla ideal, te sugiere un cambio o te prepara un sazonador hecho solo para ti. Ya seas cocinero de entre semana o vayas tras un platillo inolvidable, te ayudamos a lograr el sabor perfecto."
+      ],
+      "stats": [
+        {
+          "value": "Lotes Pequeños",
+          "label": "Mezclas y Rubs de la Casa"
+        },
+        {
+          "value": "De Origen",
+          "label": "Especias y Vainilla de Verdad"
+        },
+        {
+          "value": "Personalizadas",
+          "label": "Mezclas al Momento"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Dentro de la Tienda",
+      "subheading": "Un recorrido por la pared de especias, la mesa de mezclas y los estantes de aceites y regalos.",
+      "captions": [
+        "Nuestra pared de especias de origen",
+        "Mezclas caseras recién preparadas",
+        "Destapa un frasco y huele antes de comprar",
+        "Aceites infusionados y balsámicos añejados",
+        "Preparando una mezcla personalizada al momento",
+        "Latas de regalo y sets de degustación listos para dar"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice Geneva",
+      "items": [
+        {
+          "quote": "Entré por pimienta y salí con tres mezclas y un rub personalizado. De verdad te dejan oler todo, y el equipo sabía exactamente lo que necesitaba.",
+          "name": "Megan R.",
+          "role": "Cocinera en Casa"
+        },
+        {
+          "quote": "El rub steakhouse cambió cómo asa toda mi familia. Una vez que cocinas con especias así de frescas, las del súper saben planas.",
+          "name": "Tony D.",
+          "role": "Parrillero de Fin de Semana"
+        },
+        {
+          "quote": "Mi regalo favorito para dar. La lata armada a tu gusto es preciosa, y todos a quienes les he dado una me preguntan dónde la encontré.",
+          "name": "Priya S.",
+          "role": "Clienta Habitual"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita la Tienda",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Martes",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM – 4:00 PM"
+        }
+      ],
+      "phoneLabel": "Llama a la Tienda",
+      "directions": "Sobre South 3rd Street en el centro de Geneva, con estacionamiento en la calle cerca. Pásate a oler, probar y hablar de sabores, o llama con anticipación y te tendremos lista una mezcla personalizada o un set de regalo para recoger.",
+      "neighborhood": "Estamos en el extremo sur del histórico corredor comercial de Third Street en Geneva, a corta caminata de la estación de Metra y de las tiendas victorianas del centro histórico."
+    },
+    "cta": {
+      "heading": "Ven a Oler lo Nuevo",
+      "text": "Pásate a la tienda a probar nuestras mezclas más recientes, o llama para preguntar por sazonadores personalizados y sets de regalo. Nos encanta hablar de sabor y te ayudamos a cocinar algo inolvidable.",
+      "button": "Llamar al (630) 457-5183"
+    },
+    "form": {
+      "heading": "Pregunta por una Mezcla o Set de Regalo",
+      "subheading": "¿Tienes una mezcla personalizada en mente o planeas un regalo? Dinos qué buscas y te respondemos con ideas y lo dejamos listo para recoger.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Pedido / Regalo",
+      "date": "Fecha de Recogida Preferida",
+      "message": "¿Qué Vas a Cocinar o Regalar?",
+      "submit": "Enviar Solicitud",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos para hablar de sabor y confirmar una hora de recogida.",
+      "error": "Algo salió mal. Inténtalo de nuevo o llámanos al (630) 457-5183.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud."
+    },
+    "footer": {
+      "tagline": "Mezclas caseras en lotes pequeños, especias de origen y aceites infusionados en el centro de Geneva, IL.",
+      "rights": "© 360 Flavor & Spice. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario de la Tienda",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

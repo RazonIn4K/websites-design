@@ -1,0 +1,682 @@
+{
+  "business": {
+    "name": "South Moon BBQ",
+    "shortName": "South Moon",
+    "vertical": "Wood-Smoked BBQ Smokehouse",
+    "phone": "(815) 286-9227",
+    "phoneHref": "+18152869227",
+    "address": "100 East Lincoln Avenue",
+    "city": "Hinckley",
+    "state": "IL",
+    "zip": "60520",
+    "mapsQuery": "South Moon BBQ, 100 East Lincoln Avenue, Hinckley, IL 60520"
+  },
+  "en": {
+    "meta": {
+      "title": "South Moon BBQ | Wood-Smoked Brisket & Ribs in Hinckley, IL",
+      "description": "Low-and-slow wood-smoked BBQ in Hinckley, IL. Brisket, pulled pork, ribs, and scratch-made sides, smoked daily till it's gone. Order: (815) 286-9227."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Order Now"
+    },
+    "hero": {
+      "eyebrow": "Hinckley's Wood-Smoked Smokehouse",
+      "title": "Low & Slow,",
+      "titleAccent": "Smoked Till It's Gone",
+      "subtitle": "Brisket with a deep smoke ring, fall-off-the-bone ribs, and scratch-made sides, all smoked over real wood right here in small-town Hinckley. The kind of plate that needs extra napkins.",
+      "ctaPrimary": "View the Menu",
+      "ctaSecondary": "Call to Order",
+      "badge": "Smoked fresh daily · When it's gone, it's gone"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Real Wood, Real Smoke",
+        "text": "Everything goes low and slow over real wood for hours, building a deep smoke ring and bark you can only get from patience."
+      },
+      {
+        "icon": "star",
+        "title": "Brisket Worth the Wait",
+        "text": "Hand-trimmed and smoked overnight until it's tender enough to pull apart with a fork, sliced fresh to order."
+      },
+      {
+        "icon": "heart",
+        "title": "Scratch-Made Sides",
+        "text": "Mac & cheese, baked beans, slaw, and cornbread made from scratch in our kitchen, never scooped from a can."
+      },
+      {
+        "icon": "leaf",
+        "title": "Smoked Daily Till It's Gone",
+        "text": "We smoke fresh every morning and sell it till it runs out, so come early and get it while it lasts."
+      }
+    ],
+    "menu": {
+      "heading": "What's On the Smoker",
+      "subheading": "Items and prices shown are illustrative demo content for this concept site and may not reflect the smokehouse's actual menu or pricing.",
+      "categories": [
+        {
+          "id": "smoked-meats",
+          "name": "Smoked Meats (by the half-pound)",
+          "blurb": "Wood-smoked low and slow, sold by the half-pound and sliced or pulled fresh to order.",
+          "items": [
+            {
+              "name": "Smoked Brisket",
+              "desc": "Hand-trimmed and smoked overnight for a deep smoke ring and rich bark, sliced fresh.",
+              "price": "$13.99",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Pulled Pork",
+              "desc": "Pork shoulder smoked till it falls apart, hand-pulled and piled high.",
+              "price": "$10.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "St. Louis Ribs",
+              "desc": "Meaty spare ribs smoked low and slow till they're fall-off-the-bone tender.",
+              "price": "$12.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Smoked Chicken",
+              "desc": "Juicy smoked chicken with crisp, seasoned skin and a kiss of wood smoke.",
+              "price": "$9.99"
+            },
+            {
+              "name": "Smoked Turkey",
+              "desc": "Tender smoked turkey breast, sliced thick and never dried out.",
+              "price": "$10.99",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sandwiches-plates",
+          "name": "Sandwiches & Plates",
+          "blurb": "Smoked meat sandwiches and full plates served with your choice of scratch-made sides.",
+          "items": [
+            {
+              "name": "Brisket Sandwich",
+              "desc": "Piled-high sliced brisket on a soft bun with pickles, onion, and our house sauce.",
+              "price": "$11.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pulled Pork Sandwich",
+              "desc": "Smoky hand-pulled pork stacked on a bun, topped with slaw if you like.",
+              "price": "$9.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Rib Plate",
+              "desc": "A half rack of St. Louis ribs with two scratch-made sides and cornbread.",
+              "price": "$16.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Two-Meat Plate",
+              "desc": "Pick any two smoked meats with two sides and cornbread, plenty for a hungry appetite.",
+              "price": "$17.99"
+            },
+            {
+              "name": "Smoked Chicken Plate",
+              "desc": "A quarter of smoked chicken with two sides and cornbread on the side.",
+              "price": "$13.99"
+            }
+          ]
+        },
+        {
+          "id": "sides",
+          "name": "Sides",
+          "blurb": "Scratch-made in our kitchen every day to round out the plate.",
+          "items": [
+            {
+              "name": "Mac & Cheese",
+              "desc": "Creamy, baked-from-scratch mac & cheese with a golden top.",
+              "price": "$3.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Baked Beans",
+              "desc": "Slow-cooked beans simmered with smoked meat and a touch of sweet heat.",
+              "price": "$3.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Coleslaw",
+              "desc": "Cool, crisp slaw with a tangy dressing, the perfect contrast to the smoke.",
+              "price": "$2.99"
+            },
+            {
+              "name": "Cornbread",
+              "desc": "Warm, slightly sweet cornbread baked fresh, great for sopping up sauce.",
+              "price": "$2.49",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Fries",
+              "desc": "Hand-cut fries fried golden and dusted with our house seasoning.",
+              "price": "$3.49"
+            }
+          ]
+        },
+        {
+          "id": "combos-family-packs",
+          "name": "Combos & Family Packs",
+          "blurb": "Built to feed a crew, with smoked meats, sides, and cornbread to share.",
+          "items": [
+            {
+              "name": "Family Pack for Four",
+              "desc": "One pound of smoked meat, two large sides, and cornbread, enough to feed four.",
+              "price": "$39.99",
+              "tags": [
+                "value",
+                "popular"
+              ]
+            },
+            {
+              "name": "Big Smoke Pack",
+              "desc": "Two pounds of mixed smoked meats with three large sides and cornbread for the whole table.",
+              "price": "$69.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Rib & Brisket Combo",
+              "desc": "A half rack of ribs and a half-pound of brisket with two sides and cornbread.",
+              "price": "$28.99"
+            },
+            {
+              "name": "Sampler Platter",
+              "desc": "A little of everything: brisket, pulled pork, ribs, and chicken with two sides.",
+              "price": "$24.99",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Small-Town Smoke in Hinckley",
+      "lead": "We're an independent smokehouse on East Lincoln Avenue, cooking real wood-smoked BBQ the way it's meant to be done.",
+      "paragraphs": [
+        "South Moon BBQ is about one thing: doing it right and doing it slow. Every brisket, rack of ribs, and pork shoulder is rubbed, fired over real wood, and smoked for hours until the bark is dark and the smoke ring runs deep. There are no shortcuts back here, just time, smoke, and a watchful eye on the pit.",
+        "Our sides are made from scratch the same way, from creamy mac & cheese to slow-cooked baked beans and cornbread pulled warm from the oven. We smoke fresh every day in small-town Hinckley and serve it till it's gone, so when you find a plate in front of you, grab a few extra napkins and dig in."
+      ],
+      "stats": [
+        {
+          "value": "Low & Slow",
+          "label": "Over Real Wood"
+        },
+        {
+          "value": "Scratch-Made",
+          "label": "Sides Daily"
+        },
+        {
+          "value": "Smoked Fresh",
+          "label": "Till It's Gone"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Straight From the Pit",
+      "subheading": "A look at the smoke, the bark, and the plates that need extra napkins.",
+      "captions": [
+        "Brisket resting with a deep smoke ring",
+        "St. Louis ribs fresh off the smoker",
+        "Hand-pulled pork piled high",
+        "Scratch-made mac & cheese and baked beans",
+        "Real wood burning low in the pit",
+        "A loaded two-meat plate ready to go"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Folks Are Saying",
+      "items": [
+        {
+          "quote": "The brisket has the smoke ring you dream about and just melts in your mouth. Worth every minute of the wait.",
+          "name": "Travis M.",
+          "role": "Brisket Believer"
+        },
+        {
+          "quote": "Ribs fall right off the bone and the mac & cheese is the real deal. We got there late once and they'd sold out, so now we come early.",
+          "name": "Hannah R.",
+          "role": "Hinckley Regular"
+        },
+        {
+          "quote": "Best BBQ in town, hands down. You can taste the wood smoke in every bite, and the family pack feeds us all.",
+          "name": "Danny K.",
+          "role": "Weekend Regular"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Smokehouse",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "time": "11:00 AM – Sold Out"
+        },
+        {
+          "day": "Wednesday",
+          "time": "11:00 AM – Sold Out"
+        },
+        {
+          "day": "Thursday",
+          "time": "11:00 AM – Sold Out"
+        },
+        {
+          "day": "Friday",
+          "time": "11:00 AM – Sold Out"
+        },
+        {
+          "day": "Saturday",
+          "time": "11:00 AM – Sold Out"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM – Sold Out"
+        }
+      ],
+      "phoneLabel": "Call to Order",
+      "directions": "On East Lincoln Avenue in downtown Hinckley with parking nearby. We smoke fresh daily and sell till it's gone, so call ahead to check what's left or to place a large order for pickup."
+    },
+    "cta": {
+      "heading": "Get It While It Lasts",
+      "text": "We smoke fresh every day and sell till it's gone. Call to place an order or reserve a family pack before it sells out.",
+      "button": "Call (815) 286-9227"
+    },
+    "form": {
+      "heading": "Place an Order",
+      "subheading": "Tell us what you're after, plates, family packs, or a big order for the crew, and we'll call to confirm the details and a pickup time.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "How Many Are You Feeding?",
+      "date": "Preferred Pickup Date",
+      "message": "What Can We Smoke for You?",
+      "submit": "Send Order Request",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and will call to confirm your order and pickup time.",
+      "error": "Something went wrong. Please try again or call us at (815) 286-9227.",
+      "consent": "By submitting, you agree to be contacted about your order request."
+    },
+    "footer": {
+      "tagline": "Low-and-slow wood-smoked BBQ, smoked daily in Hinckley, IL.",
+      "rights": "© South Moon BBQ. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Smokehouse Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "South Moon BBQ | Brisket y Costillas Ahumadas en Hinckley, IL",
+      "description": "BBQ ahumada lento sobre leña en Hinckley, IL. Brisket, cerdo deshebrado, costillas y guarniciones caseras, ahumadas a diario hasta agotarse. Ordena: (815) 286-9227."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Ordenar"
+    },
+    "hero": {
+      "eyebrow": "El Ahumadero sobre Leña de Hinckley",
+      "title": "Lento y a Fuego Bajo,",
+      "titleAccent": "Ahumado Hasta Agotarse",
+      "subtitle": "Brisket con un anillo de humo profundo, costillas que se caen del hueso y guarniciones caseras, todo ahumado sobre leña de verdad aquí en el pueblo de Hinckley. El tipo de plato que necesita servilletas extra.",
+      "ctaPrimary": "Ver el Menú",
+      "ctaSecondary": "Llama para Ordenar",
+      "badge": "Ahumado fresco a diario · Cuando se acaba, se acaba"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Leña de Verdad, Humo de Verdad",
+        "text": "Todo se ahúma lento y a fuego bajo sobre leña real por horas, formando un anillo de humo profundo y una corteza que solo se logra con paciencia."
+      },
+      {
+        "icon": "star",
+        "title": "Brisket que Vale la Espera",
+        "text": "Recortado a mano y ahumado toda la noche hasta quedar tan tierno que se deshace con el tenedor, rebanado fresco al momento."
+      },
+      {
+        "icon": "heart",
+        "title": "Guarniciones Caseras",
+        "text": "Mac & cheese, frijoles horneados, ensalada de col y pan de maíz hechos desde cero en nuestra cocina, nunca sacados de una lata."
+      },
+      {
+        "icon": "leaf",
+        "title": "Ahumado a Diario Hasta Agotarse",
+        "text": "Ahumamos fresco cada mañana y vendemos hasta agotarlo, así que llega temprano y disfrútalo mientras dure."
+      }
+    ],
+    "menu": {
+      "heading": "Lo que Hay en el Ahumador",
+      "subheading": "Los artículos y precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar el menú o los precios reales del ahumadero.",
+      "categories": [
+        {
+          "id": "smoked-meats",
+          "name": "Carnes Ahumadas (por media libra)",
+          "blurb": "Ahumadas lento sobre leña, vendidas por media libra y rebanadas o deshebradas frescas al momento.",
+          "items": [
+            {
+              "name": "Brisket Ahumado",
+              "desc": "Recortado a mano y ahumado toda la noche para un anillo de humo profundo y una corteza rica, rebanado fresco.",
+              "price": "$13.99",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Cerdo Deshebrado",
+              "desc": "Paleta de cerdo ahumada hasta deshacerse, deshebrada a mano y servida abundante.",
+              "price": "$10.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Costillas St. Louis",
+              "desc": "Costillas carnosas ahumadas lento y a fuego bajo hasta caerse del hueso.",
+              "price": "$12.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Pollo Ahumado",
+              "desc": "Pollo ahumado jugoso con piel crujiente sazonada y un toque de humo de leña.",
+              "price": "$9.99"
+            },
+            {
+              "name": "Pavo Ahumado",
+              "desc": "Pechuga de pavo ahumada y tierna, rebanada gruesa y nunca seca.",
+              "price": "$10.99",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sandwiches-plates",
+          "name": "Sándwiches y Platos",
+          "blurb": "Sándwiches de carne ahumada y platos completos servidos con las guarniciones caseras que elijas.",
+          "items": [
+            {
+              "name": "Sándwich de Brisket",
+              "desc": "Brisket rebanado servido abundante en un pan suave con pepinillos, cebolla y nuestra salsa de la casa.",
+              "price": "$11.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Sándwich de Cerdo Deshebrado",
+              "desc": "Cerdo ahumado deshebrado a mano apilado en un pan, con ensalada de col si gustas.",
+              "price": "$9.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Plato de Costillas",
+              "desc": "Media costilla St. Louis con dos guarniciones caseras y pan de maíz.",
+              "price": "$16.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Plato de Dos Carnes",
+              "desc": "Elige dos carnes ahumadas con dos guarniciones y pan de maíz, bastante para un buen apetito.",
+              "price": "$17.99"
+            },
+            {
+              "name": "Plato de Pollo Ahumado",
+              "desc": "Un cuarto de pollo ahumado con dos guarniciones y pan de maíz.",
+              "price": "$13.99"
+            }
+          ]
+        },
+        {
+          "id": "sides",
+          "name": "Guarniciones",
+          "blurb": "Hechas desde cero en nuestra cocina todos los días para completar el plato.",
+          "items": [
+            {
+              "name": "Mac & Cheese",
+              "desc": "Mac & cheese cremoso, horneado desde cero con una capa dorada.",
+              "price": "$3.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Frijoles Horneados",
+              "desc": "Frijoles cocidos a fuego lento con carne ahumada y un toque dulce y picante.",
+              "price": "$3.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Ensalada de Col",
+              "desc": "Ensalada de col fresca y crujiente con aderezo agridulce, el contraste perfecto al humo.",
+              "price": "$2.99"
+            },
+            {
+              "name": "Pan de Maíz",
+              "desc": "Pan de maíz tibio y ligeramente dulce, horneado fresco, ideal para acompañar la salsa.",
+              "price": "$2.49",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Papas Fritas",
+              "desc": "Papas cortadas a mano, fritas hasta dorar y espolvoreadas con nuestro sazón de la casa.",
+              "price": "$3.49"
+            }
+          ]
+        },
+        {
+          "id": "combos-family-packs",
+          "name": "Combos y Paquetes Familiares",
+          "blurb": "Hechos para alimentar a todos, con carnes ahumadas, guarniciones y pan de maíz para compartir.",
+          "items": [
+            {
+              "name": "Paquete Familiar para Cuatro",
+              "desc": "Una libra de carne ahumada, dos guarniciones grandes y pan de maíz, suficiente para cuatro.",
+              "price": "$39.99",
+              "tags": [
+                "value",
+                "popular"
+              ]
+            },
+            {
+              "name": "Paquete Big Smoke",
+              "desc": "Dos libras de carnes ahumadas surtidas con tres guarniciones grandes y pan de maíz para toda la mesa.",
+              "price": "$69.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Combo de Costillas y Brisket",
+              "desc": "Media costilla y media libra de brisket con dos guarniciones y pan de maíz.",
+              "price": "$28.99"
+            },
+            {
+              "name": "Plato Sampler",
+              "desc": "Un poco de todo: brisket, cerdo deshebrado, costillas y pollo con dos guarniciones.",
+              "price": "$24.99",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Humo de Pueblo en Hinckley",
+      "lead": "Somos un ahumadero independiente en East Lincoln Avenue, cocinando BBQ ahumada sobre leña de verdad como debe ser.",
+      "paragraphs": [
+        "South Moon BBQ se trata de una sola cosa: hacerlo bien y hacerlo despacio. Cada brisket, costillar y paleta de cerdo se sazona, se cocina sobre leña real y se ahúma por horas hasta que la corteza queda oscura y el anillo de humo corre profundo. Aquí no hay atajos, solo tiempo, humo y un ojo atento sobre el ahumador.",
+        "Nuestras guarniciones se hacen desde cero de la misma manera, desde el cremoso mac & cheese hasta los frijoles cocidos a fuego lento y el pan de maíz recién salido del horno. Ahumamos fresco todos los días en el pueblo de Hinckley y servimos hasta agotarlo, así que cuando tengas un plato enfrente, toma unas servilletas extra y disfruta."
+      ],
+      "stats": [
+        {
+          "value": "Lento y Bajo",
+          "label": "Sobre Leña Real"
+        },
+        {
+          "value": "Hecho desde Cero",
+          "label": "Guarniciones a Diario"
+        },
+        {
+          "value": "Ahumado Fresco",
+          "label": "Hasta Agotarse"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Directo del Ahumador",
+      "subheading": "Un vistazo al humo, la corteza y los platos que necesitan servilletas extra.",
+      "captions": [
+        "Brisket reposando con un anillo de humo profundo",
+        "Costillas St. Louis recién salidas del ahumador",
+        "Cerdo deshebrado a mano servido abundante",
+        "Mac & cheese y frijoles horneados hechos desde cero",
+        "Leña real ardiendo lento en el ahumador",
+        "Un plato cargado de dos carnes listo para llevar"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice la Gente",
+      "items": [
+        {
+          "quote": "El brisket tiene el anillo de humo con el que sueñas y se deshace en la boca. Vale cada minuto de la espera.",
+          "name": "Travis M.",
+          "role": "Creyente del Brisket"
+        },
+        {
+          "quote": "Las costillas se caen del hueso y el mac & cheese es de verdad. Una vez llegamos tarde y ya se habían agotado, así que ahora venimos temprano.",
+          "name": "Hannah R.",
+          "role": "Clienta Habitual de Hinckley"
+        },
+        {
+          "quote": "El mejor BBQ del pueblo, sin duda. Se siente el humo de leña en cada bocado, y el paquete familiar nos alcanza para todos.",
+          "name": "Danny K.",
+          "role": "Cliente de Fin de Semana"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita el Ahumadero",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "Cerrado"
+        },
+        {
+          "day": "Martes",
+          "time": "11:00 AM – Hasta Agotarse"
+        },
+        {
+          "day": "Miércoles",
+          "time": "11:00 AM – Hasta Agotarse"
+        },
+        {
+          "day": "Jueves",
+          "time": "11:00 AM – Hasta Agotarse"
+        },
+        {
+          "day": "Viernes",
+          "time": "11:00 AM – Hasta Agotarse"
+        },
+        {
+          "day": "Sábado",
+          "time": "11:00 AM – Hasta Agotarse"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM – Hasta Agotarse"
+        }
+      ],
+      "phoneLabel": "Llama para Ordenar",
+      "directions": "Sobre East Lincoln Avenue en el centro de Hinckley, con estacionamiento cerca. Ahumamos fresco a diario y vendemos hasta agotarlo, así que llama antes para ver qué queda o para hacer un pedido grande para recoger."
+    },
+    "cta": {
+      "heading": "Disfrútalo Mientras Dure",
+      "text": "Ahumamos fresco todos los días y vendemos hasta agotarlo. Llama para hacer un pedido o reservar un paquete familiar antes de que se acabe.",
+      "button": "Llamar al (815) 286-9227"
+    },
+    "form": {
+      "heading": "Haz un Pedido",
+      "subheading": "Cuéntanos qué se te antoja: platos, paquetes familiares o un pedido grande para todos, y te llamamos para confirmar los detalles y una hora de recogida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "¿Para Cuántas Personas?",
+      "date": "Fecha de Recogida Preferida",
+      "message": "¿Qué Podemos Ahumar para Ti?",
+      "submit": "Enviar Pedido",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te llamaremos para confirmar tu pedido y la hora de recogida.",
+      "error": "Algo salió mal. Inténtalo de nuevo o llámanos al (815) 286-9227.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud de pedido."
+    },
+    "footer": {
+      "tagline": "BBQ ahumada lento sobre leña, ahumada a diario en Hinckley, IL.",
+      "rights": "© South Moon BBQ. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario del Ahumadero",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

@@ -1,0 +1,652 @@
+{
+  "business": {
+    "name": "Arcada Theater",
+    "shortName": "The Arcada",
+    "vertical": "Historic Theater & Live Music Venue",
+    "phone": "(630) 962-7000",
+    "phoneHref": "+16309627000",
+    "address": "105 East Main Street",
+    "city": "St. Charles",
+    "state": "IL",
+    "zip": "60174",
+    "mapsQuery": "Arcada Theater, 105 East Main Street, St. Charles, IL 60174",
+    "lat": 41.9135009,
+    "lon": -88.3121123
+  },
+  "en": {
+    "meta": {
+      "title": "Arcada Theater | Live Music, Comedy & Classic Films in St. Charles, IL",
+      "description": "A restored 1926 movie palace on the National Register in downtown St. Charles, IL. Live music, comedy, classic films & private events. Call (630) 962-7000."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Shows",
+      "about": "About",
+      "gallery": "The Theater",
+      "visit": "Visit",
+      "order": "See Shows"
+    },
+    "hero": {
+      "eyebrow": "A restored 1926 movie palace in downtown St. Charles",
+      "title": "Where every night",
+      "titleAccent": "feels like opening night.",
+      "subtitle": "A lovingly restored 1926 movie palace turned live-music venue — ornate ceilings, intimate seating, and a calendar packed with concerts, comedy, and classic-film nights in the heart of downtown St. Charles.",
+      "ctaPrimary": "See Shows",
+      "ctaSecondary": "Call (630) 962-7000",
+      "badge": "Historic 1926 movie palace · Live music, comedy & film"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "A Restored Movie Palace",
+        "text": "Step into a 1920s gem with ornate ceilings and golden detail — a setting that makes every show feel unforgettable."
+      },
+      {
+        "icon": "star",
+        "title": "A Calendar Full of Stars",
+        "text": "Tribute bands, comedy, country nights, and classic films — there's something on our stage almost every week of the year."
+      },
+      {
+        "icon": "heart",
+        "title": "Up-Close & Intimate",
+        "text": "Every seat feels close to the stage. No nosebleeds, no jumbotrons — just a real connection between the room and the act."
+      },
+      {
+        "icon": "crown",
+        "title": "VIP Booths & Box Office",
+        "text": "Reserve a private booth, grab a season pass, or call our box office for the perfect seats and a night to remember."
+      }
+    ],
+    "menu": {
+      "heading": "What's On",
+      "subheading": "A taste of the kinds of nights we host. The show types and prices below are illustrative demo content for this redesign — call the box office at (630) 962-7000 for the current calendar, dates, and pricing.",
+      "categories": [
+        {
+          "id": "live-music",
+          "name": "Live Music",
+          "blurb": "Tribute bands, classic rock, oldies, and country nights that fill the historic room with sound.",
+          "items": [
+            {
+              "name": "Tribute Band Nights",
+              "desc": "Note-perfect tributes to legendary acts — the look, the sound, and the songs you know by heart.",
+              "price": "From $39",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Classic Rock & Oldies",
+              "desc": "Anthems and crowd-pleasers from the golden eras of rock and pop, played loud and proud.",
+              "price": "From $45",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Country Night",
+              "desc": "Boot-stomping country and Americana that turns the theater into a downtown honky-tonk.",
+              "price": "From $39",
+              "tags": []
+            },
+            {
+              "name": "Singer-Songwriter Sessions",
+              "desc": "An intimate evening of original songs and storytelling, up close on our historic stage.",
+              "price": "From $35",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Soul & Motown Revue",
+              "desc": "A full-band celebration of soul, Motown, and R&B classics made for dancing in the aisles.",
+              "price": "From $42",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "comedy-variety",
+          "name": "Comedy & Variety",
+          "blurb": "Stand-up, magic, and variety shows that bring the laughs to a grand old room.",
+          "items": [
+            {
+              "name": "Stand-Up Comedy Night",
+              "desc": "Headliner comedians and rising talent for a night of sharp, can't-stop-laughing fun.",
+              "price": "From $35",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Magic & Illusion Show",
+              "desc": "Jaw-dropping sleight of hand and grand illusions that play beautifully under the marquee lights.",
+              "price": "From $39",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Variety & Cabaret",
+              "desc": "A little of everything — music, comedy, and showstopping acts in one unforgettable evening.",
+              "price": "From $42",
+              "tags": []
+            },
+            {
+              "name": "Family Magic Matinee",
+              "desc": "An all-ages afternoon of wonder and laughs that delights kids and grown-ups alike.",
+              "price": "From $25",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "film-events",
+          "name": "Film & Events",
+          "blurb": "Classic film nights, private parties, and weddings in a one-of-a-kind historic setting.",
+          "items": [
+            {
+              "name": "Classic Film Night",
+              "desc": "Beloved films back on the big screen the way they were meant to be seen — in a real movie palace.",
+              "price": "From $15",
+              "tags": [
+                "value",
+                "popular"
+              ]
+            },
+            {
+              "name": "Holiday Movie Screenings",
+              "desc": "Seasonal favorites on the marquee for a festive night out the whole family will remember.",
+              "price": "From $18",
+              "tags": []
+            },
+            {
+              "name": "Private Events & Parties",
+              "desc": "Host a corporate night, birthday, or celebration in a venue your guests will never forget.",
+              "price": "Custom Quote",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Weddings & Receptions",
+              "desc": "Say 'I do' beneath ornate ceilings and golden detail, with our team handling the details.",
+              "price": "Custom Quote",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "tickets-vip",
+          "name": "Tickets & VIP",
+          "blurb": "General admission, VIP booths, season passes, and gift cards through the box office.",
+          "items": [
+            {
+              "name": "General Admission",
+              "desc": "Your seat to the show — intimate, up-close, and never far from the stage.",
+              "price": "From $39",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "VIP Booth Seating",
+              "desc": "A reserved private booth with the best sightlines in the house for a true VIP night.",
+              "price": "From $89",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Season Pass",
+              "desc": "Priority access to a season of shows, with perks for our most devoted regulars.",
+              "price": "From $299",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Gift Cards",
+              "desc": "The perfect gift for the music and movie lover — good toward any show on our calendar.",
+              "price": "From $25",
+              "tags": []
+            },
+            {
+              "name": "Group & Box Office Packages",
+              "desc": "Special rates and reserved blocks for groups, outings, and celebrations — call to plan.",
+              "price": "Custom Quote",
+              "tags": [
+                "guarantee"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A 1926 Movie Palace, Reborn for Live Entertainment",
+      "lead": "Opened in September 1926 and listed on the National Register of Historic Places, the Arcada is a Venetian-Spanish movie palace turned live-music and entertainment venue that has anchored downtown St. Charles for nearly a century.",
+      "paragraphs": [
+        "Built by Lester and Dellora Norris and opened in September 1926, the Arcada began as a vaudeville and silent-film house whose stage welcomed the touring legends of the era. Beneath its ornate Venetian-Spanish ceilings and golden detail, the intimate room still brings audiences right up close to the stage — from tribute bands and country nights to comedy, magic, and classic-film screenings, the marquee is lit almost every week of the year.",
+        "More than a venue, the Arcada is a piece of St. Charles history that has never gone dark: the theater has operated continuously since 1926, holding its corner of Main Street near the Fox River through every era of entertainment. Whether you're here for a concert, a comedy night, a movie, or a wedding, you're stepping into a setting that turns any evening into an occasion."
+      ],
+      "stats": [
+        {
+          "value": "1920s",
+          "label": "Historic Movie Palace"
+        },
+        {
+          "value": "Year-Round",
+          "label": "Concerts & Events"
+        },
+        {
+          "value": "Intimate",
+          "label": "Up-Close Seating"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside the Theater",
+      "subheading": "Ornate ceilings, a glowing marquee, and a stage that has welcomed every kind of show.",
+      "captions": [
+        "The historic marquee lit up over Main Street",
+        "Ornate ceilings and golden detail overhead",
+        "Intimate seating with a clear view of the stage",
+        "The stage set and ready for showtime",
+        "A VIP booth reserved for the perfect night out",
+        "The grand lobby welcoming guests inside"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Guests Are Saying",
+      "items": [
+        {
+          "quote": "There's not a bad seat in the house. We saw a tribute band and felt like we were right up on the stage the whole night.",
+          "name": "Michael D.",
+          "role": "Concert-goer"
+        },
+        {
+          "quote": "The room itself is half the show. Those ceilings, that marquee — it makes a night out feel genuinely special.",
+          "name": "Patricia L.",
+          "role": "Season pass holder"
+        },
+        {
+          "quote": "We booked a VIP booth for our anniversary and the box office made it effortless. We'll absolutely be back.",
+          "name": "Carlos M.",
+          "role": "VIP guest"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Plan Your Night Out",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Box Office Hours",
+      "hours": [
+        {
+          "day": "Monday – Thursday",
+          "time": "12:00 PM – 6:00 PM"
+        },
+        {
+          "day": "Friday – Saturday",
+          "time": "12:00 PM – Showtime"
+        },
+        {
+          "day": "Sunday",
+          "time": "Open on Show Days"
+        }
+      ],
+      "phoneLabel": "Box Office",
+      "directions": "Right on East Main Street in the heart of downtown St. Charles, with parking nearby. Arrive early to take in the lobby and find your seats before the show.",
+      "neighborhood": "The Arcada has anchored Main Street in downtown St. Charles — the 'Pride of the Fox' — since 1926, steps from the Fox River and just across the bridge from the landmark 1928 Hotel Baker."
+    },
+    "cta": {
+      "heading": "Ready for a Night to Remember?",
+      "text": "See what's coming to the marquee, reserve a VIP booth, or ask about private events and weddings. Call the box office and we'll help you plan it.",
+      "button": "Call (630) 962-7000"
+    },
+    "form": {
+      "heading": "Tickets, Bookings & Private Events",
+      "subheading": "Ask about tickets, VIP booths, group rates, or hosting a private event or wedding — and we'll get right back to you.",
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Number of Guests",
+      "date": "Preferred Show or Date",
+      "message": "Your Message",
+      "submit": "Send Request",
+      "sending": "Sending…",
+      "success": "Thanks! We'll be in touch soon.",
+      "error": "Something went wrong. Please call us at (630) 962-7000.",
+      "consent": "By submitting, you agree to be contacted about your request. We never share your info."
+    },
+    "footer": {
+      "tagline": "A restored 1920s movie palace in downtown St. Charles — live music, comedy, classic films, and private events under one historic marquee.",
+      "rights": "© Arcada Theater. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Box Office Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Arcada Theater | Música en Vivo, Comedia y Cine Clásico en St. Charles, IL",
+      "description": "Un palacio de cine de 1926 inscrito en el Registro Nacional, en el centro de St. Charles, IL. Música en vivo, comedia y cine clásico. Llama al (630) 962-7000."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Funciones",
+      "about": "Nosotros",
+      "gallery": "El Teatro",
+      "visit": "Visítanos",
+      "order": "Ver Funciones"
+    },
+    "hero": {
+      "eyebrow": "Un palacio de cine de 1926 restaurado en el centro de St. Charles",
+      "title": "Donde cada noche",
+      "titleAccent": "se siente como un estreno.",
+      "subtitle": "Un palacio de cine de 1926 amorosamente restaurado y convertido en sala de música en vivo — techos ornamentados, asientos íntimos y un calendario lleno de conciertos, comedia y noches de cine clásico en el corazón del centro de St. Charles.",
+      "ctaPrimary": "Ver Funciones",
+      "ctaSecondary": "Llamar al (630) 962-7000",
+      "badge": "Palacio de cine histórico de 1926 · Música en vivo, comedia y cine"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Un Palacio de Cine Restaurado",
+        "text": "Entra a una joya de los años 20 con techos ornamentados y detalles dorados — un entorno que hace inolvidable cada función."
+      },
+      {
+        "icon": "star",
+        "title": "Un Calendario Lleno de Estrellas",
+        "text": "Bandas tributo, comedia, noches de country y cine clásico — casi cada semana del año hay algo en nuestro escenario."
+      },
+      {
+        "icon": "heart",
+        "title": "Cerca e Íntimo",
+        "text": "Cada asiento se siente cerca del escenario. Sin pantallas gigantes ni distancias — solo una conexión real entre la sala y el espectáculo."
+      },
+      {
+        "icon": "crown",
+        "title": "Palcos VIP y Taquilla",
+        "text": "Reserva un palco privado, consigue un pase de temporada o llama a la taquilla para los mejores asientos y una noche memorable."
+      }
+    ],
+    "menu": {
+      "heading": "En Cartelera",
+      "subheading": "Una muestra del tipo de noches que ofrecemos. Los tipos de función y precios de abajo son contenido de demostración ilustrativo para este rediseño — llama a la taquilla al (630) 962-7000 para el calendario, las fechas y los precios actuales.",
+      "categories": [
+        {
+          "id": "live-music",
+          "name": "Música en Vivo",
+          "blurb": "Bandas tributo, rock clásico, oldies y noches de country que llenan de sonido la sala histórica.",
+          "items": [
+            {
+              "name": "Noches de Bandas Tributo",
+              "desc": "Tributos impecables a artistas legendarios — el estilo, el sonido y las canciones que te sabes de memoria.",
+              "price": "Desde $39",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Rock Clásico y Oldies",
+              "desc": "Himnos y favoritos de las épocas doradas del rock y el pop, tocados a todo volumen.",
+              "price": "Desde $45",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Noche de Country",
+              "desc": "Country y americana que ponen a zapatear y convierten el teatro en un honky-tonk del centro.",
+              "price": "Desde $39",
+              "tags": []
+            },
+            {
+              "name": "Sesiones de Cantautores",
+              "desc": "Una velada íntima de canciones originales e historias, muy cerca en nuestro escenario histórico.",
+              "price": "Desde $35",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Revista de Soul y Motown",
+              "desc": "Una celebración con banda completa de clásicos del soul, Motown y R&B hecha para bailar en los pasillos.",
+              "price": "Desde $42",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "comedy-variety",
+          "name": "Comedia y Variedad",
+          "blurb": "Stand-up, magia y espectáculos de variedad que traen las risas a una gran sala histórica.",
+          "items": [
+            {
+              "name": "Noche de Comedia Stand-Up",
+              "desc": "Comediantes principales y talento en ascenso para una noche de diversión sin parar de reír.",
+              "price": "Desde $35",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Espectáculo de Magia e Ilusión",
+              "desc": "Juegos de manos asombrosos y grandes ilusiones que lucen espléndidos bajo las luces de la marquesina.",
+              "price": "Desde $39",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Variedad y Cabaret",
+              "desc": "Un poco de todo — música, comedia y números espectaculares en una sola velada inolvidable.",
+              "price": "Desde $42",
+              "tags": []
+            },
+            {
+              "name": "Matiné de Magia Familiar",
+              "desc": "Una tarde para todas las edades, llena de asombro y risas que encanta a chicos y grandes por igual.",
+              "price": "Desde $25",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "film-events",
+          "name": "Cine y Eventos",
+          "blurb": "Noches de cine clásico, fiestas privadas y bodas en un entorno histórico único.",
+          "items": [
+            {
+              "name": "Noche de Cine Clásico",
+              "desc": "Películas queridas de vuelta en la pantalla grande como debían verse — en un verdadero palacio de cine.",
+              "price": "Desde $15",
+              "tags": [
+                "value",
+                "popular"
+              ]
+            },
+            {
+              "name": "Funciones de Cine Navideño",
+              "desc": "Favoritas de temporada en la marquesina para una noche festiva que toda la familia recordará.",
+              "price": "Desde $18",
+              "tags": []
+            },
+            {
+              "name": "Eventos y Fiestas Privadas",
+              "desc": "Organiza una noche corporativa, un cumpleaños o una celebración en un lugar que tus invitados nunca olvidarán.",
+              "price": "Cotización Personalizada",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Bodas y Recepciones",
+              "desc": "Da el 'sí' bajo techos ornamentados y detalles dorados, con nuestro equipo a cargo de cada detalle.",
+              "price": "Cotización Personalizada",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "tickets-vip",
+          "name": "Boletos y VIP",
+          "blurb": "Entrada general, palcos VIP, pases de temporada y tarjetas de regalo a través de la taquilla.",
+          "items": [
+            {
+              "name": "Entrada General",
+              "desc": "Tu lugar para la función — íntimo, cercano y nunca lejos del escenario.",
+              "price": "Desde $39",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Asiento en Palco VIP",
+              "desc": "Un palco privado reservado con la mejor vista de la sala para una verdadera noche VIP.",
+              "price": "Desde $89",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Pase de Temporada",
+              "desc": "Acceso prioritario a una temporada de funciones, con beneficios para nuestros asistentes más fieles.",
+              "price": "Desde $299",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Tarjetas de Regalo",
+              "desc": "El regalo perfecto para el amante de la música y el cine — válido para cualquier función del calendario.",
+              "price": "Desde $25",
+              "tags": []
+            },
+            {
+              "name": "Paquetes para Grupos y Taquilla",
+              "desc": "Tarifas especiales y bloques reservados para grupos, salidas y celebraciones — llama para planear.",
+              "price": "Cotización Personalizada",
+              "tags": [
+                "guarantee"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Un Palacio de Cine de 1926, Renacido para el Espectáculo en Vivo",
+      "lead": "Inaugurado en septiembre de 1926 e inscrito en el Registro Nacional de Lugares Históricos, el Arcada es un palacio de cine de estilo veneciano-español convertido en sala de música y entretenimiento en vivo que ha sido el ancla del centro de St. Charles por casi un siglo.",
+      "paragraphs": [
+        "Construido por Lester y Dellora Norris e inaugurado en septiembre de 1926, el Arcada comenzó como sala de vodevil y cine mudo cuyo escenario recibió a las leyendas de gira de la época. Bajo sus techos ornamentados de estilo veneciano-español y detalles dorados, la sala íntima sigue acercando al público al escenario: de bandas tributo y noches de country a comedia, magia y funciones de cine clásico, la marquesina se enciende casi cada semana del año.",
+        "Más que una sala, el Arcada es un pedazo de la historia de St. Charles que nunca se ha apagado: el teatro opera de forma continua desde 1926, firme en su esquina de Main Street junto al río Fox a través de cada época del espectáculo. Ya sea que vengas por un concierto, una noche de comedia, una película o una boda, entras a un entorno que convierte cualquier velada en una ocasión."
+      ],
+      "stats": [
+        {
+          "value": "Años 20",
+          "label": "Palacio de Cine Histórico"
+        },
+        {
+          "value": "Todo el Año",
+          "label": "Conciertos y Eventos"
+        },
+        {
+          "value": "Íntimo",
+          "label": "Asientos Cercanos"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Por Dentro del Teatro",
+      "subheading": "Techos ornamentados, una marquesina luminosa y un escenario que ha recibido todo tipo de espectáculos.",
+      "captions": [
+        "La marquesina histórica iluminada sobre Main Street",
+        "Techos ornamentados y detalles dorados en lo alto",
+        "Asientos íntimos con vista clara al escenario",
+        "El escenario listo para la función",
+        "Un palco VIP reservado para la noche perfecta",
+        "El gran vestíbulo dando la bienvenida a los invitados"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dicen Nuestros Invitados",
+      "items": [
+        {
+          "quote": "No hay un mal asiento en toda la sala. Vimos una banda tributo y nos sentimos justo al pie del escenario toda la noche.",
+          "name": "Michael D.",
+          "role": "Asistente a conciertos"
+        },
+        {
+          "quote": "La sala misma es la mitad del espectáculo. Esos techos, esa marquesina — hacen que una salida se sienta de verdad especial.",
+          "name": "Patricia L.",
+          "role": "Con pase de temporada"
+        },
+        {
+          "quote": "Reservamos un palco VIP para nuestro aniversario y la taquilla lo hizo todo muy fácil. Sin duda volveremos.",
+          "name": "Carlos M.",
+          "role": "Invitado VIP"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Planea tu Noche",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario de Taquilla",
+      "hours": [
+        {
+          "day": "Lunes – Jueves",
+          "time": "12:00 PM – 6:00 PM"
+        },
+        {
+          "day": "Viernes – Sábado",
+          "time": "12:00 PM – Hora de Función"
+        },
+        {
+          "day": "Domingo",
+          "time": "Abierto los Días de Función"
+        }
+      ],
+      "phoneLabel": "Taquilla",
+      "directions": "Justo sobre East Main Street, en el corazón del centro de St. Charles, con estacionamiento cerca. Llega temprano para disfrutar el vestíbulo y encontrar tus asientos antes de la función.",
+      "neighborhood": "El Arcada ha sido el ancla de Main Street en el centro de St. Charles — la ciudad del 'Pride of the Fox' — desde 1926, a pasos del río Fox y justo al otro lado del puente del histórico Hotel Baker de 1928."
+    },
+    "cta": {
+      "heading": "¿Listo para una Noche Inolvidable?",
+      "text": "Mira lo que viene a la marquesina, reserva un palco VIP o pregunta por eventos privados y bodas. Llama a la taquilla y te ayudamos a planearlo.",
+      "button": "Llamar al (630) 962-7000"
+    },
+    "form": {
+      "heading": "Boletos, Reservas y Eventos Privados",
+      "subheading": "Pregunta por boletos, palcos VIP, tarifas de grupo o por organizar un evento privado o una boda — y te responderemos enseguida.",
+      "name": "Tu Nombre",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Número de Invitados",
+      "date": "Función o Fecha Preferida",
+      "message": "Tu Mensaje",
+      "submit": "Enviar Solicitud",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor llámanos al (630) 962-7000.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Nunca compartimos tu información."
+    },
+    "footer": {
+      "tagline": "Un palacio de cine de los años 20 restaurado en el centro de St. Charles — música en vivo, comedia, cine clásico y eventos privados bajo una misma marquesina histórica.",
+      "rights": "© Arcada Theater. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario de Taquilla",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

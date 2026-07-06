@@ -1,0 +1,16 @@
+{
+  "concept": "Retro creamery soda-fountain palette for Tastee Bite: a bright turquoise/mint primary evoking vintage 1950s diner tile, a cherry-red accent for sweetness and pop, warm charcoal ink, and creamy vanilla backgrounds. Nostalgic, fun, and appetizing.",
+  "vars": {
+    "--color-bg": "#FFF7E8",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#FDEFD6",
+    "--color-ink": "#2A2620",
+    "--color-ink-soft": "#615647",
+    "--color-primary": "#007D7A",
+    "--color-primary-dark": "#005E5C",
+    "--color-secondary": "#1E8FB0",
+    "--color-accent": "#D11F39",
+    "--color-line": "#E8D9BD"
+  },
+  "contrastNotes": "All required ratios verified and pass WCAG-AA. ink on bg = 14.12:1 (>=7). ink-soft on bg = 6.73:1 (>=4.5). white on primary = 4.98:1 (>=4.5). primary on bg = 4.68:1 (>=3). Extras: white on primary-dark = 7.62:1 (AAA), white on accent = 5.29:1 (use accent as a button fill with white text), accent on bg = 4.97:1 (safe for accent text), ink on surface = 15.04:1, ink on surface-alt = 13.24:1. Secondary turquoise-blue is decorative (white on secondary = 3.74:1, large-text/UI only, not body copy)."
+}

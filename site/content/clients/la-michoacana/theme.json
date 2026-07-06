@@ -1,0 +1,16 @@
+{
+  "concept": "Paletería-case brights for La Michoacana: a watermelon-fresa magenta primary (the color of a fresas con crema paleta), a mango-gold accent, and a lime-leaf green secondary, all set on a warm horchata-cream background with a pale mango surface-alt. Reads like an open freezer case on a hot day — fruity, Spanish-first, and celebratory. Deliberately distinct from Tastee Bite's retro teal/cherry soda-fountain palette and Flamingo's terracotta/amber editorial palette.",
+  "vars": {
+    "--color-bg": "#FFF8EC",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#FFEDD6",
+    "--color-ink": "#2B2014",
+    "--color-ink-soft": "#5F4C38",
+    "--color-primary": "#C2185B",
+    "--color-primary-dark": "#96103F",
+    "--color-secondary": "#4C7A12",
+    "--color-accent": "#FFB300",
+    "--color-line": "#F0DEC2"
+  },
+  "contrastNotes": "All required ratios verified computationally (WCAG relative luminance). ink on bg = 15.07:1, ink on surface = 15.92:1, ink on surface-alt = 13.90:1 (all >=7, AAA). ink-soft on bg = 7.72:1, on surface = 8.15:1, on surface-alt = 7.11:1 (all >=4.5). white on primary = 5.88:1 (>=4.5, AA normal text). accent vs #222 = 8.86:1 (>=4.5 — mango-gold safe for badges/highlights against dark ink). Extras: white on primary-dark = 8.60:1 (AAA), primary on bg = 5.56:1 (safe as link/text color), secondary on bg = 4.85:1 (safe for veg badges/labels), ink on accent = 8.87:1 (dark text on mango chips)."
+}

@@ -1,0 +1,48 @@
+{
+  "en": {
+    "ritual": {
+      "heading": "Your Visit, Step by Step",
+      "steps": [
+        {
+          "title": "Book & Settle In",
+          "text": "Reserve online in seconds, then arrive to a calm studio where you can breathe out and slow down."
+        },
+        {
+          "title": "Your Look, Personalized",
+          "text": "We chat through your lashes, brows, and skin goals, then map a custom look made just for your features."
+        },
+        {
+          "title": "Relax Through the Treatment",
+          "text": "Recline in soft light while our artists work with care, turning your appointment into a quiet little reset."
+        },
+        {
+          "title": "Glow & Rebook",
+          "text": "Leave refreshed with simple aftercare tips, and book your next visit so your glow always stays fresh."
+        }
+      ]
+    }
+  },
+  "es": {
+    "ritual": {
+      "heading": "Tu Visita, Paso a Paso",
+      "steps": [
+        {
+          "title": "Reserva y Acomódate",
+          "text": "Reserva en línea en segundos y llega a un estudio tranquilo donde puedes respirar y bajar el ritmo."
+        },
+        {
+          "title": "Tu Look, Personalizado",
+          "text": "Conversamos sobre tus metas de pestañas, cejas y piel, y diseñamos un look hecho solo para tus rasgos."
+        },
+        {
+          "title": "Relájate Durante el Tratamiento",
+          "text": "Recuéstate bajo una luz suave mientras nuestras artistas trabajan con cuidado y tu cita se vuelve un pequeño respiro."
+        },
+        {
+          "title": "Brilla y Vuelve a Reservar",
+          "text": "Sal renovada con consejos sencillos de cuidado, y reserva tu próxima visita para mantener tu brillo siempre fresco."
+        }
+      ]
+    }
+  }
+}

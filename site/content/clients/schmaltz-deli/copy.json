@@ -1,0 +1,686 @@
+{
+  "business": {
+    "name": "Schmaltz Delicatessen",
+    "shortName": "Schmaltz",
+    "vertical": "Jewish Delicatessen & Sandwich Shop",
+    "phone": "(630) 245-7595",
+    "phoneHref": "+16302457595",
+    "address": "3011 Ogden Avenue",
+    "city": "Lisle",
+    "state": "IL",
+    "zip": "60532",
+    "mapsQuery": "Schmaltz Delicatessen, 3011 Ogden Avenue, Lisle, IL 60532",
+    "lat": 41.7960339,
+    "lon": -88.1109033
+  },
+  "en": {
+    "meta": {
+      "title": "Schmaltz Delicatessen | Jewish Deli & Sandwich Shop in Lisle, IL",
+      "description": "Old-school Jewish deli in Lisle, IL. Overstuffed pastrami on hand-cut rye, matzo ball soup, bagels & lox, and black & white cookies. Call (630) 245-7595."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Order Pickup"
+    },
+    "hero": {
+      "eyebrow": "Lisle's Old-School Jewish Deli",
+      "title": "Overstuffed Pastrami,",
+      "titleAccent": "Just Like Your Bubbe Made",
+      "subtitle": "A real-deal Jewish delicatessen on Ogden Avenue in Lisle: hand-piled pastrami on hand-cut rye, matzo ball soup that warms you to the bone, and a black & white cookie to finish. Old-school, generous, and unapologetically delicious.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Call to Order",
+      "badge": "Hand-cut rye · Catering & party trays · Pickup welcome"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Overstuffed by the Pound",
+        "text": "Pastrami and corned beef piled high and hand-carved to order, stacked the way a real deli sandwich should be."
+      },
+      {
+        "icon": "heart",
+        "title": "Soup Like Bubbe Made",
+        "text": "Golden matzo ball soup simmered slow, with a pillowy matzo ball and rich chicken broth in every bowl."
+      },
+      {
+        "icon": "star",
+        "title": "Baked Fresh, Sliced Fresh",
+        "text": "Hand-cut rye, fresh bagels, and house favorites prepped daily so every sandwich tastes the way it ought to."
+      },
+      {
+        "icon": "leaf",
+        "title": "Catering & Party Trays",
+        "text": "Deli platters, sandwich trays, and party spreads built to feed the whole crew, ready for pickup when you are."
+      }
+    ],
+    "menu": {
+      "heading": "The Bill of Fare",
+      "subheading": "Items and prices shown are illustrative demo content for this concept site and may not reflect the deli's actual menu or pricing.",
+      "categories": [
+        {
+          "id": "overstuffed-sandwiches",
+          "name": "Overstuffed Sandwiches",
+          "blurb": "Piled high, hand-carved, and stacked on fresh-cut rye the old-fashioned way.",
+          "items": [
+            {
+              "name": "Pastrami on Rye",
+              "desc": "A quarter-pound-plus of hand-carved pastrami piled on hand-cut rye with deli mustard.",
+              "price": "$14.95",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Corned Beef Sandwich",
+              "desc": "Tender, slow-cured corned beef stacked tall on rye with a swipe of spicy brown mustard.",
+              "price": "$13.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "The Reuben",
+              "desc": "Grilled corned beef with melted Swiss, sauerkraut, and Russian dressing on rye.",
+              "price": "$14.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Turkey Club",
+              "desc": "Roasted turkey breast with crisp bacon, lettuce, and tomato, triple-stacked on rye.",
+              "price": "$13.95"
+            },
+            {
+              "name": "Brisket on a Roll",
+              "desc": "Slow-braised beef brisket piled on a soft roll with caramelized onions and jus.",
+              "price": "$15.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "soups-sides",
+          "name": "Soups & Sides",
+          "blurb": "The comforting classics every deli plate is built around.",
+          "items": [
+            {
+              "name": "Matzo Ball Soup",
+              "desc": "A pillowy matzo ball in rich, golden chicken broth, just like bubbe made.",
+              "price": "$6.95",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Potato Latkes",
+              "desc": "Crispy hand-grated potato pancakes served with applesauce and sour cream.",
+              "price": "$7.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Noodle Kugel",
+              "desc": "Sweet baked egg-noodle kugel with a hint of cinnamon, a true deli comfort.",
+              "price": "$5.95"
+            },
+            {
+              "name": "Potato Knish",
+              "desc": "Golden baked pastry stuffed with seasoned mashed potato, served warm.",
+              "price": "$5.95",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bagels-breakfast",
+          "name": "Bagels & Breakfast",
+          "blurb": "Fresh bagels, smoked fish, and griddle classics served all day.",
+          "items": [
+            {
+              "name": "Bagel & Lox",
+              "desc": "Smoked salmon on a fresh bagel with cream cheese, red onion, tomato, and capers.",
+              "price": "$13.95",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Deli Omelet",
+              "desc": "Three-egg omelet your way, served with a fresh bagel and home fries.",
+              "price": "$11.95"
+            },
+            {
+              "name": "Cheese Blintzes",
+              "desc": "Tender crepes filled with sweet farmer's cheese, topped with sour cream and berries.",
+              "price": "$9.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bagel & Schmear",
+              "desc": "A fresh bagel of your choice with a generous schmear of cream cheese.",
+              "price": "$4.95",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sweets-drinks",
+          "name": "Sweets & Drinks",
+          "blurb": "The sweet finish and the right drink to wash it all down.",
+          "items": [
+            {
+              "name": "Black & White Cookie",
+              "desc": "The classic soft cookie iced half in chocolate, half in vanilla fondant.",
+              "price": "$3.95",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Rugelach",
+              "desc": "Flaky rolled pastry with cinnamon, walnuts, and a touch of raspberry.",
+              "price": "$4.95"
+            },
+            {
+              "name": "Chocolate Egg Cream",
+              "desc": "The old-school fountain classic: milk, seltzer, and chocolate syrup, no egg, no cream.",
+              "price": "$3.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bottomless Coffee",
+              "desc": "A fresh, hot cup of our house blend, refilled as long as you're sitting.",
+              "price": "$2.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Cherry Lime Rickey",
+              "desc": "Fizzy seltzer with cherry and fresh lime, a sweet-tart soda-fountain favorite.",
+              "price": "$3.50",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Real-Deal Deli in Lisle",
+      "lead": "We're an independent Jewish delicatessen and sandwich shop right on Ogden Avenue in Lisle, doing it the old-school way.",
+      "paragraphs": [
+        "Founded in 2004 by a Culinary Institute of America-trained chef, Schmaltz Delicatessen is built on the simple idea that a sandwich should be overstuffed, the rye should be hand-cut, and the soup should taste like someone's grandmother made it. We carve our pastrami and corned beef to order, pile it high, and send you home full and happy.",
+        "From a steaming bowl of matzo ball soup to bagels and lox in the morning and a black & white cookie on the way out, we keep the classics generous and unapologetically delicious. Need to feed a crowd? Our catering and party trays bring the whole deli spread to your table, ready for pickup."
+      ],
+      "stats": [
+        {
+          "value": "Hand-Cut",
+          "label": "Rye Every Day"
+        },
+        {
+          "value": "Piled High",
+          "label": "Overstuffed Sandwiches"
+        },
+        {
+          "value": "Catering",
+          "label": "Trays & Party Spreads"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Look Around the Deli",
+      "subheading": "From the counter to the cutting board, here's a taste of what's on the table.",
+      "captions": [
+        "Pastrami carved fresh and piled high",
+        "Hand-cut rye, sliced to order",
+        "Matzo ball soup, golden and steaming",
+        "Bagels and lox the way they should be",
+        "Black & white cookies on the counter",
+        "Party trays ready for pickup"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Lisle Is Saying",
+      "items": [
+        {
+          "quote": "The pastrami on rye is the real thing, piled so high I could barely get my hands around it. Tastes like a trip back to the old neighborhood.",
+          "name": "David R.",
+          "role": "Naperville Regular"
+        },
+        {
+          "quote": "Their matzo ball soup is exactly like my grandmother's. Warm, rich, and the matzo ball is perfect. I'm here every cold day.",
+          "name": "Sarah L.",
+          "role": "Soup Devotee"
+        },
+        {
+          "quote": "Ordered party trays for an office lunch and everyone raved. The sandwiches were overstuffed and the black & whites disappeared first.",
+          "name": "Michael B.",
+          "role": "Catering Customer"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Deli",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "7:00 AM – 3:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "time": "7:00 AM – 3:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "7:00 AM – 3:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "7:00 AM – 3:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "7:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "8:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "8:00 AM – 3:00 PM"
+        }
+      ],
+      "phoneLabel": "Call to Order",
+      "directions": "On Ogden Avenue in Lisle with parking out front. Call ahead for pickup orders, party trays, and catering, and we'll have everything stacked, boxed, and ready to go.",
+      "neighborhood": "The deli sits on the 3000 block of Ogden Avenue (U.S. Route 34) in Lisle, the Arboretum Village, a short drive from the Morton Arboretum and an easy stop for neighbors from Naperville, Wheaton, and Downers Grove."
+    },
+    "cta": {
+      "heading": "Hungry for the Real Thing?",
+      "text": "Call the deli to place a pickup order, plan a party tray, or set up catering for your next gathering. We'll have it stacked, boxed, and ready when you are.",
+      "button": "Call (630) 245-7595"
+    },
+    "form": {
+      "heading": "Place a Pickup or Catering Order",
+      "subheading": "Tell us what you need: sandwiches, soups, party trays, or full catering. We'll call to confirm the details and a pickup time.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Number of Guests",
+      "date": "Preferred Pickup Date / Time",
+      "message": "What Can We Make for You?",
+      "submit": "Send Request",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and will call to confirm your order and pickup time.",
+      "error": "Something went wrong. Please try again or call us at (630) 245-7595.",
+      "consent": "By submitting, you agree to be contacted about your order request."
+    },
+    "footer": {
+      "tagline": "Overstuffed sandwiches, matzo ball soup, and old-school deli classics in Lisle, IL.",
+      "rights": "© Schmaltz Delicatessen. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Deli Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Schmaltz Delicatessen | Deli Judío y Sandwichería en Lisle, IL",
+      "description": "Deli judío de toda la vida en Lisle, IL. Pastrami en pan de centeno, sopa de bola de matzá, bagels con lox y galletas blanco y negro. Llama al (630) 245-7595."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Ordenar"
+    },
+    "hero": {
+      "eyebrow": "El Deli Judío de Toda la Vida en Lisle",
+      "title": "Pastrami Abundante,",
+      "titleAccent": "Como lo Hacía tu Abuela",
+      "subtitle": "Un auténtico delicatessen judío en Ogden Avenue en Lisle: pastrami apilado a mano sobre pan de centeno recién cortado, sopa de bola de matzá que te reconforta hasta los huesos y una galleta blanco y negro para terminar. De la vieja escuela, generoso y descaradamente delicioso.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Llama para Ordenar",
+      "badge": "Centeno cortado a mano · Catering y charolas para fiestas · Para llevar"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Abundante por Libra",
+        "text": "Pastrami y corned beef apilados bien alto y cortados a mano al momento, como debe armarse un verdadero sándwich de deli."
+      },
+      {
+        "icon": "heart",
+        "title": "Sopa Como la de la Abuela",
+        "text": "Sopa dorada de bola de matzá cocida a fuego lento, con una bola esponjosa y caldo de pollo intenso en cada tazón."
+      },
+      {
+        "icon": "star",
+        "title": "Horneado Fresco, Rebanado Fresco",
+        "text": "Pan de centeno cortado a mano, bagels frescos y favoritos de la casa preparados a diario para que cada sándwich sepa como debe."
+      },
+      {
+        "icon": "leaf",
+        "title": "Catering y Charolas para Fiestas",
+        "text": "Charolas de deli, bandejas de sándwiches y surtidos para fiestas hechos para alimentar a todos, listos para recoger cuando quieras."
+      }
+    ],
+    "menu": {
+      "heading": "La Carta",
+      "subheading": "Los artículos y precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar el menú o los precios reales del deli.",
+      "categories": [
+        {
+          "id": "overstuffed-sandwiches",
+          "name": "Sándwiches Abundantes",
+          "blurb": "Apilados bien alto, cortados a mano y armados sobre pan de centeno fresco, a la antigua.",
+          "items": [
+            {
+              "name": "Pastrami en Pan de Centeno",
+              "desc": "Más de un cuarto de libra de pastrami cortado a mano apilado en pan de centeno recién cortado con mostaza de deli.",
+              "price": "$14.95",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Sándwich de Corned Beef",
+              "desc": "Corned beef tierno y curado lentamente, apilado bien alto en centeno con una capa de mostaza picante.",
+              "price": "$13.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "El Reuben",
+              "desc": "Corned beef a la plancha con queso suizo derretido, chucrut y aderezo ruso sobre pan de centeno.",
+              "price": "$14.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Club de Pavo",
+              "desc": "Pechuga de pavo rostizada con tocino crujiente, lechuga y tomate, en triple capa sobre centeno.",
+              "price": "$13.95"
+            },
+            {
+              "name": "Brisket en Pan",
+              "desc": "Brisket de res braseado lentamente, apilado en pan suave con cebolla caramelizada y su jugo.",
+              "price": "$15.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "soups-sides",
+          "name": "Sopas y Guarniciones",
+          "blurb": "Los clásicos reconfortantes sobre los que se arma todo plato de deli.",
+          "items": [
+            {
+              "name": "Sopa de Bola de Matzá",
+              "desc": "Una bola de matzá esponjosa en caldo de pollo dorado e intenso, como la hacía la abuela.",
+              "price": "$6.95",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Latkes de Papa",
+              "desc": "Crujientes tortitas de papa rallada a mano, servidas con puré de manzana y crema agria.",
+              "price": "$7.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Kugel de Fideo",
+              "desc": "Dulce kugel horneado de fideo de huevo con un toque de canela, un verdadero consuelo de deli.",
+              "price": "$5.95"
+            },
+            {
+              "name": "Knish de Papa",
+              "desc": "Empanada dorada al horno rellena de puré de papa sazonado, servida tibia.",
+              "price": "$5.95",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bagels-breakfast",
+          "name": "Bagels y Desayuno",
+          "blurb": "Bagels frescos, pescado ahumado y clásicos del comal servidos todo el día.",
+          "items": [
+            {
+              "name": "Bagel con Lox",
+              "desc": "Salmón ahumado sobre un bagel fresco con queso crema, cebolla morada, tomate y alcaparras.",
+              "price": "$13.95",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Omelet de Deli",
+              "desc": "Omelet de tres huevos a tu gusto, servido con un bagel fresco y papas a la casa.",
+              "price": "$11.95"
+            },
+            {
+              "name": "Blintzes de Queso",
+              "desc": "Crepas tiernas rellenas de dulce queso fresco, cubiertas con crema agria y moras.",
+              "price": "$9.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bagel con Schmear",
+              "desc": "Un bagel fresco a tu elección con una generosa capa de queso crema.",
+              "price": "$4.95",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sweets-drinks",
+          "name": "Dulces y Bebidas",
+          "blurb": "El final dulce y la bebida ideal para acompañarlo todo.",
+          "items": [
+            {
+              "name": "Galleta Blanco y Negro",
+              "desc": "La clásica galleta suave glaseada mitad de chocolate, mitad de fondant de vainilla.",
+              "price": "$3.95",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Rugelach",
+              "desc": "Hojaldre enrollado con canela, nueces y un toque de frambuesa.",
+              "price": "$4.95"
+            },
+            {
+              "name": "Egg Cream de Chocolate",
+              "desc": "El clásico de fuente de soda: leche, agua mineral y jarabe de chocolate, sin huevo, sin crema.",
+              "price": "$3.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Café sin Fondo",
+              "desc": "Una taza fresca y caliente de nuestra mezcla de la casa, rellenada mientras estés sentado.",
+              "price": "$2.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Cherry Lime Rickey",
+              "desc": "Agua mineral burbujeante con cereza y limón fresco, un favorito agridulce de fuente de soda.",
+              "price": "$3.50",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Un Deli Auténtico en Lisle",
+      "lead": "Somos un delicatessen judío y sandwichería independiente, aquí mismo en Ogden Avenue en Lisle, haciéndolo a la antigua.",
+      "paragraphs": [
+        "Fundado en 2004 por un chef formado en el Culinary Institute of America, Schmaltz Delicatessen se basa en una idea sencilla: que un sándwich debe ser abundante, que el pan de centeno debe cortarse a mano y que la sopa debe saber como la que hacía la abuela de alguien. Cortamos nuestro pastrami y corned beef al momento, los apilamos bien alto y te mandamos a casa lleno y feliz.",
+        "Desde un tazón humeante de sopa de bola de matzá hasta bagels con lox por la mañana y una galleta blanco y negro al salir, mantenemos los clásicos generosos y, descaradamente deliciosos. ¿Necesitas alimentar a un grupo? Nuestro catering y charolas para fiestas llevan todo el surtido del deli a tu mesa, listo para recoger."
+      ],
+      "stats": [
+        {
+          "value": "Cortado a Mano",
+          "label": "Centeno Todos los Días"
+        },
+        {
+          "value": "Bien Apilados",
+          "label": "Sándwiches Abundantes"
+        },
+        {
+          "value": "Catering",
+          "label": "Charolas y Surtidos para Fiestas"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Recorrido por el Deli",
+      "subheading": "Del mostrador a la tabla de cortar, aquí va una probadita de lo que hay en la mesa.",
+      "captions": [
+        "Pastrami cortado fresco y apilado bien alto",
+        "Pan de centeno cortado a mano, al momento",
+        "Sopa de bola de matzá, dorada y humeante",
+        "Bagels con lox como deben ser",
+        "Galletas blanco y negro en el mostrador",
+        "Charolas para fiestas listas para recoger"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice Lisle",
+      "items": [
+        {
+          "quote": "El pastrami en pan de centeno es la cosa real, apilado tan alto que apenas podía agarrarlo con las manos. Sabe a un viaje al viejo barrio.",
+          "name": "David R.",
+          "role": "Cliente Habitual de Naperville"
+        },
+        {
+          "quote": "Su sopa de bola de matzá es igualita a la de mi abuela. Calientita, intensa y la bola de matzá es perfecta. Vengo cada día frío.",
+          "name": "Sarah L.",
+          "role": "Devota de la Sopa"
+        },
+        {
+          "quote": "Pedí charolas para fiestas para un almuerzo de oficina y todos quedaron encantados. Los sándwiches eran abundantes y las galletas blanco y negro desaparecieron primero.",
+          "name": "Michael B.",
+          "role": "Cliente de Catering"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita el Deli",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "7:00 AM – 3:00 PM"
+        },
+        {
+          "day": "Martes",
+          "time": "7:00 AM – 3:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "7:00 AM – 3:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "7:00 AM – 3:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "7:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "8:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "8:00 AM – 3:00 PM"
+        }
+      ],
+      "phoneLabel": "Llama para Ordenar",
+      "directions": "Sobre Ogden Avenue en Lisle, con estacionamiento al frente. Llama con anticipación para pedidos para llevar, charolas para fiestas y catering, y te lo tendremos apilado, empacado y listo para salir.",
+      "neighborhood": "El deli está en la cuadra 3000 de Ogden Avenue (Ruta 34) en Lisle, el Pueblo del Arboreto, a un corto trayecto en auto del Morton Arboretum y una parada fácil para vecinos de Naperville, Wheaton y Downers Grove."
+    },
+    "cta": {
+      "heading": "¿Con Ganas de la Cosa Real?",
+      "text": "Llama al deli para hacer un pedido para llevar, planear una charola para fiesta o coordinar catering para tu próxima reunión. Lo tendremos apilado, empacado y listo cuando lo necesites.",
+      "button": "Llamar al (630) 245-7595"
+    },
+    "form": {
+      "heading": "Haz un Pedido para Llevar o Catering",
+      "subheading": "Cuéntanos qué necesitas: sándwiches, sopas, charolas para fiestas o catering completo. Te llamamos para confirmar los detalles y una hora de recogida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Número de Invitados",
+      "date": "Fecha / Hora de Recogida Preferida",
+      "message": "¿Qué Podemos Prepararte?",
+      "submit": "Enviar Solicitud",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te llamaremos para confirmar tu pedido y la hora de recogida.",
+      "error": "Algo salió mal. Inténtalo de nuevo o llámanos al (630) 245-7595.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud de pedido."
+    },
+    "footer": {
+      "tagline": "Sándwiches abundantes, sopa de bola de matzá y clásicos de deli de toda la vida en Lisle, IL.",
+      "rights": "© Schmaltz Delicatessen. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario del Deli",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

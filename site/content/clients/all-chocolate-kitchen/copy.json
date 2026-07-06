@@ -1,0 +1,726 @@
+{
+  "business": {
+    "name": "All Chocolate Kitchen",
+    "shortName": "All Chocolate Kitchen",
+    "vertical": "Artisan Chocolatier & Dessert Cafe",
+    "phone": "(630) 232-2395",
+    "phoneHref": "+16302322395",
+    "address": "33 South 3rd Street",
+    "city": "Geneva",
+    "state": "IL",
+    "zip": "60134",
+    "mapsQuery": "All Chocolate Kitchen, 33 South 3rd Street, Geneva, IL 60134",
+    "lat": 41.8870924,
+    "lon": -88.3078147
+  },
+  "en": {
+    "meta": {
+      "title": "All Chocolate Kitchen | Artisan Chocolatier & Dessert Cafe in Geneva, IL",
+      "description": "Hand-crafted truffles, showpiece cakes, and edible art on Geneva's historic Third Street. Stay for an espresso and a pastry. Call (630) 232-2395."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Order Treats"
+    },
+    "hero": {
+      "eyebrow": "Artisan Chocolatier & Dessert Cafe · Downtown Geneva",
+      "title": "Hand-Crafted Truffles",
+      "titleAccent": "& Edible Art",
+      "subtitle": "A renowned Geneva chocolatier and dessert cafe where truffles are dipped by hand, cakes turn into showpieces, and a glass case of edible art draws people from all over the Fox Valley. Stay for an espresso and a pastry.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Call (630) 232-2395",
+      "badge": "Hand-Crafted Daily · Custom Cakes · Edible Art"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "Hand-Crafted Truffles",
+        "text": "Silky ganache rolled, dipped, and finished by hand in small batches, a glass case of bonbons, bark, and truffles worth the trip."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Showpiece Cakes & Edible Art",
+        "text": "Sculpted chocolate showpieces and custom celebration cakes designed to be the centerpiece everyone talks about."
+      },
+      {
+        "icon": "star",
+        "title": "A Fox Valley Favorite",
+        "text": "An artisan dessert cafe in downtown Geneva that draws sweet-lovers from all over the Fox Valley to the case."
+      },
+      {
+        "icon": "flame",
+        "title": "Espresso & Pastries",
+        "text": "Pull up a chair for a rich espresso, a real hot chocolate, and a fresh pastry, the perfect pairing for the case."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Menu items and prices shown are illustrative demo content for this sample site. Please visit us or call (630) 232-2395 for current offerings, seasonal pieces, and pricing.",
+      "categories": [
+        {
+          "id": "chocolates-truffles",
+          "name": "Chocolates & Truffles",
+          "blurb": "The glass case everyone presses their nose to, hand-dipped truffles, bonbons, and bark made in small batches.",
+          "items": [
+            {
+              "name": "Assorted Truffle Box",
+              "desc": "A curated dozen of our hand-rolled truffles in rotating flavors, dipped and finished by hand. The perfect gift or treat.",
+              "price": "$28.00",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Dark Chocolate Sea Salt Truffle",
+              "desc": "Velvety dark ganache enrobed in tempered chocolate and finished with a pinch of flaky sea salt.",
+              "price": "$3.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Salted Caramel Bonbon",
+              "desc": "A glossy hand-painted shell filled with slow-cooked salted caramel that flows when you bite in.",
+              "price": "$3.75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Hazelnut Praline Bonbon",
+              "desc": "Smooth roasted hazelnut praline in a thin, snappy chocolate shell, an old-world classic done right.",
+              "price": "$3.75",
+              "tags": []
+            },
+            {
+              "name": "Artisan Chocolate Bark",
+              "desc": "Thick shards of chocolate studded with toasted nuts, dried fruit, and sea salt. Sold by the quarter pound.",
+              "price": "$9.00",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Peanut Butter Cup",
+              "desc": "House-made creamy peanut butter inside a generous cup of milk or dark chocolate. Nothing like the wrapped kind.",
+              "price": "$4.00",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pastries-desserts",
+          "name": "Pastries & Desserts",
+          "blurb": "Showpiece cakes and dessert-case favorites, baked and finished by hand for the case and your celebrations.",
+          "items": [
+            {
+              "name": "Custom Celebration Cake",
+              "desc": "Designed and decorated just for you, from birthdays to weddings. Pick your flavors and we craft the showpiece.",
+              "price": "From $60",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Chocolate Decadence Slice",
+              "desc": "Layers of dark chocolate cake and silky ganache finished with a glossy mirror glaze. For serious chocolate lovers.",
+              "price": "$7.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Chocolate Eclair",
+              "desc": "Crisp choux pastry piped with vanilla bean cream and dipped in rich chocolate glaze.",
+              "price": "$5.50",
+              "tags": []
+            },
+            {
+              "name": "French Macarons",
+              "desc": "Delicate almond shells with a chewy center in a rotating selection of flavors. Sold by the half-dozen.",
+              "price": "$12.00",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Dessert Plate for Two",
+              "desc": "A shareable tasting of the case, a slice, a few truffles, and a seasonal sweet, plated to share over coffee.",
+              "price": "$16.00",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Flourless Chocolate Torte",
+              "desc": "Dense, fudgy, and naturally gluten-free, a deeply rich torte dusted with cocoa.",
+              "price": "$6.50",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "cafe-drinks",
+          "name": "Cafe & Drinks",
+          "blurb": "Stay a while, espresso drinks, real melted hot chocolate, and fresh coffee and tea to pair with the case.",
+          "items": [
+            {
+              "name": "Signature Hot Chocolate",
+              "desc": "Steamed milk and real melted chocolate, rich and silky, topped with house whipped cream. The full experience.",
+              "price": "$5.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Espresso",
+              "desc": "A rich, balanced double shot pulled to order, bold enough to stand up to anything in the case.",
+              "price": "$3.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Mocha Latte",
+              "desc": "Espresso and steamed milk blended with our melted chocolate and finished with a swirl of whipped cream.",
+              "price": "$5.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Drip Coffee",
+              "desc": "A fresh-brewed cup of our house blend, smooth and the ideal partner for a truffle or a pastry.",
+              "price": "$3.00",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Loose-Leaf Tea",
+              "desc": "A pot of premium loose-leaf tea in a rotating selection of black, green, and herbal blends.",
+              "price": "$3.50",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "gifts-occasions",
+          "name": "Gifts & Occasions",
+          "blurb": "Edible art for every occasion, gift boxes, holiday pieces, and custom favors made to order in-house.",
+          "items": [
+            {
+              "name": "Signature Gift Box",
+              "desc": "An elegant assortment of truffles, bonbons, and bark, packed and ribboned for gifting. Choose your size.",
+              "price": "From $24",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Holiday Chocolate Collection",
+              "desc": "Seasonal molded chocolates and festive treats that change with the holidays. Ask about what's in the case.",
+              "price": "From $18",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Custom Event Favors",
+              "desc": "Personalized chocolate favors for weddings, showers, and corporate gifts, designed and boxed to match your day.",
+              "price": "From $4 each",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Edible Art Showpiece",
+              "desc": "A hand-sculpted chocolate centerpiece made to order, a true conversation starter for any celebration.",
+              "price": "From $75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Chocolate-Dipped Strawberries",
+              "desc": "Plump strawberries hand-dipped in chocolate and drizzled to order. Sold by the half-dozen, seasonal.",
+              "price": "$15.00",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Geneva Chocolatier & Dessert Cafe",
+      "lead": "All Chocolate Kitchen is an independent artisan chocolatier and dessert cafe in downtown Geneva, where hand-crafted truffles, showpiece cakes, and a glass case of edible art draw people from all over the Fox Valley.",
+      "paragraphs": [
+        "All Chocolate Kitchen was founded by master pastry chef Alain Roby, who spent more than two decades as a corporate executive pastry chef for Hyatt and holds three Guinness World Records — the tallest chocolate sculpture, the tallest cooked-sugar building, and the world's longest candy cane, a 51-foot showpiece created in Geneva in 2012. We believe chocolate is an art form. Every truffle is rolled and dipped by hand, every bonbon shell is painted and filled in small batches, and every showpiece cake is built to be the centerpiece of your celebration. Nothing is rushed, and nothing comes from a box.",
+        "Whether you're picking up a box of truffles for someone special, dreaming up a custom cake, or simply pulling up a chair for an espresso and a pastry, we'd love to make your day a little sweeter. Stop by the case, press your nose to the glass, and find your new favorite."
+      ],
+      "stats": [
+        {
+          "value": "Hand-Crafted",
+          "label": "Truffles & Bonbons Daily"
+        },
+        {
+          "value": "Edible Art",
+          "label": "Showpiece Cakes & Custom Orders"
+        },
+        {
+          "value": "Downtown Geneva",
+          "label": "On South 3rd Street"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside the Kitchen",
+      "subheading": "A peek at the hand-dipped truffles, the showpiece cakes, and the glass case of edible art waiting in downtown Geneva.",
+      "captions": [
+        "Hand-rolled truffles dipped and finished one by one",
+        "A custom celebration cake decorated by hand",
+        "The glass case lined with bonbons and edible art",
+        "A sculpted chocolate showpiece taking shape",
+        "Espresso and a fresh pastry at the cafe counter",
+        "Signature gift boxes ribboned and ready to give"
+      ]
+    },
+    "testimonials": {
+      "heading": "What the Fox Valley Is Saying",
+      "items": [
+        {
+          "quote": "The truffles are the real deal, you can taste that they're made by hand. I drive in from St. Charles just for a box.",
+          "name": "Megan T.",
+          "role": "Regular customer"
+        },
+        {
+          "quote": "They made the cake for our anniversary and it was a true showpiece, stunning to look at and even better to eat.",
+          "name": "Carlos M.",
+          "role": "Custom cake client"
+        },
+        {
+          "quote": "I came in for a hot chocolate and left with a gift box of bonbons. That glass case gets me every single time.",
+          "name": "Hannah P.",
+          "role": "Local regular"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Downtown Geneva",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Tuesday - Thursday",
+          "time": "10:00 AM - 7:00 PM"
+        },
+        {
+          "day": "Friday - Saturday",
+          "time": "10:00 AM - 9:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Monday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Custom & Edible-Art Orders",
+      "directions": "Find us at 33 South 3rd Street in downtown Geneva. Stop in to browse the case, or call (630) 232-2395 to place a custom cake or edible-art order for pickup.",
+      "neighborhood": "The shop sits in the heart of Geneva's historic Third Street shopping district, a Victorian streetscape of specialty shops that hosts the town's Swedish Days festival each June, a few blocks from the Fox River."
+    },
+    "cta": {
+      "heading": "Dreaming Up Something Sweet? Let's Make It",
+      "text": "From hand-crafted truffle boxes to showpiece cakes and custom edible art, tell us what you're celebrating and we'll craft something unforgettable, all by hand.",
+      "button": "Call (630) 232-2395"
+    },
+    "form": {
+      "heading": "Start Your Custom Order",
+      "subheading": "Planning a celebration or need a custom cake or edible-art piece? Tell us what you have in mind and we'll get right back to you with the sweet details.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Quantity / Servings",
+      "date": "Preferred Pickup Date",
+      "message": "Tell us about your order, flavors, occasion, and any details.",
+      "submit": "Send Order Request",
+      "sending": "Sending...",
+      "success": "Thanks! We received your order request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your order. No spam, ever."
+    },
+    "footer": {
+      "tagline": "An independent artisan chocolatier and dessert cafe in downtown Geneva, hand-crafted truffles, showpiece cakes, and a glass case of edible art.",
+      "rights": "© All Chocolate Kitchen. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "All Chocolate Kitchen | Chocolatería Artesanal y Café de Postres en Geneva, IL",
+      "description": "Trufas hechas a mano, pasteles espectaculares y arte comestible en la histórica Third Street de Geneva. Quédate por un espresso. Llama al (630) 232-2395."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Ordenar"
+    },
+    "hero": {
+      "eyebrow": "Chocolatería Artesanal y Café de Postres · Centro de Geneva",
+      "title": "Trufas Hechas a Mano",
+      "titleAccent": "y Arte Comestible",
+      "subtitle": "Una reconocida chocolatería y café de postres de Geneva donde las trufas se bañan a mano, los pasteles se vuelven obras de arte y una vitrina de arte comestible atrae gente de todo el Fox Valley. Quédate por un espresso y un pastelito.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Llamar al (630) 232-2395",
+      "badge": "Hecho a Mano a Diario · Pasteles Personalizados · Arte Comestible"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "Trufas Hechas a Mano",
+        "text": "Sedosa ganache enrollada, bañada y terminada a mano en lotes pequeños, una vitrina de bombones, bark y trufas que valen el viaje."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Pasteles Espectaculares y Arte Comestible",
+        "text": "Esculturas de chocolate y pasteles de celebración personalizados diseñados para ser el centro del que todos hablan."
+      },
+      {
+        "icon": "star",
+        "title": "Un Favorito del Fox Valley",
+        "text": "Un café de postres artesanal en el centro de Geneva que atrae a los amantes de lo dulce de todo el Fox Valley a la vitrina."
+      },
+      {
+        "icon": "flame",
+        "title": "Espresso y Pastelitos",
+        "text": "Acércate una silla para un espresso intenso, un chocolate caliente de verdad y un pastelito fresco, el acompañante perfecto de la vitrina."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Los platillos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Visítanos o llama al (630) 232-2395 para conocer la oferta, las piezas de temporada y los precios actuales.",
+      "categories": [
+        {
+          "id": "chocolates-truffles",
+          "name": "Chocolates y Trufas",
+          "blurb": "La vitrina a la que todos pegan la nariz, trufas bañadas a mano, bombones y bark hechos en lotes pequeños.",
+          "items": [
+            {
+              "name": "Caja de Trufas Surtidas",
+              "desc": "Una docena curada de nuestras trufas hechas a mano en sabores rotativos, bañadas y terminadas a mano. El regalo o capricho perfecto.",
+              "price": "$28.00",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Trufa de Chocolate Amargo y Sal de Mar",
+              "desc": "Aterciopelada ganache amarga envuelta en chocolate templado y terminada con una pizca de sal de mar en hojuelas.",
+              "price": "$3.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bombón de Caramelo Salado",
+              "desc": "Una cáscara brillante pintada a mano rellena de caramelo salado cocido lento que fluye al morderlo.",
+              "price": "$3.75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Bombón de Praliné de Avellana",
+              "desc": "Suave praliné de avellana tostada en una cáscara delgada y crujiente de chocolate, un clásico del viejo mundo bien hecho.",
+              "price": "$3.75",
+              "tags": []
+            },
+            {
+              "name": "Bark de Chocolate Artesanal",
+              "desc": "Gruesos trozos de chocolate con nueces tostadas, fruta seca y sal de mar. Vendido por un cuarto de libra.",
+              "price": "$9.00",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Copa de Mantequilla de Maní",
+              "desc": "Cremosa mantequilla de maní hecha en casa dentro de una generosa copa de chocolate con leche o amargo. Nada que ver con las empacadas.",
+              "price": "$4.00",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pastries-desserts",
+          "name": "Pastelería y Postres",
+          "blurb": "Pasteles espectaculares y favoritos de la vitrina, horneados y terminados a mano para la vitrina y tus celebraciones.",
+          "items": [
+            {
+              "name": "Pastel de Celebración Personalizado",
+              "desc": "Diseñado y decorado solo para ti, de cumpleaños a bodas. Elige tus sabores y nosotros creamos la obra de arte.",
+              "price": "Desde $60",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Rebanada de Decadencia de Chocolate",
+              "desc": "Capas de pastel de chocolate amargo y sedosa ganache terminadas con un glaseado espejo. Para los serios amantes del chocolate.",
+              "price": "$7.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Éclair de Chocolate",
+              "desc": "Crujiente masa choux rellena de crema de vainilla y bañada en rico glaseado de chocolate.",
+              "price": "$5.50",
+              "tags": []
+            },
+            {
+              "name": "Macarons Franceses",
+              "desc": "Delicadas cáscaras de almendra con un centro suave en una selección rotativa de sabores. Vendidos por media docena.",
+              "price": "$12.00",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Plato de Postres para Dos",
+              "desc": "Una degustación para compartir de la vitrina, una rebanada, unas trufas y un dulce de temporada, emplatado para compartir con café.",
+              "price": "$16.00",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Torta de Chocolate sin Harina",
+              "desc": "Densa, húmeda y naturalmente sin gluten, una torta profundamente rica espolvoreada con cocoa.",
+              "price": "$6.50",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "cafe-drinks",
+          "name": "Café y Bebidas",
+          "blurb": "Quédate un rato, bebidas de espresso, chocolate caliente de verdad derretido, y café y té frescos para acompañar la vitrina.",
+          "items": [
+            {
+              "name": "Chocolate Caliente de la Casa",
+              "desc": "Leche vaporizada y chocolate derretido de verdad, rico y sedoso, coronado con crema batida de la casa. La experiencia completa.",
+              "price": "$5.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Espresso",
+              "desc": "Un doble shot rico y equilibrado preparado al momento, lo bastante intenso para acompañar cualquier cosa de la vitrina.",
+              "price": "$3.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Latte Mocha",
+              "desc": "Espresso y leche vaporizada mezclados con nuestro chocolate derretido y terminados con un remolino de crema batida.",
+              "price": "$5.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Café de Filtro",
+              "desc": "Una taza recién hecha de nuestra mezcla de la casa, suave y el compañero ideal de una trufa o un pastelito.",
+              "price": "$3.00",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Té de Hojas Sueltas",
+              "desc": "Una tetera de té premium de hojas sueltas en una selección rotativa de mezclas negras, verdes y de hierbas.",
+              "price": "$3.50",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "gifts-occasions",
+          "name": "Regalos y Ocasiones",
+          "blurb": "Arte comestible para cada ocasión, cajas de regalo, piezas de temporada y favores personalizados hechos a pedido en casa.",
+          "items": [
+            {
+              "name": "Caja de Regalo de la Casa",
+              "desc": "Un elegante surtido de trufas, bombones y bark, empacado y con listón para regalar. Elige tu tamaño.",
+              "price": "Desde $24",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Colección Navideña de Chocolate",
+              "desc": "Chocolates moldeados de temporada y dulces festivos que cambian con las fiestas. Pregunta qué hay en la vitrina.",
+              "price": "Desde $18",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Favores Personalizados para Eventos",
+              "desc": "Favores de chocolate personalizados para bodas, despedidas y regalos corporativos, diseñados y empacados a juego con tu día.",
+              "price": "Desde $4 c/u",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Escultura de Arte Comestible",
+              "desc": "Un centro de mesa de chocolate esculpido a mano hecho a pedido, un verdadero tema de conversación para cualquier celebración.",
+              "price": "Desde $75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Fresas Bañadas en Chocolate",
+              "desc": "Fresas jugosas bañadas a mano en chocolate y decoradas al momento. Vendidas por media docena, de temporada.",
+              "price": "$15.00",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Una Chocolatería y Café de Postres en Geneva",
+      "lead": "All Chocolate Kitchen es una chocolatería artesanal y café de postres independiente en el centro de Geneva, donde las trufas hechas a mano, los pasteles espectaculares y una vitrina de arte comestible atraen gente de todo el Fox Valley.",
+      "paragraphs": [
+        "All Chocolate Kitchen fue fundada por el maestro pastelero Alain Roby, quien pasó más de dos décadas como pastelero ejecutivo corporativo de Hyatt y posee tres récords mundiales Guinness: la escultura de chocolate más alta, el edificio de azúcar cocida más alto y el bastón de caramelo más largo del mundo, una pieza de 51 pies creada en Geneva en 2012. Creemos que el chocolate es una forma de arte. Cada trufa se enrolla y se baña a mano, cada cáscara de bombón se pinta y se rellena en lotes pequeños, y cada pastel espectacular se construye para ser el centro de tu celebración. Nada se apura y nada sale de una caja.",
+        "Ya sea que recojas una caja de trufas para alguien especial, sueñes con un pastel personalizado o simplemente te acerques una silla para un espresso y un pastelito, nos encantaría endulzar tu día. Pásate por la vitrina, pega la nariz al cristal y encuentra tu nuevo favorito."
+      ],
+      "stats": [
+        {
+          "value": "Hecho a Mano",
+          "label": "Trufas y Bombones a Diario"
+        },
+        {
+          "value": "Arte Comestible",
+          "label": "Pasteles Espectaculares y Pedidos Personalizados"
+        },
+        {
+          "value": "Centro de Geneva",
+          "label": "En South 3rd Street"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Dentro de la Cocina",
+      "subheading": "Un vistazo a las trufas bañadas a mano, los pasteles espectaculares y la vitrina de arte comestible que te esperan en el centro de Geneva.",
+      "captions": [
+        "Trufas hechas a mano bañadas y terminadas una por una",
+        "Un pastel de celebración personalizado decorado a mano",
+        "La vitrina llena de bombones y arte comestible",
+        "Una escultura de chocolate tomando forma",
+        "Espresso y un pastelito fresco en la barra del café",
+        "Cajas de regalo de la casa con listón y listas para regalar"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice el Fox Valley",
+      "items": [
+        {
+          "quote": "Las trufas son la cosa real, se nota que están hechas a mano. Manejo desde St. Charles solo por una caja.",
+          "name": "Megan T.",
+          "role": "Cliente frecuente"
+        },
+        {
+          "quote": "Hicieron el pastel de nuestro aniversario y fue una verdadera obra de arte, precioso de ver y aún mejor de comer.",
+          "name": "Carlos M.",
+          "role": "Cliente de pastel personalizado"
+        },
+        {
+          "quote": "Entré por un chocolate caliente y salí con una caja de bombones. Esa vitrina me atrapa cada vez.",
+          "name": "Hannah P.",
+          "role": "Cliente local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en el Centro de Geneva",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Martes - Jueves",
+          "time": "10:00 AM - 7:00 PM"
+        },
+        {
+          "day": "Viernes - Sábado",
+          "time": "10:00 AM - 9:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Lunes",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Pedidos Personalizados y de Arte Comestible",
+      "directions": "Encuéntranos en 33 South 3rd Street en el centro de Geneva. Pásate a ver la vitrina, o llama al (630) 232-2395 para hacer un pedido de pastel personalizado o arte comestible para recoger.",
+      "neighborhood": "La tienda está en pleno distrito comercial histórico de Third Street en Geneva, una calle victoriana de tiendas especializadas que cada junio recibe el festival Swedish Days, a unas cuadras del río Fox."
+    },
+    "cta": {
+      "heading": "¿Soñando con Algo Dulce? Hagámoslo",
+      "text": "De cajas de trufas hechas a mano a pasteles espectaculares y arte comestible personalizado, cuéntanos qué celebras y crearemos algo inolvidable, todo a mano.",
+      "button": "Llamar al (630) 232-2395"
+    },
+    "form": {
+      "heading": "Comienza Tu Pedido Personalizado",
+      "subheading": "¿Planeas una celebración o necesitas un pastel personalizado o una pieza de arte comestible? Cuéntanos lo que tienes en mente y te responderemos enseguida con los detalles dulces.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Cantidad / Porciones",
+      "date": "Fecha de Recogida Preferida",
+      "message": "Cuéntanos sobre tu pedido, sabores, ocasión y cualquier detalle.",
+      "submit": "Enviar Solicitud de Pedido",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud de pedido y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu pedido. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Una chocolatería artesanal y café de postres independiente en el centro de Geneva, trufas hechas a mano, pasteles espectaculares y una vitrina de arte comestible.",
+      "rights": "© All Chocolate Kitchen. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

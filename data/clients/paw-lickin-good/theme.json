@@ -1,0 +1,16 @@
+{
+  "concept": "Treats & Tails - a cheerful pet-boutique palette led by a friendly teal/aqua, warmed by a coral accent over creamy bakery backgrounds and soft charcoal ink. Wholesome, welcoming, and fun.",
+  "vars": {
+    "--color-bg": "#FFF8F0",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#FDF1E7",
+    "--color-ink": "#26262B",
+    "--color-ink-soft": "#585862",
+    "--color-primary": "#0E7C86",
+    "--color-primary-dark": "#0A5A62",
+    "--color-secondary": "#14939E",
+    "--color-accent": "#E2552E",
+    "--color-line": "#EAD9C6"
+  },
+  "contrastNotes": "All required ratios verified (WCAG sRGB). ink #26262B on bg #FFF8F0 = 14.30:1 (>=7). ink-soft #585862 on bg = 6.67:1 (>=4.5). white on primary #0E7C86 = 4.95:1 (>=4.5, AA normal text). primary on bg = 4.70:1 (>=3). Extras: white on primary-dark #0A5A62 = 7.92:1 (ideal for buttons/links). secondary #14939E is a brighter decorative aqua (white-on = 3.69:1, use for large/UI accents not body text). accent coral #E2552E on bg = 3.58:1 and white-on-accent = 3.77:1, both meet AA large-text (>=3) - reserve coral for headings, icons, badges, and CTAs with large/bold type; pair coral with ink for small text. line #EAD9C6 is a non-text hairline."
+}

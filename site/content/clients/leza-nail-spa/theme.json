@@ -1,0 +1,16 @@
+{
+  "concept": "A serene dusty-rose and rose-gold spa palette layered over creamy blush-whites with warm-gray ink for an elegant, feminine, premium feel.",
+  "vars": {
+    "--color-bg": "#FBF5F3",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#F4E8E4",
+    "--color-ink": "#3A2D2F",
+    "--color-ink-soft": "#6E595C",
+    "--color-primary": "#9A546B",
+    "--color-primary-dark": "#7E4256",
+    "--color-secondary": "#7A5E68",
+    "--color-accent": "#B07A4E",
+    "--color-line": "#E7D6D1"
+  },
+  "contrastNotes": "All AA requirements met. ink (#3A2D2F) on bg (#FBF5F3) = 12.19:1 (>=7); ink-soft (#6E595C) on bg = 5.99:1 (>=4.5); white (#FFFFFF) on primary (#9A546B) = 5.45:1 (>=4.5, valid for CTA labels); primary on bg = 5.05:1 (>=3). Additional: white on primary-dark (#7E4256) = 7.5:1; white on secondary (#7A5E68) = 5.79:1; ink on surface = 13.16:1; ink on surface-alt = 10.97:1; ink-soft on surface-alt = 5.39:1. Accent (#B07A4E rose-gold) at 3.39:1 on bg is reserved for large/decorative elements and dividers, not body text."
+}

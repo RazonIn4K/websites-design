@@ -1,0 +1,634 @@
+{
+  "business": {
+    "name": "Naperville Running Co.",
+    "shortName": "Naperville Running",
+    "vertical": "Specialty running & footwear store",
+    "phone": "(630) 445-8285",
+    "phoneHref": "+16304458285",
+    "address": "3416 South Illinois Route 59",
+    "city": "Naperville",
+    "state": "IL",
+    "zip": "60564",
+    "mapsQuery": "Naperville Running Co., 3416 South Illinois Route 59, Naperville, IL 60564",
+    "lat": 41.7032325,
+    "lon": -88.2046311
+  },
+  "en": {
+    "meta": {
+      "title": "Naperville Running Co. — Running Shoes & Expert Fitting in Naperville, IL",
+      "description": "Runner-owned specialty shop in Naperville. Free gait analysis, expert shoe fitting, gear that lasts, and free group runs. Call (630) 445-8285 to book a fitting."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Shop",
+      "about": "About",
+      "gallery": "The Store",
+      "visit": "Visit Us",
+      "order": "Book a Fitting"
+    },
+    "hero": {
+      "eyebrow": "Runner-Owned in Naperville",
+      "title": "Find Your Perfect Stride.",
+      "titleAccent": "Fitted by Real Runners.",
+      "subtitle": "Every shoe comes with a real gait analysis and honest advice — not a wall of guesses. Expert fitting, free group runs, and gear that actually holds up mile after mile.",
+      "ctaPrimary": "Shop the Store",
+      "ctaSecondary": "Call the Store",
+      "badge": "Free Gait Analysis · Expert Fitting · Free Group Runs"
+    },
+    "highlights": [
+      {
+        "icon": "gauge",
+        "title": "Free Gait Analysis",
+        "text": "Watch your stride on video and see exactly how you land. We read your gait, not a guess, so you walk out with the shoe your body actually needs — no charge, no pressure."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Expert Shoe Fitting",
+        "text": "Runners fit runners. We measure, test, and let you take laps in the store until the shoe disappears on your foot. The right fit prevents injuries and makes every mile better."
+      },
+      {
+        "icon": "shield",
+        "title": "Gear That Holds Up",
+        "text": "We stock road, trail, racing, and stability shoes plus apparel and gear we've put real miles on. If it won't last the distance, it doesn't earn a spot on our shelves."
+      },
+      {
+        "icon": "star",
+        "title": "Free Group Runs",
+        "text": "Lace up with us. Our free weekly group runs welcome every pace, from first-timers to marathoners, and turn solo miles into a community that shows up for each other."
+      }
+    ],
+    "menu": {
+      "heading": "Shop the Store",
+      "subheading": "Shoes, apparel, gear, and expert services for every runner. Prices and items shown are illustrative demo examples — please call (630) 445-8285 for current pricing and availability.",
+      "categories": [
+        {
+          "id": "running-shoes",
+          "name": "Running Shoes",
+          "blurb": "The right shoe for your stride, your distance, and your surface — fitted by runners who put real miles on every pair.",
+          "items": [
+            {
+              "name": "Road Shoes",
+              "desc": "Cushioned, responsive daily trainers for pavement and the path. The everyday workhorse for easy runs, tempo days, and long miles.",
+              "price": "From $130",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Trail Shoes",
+              "desc": "Grippy outsoles and rugged protection for dirt, gravel, and roots. Built to keep you sure-footed on the Springbrook Prairie trails.",
+              "price": "From $140",
+              "tags": []
+            },
+            {
+              "name": "Racing Shoes",
+              "desc": "Lightweight, fast, and built for race day. Carbon-plated and tempo options to help you chase a new personal best.",
+              "price": "From $160",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Stability Shoes",
+              "desc": "Supportive structure for runners who overpronate. Keeps your stride aligned mile after mile to prevent aches and injuries.",
+              "price": "From $135",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Walking & Everyday",
+              "desc": "Comfortable, supportive shoes for walkers, on-your-feet jobs, and recovery days. Same expert fit, all-day comfort.",
+              "price": "From $110",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "apparel",
+          "name": "Apparel",
+          "blurb": "Tops, bottoms, and layers built to move with you — sweat-wicking, chafe-free, and tested on real miles.",
+          "items": [
+            {
+              "name": "Tops & Tees",
+              "desc": "Lightweight, breathable tops and technical tees that wick sweat and stay comfortable from the first mile to the finish line.",
+              "price": "From $35",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Shorts & Tights",
+              "desc": "Chafe-free shorts, tights, and capris with the pockets and support runners actually want. Warm-weather and cold-weather options.",
+              "price": "From $45",
+              "tags": []
+            },
+            {
+              "name": "Jackets & Layers",
+              "desc": "Wind- and water-resistant shells and warm layers to keep you running through Chicagoland's four seasons.",
+              "price": "From $70",
+              "tags": []
+            },
+            {
+              "name": "Running Socks",
+              "desc": "Blister-fighting, moisture-wicking socks in cushioned and lightweight weights. The small upgrade that saves your feet.",
+              "price": "From $16",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gear-nutrition",
+          "name": "Gear & Nutrition",
+          "blurb": "The watches, fuel, and recovery tools that keep you training strong and bouncing back faster.",
+          "items": [
+            {
+              "name": "GPS Watches",
+              "desc": "Track pace, distance, and heart rate with GPS watches from trusted brands. We'll help you pick the right one for your goals.",
+              "price": "From $200",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Hydration",
+              "desc": "Handheld bottles, vests, and belts to carry water and fuel on long runs. Sized and fitted so nothing bounces or chafes.",
+              "price": "From $30",
+              "tags": []
+            },
+            {
+              "name": "Gels & Fuel",
+              "desc": "Energy gels, chews, and drink mix to keep you going on long efforts and race day. Try a flavor before you buy a box.",
+              "price": "From $2",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Recovery Tools",
+              "desc": "Foam rollers, massage guns, and compression gear to help tired legs bounce back faster between runs.",
+              "price": "From $25",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "services",
+          "name": "Services",
+          "blurb": "Expert help that comes standard — from a free gait analysis to a community of runners ready to lace up with you.",
+          "items": [
+            {
+              "name": "Gait Analysis",
+              "desc": "Video analysis of your stride to find the right support and cushioning for your body. Always free, always honest — no purchase required.",
+              "price": "Free",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Shoe Fitting",
+              "desc": "A real fitting with a runner on staff. We measure both feet, test multiple pairs, and let you run laps until it's right.",
+              "price": "Free",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Group Runs",
+              "desc": "Free weekly group runs for every pace and distance. Show up, lace up, and find your crew — all paces and abilities welcome.",
+              "price": "Free",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Training Advice",
+              "desc": "Heading for a 5K, a marathon, or your first mile? Get honest, runner-to-runner advice on shoes, gear, and getting started.",
+              "price": "Free",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "About Naperville Running Co.",
+      "lead": "We're a runner-owned specialty shop in Naperville, here to put the right shoe on every foot — backed by a real gait analysis and honest advice.",
+      "paragraphs": [
+        "Naperville Running Co. is an independent running and footwear store on Route 59, built by runners for runners. Founded by runner Kris Hartner in 2000 with the original shop in downtown Naperville on Jefferson Avenue, the company has twice been named the country's overall Best Running Store (2009 and 2016), and this South store opened on Route 59 in 2014. We started with a simple belief: nobody should buy running shoes off a wall of guesses. Every fitting begins with a real gait analysis so we can match you to the shoe your stride actually needs — whether you're chasing a marathon PR or lacing up for your very first mile.",
+        "Walk in and you'll get straight talk from people who log the miles themselves. We measure your feet, watch you run, and let you take laps in the store until it's right. Then we'll point you to apparel and gear that holds up mile after mile, and invite you out to our free group runs. No pressure, no jargon — just expert fitting and a community that shows up for each other."
+      ],
+      "stats": [
+        {
+          "value": "Free",
+          "label": "Gait Analysis with Every Fitting"
+        },
+        {
+          "value": "Every Pace",
+          "label": "Free Weekly Group Runs"
+        },
+        {
+          "value": "Runner-Owned",
+          "label": "Honest, Expert Advice"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Look Around the Store",
+      "subheading": "A wall of the right shoes, expert fittings, and a community that laces up together.",
+      "captions": [
+        "Road, trail, racing, and stability shoes fitted to your stride",
+        "A real gait analysis on video — always free",
+        "Expert fitting from runners who log the miles",
+        "Apparel and gear tested on real miles",
+        "Watches, hydration, and fuel for race day",
+        "Free group runs for every pace"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Runners Say",
+      "items": [
+        {
+          "quote": "I came in with shin splints and left with the first shoes that actually fixed them. The gait analysis was eye-opening and they never pushed the priciest pair. This is how shoe shopping should be.",
+          "name": "Lauren K.",
+          "role": "Half-Marathoner"
+        },
+        {
+          "quote": "Bought my first real running shoes here for a couch-to-5K and the staff took their time and made me feel welcome, not clueless. The free group runs got me hooked on the sport.",
+          "name": "Marcus D.",
+          "role": "New Runner"
+        },
+        {
+          "quote": "Knowledgeable, honest, and they actually run. They fit my daughter for cross country and got it perfect. So much better than a big-box store guessing at sizes.",
+          "name": "Priya S.",
+          "role": "Local Parent"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Store",
+      "addressLabel": "Location",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday – Friday",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "9:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM – 4:00 PM"
+        }
+      ],
+      "phoneLabel": "Phone",
+      "directions": "Get Directions",
+      "neighborhood": "Our South store sits on the Route 59 retail corridor near 95th Street in southwest Naperville, just down the road from the grassland trails of Springbrook Prairie Forest Preserve."
+    },
+    "cta": {
+      "heading": "Ready to Find Your Stride? Let's Get You Fitted.",
+      "text": "Book a free fitting and gait analysis, ask about the right shoe for your runs, or join our next group run. Real runners, honest advice — just call.",
+      "button": "Call (630) 445-8285"
+    },
+    "form": {
+      "heading": "Book a Fitting",
+      "subheading": "Tell us what you're training for and we'll get back to you fast to set up your free fitting and gait analysis.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Running Goal (5K, marathon, first mile, walking…)",
+      "date": "Preferred Date & Time",
+      "message": "What are you looking for? (new shoes, gait analysis, group runs…)",
+      "submit": "Request a Fitting",
+      "sending": "Sending…",
+      "success": "Thanks! We'll be in touch shortly to confirm your fitting.",
+      "error": "Something went wrong. Please call us directly at (630) 445-8285.",
+      "consent": "By submitting this form you agree to be contacted about your fitting request."
+    },
+    "footer": {
+      "tagline": "Runner-owned specialty shop in Naperville — real gait analysis, honest advice, gear that lasts.",
+      "rights": "© Naperville Running Co. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Naperville Running Co. — Zapatillas y Ajuste Experto en Naperville, IL",
+      "description": "Tienda de running de corredores en Naperville. Análisis de pisada gratis, ajuste experto, equipo que dura y carreras grupales gratis. Llama al (630) 445-8285."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Tienda",
+      "about": "Nosotros",
+      "gallery": "La Tienda",
+      "visit": "Visítanos",
+      "order": "Reservar"
+    },
+    "hero": {
+      "eyebrow": "De Dueños Corredores en Naperville",
+      "title": "Encuentra Tu Zancada Perfecta.",
+      "titleAccent": "Ajustada por Corredores de Verdad.",
+      "subtitle": "Cada zapatilla viene con un análisis de pisada real y consejos honestos — no una pared de adivinanzas. Ajuste experto, carreras grupales gratis y equipo que aguanta milla tras milla.",
+      "ctaPrimary": "Ver la Tienda",
+      "ctaSecondary": "Llama a la Tienda",
+      "badge": "Análisis de Pisada Gratis · Ajuste Experto · Carreras Grupales Gratis"
+    },
+    "highlights": [
+      {
+        "icon": "gauge",
+        "title": "Análisis de Pisada Gratis",
+        "text": "Observa tu zancada en video y ve exactamente cómo pisas. Leemos tu pisada, no adivinamos, para que salgas con la zapatilla que tu cuerpo de verdad necesita — sin costo, sin presión."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Ajuste Experto de Zapatillas",
+        "text": "Corredores ajustan a corredores. Medimos, probamos y te dejamos dar vueltas en la tienda hasta que la zapatilla desaparezca en tu pie. El ajuste correcto previene lesiones y mejora cada milla."
+      },
+      {
+        "icon": "shield",
+        "title": "Equipo Que Aguanta",
+        "text": "Tenemos zapatillas de ruta, trail, competencia y estabilidad, además de ropa y equipo en los que hemos corrido millas de verdad. Si no aguanta la distancia, no se gana un lugar en nuestros estantes."
+      },
+      {
+        "icon": "star",
+        "title": "Carreras Grupales Gratis",
+        "text": "Amárrate las agujetas con nosotros. Nuestras carreras grupales semanales gratis reciben todo ritmo, desde principiantes hasta maratonistas, y convierten las millas en solitario en una comunidad que se apoya."
+      }
+    ],
+    "menu": {
+      "heading": "Ver la Tienda",
+      "subheading": "Zapatillas, ropa, equipo y servicios expertos para cada corredor. Los precios y artículos mostrados son ejemplos ilustrativos de demostración — por favor llama al (630) 445-8285 para precios y disponibilidad actuales.",
+      "categories": [
+        {
+          "id": "running-shoes",
+          "name": "Zapatillas de Running",
+          "blurb": "La zapatilla correcta para tu zancada, tu distancia y tu superficie — ajustada por corredores que ponen millas reales en cada par.",
+          "items": [
+            {
+              "name": "Zapatillas de Ruta",
+              "desc": "Amortiguadas y reactivas para el pavimento y el sendero. La compañera diaria para rodajes suaves, días de tempo y millas largas.",
+              "price": "Desde $130",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Zapatillas de Trail",
+              "desc": "Suelas con agarre y protección resistente para tierra, grava y raíces. Hechas para mantenerte firme en los senderos de Springbrook Prairie.",
+              "price": "Desde $140",
+              "tags": []
+            },
+            {
+              "name": "Zapatillas de Competencia",
+              "desc": "Ligeras, rápidas y hechas para el día de carrera. Opciones con placa de carbono y de tempo para ayudarte a buscar una nueva marca personal.",
+              "price": "Desde $160",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Zapatillas de Estabilidad",
+              "desc": "Estructura de soporte para corredores que pronan en exceso. Mantiene tu zancada alineada milla tras milla para prevenir molestias y lesiones.",
+              "price": "Desde $135",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Caminar y Uso Diario",
+              "desc": "Zapatillas cómodas y de soporte para caminar, trabajos de pie y días de recuperación. El mismo ajuste experto, comodidad todo el día.",
+              "price": "Desde $110",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "apparel",
+          "name": "Ropa",
+          "blurb": "Camisetas, prendas inferiores y capas hechas para moverse contigo — que absorben el sudor, sin rozaduras y probadas en millas reales.",
+          "items": [
+            {
+              "name": "Camisetas y Playeras",
+              "desc": "Camisetas ligeras y transpirables y playeras técnicas que absorben el sudor y se mantienen cómodas desde la primera milla hasta la meta.",
+              "price": "Desde $35",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Shorts y Mallas",
+              "desc": "Shorts, mallas y capris sin rozaduras con los bolsillos y el soporte que los corredores de verdad quieren. Opciones para clima cálido y frío.",
+              "price": "Desde $45",
+              "tags": []
+            },
+            {
+              "name": "Chamarras y Capas",
+              "desc": "Cortavientos e impermeables y capas abrigadoras para que sigas corriendo durante las cuatro estaciones de Chicagoland.",
+              "price": "Desde $70",
+              "tags": []
+            },
+            {
+              "name": "Calcetines de Running",
+              "desc": "Calcetines que combaten las ampollas y absorben la humedad, en versiones acolchadas y ligeras. La pequeña mejora que salva tus pies.",
+              "price": "Desde $16",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gear-nutrition",
+          "name": "Equipo y Nutrición",
+          "blurb": "Los relojes, el combustible y las herramientas de recuperación que te mantienen entrenando fuerte y recuperándote más rápido.",
+          "items": [
+            {
+              "name": "Relojes GPS",
+              "desc": "Mide ritmo, distancia y frecuencia cardíaca con relojes GPS de marcas confiables. Te ayudamos a elegir el correcto para tus metas.",
+              "price": "Desde $200",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Hidratación",
+              "desc": "Botellas de mano, chalecos y cinturones para llevar agua y combustible en rodajes largos. Ajustados para que nada rebote ni roce.",
+              "price": "Desde $30",
+              "tags": []
+            },
+            {
+              "name": "Geles y Combustible",
+              "desc": "Geles de energía, gomitas y mezclas de bebida para mantenerte en marcha en esfuerzos largos y el día de carrera. Prueba un sabor antes de comprar una caja.",
+              "price": "Desde $2",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Herramientas de Recuperación",
+              "desc": "Rodillos de espuma, pistolas de masaje y prendas de compresión para que las piernas cansadas se recuperen más rápido entre rodajes.",
+              "price": "Desde $25",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "services",
+          "name": "Servicios",
+          "blurb": "Ayuda experta que viene incluida — desde un análisis de pisada gratis hasta una comunidad de corredores lista para correr contigo.",
+          "items": [
+            {
+              "name": "Análisis de Pisada",
+              "desc": "Análisis en video de tu zancada para encontrar el soporte y la amortiguación correctos para tu cuerpo. Siempre gratis, siempre honesto — sin compra requerida.",
+              "price": "Gratis",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Ajuste de Zapatillas",
+              "desc": "Un ajuste real con un corredor del equipo. Medimos ambos pies, probamos varios pares y te dejamos dar vueltas corriendo hasta que quede bien.",
+              "price": "Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Carreras Grupales",
+              "desc": "Carreras grupales semanales gratis para todo ritmo y distancia. Llega, amárrate las agujetas y encuentra tu grupo — todos los ritmos y niveles son bienvenidos.",
+              "price": "Gratis",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Consejos de Entrenamiento",
+              "desc": "¿Vas por un 5K, un maratón o tu primera milla? Recibe consejos honestos, de corredor a corredor, sobre zapatillas, equipo y cómo empezar.",
+              "price": "Gratis",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Sobre Naperville Running Co.",
+      "lead": "Somos una tienda de running de dueños corredores en Naperville, aquí para poner la zapatilla correcta en cada pie — respaldada por un análisis de pisada real y consejos honestos.",
+      "paragraphs": [
+        "Naperville Running Co. es una tienda independiente de running y calzado sobre la Ruta 59, hecha por corredores para corredores. Fundada por el corredor Kris Hartner en el año 2000 con la tienda original en el centro de Naperville sobre Jefferson Avenue, la empresa ha sido nombrada dos veces la mejor tienda de running del país (2009 y 2016), y esta tienda South abrió sobre la Ruta 59 en 2014. Empezamos con una idea simple: nadie debería comprar zapatillas de una pared de adivinanzas. Cada ajuste comienza con un análisis de pisada real para emparejarte con la zapatilla que tu zancada de verdad necesita — ya sea que busques una marca personal en el maratón o te amarres las agujetas para tu primera milla.",
+        "Entra y recibirás consejos directos de gente que también suma las millas. Medimos tus pies, te vemos correr y te dejamos dar vueltas en la tienda hasta que quede bien. Luego te recomendamos ropa y equipo que aguantan milla tras milla, y te invitamos a nuestras carreras grupales gratis. Sin presión, sin tecnicismos — solo ajuste experto y una comunidad que se apoya."
+      ],
+      "stats": [
+        {
+          "value": "Gratis",
+          "label": "Análisis de Pisada con Cada Ajuste"
+        },
+        {
+          "value": "Todo Ritmo",
+          "label": "Carreras Grupales Semanales Gratis"
+        },
+        {
+          "value": "Dueños Corredores",
+          "label": "Consejos Honestos y Expertos"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Vistazo a la Tienda",
+      "subheading": "Una pared de las zapatillas correctas, ajustes expertos y una comunidad que corre unida.",
+      "captions": [
+        "Zapatillas de ruta, trail, competencia y estabilidad ajustadas a tu zancada",
+        "Un análisis de pisada real en video — siempre gratis",
+        "Ajuste experto de corredores que suman las millas",
+        "Ropa y equipo probados en millas reales",
+        "Relojes, hidratación y combustible para el día de carrera",
+        "Carreras grupales gratis para todo ritmo"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen los Corredores",
+      "items": [
+        {
+          "quote": "Llegué con dolor en las espinillas y salí con las primeras zapatillas que de verdad lo resolvieron. El análisis de pisada me abrió los ojos y nunca me empujaron el par más caro. Así debería ser comprar zapatillas.",
+          "name": "Lauren K.",
+          "role": "Corredora de Medio Maratón"
+        },
+        {
+          "quote": "Compré aquí mis primeras zapatillas de running de verdad para un programa de cero a 5K y el equipo se tomó su tiempo y me hizo sentir bienvenido, no perdido. Las carreras grupales gratis me engancharon al deporte.",
+          "name": "Marcus D.",
+          "role": "Corredor Principiante"
+        },
+        {
+          "quote": "Saben del tema, son honestos y de verdad corren. Le ajustaron las zapatillas a mi hija para cross country y quedaron perfectas. Muchísimo mejor que una tienda grande adivinando tallas.",
+          "name": "Priya S.",
+          "role": "Madre Local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita la Tienda",
+      "addressLabel": "Ubicación",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes – Viernes",
+          "time": "10:00 a.m. – 7:00 p.m."
+        },
+        {
+          "day": "Sábado",
+          "time": "9:00 a.m. – 6:00 p.m."
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 a.m. – 4:00 p.m."
+        }
+      ],
+      "phoneLabel": "Teléfono",
+      "directions": "Cómo Llegar",
+      "neighborhood": "Nuestra tienda South está sobre el corredor comercial de la Ruta 59 cerca de 95th Street, en el suroeste de Naperville, muy cerca de los senderos de pradera de Springbrook Prairie Forest Preserve."
+    },
+    "cta": {
+      "heading": "¿Listo para Encontrar Tu Zancada? Te Dejamos Ajustado.",
+      "text": "Reserva un ajuste y análisis de pisada gratis, pregunta por la zapatilla correcta para tus rodajes o únete a nuestra próxima carrera grupal. Corredores de verdad, consejos honestos — solo llama.",
+      "button": "Llamar al (630) 445-8285"
+    },
+    "form": {
+      "heading": "Reservar una Cita",
+      "subheading": "Cuéntanos para qué entrenas y te contactamos rápido para agendar tu ajuste y análisis de pisada gratis.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Meta de Carrera (5K, maratón, primera milla, caminar…)",
+      "date": "Fecha y Hora Preferida",
+      "message": "¿Qué buscas? (zapatillas nuevas, análisis de pisada, carreras grupales…)",
+      "submit": "Solicitar Cita",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Nos pondremos en contacto pronto para confirmar tu cita.",
+      "error": "Algo salió mal. Por favor llámanos directamente al (630) 445-8285.",
+      "consent": "Al enviar este formulario aceptas ser contactado en relación con tu solicitud de cita."
+    },
+    "footer": {
+      "tagline": "Tienda de running de dueños corredores en Naperville — análisis de pisada real, consejos honestos, equipo que dura.",
+      "rights": "© Naperville Running Co. Todos los derechos reservados.",
+      "quickLinks": "Accesos Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

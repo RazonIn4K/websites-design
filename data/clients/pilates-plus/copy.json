@@ -1,0 +1,694 @@
+{
+  "business": {
+    "name": "Pilates Plus Unlimited",
+    "shortName": "Pilates Plus",
+    "vertical": "Pilates & Reformer Studio",
+    "phone": "(815) 970-1494",
+    "phoneHref": "+18159701494",
+    "address": "2690 DeKalb Avenue",
+    "city": "Sycamore",
+    "state": "IL",
+    "zip": "60178",
+    "mapsQuery": "Pilates Plus Unlimited, 2690 DeKalb Avenue, Sycamore, IL 60178"
+  },
+  "en": {
+    "meta": {
+      "title": "Pilates Plus Unlimited | Pilates & Reformer Studio in Sycamore, IL",
+      "description": "Boutique pilates & reformer studio in Sycamore, IL. Small classes, expert instructors, and a calm space for every body. Book your intro offer — call (815) 970-1494."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Classes",
+      "about": "About Us",
+      "gallery": "Our Space",
+      "visit": "Visit",
+      "order": "Book a Class"
+    },
+    "hero": {
+      "eyebrow": "Sycamore's Boutique Pilates & Reformer Studio",
+      "title": "Build Strength, Mobility,",
+      "titleAccent": "and Confidence at Any Level",
+      "subtitle": "A welcoming studio where every body belongs. Small reformer and mat classes led by expert instructors in a calm, modern space — whether it's your very first session or your hundredth.",
+      "ctaPrimary": "View Classes",
+      "ctaSecondary": "Call to Book a Class",
+      "badge": "New to the studio? Ask about our intro 3-pack offer."
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Small Reformer Classes",
+        "text": "Intimate class sizes mean real attention, better form, and a workout tailored to where your body is today."
+      },
+      {
+        "icon": "heart",
+        "title": "Every Body Belongs",
+        "text": "From total beginners to seasoned movers, our instructors meet you exactly where you are — no judgment, ever."
+      },
+      {
+        "icon": "leaf",
+        "title": "Calm, Modern Space",
+        "text": "A bright, serene studio designed to help you slow down, breathe, and move with intention."
+      },
+      {
+        "icon": "star",
+        "title": "Expert Instructors",
+        "text": "Certified, attentive teachers who guide every movement so you build strength and mobility safely."
+      }
+    ],
+    "menu": {
+      "heading": "Classes & Services",
+      "subheading": "Classes, sessions, and prices shown are illustrative demo content for this concept site and may not reflect the studio's actual offerings.",
+      "categories": [
+        {
+          "id": "reformer-classes",
+          "name": "Reformer Classes",
+          "blurb": "Spring-based reformer workouts that build long, strong muscles in small, guided groups.",
+          "items": [
+            {
+              "name": "Foundations Reformer",
+              "desc": "A welcoming intro to the reformer, covering setup, breath, and core fundamentals at an easy pace.",
+              "price": "From $28",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Reformer Flow",
+              "desc": "A full-body, flowing reformer class that links breath and movement to build strength and mobility.",
+              "price": "From $32",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Reformer Sculpt",
+              "desc": "Higher-rep, deep-burn reformer work that tones and challenges every major muscle group.",
+              "price": "From $34",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Jumpboard Cardio",
+              "desc": "Low-impact cardio on the reformer jumpboard that gets your heart pumping while protecting your joints.",
+              "price": "From $34"
+            }
+          ]
+        },
+        {
+          "id": "mat-group",
+          "name": "Mat & Group",
+          "blurb": "Equipment-free group classes that build core strength, flexibility, and calm.",
+          "items": [
+            {
+              "name": "Mat Pilates",
+              "desc": "Classic mat work focused on core control, posture, and full-body strength using just your body.",
+              "price": "From $22",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Barre Fusion",
+              "desc": "A blend of pilates, barre, and light weights for long, lean muscles and a fun, upbeat burn.",
+              "price": "From $26",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Stretch & Restore",
+              "desc": "A slow, restorative class of guided stretching and breathwork to release tension and improve mobility.",
+              "price": "From $22"
+            },
+            {
+              "name": "Core & Stability",
+              "desc": "A focused session building deep core strength and balance to support everything else you do.",
+              "price": "From $24"
+            }
+          ]
+        },
+        {
+          "id": "private-duet",
+          "name": "Private & Duet Sessions",
+          "blurb": "One-on-one and pair sessions built entirely around your goals, body, and pace.",
+          "items": [
+            {
+              "name": "1:1 Private Session",
+              "desc": "Fully personalized instruction with a dedicated teacher, tailored to your goals and progress.",
+              "price": "From $75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Duet Session",
+              "desc": "Share a private with a friend or partner — personal attention at a friendlier per-person price.",
+              "price": "From $50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Postnatal Pilates",
+              "desc": "Gentle, guided sessions to rebuild core and pelvic floor strength safely after pregnancy.",
+              "price": "From $70"
+            },
+            {
+              "name": "Rehab-Focused Private",
+              "desc": "Careful, low-impact work designed around injury recovery and mobility, at a pace that feels safe.",
+              "price": "From $80"
+            }
+          ]
+        },
+        {
+          "id": "memberships-intro",
+          "name": "Memberships & Intro Offers",
+          "blurb": "Flexible ways to make pilates part of your routine, from a first taste to unlimited monthly.",
+          "items": [
+            {
+              "name": "Intro 3-Pack",
+              "desc": "Three classes at a special new-client rate — the perfect way to try the studio and find your fit.",
+              "price": "$60",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Single Class",
+              "desc": "Drop in for one reformer or mat class, no commitment required.",
+              "price": "From $28",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "5-Class Pack",
+              "desc": "A flexible pack of five classes to use across reformer, mat, and group sessions.",
+              "price": "$130",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "10-Class Pack",
+              "desc": "Ten classes at the best per-class price for movers building a steady routine.",
+              "price": "$240",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Unlimited Monthly",
+              "desc": "Unlimited reformer, mat, and group classes every month, billed month to month.",
+              "price": "$160/mo",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Studio Where Every Body Belongs",
+      "lead": "Pilates Plus Unlimited is an independent, boutique pilates and reformer studio built on small classes, expert guidance, and a genuinely welcoming space.",
+      "paragraphs": [
+        "Right on DeKalb Avenue in Sycamore, our studio was created for movers of every level. We keep classes small on purpose, so our instructors can learn your body, refine your form, and help you build strength and mobility that lasts. Whether you're brand new to the reformer or a longtime pilates devotee, you'll find a calm, modern space and a teacher who's genuinely in your corner.",
+        "Pilates is for every body, and we mean it. Beginners, busy parents, athletes cross-training, and folks returning after an injury all move side by side here. Come as you are, work at your own pace, and leave a little stronger, taller, and more confident than you walked in."
+      ],
+      "stats": [
+        {
+          "value": "Small",
+          "label": "Class Sizes"
+        },
+        {
+          "value": "All Levels",
+          "label": "Beginners Welcome"
+        },
+        {
+          "value": "Sycamore",
+          "label": "Locally Owned"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside the Studio",
+      "subheading": "A look at our reformers, the light-filled space, and the welcoming community that moves with us.",
+      "captions": [
+        "Reformers lined up in the main studio",
+        "A small reformer class in session",
+        "Mat pilates in the bright group room",
+        "One-on-one attention during a private",
+        "The calm, modern reception area",
+        "Stretch and restore in the quiet studio"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Sycamore Is Saying",
+      "items": [
+        {
+          "quote": "I'd never touched a reformer and was so nervous, but the foundations class made me feel completely at ease. I'm hooked.",
+          "name": "Megan R.",
+          "role": "New Client"
+        },
+        {
+          "quote": "The small classes make all the difference. My instructor catches every little thing and my back pain is finally gone.",
+          "name": "Carlos M.",
+          "role": "Reformer Regular"
+        },
+        {
+          "quote": "After my second baby I needed something gentle but real. The postnatal sessions rebuilt my strength and my confidence.",
+          "name": "Hannah T.",
+          "role": "Private Client"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Studio",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "6:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "time": "6:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "6:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "6:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "6:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "7:00 AM – 1:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "8:00 AM – 12:00 PM"
+        }
+      ],
+      "phoneLabel": "Book a Class",
+      "directions": "On DeKalb Avenue in Sycamore with easy parking right outside. Call ahead to reserve your spot — classes are small and fill up fast."
+    },
+    "cta": {
+      "heading": "Ready to Find Your Strength?",
+      "text": "New clients can start with our intro 3-pack. Call the studio and we'll help you pick the perfect first class.",
+      "button": "Call (815) 970-1494"
+    },
+    "form": {
+      "heading": "Book a Class",
+      "subheading": "Tell us what you're looking for and we'll help you reserve the right class or session for your level.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Class or Session",
+      "date": "Preferred Date & Time",
+      "message": "Anything Else?",
+      "submit": "Request My Spot",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and we'll reach out to confirm your class.",
+      "error": "Something went wrong. Please try again or call the studio.",
+      "consent": "By submitting, you agree to be contacted about your class booking and our intro offer."
+    },
+    "footer": {
+      "tagline": "Strength, mobility, and confidence for every body in Sycamore.",
+      "rights": "© Pilates Plus Unlimited. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Studio Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    },
+    "ritual": {
+      "heading": "Your Visit, Step by Step",
+      "steps": [
+        {
+          "title": "Reserve Your Spot",
+          "text": "Call or book online and pick a class that fits your level. Arrive a few minutes early to settle in."
+        },
+        {
+          "title": "Meet Your Instructor",
+          "text": "We learn your goals, any old injuries, and how your body feels today, then set the reformer up just for you."
+        },
+        {
+          "title": "Move at Your Pace",
+          "text": "Flow through a small, guided session built around your breath, with hands-on cues to refine every movement safely."
+        },
+        {
+          "title": "Cool Down & Come Back",
+          "text": "Stretch, breathe, and ease out feeling taller and stronger. We'll help you book your next class before you leave."
+        }
+      ]
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Pilates Plus Unlimited | Estudio de Pilates y Reformer en Sycamore, IL",
+      "description": "Estudio boutique de pilates y reformer en Sycamore, IL. Clases pequeñas, instructores expertos y un espacio tranquilo para todo cuerpo. Reserva tu oferta — llama al (815) 970-1494."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Clases",
+      "about": "Nosotros",
+      "gallery": "Nuestro Espacio",
+      "visit": "Visítanos",
+      "order": "Reservar"
+    },
+    "hero": {
+      "eyebrow": "El Estudio Boutique de Pilates y Reformer de Sycamore",
+      "title": "Desarrolla Fuerza, Movilidad",
+      "titleAccent": "y Confianza en Cualquier Nivel",
+      "subtitle": "Un estudio acogedor donde todo cuerpo pertenece. Clases pequeñas de reformer y mat guiadas por instructores expertos en un espacio tranquilo y moderno, ya sea tu primera sesión o la número cien.",
+      "ctaPrimary": "Ver Clases",
+      "ctaSecondary": "Llama para Reservar",
+      "badge": "¿Nueva en el estudio? Pregunta por nuestra oferta de paquete de 3 clases."
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Clases de Reformer Pequeñas",
+        "text": "Grupos reducidos significan atención real, mejor técnica y un entrenamiento adaptado a donde está tu cuerpo hoy."
+      },
+      {
+        "icon": "heart",
+        "title": "Todo Cuerpo Pertenece",
+        "text": "Desde principiantes totales hasta personas con experiencia, nuestros instructores te reciben justo donde estás, sin juicios."
+      },
+      {
+        "icon": "leaf",
+        "title": "Espacio Tranquilo y Moderno",
+        "text": "Un estudio luminoso y sereno, diseñado para ayudarte a bajar el ritmo, respirar y moverte con intención."
+      },
+      {
+        "icon": "star",
+        "title": "Instructores Expertos",
+        "text": "Maestros certificados y atentos que guían cada movimiento para que ganes fuerza y movilidad de forma segura."
+      }
+    ],
+    "menu": {
+      "heading": "Clases y Servicios",
+      "subheading": "Las clases, sesiones y precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar la oferta real del estudio.",
+      "categories": [
+        {
+          "id": "reformer-classes",
+          "name": "Clases de Reformer",
+          "blurb": "Entrenamientos de reformer con resortes que crean músculos largos y fuertes en grupos pequeños y guiados.",
+          "items": [
+            {
+              "name": "Reformer Fundamentos",
+              "desc": "Una introducción acogedora al reformer que cubre la preparación, la respiración y el core a un ritmo tranquilo.",
+              "price": "Desde $28",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Reformer Flow",
+              "desc": "Una clase de reformer fluida y de cuerpo completo que une respiración y movimiento para ganar fuerza y movilidad.",
+              "price": "Desde $32",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Reformer Sculpt",
+              "desc": "Trabajo de reformer de muchas repeticiones y ardor profundo que tonifica y reta cada grupo muscular.",
+              "price": "Desde $34",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Jumpboard Cardio",
+              "desc": "Cardio de bajo impacto en el jumpboard del reformer que acelera tu corazón mientras protege tus articulaciones.",
+              "price": "Desde $34"
+            }
+          ]
+        },
+        {
+          "id": "mat-group",
+          "name": "Mat y Grupo",
+          "blurb": "Clases grupales sin equipo que desarrollan fuerza de core, flexibilidad y calma.",
+          "items": [
+            {
+              "name": "Pilates en Mat",
+              "desc": "Trabajo clásico en colchoneta enfocado en el control del core, la postura y la fuerza total usando solo tu cuerpo.",
+              "price": "Desde $22",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Barre Fusion",
+              "desc": "Una mezcla de pilates, barre y pesas ligeras para músculos largos y esbeltos y un ardor divertido y animado.",
+              "price": "Desde $26",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Estirar y Restaurar",
+              "desc": "Una clase lenta y restaurativa de estiramientos guiados y respiración para liberar tensión y mejorar la movilidad.",
+              "price": "Desde $22"
+            },
+            {
+              "name": "Core y Estabilidad",
+              "desc": "Una sesión enfocada que desarrolla fuerza profunda del core y equilibrio para apoyar todo lo demás que haces.",
+              "price": "Desde $24"
+            }
+          ]
+        },
+        {
+          "id": "private-duet",
+          "name": "Sesiones Privadas y en Dúo",
+          "blurb": "Sesiones individuales y en pareja diseñadas por completo en torno a tus metas, tu cuerpo y tu ritmo.",
+          "items": [
+            {
+              "name": "Sesión Privada 1:1",
+              "desc": "Instrucción totalmente personalizada con un maestro dedicado, adaptada a tus metas y tu progreso.",
+              "price": "Desde $75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Sesión en Dúo",
+              "desc": "Comparte una sesión privada con un amigo o tu pareja: atención personal a un precio por persona más amigable.",
+              "price": "Desde $50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Pilates Posparto",
+              "desc": "Sesiones suaves y guiadas para reconstruir la fuerza del core y del piso pélvico de forma segura tras el embarazo.",
+              "price": "Desde $70"
+            },
+            {
+              "name": "Privada de Rehabilitación",
+              "desc": "Trabajo cuidadoso y de bajo impacto diseñado en torno a la recuperación de lesiones y la movilidad, a un ritmo seguro.",
+              "price": "Desde $80"
+            }
+          ]
+        },
+        {
+          "id": "memberships-intro",
+          "name": "Membresías y Ofertas de Inicio",
+          "blurb": "Formas flexibles de hacer del pilates parte de tu rutina, desde una primera prueba hasta la mensualidad ilimitada.",
+          "items": [
+            {
+              "name": "Paquete de 3 Clases",
+              "desc": "Tres clases a una tarifa especial para nuevos clientes: la manera perfecta de probar el estudio y encontrar tu ritmo.",
+              "price": "$60",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Clase Individual",
+              "desc": "Pásate por una sola clase de reformer o mat, sin ningún compromiso.",
+              "price": "Desde $28",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Paquete de 5 Clases",
+              "desc": "Un paquete flexible de cinco clases para usar entre sesiones de reformer, mat y grupo.",
+              "price": "$130",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Paquete de 10 Clases",
+              "desc": "Diez clases al mejor precio por clase para quienes construyen una rutina constante.",
+              "price": "$240",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Mensualidad Ilimitada",
+              "desc": "Clases ilimitadas de reformer, mat y grupo cada mes, con cobro mes a mes.",
+              "price": "$160/mes",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Un Estudio Donde Todo Cuerpo Pertenece",
+      "lead": "Pilates Plus Unlimited es un estudio boutique e independiente de pilates y reformer, construido sobre clases pequeñas, guía experta y un espacio genuinamente acogedor.",
+      "paragraphs": [
+        "Justo sobre DeKalb Avenue en Sycamore, nuestro estudio fue creado para personas de todos los niveles. Mantenemos las clases pequeñas a propósito, para que nuestros instructores conozcan tu cuerpo, perfeccionen tu técnica y te ayuden a ganar fuerza y movilidad que perduran. Ya seas completamente nueva en el reformer o una devota del pilates de toda la vida, encontrarás un espacio tranquilo y moderno y un maestro que de verdad está de tu lado.",
+        "El pilates es para todo cuerpo, y lo decimos en serio. Principiantes, padres ocupados, atletas que entrenan de forma complementaria y personas que regresan después de una lesión se mueven aquí lado a lado. Ven tal como eres, trabaja a tu propio ritmo y vete un poco más fuerte, más erguido y más seguro de lo que entraste."
+      ],
+      "stats": [
+        {
+          "value": "Pequeñas",
+          "label": "Clases Reducidas"
+        },
+        {
+          "value": "Todos los Niveles",
+          "label": "Principiantes Bienvenidos"
+        },
+        {
+          "value": "Sycamore",
+          "label": "Negocio Local"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Por Dentro del Estudio",
+      "subheading": "Un vistazo a nuestros reformers, el espacio lleno de luz y la comunidad acogedora que se mueve con nosotros.",
+      "captions": [
+        "Reformers alineados en el estudio principal",
+        "Una clase pequeña de reformer en sesión",
+        "Pilates en mat en la luminosa sala grupal",
+        "Atención uno a uno durante una sesión privada",
+        "El área de recepción tranquila y moderna",
+        "Estirar y restaurar en el estudio en calma"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice Sycamore",
+      "items": [
+        {
+          "quote": "Nunca había tocado un reformer y estaba muy nerviosa, pero la clase de fundamentos me hizo sentir totalmente a gusto. Quedé enganchada.",
+          "name": "Megan R.",
+          "role": "Cliente Nueva"
+        },
+        {
+          "quote": "Las clases pequeñas hacen toda la diferencia. Mi instructora nota cada detalle y por fin se me quitó el dolor de espalda.",
+          "name": "Carlos M.",
+          "role": "Asiduo del Reformer"
+        },
+        {
+          "quote": "Después de mi segundo bebé necesitaba algo suave pero real. Las sesiones posparto reconstruyeron mi fuerza y mi confianza.",
+          "name": "Hannah T.",
+          "role": "Cliente de Privadas"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita el Estudio",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "6:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Martes",
+          "time": "6:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "6:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "6:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "6:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "7:00 AM – 1:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "8:00 AM – 12:00 PM"
+        }
+      ],
+      "phoneLabel": "Reserva una Clase",
+      "directions": "Sobre DeKalb Avenue en Sycamore, con estacionamiento fácil justo afuera. Llama con anticipación para apartar tu lugar: las clases son pequeñas y se llenan rápido."
+    },
+    "cta": {
+      "heading": "¿Lista para Encontrar tu Fuerza?",
+      "text": "Los clientes nuevos pueden empezar con nuestro paquete de 3 clases. Llama al estudio y te ayudamos a elegir la primera clase perfecta.",
+      "button": "Llamar al (815) 970-1494"
+    },
+    "form": {
+      "heading": "Reservar una Clase",
+      "subheading": "Cuéntanos qué buscas y te ayudamos a reservar la clase o sesión adecuada para tu nivel.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Clase o Sesión",
+      "date": "Fecha y Hora Preferida",
+      "message": "¿Algo Más?",
+      "submit": "Solicitar mi Lugar",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y nos comunicaremos para confirmar tu clase.",
+      "error": "Algo salió mal. Inténtalo de nuevo o llama al estudio.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu reserva de clase y nuestra oferta de inicio."
+    },
+    "footer": {
+      "tagline": "Fuerza, movilidad y confianza para todo cuerpo en Sycamore.",
+      "rights": "© Pilates Plus Unlimited. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario del Estudio",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    },
+    "ritual": {
+      "heading": "Tu Visita, Paso a Paso",
+      "steps": [
+        {
+          "title": "Reserva tu Lugar",
+          "text": "Llama o reserva en línea y elige una clase para tu nivel. Llega unos minutos antes para acomodarte con calma."
+        },
+        {
+          "title": "Conoce a tu Instructor",
+          "text": "Conocemos tus metas, lesiones pasadas y cómo se siente tu cuerpo hoy, y preparamos el reformer solo para ti."
+        },
+        {
+          "title": "Muévete a tu Ritmo",
+          "text": "Fluye en una sesión pequeña y guiada en torno a tu respiración, con ajustes manuales para perfeccionar cada movimiento de forma segura."
+        },
+        {
+          "title": "Relájate y Regresa",
+          "text": "Estira, respira y sal sintiéndote más erguido y fuerte. Te ayudamos a reservar tu próxima clase antes de irte."
+        }
+      ]
+    }
+  }
+}

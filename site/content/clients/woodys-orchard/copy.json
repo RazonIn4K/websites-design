@@ -1,0 +1,684 @@
+{
+  "business": {
+    "name": "Woody's Orchard & Fun Farm",
+    "shortName": "Woody's",
+    "vertical": "Orchard, Farm Market & Bakery",
+    "phone": "(630) 247-9300",
+    "phoneHref": "+16302479300",
+    "address": "3223 Creek Road",
+    "city": "Plano",
+    "state": "IL",
+    "zip": "60545",
+    "mapsQuery": "Woody's Orchard & Fun Farm, 3223 Creek Road, Plano, IL 60545",
+    "lat": 41.6701684,
+    "lon": -88.5653134
+  },
+  "en": {
+    "meta": {
+      "title": "Woody's Orchard & Fun Farm | Pick-Your-Own Apples & Cider Donuts in Plano, IL",
+      "description": "Pick-your-own apples, fresh cider donuts, hayrides, and a corn maze in Plano, IL. Family fun on the farm all season. Plan your visit: (630) 247-9300."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "What We Offer",
+      "about": "Our Farm",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Plan a Visit"
+    },
+    "hero": {
+      "eyebrow": "Plano's Family Orchard & Fun Farm",
+      "title": "Apples, Pumpkins,",
+      "titleAccent": "Hayrides & Fall Memories",
+      "subtitle": "Spend the day at Woody's, where the apple trees stretch on for rows, the cider donuts come out warm, and the corn maze is waiting. Country charm and family fun for every generation, right here on Creek Road.",
+      "ctaPrimary": "See What We Offer",
+      "ctaSecondary": "Call to Plan a Visit",
+      "badge": "Family-owned · Generations of memories"
+    },
+    "highlights": [
+      {
+        "icon": "leaf",
+        "title": "Pick-Your-Own Apples",
+        "text": "Wander the rows and fill your bag straight from the tree, picked at the peak of fresh, just-ripe flavor."
+      },
+      {
+        "icon": "heart",
+        "title": "Warm Cider Donuts",
+        "text": "Hand-cut apple-cider donuts fried fresh and tossed in cinnamon sugar while they're still warm from the kitchen."
+      },
+      {
+        "icon": "star",
+        "title": "Fall Fun for All",
+        "text": "Hayrides, a winding corn maze, a pumpkin patch, and a petting area that keep kids and grown-ups smiling."
+      },
+      {
+        "icon": "home",
+        "title": "Country Charm",
+        "text": "A welcoming family farm where generations come back year after year to slow down and make new memories."
+      }
+    ],
+    "menu": {
+      "heading": "What We Offer",
+      "subheading": "Offerings and prices shown are illustrative demo content for this concept site and may not reflect the farm's actual selection or pricing.",
+      "categories": [
+        {
+          "id": "farm-market",
+          "name": "Farm Market",
+          "blurb": "Just-picked fruit, fresh-pressed cider, and the best of the season's harvest.",
+          "items": [
+            {
+              "name": "Apples by the Peck",
+              "desc": "A brimming peck of hand-picked apples in your favorite variety, straight from our orchard.",
+              "price": "$18",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pick-Your-Own Bag",
+              "desc": "Grab a bag, head to the trees, and fill it yourself out in the rows.",
+              "price": "From $12",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Fresh-Pressed Cider",
+              "desc": "Cold, sweet apple cider pressed right here, by the cup or the gallon jug.",
+              "price": "$8",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Seasonal Produce",
+              "desc": "Whatever's ripe and in season, from sweet corn and squash to garden tomatoes.",
+              "price": "Market price"
+            },
+            {
+              "name": "Local Honey & Jam",
+              "desc": "Raw local honey and small-batch fruit preserves to take a little of the farm home.",
+              "price": "$9"
+            }
+          ]
+        },
+        {
+          "id": "bakery",
+          "name": "Bakery",
+          "blurb": "Fresh from the oven and the fryer, baked the old-fashioned way every day.",
+          "items": [
+            {
+              "name": "Apple-Cider Donuts",
+              "desc": "Warm, cinnamon-sugar cider donuts, by the half dozen or the dozen.",
+              "price": "$9",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Homemade Fruit Pies",
+              "desc": "Flaky double-crust pies packed with apples, berries, or whatever's in season.",
+              "price": "$16",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Caramel Apples",
+              "desc": "Crisp orchard apples dipped in buttery caramel and rolled in your choice of toppings.",
+              "price": "$6"
+            },
+            {
+              "name": "Fresh-Baked Breads",
+              "desc": "Crusty loaves and sweet quick breads baked fresh in our farm kitchen.",
+              "price": "$7"
+            },
+            {
+              "name": "Cider Donut Dozen",
+              "desc": "A full dozen of our famous cider donuts, perfect for sharing on the drive home.",
+              "price": "$15",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fall-fun",
+          "name": "Fall Fun",
+          "blurb": "Hayrides, the maze, the patch, and the animals, all the makings of a perfect farm day.",
+          "items": [
+            {
+              "name": "Hayride",
+              "desc": "Climb aboard the wagon for a bumpy, breezy ride out through the orchard and fields.",
+              "price": "$6",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Corn Maze",
+              "desc": "Wind your way through our twisting corn maze and see if your crew can find the way out.",
+              "price": "$8",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Pumpkin Patch",
+              "desc": "Stroll the patch and pick the perfect pumpkin, priced by size at the barn.",
+              "price": "Pick by size"
+            },
+            {
+              "name": "Petting Area",
+              "desc": "Say hello to our friendly farm animals, a favorite stop for the little ones.",
+              "price": "Free admission",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "All-Day Fun Pass",
+              "desc": "Hayride, corn maze, and the petting area together in one all-day bundle.",
+              "price": "$18",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "groups-events",
+          "name": "Groups & Events",
+          "blurb": "Field trips, parties, and bonfires made easy for your whole bunch.",
+          "items": [
+            {
+              "name": "School Field Trips",
+              "desc": "Guided farm tours and hands-on fun built for classrooms and young explorers.",
+              "price": "From $9 / child",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Private Bonfire",
+              "desc": "Reserve a cozy fire pit for an evening with your group, wood and seating included.",
+              "price": "From $120",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Birthday Packages",
+              "desc": "A reserved area, hayride, treats, and farm fun for the birthday star and their guests.",
+              "price": "From $200",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Group Outings",
+              "desc": "Special rates and a reserved space for scouts, clubs, and large family gatherings.",
+              "price": "Call for quote"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Family Farm on Creek Road",
+      "lead": "We're an independent, family-run orchard where the whole point is slowing down and having fun together.",
+      "paragraphs": [
+        "Woody's Orchard & Fun Farm sits on Creek Road in Plano, where the apple rows run long and the fall air smells like cider and cinnamon. From the first crisp pick of the season to the last wagon ride of the day, we put family first, the kind of place where parents bring the kids they used to be brought to themselves.",
+        "Pick your own apples, watch the cider donuts come out warm, lose the kids in the corn maze, and meet the animals in the petting area. Whether you're here for a quiet basket of apples or a full day of farm fun, we'll make sure you leave with full hands and good memories."
+      ],
+      "stats": [
+        {
+          "value": "Pick-Your-Own",
+          "label": "Straight From the Tree"
+        },
+        {
+          "value": "All Ages",
+          "label": "Fun for the Whole Family"
+        },
+        {
+          "value": "Fresh Daily",
+          "label": "Donuts, Cider & Pies"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Gallery",
+      "subheading": "A peek at a day on the farm, from the orchard rows to the bakery counter.",
+      "captions": [
+        "Rows of ripe apples ready to pick",
+        "Warm cider donuts tossed in cinnamon sugar",
+        "Hayride rolling out through the orchard",
+        "Getting lost in the corn maze",
+        "Choosing the perfect pumpkin in the patch",
+        "Saying hello in the petting area"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Families Are Saying",
+      "items": [
+        {
+          "quote": "We come every fall and it never gets old. The cider donuts alone are worth the drive, and the kids beg for the hayride.",
+          "name": "Jessica M.",
+          "role": "Plano Mom"
+        },
+        {
+          "quote": "Took my grandkids apple picking and watched them get happily lost in the corn maze. A perfect family day.",
+          "name": "Tom R.",
+          "role": "Local Grandpa"
+        },
+        {
+          "quote": "Booked a birthday package for my daughter and the whole crew had a blast. Easy to plan and the staff was so kind.",
+          "name": "Andrea S.",
+          "role": "Birthday Mom"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Plan Your Visit",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "time": "9:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "9:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "9:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "9:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "8:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "8:00 AM – 6:00 PM"
+        }
+      ],
+      "phoneLabel": "Call to Plan",
+      "directions": "On Creek Road in Plano with plenty of free farm parking. Call ahead to check daily picking conditions and fall activities before you head out.",
+      "neighborhood": "The farm sits on Creek Road in the open farm country just north of Plano, a short drive from both the city's historic downtown and the Fox River valley where Mies van der Rohe's world-famous Farnsworth House stands."
+    },
+    "cta": {
+      "heading": "Ready for a Day on the Farm?",
+      "text": "Give us a call to check what's ripe, plan your hayride, or reserve a group outing. We can't wait to see you out in the rows.",
+      "button": "Call (630) 247-9300"
+    },
+    "form": {
+      "heading": "Plan Your Visit",
+      "subheading": "Tell us a little about your group and when you'd like to come. We'll help you plan the perfect farm day.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Group Size",
+      "date": "Preferred Date",
+      "message": "What Are You Planning?",
+      "submit": "Send Request",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and will be in touch to help plan your visit.",
+      "error": "Something went wrong. Please try again or give us a call at (630) 247-9300.",
+      "consent": "By submitting, you agree to be contacted about your visit request."
+    },
+    "footer": {
+      "tagline": "Pick-your-own apples, warm cider donuts, and family fun in Plano, IL.",
+      "rights": "© Woody's Orchard & Fun Farm. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Farm Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Woody's Orchard & Fun Farm | Manzanas para Recoger y Donas de Sidra en Plano, IL",
+      "description": "Recoge tus propias manzanas, donas de sidra fresca, paseos en carreta y un laberinto de maíz en Plano, IL. Diversión familiar toda la temporada: (630) 247-9300."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Lo que Ofrecemos",
+      "about": "Nuestra Granja",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Planea tu Visita"
+    },
+    "hero": {
+      "eyebrow": "La Granja y Huerto Familiar de Plano",
+      "title": "Manzanas, Calabazas,",
+      "titleAccent": "Carretas y Recuerdos de Otoño",
+      "subtitle": "Pasa el día en Woody's, donde los manzanos se extienden por hileras enteras, las donas de sidra salen calientes y el laberinto de maíz te espera. Encanto campestre y diversión familiar para todas las generaciones, aquí en Creek Road.",
+      "ctaPrimary": "Ver lo que Ofrecemos",
+      "ctaSecondary": "Llama para tu Visita",
+      "badge": "Negocio familiar · Generaciones de recuerdos"
+    },
+    "highlights": [
+      {
+        "icon": "leaf",
+        "title": "Recoge tus Manzanas",
+        "text": "Recorre las hileras y llena tu bolsa directo del árbol, recogiendo la fruta en su punto más fresco y maduro."
+      },
+      {
+        "icon": "heart",
+        "title": "Donas de Sidra Calientes",
+        "text": "Donas de sidra de manzana hechas a mano, fritas al momento y cubiertas de azúcar con canela mientras aún están calientes."
+      },
+      {
+        "icon": "star",
+        "title": "Diversión de Otoño",
+        "text": "Paseos en carreta, un laberinto de maíz, un campo de calabazas y una zona de animalitos que hacen sonreír a chicos y grandes."
+      },
+      {
+        "icon": "home",
+        "title": "Encanto Campestre",
+        "text": "Una granja familiar acogedora donde las generaciones regresan año tras año a tomarse las cosas con calma y crear nuevos recuerdos."
+      }
+    ],
+    "menu": {
+      "heading": "Lo que Ofrecemos",
+      "subheading": "Las ofertas y los precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar la selección o los precios reales de la granja.",
+      "categories": [
+        {
+          "id": "farm-market",
+          "name": "Mercado de la Granja",
+          "blurb": "Fruta recién cosechada, sidra recién prensada y lo mejor de la cosecha de temporada.",
+          "items": [
+            {
+              "name": "Manzanas por Medida",
+              "desc": "Una medida rebosante de manzanas recogidas a mano en tu variedad favorita, directo de nuestro huerto.",
+              "price": "$18",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bolsa para Recoger",
+              "desc": "Toma una bolsa, ve a los árboles y llénala tú mismo entre las hileras.",
+              "price": "Desde $12",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Sidra Recién Prensada",
+              "desc": "Sidra de manzana fría y dulce, prensada aquí mismo, por vaso o por galón.",
+              "price": "$8",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Productos de Temporada",
+              "desc": "Lo que esté maduro y en temporada, desde elote y calabaza hasta tomates del huerto.",
+              "price": "Precio de mercado"
+            },
+            {
+              "name": "Miel y Mermelada Local",
+              "desc": "Miel local cruda y mermeladas de fruta en lotes pequeños para llevarte un pedacito de la granja a casa.",
+              "price": "$9"
+            }
+          ]
+        },
+        {
+          "id": "bakery",
+          "name": "Panadería",
+          "blurb": "Recién salido del horno y del sartén, horneado a la antigua todos los días.",
+          "items": [
+            {
+              "name": "Donas de Sidra de Manzana",
+              "desc": "Donas de sidra calientes con azúcar y canela, por media docena o por docena.",
+              "price": "$9",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Pays de Fruta Caseros",
+              "desc": "Pays de doble corteza hojaldrada rellenos de manzana, moras o lo que esté en temporada.",
+              "price": "$16",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Manzanas Acarameladas",
+              "desc": "Manzanas crujientes del huerto bañadas en caramelo mantecoso y rodadas en el topping que elijas.",
+              "price": "$6"
+            },
+            {
+              "name": "Panes Recién Horneados",
+              "desc": "Hogazas crujientes y panes dulces horneados al momento en la cocina de la granja.",
+              "price": "$7"
+            },
+            {
+              "name": "Docena de Donas de Sidra",
+              "desc": "Una docena completa de nuestras famosas donas de sidra, perfectas para compartir en el camino a casa.",
+              "price": "$15",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fall-fun",
+          "name": "Diversión de Otoño",
+          "blurb": "Carretas, el laberinto, las calabazas y los animales: todo para un día perfecto en la granja.",
+          "items": [
+            {
+              "name": "Paseo en Carreta",
+              "desc": "Súbete a la carreta para un paseo movido y refrescante por el huerto y los campos.",
+              "price": "$6",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Laberinto de Maíz",
+              "desc": "Abre tu camino por nuestro laberinto de maíz y mira si tu equipo encuentra la salida.",
+              "price": "$8",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Campo de Calabazas",
+              "desc": "Recorre el campo y elige la calabaza perfecta; el precio va según el tamaño en el granero.",
+              "price": "Según tamaño"
+            },
+            {
+              "name": "Zona de Animalitos",
+              "desc": "Saluda a nuestros amigables animales de granja, la parada favorita de los más pequeños.",
+              "price": "Entrada gratis",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Pase de Diversión Todo el Día",
+              "desc": "Paseo en carreta, laberinto de maíz y zona de animalitos juntos en un solo paquete de todo el día.",
+              "price": "$18",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "groups-events",
+          "name": "Grupos y Eventos",
+          "blurb": "Excursiones, fiestas y fogatas fáciles de organizar para todo tu grupo.",
+          "items": [
+            {
+              "name": "Excursiones Escolares",
+              "desc": "Recorridos guiados por la granja y diversión práctica pensados para salones y pequeños exploradores.",
+              "price": "Desde $9 / niño",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Fogata Privada",
+              "desc": "Reserva una acogedora fogata para una tarde con tu grupo, con leña y asientos incluidos.",
+              "price": "Desde $120",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Paquetes de Cumpleaños",
+              "desc": "Un área reservada, paseo en carreta, golosinas y diversión en la granja para el festejado y sus invitados.",
+              "price": "Desde $200",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Salidas de Grupo",
+              "desc": "Precios especiales y un espacio reservado para grupos de scouts, clubes y reuniones familiares grandes.",
+              "price": "Llama para cotizar"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Una Granja Familiar en Creek Road",
+      "lead": "Somos un huerto independiente y familiar donde lo importante es tomarse las cosas con calma y divertirse juntos.",
+      "paragraphs": [
+        "Woody's Orchard & Fun Farm está en Creek Road en Plano, donde las hileras de manzanos se extienden a lo largo y el aire de otoño huele a sidra y canela. Desde la primera cosecha fresca de la temporada hasta el último paseo en carreta del día, ponemos a la familia primero: ese tipo de lugar al que los papás llevan a sus hijos igual que los llevaban a ellos.",
+        "Recoge tus propias manzanas, mira cómo salen calientes las donas de sidra, deja que los niños se pierdan en el laberinto de maíz y conoce a los animales en la zona de animalitos. Ya sea que vengas por una canasta tranquila de manzanas o por un día completo de diversión en la granja, te aseguramos que te irás con las manos llenas y buenos recuerdos."
+      ],
+      "stats": [
+        {
+          "value": "Recoge tú Mismo",
+          "label": "Directo del Árbol"
+        },
+        {
+          "value": "Todas las Edades",
+          "label": "Diversión para Toda la Familia"
+        },
+        {
+          "value": "Fresco a Diario",
+          "label": "Donas, Sidra y Pays"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Galería",
+      "subheading": "Un vistazo a un día en la granja, desde las hileras del huerto hasta el mostrador de la panadería.",
+      "captions": [
+        "Hileras de manzanas maduras listas para recoger",
+        "Donas de sidra calientes con azúcar y canela",
+        "Carreta rodando por el huerto",
+        "Perdiéndose en el laberinto de maíz",
+        "Eligiendo la calabaza perfecta en el campo",
+        "Saludando en la zona de animalitos"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dicen las Familias",
+      "items": [
+        {
+          "quote": "Venimos cada otoño y nunca pasa de moda. Las donas de sidra por sí solas valen el viaje, y los niños ruegan por el paseo en carreta.",
+          "name": "Jessica M.",
+          "role": "Mamá de Plano"
+        },
+        {
+          "quote": "Llevé a mis nietos a recoger manzanas y los vi perderse felices en el laberinto de maíz. Un día familiar perfecto.",
+          "name": "Tom R.",
+          "role": "Abuelo Local"
+        },
+        {
+          "quote": "Reservé un paquete de cumpleaños para mi hija y todo el grupo la pasó increíble. Fácil de organizar y el personal fue muy amable.",
+          "name": "Andrea S.",
+          "role": "Mamá Festejante"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Planea tu Visita",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "Cerrado"
+        },
+        {
+          "day": "Martes",
+          "time": "9:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "9:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "9:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "9:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "8:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "8:00 AM – 6:00 PM"
+        }
+      ],
+      "phoneLabel": "Llama para Planear",
+      "directions": "Sobre Creek Road en Plano, con amplio estacionamiento gratuito en la granja. Llama antes de venir para conocer las condiciones de cosecha del día y las actividades de otoño.",
+      "neighborhood": "La granja está sobre Creek Road, en pleno campo al norte de Plano, a un corto trayecto tanto del centro histórico de la ciudad como del valle del río Fox, donde se alza la mundialmente famosa Casa Farnsworth de Mies van der Rohe."
+    },
+    "cta": {
+      "heading": "¿Listo para un Día en la Granja?",
+      "text": "Llámanos para saber qué está maduro, planear tu paseo en carreta o reservar una salida de grupo. ¡No vemos la hora de verte entre las hileras!",
+      "button": "Llamar al (630) 247-9300"
+    },
+    "form": {
+      "heading": "Planea tu Visita",
+      "subheading": "Cuéntanos un poco sobre tu grupo y cuándo te gustaría venir. Te ayudamos a planear el día perfecto en la granja.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Grupo",
+      "date": "Fecha Preferida",
+      "message": "¿Qué Estás Planeando?",
+      "submit": "Enviar Solicitud",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y nos pondremos en contacto para ayudarte a planear tu visita.",
+      "error": "Algo salió mal. Inténtalo de nuevo o llámanos al (630) 247-9300.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud de visita."
+    },
+    "footer": {
+      "tagline": "Manzanas para recoger, donas de sidra calientes y diversión familiar en Plano, IL.",
+      "rights": "© Woody's Orchard & Fun Farm. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario de la Granja",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

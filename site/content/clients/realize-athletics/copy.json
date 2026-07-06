@@ -1,0 +1,694 @@
+{
+  "business": {
+    "name": "Realize Athletics",
+    "shortName": "Realize",
+    "vertical": "Gym & Training Studio",
+    "phone": "",
+    "phoneHref": "",
+    "address": "432 N. Main Street",
+    "city": "Sycamore",
+    "state": "IL",
+    "zip": "60178",
+    "mapsQuery": "Realize Athletics, 432 N. Main Street, Sycamore, IL 60178",
+    "lat": 41.9928013,
+    "lon": -88.6832387
+  },
+  "en": {
+    "meta": {
+      "title": "Realize Athletics | Gym, Group Classes & Personal Training in Sycamore, IL",
+      "description": "Strength, conditioning, and confidence in Sycamore, IL. Group classes, personal training, and athletic development for every level. Claim your free pass today."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About Us",
+      "gallery": "The Gym",
+      "visit": "Visit",
+      "order": "Start Training"
+    },
+    "hero": {
+      "eyebrow": "Sycamore's Community Gym & Training Studio",
+      "title": "Show Up, Get Strong,",
+      "titleAccent": "Realize What You're Capable Of",
+      "subtitle": "Coaches who know your name and a community that has your back. From NIU athletes to busy parents to total beginners, we build strength, conditioning, and confidence right here on North Main Street.",
+      "ctaPrimary": "View Services",
+      "ctaSecondary": "Claim Your Free Pass",
+      "badge": "Your first session is on us. No pressure, no contracts."
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Coaching That Pushes You",
+        "text": "Real coaches who learn your name, your goals, and exactly how hard to push to get you results."
+      },
+      {
+        "icon": "gauge",
+        "title": "Strength & Conditioning",
+        "text": "Programmed lifting, HIIT, and conditioning that build power, endurance, and everyday energy."
+      },
+      {
+        "icon": "heart",
+        "title": "Welcoming Community",
+        "text": "From day-one beginners to seasoned athletes, you'll find a crew that cheers every rep with you."
+      },
+      {
+        "icon": "star",
+        "title": "Built for Every Level",
+        "text": "NIU athletes, busy parents, and first-timers all train side by side, scaled to where you are today."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Memberships, programs, and prices shown are illustrative demo content for this concept site and may not reflect the gym's actual offerings.",
+      "categories": [
+        {
+          "id": "memberships",
+          "name": "Memberships",
+          "blurb": "Flexible ways to train, from a single visit to unlimited access for the whole family.",
+          "items": [
+            {
+              "name": "Monthly Unlimited",
+              "desc": "Unlimited group classes, open gym, and all the equipment, month to month with no contract.",
+              "price": "$49/mo",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Day Pass",
+              "desc": "Drop in for a single day of classes and open gym access while you're in town.",
+              "price": "$15",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Student / NIU Rate",
+              "desc": "Full unlimited access at a college-friendly price for students with a valid ID.",
+              "price": "$39/mo",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Family Membership",
+              "desc": "Unlimited access for two or more household members, priced to keep everyone moving.",
+              "price": "From $89/mo",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Free First Session",
+              "desc": "Try any class or a coached intro workout on the house, no membership required.",
+              "price": "Free",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group-classes",
+          "name": "Group Classes",
+          "blurb": "Coach-led workouts with great energy, scalable for every fitness level.",
+          "items": [
+            {
+              "name": "HIIT Bootcamp",
+              "desc": "High-intensity intervals that torch calories and build serious conditioning in 45 minutes.",
+              "price": "$18 drop-in",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Strength & Barbell",
+              "desc": "Coached squat, press, and deadlift programming to build real, lasting strength.",
+              "price": "$20 drop-in",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Mobility & Recovery",
+              "desc": "Guided stretching, mobility drills, and recovery work to keep you moving pain-free.",
+              "price": "$15 drop-in"
+            },
+            {
+              "name": "Conditioning / MetCon",
+              "desc": "Heart-pumping metabolic circuits that mix cardio and strength for full-body burn.",
+              "price": "$18 drop-in"
+            },
+            {
+              "name": "Open Gym Access",
+              "desc": "Train on your own schedule with full access to equipment and floor space.",
+              "price": "Included",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "personal-training",
+          "name": "Personal Training",
+          "blurb": "One-on-one and small-group coaching built around your goals and your timeline.",
+          "items": [
+            {
+              "name": "Intro Assessment",
+              "desc": "A free movement screen and goal-setting session to map out your training plan.",
+              "price": "Free",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "1-on-1 Personal Training",
+              "desc": "Fully personalized coaching and programming with a dedicated trainer in your corner.",
+              "price": "From $55",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Small-Group Training",
+              "desc": "Semi-private sessions of two to four, all the coaching at a friendlier price.",
+              "price": "From $30",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Training Package",
+              "desc": "A bundle of one-on-one sessions to lock in your routine and your results.",
+              "price": "From $300",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "athletic-development",
+          "name": "Athletic Development",
+          "blurb": "Sport-specific training to help young and competitive athletes level up.",
+          "items": [
+            {
+              "name": "Youth Athlete Development",
+              "desc": "Age-appropriate strength and movement coaching that builds confident young athletes.",
+              "price": "From $45",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Sport-Specific Training",
+              "desc": "Targeted programming for your sport, from in-season maintenance to off-season gains.",
+              "price": "From $60",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Speed & Agility",
+              "desc": "Sprint mechanics, footwork, and explosive drills to make you faster on game day.",
+              "price": "From $35"
+            },
+            {
+              "name": "Off-Season Strength",
+              "desc": "Periodized strength and power blocks to come back bigger, faster, and more durable.",
+              "price": "From $50"
+            },
+            {
+              "name": "Team Training Block",
+              "desc": "Group sessions built for a full team or squad, scheduled around your season.",
+              "price": "From $200",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "More Than a Gym, It's Your Crew",
+      "lead": "Realize Athletics is an independent gym and training studio built on coaching, community, and real results.",
+      "paragraphs": [
+        "Right on North Main Street in Sycamore, Realize Athletics is where NIU athletes, busy parents, and first-time lifters all train under the same roof. Our coaches learn your name, your goals, and what gets you fired up, then meet you exactly where you are. There's no judgment here, just a community that shows up and pushes each other to be better.",
+        "Whether you're chasing a personal record, getting back in shape after a long break, or training for your sport, we'll build a plan that fits your life. Strength, conditioning, and confidence aren't slogans to us, they're what you walk out with every time you train."
+      ],
+      "stats": [
+        {
+          "value": "All Levels",
+          "label": "Beginners to Athletes"
+        },
+        {
+          "value": "Free",
+          "label": "First Session"
+        },
+        {
+          "value": "Sycamore",
+          "label": "Locally Owned"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside the Gym",
+      "subheading": "A look at the training floor, the classes, and the community that makes Realize Athletics move.",
+      "captions": [
+        "Loaded barbells on the strength platforms",
+        "HIIT bootcamp in full swing",
+        "One-on-one coaching on the training floor",
+        "Speed and agility ladder drills",
+        "Mobility and recovery in the studio",
+        "The crew celebrating a new PR"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Sycamore Is Saying",
+      "items": [
+        {
+          "quote": "I walked in nervous as a total beginner and the coaches made me feel at home day one. Down 20 pounds and stronger than ever.",
+          "name": "Brittany K.",
+          "role": "Member Since This Year"
+        },
+        {
+          "quote": "The strength programming is no joke. My lifts have gone up across the board and the community keeps me showing up.",
+          "name": "Marcus D.",
+          "role": "NIU Athlete"
+        },
+        {
+          "quote": "Between work and the kids, the early classes are a lifesaver. Coaches who actually know me make all the difference.",
+          "name": "Jenna R.",
+          "role": "Busy Parent"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Gym",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "5:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "time": "5:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "5:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "5:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "5:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "7:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "8:00 AM – 2:00 PM"
+        }
+      ],
+      "phoneLabel": "Get Started",
+      "directions": "On North Main Street in downtown Sycamore with easy parking nearby. Stop in for a tour or claim your free pass to try a class first.",
+      "neighborhood": "The gym is on North Main Street, a few blocks north of Sycamore's courthouse square and the historic storefronts of downtown State Street."
+    },
+    "cta": {
+      "heading": "Ready to Realize Your Potential?",
+      "text": "Your first session is free, no contracts and no pressure. Come see what training with a real community feels like.",
+      "button": "Claim Your Free Pass"
+    },
+    "form": {
+      "heading": "Start Training",
+      "subheading": "Tell us your goals and we'll set you up with your free first session and the right program to get there.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Goal or Program",
+      "date": "Preferred Date & Time",
+      "message": "Anything Else?",
+      "submit": "Claim Your Free Pass",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and a coach will reach out to book your free session.",
+      "error": "Something went wrong. Please try again or stop by the gym.",
+      "consent": "By submitting, you agree to be contacted about your free session and membership."
+    },
+    "footer": {
+      "tagline": "Strength, conditioning, and confidence in the heart of Sycamore.",
+      "rights": "© Realize Athletics. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Gym Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Realize Athletics | Gimnasio, Clases Grupales y Entrenamiento Personal en Sycamore, IL",
+      "description": "Fuerza, acondicionamiento y confianza en Sycamore, IL. Clases grupales, entrenamiento personal y desarrollo atlético para todo nivel. Reclama tu pase gratis."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "El Gimnasio",
+      "visit": "Visítanos",
+      "order": "Empieza Ahora"
+    },
+    "hero": {
+      "eyebrow": "El Gimnasio y Estudio de Entrenamiento de Sycamore",
+      "title": "Llega, Hazte Fuerte,",
+      "titleAccent": "Descubre de Lo que Eres Capaz",
+      "subtitle": "Entrenadores que se saben tu nombre y una comunidad que te respalda. Desde atletas de NIU hasta padres ocupados y principiantes totales, construimos fuerza, acondicionamiento y confianza aquí mismo en North Main Street.",
+      "ctaPrimary": "Ver Servicios",
+      "ctaSecondary": "Reclama tu Pase Gratis",
+      "badge": "Tu primera sesión va por nuestra cuenta. Sin presión, sin contratos."
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Entrenamiento que te Impulsa",
+        "text": "Entrenadores de verdad que aprenden tu nombre, tus metas y cuánto exigirte para que veas resultados."
+      },
+      {
+        "icon": "gauge",
+        "title": "Fuerza y Acondicionamiento",
+        "text": "Levantamiento programado, HIIT y acondicionamiento que dan potencia, resistencia y energía para el día a día."
+      },
+      {
+        "icon": "heart",
+        "title": "Comunidad Acogedora",
+        "text": "Desde principiantes del primer día hasta atletas experimentados, encontrarás un equipo que celebra cada repetición contigo."
+      },
+      {
+        "icon": "star",
+        "title": "Hecho para Todos los Niveles",
+        "text": "Atletas de NIU, padres ocupados y novatos entrenan lado a lado, todo adaptado a donde estás hoy."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Las membresías, los programas y los precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar la oferta real del gimnasio.",
+      "categories": [
+        {
+          "id": "memberships",
+          "name": "Membresías",
+          "blurb": "Formas flexibles de entrenar, desde una sola visita hasta acceso ilimitado para toda la familia.",
+          "items": [
+            {
+              "name": "Mensualidad Ilimitada",
+              "desc": "Clases grupales ilimitadas, gimnasio abierto y todo el equipo, mes a mes y sin contrato.",
+              "price": "$49/mes",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pase por Día",
+              "desc": "Pásate por un solo día de clases y acceso al gimnasio mientras andas por la ciudad.",
+              "price": "$15",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Tarifa Estudiantil / NIU",
+              "desc": "Acceso ilimitado completo a precio universitario para estudiantes con identificación válida.",
+              "price": "$39/mes",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Membresía Familiar",
+              "desc": "Acceso ilimitado para dos o más miembros del hogar, a un precio que mantiene a todos en movimiento.",
+              "price": "Desde $89/mes",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Primera Sesión Gratis",
+              "desc": "Prueba cualquier clase o un entrenamiento de iniciación con entrenador, sin necesidad de membresía.",
+              "price": "Gratis",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group-classes",
+          "name": "Clases Grupales",
+          "blurb": "Entrenamientos guiados por entrenadores, con mucha energía y adaptables a todos los niveles.",
+          "items": [
+            {
+              "name": "Bootcamp HIIT",
+              "desc": "Intervalos de alta intensidad que queman calorías y crean un acondicionamiento serio en 45 minutos.",
+              "price": "$18 por clase",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Fuerza y Barra",
+              "desc": "Programación guiada de sentadilla, press y peso muerto para desarrollar fuerza real y duradera.",
+              "price": "$20 por clase",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Movilidad y Recuperación",
+              "desc": "Estiramientos guiados, ejercicios de movilidad y trabajo de recuperación para moverte sin dolor.",
+              "price": "$15 por clase"
+            },
+            {
+              "name": "Acondicionamiento / MetCon",
+              "desc": "Circuitos metabólicos intensos que mezclan cardio y fuerza para un quemado de cuerpo completo.",
+              "price": "$18 por clase"
+            },
+            {
+              "name": "Acceso a Gimnasio Abierto",
+              "desc": "Entrena a tu propio ritmo con acceso completo al equipo y al espacio del gimnasio.",
+              "price": "Incluido",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "personal-training",
+          "name": "Entrenamiento Personal",
+          "blurb": "Entrenamiento uno a uno y en grupos pequeños, diseñado en torno a tus metas y tu ritmo.",
+          "items": [
+            {
+              "name": "Evaluación Inicial",
+              "desc": "Una evaluación de movimiento y sesión de metas gratuita para trazar tu plan de entrenamiento.",
+              "price": "Gratis",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Entrenamiento 1 a 1",
+              "desc": "Entrenamiento y programación totalmente personalizados con un entrenador dedicado de tu lado.",
+              "price": "Desde $55",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Entrenamiento en Grupo Pequeño",
+              "desc": "Sesiones semiprivadas de dos a cuatro personas, todo el entrenamiento a un precio más amigable.",
+              "price": "Desde $30",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Paquete de Entrenamiento",
+              "desc": "Un paquete de sesiones uno a uno para afianzar tu rutina y tus resultados.",
+              "price": "Desde $300",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "athletic-development",
+          "name": "Desarrollo Atlético",
+          "blurb": "Entrenamiento específico por deporte para que los atletas jóvenes y competitivos suban de nivel.",
+          "items": [
+            {
+              "name": "Desarrollo del Atleta Joven",
+              "desc": "Entrenamiento de fuerza y movimiento adecuado a la edad que forma atletas jóvenes seguros.",
+              "price": "Desde $45",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Entrenamiento por Deporte",
+              "desc": "Programación enfocada en tu deporte, desde el mantenimiento en temporada hasta las ganancias de pretemporada.",
+              "price": "Desde $60",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Velocidad y Agilidad",
+              "desc": "Mecánica de sprint, juego de pies y ejercicios explosivos para hacerte más rápido el día del partido.",
+              "price": "Desde $35"
+            },
+            {
+              "name": "Fuerza de Pretemporada",
+              "desc": "Bloques periodizados de fuerza y potencia para volver más grande, más rápido y más resistente.",
+              "price": "Desde $50"
+            },
+            {
+              "name": "Bloque de Entrenamiento de Equipo",
+              "desc": "Sesiones grupales hechas para un equipo completo, programadas en torno a tu temporada.",
+              "price": "Desde $200",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Más que un Gimnasio, es Tu Equipo",
+      "lead": "Realize Athletics es un gimnasio y estudio de entrenamiento independiente, construido sobre el entrenamiento, la comunidad y los resultados reales.",
+      "paragraphs": [
+        "Justo en North Main Street en Sycamore, Realize Athletics es donde los atletas de NIU, los padres ocupados y los principiantes entrenan bajo el mismo techo. Nuestros entrenadores aprenden tu nombre, tus metas y lo que te motiva, y te reciben justo donde estás. Aquí no hay juicios, solo una comunidad que se presenta y se impulsa a ser mejor.",
+        "Ya sea que busques un récord personal, vuelvas a ponerte en forma después de una larga pausa o entrenes para tu deporte, armaremos un plan que se ajuste a tu vida. La fuerza, el acondicionamiento y la confianza no son lemas para nosotros, son lo que te llevas cada vez que entrenas."
+      ],
+      "stats": [
+        {
+          "value": "Todos los Niveles",
+          "label": "De Principiantes a Atletas"
+        },
+        {
+          "value": "Gratis",
+          "label": "Primera Sesión"
+        },
+        {
+          "value": "Sycamore",
+          "label": "Negocio Local"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Por Dentro del Gimnasio",
+      "subheading": "Un vistazo al área de entrenamiento, las clases y la comunidad que hace mover a Realize Athletics.",
+      "captions": [
+        "Barras cargadas en las plataformas de fuerza",
+        "Bootcamp HIIT a todo dar",
+        "Entrenamiento uno a uno en el área de entrenamiento",
+        "Ejercicios de escalera de velocidad y agilidad",
+        "Movilidad y recuperación en el estudio",
+        "El equipo celebrando un nuevo récord"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice Sycamore",
+      "items": [
+        {
+          "quote": "Entré nerviosa como principiante total y los entrenadores me hicieron sentir en casa desde el primer día. Bajé 20 libras y estoy más fuerte que nunca.",
+          "name": "Brittany K.",
+          "role": "Miembro Desde Este Año"
+        },
+        {
+          "quote": "La programación de fuerza es en serio. Mis levantamientos han subido en todo y la comunidad me hace seguir viniendo.",
+          "name": "Marcus D.",
+          "role": "Atleta de NIU"
+        },
+        {
+          "quote": "Entre el trabajo y los niños, las clases temprano son una salvación. Tener entrenadores que de verdad me conocen hace toda la diferencia.",
+          "name": "Jenna R.",
+          "role": "Mamá Ocupada"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita el Gimnasio",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "5:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Martes",
+          "time": "5:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "5:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "5:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "5:00 AM – 8:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "7:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "8:00 AM – 2:00 PM"
+        }
+      ],
+      "phoneLabel": "Empieza",
+      "directions": "Sobre North Main Street en el centro de Sycamore, con estacionamiento fácil cerca. Pásate por un recorrido o reclama tu pase gratis para probar una clase primero.",
+      "neighborhood": "El gimnasio está sobre North Main Street, a pocas cuadras al norte de la plaza del tribunal de Sycamore y de las fachadas históricas del centro en State Street."
+    },
+    "cta": {
+      "heading": "¿Listo para Descubrir tu Potencial?",
+      "text": "Tu primera sesión es gratis, sin contratos y sin presión. Ven a ver cómo se siente entrenar con una comunidad de verdad.",
+      "button": "Reclama tu Pase Gratis"
+    },
+    "form": {
+      "heading": "Empieza Ahora",
+      "subheading": "Cuéntanos tus metas y te conectamos con tu primera sesión gratis y el programa correcto para llegar ahí.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Meta o Programa",
+      "date": "Fecha y Hora Preferida",
+      "message": "¿Algo Más?",
+      "submit": "Reclama tu Pase Gratis",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y un entrenador se comunicará para agendar tu sesión gratis.",
+      "error": "Algo salió mal. Inténtalo de nuevo o pásate por el gimnasio.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu sesión gratis y tu membresía."
+    },
+    "footer": {
+      "tagline": "Fuerza, acondicionamiento y confianza en el corazón de Sycamore.",
+      "rights": "© Realize Athletics. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario del Gimnasio",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

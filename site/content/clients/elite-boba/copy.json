@@ -1,0 +1,703 @@
+{
+  "business": {
+    "name": "Elite Boba",
+    "shortName": "Elite Boba",
+    "vertical": "Bubble Tea & Boba Shop",
+    "phone": "",
+    "phoneHref": "",
+    "address": "26 West Jefferson Avenue",
+    "city": "Naperville",
+    "state": "IL",
+    "zip": "60540",
+    "mapsQuery": "Elite Boba, 26 West Jefferson Avenue, Naperville, IL 60540",
+    "lat": 41.7727593,
+    "lon": -88.1488401,
+    "cuisine": "Bubble Tea"
+  },
+  "en": {
+    "meta": {
+      "title": "Elite Boba | Bubble Tea & Boba Shop in Downtown Naperville, IL",
+      "description": "Bright, fun bubble tea shop on Jefferson Avenue in downtown Naperville, near the Riverwalk. Silky milk teas, fresh fruit teas, and chewy boba made your way."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Order Ahead"
+    },
+    "hero": {
+      "eyebrow": "Downtown Naperville · Boba Made Your Way",
+      "title": "Silky Milk Teas &",
+      "titleAccent": "Chewy Boba, Made Your Way",
+      "subtitle": "A bright, fun bubble tea spot in downtown Naperville, silky milk teas, fresh fruit teas, and chewy boba made just for you. Pick your sweetness, your ice, and your toppings, then grab a seat with friends.",
+      "ctaPrimary": "See the Menu",
+      "ctaSecondary": "Visit Us in Naperville",
+      "badge": "Customize Your Sweetness & Ice · Fresh Toppings · Made to Order"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Made Your Way",
+        "text": "Pick your sweetness level, your ice, and your toppings, every cup is built exactly the way you like it."
+      },
+      {
+        "icon": "heart",
+        "title": "Chewy, Fresh Boba",
+        "text": "Tapioca pearls cooked fresh in small batches all day for that perfectly chewy, just-right bite."
+      },
+      {
+        "icon": "star",
+        "title": "Silky Teas, Real Fruit",
+        "text": "Smooth, creamy milk teas and bright fruit teas made with real fruit and quality tea leaves."
+      },
+      {
+        "icon": "snowflake",
+        "title": "A Spot to Hang Out",
+        "text": "A bright, friendly space in the heart of downtown Naperville to sip, relax, and catch up with friends."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Drinks and prices shown are illustrative demo content for this sample site. Come in to see our current menu, flavors, and seasonal specials.",
+      "categories": [
+        {
+          "id": "milk-teas",
+          "name": "Milk Teas",
+          "blurb": "Silky, creamy classics, customize your sweetness and ice, then add chewy boba.",
+          "items": [
+            {
+              "name": "Classic Milk Tea",
+              "desc": "Our signature black tea blended with creamy milk, smooth, balanced, and made for boba.",
+              "price": "$5.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Taro Milk Tea",
+              "desc": "Sweet, nutty taro blended with silky milk for that dreamy purple, crowd-favorite cup.",
+              "price": "$5.75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Brown Sugar Boba Milk",
+              "desc": "Fresh milk swirled with warm brown sugar syrup and chewy pearls, rich and caramelly.",
+              "price": "$6.25",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Matcha Milk Tea",
+              "desc": "Stone-ground matcha whisked with creamy milk for a smooth, earthy, lightly sweet sip.",
+              "price": "$5.95",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Thai Milk Tea",
+              "desc": "Bold, aromatic Thai tea with creamy milk and a touch of sweetness, vibrant and refreshing.",
+              "price": "$5.75",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fruit-teas",
+          "name": "Fruit Teas",
+          "blurb": "Light, bright, and refreshing, real fruit shaken with quality tea over ice.",
+          "items": [
+            {
+              "name": "Mango Green Tea",
+              "desc": "Juicy mango shaken with fragrant green tea, bright, tropical, and endlessly refreshing.",
+              "price": "$5.75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Strawberry Fruit Tea",
+              "desc": "Fresh strawberry blended with light tea for a sweet, fruity sip that tastes like summer.",
+              "price": "$5.95",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Passionfruit Tea",
+              "desc": "Tangy passionfruit over jasmine green tea, bright, zesty, and bursting with flavor.",
+              "price": "$5.75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Lychee Tea",
+              "desc": "Sweet, floral lychee shaken with chilled tea, delicate, fragrant, and super refreshing.",
+              "price": "$5.75",
+              "tags": []
+            },
+            {
+              "name": "Peach Oolong Tea",
+              "desc": "Ripe peach paired with smooth roasted oolong, lightly sweet with a fragrant finish.",
+              "price": "$5.95",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "specialty-smoothies",
+          "name": "Specialty & Smoothies",
+          "blurb": "Cheese foam, frosty slushes, and coffee boba, a little something extra special.",
+          "items": [
+            {
+              "name": "Cheese Foam Tea",
+              "desc": "Your choice of tea crowned with a salted-sweet, velvety cheese foam, sip through for the full effect.",
+              "price": "$6.25",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Mango Slush",
+              "desc": "Blended ice and real mango for a frosty, tropical treat, add popping boba for extra fun.",
+              "price": "$6.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Strawberry Slush",
+              "desc": "Sweet strawberries blended with ice into a cool, vibrant slush, refreshing on a warm day.",
+              "price": "$6.50",
+              "tags": []
+            },
+            {
+              "name": "Coffee Boba",
+              "desc": "Smooth iced coffee with creamy milk and chewy brown sugar pearls, a caffeinated boba treat.",
+              "price": "$5.95",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Taro Smoothie",
+              "desc": "Creamy taro blended with ice into a thick, sweet smoothie, dreamy, nutty, and oh-so-smooth.",
+              "price": "$6.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "toppings-extras",
+          "name": "Toppings & Extras",
+          "blurb": "Make any drink yours, add chewy pearls, juicy popping boba, jelly, and more.",
+          "items": [
+            {
+              "name": "Tapioca Pearls (Boba)",
+              "desc": "Classic chewy tapioca pearls cooked fresh all day, the boba that started it all.",
+              "price": "$0.75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Popping Boba",
+              "desc": "Juicy fruit-filled pearls that burst with flavor in every bite, fun in any drink.",
+              "price": "$0.75",
+              "tags": []
+            },
+            {
+              "name": "Lychee Jelly",
+              "desc": "Light, springy lychee jelly with a sweet, floral flavor and a satisfying bite.",
+              "price": "$0.75",
+              "tags": []
+            },
+            {
+              "name": "Egg Pudding",
+              "desc": "Soft, silky house pudding with a custardy sweetness that melts right into your tea.",
+              "price": "$0.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Cheese Foam",
+              "desc": "A thick, salted-sweet cheese foam cap to top any tea, creamy with the perfect savory edge.",
+              "price": "$1.25",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Aloe Vera",
+              "desc": "Cool, crunchy aloe cubes that add a refreshing, lightly sweet texture to fruit teas.",
+              "price": "$0.75",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Boba Made Your Way in Downtown Naperville",
+      "lead": "Elite Boba is a bright, fun bubble tea shop in the heart of downtown Naperville, silky milk teas, fresh fruit teas, and chewy boba made exactly the way you like it.",
+      "paragraphs": [
+        "We keep it simple and we keep it fresh: quality tea leaves, real fruit, and tapioca pearls cooked in small batches all day long. Every cup is built around you, pick your sweetness, choose your ice, and pile on the toppings, from classic chewy boba to juicy popping pearls and silky pudding.",
+        "More than a drink, it's a place to hang out. Pull up a seat with friends, try something new off the menu, and make our bright little corner of Jefferson Avenue your go-to boba spot in Naperville."
+      ],
+      "stats": [
+        {
+          "value": "Made to Order",
+          "label": "Your Sweetness & Ice"
+        },
+        {
+          "value": "Fresh Daily",
+          "label": "Boba Cooked in Small Batches"
+        },
+        {
+          "value": "Downtown",
+          "label": "In the Heart of Naperville"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside Elite Boba",
+      "subheading": "A peek at the silky teas, chewy boba, and bright, friendly space waiting for you downtown.",
+      "captions": [
+        "A creamy brown sugar boba milk with that signature swirl",
+        "Chewy tapioca pearls cooked fresh in small batches",
+        "A bright fruit tea loaded with real fruit and ice",
+        "Velvety cheese foam crowning a freshly shaken tea",
+        "Colorful popping boba ready to top your drink",
+        "Our bright, friendly corner in downtown Naperville"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Naperville Is Saying",
+      "items": [
+        {
+          "quote": "My favorite boba spot downtown. The brown sugar milk is unreal and I love that I can set my own sweetness. The pearls are always perfectly chewy.",
+          "name": "Emily C.",
+          "role": "Regular customer"
+        },
+        {
+          "quote": "We come here after school all the time. Fun flavors, friendly staff, and a great place to hang out with friends. The mango slush is the best.",
+          "name": "Jason L.",
+          "role": "Local student"
+        },
+        {
+          "quote": "Finally a boba shop that gets it right. Fresh fruit teas, real cheese foam, and they actually nail the sweetness every time. My new go-to.",
+          "name": "Priya N.",
+          "role": "Boba lover"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Downtown Naperville",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "11:00 AM - 9:00 PM"
+        },
+        {
+          "day": "Friday - Saturday",
+          "time": "11:00 AM - 10:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "12:00 PM - 8:00 PM"
+        }
+      ],
+      "phoneLabel": "Stop By",
+      "directions": "Find us at 26 West Jefferson Avenue in the heart of downtown Naperville. Stop in, customize your sweetness and ice, pick your toppings, and grab a seat with friends.",
+      "neighborhood": "The shop sits on Jefferson Avenue in the walkable heart of downtown Naperville's shopping district, a short stroll from the Riverwalk's brick paths and covered bridges along the DuPage River."
+    },
+    "cta": {
+      "heading": "Ready for Boba?",
+      "text": "Come see us in downtown Naperville, pick your sweetness, your ice, and your toppings, and we'll make your perfect cup of boba right to order.",
+      "button": "See the Menu"
+    },
+    "form": {
+      "heading": "Send Us a Message",
+      "subheading": "Have a question about our flavors, catering boba for a party, or a group order? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Group Size",
+      "date": "Preferred Date/Time",
+      "message": "How can we help? Tell us about your order or question.",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We received your message and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "A bright, fun bubble tea shop in downtown Naperville, silky milk teas, fresh fruit teas, and chewy boba made your way.",
+      "rights": "© Elite Boba. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Elite Boba | Bubble Tea y Boba en el Centro de Naperville, IL",
+      "description": "Tienda de bubble tea alegre en Jefferson Avenue, en el centro de Naperville, cerca del Riverwalk. Tés con leche sedosos, tés de fruta fresca y boba a tu gusto."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Ordenar"
+    },
+    "hero": {
+      "eyebrow": "Centro de Naperville · Boba a Tu Gusto",
+      "title": "Tés con Leche Sedosos y",
+      "titleAccent": "Boba Masticable, a Tu Gusto",
+      "subtitle": "Una tienda de bubble tea alegre y divertida en el centro de Naperville, tés con leche sedosos, tés de fruta fresca y boba masticable hecha justo para ti. Elige tu dulzor, tu hielo y tus toppings, y toma asiento con amigos.",
+      "ctaPrimary": "Ver el Menú",
+      "ctaSecondary": "Visítanos en Naperville",
+      "badge": "Personaliza tu Dulzor y Hielo · Toppings Frescos · Hecho al Momento"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "A Tu Gusto",
+        "text": "Elige tu nivel de dulzor, tu hielo y tus toppings, cada vaso se arma exactamente como te gusta."
+      },
+      {
+        "icon": "heart",
+        "title": "Boba Fresca y Masticable",
+        "text": "Perlas de tapioca cocidas frescas en lotes pequeños todo el día para ese mordisco perfectamente masticable."
+      },
+      {
+        "icon": "star",
+        "title": "Tés Sedosos, Fruta Real",
+        "text": "Tés con leche suaves y cremosos y tés de fruta brillantes hechos con fruta real y hojas de té de calidad."
+      },
+      {
+        "icon": "snowflake",
+        "title": "Un Lugar para Convivir",
+        "text": "Un espacio alegre y acogedor en el corazón del centro de Naperville para tomar, relajarte y convivir con amigos."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Las bebidas y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Pásate a conocer nuestro menú, sabores y especiales de temporada actuales.",
+      "categories": [
+        {
+          "id": "milk-teas",
+          "name": "Tés con Leche",
+          "blurb": "Clásicos sedosos y cremosos, personaliza tu dulzor y hielo, y agrega boba masticable.",
+          "items": [
+            {
+              "name": "Té con Leche Clásico",
+              "desc": "Nuestro té negro de la casa mezclado con leche cremosa, suave, equilibrado y hecho para la boba.",
+              "price": "$5.25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Té con Leche de Taro",
+              "desc": "Taro dulce y con sabor a nuez mezclado con leche sedosa para ese vaso morado de ensueño, favorito de todos.",
+              "price": "$5.75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Leche con Boba y Azúcar Morena",
+              "desc": "Leche fresca con jarabe cálido de azúcar morena y perlas masticables, rico y acaramelado.",
+              "price": "$6.25",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Té con Leche de Matcha",
+              "desc": "Matcha molido en piedra batido con leche cremosa para un sorbo suave, terroso y ligeramente dulce.",
+              "price": "$5.95",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Té Tailandés con Leche",
+              "desc": "Té tailandés intenso y aromático con leche cremosa y un toque dulce, vibrante y refrescante.",
+              "price": "$5.75",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fruit-teas",
+          "name": "Tés de Fruta",
+          "blurb": "Ligeros, brillantes y refrescantes, fruta real agitada con té de calidad sobre hielo.",
+          "items": [
+            {
+              "name": "Té Verde de Mango",
+              "desc": "Mango jugoso agitado con té verde fragante, brillante, tropical e infinitamente refrescante.",
+              "price": "$5.75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Té de Fresa",
+              "desc": "Fresa fresca mezclada con té ligero para un sorbo dulce y frutal que sabe a verano.",
+              "price": "$5.95",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Té de Maracuyá",
+              "desc": "Maracuyá ácido sobre té verde de jazmín, brillante, vivaz y lleno de sabor.",
+              "price": "$5.75",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Té de Lichi",
+              "desc": "Lichi dulce y floral agitado con té frío, delicado, fragante y súper refrescante.",
+              "price": "$5.75",
+              "tags": []
+            },
+            {
+              "name": "Té de Durazno y Oolong",
+              "desc": "Durazno maduro combinado con suave oolong tostado, ligeramente dulce y con un final fragante.",
+              "price": "$5.95",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "specialty-smoothies",
+          "name": "Especiales y Smoothies",
+          "blurb": "Espuma de queso, slushes heladas y boba de café, algo un poco más especial.",
+          "items": [
+            {
+              "name": "Té con Espuma de Queso",
+              "desc": "El té de tu elección coronado con una aterciopelada espuma de queso dulce y salada, sórbelo atravesando la espuma para la experiencia completa.",
+              "price": "$6.25",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Slush de Mango",
+              "desc": "Hielo licuado con mango real para un antojo helado y tropical, agrega popping boba para más diversión.",
+              "price": "$6.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Slush de Fresa",
+              "desc": "Fresas dulces licuadas con hielo en una slush fresca y vibrante, refrescante en un día caluroso.",
+              "price": "$6.50",
+              "tags": []
+            },
+            {
+              "name": "Boba de Café",
+              "desc": "Café helado suave con leche cremosa y perlas masticables de azúcar morena, un antojo de boba con cafeína.",
+              "price": "$5.95",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Smoothie de Taro",
+              "desc": "Taro cremoso licuado con hielo en un smoothie espeso y dulce, de ensueño, con sabor a nuez y muy suave.",
+              "price": "$6.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "toppings-extras",
+          "name": "Toppings y Extras",
+          "blurb": "Haz tuya cualquier bebida, agrega perlas masticables, popping boba jugoso, jelly y más.",
+          "items": [
+            {
+              "name": "Perlas de Tapioca (Boba)",
+              "desc": "Perlas clásicas de tapioca masticables cocidas frescas todo el día, la boba que lo empezó todo.",
+              "price": "$0.75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Popping Boba",
+              "desc": "Perlas jugosas rellenas de fruta que estallan de sabor en cada mordisco, divertidas en cualquier bebida.",
+              "price": "$0.75",
+              "tags": []
+            },
+            {
+              "name": "Jelly de Lichi",
+              "desc": "Jelly de lichi ligero y elástico con un sabor dulce y floral y una textura satisfactoria.",
+              "price": "$0.75",
+              "tags": []
+            },
+            {
+              "name": "Pudín de Huevo",
+              "desc": "Pudín suave y sedoso de la casa con un dulzor cremoso que se deshace en tu té.",
+              "price": "$0.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Espuma de Queso",
+              "desc": "Una capa espesa de espuma de queso dulce y salada para coronar cualquier té, cremosa con el toque salado perfecto.",
+              "price": "$1.25",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Aloe Vera",
+              "desc": "Cubos de aloe frescos y crujientes que dan una textura refrescante y ligeramente dulce a los tés de fruta.",
+              "price": "$0.75",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Boba a Tu Gusto en el Centro de Naperville",
+      "lead": "Elite Boba es una tienda de bubble tea alegre y divertida en el corazón del centro de Naperville, tés con leche sedosos, tés de fruta fresca y boba masticable hecha justo como te gusta.",
+      "paragraphs": [
+        "Lo mantenemos simple y lo mantenemos fresco: hojas de té de calidad, fruta real y perlas de tapioca cocidas en lotes pequeños durante todo el día. Cada vaso se arma alrededor de ti, elige tu dulzor, escoge tu hielo y agrega los toppings, desde la boba masticable clásica hasta las jugosas perlas popping y el pudín sedoso.",
+        "Más que una bebida, es un lugar para convivir. Toma asiento con amigos, prueba algo nuevo del menú y haz de nuestro alegre rinconcito en Jefferson Avenue tu lugar favorito de boba en Naperville."
+      ],
+      "stats": [
+        {
+          "value": "Hecho al Momento",
+          "label": "Tu Dulzor y Hielo"
+        },
+        {
+          "value": "Fresco a Diario",
+          "label": "Boba Cocida en Lotes Pequeños"
+        },
+        {
+          "value": "El Centro",
+          "label": "En el Corazón de Naperville"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Dentro de Elite Boba",
+      "subheading": "Un vistazo a los tés sedosos, la boba masticable y el espacio alegre y acogedor que te esperan en el centro.",
+      "captions": [
+        "Una cremosa leche con boba y azúcar morena con ese remolino característico",
+        "Perlas de tapioca masticables cocidas frescas en lotes pequeños",
+        "Un té de fruta brillante cargado de fruta real y hielo",
+        "Aterciopelada espuma de queso coronando un té recién agitado",
+        "Coloridas popping boba listas para coronar tu bebida",
+        "Nuestro rincón alegre y acogedor en el centro de Naperville"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice Naperville",
+      "items": [
+        {
+          "quote": "Mi lugar favorito de boba en el centro. La leche de azúcar morena es increíble y me encanta poder elegir mi propio dulzor. Las perlas siempre están perfectamente masticables.",
+          "name": "Emily C.",
+          "role": "Cliente frecuente"
+        },
+        {
+          "quote": "Venimos aquí después de la escuela todo el tiempo. Sabores divertidos, personal amable y un gran lugar para convivir con amigos. La slush de mango es la mejor.",
+          "name": "Jason L.",
+          "role": "Estudiante local"
+        },
+        {
+          "quote": "Por fin una tienda de boba que lo hace bien. Tés de fruta fresca, espuma de queso de verdad y siempre aciertan con el dulzor. Mi nuevo lugar favorito.",
+          "name": "Priya N.",
+          "role": "Amante de la boba"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en el Centro de Naperville",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "11:00 AM - 9:00 PM"
+        },
+        {
+          "day": "Viernes - Sábado",
+          "time": "11:00 AM - 10:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "12:00 PM - 8:00 PM"
+        }
+      ],
+      "phoneLabel": "Pásate",
+      "directions": "Encuéntranos en 26 West Jefferson Avenue en el corazón del centro de Naperville. Pásate, personaliza tu dulzor y hielo, elige tus toppings y toma asiento con amigos.",
+      "neighborhood": "La tienda está sobre Jefferson Avenue, en el corazón peatonal del distrito comercial del centro de Naperville, a un corto paseo de los senderos de ladrillo y puentes cubiertos del Riverwalk junto al río DuPage."
+    },
+    "cta": {
+      "heading": "¿Listo para Boba?",
+      "text": "Ven a vernos en el centro de Naperville, elige tu dulzor, tu hielo y tus toppings, y prepararemos tu vaso de boba perfecto al momento.",
+      "button": "Ver el Menú"
+    },
+    "form": {
+      "heading": "Envíanos un Mensaje",
+      "subheading": "¿Tienes una pregunta sobre nuestros sabores, boba para una fiesta o un pedido en grupo? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo podemos ayudarte? Cuéntanos sobre tu pedido o pregunta.",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Una tienda de bubble tea alegre y divertida en el centro de Naperville, tés con leche sedosos, tés de fruta fresca y boba masticable a tu gusto.",
+      "rights": "© Elite Boba. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

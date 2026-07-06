@@ -1,0 +1,658 @@
+{
+  "business": {
+    "name": "Anderson's Toyshop",
+    "shortName": "Anderson's",
+    "vertical": "Independent Toy Store",
+    "phone": "(630) 355-2665",
+    "phoneHref": "+16303552665",
+    "address": "111 West Jefferson Avenue",
+    "city": "Naperville",
+    "state": "IL",
+    "zip": "60540",
+    "mapsQuery": "Anderson's Toyshop, 111 West Jefferson Avenue, Naperville, IL 60540",
+    "lat": 41.7732369,
+    "lon": -88.1499714
+  },
+  "en": {
+    "meta": {
+      "title": "Anderson's Toyshop | Independent Toy Store in Downtown Naperville, IL",
+      "description": "Independent toy shop from the Anderson's Bookshop family, on Jefferson Avenue in downtown Naperville near the Riverwalk. Free gift wrapping. (630) 355-2665"
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Shop",
+      "about": "About",
+      "gallery": "The Shop",
+      "visit": "Visit",
+      "order": "Visit the Shop"
+    },
+    "hero": {
+      "eyebrow": "Independent & Locally Loved · Downtown Naperville",
+      "title": "A Wonderland of a Toyshop",
+      "titleAccent": "in Downtown Naperville",
+      "subtitle": "Shelves full of the good stuff that screens can never replace, staff who actually play the games they sell, and free gift wrapping every single day. Come find the toy that becomes the favorite.",
+      "ctaPrimary": "Shop Our Sections",
+      "ctaSecondary": "Call (630) 355-2665",
+      "badge": "Free Gift Wrapping · Staff Who Play · Independent & Locally Loved"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Free Gift Wrapping",
+        "text": "Every gift goes home wrapped and ready, free of charge, so you can skip the paper, the tape, and the wrestling match at the kitchen table."
+      },
+      {
+        "icon": "heart",
+        "title": "Staff Who Actually Play",
+        "text": "Our team plays the games, builds the sets, and reads the books, so the recommendation you get is one we'd give our own families."
+      },
+      {
+        "icon": "star",
+        "title": "The Good Stuff Only",
+        "text": "Shelves full of toys worth playing with again and again, the kind of wonder that screens can never replace and kids remember for years."
+      },
+      {
+        "icon": "leaf",
+        "title": "Right in Downtown Naperville",
+        "text": "A beloved corner of downtown where browsing is half the fun and there's always something new to discover on the next shelf over."
+      }
+    ],
+    "menu": {
+      "heading": "Browse Our Sections",
+      "subheading": "The toys, selections, and prices shown here are illustrative demo content for this sample site. Stop by the shop for our current shelves, new arrivals, and seasonal favorites.",
+      "categories": [
+        {
+          "id": "games-puzzles",
+          "name": "Games & Puzzles",
+          "blurb": "Board games, family game-night winners, puzzles, and brain teasers, all play-tested by staff who love a good game as much as you do.",
+          "items": [
+            {
+              "name": "Family Game Night Board Game",
+              "desc": "A crowd-pleasing favorite that gets everyone laughing, easy to learn and impossible to put down after one round.",
+              "price": "$29.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Strategy Game for Big Kids",
+              "desc": "A deeper, cleverer challenge for tweens, teens, and grown-ups who love to outthink the table.",
+              "price": "$44.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "1000-Piece Jigsaw Puzzle",
+              "desc": "A gorgeous, satisfying puzzle for a slow afternoon, the kind that takes over the dining table for a happy week.",
+              "price": "$19.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Wooden Brain Teaser",
+              "desc": "A handsome little knot of logic that's wonderfully hard to solve and even harder to set back down.",
+              "price": "$14.99",
+              "tags": []
+            },
+            {
+              "name": "Quick-Play Card Game",
+              "desc": "Fast, funny, and travel-ready, the perfect filler for car rides, restaurants, and waiting it out anywhere.",
+              "price": "$12.99",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "building-stem",
+          "name": "Building & STEM",
+          "blurb": "Building sets, science kits, and coding toys that turn curious hands into makers, engineers, and inventors, one piece at a time.",
+          "items": [
+            {
+              "name": "Classic Building Brick Set",
+              "desc": "Buckets of open-ended bricks for towers, spaceships, and whatever the imagination dreams up next.",
+              "price": "$49.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Hands-On Science Kit",
+              "desc": "Real experiments, real wow, with everything packed in for a week of kitchen-table discoveries.",
+              "price": "$34.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Beginner Coding Robot",
+              "desc": "A friendly robot that teaches the basics of code through play, no screen required to get started.",
+              "price": "$59.99",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Magnetic Tile Builders",
+              "desc": "Colorful, click-together tiles that snap into castles and creations, endless building that grows with them.",
+              "price": "$39.99",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "imaginative-play",
+          "name": "Imaginative Play",
+          "blurb": "Dolls, figures, dress-up, and pretend play, the props and characters that turn the living room into anywhere at all.",
+          "items": [
+            {
+              "name": "Heirloom-Quality Doll",
+              "desc": "A soft, beautifully made companion built for hugs, tea parties, and years of make-believe.",
+              "price": "$32.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Animal & Hero Figures",
+              "desc": "Detailed little characters for big adventures, ready to star in whatever story comes next.",
+              "price": "$9.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Dress-Up Costume Set",
+              "desc": "Capes, crowns, and full-on transformations for the knight, doctor, or dragon of the hour.",
+              "price": "$24.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Play Kitchen Food Set",
+              "desc": "Pretend snacks and play-food favorites for the busiest little chef in the house.",
+              "price": "$21.99",
+              "tags": []
+            },
+            {
+              "name": "Wooden Pretend Play Set",
+              "desc": "A sturdy, screen-free play set that invites whole worlds of make-believe, built to be handed down.",
+              "price": "$27.99",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "books-baby",
+          "name": "Books & Baby",
+          "blurb": "Picture books, snuggly plush, and baby & toddler treasures, the gentle first favorites that start a lifelong love of play.",
+          "items": [
+            {
+              "name": "Read-Aloud Picture Book",
+              "desc": "A big, beautiful story made for bedtime, story time, and reading it twice because they ask.",
+              "price": "$17.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Super-Soft Plush Friend",
+              "desc": "The huggable best friend that goes everywhere, perfectly squishy and impossibly hard to put down.",
+              "price": "$19.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Baby's First Toy",
+              "desc": "Bright, safe, and grab-able, made for the tiniest hands and the earliest games of peekaboo.",
+              "price": "$13.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Toddler Stacking Set",
+              "desc": "Chunky, colorful pieces for stacking, sorting, and toppling over and over, a first puzzle they'll adore.",
+              "price": "$15.99",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Wonderland Built on Play",
+      "lead": "Anderson's Toyshop is an independent toy store in the heart of downtown Naperville, the kind of wonderland where the staff actually play the games they sell and every gift goes home wrapped, free of charge.",
+      "paragraphs": [
+        "Anderson's Toyshop is run by the same Anderson family behind Anderson's Bookshop, just two doors down Jefferson Avenue, a family whose downtown Naperville storefronts date back to 1875. We believe the best toys are the ones that spark imagination, get a family laughing around the table, and earn a permanent place on the shelf. That's why our team plays the games, builds the sets, and reads the books, so when you ask what's good, you get an honest answer from someone who really knows.",
+        "Come browse shelves full of the good stuff that screens can never replace, from board games and building sets to dolls, books, and the perfect baby gift. Need it wrapped? It's already done, and we'd love to help you find the toy that becomes the favorite."
+      ],
+      "stats": [
+        {
+          "value": "Independent",
+          "label": "& Locally Loved"
+        },
+        {
+          "value": "Free",
+          "label": "Gift Wrapping Daily"
+        },
+        {
+          "value": "Staff Who Play",
+          "label": "Honest Recommendations"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside Anderson's Toyshop",
+      "subheading": "A peek at the shelves full of wonder, the game-night favorites, and the free gift wrapping waiting for you in downtown Naperville.",
+      "captions": [
+        "Shelves stacked with board games and family favorites",
+        "The building & STEM corner, ready for little engineers",
+        "Dolls, figures, and dress-up for big imaginations",
+        "Picture books and snuggly plush for the littlest readers",
+        "Free gift wrapping, done while you browse",
+        "Brain teasers and puzzles for a slow afternoon"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Naperville Is Saying",
+      "items": [
+        {
+          "quote": "I asked for a game my whole family would actually play, and they nailed it. The staff clearly know their stuff, and the free wrapping saved my night.",
+          "name": "Megan T.",
+          "role": "Local parent"
+        },
+        {
+          "quote": "This is the toy store I wish I had as a kid. Real toys, real recommendations, and the kind of place my kids beg to visit every weekend.",
+          "name": "David R.",
+          "role": "Regular customer"
+        },
+        {
+          "quote": "I never leave without finding something special. They wrapped my gifts beautifully and didn't charge a cent. A true downtown treasure.",
+          "name": "Priya S.",
+          "role": "Gift shopper"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Downtown Naperville",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "10:00 AM - 7:00 PM"
+        },
+        {
+          "day": "Friday - Saturday",
+          "time": "10:00 AM - 8:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM - 5:00 PM"
+        }
+      ],
+      "phoneLabel": "Phone",
+      "directions": "You'll find us at 111 West Jefferson Avenue in the heart of downtown Naperville. Stop in to browse the shelves, meet the staff who play, and let us wrap your gift for free, we're always glad to help you find the perfect toy.",
+      "neighborhood": "You're in the heart of downtown Naperville's shopping district here, with Anderson's Bookshop two doors down and the Riverwalk's brick paths and covered bridges along the DuPage River a short stroll away."
+    },
+    "cta": {
+      "heading": "Come Play With Us",
+      "text": "Wander the shelves, ask our staff what's good, and find the toy that becomes the favorite. Got a question or want to hold something aside? Give us a call, the gift wrapping is always free.",
+      "button": "Call (630) 355-2665"
+    },
+    "form": {
+      "heading": "Send Us a Message",
+      "subheading": "Looking for the perfect gift, hoping to hold something aside, or have a question about a toy? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Age or Occasion",
+      "date": "Preferred Date/Time",
+      "message": "How can we help? Tell us what you're shopping for or what to set aside.",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We received your message and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "A wonderland of a toy shop in downtown Naperville, staff who actually play the games they sell, free gift wrapping, and shelves full of the good stuff that screens can never replace.",
+      "rights": "© Anderson's Toyshop. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Anderson's Toyshop | Juguetería Independiente en el Centro de Naperville, IL",
+      "description": "Juguetería independiente de la familia de Anderson's Bookshop, en Jefferson Avenue en el centro de Naperville, cerca del Riverwalk. Envoltura de regalo gratis."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Tienda",
+      "about": "Nosotros",
+      "gallery": "La Tienda",
+      "visit": "Visita",
+      "order": "Visítanos"
+    },
+    "hero": {
+      "eyebrow": "Independiente y Querida Localmente · Centro de Naperville",
+      "title": "Una Juguetería de Ensueño",
+      "titleAccent": "en el Centro de Naperville",
+      "subtitle": "Estantes llenos de lo bueno que las pantallas nunca podrán reemplazar, un equipo que de verdad juega los juegos que vende y envoltura de regalo gratis todos los días. Ven a encontrar el juguete que se vuelve el favorito.",
+      "ctaPrimary": "Explora Nuestras Secciones",
+      "ctaSecondary": "Llamar al (630) 355-2665",
+      "badge": "Envoltura de Regalo Gratis · Un Equipo que Juega · Independiente y Querida Localmente"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Envoltura de Regalo Gratis",
+        "text": "Cada regalo se va a casa envuelto y listo, sin costo, para que te ahorres el papel, la cinta y la batalla en la mesa de la cocina."
+      },
+      {
+        "icon": "heart",
+        "title": "Un Equipo que de Verdad Juega",
+        "text": "Nuestro equipo juega los juegos, arma los sets y lee los libros, así que la recomendación que recibes es la misma que le daríamos a nuestras propias familias."
+      },
+      {
+        "icon": "star",
+        "title": "Solo lo Bueno",
+        "text": "Estantes llenos de juguetes que vale la pena jugar una y otra vez, ese tipo de asombro que las pantallas nunca podrán reemplazar y que los niños recuerdan por años."
+      },
+      {
+        "icon": "leaf",
+        "title": "En Pleno Centro de Naperville",
+        "text": "Un rincón querido del centro donde explorar es la mitad de la diversión y siempre hay algo nuevo por descubrir en el siguiente estante."
+      }
+    ],
+    "menu": {
+      "heading": "Explora Nuestras Secciones",
+      "subheading": "Los juguetes, las selecciones y los precios mostrados aquí son contenido demostrativo e ilustrativo para este sitio de muestra. Pásate por la tienda para ver los estantes actuales, las novedades y los favoritos de temporada.",
+      "categories": [
+        {
+          "id": "games-puzzles",
+          "name": "Juegos y Rompecabezas",
+          "blurb": "Juegos de mesa, ganadores de la noche de juegos en familia, rompecabezas y acertijos, todos probados por un equipo que ama un buen juego tanto como tú.",
+          "items": [
+            {
+              "name": "Juego de Mesa para la Noche en Familia",
+              "desc": "Un favorito que encanta a todos y hace reír a la mesa entera, fácil de aprender e imposible de soltar después de una ronda.",
+              "price": "$29.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Juego de Estrategia para los Más Grandes",
+              "desc": "Un reto más profundo e ingenioso para preadolescentes, adolescentes y adultos a quienes les encanta ganarle a la mesa pensando.",
+              "price": "$44.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Rompecabezas de 1000 Piezas",
+              "desc": "Un rompecabezas precioso y satisfactorio para una tarde tranquila, del tipo que toma la mesa del comedor por una semana feliz.",
+              "price": "$19.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Acertijo de Madera",
+              "desc": "Un pequeño y bonito nudo de lógica maravillosamente difícil de resolver y aún más difícil de soltar.",
+              "price": "$14.99",
+              "tags": []
+            },
+            {
+              "name": "Juego de Cartas Rápido",
+              "desc": "Rápido, divertido y listo para viajar, perfecto para el carro, el restaurante y la espera en cualquier lugar.",
+              "price": "$12.99",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "building-stem",
+          "name": "Construcción y STEM",
+          "blurb": "Sets de construcción, kits de ciencia y juguetes de programación que convierten las manos curiosas en creadores, ingenieros e inventores, pieza por pieza.",
+          "items": [
+            {
+              "name": "Set Clásico de Bloques de Construcción",
+              "desc": "Cubetas de bloques sin límites para torres, naves espaciales y lo que sea que la imaginación invente después.",
+              "price": "$49.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Kit de Ciencia Práctico",
+              "desc": "Experimentos de verdad, asombro de verdad, con todo incluido para una semana de descubrimientos en la mesa de la cocina.",
+              "price": "$34.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Robot de Programación para Principiantes",
+              "desc": "Un robot amigable que enseña lo básico del código a través del juego, sin necesidad de pantalla para empezar.",
+              "price": "$59.99",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Bloques de Azulejos Magnéticos",
+              "desc": "Azulejos coloridos que se unen con un clic y se arman en castillos y creaciones, construcción sin fin que crece con ellos.",
+              "price": "$39.99",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "imaginative-play",
+          "name": "Juego Imaginativo",
+          "blurb": "Muñecas, figuras, disfraces y juego de simulación, los accesorios y personajes que convierten la sala en cualquier lugar del mundo.",
+          "items": [
+            {
+              "name": "Muñeca de Calidad para Atesorar",
+              "desc": "Una compañera suave y bellamente hecha, lista para abrazos, fiestas de té y años de juego imaginario.",
+              "price": "$32.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Figuras de Animales y Héroes",
+              "desc": "Pequeños personajes detallados para grandes aventuras, listos para protagonizar la historia que venga.",
+              "price": "$9.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Set de Disfraz",
+              "desc": "Capas, coronas y transformaciones completas para el caballero, el doctor o el dragón del momento.",
+              "price": "$24.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Set de Comida para Cocinita",
+              "desc": "Bocadillos de mentira y comida de juguete favorita para el chef más ocupado de la casa.",
+              "price": "$21.99",
+              "tags": []
+            },
+            {
+              "name": "Set de Juego de Madera",
+              "desc": "Un set de juego resistente y sin pantallas que invita a mundos enteros de fantasía, hecho para heredarse.",
+              "price": "$27.99",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "books-baby",
+          "name": "Libros y Bebé",
+          "blurb": "Libros ilustrados, peluches para abrazar y tesoros para bebés y niños pequeños, los primeros favoritos que empiezan un amor por el juego de toda la vida.",
+          "items": [
+            {
+              "name": "Libro Ilustrado para Leer en Voz Alta",
+              "desc": "Una historia grande y hermosa hecha para la hora de dormir, la hora del cuento y leerla dos veces porque la piden.",
+              "price": "$17.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Peluche Súper Suave",
+              "desc": "El mejor amigo para abrazar que va a todas partes, perfectamente blandito e imposible de soltar.",
+              "price": "$19.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Primer Juguete del Bebé",
+              "desc": "Brillante, seguro y fácil de agarrar, hecho para las manitas más pequeñas y los primeros juegos de cucú.",
+              "price": "$13.99",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Set de Apilar para Niños Pequeños",
+              "desc": "Piezas gruesas y coloridas para apilar, clasificar y tumbar una y otra vez, un primer rompecabezas que adorarán.",
+              "price": "$15.99",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Un Mundo de Ensueño Hecho de Juego",
+      "lead": "Anderson's Toyshop es una juguetería independiente en el corazón del centro de Naperville, ese tipo de mundo de ensueño donde el equipo de verdad juega los juegos que vende y cada regalo se va a casa envuelto, sin costo.",
+      "paragraphs": [
+        "Anderson's Toyshop está en manos de la misma familia Anderson detrás de Anderson's Bookshop, a solo dos puertas sobre Jefferson Avenue, una familia con comercios en el centro de Naperville desde 1875. Creemos que los mejores juguetes son los que despiertan la imaginación, hacen reír a la familia alrededor de la mesa y se ganan un lugar permanente en el estante. Por eso nuestro equipo juega los juegos, arma los sets y lee los libros, para que cuando preguntes qué es bueno, recibas una respuesta honesta de alguien que de verdad sabe.",
+        "Ven a recorrer estantes llenos de lo bueno que las pantallas nunca podrán reemplazar, desde juegos de mesa y sets de construcción hasta muñecas, libros y el regalo perfecto para un bebé. ¿Lo necesitas envuelto? Ya está listo, y nos encantaría ayudarte a encontrar el juguete que se vuelve el favorito."
+      ],
+      "stats": [
+        {
+          "value": "Independiente",
+          "label": "y Querida Localmente"
+        },
+        {
+          "value": "Gratis",
+          "label": "Envoltura de Regalo a Diario"
+        },
+        {
+          "value": "Un Equipo que Juega",
+          "label": "Recomendaciones Honestas"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Dentro de Anderson's Toyshop",
+      "subheading": "Un vistazo a los estantes llenos de asombro, los favoritos de la noche de juegos y la envoltura de regalo gratis que te espera en el centro de Naperville.",
+      "captions": [
+        "Estantes repletos de juegos de mesa y favoritos de la familia",
+        "El rincón de construcción y STEM, listo para pequeños ingenieros",
+        "Muñecas, figuras y disfraces para grandes imaginaciones",
+        "Libros ilustrados y peluches para los lectores más pequeños",
+        "Envoltura de regalo gratis, hecha mientras exploras",
+        "Acertijos y rompecabezas para una tarde tranquila"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice Naperville",
+      "items": [
+        {
+          "quote": "Pedí un juego que toda mi familia de verdad jugara, y dieron justo en el blanco. El personal claramente sabe lo que hace, y la envoltura gratis me salvó la noche.",
+          "name": "Megan T.",
+          "role": "Madre local"
+        },
+        {
+          "quote": "Esta es la juguetería que hubiera querido de niño. Juguetes de verdad, recomendaciones de verdad, y ese tipo de lugar al que mis hijos ruegan visitar cada fin de semana.",
+          "name": "David R.",
+          "role": "Cliente frecuente"
+        },
+        {
+          "quote": "Nunca me voy sin encontrar algo especial. Envolvieron mis regalos preciosamente y no cobraron ni un centavo. Un verdadero tesoro del centro.",
+          "name": "Priya S.",
+          "role": "Compradora de regalos"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en el Centro de Naperville",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "10:00 AM - 7:00 PM"
+        },
+        {
+          "day": "Viernes - Sábado",
+          "time": "10:00 AM - 8:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM - 5:00 PM"
+        }
+      ],
+      "phoneLabel": "Teléfono",
+      "directions": "Nos encuentras en 111 West Jefferson Avenue, en el corazón del centro de Naperville. Pásate a recorrer los estantes, conoce al equipo que juega y déjanos envolver tu regalo gratis, siempre estamos felices de ayudarte a encontrar el juguete perfecto.",
+      "neighborhood": "Aquí estás en el corazón del distrito comercial del centro de Naperville, con Anderson's Bookshop a dos puertas y, a un corto paseo, los senderos de ladrillo y puentes cubiertos del Riverwalk junto al río DuPage."
+    },
+    "cta": {
+      "heading": "Ven a Jugar con Nosotros",
+      "text": "Recorre los estantes, pregúntale al equipo qué es bueno y encuentra el juguete que se vuelve el favorito. ¿Tienes una pregunta o quieres apartar algo? Llámanos, la envoltura de regalo siempre es gratis.",
+      "button": "Llamar al (630) 355-2665"
+    },
+    "form": {
+      "heading": "Envíanos un Mensaje",
+      "subheading": "¿Buscas el regalo perfecto, quieres apartar algo o tienes una pregunta sobre un juguete? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Edad u Ocasión",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo podemos ayudarte? Cuéntanos qué buscas o qué quieres apartar.",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Una juguetería de ensueño en el centro de Naperville, un equipo que de verdad juega los juegos que vende, envoltura de regalo gratis y estantes llenos de lo bueno que las pantallas nunca podrán reemplazar.",
+      "rights": "© Anderson's Toyshop. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

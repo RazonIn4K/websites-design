@@ -1,0 +1,758 @@
+{
+  "business": {
+    "name": "Pardridge Insurance",
+    "shortName": "Pardridge",
+    "vertical": "Independent insurance agency",
+    "phone": "(815) 758-4447",
+    "phoneHref": "+18157584447",
+    "address": "2580 Sycamore Road",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Pardridge Insurance, 2580 Sycamore Road, DeKalb, IL 60115",
+    "lat": 41.9609184,
+    "lon": -88.7196408
+  },
+  "en": {
+    "meta": {
+      "title": "Pardridge Insurance — Independent Insurance Agency in DeKalb, IL",
+      "description": "Independent, family-run insurance agency in DeKalb, IL. We shop multiple carriers for auto, home, life, business & farm. Free quotes — call (815) 758-4447."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Coverage",
+      "about": "About Us",
+      "gallery": "Our Office",
+      "visit": "Visit Us",
+      "order": "Get a Quote"
+    },
+    "hero": {
+      "eyebrow": "Independent Insurance in DeKalb",
+      "title": "Real Coverage.",
+      "titleAccent": "Real People.",
+      "subtitle": "As an independent, family-run agency, we shop multiple top carriers to find the right protection at the right price — and we're here to help when you actually need to file a claim.",
+      "ctaPrimary": "View Coverage",
+      "ctaSecondary": "Call for a Free Quote",
+      "badge": "Independent · Family-Run · Multiple Carriers"
+    },
+    "highlights": [
+      {
+        "icon": "shield",
+        "title": "We Shop Multiple Carriers",
+        "text": "Because we're independent, we're not tied to one company. We compare quotes from several trusted carriers to find you strong coverage at a fair price."
+      },
+      {
+        "icon": "heart",
+        "title": "Real People, Honest Advice",
+        "text": "You'll talk to a real person who explains your options in plain English — no jargon, no pressure, just straight answers so you can choose with confidence."
+      },
+      {
+        "icon": "check",
+        "title": "Claims Help When It Counts",
+        "text": "When something goes wrong, we're in your corner. We help you understand the process and guide you through your claim every step of the way."
+      },
+      {
+        "icon": "home",
+        "title": "Local & Family-Run",
+        "text": "We live and work in the DeKalb area, protecting our neighbors — families, drivers, businesses, and farms alike — with coverage built around your life."
+      }
+    ],
+    "menu": {
+      "heading": "Coverage We Offer",
+      "subheading": "From your car to your home, your family, your business, and your farm — we cover what matters most. Coverage lines shown are illustrative demo examples; please call us for a free quote tailored to you.",
+      "categories": [
+        {
+          "id": "auto-insurance",
+          "name": "Auto Insurance",
+          "blurb": "Coverage to keep you protected on every road — whether it's your daily commute, the family minivan, or a teen driver just getting started.",
+          "items": [
+            {
+              "name": "Liability Coverage",
+              "desc": "Required protection that covers injury and property damage you may cause to others on the road, with limits to fit your needs.",
+              "price": "Free Quote",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Full Coverage (Collision & Comprehensive)",
+              "desc": "Protect your own vehicle from accidents, theft, weather, vandalism, and more — so a bad day doesn't become a financial setback.",
+              "price": "Free Quote",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Uninsured & Underinsured Motorist",
+              "desc": "Coverage that steps in when the other driver doesn't have enough insurance — or any at all — to cover your losses.",
+              "price": "Free Quote",
+              "tags": []
+            },
+            {
+              "name": "Roadside & Towing Add-On",
+              "desc": "Optional protection for towing, lockouts, and breakdowns, so help is just a phone call away when you're stranded.",
+              "price": "Free Quote",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "home-renters",
+          "name": "Home & Renters",
+          "blurb": "Your home is where your life happens. We help you protect the building, your belongings, and your peace of mind.",
+          "items": [
+            {
+              "name": "Homeowners Insurance",
+              "desc": "Coverage for your house and personal property against fire, storms, theft, and liability — tailored to your home's real value.",
+              "price": "Free Quote",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Renters Insurance",
+              "desc": "Affordable protection for your belongings and liability while you rent — often less than you'd expect for real peace of mind.",
+              "price": "Free Quote",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Condo Insurance",
+              "desc": "Coverage that fills the gaps your association's master policy doesn't, protecting your unit, upgrades, and personal property.",
+              "price": "Free Quote",
+              "tags": []
+            },
+            {
+              "name": "Flood Coverage",
+              "desc": "Standard home policies don't cover flooding. Ask us about separate flood protection to guard against rising water.",
+              "price": "Free Quote",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "life-health",
+          "name": "Life & Health",
+          "blurb": "Protect the people who count on you. We help you find life and health coverage that fits your family and your budget.",
+          "items": [
+            {
+              "name": "Term Life Insurance",
+              "desc": "Straightforward, budget-friendly coverage for a set period — ideal for protecting your family during the years they need it most.",
+              "price": "Free Quote",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Whole Life Insurance",
+              "desc": "Lifelong coverage that builds cash value over time, offering lasting protection and a foundation for your family's future.",
+              "price": "Free Quote",
+              "tags": []
+            },
+            {
+              "name": "Medicare Supplement",
+              "desc": "Help covering the gaps Original Medicare leaves behind, so you're not stuck with surprise out-of-pocket costs.",
+              "price": "Free Quote",
+              "tags": []
+            },
+            {
+              "name": "Disability Income Protection",
+              "desc": "Coverage that helps replace a portion of your income if illness or injury keeps you from working.",
+              "price": "Free Quote",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "business-commercial",
+          "name": "Business & Commercial",
+          "blurb": "From a small shop to a growing company, we help DeKalb-area businesses protect their work, their property, and their people.",
+          "items": [
+            {
+              "name": "General Liability",
+              "desc": "Protection against third-party claims of bodily injury or property damage that can arise from everyday business operations.",
+              "price": "Free Quote",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Commercial Property",
+              "desc": "Coverage for your building, equipment, inventory, and furnishings against fire, theft, weather, and other covered events.",
+              "price": "Free Quote",
+              "tags": []
+            },
+            {
+              "name": "Workers' Compensation",
+              "desc": "Required coverage that protects your employees — and your business — if a worker is injured on the job.",
+              "price": "Free Quote",
+              "tags": []
+            },
+            {
+              "name": "Commercial Auto",
+              "desc": "Coverage for the vehicles your business depends on, from a single work truck to a full fleet on the road.",
+              "price": "Free Quote",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "farm-crop",
+          "name": "Farm & Crop",
+          "blurb": "Farming is more than a business — it's a way of life. We help protect the land, equipment, and harvest that keep it going.",
+          "items": [
+            {
+              "name": "Farm & Ranch Owners",
+              "desc": "Combined coverage for your farm home, outbuildings, livestock, and liability — built around the way you actually farm.",
+              "price": "Free Quote",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Crop & Hail Insurance",
+              "desc": "Protection for your yield against hail, drought, and other covered losses, helping safeguard your season's hard work.",
+              "price": "Free Quote",
+              "tags": []
+            },
+            {
+              "name": "Farm Equipment & Machinery",
+              "desc": "Coverage for tractors, implements, and machinery against damage, theft, and breakdown so you can keep working.",
+              "price": "Free Quote",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "About Pardridge Insurance",
+      "lead": "We're an independent, family-run agency that treats your coverage the way we'd want our own family protected — honestly, and with your best interest first.",
+      "paragraphs": [
+        "Pardridge Insurance is an independent insurance agency that has served DeKalb-area families, drivers, businesses, and farms for over 50 years. Because we're independent, we aren't locked into a single company — we shop multiple trusted carriers on your behalf and bring you options that actually fit your life and your budget. That means honest comparisons, clear explanations, and advice you can trust.",
+        "Insurance is about being there when life takes a turn. When you need to file a claim, you won't be left navigating it alone — we're real people who pick up the phone, answer your questions, and walk with you through the process. Whether you're insuring your first car, your family home, your growing business, or the farm that's been in your family for generations, we're here to protect what matters most."
+      ],
+      "stats": [
+        {
+          "value": "Independent",
+          "label": "Multiple Carriers Shopped"
+        },
+        {
+          "value": "Family-Run",
+          "label": "Local DeKalb Agency"
+        },
+        {
+          "value": "Claims",
+          "label": "Help When You Need It"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Our Office",
+      "subheading": "A welcoming, local office where you can sit down with a real person and get honest answers.",
+      "captions": [
+        "Our office on Sycamore Road in DeKalb",
+        "A comfortable place to talk through your coverage",
+        "Real people ready to answer your questions",
+        "Reviewing options from multiple carriers",
+        "Helping a neighbor file a claim",
+        "Serving DeKalb-area families and businesses"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Our Clients Say",
+      "items": [
+        {
+          "quote": "They actually took the time to compare a few carriers for us and explain the differences. We ended up with better coverage and didn't feel rushed or pushed into anything.",
+          "name": "Karen M.",
+          "role": "Homeowner"
+        },
+        {
+          "quote": "When we had to file a claim, they walked us through every step and answered the phone every time we called. It made a stressful situation so much easier.",
+          "name": "Dave R.",
+          "role": "Auto & Home Client"
+        },
+        {
+          "quote": "As a small business owner, I appreciate working with a local agency that gets it. Honest advice, real people, and they shopped around to keep my costs reasonable.",
+          "name": "Lisa T.",
+          "role": "Local Business Owner"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit Our Office",
+      "addressLabel": "Location",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday – Friday",
+          "time": "8:30 AM – 5:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "By Appointment"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Phone",
+      "directions": "Get Directions",
+      "neighborhood": "Our office sits at the north end of the Sycamore Road corridor, the commercial stretch that links DeKalb with neighboring Sycamore."
+    },
+    "cta": {
+      "heading": "Ready for a Free Quote?",
+      "text": "Let us shop multiple carriers and find the right coverage at the right price. Call today and talk to a real person who's here to help.",
+      "button": "Call (815) 758-4447"
+    },
+    "form": {
+      "heading": "Request a Free Quote",
+      "subheading": "Tell us a little about what you'd like to protect and we'll get back to you with options that fit.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Coverage Type (Auto, Home, Life, Business, Farm)",
+      "date": "Preferred Contact Date & Time",
+      "message": "What would you like to insure?",
+      "submit": "Request My Quote",
+      "sending": "Sending…",
+      "success": "Thanks! We'll be in touch shortly to put together your free quote.",
+      "error": "Something went wrong. Please call us directly at (815) 758-4447.",
+      "consent": "By submitting this form you agree to be contacted about your insurance quote request."
+    },
+    "footer": {
+      "tagline": "Independent, family-run insurance protecting DeKalb-area families, businesses, and farms.",
+      "rights": "© Pardridge Insurance. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    },
+    "process": {
+      "heading": "How We Work",
+      "steps": [
+        {
+          "title": "Tell Us About Your Life",
+          "text": "We start by getting to know you — your vehicles, home, family, business, or farm — and the coverage you actually need."
+        },
+        {
+          "title": "We Shop Multiple Carriers",
+          "text": "Because we're independent, we compare quotes from several trusted carriers to find strong protection at a fair price."
+        },
+        {
+          "title": "Review Your Options Together",
+          "text": "We walk through the choices in plain English — no jargon, no pressure — so you can pick the coverage that fits."
+        },
+        {
+          "title": "We're Here When You Need Us",
+          "text": "After you're covered, we stay in your corner — answering questions, reviewing your policy, and guiding you through any claim."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Are quotes really free?",
+          "a": "Yes. Getting a quote is always free and there's no obligation. We'll shop multiple carriers and walk you through your options at no cost."
+        },
+        {
+          "q": "Do I need an appointment, or can I walk in?",
+          "a": "You're welcome to stop by during office hours, Monday through Friday. Saturdays are by appointment, so it's best to call ahead at (815) 758-4447."
+        },
+        {
+          "q": "What should I bring to get a quote?",
+          "a": "Whatever you have handy helps — current policy details, vehicle or property information, and the coverage you have now. If you're not sure, just call and we'll guide you."
+        },
+        {
+          "q": "Can you help me in Spanish?",
+          "a": "We're happy to help in both English and Spanish. Just let us know which you prefer and we'll explain your options clearly."
+        },
+        {
+          "q": "What happens if I need to file a claim?",
+          "a": "You won't be on your own. We help you understand the process, answer your questions, and guide you through your claim every step of the way."
+        },
+        {
+          "q": "Can you review my current insurance to see if I'm overpaying?",
+          "a": "Absolutely. Bring us your current policy and we'll compare it against several carriers to see whether there's better coverage or a better price out there."
+        }
+      ]
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Pardridge Insurance — Agencia de Seguros Independiente en DeKalb, IL",
+      "description": "Agencia de seguros independiente y familiar en DeKalb, IL. Comparamos aseguradoras para auto, hogar, vida, negocio y campo. Cotizaciones gratis: (815) 758-4447."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Cobertura",
+      "about": "Nosotros",
+      "gallery": "Nuestra Oficina",
+      "visit": "Visítanos",
+      "order": "Cotizar"
+    },
+    "hero": {
+      "eyebrow": "Seguros Independientes en DeKalb",
+      "title": "Cobertura Real.",
+      "titleAccent": "Gente Real.",
+      "subtitle": "Como agencia independiente y familiar, comparamos varias de las mejores aseguradoras para encontrar la protección adecuada al precio justo — y estamos aquí para ayudarte cuando de verdad necesitas presentar un reclamo.",
+      "ctaPrimary": "Ver Cobertura",
+      "ctaSecondary": "Llama para Cotizar Gratis",
+      "badge": "Independiente · Familiar · Varias Aseguradoras"
+    },
+    "highlights": [
+      {
+        "icon": "shield",
+        "title": "Comparamos Varias Aseguradoras",
+        "text": "Como somos independientes, no estamos atados a una sola compañía. Comparamos cotizaciones de varias aseguradoras de confianza para encontrarte una buena cobertura a un precio justo."
+      },
+      {
+        "icon": "heart",
+        "title": "Gente Real, Consejos Honestos",
+        "text": "Hablarás con una persona real que te explica tus opciones en palabras claras — sin tecnicismos, sin presión, solo respuestas directas para que elijas con confianza."
+      },
+      {
+        "icon": "check",
+        "title": "Ayuda con Reclamos Cuando Importa",
+        "text": "Cuando algo sale mal, estamos de tu lado. Te ayudamos a entender el proceso y te guiamos en tu reclamo en cada paso del camino."
+      },
+      {
+        "icon": "home",
+        "title": "Local y Familiar",
+        "text": "Vivimos y trabajamos en el área de DeKalb, protegiendo a nuestros vecinos — familias, conductores, negocios y granjas por igual — con cobertura hecha a la medida de tu vida."
+      }
+    ],
+    "menu": {
+      "heading": "Cobertura que Ofrecemos",
+      "subheading": "Desde tu carro hasta tu hogar, tu familia, tu negocio y tu campo — cubrimos lo que más importa. Las líneas de cobertura mostradas son ejemplos ilustrativos de demostración; por favor llámanos para una cotización gratis hecha a tu medida.",
+      "categories": [
+        {
+          "id": "auto-insurance",
+          "name": "Seguro de Auto",
+          "blurb": "Cobertura para mantenerte protegido en cada camino — ya sea tu trayecto diario, la van familiar o un conductor joven que apenas empieza.",
+          "items": [
+            {
+              "name": "Cobertura de Responsabilidad Civil",
+              "desc": "Protección obligatoria que cubre las lesiones y los daños a la propiedad que puedas causarle a otros en el camino, con límites que se ajustan a tus necesidades.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Cobertura Amplia (Colisión y Comprensiva)",
+              "desc": "Protege tu propio vehículo contra accidentes, robo, clima, vandalismo y más — para que un mal día no se convierta en un golpe a tu bolsillo.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Conductor Sin Seguro o con Seguro Insuficiente",
+              "desc": "Cobertura que entra cuando el otro conductor no tiene suficiente seguro — o no tiene ninguno — para cubrir tus pérdidas.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Asistencia en el Camino y Grúa",
+              "desc": "Protección opcional para grúa, cerraduras y averías, para que la ayuda esté a una llamada de distancia cuando te quedes varado.",
+              "price": "Cotización Gratis",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "home-renters",
+          "name": "Hogar e Inquilinos",
+          "blurb": "Tu hogar es donde sucede tu vida. Te ayudamos a proteger la vivienda, tus pertenencias y tu tranquilidad.",
+          "items": [
+            {
+              "name": "Seguro de Propietarios de Vivienda",
+              "desc": "Cobertura para tu casa y tus bienes personales contra incendio, tormentas, robo y responsabilidad — ajustada al valor real de tu hogar.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Seguro de Inquilinos",
+              "desc": "Protección accesible para tus pertenencias y tu responsabilidad mientras rentas — muchas veces cuesta menos de lo que imaginas por una verdadera tranquilidad.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Seguro de Condominio",
+              "desc": "Cobertura que llena los huecos que la póliza maestra de tu asociación no cubre, protegiendo tu unidad, tus mejoras y tus bienes personales.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Cobertura contra Inundaciones",
+              "desc": "Las pólizas de hogar estándar no cubren inundaciones. Pregúntanos por una cobertura aparte contra inundaciones para protegerte de la subida del agua.",
+              "price": "Cotización Gratis",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "life-health",
+          "name": "Vida y Salud",
+          "blurb": "Protege a quienes dependen de ti. Te ayudamos a encontrar cobertura de vida y salud que se ajuste a tu familia y a tu presupuesto.",
+          "items": [
+            {
+              "name": "Seguro de Vida a Término",
+              "desc": "Cobertura sencilla y accesible por un período fijo — ideal para proteger a tu familia durante los años en que más lo necesitan.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Seguro de Vida Entera",
+              "desc": "Cobertura de por vida que acumula valor en efectivo con el tiempo, ofreciendo protección duradera y una base para el futuro de tu familia.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Suplemento de Medicare",
+              "desc": "Ayuda para cubrir los huecos que deja el Medicare Original, para que no te tomen por sorpresa los gastos de tu bolsillo.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Protección de Ingresos por Incapacidad",
+              "desc": "Cobertura que ayuda a reemplazar una parte de tus ingresos si una enfermedad o lesión te impide trabajar.",
+              "price": "Cotización Gratis",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "business-commercial",
+          "name": "Negocio y Comercial",
+          "blurb": "Desde un pequeño local hasta una empresa en crecimiento, ayudamos a los negocios del área de DeKalb a proteger su trabajo, su propiedad y a su gente.",
+          "items": [
+            {
+              "name": "Responsabilidad Civil General",
+              "desc": "Protección contra reclamos de terceros por lesiones corporales o daños a la propiedad que pueden surgir de las operaciones diarias del negocio.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Propiedad Comercial",
+              "desc": "Cobertura para tu edificio, equipo, inventario y mobiliario contra incendio, robo, clima y otros eventos cubiertos.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Compensación de Trabajadores",
+              "desc": "Cobertura obligatoria que protege a tus empleados — y a tu negocio — si un trabajador se lesiona en el trabajo.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Auto Comercial",
+              "desc": "Cobertura para los vehículos de los que depende tu negocio, desde una sola camioneta de trabajo hasta toda una flota en el camino.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "farm-crop",
+          "name": "Campo y Cosecha",
+          "blurb": "La agricultura es más que un negocio — es una forma de vida. Ayudamos a proteger la tierra, el equipo y la cosecha que la mantienen en marcha.",
+          "items": [
+            {
+              "name": "Propietarios de Granja y Rancho",
+              "desc": "Cobertura combinada para tu casa de campo, construcciones, ganado y responsabilidad — hecha a la medida de cómo realmente trabajas la tierra.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Seguro de Cosecha y Granizo",
+              "desc": "Protección para tu rendimiento contra el granizo, la sequía y otras pérdidas cubiertas, ayudando a resguardar el trabajo duro de tu temporada.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Equipo y Maquinaria Agrícola",
+              "desc": "Cobertura para tractores, implementos y maquinaria contra daños, robo y averías para que puedas seguir trabajando.",
+              "price": "Cotización Gratis",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Sobre Pardridge Insurance",
+      "lead": "Somos una agencia independiente y familiar que trata tu cobertura como quisiéramos que estuviera protegida nuestra propia familia — con honestidad y poniendo tu bienestar primero.",
+      "paragraphs": [
+        "Pardridge Insurance es una agencia de seguros independiente que ha atendido a las familias, conductores, negocios y granjas del área de DeKalb por más de 50 años. Como somos independientes, no estamos atados a una sola compañía — comparamos varias aseguradoras de confianza por ti y te traemos opciones que de verdad se ajustan a tu vida y a tu presupuesto. Eso significa comparaciones honestas, explicaciones claras y consejos en los que puedes confiar.",
+        "El seguro se trata de estar ahí cuando la vida da un giro. Cuando necesites presentar un reclamo, no te dejaremos solo navegándolo — somos gente real que contesta el teléfono, responde tus preguntas y te acompaña durante todo el proceso. Ya sea que asegures tu primer carro, la casa de tu familia, tu negocio en crecimiento o la granja que ha estado en tu familia por generaciones, estamos aquí para proteger lo que más importa."
+      ],
+      "stats": [
+        {
+          "value": "Independiente",
+          "label": "Comparamos Varias Aseguradoras"
+        },
+        {
+          "value": "Familiar",
+          "label": "Agencia Local de DeKalb"
+        },
+        {
+          "value": "Reclamos",
+          "label": "Ayuda Cuando la Necesitas"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Nuestra Oficina",
+      "subheading": "Una oficina local y acogedora donde puedes sentarte con una persona real y recibir respuestas honestas.",
+      "captions": [
+        "Nuestra oficina en Sycamore Road en DeKalb",
+        "Un lugar cómodo para hablar sobre tu cobertura",
+        "Gente real lista para responder tus preguntas",
+        "Revisando opciones de varias aseguradoras",
+        "Ayudando a un vecino a presentar un reclamo",
+        "Sirviendo a las familias y negocios del área de DeKalb"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen Nuestros Clientes",
+      "items": [
+        {
+          "quote": "De verdad se tomaron el tiempo de comparar varias aseguradoras por nosotros y explicarnos las diferencias. Terminamos con mejor cobertura y nunca nos sentimos presionados ni apurados.",
+          "name": "Karen M.",
+          "role": "Propietaria de Vivienda"
+        },
+        {
+          "quote": "Cuando tuvimos que presentar un reclamo, nos guiaron en cada paso y contestaron el teléfono cada vez que llamamos. Hicieron mucho más fácil una situación estresante.",
+          "name": "Dave R.",
+          "role": "Cliente de Auto y Hogar"
+        },
+        {
+          "quote": "Como dueña de un pequeño negocio, valoro trabajar con una agencia local que entiende. Consejos honestos, gente real, y compararon opciones para mantener mis costos razonables.",
+          "name": "Lisa T.",
+          "role": "Dueña de Negocio Local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita Nuestra Oficina",
+      "addressLabel": "Ubicación",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes – Viernes",
+          "time": "8:30 a.m. – 5:00 p.m."
+        },
+        {
+          "day": "Sábado",
+          "time": "Con Cita Previa"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Teléfono",
+      "directions": "Cómo Llegar",
+      "neighborhood": "Nuestra oficina está en el extremo norte del corredor de Sycamore Road, el tramo comercial que une DeKalb con la vecina Sycamore."
+    },
+    "cta": {
+      "heading": "¿Listo para una Cotización Gratis?",
+      "text": "Déjanos comparar varias aseguradoras y encontrar la cobertura adecuada al precio justo. Llama hoy y habla con una persona real que está aquí para ayudarte.",
+      "button": "Llamar al (815) 758-4447"
+    },
+    "form": {
+      "heading": "Solicita una Cotización Gratis",
+      "subheading": "Cuéntanos un poco sobre lo que te gustaría proteger y te contestaremos con opciones que se ajusten a ti.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tipo de Cobertura (Auto, Hogar, Vida, Negocio, Campo)",
+      "date": "Fecha y Hora de Contacto Preferida",
+      "message": "¿Qué te gustaría asegurar?",
+      "submit": "Solicitar mi Cotización",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Nos pondremos en contacto pronto para preparar tu cotización gratis.",
+      "error": "Algo salió mal. Por favor llámanos directamente al (815) 758-4447.",
+      "consent": "Al enviar este formulario aceptas ser contactado en relación con tu solicitud de cotización de seguro."
+    },
+    "footer": {
+      "tagline": "Seguros independientes y familiares que protegen a las familias, negocios y granjas del área de DeKalb.",
+      "rights": "© Pardridge Insurance. Todos los derechos reservados.",
+      "quickLinks": "Accesos Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    },
+    "process": {
+      "heading": "Cómo Trabajamos",
+      "steps": [
+        {
+          "title": "Cuéntanos Sobre tu Vida",
+          "text": "Empezamos por conocerte — tus vehículos, tu hogar, tu familia, tu negocio o tu campo — y la cobertura que de verdad necesitas."
+        },
+        {
+          "title": "Comparamos Varias Aseguradoras",
+          "text": "Como somos independientes, comparamos cotizaciones de varias aseguradoras de confianza para encontrar una buena protección a un precio justo."
+        },
+        {
+          "title": "Revisamos tus Opciones Juntos",
+          "text": "Repasamos las opciones en palabras claras — sin tecnicismos, sin presión — para que elijas la cobertura que se ajusta a ti."
+        },
+        {
+          "title": "Estamos Aquí Cuando nos Necesitas",
+          "text": "Después de que estés cubierto, seguimos de tu lado — respondiendo preguntas, revisando tu póliza y guiándote en cualquier reclamo."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿Las cotizaciones de verdad son gratis?",
+          "a": "Sí. Cotizar siempre es gratis y sin compromiso. Comparamos varias aseguradoras y te explicamos tus opciones sin ningún costo."
+        },
+        {
+          "q": "¿Necesito cita o puedo llegar sin avisar?",
+          "a": "Eres bienvenido a pasar durante el horario de oficina, de lunes a viernes. Los sábados son con cita, así que es mejor llamar antes al (815) 758-4447."
+        },
+        {
+          "q": "¿Qué debo traer para cotizar?",
+          "a": "Lo que tengas a la mano ayuda — los datos de tu póliza actual, la información de tu vehículo o propiedad y la cobertura que tienes ahora. Si no estás seguro, solo llama y te guiamos."
+        },
+        {
+          "q": "¿Pueden ayudarme en español?",
+          "a": "Con gusto te atendemos en español y en inglés. Solo dinos qué prefieres y te explicamos tus opciones con claridad."
+        },
+        {
+          "q": "¿Qué pasa si necesito presentar un reclamo?",
+          "a": "No estarás solo. Te ayudamos a entender el proceso, respondemos tus preguntas y te guiamos en tu reclamo en cada paso del camino."
+        },
+        {
+          "q": "¿Pueden revisar mi seguro actual para ver si estoy pagando de más?",
+          "a": "Claro que sí. Tráenos tu póliza actual y la comparamos con varias aseguradoras para ver si hay mejor cobertura o mejor precio disponible."
+        }
+      ]
+    }
+  }
+}

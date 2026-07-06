@@ -1,0 +1,650 @@
+{
+  "business": {
+    "name": "Lovells Discount Tire",
+    "shortName": "Lovells Tire",
+    "vertical": "Independent tire & wheel shop",
+    "phone": "(815) 756-5656",
+    "phoneHref": "+18157565656",
+    "address": "424 East Lincoln Highway",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Lovells Discount Tire, 424 East Lincoln Highway, DeKalb, IL 60115",
+    "lat": 41.9290631,
+    "lon": -88.7496661
+  },
+  "en": {
+    "meta": {
+      "title": "Lovells Discount Tire — Best Tire Prices in DeKalb, IL",
+      "description": "New & used tires at the best prices in DeKalb, IL. Same-day mount & balance, flat repair, rotation, alignment — fast service, no upsell. Call (815) 756-5656."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About Us",
+      "gallery": "Our Work",
+      "visit": "Visit Us",
+      "order": "Get a Quote"
+    },
+    "hero": {
+      "eyebrow": "Best Tire Prices in DeKalb",
+      "title": "Great Tires.",
+      "titleAccent": "Honest Prices.",
+      "subtitle": "New and used tires for every budget, mounted and balanced same day. No pressure, no upsell — just honest help getting you back on the road for less.",
+      "ctaPrimary": "View Our Services",
+      "ctaSecondary": "Call for a Quote",
+      "badge": "New & Used Tires · Same-Day Service · No Upsell"
+    },
+    "highlights": [
+      {
+        "icon": "gauge",
+        "title": "Best Prices in Town",
+        "text": "We keep our prices low and our quotes upfront. New or used, you'll get a fair deal and the cheapest way to get rolling again — no games, no hidden fees."
+      },
+      {
+        "icon": "clock",
+        "title": "Same-Day Service",
+        "text": "Most tire jobs are done while you wait. Pop in for a mount, balance, rotation, or flat fix and you'll usually be back on the road the same day."
+      },
+      {
+        "icon": "check",
+        "title": "No Upsell, Ever",
+        "text": "We won't push tires or services you don't need. We'll tell you straight what your car actually needs and what can wait — then let you decide."
+      },
+      {
+        "icon": "car",
+        "title": "New & Used Options",
+        "text": "From quality budget used tires to fresh all-season and performance sets, we carry options for every vehicle and every wallet."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Everything to keep you rolling, all in one shop. Prices shown are illustrative demo examples — please call (815) 756-5656 for an exact quote on your vehicle.",
+      "categories": [
+        {
+          "id": "new-used-tires",
+          "name": "New & Used Tires",
+          "blurb": "Quality tires for every budget — from dependable used sets to fresh new rubber for any season or driving style.",
+          "items": [
+            {
+              "name": "All-Season Tires",
+              "desc": "Dependable, long-wearing tires built for year-round traction in rain, dry, and light snow. Great everyday value.",
+              "price": "From $69",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Performance Tires",
+              "desc": "Sharper grip and handling for sporty cars and spirited drivers. We'll match the right speed rating to your vehicle.",
+              "price": "From $99",
+              "tags": []
+            },
+            {
+              "name": "Truck & SUV Tires",
+              "desc": "Tough all-terrain and highway tires built to haul, tow, and handle whatever the road throws at them.",
+              "price": "From $119",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Budget Used Tires",
+              "desc": "Quality-inspected used tires with plenty of tread left — the cheapest way to get safely back on the road.",
+              "price": "From $35",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Single Replacement Tire",
+              "desc": "Blew one out? We'll match a single new or used tire to your set so you're not buying four when you need one.",
+              "price": "From $35",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tire-services",
+          "name": "Tire Services",
+          "blurb": "Quick, careful tire work to keep you safe and your tires lasting longer — most done while you wait.",
+          "items": [
+            {
+              "name": "Mount & Balance",
+              "desc": "Professional mounting and computer balancing for a smooth, vibration-free ride. Priced per tire.",
+              "price": "From $25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Tire Rotation",
+              "desc": "Even out your tread wear and extend the life of your tires. Quick and easy while you wait.",
+              "price": "From $20",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Flat Repair",
+              "desc": "Safe, proper plug-and-patch repairs to get you rolling again without buying a whole new tire.",
+              "price": "From $20",
+              "tags": [
+                "fast",
+                "value"
+              ]
+            },
+            {
+              "name": "TPMS Reset",
+              "desc": "We diagnose and reset your tire-pressure sensors so that warning light finally turns off and stays off.",
+              "price": "From $25",
+              "tags": []
+            },
+            {
+              "name": "Tire Disposal & Recycling",
+              "desc": "We'll responsibly haul away and recycle your old tires so you don't have to deal with them.",
+              "price": "From $5",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "wheels-alignment",
+          "name": "Wheels & Alignment",
+          "blurb": "Keep your car tracking straight and looking sharp — for safer driving, longer tire life, and a better ride.",
+          "items": [
+            {
+              "name": "Wheel Alignment",
+              "desc": "Precision alignment to stop uneven tire wear and that annoying pull to one side. Protects your new tires.",
+              "price": "From $79",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Custom Wheels",
+              "desc": "Upgrade your look with custom rims. We'll help you find the right fit and finish for your ride.",
+              "price": "Free quote",
+              "tags": []
+            },
+            {
+              "name": "Hub & Bearing Service",
+              "desc": "Inspection and service of wheel hubs and bearings to smooth out noise and keep your wheels turning true.",
+              "price": "From $89",
+              "tags": []
+            },
+            {
+              "name": "Wheel Cleaning & Lug Service",
+              "desc": "We clean up corroded hubs and replace stripped or stuck lug nuts so your wheels seat right and come off easy.",
+              "price": "From $15",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "quick-auto-services",
+          "name": "Quick Auto Services",
+          "blurb": "While you're here, knock out the routine stuff too — fast, fair, and no pressure to do more than you need.",
+          "items": [
+            {
+              "name": "Brake Service",
+              "desc": "Pads, rotors, and a brake inspection. We'll show you exactly what's worn and what can wait — no scare tactics.",
+              "price": "From $129",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Oil Change",
+              "desc": "Conventional, synthetic-blend, or full-synthetic oil with a new filter and a quick visual check.",
+              "price": "From $39",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Battery Test & Replacement",
+              "desc": "Free battery and charging-system check. If it's time, we install a quality replacement on the spot.",
+              "price": "From $149",
+              "tags": []
+            },
+            {
+              "name": "Multi-Point Safety Check",
+              "desc": "A quick once-over of tires, brakes, fluids, and lights — with an honest report on what needs attention.",
+              "price": "Free quote",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "About Lovells Discount Tire",
+      "lead": "We're the local tire shop that gets you back on the road fast — for less, and without the runaround.",
+      "paragraphs": [
+        "Lovells Discount Tire is an independent tire and wheel shop right here in DeKalb. We built this place on a simple idea: tires shouldn't break the bank, and getting them shouldn't be a hassle. New or used, we'll find the right tire for your car and your budget, get it mounted and balanced fast, and send you on your way at a price that actually makes sense.",
+        "Whether you're an NIU student stretching every dollar, a family keeping the minivan rolling, or someone who just hit a pothole on Lincoln Highway, you'll get the same honest help every time. No upsell, no pressure — just fair prices, quick service, and straight answers. Call us for a quote and we'll get you taken care of."
+      ],
+      "stats": [
+        {
+          "value": "Best",
+          "label": "Prices in DeKalb"
+        },
+        {
+          "value": "Same-Day",
+          "label": "Tire Service"
+        },
+        {
+          "value": "New & Used",
+          "label": "Tires in Stock"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Look Around the Shop",
+      "subheading": "Fast hands, fair prices, and tires for every budget.",
+      "captions": [
+        "Racks of new and used tires ready to roll",
+        "Mounting and computer balancing done right",
+        "Quick flat repairs while you wait",
+        "Precision alignment to protect your tires",
+        "Custom wheels to upgrade your ride",
+        "Back on the road for less"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Our Customers Say",
+      "items": [
+        {
+          "quote": "Got a used tire put on same day for way less than anywhere else quoted me. In and out in under an hour, no pressure to buy four. This is my tire shop now.",
+          "name": "Carlos M.",
+          "role": "DeKalb Local"
+        },
+        {
+          "quote": "Hit a pothole and blew a tire right before class. They matched a single tire to my set and had me back on the road fast. Lifesaver on a student budget.",
+          "name": "Brianna K.",
+          "role": "NIU Student"
+        },
+        {
+          "quote": "Honest pricing and they actually told me my other tires were fine for now instead of trying to sell me a whole set. Hard to find a shop like this.",
+          "name": "Dave R.",
+          "role": "Repeat Customer"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Shop",
+      "addressLabel": "Location",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday – Friday",
+          "time": "8:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "8:00 AM – 3:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Phone",
+      "directions": "Get Directions",
+      "neighborhood": "The shop fronts East Lincoln Highway a few blocks east of downtown DeKalb, on the town's stretch of the historic Lincoln Highway — America's first coast-to-coast road."
+    },
+    "cta": {
+      "heading": "Need Tires? Let's Get You Rolling.",
+      "text": "Call us for a free quote on new or used tires, a flat repair, or any service. Real people, honest prices, fast turnaround.",
+      "button": "Call (815) 756-5656"
+    },
+    "form": {
+      "heading": "Get a Quote",
+      "subheading": "Tell us what your vehicle needs and we'll get back to you fast with an honest price.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Vehicle (Year / Make / Model)",
+      "date": "Preferred Date & Time",
+      "message": "What do you need? (tire size, new or used, service…)",
+      "submit": "Request Quote",
+      "sending": "Sending…",
+      "success": "Thanks! We'll be in touch shortly with your quote.",
+      "error": "Something went wrong. Please call us directly at (815) 756-5656.",
+      "consent": "By submitting this form you agree to be contacted about your quote request."
+    },
+    "footer": {
+      "tagline": "New & used tires at the best prices in DeKalb, IL.",
+      "rights": "© Lovells Discount Tire. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Lovells Discount Tire — Las Mejores Llantas y Precios en DeKalb, IL",
+      "description": "Llantas nuevas y usadas a los mejores precios en DeKalb, IL. Montaje y balanceo el mismo día, ponchaduras, rotación y alineación. Llama al (815) 756-5656."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Nuestro Trabajo",
+      "visit": "Visítanos",
+      "order": "Cotizar"
+    },
+    "hero": {
+      "eyebrow": "Los Mejores Precios de Llantas en DeKalb",
+      "title": "Buenas Llantas.",
+      "titleAccent": "Precios Honestos.",
+      "subtitle": "Llantas nuevas y usadas para todo presupuesto, montadas y balanceadas el mismo día. Sin presión, sin ventas de más — solo ayuda honesta para que vuelvas al camino por menos.",
+      "ctaPrimary": "Ver Nuestros Servicios",
+      "ctaSecondary": "Llama para Cotizar",
+      "badge": "Llantas Nuevas y Usadas · Servicio el Mismo Día · Sin Ventas de Más"
+    },
+    "highlights": [
+      {
+        "icon": "gauge",
+        "title": "Los Mejores Precios",
+        "text": "Mantenemos los precios bajos y las cotizaciones claras. Nueva o usada, recibes un trato justo y la forma más económica de volver a rodar — sin trucos ni cargos ocultos."
+      },
+      {
+        "icon": "clock",
+        "title": "Servicio el Mismo Día",
+        "text": "La mayoría de los trabajos de llantas se hacen mientras esperas. Pasa por un montaje, balanceo, rotación o reparación de ponchadura y casi siempre vuelves al camino el mismo día."
+      },
+      {
+        "icon": "check",
+        "title": "Sin Ventas de Más, Nunca",
+        "text": "No te empujamos llantas ni servicios que no necesitas. Te decimos claro qué necesita de verdad tu carro y qué puede esperar — y tú decides."
+      },
+      {
+        "icon": "car",
+        "title": "Opciones Nuevas y Usadas",
+        "text": "Desde llantas usadas económicas de calidad hasta juegos nuevos para todo clima y de alto desempeño, tenemos opciones para cada vehículo y cada bolsillo."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Todo para mantenerte rodando, en un solo taller. Los precios mostrados son ejemplos ilustrativos de demostración — por favor llama al (815) 756-5656 para una cotización exacta de tu vehículo.",
+      "categories": [
+        {
+          "id": "new-used-tires",
+          "name": "Llantas Nuevas y Usadas",
+          "blurb": "Llantas de calidad para todo presupuesto — desde juegos usados confiables hasta llantas nuevas para cualquier temporada o estilo de manejo.",
+          "items": [
+            {
+              "name": "Llantas para Todo Clima",
+              "desc": "Llantas confiables y duraderas hechas para agarrar todo el año en lluvia, seco y nieve ligera. Excelente valor diario.",
+              "price": "Desde $69",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Llantas de Alto Desempeño",
+              "desc": "Mejor agarre y manejo para carros deportivos y conductores exigentes. Elegimos el índice de velocidad correcto para tu vehículo.",
+              "price": "Desde $99",
+              "tags": []
+            },
+            {
+              "name": "Llantas para Camioneta y SUV",
+              "desc": "Llantas resistentes todoterreno y de carretera hechas para cargar, remolcar y aguantar lo que sea.",
+              "price": "Desde $119",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Llantas Usadas Económicas",
+              "desc": "Llantas usadas revisadas con bastante dibujo todavía — la forma más económica de volver al camino con seguridad.",
+              "price": "Desde $35",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Llanta de Reemplazo Individual",
+              "desc": "¿Se te ponchó una? Igualamos una sola llanta nueva o usada a tu juego para que no compres cuatro cuando solo necesitas una.",
+              "price": "Desde $35",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tire-services",
+          "name": "Servicios de Llantas",
+          "blurb": "Trabajo de llantas rápido y cuidadoso para mantenerte seguro y que tus llantas duren más — la mayoría hecho mientras esperas.",
+          "items": [
+            {
+              "name": "Montaje y Balanceo",
+              "desc": "Montaje profesional y balanceo por computadora para una marcha suave y sin vibración. Precio por llanta.",
+              "price": "Desde $25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Rotación de Llantas",
+              "desc": "Empareja el desgaste del dibujo y alarga la vida de tus llantas. Rápido y fácil mientras esperas.",
+              "price": "Desde $20",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Reparación de Ponchaduras",
+              "desc": "Reparaciones seguras y bien hechas para que sigas rodando sin tener que comprar una llanta nueva.",
+              "price": "Desde $20",
+              "tags": [
+                "fast",
+                "value"
+              ]
+            },
+            {
+              "name": "Reinicio de TPMS",
+              "desc": "Diagnosticamos y reiniciamos los sensores de presión de tus llantas para que esa luz de advertencia por fin se apague y se quede apagada.",
+              "price": "Desde $25",
+              "tags": []
+            },
+            {
+              "name": "Desecho y Reciclaje de Llantas",
+              "desc": "Nos llevamos y reciclamos tus llantas viejas de forma responsable para que tú no tengas que lidiar con ellas.",
+              "price": "Desde $5",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "wheels-alignment",
+          "name": "Rines y Alineación",
+          "blurb": "Mantén tu carro derecho y con buen look — para manejar más seguro, que las llantas duren más y una mejor marcha.",
+          "items": [
+            {
+              "name": "Alineación",
+              "desc": "Alineación de precisión para frenar el desgaste disparejo y ese jaloneo molesto hacia un lado. Protege tus llantas nuevas.",
+              "price": "Desde $79",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Rines Personalizados",
+              "desc": "Mejora tu look con rines personalizados. Te ayudamos a encontrar la medida y el acabado adecuados para tu carro.",
+              "price": "Cotización gratis",
+              "tags": []
+            },
+            {
+              "name": "Servicio de Mazas y Baleros",
+              "desc": "Inspección y servicio de mazas y baleros para quitar ruidos y mantener tus ruedas girando parejo.",
+              "price": "Desde $89",
+              "tags": []
+            },
+            {
+              "name": "Limpieza de Rin y Servicio de Birlos",
+              "desc": "Limpiamos mazas corroídas y cambiamos birlos barridos o atorados para que tus ruedas asienten bien y salgan fácil.",
+              "price": "Desde $15",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "quick-auto-services",
+          "name": "Servicios Rápidos de Auto",
+          "blurb": "Ya que estás aquí, resuelve también lo de rutina — rápido, justo y sin presión para hacer más de lo que necesitas.",
+          "items": [
+            {
+              "name": "Servicio de Frenos",
+              "desc": "Balatas, discos e inspección de frenos. Te mostramos exactamente qué está gastado y qué puede esperar — sin meterte miedo.",
+              "price": "Desde $129",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Cambio de Aceite",
+              "desc": "Aceite convencional, semisintético o sintético con filtro nuevo y una revisión visual rápida.",
+              "price": "Desde $39",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Prueba y Cambio de Batería",
+              "desc": "Revisión gratis de la batería y el sistema de carga. Si ya toca, instalamos una batería de calidad en el momento.",
+              "price": "Desde $149",
+              "tags": []
+            },
+            {
+              "name": "Revisión de Seguridad de Varios Puntos",
+              "desc": "Una revisión rápida de llantas, frenos, fluidos y luces — con un reporte honesto de lo que necesita atención.",
+              "price": "Cotización gratis",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Sobre Lovells Discount Tire",
+      "lead": "Somos la llantera local que te regresa al camino rápido — por menos, y sin tanta vuelta.",
+      "paragraphs": [
+        "Lovells Discount Tire es una llantera independiente aquí mismo en DeKalb. Construimos este lugar sobre una idea sencilla: las llantas no deberían vaciarte la cartera, y conseguirlas no debería ser un dolor de cabeza. Nuevas o usadas, encontramos la llanta correcta para tu carro y tu presupuesto, la montamos y balanceamos rápido, y te mandamos en camino a un precio que de verdad tiene sentido.",
+        "Ya seas estudiante de NIU estirando cada dólar, una familia que mantiene rodando la van, o alguien que acaba de caer en un bache en Lincoln Highway, vas a recibir la misma ayuda honesta siempre. Sin ventas de más, sin presión — solo precios justos, servicio rápido y respuestas directas. Llámanos para una cotización y te atendemos."
+      ],
+      "stats": [
+        {
+          "value": "Mejores",
+          "label": "Precios en DeKalb"
+        },
+        {
+          "value": "Mismo Día",
+          "label": "Servicio de Llantas"
+        },
+        {
+          "value": "Nuevas y Usadas",
+          "label": "Llantas en Existencia"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Vistazo al Taller",
+      "subheading": "Manos rápidas, precios justos y llantas para todo presupuesto.",
+      "captions": [
+        "Racks de llantas nuevas y usadas listas para rodar",
+        "Montaje y balanceo por computadora bien hecho",
+        "Reparación rápida de ponchaduras mientras esperas",
+        "Alineación de precisión para proteger tus llantas",
+        "Rines personalizados para mejorar tu carro",
+        "De vuelta al camino por menos"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen Nuestros Clientes",
+      "items": [
+        {
+          "quote": "Me pusieron una llanta usada el mismo día por mucho menos de lo que me cotizaban en otros lados. Entré y salí en menos de una hora, sin presión para comprar cuatro. Esta es mi llantera ahora.",
+          "name": "Carlos M.",
+          "role": "Vecino de DeKalb"
+        },
+        {
+          "quote": "Caí en un bache y se me ponchó una llanta justo antes de clase. Me igualaron una sola llanta a mi juego y me regresaron al camino rápido. Me salvaron con mi presupuesto de estudiante.",
+          "name": "Brianna K.",
+          "role": "Estudiante de NIU"
+        },
+        {
+          "quote": "Precios honestos y de verdad me dijeron que mis otras llantas estaban bien por ahora en lugar de tratar de venderme un juego completo. Difícil encontrar una llantera así.",
+          "name": "Dave R.",
+          "role": "Cliente Frecuente"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita el Taller",
+      "addressLabel": "Ubicación",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes – Viernes",
+          "time": "8:00 a.m. – 6:00 p.m."
+        },
+        {
+          "day": "Sábado",
+          "time": "8:00 a.m. – 3:00 p.m."
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Teléfono",
+      "directions": "Cómo Llegar",
+      "neighborhood": "El taller da a East Lincoln Highway, a unas cuadras al este del centro de DeKalb, sobre el tramo local de la histórica Lincoln Highway — la primera carretera de costa a costa de Estados Unidos."
+    },
+    "cta": {
+      "heading": "¿Necesitas Llantas? Te Ponemos a Rodar.",
+      "text": "Llámanos para una cotización gratis de llantas nuevas o usadas, una reparación de ponchadura o cualquier servicio. Gente real, precios honestos, servicio rápido.",
+      "button": "Llamar al (815) 756-5656"
+    },
+    "form": {
+      "heading": "Cotizar",
+      "subheading": "Cuéntanos qué necesita tu vehículo y te contestamos rápido con un precio honesto.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Vehículo (Año / Marca / Modelo)",
+      "date": "Fecha y Hora Preferida",
+      "message": "¿Qué necesitas? (medida de llanta, nueva o usada, servicio…)",
+      "submit": "Solicitar Cotización",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Nos pondremos en contacto pronto con tu cotización.",
+      "error": "Algo salió mal. Por favor llámanos directamente al (815) 756-5656.",
+      "consent": "Al enviar este formulario aceptas ser contactado en relación con tu solicitud de cotización."
+    },
+    "footer": {
+      "tagline": "Llantas nuevas y usadas a los mejores precios en DeKalb, IL.",
+      "rights": "© Lovells Discount Tire. Todos los derechos reservados.",
+      "quickLinks": "Accesos Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

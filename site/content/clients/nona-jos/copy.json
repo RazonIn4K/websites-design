@@ -1,0 +1,698 @@
+{
+  "business": {
+    "name": "Nona Jo's",
+    "shortName": "Nona Jo's",
+    "vertical": "Home & Gift Boutique",
+    "phone": "(630) 355-4488",
+    "phoneHref": "+16303554488",
+    "address": "410 West 5th Avenue",
+    "city": "Naperville",
+    "state": "IL",
+    "zip": "60563",
+    "mapsQuery": "Nona Jo's, 410 West 5th Avenue, Naperville, IL 60563",
+    "lat": 41.7802724,
+    "lon": -88.1548212
+  },
+  "en": {
+    "meta": {
+      "title": "Nona Jo's | Home & Gift Boutique in Naperville, IL",
+      "description": "A family-run home and gift boutique on West 5th Avenue in Naperville, IL. Candles, decor, jewelry, baby gifts, and free gift wrapping. Call (630) 355-4488."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Shop",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Visit the Shop"
+    },
+    "hero": {
+      "eyebrow": "A Naperville Home & Gift Boutique",
+      "title": "The Perfect Gift,",
+      "titleAccent": "A Little Treat for You",
+      "subtitle": "A warm, beautifully curated home and gift boutique in Naperville — the place you go when you need the perfect present, a little something for yourself, or just want to wander among lovely things.",
+      "ctaPrimary": "Shop the Collections",
+      "ctaSecondary": "Call (630) 355-4488",
+      "badge": "Free gift wrapping · Gift registry available"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Curated With Care",
+        "text": "Every shelf is hand-picked — candles, decor, jewelry, and finds you won't see everywhere, chosen because we genuinely love them."
+      },
+      {
+        "icon": "heart",
+        "title": "Free Gift Wrapping",
+        "text": "Pick something out and we'll wrap it beautifully at no charge, so it's ready to give the moment you walk out the door."
+      },
+      {
+        "icon": "star",
+        "title": "Gift Registry",
+        "text": "Setting up a registry for a wedding, shower, or new baby? We'll help you build a list and guide your guests when they come in."
+      },
+      {
+        "icon": "leaf",
+        "title": "Locally Loved",
+        "text": "An independent, neighborhood boutique where you're greeted warmly and helped by people who'll happily find just the right thing."
+      }
+    ],
+    "menu": {
+      "heading": "Shop Our Collections",
+      "subheading": "Items and prices shown are illustrative demo content for this concept site and may not reflect the shop's actual selection or pricing.",
+      "categories": [
+        {
+          "id": "home-decor",
+          "name": "Home & Decor",
+          "blurb": "Candles, throws, vases, and wall art to make any room feel a little more like you.",
+          "items": [
+            {
+              "name": "Hand-Poured Soy Candle",
+              "desc": "A clean-burning soy candle in seasonal scents that fill a room without overpowering it.",
+              "price": "$28",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Chunky Knit Throw",
+              "desc": "A soft, oversized throw that drapes beautifully over a sofa or the end of the bed.",
+              "price": "$64",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Ceramic Bud Vase",
+              "desc": "A handmade stoneware vase, lovely on its own or grouped for a few fresh stems.",
+              "price": "$22",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Framed Wall Art Print",
+              "desc": "A gallery-ready print in a simple frame to warm up an empty wall or a quiet corner.",
+              "price": "$48"
+            },
+            {
+              "name": "Stoneware Trinket Dish",
+              "desc": "A little catch-all dish for rings, keys, and the small things that always wander off.",
+              "price": "$16",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gifts-greeting",
+          "name": "Gifts & Greeting",
+          "blurb": "Gift sets, cards, jewelry, and bath & body for the people you love — and the occasional treat for yourself.",
+          "items": [
+            {
+              "name": "Curated Gift Set",
+              "desc": "A ready-to-give bundle of our favorite small things, wrapped and ready for any occasion.",
+              "price": "$45",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Boutique Greeting Cards",
+              "desc": "Letterpress and illustrated cards for birthdays, thank-yous, and just-because notes.",
+              "price": "$6",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Dainty Layering Necklace",
+              "desc": "A delicate everyday necklace that wears beautifully on its own or stacked with others.",
+              "price": "$38",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bath & Body Trio",
+              "desc": "A soap, lotion, and hand cream set in soft scents — a little luxury for everyday.",
+              "price": "$34"
+            },
+            {
+              "name": "Scented Reed Diffuser",
+              "desc": "A long-lasting diffuser that keeps an entryway or bath gently fragrant for weeks.",
+              "price": "$26",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kitchen-entertaining",
+          "name": "Kitchen & Entertaining",
+          "blurb": "Serveware, linens, and gourmet treats to set a lovely table and host with ease.",
+          "items": [
+            {
+              "name": "Marble Serving Board",
+              "desc": "A handsome board for cheese, charcuterie, or appetizers that does double duty as decor.",
+              "price": "$42",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Linen Cocktail Napkins",
+              "desc": "A set of soft, washable linen napkins that dress up everyday gatherings.",
+              "price": "$24",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Small-Batch Gourmet Treats",
+              "desc": "Jams, honeys, and sweets from makers we love — perfect on their own or in a gift basket.",
+              "price": "$14",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Stoneware Serving Bowl",
+              "desc": "A go-to bowl for salads and sides that's pretty enough to bring straight to the table.",
+              "price": "$36",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "seasonal-baby",
+          "name": "Seasonal & Baby",
+          "blurb": "Seasonal decor, baby gifts, and keepsakes to mark the moments worth remembering.",
+          "items": [
+            {
+              "name": "Seasonal Decor Accent",
+              "desc": "A rotating selection of decor that brings each season into your home, swapped out all year.",
+              "price": "$32",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Baby Gift Bundle",
+              "desc": "A soft blanket, plush, and a little extra, wrapped up sweetly for the newest arrival.",
+              "price": "$52",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Personalized Keepsake",
+              "desc": "A small treasure to mark a birth, a milestone, or a moment worth holding on to.",
+              "price": "$30",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Knit Baby Booties",
+              "desc": "Tiny hand-knit booties that make a darling shower gift on their own or tucked into a bundle.",
+              "price": "$18",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Little Shop Full of Lovely Things",
+      "lead": "Nona Jo's is an independent home and gift boutique on West 5th Avenue, the kind of place you wander into for one thing and leave with three.",
+      "paragraphs": [
+        "Nona Jo's began in 2004, when Leigh turned her garage into a one-room boutique of floral arrangements and one-of-a-kind finds — and today Nona Jo and her daughters, Jennifer and Leigh, still run the shop together. It's built around a simple idea: shopping for a gift — or for yourself — should feel like a treat, not a chore. So we fill the shop with candles, decor, jewelry, baby gifts, and little finds we genuinely love, and we arrange it all so it's a pleasure just to browse.",
+        "Stop in and you'll be greeted warmly and helped by people who actually enjoy hunting down the perfect present. We wrap your gifts beautifully at no charge, keep a registry for the showers and weddings on the way, and always have something new worth coming back for."
+      ],
+      "stats": [
+        {
+          "value": "Curated",
+          "label": "Hand-Picked Finds"
+        },
+        {
+          "value": "Free",
+          "label": "Gift Wrapping"
+        },
+        {
+          "value": "Local",
+          "label": "Independent Boutique"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside the Shop",
+      "subheading": "A little look around the boutique, shelf by lovely shelf.",
+      "captions": [
+        "Candles and home fragrance on display",
+        "Cozy throws and decor styled by the window",
+        "Jewelry and little treats for yourself",
+        "Serveware and linens for the table",
+        "Baby gifts and keepsakes wrapped to give",
+        "Seasonal finds refreshed all year long"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Naperville Is Saying",
+      "items": [
+        {
+          "quote": "My go-to whenever I need a gift. I always find something special, and the free wrapping means I show up looking like I tried so much harder than I did.",
+          "name": "Megan T.",
+          "role": "Regular Customer"
+        },
+        {
+          "quote": "We set up our baby registry here and the team made it so easy. Everything is beautiful and our guests loved shopping the list in person.",
+          "name": "Sarah K.",
+          "role": "New Mom"
+        },
+        {
+          "quote": "I came in for a candle and left with a gift for my mom, a card, and a little something for myself. That's just what this place does to you.",
+          "name": "Jenna R.",
+          "role": "Naperville Neighbor"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Shop",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "10:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM – 4:00 PM"
+        }
+      ],
+      "phoneLabel": "Call the Shop",
+      "directions": "On West 5th Avenue in Naperville with nearby parking. Stop in to browse, pick out a gift, or call ahead and we'll set one aside and have it wrapped and ready.",
+      "neighborhood": "The shop sits on West 5th Avenue just north of downtown Naperville, down the street from the historic Kroehler furniture factory at 5th Avenue Station and a short walk from the Metra station."
+    },
+    "cta": {
+      "heading": "Come Wander Among Lovely Things",
+      "text": "Stop by for the perfect gift, a little treat for yourself, or a registry that makes gifting easy. We'll wrap it beautifully and send you out the door ready to give.",
+      "button": "Call (630) 355-4488"
+    },
+    "form": {
+      "heading": "Ask Us Anything",
+      "subheading": "Looking for a special gift, setting up a registry, or planning ahead? Send us a note and we'll help you find just the right thing.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Occasion or Registry",
+      "date": "Preferred Visit Date",
+      "message": "What Are You Looking For?",
+      "submit": "Send Request",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your note and will reach out to help with your gift or registry.",
+      "error": "Something went wrong. Please try again or call us at (630) 355-4488.",
+      "consent": "By submitting, you agree to be contacted about your request."
+    },
+    "footer": {
+      "tagline": "A warm, curated home and gift boutique with free gift wrapping in Naperville, IL.",
+      "rights": "© Nona Jo's. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Shop Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Nona Jo's | Boutique de Hogar y Regalos en Naperville, IL",
+      "description": "Boutique familiar de hogar y regalos en West 5th Avenue, Naperville. Velas, decoración, joyería, regalos de bebé y envoltura gratis. Llama al (630) 355-4488."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Tienda",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Visítanos"
+    },
+    "hero": {
+      "eyebrow": "Una Boutique de Hogar y Regalos en Naperville",
+      "title": "El Regalo Perfecto,",
+      "titleAccent": "Un Gusto para Ti",
+      "subtitle": "Una boutique de hogar y regalos cálida y bellamente curada en Naperville — el lugar al que vas cuando necesitas el regalo perfecto, un pequeño gusto para ti, o simplemente quieres pasear entre cosas lindas.",
+      "ctaPrimary": "Ver las Colecciones",
+      "ctaSecondary": "Llama al (630) 355-4488",
+      "badge": "Envoltura de regalo gratis · Mesa de regalos disponible"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Curado con Cariño",
+        "text": "Cada repisa está elegida a mano — velas, decoración, joyería y hallazgos que no verás en todas partes, escogidos porque de verdad nos encantan."
+      },
+      {
+        "icon": "heart",
+        "title": "Envoltura de Regalo Gratis",
+        "text": "Elige algo y lo envolvemos bellamente sin costo, listo para regalar en cuanto sales por la puerta."
+      },
+      {
+        "icon": "star",
+        "title": "Mesa de Regalos",
+        "text": "¿Armando una mesa de regalos para una boda, un baby shower o un nuevo bebé? Te ayudamos a crear la lista y guiamos a tus invitados cuando vienen."
+      },
+      {
+        "icon": "leaf",
+        "title": "Querida en el Barrio",
+        "text": "Una boutique independiente de barrio donde te reciben con calidez y te atienden personas que con gusto encuentran justo lo que buscas."
+      }
+    ],
+    "menu": {
+      "heading": "Compra Nuestras Colecciones",
+      "subheading": "Los artículos y precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar la selección o los precios reales de la tienda.",
+      "categories": [
+        {
+          "id": "home-decor",
+          "name": "Hogar y Decoración",
+          "blurb": "Velas, mantas, jarrones y arte de pared para que cualquier rincón se sienta un poco más tuyo.",
+          "items": [
+            {
+              "name": "Vela de Soya Vertida a Mano",
+              "desc": "Una vela de soya de combustión limpia en aromas de temporada que llenan la habitación sin saturarla.",
+              "price": "$28",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Manta Tejida Gruesa",
+              "desc": "Una manta suave y grande que cae preciosa sobre el sofá o al pie de la cama.",
+              "price": "$64",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Jarrón de Cerámica",
+              "desc": "Un jarrón de gres hecho a mano, lindo por sí solo o en grupo para unas flores frescas.",
+              "price": "$22",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Lámina Enmarcada para Pared",
+              "desc": "Una lámina lista para colgar en un marco sencillo para dar calidez a una pared vacía o un rincón tranquilo.",
+              "price": "$48"
+            },
+            {
+              "name": "Platito de Gres para Bandeja",
+              "desc": "Un platito para anillos, llaves y esas cositas que siempre se pierden.",
+              "price": "$16",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gifts-greeting",
+          "name": "Regalos y Tarjetas",
+          "blurb": "Sets de regalo, tarjetas, joyería y cuidado personal para quienes amas — y algún gusto para ti.",
+          "items": [
+            {
+              "name": "Set de Regalo Curado",
+              "desc": "Un paquete listo para regalar con nuestras cositas favoritas, envuelto y listo para cualquier ocasión.",
+              "price": "$45",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Tarjetas de Boutique",
+              "desc": "Tarjetas en relieve e ilustradas para cumpleaños, agradecimientos y notas porque sí.",
+              "price": "$6",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Collar Delicado para Capas",
+              "desc": "Un collar delicado de diario que luce hermoso solo o combinado con otros.",
+              "price": "$38",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Trío de Cuidado Personal",
+              "desc": "Un set de jabón, loción y crema de manos en aromas suaves — un pequeño lujo para todos los días.",
+              "price": "$34"
+            },
+            {
+              "name": "Difusor de Varitas Aromático",
+              "desc": "Un difusor de larga duración que mantiene la entrada o el baño suavemente perfumados por semanas.",
+              "price": "$26",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kitchen-entertaining",
+          "name": "Cocina y Anfitrión",
+          "blurb": "Vajilla de servir, mantelería y delicias gourmet para poner una mesa linda y recibir con calma.",
+          "items": [
+            {
+              "name": "Tabla de Servir de Mármol",
+              "desc": "Una tabla elegante para quesos, charcutería o entradas que también luce como decoración.",
+              "price": "$42",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Servilletas de Lino para Cóctel",
+              "desc": "Un juego de servilletas de lino suaves y lavables que visten cualquier reunión diaria.",
+              "price": "$24",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Delicias Gourmet Artesanales",
+              "desc": "Mermeladas, mieles y dulces de productores que amamos — perfectos solos o en una canasta de regalo.",
+              "price": "$14",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Tazón de Gres para Servir",
+              "desc": "Un tazón infalible para ensaladas y guarniciones, tan bonito que lo llevas directo a la mesa.",
+              "price": "$36",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "seasonal-baby",
+          "name": "Temporada y Bebé",
+          "blurb": "Decoración de temporada, regalos de bebé y recuerdos para marcar los momentos que vale la pena guardar.",
+          "items": [
+            {
+              "name": "Acento de Decoración de Temporada",
+              "desc": "Una selección rotativa de decoración que trae cada temporada a tu hogar, renovada todo el año.",
+              "price": "$32",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Paquete de Regalo de Bebé",
+              "desc": "Una mantita suave, un peluche y un extra, envueltos con dulzura para el nuevo integrante.",
+              "price": "$52",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Recuerdo Personalizado",
+              "desc": "Un pequeño tesoro para marcar un nacimiento, un logro o un momento que quieres guardar.",
+              "price": "$30",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Botitas de Bebé Tejidas",
+              "desc": "Botitas tejidas a mano, un regalo adorable de shower por sí solas o dentro de un paquete.",
+              "price": "$18",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Una Tiendita Llena de Cosas Lindas",
+      "lead": "Nona Jo's es una boutique independiente de hogar y regalos sobre West 5th Avenue, de esas a las que entras por una cosa y sales con tres.",
+      "paragraphs": [
+        "Nona Jo's nació en 2004, cuando Leigh convirtió su cochera en una boutique de un solo cuarto con arreglos florales y hallazgos únicos — y hoy Nona Jo y sus hijas, Jennifer y Leigh, siguen llevando la tienda juntas. Está construida en torno a una idea sencilla: comprar un regalo — o algo para ti — debería sentirse como un gusto, no como una tarea. Por eso llenamos la tienda de velas, decoración, joyería, regalos de bebé y hallazgos que de verdad nos encantan, y lo acomodamos todo para que sea un placer solo pasear.",
+        "Pasa y te recibiremos con calidez y te atenderán personas que disfrutan de verdad buscar el regalo perfecto. Envolvemos tus regalos bellamente sin costo, llevamos una mesa de regalos para los showers y bodas que vienen en camino, y siempre tenemos algo nuevo por lo que vale la pena volver."
+      ],
+      "stats": [
+        {
+          "value": "Curado",
+          "label": "Hallazgos Elegidos a Mano"
+        },
+        {
+          "value": "Gratis",
+          "label": "Envoltura de Regalo"
+        },
+        {
+          "value": "Local",
+          "label": "Boutique Independiente"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Dentro de la Tienda",
+      "subheading": "Un pequeño recorrido por la boutique, repisa por linda repisa.",
+      "captions": [
+        "Velas y fragancias para el hogar en exhibición",
+        "Mantas acogedoras y decoración junto a la ventana",
+        "Joyería y pequeños gustos para ti",
+        "Vajilla de servir y mantelería para la mesa",
+        "Regalos de bebé y recuerdos envueltos para regalar",
+        "Hallazgos de temporada renovados todo el año"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice Naperville",
+      "items": [
+        {
+          "quote": "Mi lugar favorito cuando necesito un regalo. Siempre encuentro algo especial, y con la envoltura gratis llego luciendo como si me hubiera esforzado muchísimo más de lo que fue.",
+          "name": "Megan T.",
+          "role": "Clienta Frecuente"
+        },
+        {
+          "quote": "Armamos aquí nuestra mesa de regalos de bebé y el equipo lo hizo facilísimo. Todo es precioso y a nuestros invitados les encantó comprar la lista en persona.",
+          "name": "Sarah K.",
+          "role": "Mamá Primeriza"
+        },
+        {
+          "quote": "Entré por una vela y salí con un regalo para mi mamá, una tarjeta y un gustito para mí. Eso es justo lo que este lugar te hace.",
+          "name": "Jenna R.",
+          "role": "Vecina de Naperville"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita la Tienda",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Martes",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "10:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM – 4:00 PM"
+        }
+      ],
+      "phoneLabel": "Llama a la Tienda",
+      "directions": "Sobre West 5th Avenue en Naperville, con estacionamiento cercano. Pasa a curiosear, elige un regalo, o llama con anticipación y lo apartamos, envuelto y listo.",
+      "neighborhood": "La tienda está sobre West 5th Avenue, justo al norte del centro de Naperville, a unos pasos de la histórica fábrica de muebles Kroehler (hoy 5th Avenue Station) y a una corta caminata de la estación de Metra."
+    },
+    "cta": {
+      "heading": "Ven a Pasear Entre Cosas Lindas",
+      "text": "Pasa por el regalo perfecto, un pequeño gusto para ti, o una mesa de regalos que facilita todo. Lo envolvemos bellamente y te enviamos a casa listo para regalar.",
+      "button": "Llamar al (630) 355-4488"
+    },
+    "form": {
+      "heading": "Pregúntanos lo que Sea",
+      "subheading": "¿Buscas un regalo especial, quieres armar una mesa de regalos o estás planeando con tiempo? Envíanos una nota y te ayudamos a encontrar justo lo indicado.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Ocasión o Mesa de Regalos",
+      "date": "Fecha de Visita Preferida",
+      "message": "¿Qué Estás Buscando?",
+      "submit": "Enviar Solicitud",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu nota y te contactaremos para ayudarte con tu regalo o tu mesa de regalos.",
+      "error": "Algo salió mal. Inténtalo de nuevo o llámanos al (630) 355-4488.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud."
+    },
+    "footer": {
+      "tagline": "Una boutique de hogar y regalos cálida y curada, con envoltura gratis en Naperville, IL.",
+      "rights": "© Nona Jo's. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario de la Tienda",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

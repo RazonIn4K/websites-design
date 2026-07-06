@@ -1,0 +1,622 @@
+{
+  "business": {
+    "name": "Sapphire Studios",
+    "shortName": "Sapphire",
+    "vertical": "Tattoo & Piercing Studio",
+    "phone": "(630) 723-7845",
+    "phoneHref": "+16307237845",
+    "address": "4S100 Illinois Route 59",
+    "city": "Naperville",
+    "state": "IL",
+    "zip": "60563",
+    "mapsQuery": "Sapphire Studios, 4S100 Illinois Route 59, Naperville, IL 60563",
+    "lat": 41.8110118,
+    "lon": -88.2049865
+  },
+  "en": {
+    "meta": {
+      "title": "Sapphire Studios | Custom Tattoos & Piercings in Naperville, IL",
+      "description": "Custom tattoos, fine-line work, and professional piercings in a clean, no-judgment Naperville studio. Free consults. Call (630) 723-7845 to book."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About",
+      "gallery": "Portfolio",
+      "visit": "Visit",
+      "order": "Book a Consult"
+    },
+    "hero": {
+      "eyebrow": "Naperville's Welcoming Tattoo & Piercing Studio",
+      "title": "Custom Ink & Piercings,",
+      "titleAccent": "Done Right, No Judgment",
+      "subtitle": "From your first tiny tattoo to a full sleeve, Sapphire Studios pairs talented artists with a spotlessly sterile shop and a relaxed, no-pressure vibe. Bring your idea, book a free consult, and let's make something you'll love for life.",
+      "ctaPrimary": "View Services",
+      "ctaSecondary": "Book a Free Consult",
+      "badge": "Walk-ins welcome for flash. Free consultations."
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Talented Artists",
+        "text": "Custom designs, fine-line, color, and realism from artists who treat every piece like it's their own."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Sterile & Spotless",
+        "text": "Single-use needles, sealed jewelry, and hospital-grade sterilization for a shop that's clean to the core."
+      },
+      {
+        "icon": "heart",
+        "title": "No-Judgment Vibe",
+        "text": "First tattoo or hundredth, we keep it warm, relaxed, and pressure-free so you feel at home from hello."
+      },
+      {
+        "icon": "star",
+        "title": "First Tattoo Friendly",
+        "text": "We walk you through placement, sizing, and aftercare so you leave confident and well cared for."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Services and prices shown are illustrative demo content for this concept site and may not reflect the studio's actual menu.",
+      "categories": [
+        {
+          "id": "tattoos",
+          "name": "Tattoos",
+          "blurb": "Custom pieces designed around your idea.",
+          "items": [
+            {
+              "name": "Custom Design Tattoo",
+              "desc": "We work with you from sketch to skin to create an original piece made just for you.",
+              "price": "From $120",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Fine-Line Tattoo",
+              "desc": "Delicate linework and fine detail for subtle, elegant pieces.",
+              "price": "From $90",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Color & Realism",
+              "desc": "Vibrant color, smooth shading, and lifelike detail that brings your vision to life.",
+              "price": "From $150"
+            },
+            {
+              "name": "Cover-Up Tattoo",
+              "desc": "We rework or cover old ink into something you'll actually love.",
+              "price": "Consult"
+            },
+            {
+              "name": "Small Flash Tattoo",
+              "desc": "Pick a ready-made design from our flash wall for a quick, fun piece.",
+              "price": "From $80",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "piercings",
+          "name": "Piercings",
+          "blurb": "Clean, professional piercings with sealed sterile jewelry.",
+          "items": [
+            {
+              "name": "Ear & Lobe Piercing",
+              "desc": "Single lobes, curated stacks, helix, and more, placed clean and even.",
+              "price": "From $35",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Nose Piercing",
+              "desc": "Nostril and septum piercings with comfortable, sealed sterile jewelry.",
+              "price": "From $45"
+            },
+            {
+              "name": "Body Piercing",
+              "desc": "Navel, eyebrow, and other body placements done with precision and care.",
+              "price": "From $55"
+            },
+            {
+              "name": "Jewelry Upgrade",
+              "desc": "Swap in fresh studs, hoops, or gems from our sealed sterile selection.",
+              "price": "From $25"
+            }
+          ]
+        },
+        {
+          "id": "consults-aftercare",
+          "name": "Consults & Aftercare",
+          "blurb": "Plan your piece and keep it looking its best.",
+          "items": [
+            {
+              "name": "Free Consultation",
+              "desc": "Sit down with an artist to talk through your idea, placement, and pricing, no commitment.",
+              "price": "Consult",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Design Session",
+              "desc": "Dedicated time to develop and refine your custom artwork before your appointment.",
+              "price": "From $50"
+            },
+            {
+              "name": "Aftercare Kit",
+              "desc": "Everything you need to heal your new tattoo or piercing the right way.",
+              "price": "From $20"
+            },
+            {
+              "name": "Touch-Up",
+              "desc": "A refresh on healed line and color work to keep your tattoo crisp and bold.",
+              "price": "From $40",
+              "tags": [
+                "guarantee"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "guest-flash",
+          "name": "Guest Artists & Flash",
+          "blurb": "Special days, visiting talent, and gifts to share.",
+          "items": [
+            {
+              "name": "Flash Day Walk-In",
+              "desc": "Walk in on flash days and pick from a wall of ready-to-ink designs.",
+              "price": "From $80",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Guest Artist Session",
+              "desc": "Book time with visiting artists bringing fresh styles to the studio.",
+              "price": "Consult",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Gift Card",
+              "desc": "Give the gift of custom ink or a new piercing, in any amount.",
+              "price": "From $50"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Your Naperville Studio for Ink & Piercings",
+      "lead": "Sapphire Studios is an independent custom tattoo and piercing studio on Route 59, built on clean work, real talent, and zero judgment.",
+      "paragraphs": [
+        "We opened our doors to give Naperville a tattoo and piercing studio that feels welcoming from the moment you walk in. Whether you're after a delicate fine-line piece, a bold color sleeve, a fresh lobe stack, or a cover-up of something you'd rather forget, our artists listen first and design around you.",
+        "Cleanliness isn't an afterthought here, it's the foundation. We use single-use needles, sealed sterile jewelry, and a meticulously maintained space so you can relax and focus on the fun part: your new piece. Come in for a free consult and let's talk through your idea, no pressure, no judgment, ever."
+      ],
+      "stats": [
+        {
+          "value": "Walk-Ins",
+          "label": "Welcome for Flash"
+        },
+        {
+          "value": "Sterile",
+          "label": "Single-Use & Sealed"
+        },
+        {
+          "value": "All Styles",
+          "label": "Fine-Line to Full Sleeve"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Recent Work",
+      "subheading": "A look at the custom tattoos and piercings coming out of the studio.",
+      "captions": [
+        "Delicate fine-line floral on the forearm",
+        "Bold color realism half-sleeve",
+        "Fresh curated lobe and helix stack",
+        "Clean black-and-grey script lettering",
+        "Smooth cover-up reworking an old tattoo",
+        "Simple nose stud with sealed sterile jewelry"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Naperville Is Saying",
+      "items": [
+        {
+          "quote": "It was my first tattoo and they made me feel so comfortable. The fine-line piece came out cleaner than I imagined.",
+          "name": "Hannah K.",
+          "role": "First Tattoo"
+        },
+        {
+          "quote": "Spotless shop, sealed jewelry, and zero attitude. My helix piercing healed perfectly and looks amazing.",
+          "name": "Marcus T.",
+          "role": "Piercing Client"
+        },
+        {
+          "quote": "They turned a tattoo I regretted into a cover-up I actually love. Talented, patient, and no judgment at all.",
+          "name": "Priya D.",
+          "role": "Cover-Up Client"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Studio",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "time": "12:00 PM – 8:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "12:00 PM – 8:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "12:00 PM – 8:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "12:00 PM – 9:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "11:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "12:00 PM – 6:00 PM"
+        }
+      ],
+      "phoneLabel": "Booking",
+      "directions": "On Illinois Route 59 in Naperville with easy parking out front. Book a free consult ahead, or walk in on flash days.",
+      "neighborhood": "The studio sits along the Illinois Route 59 corridor on Naperville's northwest side, just south of the I-88 interchange and a few miles from downtown Naperville and the Riverwalk."
+    },
+    "cta": {
+      "heading": "Ready to Get Started?",
+      "text": "Call to book your free consultation, talk through your idea, or grab a walk-in flash spot. No pressure, no judgment, just great work.",
+      "button": "Call (630) 723-7845"
+    },
+    "form": {
+      "heading": "Book a Consult",
+      "subheading": "Tell us about your tattoo or piercing idea and your preferred time. We'll reach out to set up your free consultation.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Tattoo or Piercing Idea",
+      "date": "Preferred Date & Time",
+      "message": "Describe Your Idea",
+      "submit": "Request Consult",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and will reach out to set up your consultation.",
+      "error": "Something went wrong. Please try again or give us a call.",
+      "consent": "By submitting, you agree to be contacted about your consultation request."
+    },
+    "footer": {
+      "tagline": "A clean, welcoming custom tattoo and piercing studio in Naperville.",
+      "rights": "© Sapphire Studios. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Studio Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Sapphire Studios | Tatuajes Personalizados y Perforaciones en Naperville, IL",
+      "description": "Tatuajes personalizados, línea fina y perforaciones profesionales en un estudio limpio y sin prejuicios en Naperville. Consultas gratis: (630) 723-7845."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Portafolio",
+      "visit": "Visítanos",
+      "order": "Reservar Consulta"
+    },
+    "hero": {
+      "eyebrow": "El Estudio de Tatuajes y Perforaciones Más Acogedor de Naperville",
+      "title": "Tinta y Perforaciones a tu Medida,",
+      "titleAccent": "Bien Hecho, Sin Prejuicios",
+      "subtitle": "Desde tu primer tatuaje pequeñito hasta una manga completa, Sapphire Studios une artistas talentosos con un local impecablemente esterilizado y un ambiente relajado y sin presión. Trae tu idea, reserva una consulta gratis y creemos algo que amarás de por vida.",
+      "ctaPrimary": "Ver Servicios",
+      "ctaSecondary": "Reservar Consulta Gratis",
+      "badge": "Aceptamos sin cita para flash. Consultas gratis."
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Artistas Talentosos",
+        "text": "Diseños personalizados, línea fina, color y realismo de artistas que tratan cada pieza como si fuera propia."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Esterilizado e Impecable",
+        "text": "Agujas de un solo uso, joyería sellada y esterilización de grado hospitalario para un local limpio hasta el último rincón."
+      },
+      {
+        "icon": "heart",
+        "title": "Ambiente Sin Prejuicios",
+        "text": "Tu primer tatuaje o el número cien, mantenemos todo cálido, relajado y sin presión para que te sientas en casa desde el saludo."
+      },
+      {
+        "icon": "star",
+        "title": "Ideal para tu Primer Tatuaje",
+        "text": "Te guiamos en la ubicación, el tamaño y el cuidado posterior para que salgas con confianza y bien atendido."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Los servicios y precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar el menú real del estudio.",
+      "categories": [
+        {
+          "id": "tattoos",
+          "name": "Tatuajes",
+          "blurb": "Piezas personalizadas diseñadas alrededor de tu idea.",
+          "items": [
+            {
+              "name": "Tatuaje de Diseño Personalizado",
+              "desc": "Trabajamos contigo de boceto a piel para crear una pieza original hecha solo para ti.",
+              "price": "Desde $120",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Tatuaje de Línea Fina",
+              "desc": "Líneas delicadas y detalle minucioso para piezas sutiles y elegantes.",
+              "price": "Desde $90",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Color y Realismo",
+              "desc": "Color vibrante, sombreado suave y detalle realista que da vida a tu visión.",
+              "price": "Desde $150"
+            },
+            {
+              "name": "Tatuaje de Cobertura",
+              "desc": "Renovamos o cubrimos tinta vieja para convertirla en algo que de verdad amarás.",
+              "price": "Consulta"
+            },
+            {
+              "name": "Tatuaje Flash Pequeño",
+              "desc": "Elige un diseño listo de nuestra pared de flash para una pieza rápida y divertida.",
+              "price": "Desde $80",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "piercings",
+          "name": "Perforaciones",
+          "blurb": "Perforaciones limpias y profesionales con joyería sellada y esterilizada.",
+          "items": [
+            {
+              "name": "Perforación de Oreja y Lóbulo",
+              "desc": "Lóbulos individuales, sets curados, hélix y más, colocados limpios y parejos.",
+              "price": "Desde $35",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Perforación de Nariz",
+              "desc": "Perforaciones de fosa nasal y septum con joyería cómoda, sellada y esterilizada.",
+              "price": "Desde $45"
+            },
+            {
+              "name": "Perforación Corporal",
+              "desc": "Ombligo, ceja y otras ubicaciones corporales hechas con precisión y cuidado.",
+              "price": "Desde $55"
+            },
+            {
+              "name": "Cambio de Joyería",
+              "desc": "Cambia a studs, aros o gemas nuevos de nuestra selección sellada y esterilizada.",
+              "price": "Desde $25"
+            }
+          ]
+        },
+        {
+          "id": "consults-aftercare",
+          "name": "Consultas y Cuidado",
+          "blurb": "Planea tu pieza y mantenla luciendo de lo mejor.",
+          "items": [
+            {
+              "name": "Consulta Gratis",
+              "desc": "Siéntate con un artista para platicar tu idea, ubicación y precio, sin compromiso.",
+              "price": "Consulta",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Sesión de Diseño",
+              "desc": "Tiempo dedicado para desarrollar y perfeccionar tu arte personalizado antes de tu cita.",
+              "price": "Desde $50"
+            },
+            {
+              "name": "Kit de Cuidado Posterior",
+              "desc": "Todo lo que necesitas para sanar tu nuevo tatuaje o perforación de la forma correcta.",
+              "price": "Desde $20"
+            },
+            {
+              "name": "Retoque",
+              "desc": "Un refresco del trabajo de línea y color ya sanado para mantener tu tatuaje nítido y marcado.",
+              "price": "Desde $40",
+              "tags": [
+                "guarantee"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "guest-flash",
+          "name": "Artistas Invitados y Flash",
+          "blurb": "Días especiales, talento visitante y regalos para compartir.",
+          "items": [
+            {
+              "name": "Día de Flash Sin Cita",
+              "desc": "Llega sin cita en los días de flash y elige de una pared de diseños listos para tatuar.",
+              "price": "Desde $80",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Sesión con Artista Invitado",
+              "desc": "Reserva tiempo con artistas visitantes que traen estilos frescos al estudio.",
+              "price": "Consulta",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Tarjeta de Regalo",
+              "desc": "Regala tinta personalizada o una nueva perforación, por cualquier monto.",
+              "price": "Desde $50"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Tu Estudio de Tinta y Perforaciones en Naperville",
+      "lead": "Sapphire Studios es un estudio independiente de tatuajes y perforaciones personalizados sobre la Ruta 59, construido sobre trabajo limpio, talento de verdad y cero prejuicios.",
+      "paragraphs": [
+        "Abrimos nuestras puertas para darle a Naperville un estudio de tatuajes y perforaciones que se siente acogedor desde el momento en que entras. Ya sea que busques una pieza delicada de línea fina, una manga a todo color, un nuevo set en el lóbulo o cubrir algo que preferirías olvidar, nuestros artistas escuchan primero y diseñan en torno a ti.",
+        "La limpieza no es un detalle de último momento aquí, es la base. Usamos agujas de un solo uso, joyería sellada y esterilizada, y un espacio meticulosamente cuidado para que puedas relajarte y concentrarte en lo divertido: tu nueva pieza. Ven por una consulta gratis y platiquemos tu idea, sin presión y sin prejuicios, jamás."
+      ],
+      "stats": [
+        {
+          "value": "Sin Cita",
+          "label": "Bienvenidos para Flash"
+        },
+        {
+          "value": "Esterilizado",
+          "label": "Un Solo Uso y Sellado"
+        },
+        {
+          "value": "Todo Estilo",
+          "label": "De Línea Fina a Manga Completa"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Trabajo Reciente",
+      "subheading": "Un vistazo a los tatuajes personalizados y perforaciones que salen del estudio.",
+      "captions": [
+        "Floral delicado de línea fina en el antebrazo",
+        "Media manga de realismo a todo color",
+        "Set nuevo y curado de lóbulo y hélix",
+        "Lettering en script negro y gris, limpio",
+        "Cobertura suave que renueva un tatuaje viejo",
+        "Stud sencillo de nariz con joyería sellada y esterilizada"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice Naperville",
+      "items": [
+        {
+          "quote": "Era mi primer tatuaje y me hicieron sentir muy cómoda. La pieza de línea fina quedó más limpia de lo que imaginaba.",
+          "name": "Hannah K.",
+          "role": "Primer Tatuaje"
+        },
+        {
+          "quote": "Local impecable, joyería sellada y cero actitud. Mi perforación de hélix sanó perfecta y se ve increíble.",
+          "name": "Marcus T.",
+          "role": "Cliente de Perforación"
+        },
+        {
+          "quote": "Convirtieron un tatuaje del que me arrepentía en una cobertura que de verdad amo. Talentosos, pacientes y sin ningún prejuicio.",
+          "name": "Priya D.",
+          "role": "Cliente de Cobertura"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita el Estudio",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "Cerrado"
+        },
+        {
+          "day": "Martes",
+          "time": "12:00 PM – 8:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "12:00 PM – 8:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "12:00 PM – 8:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "12:00 PM – 9:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "11:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "12:00 PM – 6:00 PM"
+        }
+      ],
+      "phoneLabel": "Reservaciones",
+      "directions": "Sobre la Ruta 59 de Illinois en Naperville, con fácil estacionamiento al frente. Reserva una consulta gratis por adelantado o llega sin cita en los días de flash.",
+      "neighborhood": "El estudio se encuentra sobre el corredor de la Ruta 59 de Illinois, en el lado noroeste de Naperville, justo al sur del enlace con la I-88 y a unas millas del centro de Naperville y su Riverwalk."
+    },
+    "cta": {
+      "heading": "¿Listo para Empezar?",
+      "text": "Llama para reservar tu consulta gratis, platicar tu idea o tomar un lugar sin cita en flash. Sin presión, sin prejuicios, solo buen trabajo.",
+      "button": "Llamar al (630) 723-7845"
+    },
+    "form": {
+      "heading": "Reservar una Consulta",
+      "subheading": "Cuéntanos sobre tu idea de tatuaje o perforación y tu horario preferido. Te contactaremos para agendar tu consulta gratis.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Idea de Tatuaje o Perforación",
+      "date": "Fecha y Hora Preferida",
+      "message": "Describe tu Idea",
+      "submit": "Solicitar Consulta",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos para agendar tu consulta.",
+      "error": "Algo salió mal. Inténtalo de nuevo o llámanos.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud de consulta."
+    },
+    "footer": {
+      "tagline": "Un estudio de tatuajes y perforaciones personalizados, limpio y acogedor en Naperville.",
+      "rights": "© Sapphire Studios. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario del Estudio",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

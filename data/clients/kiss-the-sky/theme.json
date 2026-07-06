@@ -1,0 +1,16 @@
+{
+  "concept": "Kiss the Sky spins a vinyl-shop neon palette: a bold electric-purple primary lit by a hot-magenta secondary and a vivid neon-cyan accent, grounded by inky charcoal-violet text on warm paper-white backgrounds. Music-forward, energetic, and a little retro -- like a backlit record sleeve glowing in a darkened listening room.",
+  "vars": {
+    "--color-bg": "#FAF6F0",
+    "--color-surface": "#FFFCF7",
+    "--color-surface-alt": "#F1EADE",
+    "--color-ink": "#1A1622",
+    "--color-ink-soft": "#5C5466",
+    "--color-primary": "#8E1CC9",
+    "--color-primary-dark": "#6E12A0",
+    "--color-secondary": "#D8208E",
+    "--color-accent": "#16D9D9",
+    "--color-line": "#E4DBCD"
+  },
+  "contrastNotes": "All required ratios verified against #FAF6F0 bg (L=0.925). ink #1A1622 on bg = 16.5:1 (>=7). ink-soft #5C5466 on bg = 6.7:1 (>=4.5). white on primary #8E1CC9 = 6.6:1 (>=4.5); white on primary-dark #6E12A0 = 9.3:1. primary #8E1CC9 on bg = 6.2:1 (>=3). Bonus: white on secondary #D8208E = 4.6:1 (AA for UI text). Accent #16D9D9 is a bright neon-cyan reserved for decorative highlights and for use on the dark ink fields (accent on ink = ~9:1), not for body text on the light bg."
+}

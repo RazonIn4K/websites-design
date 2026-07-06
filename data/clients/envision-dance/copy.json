@@ -1,0 +1,630 @@
+{
+  "business": {
+    "name": "Envision Dance",
+    "shortName": "Envision Dance",
+    "vertical": "Dance Studio & School",
+    "phone": "(630) 743-8839",
+    "phoneHref": "+16307438839",
+    "address": "790 Royal Saint George Drive",
+    "city": "Naperville",
+    "state": "IL",
+    "zip": "60563",
+    "mapsQuery": "Envision Dance, 790 Royal Saint George Drive, Naperville, IL 60563"
+  },
+  "en": {
+    "meta": {
+      "title": "Envision Dance | Dance Studio & School in Naperville, IL",
+      "description": "Joyful dance studio & school in Naperville, IL. Classes from first plié to competition team, ages 2 to adult. Book a free trial class — call (630) 743-8839."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Classes",
+      "about": "About Us",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Book a Class"
+    },
+    "hero": {
+      "eyebrow": "Naperville's Joyful Dance Studio & School",
+      "title": "Where Every Dancer",
+      "titleAccent": "Finds Their Confidence",
+      "subtitle": "From a toddler's first plié to the competition stage, our nurturing teachers help kids and grown-ups find their rhythm — and their spotlight. Come dance with us and discover where you belong.",
+      "ctaPrimary": "View Classes",
+      "ctaSecondary": "Call to Book a Class",
+      "badge": "New here? Your first trial class is always free."
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Every Dancer Belongs",
+        "text": "From shy first-timers to seasoned performers, every dancer finds a welcoming place to grow at their own pace."
+      },
+      {
+        "icon": "heart",
+        "title": "Nurturing Teachers",
+        "text": "Patient, encouraging instructors who celebrate every small win and help confidence bloom alongside technique."
+      },
+      {
+        "icon": "star",
+        "title": "First Plié to the Stage",
+        "text": "Classes for every age and level, from creative movement for toddlers to competitive team and choreography."
+      },
+      {
+        "icon": "leaf",
+        "title": "A Joyful Place to Grow",
+        "text": "A bright, positive studio where kids build friendships, discipline, and a lifelong love of dance."
+      }
+    ],
+    "menu": {
+      "heading": "Classes & Programs",
+      "subheading": "Classes, levels, and tuition shown are illustrative demo content for this concept site and may not reflect the studio's actual offerings or pricing.",
+      "categories": [
+        {
+          "id": "kids-pre-dance",
+          "name": "Kids & Pre-Dance",
+          "blurb": "Playful first steps for our littlest dancers, ages 2 to 6, where movement, music, and imagination meet.",
+          "items": [
+            {
+              "name": "Creative Movement",
+              "desc": "A joyful intro to dance for ages 2 to 3, full of music, props, and imaginative play that builds coordination.",
+              "price": "From $65/mo",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Tiny Twirlers Combo",
+              "desc": "A ballet and tap combo for ages 3 to 4 that introduces basic steps, rhythm, and the joy of moving together.",
+              "price": "From $70/mo",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pre-Dance Ballet & Tap",
+              "desc": "A structured combo class for ages 4 to 6 building foundational ballet and tap skills through fun, gentle routines.",
+              "price": "From $72/mo"
+            },
+            {
+              "name": "Princess Ballet",
+              "desc": "An enchanting ballet class for ages 4 to 6 where little dancers learn grace, posture, and poise through storytelling.",
+              "price": "From $68/mo"
+            }
+          ]
+        },
+        {
+          "id": "youth-teen",
+          "name": "Youth & Teen",
+          "blurb": "Build real technique and self-expression across every style, with classes for growing dancers and teens.",
+          "items": [
+            {
+              "name": "Ballet Technique",
+              "desc": "Classical ballet training focused on alignment, strength, and artistry — the foundation of every dance style.",
+              "price": "From $78/mo",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Jazz",
+              "desc": "High-energy jazz combining sharp technique, musicality, and performance flair to upbeat, age-appropriate music.",
+              "price": "From $75/mo",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Hip-Hop",
+              "desc": "Fresh, fun hip-hop that builds rhythm, attitude, and confidence through current grooves and choreography.",
+              "price": "From $75/mo"
+            },
+            {
+              "name": "Contemporary",
+              "desc": "Expressive contemporary blending ballet and modern movement to help dancers tell stories through their bodies.",
+              "price": "From $78/mo"
+            },
+            {
+              "name": "Tap",
+              "desc": "Rhythm-driven tap that sharpens timing, coordination, and musicality while keeping every class light and fun.",
+              "price": "From $72/mo",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "competition-company",
+          "name": "Competition & Company",
+          "blurb": "For dedicated dancers ready to push their technique, perform, and grow together as a team.",
+          "items": [
+            {
+              "name": "Company Audition Prep",
+              "desc": "Focused coaching to ready aspiring dancers for company auditions, building strength, polish, and stage confidence.",
+              "price": "From $90/mo",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Competitive Team",
+              "desc": "Our competitive program with team choreography, regular rehearsals, and the thrill of performing on stage.",
+              "price": "From $145/mo",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Technique Intensive",
+              "desc": "An advanced training session honing turns, leaps, and clean lines to take serious dancers to the next level.",
+              "price": "From $95/mo"
+            },
+            {
+              "name": "Private Choreography",
+              "desc": "One-on-one coaching to craft a solo or refine a competition piece tailored to the dancer's strengths and goals.",
+              "price": "From $60/session"
+            }
+          ]
+        },
+        {
+          "id": "adult-family",
+          "name": "Adult & Family",
+          "blurb": "Dance is for every age — move, sweat, and bond with classes made for grown-ups and little ones together.",
+          "items": [
+            {
+              "name": "Adult Ballet",
+              "desc": "A welcoming ballet class for grown-ups of any level, building grace, strength, and a little joy each week.",
+              "price": "From $80/mo",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Fitness Dance",
+              "desc": "A feel-good cardio dance workout that gets your heart pumping while you learn fun, easy-to-follow routines.",
+              "price": "From $70/mo",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Parent-Tot Movement",
+              "desc": "A playful class where caregivers and toddlers dance, sing, and bond together through music and gentle movement.",
+              "price": "From $60/mo",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Where Kids Find Their Confidence and Their Rhythm",
+      "lead": "Envision Dance is an independent dance studio and school built on a simple belief: every dancer belongs, and every dancer can shine.",
+      "paragraphs": [
+        "Right here in Naperville on Royal Saint George Drive, our studio welcomes dancers of every age and ability. From a toddler's very first creative movement class to a teen's competition solo, our nurturing teachers meet each dancer where they are. We keep classes encouraging and positive, so students build technique, discipline, and friendships that last well beyond the studio walls.",
+        "Dance is about more than steps. It's where shy kids find their voice, where teens discover their drive, and where grown-ups rediscover the simple joy of moving. Whatever brings you through our doors, you'll find a stage to grow on and a community that's genuinely cheering you on."
+      ],
+      "stats": [
+        {
+          "value": "Ages 2+",
+          "label": "Every Age Welcome"
+        },
+        {
+          "value": "All Levels",
+          "label": "First Plié to Stage"
+        },
+        {
+          "value": "Naperville",
+          "label": "Locally Owned"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside the Studio",
+      "subheading": "A look at our dancers in motion, the joyful classes, and the bright space where confidence takes the stage.",
+      "captions": [
+        "Young dancers at the ballet barre",
+        "A pre-dance combo class in full twirl",
+        "The competition team in rehearsal",
+        "Hip-hop energy on the studio floor",
+        "Big smiles backstage before a recital",
+        "Our bright, welcoming studio space"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Naperville Families Say",
+      "items": [
+        {
+          "quote": "My daughter walked in shy and now she lights up the stage. The teachers here truly care about every single dancer.",
+          "name": "Jessica R.",
+          "role": "Dance Parent"
+        },
+        {
+          "quote": "The competition team pushed my teen to grow, but it never stopped being fun. She's found her people here.",
+          "name": "Marcus T.",
+          "role": "Team Parent"
+        },
+        {
+          "quote": "I joined adult ballet on a whim and it's the best part of my week. So welcoming, no matter your level.",
+          "name": "Priya S.",
+          "role": "Adult Student"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Studio",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "3:30 PM – 9:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "time": "3:30 PM – 9:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "3:30 PM – 9:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "3:30 PM – 9:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "3:30 PM – 8:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "8:30 AM – 2:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Book a Class",
+      "directions": "On Royal Saint George Drive in Naperville with easy parking right outside. Call ahead to schedule your free trial class — we'll help you find the perfect fit."
+    },
+    "cta": {
+      "heading": "Ready to Find Your Rhythm?",
+      "text": "Your first trial class is on us. Call the studio and we'll help you pick the perfect class for your dancer.",
+      "button": "Call (630) 743-8839"
+    },
+    "form": {
+      "heading": "Book a Class",
+      "subheading": "Tell us a little about your dancer and we'll help you reserve the right class — including a free trial.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Dancer's Age & Interest",
+      "date": "Preferred Date & Time",
+      "message": "Anything Else?",
+      "submit": "Request My Spot",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and we'll reach out to confirm your class.",
+      "error": "Something went wrong. Please try again or call the studio.",
+      "consent": "By submitting, you agree to be contacted about your class booking and free trial."
+    },
+    "footer": {
+      "tagline": "Where every dancer in Naperville finds their confidence and their rhythm.",
+      "rights": "© Envision Dance. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Studio Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Envision Dance | Estudio y Escuela de Danza en Naperville, IL",
+      "description": "Estudio y escuela de danza alegre en Naperville, IL. Clases desde el primer plié hasta el equipo de competencia, de 2 años a adultos. Reserva una clase de prueba gratis — llama al (630) 743-8839."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Clases",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Reservar Clase"
+    },
+    "hero": {
+      "eyebrow": "El Alegre Estudio y Escuela de Danza de Naperville",
+      "title": "Donde Cada Bailarín",
+      "titleAccent": "Encuentra su Confianza",
+      "subtitle": "Desde el primer plié de un pequeño hasta el escenario de competencia, nuestros maestros dedicados ayudan a niños y adultos a encontrar su ritmo — y su momento de brillar. Ven a bailar con nosotros y descubre dónde perteneces.",
+      "ctaPrimary": "Ver Clases",
+      "ctaSecondary": "Llama para Reservar",
+      "badge": "¿Eres nuevo? Tu primera clase de prueba siempre es gratis."
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Cada Bailarín Pertenece",
+        "text": "Desde principiantes tímidos hasta artistas con experiencia, cada bailarín encuentra un lugar acogedor para crecer a su propio ritmo."
+      },
+      {
+        "icon": "heart",
+        "title": "Maestros que Cuidan",
+        "text": "Instructores pacientes y alentadores que celebran cada pequeño logro y ayudan a que la confianza florezca junto con la técnica."
+      },
+      {
+        "icon": "star",
+        "title": "Del Primer Plié al Escenario",
+        "text": "Clases para cada edad y nivel, desde movimiento creativo para los más pequeños hasta equipo de competencia y coreografía."
+      },
+      {
+        "icon": "leaf",
+        "title": "Un Lugar Alegre para Crecer",
+        "text": "Un estudio luminoso y positivo donde los niños construyen amistades, disciplina y un amor por la danza para toda la vida."
+      }
+    ],
+    "menu": {
+      "heading": "Clases y Programas",
+      "subheading": "Las clases, niveles y precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar la oferta o los precios reales del estudio.",
+      "categories": [
+        {
+          "id": "kids-pre-dance",
+          "name": "Niños y Pre-Danza",
+          "blurb": "Primeros pasos llenos de juego para nuestros bailarines más pequeños, de 2 a 6 años, donde se unen el movimiento, la música y la imaginación.",
+          "items": [
+            {
+              "name": "Movimiento Creativo",
+              "desc": "Una alegre introducción a la danza para edades de 2 a 3 años, llena de música, accesorios y juego imaginativo que desarrolla la coordinación.",
+              "price": "Desde $65/mes",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Pequeñas Estrellas Combo",
+              "desc": "Un combo de ballet y tap para edades de 3 a 4 años que introduce pasos básicos, ritmo y la alegría de moverse en grupo.",
+              "price": "Desde $70/mes",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pre-Danza Ballet y Tap",
+              "desc": "Una clase combo estructurada para edades de 4 a 6 años que construye habilidades fundamentales de ballet y tap con rutinas suaves y divertidas.",
+              "price": "Desde $72/mes"
+            },
+            {
+              "name": "Ballet de Princesas",
+              "desc": "Una encantadora clase de ballet para edades de 4 a 6 años donde las pequeñas aprenden gracia, postura y elegancia a través de cuentos.",
+              "price": "Desde $68/mes"
+            }
+          ]
+        },
+        {
+          "id": "youth-teen",
+          "name": "Niños Grandes y Adolescentes",
+          "blurb": "Desarrolla técnica real y expresión personal en cada estilo, con clases para bailarines en crecimiento y adolescentes.",
+          "items": [
+            {
+              "name": "Técnica de Ballet",
+              "desc": "Entrenamiento de ballet clásico enfocado en la alineación, la fuerza y el arte — la base de todo estilo de danza.",
+              "price": "Desde $78/mes",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Jazz",
+              "desc": "Jazz de alta energía que combina técnica precisa, musicalidad y presencia escénica con música animada y apropiada para cada edad.",
+              "price": "Desde $75/mes",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Hip-Hop",
+              "desc": "Hip-hop fresco y divertido que desarrolla ritmo, actitud y confianza con ritmos y coreografías actuales.",
+              "price": "Desde $75/mes"
+            },
+            {
+              "name": "Contemporáneo",
+              "desc": "Danza contemporánea expresiva que mezcla ballet y movimiento moderno para que los bailarines cuenten historias con su cuerpo.",
+              "price": "Desde $78/mes"
+            },
+            {
+              "name": "Tap",
+              "desc": "Tap impulsado por el ritmo que afina el tiempo, la coordinación y la musicalidad mientras mantiene cada clase ligera y divertida.",
+              "price": "Desde $72/mes",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "competition-company",
+          "name": "Competencia y Compañía",
+          "blurb": "Para bailarines dedicados listos para llevar su técnica más allá, presentarse en escena y crecer juntos como equipo.",
+          "items": [
+            {
+              "name": "Preparación para Audición",
+              "desc": "Entrenamiento enfocado para preparar a los bailarines aspirantes para las audiciones de compañía, construyendo fuerza, pulido y confianza escénica.",
+              "price": "Desde $90/mes",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Equipo de Competencia",
+              "desc": "Nuestro programa competitivo con coreografía de equipo, ensayos regulares y la emoción de presentarse en el escenario.",
+              "price": "Desde $145/mes",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Intensivo de Técnica",
+              "desc": "Una sesión de entrenamiento avanzado que perfecciona giros, saltos y líneas limpias para llevar a los bailarines serios al siguiente nivel.",
+              "price": "Desde $95/mes"
+            },
+            {
+              "name": "Coreografía Privada",
+              "desc": "Entrenamiento uno a uno para crear un solo o pulir una pieza de competencia adaptada a las fortalezas y metas del bailarín.",
+              "price": "Desde $60/sesión"
+            }
+          ]
+        },
+        {
+          "id": "adult-family",
+          "name": "Adultos y Familia",
+          "blurb": "La danza es para toda edad — muévete, suda y conecta con clases hechas para adultos y para los más pequeños juntos.",
+          "items": [
+            {
+              "name": "Ballet para Adultos",
+              "desc": "Una clase de ballet acogedora para adultos de cualquier nivel, que construye gracia, fuerza y un poco de alegría cada semana.",
+              "price": "Desde $80/mes",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Danza Fitness",
+              "desc": "Un entrenamiento de cardio dance que te hace sentir bien y acelera tu corazón mientras aprendes rutinas divertidas y fáciles de seguir.",
+              "price": "Desde $70/mes",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Movimiento Padre-Bebé",
+              "desc": "Una clase llena de juego donde cuidadores y pequeños bailan, cantan y conectan a través de la música y el movimiento suave.",
+              "price": "Desde $60/mes",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Donde los Niños Encuentran su Confianza y su Ritmo",
+      "lead": "Envision Dance es un estudio y escuela de danza independiente construido sobre una creencia simple: cada bailarín pertenece, y cada bailarín puede brillar.",
+      "paragraphs": [
+        "Aquí mismo en Naperville, sobre Royal Saint George Drive, nuestro estudio da la bienvenida a bailarines de toda edad y habilidad. Desde la primera clase de movimiento creativo de un pequeño hasta el solo de competencia de un adolescente, nuestros maestros dedicados reciben a cada bailarín justo donde está. Mantenemos las clases alentadoras y positivas, para que los estudiantes construyan técnica, disciplina y amistades que perduran mucho más allá de las paredes del estudio.",
+        "La danza es mucho más que pasos. Es donde los niños tímidos encuentran su voz, donde los adolescentes descubren su empuje y donde los adultos redescubren la simple alegría de moverse. Sea lo que sea que te traiga por nuestras puertas, encontrarás un escenario para crecer y una comunidad que de verdad te anima."
+      ],
+      "stats": [
+        {
+          "value": "2+ Años",
+          "label": "Toda Edad Bienvenida"
+        },
+        {
+          "value": "Todos los Niveles",
+          "label": "Del Plié al Escenario"
+        },
+        {
+          "value": "Naperville",
+          "label": "Negocio Local"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Por Dentro del Estudio",
+      "subheading": "Un vistazo a nuestros bailarines en movimiento, las clases alegres y el espacio luminoso donde la confianza sube al escenario.",
+      "captions": [
+        "Jóvenes bailarines en la barra de ballet",
+        "Una clase combo de pre-danza en pleno giro",
+        "El equipo de competencia en ensayo",
+        "Energía de hip-hop en la pista del estudio",
+        "Grandes sonrisas tras bastidores antes de un recital",
+        "Nuestro espacio de estudio luminoso y acogedor"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dicen las Familias de Naperville",
+      "items": [
+        {
+          "quote": "Mi hija entró tímida y ahora ilumina el escenario. Los maestros aquí de verdad se preocupan por cada bailarín.",
+          "name": "Jessica R.",
+          "role": "Madre de Bailarina"
+        },
+        {
+          "quote": "El equipo de competencia impulsó a mi adolescente a crecer, pero nunca dejó de ser divertido. Aquí encontró a su gente.",
+          "name": "Marcus T.",
+          "role": "Padre del Equipo"
+        },
+        {
+          "quote": "Me uní al ballet para adultos por impulso y es la mejor parte de mi semana. Muy acogedor, sin importar tu nivel.",
+          "name": "Priya S.",
+          "role": "Estudiante Adulta"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita el Estudio",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "3:30 PM – 9:00 PM"
+        },
+        {
+          "day": "Martes",
+          "time": "3:30 PM – 9:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "3:30 PM – 9:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "3:30 PM – 9:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "3:30 PM – 8:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "8:30 AM – 2:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Reserva una Clase",
+      "directions": "Sobre Royal Saint George Drive en Naperville, con estacionamiento fácil justo afuera. Llama con anticipación para agendar tu clase de prueba gratis — te ayudamos a encontrar la opción perfecta."
+    },
+    "cta": {
+      "heading": "¿Listo para Encontrar tu Ritmo?",
+      "text": "Tu primera clase de prueba corre por nuestra cuenta. Llama al estudio y te ayudamos a elegir la clase perfecta para tu bailarín.",
+      "button": "Llamar al (630) 743-8839"
+    },
+    "form": {
+      "heading": "Reservar una Clase",
+      "subheading": "Cuéntanos un poco sobre tu bailarín y te ayudamos a reservar la clase adecuada — incluyendo una prueba gratis.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Edad e Interés del Bailarín",
+      "date": "Fecha y Hora Preferida",
+      "message": "¿Algo Más?",
+      "submit": "Solicitar mi Lugar",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y nos comunicaremos para confirmar tu clase.",
+      "error": "Algo salió mal. Inténtalo de nuevo o llama al estudio.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu reserva de clase y tu prueba gratis."
+    },
+    "footer": {
+      "tagline": "Donde cada bailarín en Naperville encuentra su confianza y su ritmo.",
+      "rights": "© Envision Dance. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario del Estudio",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

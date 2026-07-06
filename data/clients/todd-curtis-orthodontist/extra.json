@@ -1,0 +1,106 @@
+{
+  "en": {
+    "process": {
+      "heading": "Your Smile Journey, Step by Step",
+      "steps": [
+        {
+          "title": "Free Consult",
+          "text": "Start with a no-cost, no-pressure visit where we get to know your goals and answer every question about your smile."
+        },
+        {
+          "title": "Custom Plan & Digital Records",
+          "text": "We take gentle digital scans and low-radiation x-rays, then map out a clear treatment plan and a 3D preview of your future smile."
+        },
+        {
+          "title": "Begin Treatment",
+          "text": "Choose braces or clear aligners, settle into a flexible monthly plan, and start straightening with comfortable, modern care."
+        },
+        {
+          "title": "Adjustments & Retainers",
+          "text": "Routine check-ins keep your progress on track, and custom retainers protect your finished smile for the long run."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Is the first consultation really free?",
+          "a": "Yes. Your new-patient consult is completely free, including digital records and a 3D smile preview, so you can explore your options with no pressure and no cost."
+        },
+        {
+          "q": "How much does treatment cost, and do you offer payment plans?",
+          "a": "Costs vary by the treatment that's right for you, so we give a personalized quote at your free consult. We offer flexible monthly plans built to fit your family's budget."
+        },
+        {
+          "q": "What are your office hours, and do I need an appointment?",
+          "a": "We're open Monday through Thursday 8 AM to 5 PM and Friday 8 AM to 1 PM. We recommend booking ahead so we can reserve time just for you."
+        },
+        {
+          "q": "Do you treat kids, teens, and adults?",
+          "a": "All ages are welcome. From your child's first early checkup to a teen's aligners or an adult's long-awaited smile, we tailor care to each stage of life."
+        },
+        {
+          "q": "Should I choose braces or clear aligners?",
+          "a": "It depends on your smile, lifestyle, and goals. We'll walk you through both options at your consult and recommend what truly fits, never pushing anything you don't need."
+        },
+        {
+          "q": "¿Hablan español? Do you speak Spanish?",
+          "a": "Yes, we're happy to help you in English or Spanish. Just let us know your preference when you book, and we'll make sure everything is clear and comfortable."
+        }
+      ]
+    }
+  },
+  "es": {
+    "process": {
+      "heading": "Tu Camino a una Nueva Sonrisa, Paso a Paso",
+      "steps": [
+        {
+          "title": "Consulta Gratis",
+          "text": "Empieza con una visita sin costo y sin presión donde conocemos tus metas y respondemos cada pregunta sobre tu sonrisa."
+        },
+        {
+          "title": "Plan Personalizado y Registros Digitales",
+          "text": "Tomamos escaneos digitales suaves y radiografías de baja radiación, luego trazamos un plan claro y una vista previa en 3D de tu futura sonrisa."
+        },
+        {
+          "title": "Comienza el Tratamiento",
+          "text": "Elige frenos o alineadores transparentes, acomódate en un plan mensual flexible y empieza a enderezar con atención cómoda y moderna."
+        },
+        {
+          "title": "Ajustes y Retenedores",
+          "text": "Las revisiones de rutina mantienen tu avance en marcha, y los retenedores a medida protegen tu sonrisa terminada a largo plazo."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿De verdad es gratis la primera consulta?",
+          "a": "Sí. Tu consulta para nuevos pacientes es completamente gratis, incluye registros digitales y una vista previa de sonrisa en 3D, para que conozcas tus opciones sin presión ni costo."
+        },
+        {
+          "q": "¿Cuánto cuesta el tratamiento y ofrecen planes de pago?",
+          "a": "El costo varía según el tratamiento ideal para ti, así que damos una cotización personalizada en tu consulta gratis. Ofrecemos planes mensuales flexibles pensados para el presupuesto de tu familia."
+        },
+        {
+          "q": "¿Cuál es su horario y necesito una cita?",
+          "a": "Abrimos de lunes a jueves de 8 AM a 5 PM y los viernes de 8 AM a 1 PM. Recomendamos agendar con anticipación para reservar un horario solo para ti."
+        },
+        {
+          "q": "¿Atienden a niños, adolescentes y adultos?",
+          "a": "Toda edad es bienvenida. Desde el primer chequeo temprano de tu hijo hasta los alineadores de un adolescente o la sonrisa que un adulto esperó por años, adaptamos la atención a cada etapa."
+        },
+        {
+          "q": "¿Debo elegir frenos o alineadores transparentes?",
+          "a": "Depende de tu sonrisa, tu estilo de vida y tus metas. En tu consulta te explicamos ambas opciones y recomendamos lo que de verdad te conviene, sin ofrecerte algo que no necesitas."
+        },
+        {
+          "q": "¿Hablan español? Do you speak Spanish?",
+          "a": "Sí, con gusto te atendemos en español o en inglés. Solo dinos tu preferencia al agendar y nos aseguraremos de que todo sea claro y cómodo para ti."
+        }
+      ]
+    }
+  }
+}

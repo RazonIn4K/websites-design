@@ -1,0 +1,646 @@
+{
+  "business": {
+    "name": "Pottery Bayou",
+    "shortName": "Pottery Bayou",
+    "vertical": "Paint-Your-Own Pottery & Art Studio",
+    "phone": "(630) 718-9823",
+    "phoneHref": "+16307189823",
+    "address": "210 South Washington Street",
+    "city": "Naperville",
+    "state": "IL",
+    "zip": "60540",
+    "mapsQuery": "Pottery Bayou, 210 South Washington Street, Naperville, IL 60540",
+    "lat": 41.7727024,
+    "lon": -88.1477094
+  },
+  "en": {
+    "meta": {
+      "title": "Pottery Bayou | Paint-Your-Own Pottery Studio in Naperville, IL",
+      "description": "Bright paint-your-own pottery studio near the Riverwalk in downtown Naperville. Pick a piece, grab a brush, and make something you keep. Call (630) 718-9823."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Studios",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Book a Seat"
+    },
+    "hero": {
+      "eyebrow": "Paint-Your-Own Pottery · Downtown Naperville",
+      "title": "Pick a Piece, Grab a Brush,",
+      "titleAccent": "Make Something You Keep",
+      "subtitle": "A bright, happy paint-your-own pottery studio in the heart of downtown Naperville. From birthday parties and date nights to camps and rainy-day fun, there's a seat at the table for every age.",
+      "ctaPrimary": "View Studios",
+      "ctaSecondary": "Call to Book a Seat",
+      "badge": "Walk-Ins Welcome · Parties · All Ages"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Walk-In & Paint",
+        "text": "No reservation, no problem. Drop in any time, pick a piece from the shelves, and we'll set you up with paint, brushes, and all the help you need."
+      },
+      {
+        "icon": "heart",
+        "title": "Parties Made Easy",
+        "text": "Birthday parties, date nights, and private groups are our specialty. We handle the setup, the cleanup, and the happy mess in between."
+      },
+      {
+        "icon": "star",
+        "title": "Fun for Every Age",
+        "text": "From wiggly toddlers to grandparents, there's a brush for everyone. No experience needed, only a little imagination."
+      },
+      {
+        "icon": "leaf",
+        "title": "More Than Pottery",
+        "text": "Branch out with canvas painting, glass fusing, and clay hand-building. Four studios under one bright, welcoming roof."
+      }
+    ],
+    "menu": {
+      "heading": "Our Studios & Experiences",
+      "subheading": "Experiences and prices shown are illustrative demo content for this sample site. Please call or stop by for current studio offerings, pricing, and availability.",
+      "categories": [
+        {
+          "id": "paint-your-own-pottery",
+          "name": "Paint-Your-Own Pottery",
+          "blurb": "The heart of the studio. Pay one studio fee, pick a piece off the shelf, and paint at your own pace. We glaze and fire it, you take home a keeper.",
+          "items": [
+            {
+              "name": "Studio Fee + Pick-a-Piece",
+              "desc": "One flat studio fee covers your seat, all the paint and brushes, plus glazing and firing. Just add the piece you choose to paint.",
+              "price": "From $12",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Mugs, Bowls & Plates",
+              "desc": "Everyday favorites that get used again and again. Paint a mug for your morning coffee or a bowl that's all your own.",
+              "price": "From $18",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Figurines & Banks",
+              "desc": "Pint-sized pieces that are perfect for little hands and quick projects. A favorite for first-timers and younger painters.",
+              "price": "From $14",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Statement Platters & Vases",
+              "desc": "Go big with a centerpiece piece. More surface to paint means more room to make something truly one-of-a-kind.",
+              "price": "From $32",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "parties-events",
+          "name": "Parties & Events",
+          "blurb": "Let us host the celebration. We set up, clean up, and make sure everyone leaves with a painted keepsake and a good story.",
+          "items": [
+            {
+              "name": "Kids Birthday Party",
+              "desc": "A reserved party table, a piece to paint for each guest, and a host to keep it all running. Bring the cake, we'll bring the fun.",
+              "price": "$25/person",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Adult Night Out",
+              "desc": "Gather your crew for a relaxed evening of painting and laughs. BYO snacks and drinks while you create something together.",
+              "price": "$30/person",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Private Group Booking",
+              "desc": "Reserve the studio for showers, team outings, scout troops, or any group that wants the place to themselves.",
+              "price": "From $250",
+              "tags": []
+            },
+            {
+              "name": "Party Add-On Packages",
+              "desc": "Round out your event with extra pieces, themed decorations, and goodie bags. Tell us your vision and we'll build the package.",
+              "price": "From $40",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "classes-camps",
+          "name": "Classes & Camps",
+          "blurb": "Learn something new and take home a skill along with your art. Hands-on sessions led by friendly, patient instructors.",
+          "items": [
+            {
+              "name": "Kids Art Camp",
+              "desc": "A multi-day camp packed with pottery, painting, and creative projects. A favorite way to fill school breaks and summer days.",
+              "price": "From $45/day",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Wheel-Throwing Intro",
+              "desc": "Get your hands dirty at the wheel and shape your first bowl or cup. A beginner-friendly intro to throwing clay.",
+              "price": "$55/person",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Seasonal Workshops",
+              "desc": "Themed projects that follow the calendar, from holiday ornaments to spring planters. Check back for what's coming up next.",
+              "price": "From $35",
+              "tags": []
+            },
+            {
+              "name": "Family Paint Session",
+              "desc": "A guided session built for all ages to paint side by side. Perfect for grandparents, kids, and everyone in between.",
+              "price": "$22/person",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "other-studios",
+          "name": "Other Studios",
+          "blurb": "Ready to branch out? Explore canvas, glass, and clay in their own dedicated studios, no pottery brush required.",
+          "items": [
+            {
+              "name": "Canvas Painting",
+              "desc": "Grab a canvas and an easel and follow your imagination. A relaxed way to paint a piece for your wall.",
+              "price": "From $28",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Glass Fusing",
+              "desc": "Arrange colorful glass into pendants, dishes, and suncatchers, then we fuse them in the kiln. Small pieces, big sparkle.",
+              "price": "From $30",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Clay Hand-Building",
+              "desc": "Shape your own creation by hand, no wheel needed. Pinch, coil, and sculpt a piece that's truly your own design.",
+              "price": "From $26",
+              "tags": []
+            },
+            {
+              "name": "Take-Home Craft Kits",
+              "desc": "Can't stay to paint? Grab a kit and create at the kitchen table, then bring pottery pieces back for glazing and firing.",
+              "price": "From $20",
+              "tags": [
+                "value",
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Bright Little Studio in Downtown Naperville",
+      "lead": "Pottery Bayou is an independent paint-your-own pottery studio in the heart of downtown Naperville, where you pick a piece, grab a brush, and make something you actually get to keep.",
+      "paragraphs": [
+        "We built Pottery Bayou to be the kind of place where the only rule is to have fun. Walk in any time, settle in at a big communal table, and let the afternoon slip away in color. There's no experience required and no wrong way to do it, only your imagination and a shelf full of pieces waiting to become something special.",
+        "From birthday parties and date nights to summer camps and rainy-day adventures, we love being the spot where Naperville comes to make memories, just a couple of blocks from where the Riverwalk winds along the DuPage River. Branch out with canvas painting, glass fusing, or clay hand-building, then leave with a one-of-a-kind keepsake and the kind of afternoon you'll want to do all over again."
+      ],
+      "stats": [
+        {
+          "value": "All Ages",
+          "label": "A Brush for Everyone"
+        },
+        {
+          "value": "4 Studios",
+          "label": "Pottery, Canvas, Glass & Clay"
+        },
+        {
+          "value": "Downtown",
+          "label": "On South Washington Street"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside the Studio",
+      "subheading": "A peek at the shelves, the brushes, and the happy mess of a busy afternoon at Pottery Bayou.",
+      "captions": [
+        "Shelves stacked with pieces waiting to be painted",
+        "Little hands busy at the painting table",
+        "A rainbow of glazes ready to grab",
+        "A birthday party table set and ready to go",
+        "Fresh-fired mugs cooling after a trip through the kiln",
+        "Colorful glass fusing pieces catching the light"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Naperville Is Saying",
+      "items": [
+        {
+          "quote": "We threw my daughter's birthday party here and it was the easiest celebration ever. The staff handled everything and every kid went home thrilled with their piece.",
+          "name": "Jessica R.",
+          "role": "Birthday party parent"
+        },
+        {
+          "quote": "My partner and I came in for a date night and ended up staying way past closing time. Such a fun, low-key way to spend an evening together.",
+          "name": "Daniel K.",
+          "role": "Date night regular"
+        },
+        {
+          "quote": "It rained all weekend so we walked in on a whim, and the kids painted for hours. This is officially our new rainy-day plan.",
+          "name": "Megan A.",
+          "role": "Local mom"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Downtown Naperville",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "Closed"
+        },
+        {
+          "day": "Tuesday - Thursday",
+          "time": "10:00 AM - 7:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "10:00 AM - 9:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "10:00 AM - 9:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM - 5:00 PM"
+        }
+      ],
+      "phoneLabel": "Parties & Reservations",
+      "directions": "Find us at 210 South Washington Street in downtown Naperville. Walk-ins are always welcome, or call ahead to reserve a party table or group session.",
+      "neighborhood": "Pottery Bayou sits on Washington Street in the heart of downtown Naperville's shopping district, a short stroll from the Riverwalk along the DuPage River and the Naper Settlement history museum."
+    },
+    "cta": {
+      "heading": "Grab a Brush and Make Something Today",
+      "text": "Planning a birthday, a date night, or just a creative afternoon? Walk in any time or give us a call to book a seat, reserve a party, or ask about classes and camps.",
+      "button": "Call (630) 718-9823"
+    },
+    "form": {
+      "heading": "Book a Seat or Plan a Party",
+      "subheading": "Tell us what you have in mind, a birthday, a group outing, or a class, and we'll get right back to you with the details.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Number of Painters",
+      "date": "Preferred Date & Time",
+      "message": "Tell us about your visit, the occasion, ages, and anything else.",
+      "submit": "Send Request",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your visit. No spam, ever."
+    },
+    "footer": {
+      "tagline": "An independent paint-your-own pottery studio in downtown Naperville. Pick a piece, grab a brush, and make something you keep.",
+      "rights": "© Pottery Bayou. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Pottery Bayou | Estudio de Cerámica para Pintar en Naperville, IL",
+      "description": "Cerámica para pintar cerca del Riverwalk en el centro de Naperville. Elige una pieza, toma un pincel y crea algo para conservar. Llama al (630) 718-9823."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Estudios",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Reservar"
+    },
+    "hero": {
+      "eyebrow": "Cerámica para Pintar · Centro de Naperville",
+      "title": "Elige una Pieza, Toma un Pincel,",
+      "titleAccent": "Crea Algo para Conservar",
+      "subtitle": "Un estudio de cerámica para pintar luminoso y alegre en el corazón del centro de Naperville. Desde fiestas de cumpleaños y citas hasta campamentos y diversión para días de lluvia, hay un lugar en la mesa para todas las edades.",
+      "ctaPrimary": "Ver Estudios",
+      "ctaSecondary": "Llama para Reservar",
+      "badge": "Sin Cita · Fiestas · Todas las Edades"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Llega y Pinta",
+        "text": "Sin reservación, sin problema. Pasa cuando quieras, elige una pieza de los estantes y te preparamos con pintura, pinceles y toda la ayuda que necesites."
+      },
+      {
+        "icon": "heart",
+        "title": "Fiestas sin Complicaciones",
+        "text": "Las fiestas de cumpleaños, las citas y los grupos privados son nuestra especialidad. Nosotros nos encargamos del montaje, la limpieza y el feliz desorden en medio."
+      },
+      {
+        "icon": "star",
+        "title": "Diversión para Toda Edad",
+        "text": "Desde pequeñitos inquietos hasta abuelos, hay un pincel para cada quien. No se necesita experiencia, solo un poco de imaginación."
+      },
+      {
+        "icon": "leaf",
+        "title": "Más que Cerámica",
+        "text": "Anímate con pintura en lienzo, fusión de vidrio y modelado de arcilla a mano. Cuatro estudios bajo un mismo techo luminoso y acogedor."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Estudios y Experiencias",
+      "subheading": "Las experiencias y los precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Llámanos o pásate para conocer la oferta de estudios, los precios y la disponibilidad actuales.",
+      "categories": [
+        {
+          "id": "paint-your-own-pottery",
+          "name": "Cerámica para Pintar",
+          "blurb": "El corazón del estudio. Paga una tarifa de estudio, elige una pieza del estante y pinta a tu propio ritmo. Nosotros la esmaltamos y la horneamos, y tú te llevas algo para siempre.",
+          "items": [
+            {
+              "name": "Tarifa de Estudio + Elige tu Pieza",
+              "desc": "Una tarifa fija de estudio cubre tu lugar, toda la pintura y los pinceles, además del esmaltado y horneado. Solo agrega la pieza que elijas pintar.",
+              "price": "Desde $12",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Tazas, Tazones y Platos",
+              "desc": "Favoritos del día a día que se usan una y otra vez. Pinta una taza para tu café de la mañana o un tazón que sea solo tuyo.",
+              "price": "Desde $18",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Figuritas y Alcancías",
+              "desc": "Piezas pequeñitas perfectas para manos chiquitas y proyectos rápidos. Las favoritas de los principiantes y los pintores más jóvenes.",
+              "price": "Desde $14",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Platones y Floreros de Lujo",
+              "desc": "Atrévete con una pieza central. Más superficie para pintar significa más espacio para crear algo verdaderamente único.",
+              "price": "Desde $32",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "parties-events",
+          "name": "Fiestas y Eventos",
+          "blurb": "Déjanos organizar la celebración. Montamos, limpiamos y nos aseguramos de que todos se vayan con un recuerdo pintado y una buena historia.",
+          "items": [
+            {
+              "name": "Fiesta de Cumpleaños Infantil",
+              "desc": "Una mesa de fiesta reservada, una pieza para pintar para cada invitado y un anfitrión que mantiene todo en marcha. Trae el pastel, nosotros traemos la diversión.",
+              "price": "$25/persona",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Noche para Adultos",
+              "desc": "Reúne a tu grupo para una velada relajada de pintura y risas. Trae tus propios bocadillos y bebidas mientras crean algo juntos.",
+              "price": "$30/persona",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Reservación para Grupo Privado",
+              "desc": "Reserva el estudio para baby showers, salidas de equipo, grupos scout o cualquier grupo que quiera el lugar para sí mismo.",
+              "price": "Desde $250",
+              "tags": []
+            },
+            {
+              "name": "Paquetes Adicionales para Fiestas",
+              "desc": "Completa tu evento con piezas extra, decoración temática y bolsitas de regalo. Cuéntanos tu idea y armamos el paquete.",
+              "price": "Desde $40",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "classes-camps",
+          "name": "Clases y Campamentos",
+          "blurb": "Aprende algo nuevo y llévate una habilidad junto con tu arte. Sesiones prácticas guiadas por instructores amables y pacientes.",
+          "items": [
+            {
+              "name": "Campamento de Arte Infantil",
+              "desc": "Un campamento de varios días repleto de cerámica, pintura y proyectos creativos. Una forma favorita de llenar las vacaciones y los días de verano.",
+              "price": "Desde $45/día",
+              "tags": [
+                "signature",
+                "popular"
+              ]
+            },
+            {
+              "name": "Introducción al Torno",
+              "desc": "Ensúciate las manos en el torno y dale forma a tu primer tazón o taza. Una introducción al modelado de arcilla apta para principiantes.",
+              "price": "$55/persona",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Talleres de Temporada",
+              "desc": "Proyectos temáticos que siguen el calendario, desde adornos navideños hasta macetas de primavera. Vuelve para ver qué viene a continuación.",
+              "price": "Desde $35",
+              "tags": []
+            },
+            {
+              "name": "Sesión Familiar de Pintura",
+              "desc": "Una sesión guiada pensada para que todas las edades pinten lado a lado. Perfecta para abuelos, niños y todos los demás.",
+              "price": "$22/persona",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "other-studios",
+          "name": "Otros Estudios",
+          "blurb": "¿Listo para explorar más? Descubre el lienzo, el vidrio y la arcilla en sus propios estudios, sin necesidad de un pincel de cerámica.",
+          "items": [
+            {
+              "name": "Pintura en Lienzo",
+              "desc": "Toma un lienzo y un caballete y sigue tu imaginación. Una forma relajada de pintar una pieza para tu pared.",
+              "price": "Desde $28",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Fusión de Vidrio",
+              "desc": "Acomoda vidrio de colores en colgantes, platos y atrapasoles, y luego los fusionamos en el horno. Piezas pequeñas, gran brillo.",
+              "price": "Desde $30",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Modelado de Arcilla a Mano",
+              "desc": "Dale forma a tu propia creación con las manos, sin necesidad de torno. Pellizca, enrolla y esculpe una pieza que sea de tu propio diseño.",
+              "price": "Desde $26",
+              "tags": []
+            },
+            {
+              "name": "Kits para Llevar a Casa",
+              "desc": "¿No puedes quedarte a pintar? Toma un kit y crea en la mesa de la cocina, luego trae las piezas de cerámica para esmaltarlas y hornearlas.",
+              "price": "Desde $20",
+              "tags": [
+                "value",
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Un Estudio Luminoso en el Centro de Naperville",
+      "lead": "Pottery Bayou es un estudio independiente de cerámica para pintar en el corazón del centro de Naperville, donde eliges una pieza, tomas un pincel y creas algo que de verdad te llevas a casa.",
+      "paragraphs": [
+        "Creamos Pottery Bayou para que fuera el tipo de lugar donde la única regla es divertirse. Llega cuando quieras, acomódate en una gran mesa comunitaria y deja que la tarde se vaya entre colores. No se necesita experiencia y no hay forma equivocada de hacerlo, solo tu imaginación y un estante lleno de piezas esperando convertirse en algo especial.",
+        "Desde fiestas de cumpleaños y citas hasta campamentos de verano y aventuras para días de lluvia, nos encanta ser el lugar donde Naperville viene a crear recuerdos, a solo un par de cuadras de donde el Riverwalk serpentea a orillas del río DuPage. Anímate con pintura en lienzo, fusión de vidrio o modelado de arcilla a mano, y vete con un recuerdo único y el tipo de tarde que querrás repetir una y otra vez."
+      ],
+      "stats": [
+        {
+          "value": "Todas las Edades",
+          "label": "Un Pincel para Cada Quien"
+        },
+        {
+          "value": "4 Estudios",
+          "label": "Cerámica, Lienzo, Vidrio y Arcilla"
+        },
+        {
+          "value": "Centro",
+          "label": "En South Washington Street"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Dentro del Estudio",
+      "subheading": "Un vistazo a los estantes, los pinceles y el feliz desorden de una tarde ajetreada en Pottery Bayou.",
+      "captions": [
+        "Estantes repletos de piezas esperando ser pintadas",
+        "Manos chiquitas ocupadas en la mesa de pintura",
+        "Un arcoíris de esmaltes listo para tomar",
+        "Una mesa de fiesta de cumpleaños montada y lista",
+        "Tazas recién horneadas enfriándose tras pasar por el horno",
+        "Coloridas piezas de fusión de vidrio captando la luz"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice Naperville",
+      "items": [
+        {
+          "quote": "Hicimos aquí la fiesta de cumpleaños de mi hija y fue la celebración más fácil de todas. El personal se encargó de todo y cada niño se fue feliz con su pieza.",
+          "name": "Jessica R.",
+          "role": "Mamá de fiesta de cumpleaños"
+        },
+        {
+          "quote": "Mi pareja y yo vinimos para una cita y terminamos quedándonos hasta casi la hora de cerrar. Una forma muy divertida y tranquila de pasar la noche juntos.",
+          "name": "Daniel K.",
+          "role": "Cliente de citas"
+        },
+        {
+          "quote": "Llovió todo el fin de semana así que entramos por capricho, y los niños pintaron durante horas. Oficialmente es nuestro nuevo plan para días de lluvia.",
+          "name": "Megan A.",
+          "role": "Mamá local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en el Centro de Naperville",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "Cerrado"
+        },
+        {
+          "day": "Martes - Jueves",
+          "time": "10:00 AM - 7:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "10:00 AM - 9:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "10:00 AM - 9:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM - 5:00 PM"
+        }
+      ],
+      "phoneLabel": "Fiestas y Reservaciones",
+      "directions": "Encuéntranos en 210 South Washington Street en el centro de Naperville. Siempre eres bienvenido sin cita, o llama con anticipación para reservar una mesa de fiesta o una sesión de grupo.",
+      "neighborhood": "Pottery Bayou está sobre Washington Street, en pleno distrito comercial del centro de Naperville, a un corto paseo del Riverwalk a orillas del río DuPage y del museo histórico Naper Settlement."
+    },
+    "cta": {
+      "heading": "Toma un Pincel y Crea Algo Hoy",
+      "text": "¿Planeas un cumpleaños, una cita o simplemente una tarde creativa? Llega cuando quieras o llámanos para reservar un lugar, apartar una fiesta o preguntar por clases y campamentos.",
+      "button": "Llamar al (630) 718-9823"
+    },
+    "form": {
+      "heading": "Reserva un Lugar o Planea una Fiesta",
+      "subheading": "Cuéntanos lo que tienes en mente, un cumpleaños, una salida de grupo o una clase, y te responderemos enseguida con los detalles.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Número de Pintores",
+      "date": "Fecha y Hora Preferidas",
+      "message": "Cuéntanos sobre tu visita, la ocasión, las edades y cualquier otra cosa.",
+      "submit": "Enviar Solicitud",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu visita. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Un estudio independiente de cerámica para pintar en el centro de Naperville. Elige una pieza, toma un pincel y crea algo para conservar.",
+      "rights": "© Pottery Bayou. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

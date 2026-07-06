@@ -1,0 +1,620 @@
+{
+  "business": {
+    "name": "Hink's Bar and Grill",
+    "shortName": "Hink's",
+    "vertical": "Bar & Grill",
+    "phone": "(815) 899-9990",
+    "phoneHref": "+18158999990",
+    "address": "123 South California Street",
+    "city": "Sycamore",
+    "state": "IL",
+    "zip": "60178",
+    "mapsQuery": "Hink's Bar and Grill, 123 South California Street, Sycamore, IL",
+    "lat": 41.9881912,
+    "lon": -88.688671
+  },
+  "en": {
+    "meta": {
+      "title": "Hink's Bar and Grill | Bar & Grill in Downtown Sycamore, IL",
+      "description": "Family-owned bar & grill in downtown Sycamore, IL. 100+ craft and import beers, homemade burgers, pizza, and soups, plus karaoke nights. Stop in or call (815) 899-9990."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Tap & Kitchen",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Stop By the Bar"
+    },
+    "hero": {
+      "eyebrow": "Family-Owned Bar & Grill · Downtown Sycamore",
+      "title": "100+ Beers, Homemade Burgers,",
+      "titleAccent": "and a Mic on Karaoke Night",
+      "subtitle": "Hink's is the no-nonsense corner bar on South California Street — coolers stacked with craft and import beers, burgers pattied by hand, soups made from scratch, and a crowd that never checks what you're wearing.",
+      "ctaPrimary": "See the Board",
+      "ctaSecondary": "Call the Bar",
+      "badge": "100+ Beers · Homemade Kitchen · Bikers Welcome"
+    },
+    "highlights": [
+      {
+        "icon": "star",
+        "title": "100+ Craft & Import Beers",
+        "text": "The coolers run deep — more than a hundred craft and import bottles alongside rotating draft handles. Can't decide? Ask for the list and take your time."
+      },
+      {
+        "icon": "flame",
+        "title": "Burgers Off the Griddle",
+        "text": "Homemade burgers pattied by hand and cooked on the griddle, the way a corner bar is supposed to do it. No frozen pucks, no shortcuts."
+      },
+      {
+        "icon": "leaf",
+        "title": "Soups & Pizza From Scratch",
+        "text": "Homemade soups simmered in our own kitchen and thin-crust tavern pizza cut into squares — simple food done right, made here."
+      },
+      {
+        "icon": "heart",
+        "title": "Everybody's a Regular",
+        "text": "Family-owned, biker-friendly, zero pretense. On karaoke nights the mic is open to anyone brave enough, and the crowd sings along either way."
+      }
+    ],
+    "menu": {
+      "heading": "The Tap & Kitchen Board",
+      "subheading": "Menu items, prices, and hours shown are illustrative demo content for this sample site. Call (815) 899-9990 for today's beer list, kitchen hours, and the karaoke schedule.",
+      "categories": [
+        {
+          "id": "on-tap-in-bottles",
+          "name": "On Tap & In Bottles",
+          "blurb": "Rotating craft handles up top and more than a hundred craft and import bottles down in the coolers.",
+          "items": [
+            {
+              "name": "Rotating Craft Handles",
+              "desc": "Ask what's pouring — the draft handles rotate through local and regional craft picks all year long.",
+              "price": "$6",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Deep-List Bottle Pick",
+              "desc": "Go digging through the 100+ craft and import bottle list — Belgian ales, German lagers, and plenty you won't find anywhere else in town.",
+              "price": "$7",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Domestic Bottles & Cans",
+              "desc": "The old reliables, ice cold. No lecture about hops included.",
+              "price": "$4",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "House Michelada",
+              "desc": "A cold lager dressed with lime, hot sauce, and a salted rim — it bites back.",
+              "price": "$8",
+              "tags": [
+                "spicy"
+              ]
+            },
+            {
+              "name": "Bucket of Bottles",
+              "desc": "Five bottles buried in ice for the table. Mix and match from the cooler.",
+              "price": "$18",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "from-the-kitchen",
+          "name": "From the Kitchen",
+          "blurb": "Homemade means homemade — burgers pattied by hand, soups from scratch, pizza out of the oven.",
+          "items": [
+            {
+              "name": "Hink's Homemade Burger",
+              "desc": "A hand-pattied half-pounder off the griddle with your pick of cheese, on a toasted bun with a basket of fries.",
+              "price": "$11",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Tavern-Cut Cheese Pizza",
+              "desc": "Thin, crispy, and party-cut into squares — the argument over the corner pieces starts here.",
+              "price": "$12",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Homemade Soup of the Day",
+              "desc": "Simmered from scratch in our kitchen — ask what's in the pot today.",
+              "price": "$5",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Buffalo Chicken Sandwich",
+              "desc": "Crispy chicken tossed in buffalo sauce, with ranch on the side to cool it back down.",
+              "price": "$10",
+              "tags": [
+                "spicy"
+              ]
+            },
+            {
+              "name": "Grilled Cheese & Tomato Soup",
+              "desc": "Buttery griddled cheese with a cup of our homemade tomato soup for dunking.",
+              "price": "$8",
+              "tags": [
+                "vegetarian"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "late-night",
+          "name": "Late Night",
+          "blurb": "The fryers stay on late — fuel for the last few songs of karaoke night.",
+          "items": [
+            {
+              "name": "Loaded Nachos",
+              "desc": "A pile of chips under melted cheese, jalapeños, and all the fixings — built for the whole table.",
+              "price": "$9",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Fried Pickle Chips",
+              "desc": "Crisp dill slices in a golden crust with a side of ranch.",
+              "price": "$7",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Basket of Fries",
+              "desc": "Hot, salty, and usually gone before the next song starts.",
+              "price": "$5",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Jalapeño Poppers",
+              "desc": "Cheese-stuffed jalapeños fried until molten. Order at your own risk.",
+              "price": "$7",
+              "tags": [
+                "spicy"
+              ]
+            },
+            {
+              "name": "Late-Night Tavern Pizza",
+              "desc": "A whole thin-crust pie from the oven, party-cut and made right up until close.",
+              "price": "$13",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Family-Owned Corner Bar in Downtown Sycamore",
+      "lead": "Hink's Bar and Grill is the no-nonsense corner bar on South California Street — family-owned, stocked with more than a hundred craft and import beers, and cooking burgers, pizza, and soups the homemade way.",
+      "paragraphs": [
+        "The beer list is the reason a lot of folks find us: 100+ craft and import bottles alongside rotating draft handles, from Belgian ales to hard-to-find seasonal pours. The kitchen is the reason they stay — burgers pattied by hand, soups simmered from scratch, and thin-crust tavern pizza cut into squares. No gimmicks and no dress code, just a corner bar that takes its beer and its food seriously.",
+        "We're family-owned and sit a block from State Street's historic storefronts in downtown Sycamore, near the 1905 DeKalb County Courthouse. On karaoke nights the mic is open to anyone brave enough, bikes are always welcome out front, and the crowd is the same unpretentious local mix it's always been. Pull up a stool — you'll fit right in."
+      ],
+      "stats": [
+        {
+          "value": "100+ Beers",
+          "label": "Craft & Import Selection"
+        },
+        {
+          "value": "Family-Owned",
+          "label": "Downtown Sycamore Corner Bar"
+        },
+        {
+          "value": "Homemade",
+          "label": "Burgers, Pizza & Soups"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Around the Bar",
+      "subheading": "Cold pours, homemade plates, and karaoke nights on South California Street.",
+      "captions": [
+        "A fresh pint from the rotating craft handles, poured at the bar",
+        "Hink's homemade hand-pattied burger with a basket of fries",
+        "Loaded nachos hitting the table just before karaoke starts",
+        "The coolers stocked deep with craft and import bottles",
+        "The karaoke mic and songbook set up for the night",
+        "Bikes lined up out front on South California Street"
+      ]
+    },
+    "testimonials": {
+      "heading": "What the Regulars Say",
+      "items": [
+        {
+          "quote": "The beer list is no joke — over a hundred bottles, and I still haven't made it through. I come in for something new and end up staying for a burger every time.",
+          "name": "Dave K.",
+          "role": "Craft beer regular"
+        },
+        {
+          "quote": "Karaoke night here is the best in town. Nobody judges, everybody sings along, and the nachos hit the table right when you need them.",
+          "name": "Rosa M.",
+          "role": "Karaoke night regular"
+        },
+        {
+          "quote": "Rode through Sycamore with a group and Hink's treated us like we'd been coming for years. Cold beer, homemade soup, zero attitude. We make a point of stopping now.",
+          "name": "Tony B.",
+          "role": "Rider from out of town"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Downtown Sycamore",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Wednesday",
+          "time": "11:00 AM - 11:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "11:00 AM - 12:00 AM"
+        },
+        {
+          "day": "Friday",
+          "time": "11:00 AM - 1:00 AM"
+        },
+        {
+          "day": "Saturday",
+          "time": "11:00 AM - 1:00 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM - 9:00 PM"
+        }
+      ],
+      "phoneLabel": "Call the Bar",
+      "directions": "Find us at 123 South California Street in downtown Sycamore. Grab a stool, dig through the bottle list, and get something homemade going in the kitchen — street parking is close by, and bikes are welcome out front.",
+      "neighborhood": "Hink's sits on South California Street in the heart of downtown Sycamore, a block from State Street's historic storefronts and near the 1905 DeKalb County Courthouse — Sycamore is the county seat, and the courthouse lawn hosts the famous Pumpkin Festival every October."
+    },
+    "cta": {
+      "heading": "Pull Up a Stool",
+      "text": "Come see what's on the handles, dig through the bottle list, and get a homemade burger on the griddle. If it's karaoke night, the mic is waiting.",
+      "button": "Call (815) 899-9990"
+    },
+    "form": {
+      "heading": "Plan a Night Out or Get in Touch",
+      "subheading": "Rounding up a group, wondering when karaoke starts, or just want to know what's in the cooler? Send us a note and we'll get back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Group Size",
+      "date": "Preferred Date/Time",
+      "message": "Tell us about your visit, group, or question.",
+      "submit": "Send Request",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "A family-owned bar & grill in downtown Sycamore — 100+ craft and import beers, homemade burgers, pizza, and soups, karaoke nights, and a corner-bar welcome for everybody.",
+      "rights": "© Hink's Bar and Grill. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Menu, prices & hours illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Hink's Bar and Grill | Bar & Grill en el Centro de Sycamore, IL",
+      "description": "Bar & grill familiar en el centro de Sycamore, IL. Más de 100 cervezas artesanales e importadas, hamburguesas caseras, pizza y sopas, y noches de karaoke. Visítanos o llama al (815) 899-9990."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Bar y Cocina",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Pásate al Bar"
+    },
+    "hero": {
+      "eyebrow": "Bar & Grill Familiar · Centro de Sycamore",
+      "title": "Más de 100 Cervezas, Comida Casera",
+      "titleAccent": "y Noches de Karaoke",
+      "subtitle": "Hink's es el bar de esquina sin pretensiones de South California Street: refrigeradores repletos de cervezas artesanales e importadas, hamburguesas hechas a mano, sopas caseras y una clientela que nunca se fija en cómo vienes vestido.",
+      "ctaPrimary": "Ver la Pizarra",
+      "ctaSecondary": "Llama al Bar",
+      "badge": "100+ Cervezas · Cocina Casera · Motociclistas Bienvenidos"
+    },
+    "highlights": [
+      {
+        "icon": "star",
+        "title": "Más de 100 Cervezas",
+        "text": "Los refrigeradores van en serio: más de cien botellas artesanales e importadas junto a grifos rotativos. ¿No te decides? Pide la lista y tómate tu tiempo."
+      },
+      {
+        "icon": "flame",
+        "title": "Hamburguesas a la Plancha",
+        "text": "Hamburguesas caseras formadas a mano y hechas en la plancha, como debe hacerlo un bar de esquina. Nada congelado, sin atajos."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sopas y Pizza Desde Cero",
+        "text": "Sopas caseras cocinadas a fuego lento en nuestra propia cocina y pizza de taberna de masa delgada cortada en cuadritos: comida sencilla bien hecha, hecha aquí."
+      },
+      {
+        "icon": "heart",
+        "title": "Aquí Todos Son de Casa",
+        "text": "Negocio familiar, amigable con los motociclistas y sin pretensiones. En las noches de karaoke el micrófono es de quien se anime, y la gente corea de todos modos."
+      }
+    ],
+    "menu": {
+      "heading": "La Pizarra de Bar y Cocina",
+      "subheading": "Los platillos, precios y horarios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Llama al (815) 899-9990 para conocer la lista de cervezas del día, el horario de la cocina y el calendario de karaoke.",
+      "categories": [
+        {
+          "id": "on-tap-in-bottles",
+          "name": "De Grifo y en Botella",
+          "blurb": "Grifos artesanales rotativos arriba y más de cien botellas artesanales e importadas en los refrigeradores.",
+          "items": [
+            {
+              "name": "Grifos Artesanales Rotativos",
+              "desc": "Pregunta qué está saliendo: los grifos rotan entre cervezas artesanales locales y regionales todo el año.",
+              "price": "$6",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Joya de la Lista de Botellas",
+              "desc": "Escarba en la lista de más de 100 botellas artesanales e importadas: ales belgas, lagers alemanas y varias que no encontrarás en ningún otro lugar del pueblo.",
+              "price": "$7",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Botellas y Latas Nacionales",
+              "desc": "Las de siempre, bien frías. Sin sermón sobre lúpulos.",
+              "price": "$4",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Michelada de la Casa",
+              "desc": "Una lager fría preparada con limón, salsa picante y escarchado de sal: pica de verdad.",
+              "price": "$8",
+              "tags": [
+                "spicy"
+              ]
+            },
+            {
+              "name": "Cubeta de Botellas",
+              "desc": "Cinco botellas enterradas en hielo para la mesa. Combínalas como quieras del refrigerador.",
+              "price": "$18",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "from-the-kitchen",
+          "name": "De la Cocina",
+          "blurb": "Casero significa casero: hamburguesas formadas a mano, sopas desde cero y pizza recién salida del horno.",
+          "items": [
+            {
+              "name": "Hamburguesa Casera de Hink's",
+              "desc": "Media libra formada a mano y hecha en la plancha, con el queso que elijas, en pan tostado y con canasta de papas fritas.",
+              "price": "$11",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pizza de Taberna con Queso",
+              "desc": "Delgada, crujiente y cortada en cuadritos: aquí empieza la pelea por las esquinas.",
+              "price": "$12",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Sopa Casera del Día",
+              "desc": "Cocinada desde cero en nuestra cocina. Pregunta qué hay en la olla hoy.",
+              "price": "$5",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Sándwich de Pollo Buffalo",
+              "desc": "Pollo crujiente bañado en salsa buffalo, con aderezo ranch al lado para calmar el fuego.",
+              "price": "$10",
+              "tags": [
+                "spicy"
+              ]
+            },
+            {
+              "name": "Sándwich de Queso con Sopa de Tomate",
+              "desc": "Queso fundido a la plancha con mantequilla y una taza de nuestra sopa casera de tomate para remojar.",
+              "price": "$8",
+              "tags": [
+                "vegetarian"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "late-night",
+          "name": "Para la Madrugada",
+          "blurb": "Las freidoras siguen encendidas hasta tarde: combustible para las últimas canciones del karaoke.",
+          "items": [
+            {
+              "name": "Nachos Cargados",
+              "desc": "Una montaña de totopos bajo queso fundido, jalapeños y todos los extras: pensada para toda la mesa.",
+              "price": "$9",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Chips de Pepinillo Frito",
+              "desc": "Rodajas de pepinillo crujientes en costra dorada, con aderezo ranch al lado.",
+              "price": "$7",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Canasta de Papas Fritas",
+              "desc": "Calientes, saladas y casi siempre se acaban antes de la siguiente canción.",
+              "price": "$5",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Jalapeños Rellenos",
+              "desc": "Jalapeños rellenos de queso, fritos hasta quedar fundidos. Pídelos bajo tu propio riesgo.",
+              "price": "$7",
+              "tags": [
+                "spicy"
+              ]
+            },
+            {
+              "name": "Pizza de Taberna Nocturna",
+              "desc": "Una pizza entera de masa delgada recién salida del horno, cortada en cuadritos y disponible hasta el cierre.",
+              "price": "$13",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Un Bar de Esquina Familiar en el Centro de Sycamore",
+      "lead": "Hink's Bar and Grill es el bar de esquina sin pretensiones de South California Street: un negocio familiar con más de cien cervezas artesanales e importadas, y hamburguesas, pizza y sopas hechas a la manera casera.",
+      "paragraphs": [
+        "La lista de cervezas es la razón por la que mucha gente nos descubre: más de 100 botellas artesanales e importadas junto a grifos rotativos, desde ales belgas hasta cervezas de temporada difíciles de encontrar. La cocina es la razón por la que se quedan: hamburguesas formadas a mano, sopas cocinadas desde cero y pizza de taberna de masa delgada cortada en cuadritos. Sin trucos y sin código de vestimenta, solo un bar de esquina que se toma en serio su cerveza y su comida.",
+        "Somos un negocio familiar a una cuadra de las fachadas históricas de State Street, en el centro de Sycamore, cerca del Palacio de Justicia del Condado de DeKalb de 1905. En las noches de karaoke el micrófono es de quien se anime, las motos siempre son bienvenidas al frente y la clientela sigue siendo la misma mezcla local y sin pretensiones de siempre. Acércate a la barra: vas a encajar de inmediato."
+      ],
+      "stats": [
+        {
+          "value": "100+",
+          "label": "Cervezas Artesanales e Importadas"
+        },
+        {
+          "value": "Familiar",
+          "label": "Bar de Esquina en el Centro de Sycamore"
+        },
+        {
+          "value": "Casero",
+          "label": "Hamburguesas, Pizza y Sopas"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Dentro del Bar",
+      "subheading": "Cervezas frías, platillos caseros y noches de karaoke en South California Street.",
+      "captions": [
+        "Una cerveza fresca de los grifos artesanales rotativos, servida en la barra",
+        "La hamburguesa casera de Hink's, formada a mano, con canasta de papas fritas",
+        "Nachos cargados llegando a la mesa justo antes de que empiece el karaoke",
+        "Los refrigeradores bien surtidos de botellas artesanales e importadas",
+        "El micrófono y el cancionero listos para la noche de karaoke",
+        "Motos alineadas al frente sobre South California Street"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen los Habituales",
+      "items": [
+        {
+          "quote": "La lista de cervezas no es broma: más de cien botellas y todavía no la termino. Vengo por algo nuevo y siempre acabo quedándome por una hamburguesa.",
+          "name": "Dave K.",
+          "role": "Habitual de la cerveza artesanal"
+        },
+        {
+          "quote": "La noche de karaoke aquí es la mejor del pueblo. Nadie juzga, todos corean y los nachos llegan a la mesa justo cuando los necesitas.",
+          "name": "Rosa M.",
+          "role": "Habitual de las noches de karaoke"
+        },
+        {
+          "quote": "Pasamos por Sycamore en moto con un grupo y en Hink's nos trataron como si lleváramos años viniendo. Cerveza fría, sopa casera y cero actitud. Ahora hacemos parada obligada.",
+          "name": "Tony B.",
+          "role": "Motociclista de paso"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en el Centro de Sycamore",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Miércoles",
+          "time": "11:00 AM - 11:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "11:00 AM - 12:00 AM"
+        },
+        {
+          "day": "Viernes",
+          "time": "11:00 AM - 1:00 AM"
+        },
+        {
+          "day": "Sábado",
+          "time": "11:00 AM - 1:00 AM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM - 9:00 PM"
+        }
+      ],
+      "phoneLabel": "Llama al Bar",
+      "directions": "Encuéntranos en 123 South California Street, en el centro de Sycamore. Toma un banco en la barra, escarba en la lista de botellas y pide algo casero de la cocina; hay estacionamiento en la calle cerca y las motos son bienvenidas al frente.",
+      "neighborhood": "Hink's está sobre South California Street, en pleno centro de Sycamore, a una cuadra de las fachadas históricas de State Street y cerca del Palacio de Justicia del Condado de DeKalb de 1905. Sycamore es la cabecera del condado, y el jardín del palacio recibe cada octubre el famoso Festival de la Calabaza."
+    },
+    "cta": {
+      "heading": "Acércate a la Barra",
+      "text": "Ven a ver qué hay en los grifos, escarba en la lista de botellas y pide una hamburguesa casera a la plancha. Si es noche de karaoke, el micrófono te espera.",
+      "button": "Llamar al (815) 899-9990"
+    },
+    "form": {
+      "heading": "Planea una Salida o Contáctanos",
+      "subheading": "¿Estás juntando a un grupo, quieres saber cuándo empieza el karaoke o simplemente qué hay en el refrigerador? Escríbenos y te responderemos pronto.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "Cuéntanos sobre tu visita, grupo o pregunta.",
+      "submit": "Enviar Solicitud",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Un bar & grill familiar en el centro de Sycamore: más de 100 cervezas artesanales e importadas, hamburguesas caseras, pizza y sopas, noches de karaoke y una bienvenida de bar de esquina para todos.",
+      "rights": "© Hink's Bar and Grill. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Menú, precios y horarios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

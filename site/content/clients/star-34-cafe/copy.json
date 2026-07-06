@@ -1,0 +1,597 @@
+{
+  "business": {
+    "name": "Star 34 Cafè",
+    "shortName": "Star 34",
+    "vertical": "Breakfast & Brunch Cafe",
+    "phone": "(815) 786-9944",
+    "phoneHref": "+18157869944",
+    "address": "336 West Church Street",
+    "city": "Sandwich",
+    "state": "IL",
+    "zip": "60548",
+    "mapsQuery": "Star 34 Cafè, 336 West Church Street, Sandwich, IL",
+    "lat": 41.6438102,
+    "lon": -88.6267359,
+    "cuisine": "American Breakfast"
+  },
+  "en": {
+    "meta": {
+      "title": "Star 34 Cafè | Breakfast & Brunch in Sandwich, IL",
+      "description": "Family breakfast and lunch cafe on Route 34 in downtown Sandwich, IL. Hot skillets, pancakes, biscuits & gravy, and bottomless coffee. Call (815) 786-9944."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Call Ahead"
+    },
+    "hero": {
+      "eyebrow": "Breakfast & Lunch on Route 34",
+      "title": "Skillets, Stacks &",
+      "titleAccent": "Bottomless Coffee",
+      "subtitle": "A family breakfast counter at the west edge of downtown Sandwich — eggs cracked to order, pancakes off the griddle, and new owners pouring heart (and coffee) into a room this town already knows.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Call Us",
+      "badge": "Family-Run · Breakfast & Lunch · Bottomless Coffee"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Hot Off the Griddle",
+        "text": "Skillets, eggs, and pancakes hit the flat-top when you order — not before — and land at your table sizzling."
+      },
+      {
+        "icon": "heart",
+        "title": "A Fresh Chapter",
+        "text": "New owners pouring heart into a familiar room: the same friendly corner of Route 34, with new energy behind the counter."
+      },
+      {
+        "icon": "star",
+        "title": "The Hometown Table",
+        "text": "A morning stop for farmers, families, and anyone rolling down Route 34 with an appetite and time for one more refill."
+      },
+      {
+        "icon": "leaf",
+        "title": "Simple, Done Right",
+        "text": "Eggs cracked to order, gravy ladled generously, and coffee brewed fresh all morning — honest food made with care."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Menu items, prices, and hours shown are illustrative demo content for this sample site. Please call (815) 786-9944 for today's offerings and pricing.",
+      "categories": [
+        {
+          "id": "skillets-classics",
+          "name": "Skillets & Classics",
+          "blurb": "Hash-brown skillets and breakfast plates straight off the flat-top.",
+          "items": [
+            {
+              "name": "Star 34 Skillet",
+              "desc": "Hash browns loaded with sausage, bacon, ham, peppers, and onions, topped with melted cheddar and two eggs.",
+              "price": "$11.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Country Biscuits & Gravy",
+              "desc": "Warm buttermilk biscuits smothered in creamy sausage gravy, with two eggs any style.",
+              "price": "$8.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Denver Skillet",
+              "desc": "Diced ham, green peppers, and onions over crispy hash browns with cheddar and two eggs.",
+              "price": "$10.95",
+              "tags": []
+            },
+            {
+              "name": "Garden Veggie Skillet",
+              "desc": "Mushrooms, spinach, tomatoes, peppers, and onions over hash browns with melted jack cheese.",
+              "price": "$10.50",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Chorizo & Egg Skillet",
+              "desc": "Spicy chorizo scrambled with eggs over hash browns, finished with pepper-jack and jalapeños.",
+              "price": "$11.50",
+              "tags": [
+                "spicy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pancakes-griddle",
+          "name": "Pancakes & Griddle",
+          "blurb": "Tall stacks, golden waffles, and French toast with warm syrup.",
+          "items": [
+            {
+              "name": "Buttermilk Pancake Stack",
+              "desc": "Three fluffy buttermilk pancakes griddled golden, served with butter and warm syrup.",
+              "price": "$7.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Cinnamon French Toast",
+              "desc": "Thick-cut bread dipped in cinnamon custard, griddled golden, and dusted with powdered sugar.",
+              "price": "$8.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Blueberry Pancakes",
+              "desc": "Buttermilk pancakes studded with blueberries and finished with a pat of butter.",
+              "price": "$8.95",
+              "tags": []
+            },
+            {
+              "name": "Belgian Waffle",
+              "desc": "A crisp, golden Belgian waffle with butter, warm syrup, and a dusting of powdered sugar.",
+              "price": "$8.50",
+              "tags": []
+            },
+            {
+              "name": "Short Stack & Two Eggs",
+              "desc": "Two buttermilk pancakes with two eggs any style — a classic breakfast at a friendly price.",
+              "price": "$7.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lunch-counter",
+          "name": "Lunch Counter",
+          "blurb": "Griddled sandwiches and diner lunches served from late morning on.",
+          "items": [
+            {
+              "name": "Route 34 Patty Melt",
+              "desc": "Griddled beef patty with sautéed onions and melted Swiss on toasted marbled rye, with fries.",
+              "price": "$10.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Classic BLT",
+              "desc": "Crispy bacon, lettuce, and tomato on toasted bread with mayo, served with fries.",
+              "price": "$8.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Jalapeño Chicken Sandwich",
+              "desc": "Grilled chicken breast with pepper-jack, jalapeños, and chipotle mayo on a toasted bun.",
+              "price": "$10.50",
+              "tags": [
+                "spicy"
+              ]
+            },
+            {
+              "name": "Grilled Cheese & Tomato Soup",
+              "desc": "Buttery griddled cheese sandwich with a warm cup of tomato soup for dunking.",
+              "price": "$8.50",
+              "tags": [
+                "vegetarian",
+                "value"
+              ]
+            },
+            {
+              "name": "Turkey Club",
+              "desc": "Triple-decker with roasted turkey, bacon, lettuce, and tomato on toast, served with fries.",
+              "price": "$10.95",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "The Hometown Breakfast Counter",
+      "lead": "Star 34 Cafè is the family breakfast and lunch spot on Route 34 — hot skillets, tall pancake stacks, and coffee that never runs dry, served in a room Sandwich already knows.",
+      "paragraphs": [
+        "It's a fresh chapter for a familiar spot. New owners are pouring their heart into the cafe at 336 West Church Street, keeping the griddle hot for the farmers, families, and weekend regulars who make this stretch of downtown feel like home.",
+        "The recipe is simple: eggs cracked to order, biscuits under real sausage gravy, lunch sandwiches off the flat-top, and a coffee refill before you have to ask. Come in once, and there's a good chance we'll remember your order the next time."
+      ],
+      "stats": [
+        {
+          "value": "Route 34",
+          "label": "On West Church Street"
+        },
+        {
+          "value": "Fresh",
+          "label": "Off the Griddle"
+        },
+        {
+          "value": "Bottomless",
+          "label": "Coffee Refills"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Around the Counter",
+      "subheading": "A look at the plates, pours, and morning light that fill our room on Route 34.",
+      "captions": [
+        "The Star 34 Skillet piled with hash browns, eggs, and melted cheddar",
+        "A tall stack of buttermilk pancakes with butter and warm syrup",
+        "The Route 34 Patty Melt hot off the griddle on marbled rye",
+        "Bottomless coffee poured fresh at the counter",
+        "Buttermilk biscuits smothered in sausage gravy",
+        "Morning sunlight across the booths on West Church Street"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Sandwich Is Saying",
+      "items": [
+        {
+          "quote": "The skillets come out sizzling and my coffee cup never hit empty. Feels like the old spot got a fresh shot of energy.",
+          "name": "Peggy S.",
+          "role": "Sandwich regular"
+        },
+        {
+          "quote": "We walked over after errands downtown and left stuffed. Pancakes light as air and the friendliest table on Route 34.",
+          "name": "Miguel A.",
+          "role": "Saturday regular"
+        },
+        {
+          "quote": "Biscuits and gravy done right, no shortcuts. The new folks running it clearly care about this place and it shows.",
+          "name": "Dan W.",
+          "role": "Route 34 commuter"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Sandwich",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Friday",
+          "time": "6:00 AM - 2:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "6:00 AM - 2:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "7:00 AM - 2:00 PM"
+        }
+      ],
+      "phoneLabel": "Give Us a Call",
+      "directions": "We're at 336 West Church Street — that's Route 34 — at the west edge of downtown Sandwich, IL. Pull in off the highway, grab a booth, and come hungry.",
+      "neighborhood": "Church Street is Route 34 itself, and downtown Sandwich starts right at our door — home of the restored 1878 Sandwich Opera House, in the town that has hosted the Sandwich Fair every year since 1888."
+    },
+    "cta": {
+      "heading": "Breakfast Is Calling",
+      "text": "Grab a booth, order the skillet, and let us keep the coffee coming. Bringing a big group or have a question? Give us a call before you head over.",
+      "button": "Call (815) 786-9944"
+    },
+    "form": {
+      "heading": "Send Us a Message",
+      "subheading": "Have a question about the menu, a large group, or anything else? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Party Size",
+      "date": "Preferred Date/Time",
+      "message": "How can we help? Tell us about your visit or question.",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We received your message and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "The hometown breakfast counter on Route 34, pouring fresh coffee and a fresh chapter in downtown Sandwich.",
+      "rights": "© Star 34 Cafè. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Menu, prices & hours illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Star 34 Cafè | Desayuno y Brunch en Sandwich, IL",
+      "description": "Cafetería familiar de desayuno y almuerzo en la Ruta 34, en el centro de Sandwich, IL. Skillets, hot cakes, bisquets con gravy y café ilimitado. Llama al (815) 786-9944."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Llámanos"
+    },
+    "hero": {
+      "eyebrow": "Desayuno y Almuerzo en la Ruta 34",
+      "title": "Skillets, Hot Cakes y",
+      "titleAccent": "Café Ilimitado",
+      "subtitle": "Una barra de desayuno familiar al poniente del centro de Sandwich: huevos al momento, hot cakes recién salidos de la plancha y nuevos dueños que le ponen corazón (y café) a un lugar que el pueblo ya conoce.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Llámanos",
+      "badge": "Negocio Familiar · Desayuno y Almuerzo · Café Ilimitado"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Recién de la Plancha",
+        "text": "Los skillets, huevos y hot cakes se preparan cuando los pides — no antes — y llegan a tu mesa bien calientes."
+      },
+      {
+        "icon": "heart",
+        "title": "Un Nuevo Capítulo",
+        "text": "Nuevos dueños que le ponen el corazón a un lugar muy querido: la misma esquina amable de la Ruta 34, con energía renovada tras la barra."
+      },
+      {
+        "icon": "star",
+        "title": "La Mesa del Pueblo",
+        "text": "La parada matutina de agricultores, familias y todo el que pasa por la Ruta 34 con apetito y tiempo para una recarga más."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sencillo y Bien Hecho",
+        "text": "Huevos al momento, gravy servido con generosidad y café recién hecho toda la mañana: comida honesta preparada con cariño."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Los platillos, precios y horarios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Llama al (815) 786-9944 para conocer la oferta y los precios del día.",
+      "categories": [
+        {
+          "id": "skillets-classics",
+          "name": "Skillets y Clásicos",
+          "blurb": "Skillets sobre papas doradas y platos de desayuno directo de la plancha.",
+          "items": [
+            {
+              "name": "Skillet Star 34",
+              "desc": "Papas doradas con salchicha, tocino, jamón, pimientos y cebolla, cubiertas con cheddar fundido y dos huevos.",
+              "price": "$11.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Bisquets con Gravy",
+              "desc": "Bisquets calientitos bañados en gravy cremoso de salchicha, con dos huevos al gusto.",
+              "price": "$8.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Skillet Denver",
+              "desc": "Jamón en cubitos, pimiento verde y cebolla sobre papas doradas con cheddar y dos huevos.",
+              "price": "$10.95",
+              "tags": []
+            },
+            {
+              "name": "Skillet de Verduras",
+              "desc": "Champiñones, espinaca, tomate, pimientos y cebolla sobre papas doradas con queso fundido.",
+              "price": "$10.50",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Skillet de Chorizo con Huevo",
+              "desc": "Chorizo picosito revuelto con huevo sobre papas doradas, con queso pepper-jack y jalapeños.",
+              "price": "$11.50",
+              "tags": [
+                "spicy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pancakes-griddle",
+          "name": "Hot Cakes y Plancha",
+          "blurb": "Torres bien altas, waffles dorados y pan francés con miel tibia.",
+          "items": [
+            {
+              "name": "Torre de Hot Cakes",
+              "desc": "Tres hot cakes esponjosos de suero de leche, dorados a la plancha, con mantequilla y miel tibia.",
+              "price": "$7.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pan Francés con Canela",
+              "desc": "Pan grueso bañado en natilla de canela, dorado a la plancha y espolvoreado con azúcar glas.",
+              "price": "$8.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Hot Cakes de Mora Azul",
+              "desc": "Hot cakes de suero de leche repletos de moras azules, con su toque de mantequilla.",
+              "price": "$8.95",
+              "tags": []
+            },
+            {
+              "name": "Waffle Belga",
+              "desc": "Waffle belga dorado y crujiente con mantequilla, miel tibia y azúcar glas.",
+              "price": "$8.50",
+              "tags": []
+            },
+            {
+              "name": "Media Torre con Dos Huevos",
+              "desc": "Dos hot cakes de suero de leche con dos huevos al gusto: un desayuno clásico a precio amable.",
+              "price": "$7.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lunch-counter",
+          "name": "Barra de Almuerzo",
+          "blurb": "Sándwiches a la plancha y almuerzos de cafetería desde media mañana.",
+          "items": [
+            {
+              "name": "Patty Melt Ruta 34",
+              "desc": "Carne a la plancha con cebolla salteada y queso suizo fundido en pan de centeno tostado, con papas fritas.",
+              "price": "$10.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "BLT Clásico",
+              "desc": "Tocino crujiente, lechuga y tomate en pan tostado con mayonesa, servido con papas fritas.",
+              "price": "$8.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Sándwich de Pollo con Jalapeño",
+              "desc": "Pechuga a la parrilla con pepper-jack, jalapeños y mayonesa de chipotle en pan tostado.",
+              "price": "$10.50",
+              "tags": [
+                "spicy"
+              ]
+            },
+            {
+              "name": "Sándwich de Queso con Sopa de Tomate",
+              "desc": "Sándwich de queso fundido dorado con mantequilla y una taza caliente de sopa de tomate.",
+              "price": "$8.50",
+              "tags": [
+                "vegetarian",
+                "value"
+              ]
+            },
+            {
+              "name": "Club de Pavo",
+              "desc": "Triple piso con pavo horneado, tocino, lechuga y tomate en pan tostado, con papas fritas.",
+              "price": "$10.95",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "La Barra de Desayuno del Pueblo",
+      "lead": "Star 34 Cafè es la cafetería familiar de desayuno y almuerzo de la Ruta 34: skillets calientes, torres de hot cakes y café que nunca se acaba, servidos en un lugar que Sandwich ya conoce.",
+      "paragraphs": [
+        "Es un nuevo capítulo para un lugar muy conocido. Los nuevos dueños le están poniendo el corazón a la cafetería del 336 de West Church Street, manteniendo la plancha caliente para los agricultores, las familias y los clientes de siempre que hacen que este tramo del centro se sienta como en casa.",
+        "La receta es sencilla: huevos al momento, bisquets bajo un buen gravy de salchicha, sándwiches directo de la plancha y una recarga de café antes de que la pidas. Ven una vez y es muy probable que la próxima ya sepamos qué vas a ordenar."
+      ],
+      "stats": [
+        {
+          "value": "Ruta 34",
+          "label": "Sobre West Church Street"
+        },
+        {
+          "value": "Recién",
+          "label": "De la Plancha"
+        },
+        {
+          "value": "Ilimitado",
+          "label": "Recargas de Café"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Desde la Barra",
+      "subheading": "Un vistazo a los platillos, el café y la luz de la mañana que llenan nuestro local en la Ruta 34.",
+      "captions": [
+        "El Skillet Star 34 repleto de papas doradas, huevos y cheddar fundido",
+        "Una torre alta de hot cakes con mantequilla y miel tibia",
+        "El Patty Melt Ruta 34 recién salido de la plancha en pan de centeno",
+        "Café ilimitado servido al momento en la barra",
+        "Bisquets bañados en gravy de salchicha",
+        "La luz de la mañana sobre las mesas de West Church Street"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice Sandwich",
+      "items": [
+        {
+          "quote": "Los skillets llegan chisporroteando y mi taza de café nunca se quedó vacía. Se siente como si el lugar de siempre hubiera recibido aire fresco.",
+          "name": "Peggy S.",
+          "role": "Cliente frecuente en Sandwich"
+        },
+        {
+          "quote": "Pasamos después de hacer mandados en el centro y salimos llenísimos. Hot cakes ligeritos y la mesa más amable de la Ruta 34.",
+          "name": "Miguel A.",
+          "role": "Cliente de los sábados"
+        },
+        {
+          "quote": "Bisquets con gravy como debe ser, sin atajos. Se nota que la nueva gente que lo lleva quiere mucho este lugar.",
+          "name": "Dan W.",
+          "role": "Viajero de la Ruta 34"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en Sandwich",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Viernes",
+          "time": "6:00 AM - 2:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "6:00 AM - 2:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "7:00 AM - 2:00 PM"
+        }
+      ],
+      "phoneLabel": "Llámanos",
+      "directions": "Estamos en el 336 de West Church Street —que es la Ruta 34— al poniente del centro de Sandwich, IL. Sal de la carretera, escoge una mesa y ven con hambre.",
+      "neighborhood": "Church Street es la mismísima Ruta 34, y el centro de Sandwich empieza en nuestra puerta: hogar de la restaurada Ópera de Sandwich de 1878, en el pueblo que celebra la Feria de Sandwich cada año desde 1888."
+    },
+    "cta": {
+      "heading": "El Desayuno Te Espera",
+      "text": "Escoge una mesa, pide el skillet y deja que el café siga llegando. ¿Vienes con un grupo grande o tienes una pregunta? Llámanos antes de venir.",
+      "button": "Llamar al (815) 786-9944"
+    },
+    "form": {
+      "heading": "Envíanos un Mensaje",
+      "subheading": "¿Tienes una pregunta sobre el menú, un grupo grande o cualquier otra cosa? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo podemos ayudarte? Cuéntanos sobre tu visita o pregunta.",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "La barra de desayuno del pueblo en la Ruta 34, sirviendo café recién hecho y un nuevo capítulo en el centro de Sandwich.",
+      "rights": "© Star 34 Cafè. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Menú, precios y horario ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

@@ -1,0 +1,672 @@
+{
+  "business": {
+    "name": "Suburban Music",
+    "shortName": "Suburban Music",
+    "vertical": "Music Store & Lessons",
+    "phone": "(630) 682-4291",
+    "phoneHref": "+16306824291",
+    "address": "210 West Front Street",
+    "city": "Wheaton",
+    "state": "IL",
+    "zip": "60187",
+    "mapsQuery": "Suburban Music, 210 West Front Street, Wheaton, IL 60187",
+    "lat": 41.8646968,
+    "lon": -88.1087089
+  },
+  "en": {
+    "meta": {
+      "title": "Suburban Music | Instruments, Lessons & Repair in Wheaton, IL",
+      "description": "Family-owned music store in Wheaton, IL. Instruments, patient lessons, fast repairs, and school-band rentals parents trust. Call (630) 682-4291 to book."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Shop & Services",
+      "about": "About",
+      "gallery": "The Store",
+      "visit": "Visit",
+      "order": "Book a Lesson"
+    },
+    "hero": {
+      "eyebrow": "Family-owned in downtown Wheaton",
+      "title": "Where Wheaton players",
+      "titleAccent": "find their sound.",
+      "subtitle": "A family-owned music store that has set up generations of players. Instruments for every age, patient teachers, fast repairs, and the school-band rentals parents trust.",
+      "ctaPrimary": "Browse Shop & Lessons",
+      "ctaSecondary": "Call (630) 682-4291",
+      "badge": "Generations of Wheaton musicians · Lessons, sales & repair"
+    },
+    "highlights": [
+      {
+        "icon": "star",
+        "title": "Instruments for Every Age",
+        "text": "From a child's first guitar to a pro upgrade, we help you find the right instrument and the right fit, every time."
+      },
+      {
+        "icon": "heart",
+        "title": "Patient, Encouraging Teachers",
+        "text": "Guitar, piano, voice, and band lessons with instructors who meet students where they are and keep them coming back."
+      },
+      {
+        "icon": "wrench",
+        "title": "Fast, Honest Repairs",
+        "text": "Setups, restrings, and repairs done right and done quickly, so your instrument is ready when you need it."
+      },
+      {
+        "icon": "check",
+        "title": "School-Band Rentals Parents Trust",
+        "text": "Simple, affordable rentals for school band and orchestra, with the support to keep young players on track."
+      }
+    ],
+    "menu": {
+      "heading": "Shop & Services",
+      "subheading": "A look at what we offer. Items and prices below are illustrative demo content for this redesign — call the store for current selection and pricing.",
+      "categories": [
+        {
+          "id": "instruments",
+          "name": "Instruments",
+          "blurb": "Guitars, keyboards and pianos, band and orchestra, and drums for every age and stage.",
+          "items": [
+            {
+              "name": "Acoustic & Electric Guitars",
+              "desc": "Starter to step-up guitars, set up in-house and ready to play out the door.",
+              "price": "From $129",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Keyboards & Digital Pianos",
+              "desc": "Weighted keys and full-size digitals for beginners and serious players alike.",
+              "price": "From $199",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Band & Orchestra Instruments",
+              "desc": "Flutes, clarinets, trumpets, violins and more, sized and serviced for students.",
+              "price": "From $249",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Drum Kits & Percussion",
+              "desc": "Acoustic and electronic kits, snares, and hand percussion to get you grooving.",
+              "price": "From $299",
+              "tags": []
+            },
+            {
+              "name": "Beginner Starter Packs",
+              "desc": "Everything a first-timer needs in one bundle, picked by people who teach.",
+              "price": "From $99",
+              "tags": [
+                "value",
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lessons",
+          "name": "Lessons",
+          "blurb": "Private guitar, piano, voice, and band-instrument lessons in 30- or 60-minute sessions.",
+          "items": [
+            {
+              "name": "Guitar Lessons (30 min)",
+              "desc": "Acoustic or electric, from first chords to favorite songs, at your pace.",
+              "price": "$30/lesson",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Piano Lessons (30 min)",
+              "desc": "Foundations, reading, and technique for kids and adults just getting started.",
+              "price": "$30/lesson",
+              "tags": []
+            },
+            {
+              "name": "Voice Lessons (30 min)",
+              "desc": "Build range, control, and confidence with patient one-on-one coaching.",
+              "price": "$32/lesson",
+              "tags": []
+            },
+            {
+              "name": "Band Instrument Lessons (30 min)",
+              "desc": "Woodwinds, brass, and strings to help school musicians shine in section.",
+              "price": "$30/lesson",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "60-Minute Private Lesson",
+              "desc": "A full hour for faster progress on any instrument or voice.",
+              "price": "$55/lesson",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rentals-repair",
+          "name": "Rentals & Repair",
+          "blurb": "School-band rentals, instrument repair, and setups handled in-house.",
+          "items": [
+            {
+              "name": "School Band Rental",
+              "desc": "Affordable monthly rentals on band instruments, with maintenance included.",
+              "price": "From $25/mo",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Orchestra String Rental",
+              "desc": "Properly sized violins, violas, and cellos for growing young players.",
+              "price": "From $28/mo",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Instrument Repair",
+              "desc": "Honest diagnostics and quality repairs to bring your instrument back to life.",
+              "price": "From $40",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Setup & Restring",
+              "desc": "Fresh strings, action adjustments, and a full setup so it plays its best.",
+              "price": "From $45",
+              "tags": [
+                "fast",
+                "guarantee"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gear-accessories",
+          "name": "Gear & Accessories",
+          "blurb": "Strings, amps, stands, sheet music, and the extras that keep you playing.",
+          "items": [
+            {
+              "name": "Strings & Picks",
+              "desc": "Top brands for guitar, bass, and orchestra, plus picks for every style.",
+              "price": "From $6",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Amps & Pedals",
+              "desc": "Practice amps to gig-ready rigs and the effects to shape your tone.",
+              "price": "From $89",
+              "tags": []
+            },
+            {
+              "name": "Stands & Cases",
+              "desc": "Sturdy stands, gig bags, and hard cases to protect your investment.",
+              "price": "From $19",
+              "tags": []
+            },
+            {
+              "name": "Sheet Music & Method Books",
+              "desc": "Lesson books, songbooks, and method series for every level and instrument.",
+              "price": "From $9",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Cables & Accessories",
+              "desc": "Cables, straps, tuners, and the little things that make practice easier.",
+              "price": "From $12",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Wheaton Music Store for Every Generation",
+      "lead": "Suburban Music is a family-owned shop that has set up generations of Wheaton players, from first guitars to school-band stars.",
+      "paragraphs": [
+        "Our shop has been part of downtown Wheaton since the late 1990s, just down Front Street from the Metra station. Walk through our doors and you'll find instruments for every age, teachers who lead with patience, and a repair bench that gets your gear playing right. We're the store parents trust for school-band rentals and the spot students come back to lesson after lesson.",
+        "We believe in meeting every player where they are. Whether you're picking out a child's first instrument, signing up for weekly lessons, or dropping off a horn that needs a tune-up, we're here to help you keep making music."
+      ],
+      "stats": [
+        {
+          "value": "All Ages",
+          "label": "Lessons & Instruments"
+        },
+        {
+          "value": "In-House",
+          "label": "Repairs & Setups"
+        },
+        {
+          "value": "School Band",
+          "label": "Rentals Parents Trust"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside the Store",
+      "subheading": "Instruments on the wall, lessons in the studios, and a repair bench that keeps players playing.",
+      "captions": [
+        "Guitars lining the wall and ready to play",
+        "Keyboards and digital pianos to try out",
+        "Lesson studios where students find their sound",
+        "The repair bench, where instruments come back to life",
+        "Band and orchestra instruments sized for students",
+        "Strings, picks, and accessories for every player"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Wheaton Families Say",
+      "items": [
+        {
+          "quote": "Both of my kids started lessons here and they actually look forward to practicing. The teachers are so patient and kind.",
+          "name": "Amanda R.",
+          "role": "Music parent"
+        },
+        {
+          "quote": "Dropped off my guitar for a setup and it came back playing better than when I bought it. Fast, fair, and friendly.",
+          "name": "Greg M.",
+          "role": "Weekend player"
+        },
+        {
+          "quote": "The school-band rental made everything easy. They sized my daughter's flute and handled the maintenance, no stress at all.",
+          "name": "Theresa K.",
+          "role": "Band parent"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Stop By the Store",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday – Friday",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "10:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Call the Store",
+      "directions": "Right in downtown Wheaton on West Front Street, with parking close by. Come browse instruments, ask about lessons, or drop off a repair.",
+      "neighborhood": "The shop sits on West Front Street in downtown Wheaton — the seat of DuPage County — a short walk from the Wheaton Metra station and from the spot just west of downtown where the three branches of the Illinois Prairie Path come together."
+    },
+    "cta": {
+      "heading": "Ready to Start Playing?",
+      "text": "Book a lesson, ask about rentals, or get a repair quote. Give us a call and we'll help you find the right next step.",
+      "button": "Call (630) 682-4291"
+    },
+    "form": {
+      "heading": "Book a Lesson or Ask a Question",
+      "subheading": "Tell us what you're looking for — lessons, a rental, a repair, or the right instrument — and we'll get right back to you.",
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "What can we help with?",
+      "date": "Preferred Day & Time",
+      "message": "Your Message",
+      "submit": "Send Request",
+      "sending": "Sending…",
+      "success": "Thanks! We'll be in touch soon.",
+      "error": "Something went wrong. Please call us at (630) 682-4291.",
+      "consent": "By submitting, you agree to be contacted about your request. We never share your info."
+    },
+    "footer": {
+      "tagline": "Family-owned music store in Wheaton — instruments, lessons, repairs, and school-band rentals for every generation.",
+      "rights": "© Suburban Music. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Suburban Music | Instrumentos, Clases y Reparación en Wheaton, IL",
+      "description": "Tienda de música familiar en Wheaton, IL. Instrumentos, clases con paciencia, reparaciones rápidas y rentas para la banda escolar. Llama al (630) 682-4291."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Tienda y Servicios",
+      "about": "Nosotros",
+      "gallery": "La Tienda",
+      "visit": "Visítanos",
+      "order": "Reservar Clase"
+    },
+    "hero": {
+      "eyebrow": "Negocio familiar en el centro de Wheaton",
+      "title": "Donde los músicos de Wheaton",
+      "titleAccent": "encuentran su sonido.",
+      "subtitle": "Una tienda de música familiar que ha preparado a generaciones de músicos. Instrumentos para todas las edades, maestros pacientes, reparaciones rápidas y las rentas para la banda escolar en las que confían los padres.",
+      "ctaPrimary": "Ver Tienda y Clases",
+      "ctaSecondary": "Llamar al (630) 682-4291",
+      "badge": "Generaciones de músicos de Wheaton · Clases, ventas y reparación"
+    },
+    "highlights": [
+      {
+        "icon": "star",
+        "title": "Instrumentos para Toda Edad",
+        "text": "Desde la primera guitarra de un niño hasta una mejora profesional, te ayudamos a encontrar el instrumento correcto y el que mejor te queda."
+      },
+      {
+        "icon": "heart",
+        "title": "Maestros Pacientes que Animan",
+        "text": "Clases de guitarra, piano, voz y banda con instructores que acompañan a cada estudiante y los hacen volver."
+      },
+      {
+        "icon": "wrench",
+        "title": "Reparaciones Rápidas y Honestas",
+        "text": "Ajustes, cambios de cuerdas y reparaciones bien hechas y a tiempo, para que tu instrumento esté listo cuando lo necesites."
+      },
+      {
+        "icon": "check",
+        "title": "Rentas para la Banda Escolar",
+        "text": "Rentas sencillas y accesibles para banda y orquesta escolar, con el apoyo para mantener a los jóvenes músicos avanzando."
+      }
+    ],
+    "menu": {
+      "heading": "Tienda y Servicios",
+      "subheading": "Una muestra de lo que ofrecemos. Los artículos y precios de abajo son contenido de demostración ilustrativo para este rediseño — llama a la tienda para la selección y precios actuales.",
+      "categories": [
+        {
+          "id": "instruments",
+          "name": "Instrumentos",
+          "blurb": "Guitarras, teclados y pianos, banda y orquesta, y baterías para toda edad y nivel.",
+          "items": [
+            {
+              "name": "Guitarras Acústicas y Eléctricas",
+              "desc": "Guitarras de inicio y de nivel superior, ajustadas en la tienda y listas para tocar.",
+              "price": "Desde $129",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Teclados y Pianos Digitales",
+              "desc": "Teclas con peso y pianos digitales de tamaño completo para principiantes y músicos serios.",
+              "price": "Desde $199",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Instrumentos de Banda y Orquesta",
+              "desc": "Flautas, clarinetes, trompetas, violines y más, a la medida y revisados para estudiantes.",
+              "price": "Desde $249",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Baterías y Percusión",
+              "desc": "Baterías acústicas y electrónicas, tarolas y percusión de mano para empezar a tocar.",
+              "price": "Desde $299",
+              "tags": []
+            },
+            {
+              "name": "Paquetes para Principiantes",
+              "desc": "Todo lo que necesita un principiante en un solo paquete, elegido por quienes enseñan.",
+              "price": "Desde $99",
+              "tags": [
+                "value",
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lessons",
+          "name": "Clases",
+          "blurb": "Clases privadas de guitarra, piano, voz e instrumentos de banda en sesiones de 30 o 60 minutos.",
+          "items": [
+            {
+              "name": "Clases de Guitarra (30 min)",
+              "desc": "Acústica o eléctrica, desde los primeros acordes hasta tus canciones favoritas, a tu ritmo.",
+              "price": "$30/clase",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Clases de Piano (30 min)",
+              "desc": "Bases, lectura y técnica para niños y adultos que apenas comienzan.",
+              "price": "$30/clase",
+              "tags": []
+            },
+            {
+              "name": "Clases de Voz (30 min)",
+              "desc": "Desarrolla rango, control y confianza con un acompañamiento paciente uno a uno.",
+              "price": "$32/clase",
+              "tags": []
+            },
+            {
+              "name": "Clases de Instrumento de Banda (30 min)",
+              "desc": "Vientos de madera, metales y cuerdas para que los músicos escolares brillen en su sección.",
+              "price": "$30/clase",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Clase Privada de 60 Minutos",
+              "desc": "Una hora completa para avanzar más rápido en cualquier instrumento o en voz.",
+              "price": "$55/clase",
+              "tags": [
+                "signature"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rentals-repair",
+          "name": "Rentas y Reparación",
+          "blurb": "Rentas para la banda escolar, reparación de instrumentos y ajustes hechos en la tienda.",
+          "items": [
+            {
+              "name": "Renta para Banda Escolar",
+              "desc": "Rentas mensuales accesibles de instrumentos de banda, con mantenimiento incluido.",
+              "price": "Desde $25/mes",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Renta de Cuerdas de Orquesta",
+              "desc": "Violines, violas y cellos del tamaño correcto para jóvenes que van creciendo.",
+              "price": "Desde $28/mes",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Reparación de Instrumentos",
+              "desc": "Diagnóstico honesto y reparaciones de calidad para devolverle la vida a tu instrumento.",
+              "price": "Desde $40",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Ajuste y Cambio de Cuerdas",
+              "desc": "Cuerdas nuevas, ajuste de acción y una puesta a punto completa para que suene lo mejor posible.",
+              "price": "Desde $45",
+              "tags": [
+                "fast",
+                "guarantee"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gear-accessories",
+          "name": "Equipo y Accesorios",
+          "blurb": "Cuerdas, amplificadores, atriles, partituras y los extras que te mantienen tocando.",
+          "items": [
+            {
+              "name": "Cuerdas y Plumillas",
+              "desc": "Las mejores marcas para guitarra, bajo y orquesta, además de plumillas para cada estilo.",
+              "price": "Desde $6",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Amplificadores y Pedales",
+              "desc": "Desde amplificadores de práctica hasta equipos para tocar en vivo y los efectos para dar forma a tu tono.",
+              "price": "Desde $89",
+              "tags": []
+            },
+            {
+              "name": "Atriles y Estuches",
+              "desc": "Atriles resistentes, fundas y estuches rígidos para proteger tu inversión.",
+              "price": "Desde $19",
+              "tags": []
+            },
+            {
+              "name": "Partituras y Libros de Método",
+              "desc": "Libros de clase, cancioneros y series de método para cada nivel e instrumento.",
+              "price": "Desde $9",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Cables y Accesorios",
+              "desc": "Cables, correas, afinadores y los pequeños detalles que facilitan la práctica.",
+              "price": "Desde $12",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Una Tienda de Música en Wheaton para Cada Generación",
+      "lead": "Suburban Music es una tienda familiar que ha preparado a generaciones de músicos de Wheaton, desde las primeras guitarras hasta las estrellas de la banda escolar.",
+      "paragraphs": [
+        "Nuestra tienda forma parte del centro de Wheaton desde finales de los años noventa, sobre la misma Front Street que la estación de Metra. Cruza nuestras puertas y encontrarás instrumentos para toda edad, maestros que enseñan con paciencia y un taller de reparación que deja tu equipo sonando como debe. Somos la tienda en la que los padres confían para las rentas de la banda escolar y el lugar al que los estudiantes regresan clase tras clase.",
+        "Creemos en acompañar a cada músico donde está. Ya sea que elijas el primer instrumento de un niño, te inscribas en clases semanales o dejes un instrumento que necesita una puesta a punto, estamos aquí para ayudarte a seguir haciendo música."
+      ],
+      "stats": [
+        {
+          "value": "Toda Edad",
+          "label": "Clases e Instrumentos"
+        },
+        {
+          "value": "En la Tienda",
+          "label": "Reparaciones y Ajustes"
+        },
+        {
+          "value": "Banda Escolar",
+          "label": "Rentas de Confianza"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Por Dentro de la Tienda",
+      "subheading": "Instrumentos en la pared, clases en los estudios y un taller de reparación que mantiene a los músicos tocando.",
+      "captions": [
+        "Guitarras en la pared y listas para tocar",
+        "Teclados y pianos digitales para probar",
+        "Estudios de clase donde los estudiantes encuentran su sonido",
+        "El taller de reparación, donde los instrumentos vuelven a la vida",
+        "Instrumentos de banda y orquesta a la medida del estudiante",
+        "Cuerdas, plumillas y accesorios para cada músico"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dicen las Familias de Wheaton",
+      "items": [
+        {
+          "quote": "Mis dos hijos empezaron clases aquí y de verdad esperan con ganas practicar. Los maestros son muy pacientes y amables.",
+          "name": "Amanda R.",
+          "role": "Madre de estudiante"
+        },
+        {
+          "quote": "Dejé mi guitarra para un ajuste y volvió sonando mejor que cuando la compré. Rápido, justo y muy amable.",
+          "name": "Greg M.",
+          "role": "Músico de fin de semana"
+        },
+        {
+          "quote": "La renta para la banda escolar hizo todo muy fácil. Ajustaron la flauta de mi hija y se encargaron del mantenimiento, sin ningún estrés.",
+          "name": "Theresa K.",
+          "role": "Madre de la banda"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Pásate por la Tienda",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes – Viernes",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "10:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Llama a la Tienda",
+      "directions": "En pleno centro de Wheaton, sobre West Front Street, con estacionamiento muy cerca. Ven a ver instrumentos, pregunta por las clases o deja una reparación.",
+      "neighborhood": "La tienda está sobre West Front Street, en el centro histórico de Wheaton — sede del condado de DuPage — a un corto paseo de la estación de Metra y del punto, justo al oeste del centro, donde se unen los tres ramales del Illinois Prairie Path."
+    },
+    "cta": {
+      "heading": "¿Listo para Empezar a Tocar?",
+      "text": "Reserva una clase, pregunta por las rentas o pide una cotización de reparación. Llámanos y te ayudamos a encontrar el siguiente paso.",
+      "button": "Llamar al (630) 682-4291"
+    },
+    "form": {
+      "heading": "Reserva una Clase o Haz una Pregunta",
+      "subheading": "Cuéntanos qué buscas — clases, una renta, una reparación o el instrumento correcto — y te responderemos enseguida.",
+      "name": "Tu Nombre",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "¿En qué te podemos ayudar?",
+      "date": "Día y Hora Preferidos",
+      "message": "Tu Mensaje",
+      "submit": "Enviar Solicitud",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor llámanos al (630) 682-4291.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Nunca compartimos tu información."
+    },
+    "footer": {
+      "tagline": "Tienda de música familiar en Wheaton — instrumentos, clases, reparaciones y rentas para la banda escolar, para cada generación.",
+      "rights": "© Suburban Music. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

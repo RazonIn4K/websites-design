@@ -1,0 +1,734 @@
+{
+  "business": {
+    "name": "Cortland Animal Hospital",
+    "shortName": "Cortland Animal",
+    "vertical": "Country Veterinary Clinic",
+    "phone": "",
+    "phoneHref": "",
+    "address": "13669 State Route 38",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Cortland Animal Hospital, 13669 State Route 38, DeKalb, IL 60115",
+    "lat": 41.9132457,
+    "lon": -88.685683
+  },
+  "en": {
+    "meta": {
+      "title": "Cortland Animal Hospital | Country Veterinary Care in Cortland, IL",
+      "description": "Down-to-earth country vet in Cortland, IL caring for pets and farm animals. Wellness, urgent care, surgery, dental, and ranch calls. Book online."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About",
+      "gallery": "Our Patients",
+      "visit": "Visit",
+      "order": "Book Appointment"
+    },
+    "hero": {
+      "eyebrow": "Country Veterinary Care in Cortland",
+      "title": "Gentle hands and honest advice",
+      "titleAccent": "for pets and farm animals",
+      "subtitle": "From the family dog to the herd out back, we treat every animal with patience, plain talk, and the kind of small-town trust where we know your pets by name.",
+      "ctaPrimary": "View Our Services",
+      "ctaSecondary": "Book Appointment",
+      "badge": "Caring for Cortland's pets and livestock"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "We Know Your Animals by Name",
+        "text": "Small-town care where you're a neighbor, not a number, and every visit feels personal."
+      },
+      {
+        "icon": "shield",
+        "title": "Prevention That Pays Off",
+        "text": "Exams, vaccines, and parasite control that keep pets and livestock healthy year-round."
+      },
+      {
+        "icon": "check",
+        "title": "Honest, Plain-Spoken Advice",
+        "text": "Straight answers and fair options, with no upselling and no run-around."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Pets and Farm Animals Alike",
+        "text": "From house calls for the dog to ranch visits for the herd, we come ready to help."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "A snapshot of the care we provide. Services and prices shown here are illustrative demo content for this preview site — please reach out for current offerings and pricing.",
+      "categories": [
+        {
+          "id": "wellness-prevention",
+          "name": "Wellness & Prevention",
+          "blurb": "Routine care that keeps tails wagging and herds healthy.",
+          "items": [
+            {
+              "name": "Wellness Exam",
+              "desc": "Nose-to-tail check-up with honest advice on diet, age, and lifestyle.",
+              "price": "From $50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Vaccinations",
+              "desc": "Core and lifestyle vaccines matched to your animal's age and needs.",
+              "price": "From $30",
+              "tags": []
+            },
+            {
+              "name": "Microchipping",
+              "desc": "Quick, permanent ID that helps bring lost pets back home.",
+              "price": "From $45",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Parasite Control",
+              "desc": "Flea, tick, worm, and heartworm protection for year-round defense.",
+              "price": "Pricing on request",
+              "tags": []
+            },
+            {
+              "name": "Puppy & Kitten Visits",
+              "desc": "Bundled early-life check-ups, vaccines, and guidance for a strong start.",
+              "price": "Pricing on request",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "medical-urgent-care",
+          "name": "Medical & Urgent Care",
+          "blurb": "Prompt, gentle attention when something just isn't right.",
+          "items": [
+            {
+              "name": "Sick-Animal Exam",
+              "desc": "Same-day evaluation to find the cause and start the road to better.",
+              "price": "From $60",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Diagnostics & Testing",
+              "desc": "Targeted tests to pinpoint the problem and chart the next step.",
+              "price": "Pricing on request",
+              "tags": []
+            },
+            {
+              "name": "Digital X-Rays",
+              "desc": "Fast, low-stress imaging to look closely at bones, lungs, and more.",
+              "price": "Pricing on request",
+              "tags": []
+            },
+            {
+              "name": "In-House Lab Work",
+              "desc": "Bloodwork and diagnostics with quick results to guide treatment.",
+              "price": "From $75",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "surgery-dentistry",
+          "name": "Surgery & Dentistry",
+          "blurb": "Safe, carefully monitored procedures with comfort-first care.",
+          "items": [
+            {
+              "name": "Spay & Neuter",
+              "desc": "Routine surgery with attentive monitoring and clear aftercare.",
+              "price": "From $120",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Dental Cleaning",
+              "desc": "Full cleaning, polishing, and oral exam for fresher breath and health.",
+              "price": "From $200",
+              "tags": []
+            },
+            {
+              "name": "Soft-Tissue Surgery",
+              "desc": "Mass removals, repairs, and more with gentle, modern technique.",
+              "price": "Pricing on request",
+              "tags": []
+            },
+            {
+              "name": "Tooth Extractions",
+              "desc": "Removal of damaged or painful teeth to restore comfort.",
+              "price": "Pricing on request",
+              "tags": []
+            },
+            {
+              "name": "Pre-Surgical Bloodwork",
+              "desc": "Safety screening to plan the right anesthesia for your animal.",
+              "price": "From $85",
+              "tags": [
+                "guarantee"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "country-farm-care",
+          "name": "Country & Farm Care",
+          "blurb": "Boots-on-the-ground care for livestock, right at your place.",
+          "items": [
+            {
+              "name": "Large-Animal Visits",
+              "desc": "On-site exams and treatment for horses, cattle, sheep, and goats.",
+              "price": "Pricing on request",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Herd Health Programs",
+              "desc": "Vaccination, deworming, and preventive plans tailored to your herd.",
+              "price": "Pricing on request",
+              "tags": []
+            },
+            {
+              "name": "Ranch & Farm Calls",
+              "desc": "We come to you for routine care, sick animals, and seasonal work.",
+              "price": "From $80",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Breeding & Pregnancy Checks",
+              "desc": "Practical reproductive care and pregnancy checks for your stock.",
+              "price": "Pricing on request",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A country vet Cortland can count on",
+      "lead": "We're a down-to-earth clinic where pets and farm animals get gentle hands, honest advice, and care that feels like it's coming from a neighbor.",
+      "paragraphs": [
+        "Cortland Animal Hospital sits right on West Lincoln Highway, caring for the dogs and cats on your porch and the animals out in the field. Whether it's a first puppy visit, a worrisome cough, or a herd that needs a once-over, we take the time to explain your options in plain language.",
+        "Country life moves with the seasons, and so do we. We're happy to see you in the clinic or load up the truck for a ranch call — whatever keeps your animals healthy, comfortable, and working alongside you for years to come."
+      ],
+      "stats": [
+        {
+          "value": "Pets & Farm Animals",
+          "label": "Companions we care for"
+        },
+        {
+          "value": "Clinic & Ranch Calls",
+          "label": "In-office or on your land"
+        },
+        {
+          "value": "Locally Owned",
+          "label": "Independent & rooted here"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Our Patients",
+      "subheading": "A few of the happy faces and four-legged friends we're proud to care for.",
+      "captions": [
+        "A calm, friendly welcome at every visit",
+        "Gentle exams from nose to tail",
+        "Bright, clean treatment spaces",
+        "Cozy care for our feline friends",
+        "Out in the field for ranch calls",
+        "Healthy animals heading back home"
+      ]
+    },
+    "testimonials": {
+      "heading": "Trusted by Cortland families and farms",
+      "items": [
+        {
+          "quote": "They treated my old farm dog with so much patience and gave it to me straight. You don't find that everywhere anymore.",
+          "name": "Wade T.",
+          "role": "Dog owner"
+        },
+        {
+          "quote": "Came right out to the property for our cattle and didn't rush a thing. Honest pricing and good, practical advice.",
+          "name": "Brenda K.",
+          "role": "Cattle owner"
+        },
+        {
+          "quote": "Kind, gentle, and they actually remember my cat by name. It feels like the small-town vet I grew up with.",
+          "name": "Marcus L.",
+          "role": "Longtime client"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit Cortland Animal Hospital",
+      "addressLabel": "Our Location",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday – Friday",
+          "time": "8:00 AM – 5:30 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "8:00 AM – 12:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Get in Touch",
+      "directions": "Find us on West Lincoln Highway in Cortland, with easy parking right out front. Book online and we'll confirm your appointment — clinic visit or ranch call.",
+      "neighborhood": "The clinic sits on State Route 38 — the old Lincoln Highway — on the stretch between DeKalb and Cortland, an easy drive from both towns."
+    },
+    "cta": {
+      "heading": "Ready for a country vet who knows your animals?",
+      "text": "Request an appointment online and our team will reach out to confirm a time that works for you, your pets, or your herd.",
+      "button": "Request an Appointment"
+    },
+    "form": {
+      "heading": "Book an Appointment",
+      "subheading": "Tell us a little about your animal and we'll be in touch to confirm your visit.",
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Animal & Service Needed",
+      "date": "Preferred Date / Time",
+      "message": "How can we help your animal?",
+      "submit": "Request an Appointment",
+      "sending": "Sending...",
+      "success": "Thank you! We've received your request and will be in touch soon to confirm.",
+      "error": "Something went wrong. Please try again or reach out to us directly.",
+      "consent": "By submitting, you agree to be contacted about your appointment request."
+    },
+    "footer": {
+      "tagline": "Down-to-earth country veterinary care for Cortland's pets and farm animals.",
+      "rights": "© Cortland Animal Hospital. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    },
+    "process": {
+      "heading": "What to Expect at Cortland Animal Hospital",
+      "steps": [
+        {
+          "title": "Book Your Visit",
+          "text": "Request a time online, and tell us about your animal — we'll set up a clinic visit or a ranch call."
+        },
+        {
+          "title": "Gentle Exam",
+          "text": "We take our time with a calm, nose-to-tail check, asking about diet, age, and anything that's been worrying you."
+        },
+        {
+          "title": "Honest Diagnosis & Plan",
+          "text": "We explain what we find in plain language and lay out fair, practical options for your pet or your herd."
+        },
+        {
+          "title": "Follow-Up Care",
+          "text": "We send you home with clear aftercare and stay in reach to check progress and answer any questions."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Common Questions",
+      "items": [
+        {
+          "q": "Do you take walk-ins or do I need an appointment?",
+          "a": "We work best by appointment so we can give each animal real attention. For a sick pet or urgent concern, message us and we'll do our best to fit you in."
+        },
+        {
+          "q": "Do you really come out to the farm or ranch?",
+          "a": "Yes. We load up the truck for on-site visits to horses, cattle, sheep, and goats — routine herd work, sick animals, and seasonal care right at your place."
+        },
+        {
+          "q": "How much will my visit cost?",
+          "a": "Many services start at a posted price, while others depend on your animal's needs. We'll talk through honest options upfront, with no upselling and no surprises."
+        },
+        {
+          "q": "What should I bring to my first visit?",
+          "a": "Bring any past records, vaccine history, and a list of current foods or medications. For nervous pets, a leash or carrier helps keep the visit calm."
+        },
+        {
+          "q": "Do you speak Spanish?",
+          "a": "We're glad to help Spanish-speaking neighbors and will do our best to make sure you fully understand your animal's care and options."
+        },
+        {
+          "q": "What are your hours?",
+          "a": "We're open Monday through Friday, 8:00 AM to 5:30 PM, and Saturday from 8:00 AM to noon. We're closed Sundays."
+        }
+      ]
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Cortland Animal Hospital | Atención Veterinaria de Campo en Cortland, IL",
+      "description": "Veterinario de campo sencillo en Cortland, IL para mascotas y animales de granja. Bienestar, urgencias, cirugía, dental y visitas al rancho. Agenda en línea."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Nuestros Pacientes",
+      "visit": "Visítanos",
+      "order": "Agendar Cita"
+    },
+    "hero": {
+      "eyebrow": "Atención Veterinaria de Campo en Cortland",
+      "title": "Manos gentiles y consejos honestos",
+      "titleAccent": "para mascotas y animales de granja",
+      "subtitle": "Desde el perro de la familia hasta el ganado del corral, atendemos a cada animal con paciencia, palabras claras y esa confianza de pueblo donde conocemos a tus mascotas por su nombre.",
+      "ctaPrimary": "Ver Nuestros Servicios",
+      "ctaSecondary": "Agendar Cita",
+      "badge": "Cuidando las mascotas y el ganado de Cortland"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "Conocemos a Tus Animales por su Nombre",
+        "text": "Atención de pueblo donde eres un vecino, no un número, y cada visita se siente personal."
+      },
+      {
+        "icon": "shield",
+        "title": "La Prevención Vale la Pena",
+        "text": "Exámenes, vacunas y control de parásitos que mantienen sanos a mascotas y ganado todo el año."
+      },
+      {
+        "icon": "check",
+        "title": "Consejos Honestos y Directos",
+        "text": "Respuestas claras y opciones justas, sin ventas de más ni vueltas."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Mascotas y Animales de Granja por Igual",
+        "text": "Desde visitas a casa por el perro hasta visitas al rancho por el ganado, llegamos listos para ayudar."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Un vistazo del cuidado que ofrecemos. Los servicios y precios que se muestran aquí son contenido ilustrativo de demostración para este sitio de vista previa — contáctanos para conocer los servicios y precios actuales.",
+      "categories": [
+        {
+          "id": "wellness-prevention",
+          "name": "Bienestar y Prevención",
+          "blurb": "Cuidado de rutina que mantiene las colitas felices y los rebaños sanos.",
+          "items": [
+            {
+              "name": "Examen de Bienestar",
+              "desc": "Revisión completa de la cabeza a la cola con consejos honestos sobre dieta, edad y estilo de vida.",
+              "price": "Desde $50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Vacunación",
+              "desc": "Vacunas esenciales y según estilo de vida, adaptadas a la edad y necesidades de tu animal.",
+              "price": "Desde $30",
+              "tags": []
+            },
+            {
+              "name": "Microchip",
+              "desc": "Identificación rápida y permanente que ayuda a que las mascotas perdidas vuelvan a casa.",
+              "price": "Desde $45",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Control de Parásitos",
+              "desc": "Protección contra pulgas, garrapatas, lombrices y gusano del corazón durante todo el año.",
+              "price": "Consultar precio",
+              "tags": []
+            },
+            {
+              "name": "Visitas para Cachorros y Gatitos",
+              "desc": "Chequeos, vacunas y orientación combinados para un comienzo fuerte.",
+              "price": "Consultar precio",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "medical-urgent-care",
+          "name": "Atención Médica y Urgencias",
+          "blurb": "Atención rápida y gentil cuando algo simplemente no anda bien.",
+          "items": [
+            {
+              "name": "Examen de Animal Enfermo",
+              "desc": "Evaluación el mismo día para encontrar la causa y empezar el camino a la mejoría.",
+              "price": "Desde $60",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Diagnósticos y Pruebas",
+              "desc": "Pruebas específicas para identificar el problema y planear el siguiente paso.",
+              "price": "Consultar precio",
+              "tags": []
+            },
+            {
+              "name": "Rayos X Digitales",
+              "desc": "Imágenes rápidas y de bajo estrés para revisar huesos, pulmones y más.",
+              "price": "Consultar precio",
+              "tags": []
+            },
+            {
+              "name": "Análisis de Laboratorio Internos",
+              "desc": "Análisis de sangre y diagnósticos con resultados rápidos para guiar el tratamiento.",
+              "price": "Desde $75",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "surgery-dentistry",
+          "name": "Cirugía y Odontología",
+          "blurb": "Procedimientos seguros y cuidadosamente monitoreados con el confort primero.",
+          "items": [
+            {
+              "name": "Esterilización y Castración",
+              "desc": "Cirugía de rutina con monitoreo atento y cuidados posteriores claros.",
+              "price": "Desde $120",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Limpieza Dental",
+              "desc": "Limpieza completa, pulido y examen oral para un aliento más fresco y mejor salud.",
+              "price": "Desde $200",
+              "tags": []
+            },
+            {
+              "name": "Cirugía de Tejidos Blandos",
+              "desc": "Extracción de masas, reparaciones y más con técnica gentil y moderna.",
+              "price": "Consultar precio",
+              "tags": []
+            },
+            {
+              "name": "Extracción de Dientes",
+              "desc": "Extracción de dientes dañados o dolorosos para devolver el bienestar.",
+              "price": "Consultar precio",
+              "tags": []
+            },
+            {
+              "name": "Análisis Prequirúrgicos",
+              "desc": "Evaluación de seguridad para planear la anestesia adecuada para tu animal.",
+              "price": "Desde $85",
+              "tags": [
+                "guarantee"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "country-farm-care",
+          "name": "Cuidado Rural y de Granja",
+          "blurb": "Atención con botas puestas para el ganado, justo en tu propiedad.",
+          "items": [
+            {
+              "name": "Visitas para Animales Grandes",
+              "desc": "Exámenes y tratamiento en el lugar para caballos, vacas, ovejas y cabras.",
+              "price": "Consultar precio",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Programas de Salud del Rebaño",
+              "desc": "Vacunación, desparasitación y planes preventivos adaptados a tu rebaño.",
+              "price": "Consultar precio",
+              "tags": []
+            },
+            {
+              "name": "Visitas al Rancho y la Granja",
+              "desc": "Vamos a tu propiedad para cuidado de rutina, animales enfermos y trabajo de temporada.",
+              "price": "Desde $80",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Reproducción y Chequeos de Preñez",
+              "desc": "Cuidado reproductivo práctico y chequeos de preñez para tu ganado.",
+              "price": "Consultar precio",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Un veterinario de campo en quien Cortland puede confiar",
+      "lead": "Somos una clínica sencilla donde las mascotas y los animales de granja reciben manos gentiles, consejos honestos y un cuidado que se siente como el de un vecino.",
+      "paragraphs": [
+        "Cortland Animal Hospital está justo sobre West Lincoln Highway, cuidando a los perros y gatos de tu porche y a los animales del campo. Ya sea la primera visita de un cachorro, una tos preocupante o un rebaño que necesita revisión, nos tomamos el tiempo de explicar tus opciones en palabras claras.",
+        "La vida en el campo se mueve con las estaciones, y nosotros también. Con gusto te atendemos en la clínica o cargamos la camioneta para una visita al rancho — lo que sea para mantener a tus animales sanos, cómodos y trabajando a tu lado por muchos años."
+      ],
+      "stats": [
+        {
+          "value": "Mascotas y Animales de Granja",
+          "label": "Compañeros que cuidamos"
+        },
+        {
+          "value": "Clínica y Visitas al Rancho",
+          "label": "En el consultorio o en tu tierra"
+        },
+        {
+          "value": "De Dueños Locales",
+          "label": "Independiente y con raíces aquí"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Nuestros Pacientes",
+      "subheading": "Algunas de las caritas felices y amigos de cuatro patas que nos enorgullece cuidar.",
+      "captions": [
+        "Una bienvenida tranquila y amable en cada visita",
+        "Exámenes gentiles de la nariz a la cola",
+        "Espacios de tratamiento luminosos y limpios",
+        "Cuidado acogedor para nuestros amigos felinos",
+        "En el campo para las visitas al rancho",
+        "Animales sanos que regresan a casa"
+      ]
+    },
+    "testimonials": {
+      "heading": "La confianza de las familias y granjas de Cortland",
+      "items": [
+        {
+          "quote": "Trataron a mi viejo perro de granja con mucha paciencia y me lo dijeron sin rodeos. Eso ya no se encuentra en todas partes.",
+          "name": "Wade T.",
+          "role": "Dueño de perro"
+        },
+        {
+          "quote": "Vinieron directo a la propiedad por nuestro ganado y no apuraron nada. Precios honestos y buenos consejos prácticos.",
+          "name": "Brenda K.",
+          "role": "Dueña de ganado"
+        },
+        {
+          "quote": "Amables, gentiles y de verdad recuerdan a mi gato por su nombre. Se siente como el veterinario de pueblo con el que crecí.",
+          "name": "Marcus L.",
+          "role": "Cliente desde hace años"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita Cortland Animal Hospital",
+      "addressLabel": "Nuestra Ubicación",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes – Viernes",
+          "time": "8:00 AM – 5:30 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "8:00 AM – 12:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Contáctanos",
+      "directions": "Encuéntranos en West Lincoln Highway en Cortland, con estacionamiento fácil justo al frente. Agenda en línea y confirmaremos tu cita — visita a la clínica o al rancho.",
+      "neighborhood": "La clínica está sobre la Ruta 38 — la antigua Lincoln Highway — en el tramo entre DeKalb y Cortland, a un paso de ambos pueblos."
+    },
+    "cta": {
+      "heading": "¿Listo para un veterinario de campo que conoce a tus animales?",
+      "text": "Solicita una cita en línea y nuestro equipo se comunicará contigo para confirmar un horario que funcione para ti, tus mascotas o tu rebaño.",
+      "button": "Solicitar Cita"
+    },
+    "form": {
+      "heading": "Agenda una Cita",
+      "subheading": "Cuéntanos un poco sobre tu animal y nos pondremos en contacto para confirmar tu visita.",
+      "name": "Tu Nombre",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Animal y Servicio que Necesitas",
+      "date": "Fecha / Hora Preferida",
+      "message": "¿Cómo podemos ayudar a tu animal?",
+      "submit": "Solicitar Cita",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Hemos recibido tu solicitud y nos comunicaremos pronto para confirmar.",
+      "error": "Algo salió mal. Inténtalo de nuevo o contáctanos directamente.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud de cita."
+    },
+    "footer": {
+      "tagline": "Atención veterinaria de campo, sencilla y honesta, para las mascotas y animales de granja de Cortland.",
+      "rights": "© Cortland Animal Hospital. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    },
+    "process": {
+      "heading": "Qué Esperar en Cortland Animal Hospital",
+      "steps": [
+        {
+          "title": "Agenda Tu Visita",
+          "text": "Pide una cita en línea y cuéntanos sobre tu animal — coordinamos una visita a la clínica o al rancho."
+        },
+        {
+          "title": "Examen Gentil",
+          "text": "Nos tomamos el tiempo con una revisión tranquila de la nariz a la cola, preguntando sobre dieta, edad y lo que te preocupa."
+        },
+        {
+          "title": "Diagnóstico y Plan Honestos",
+          "text": "Explicamos lo que encontramos en palabras claras y te damos opciones justas y prácticas para tu mascota o tu rebaño."
+        },
+        {
+          "title": "Cuidado de Seguimiento",
+          "text": "Te enviamos a casa con cuidados claros y seguimos a tu alcance para revisar el progreso y responder tus preguntas."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿Atienden sin cita o necesito agendar?",
+          "a": "Trabajamos mejor con cita para darle atención real a cada animal. Si tu mascota está enferma o es urgente, escríbenos y haremos lo posible por recibirte."
+        },
+        {
+          "q": "¿De verdad van a la granja o al rancho?",
+          "a": "Sí. Cargamos la camioneta para visitas en el lugar a caballos, vacas, ovejas y cabras — trabajo de rutina, animales enfermos y cuidado de temporada en tu propiedad."
+        },
+        {
+          "q": "¿Cuánto costará mi visita?",
+          "a": "Muchos servicios tienen un precio inicial publicado y otros dependen de las necesidades de tu animal. Hablamos de opciones honestas de antemano, sin ventas de más ni sorpresas."
+        },
+        {
+          "q": "¿Qué debo llevar a mi primera visita?",
+          "a": "Trae registros previos, historial de vacunas y una lista de alimentos o medicamentos actuales. Para mascotas nerviosas, una correa o transportadora ayuda a mantener la calma."
+        },
+        {
+          "q": "¿Hablan español?",
+          "a": "Con gusto atendemos a nuestros vecinos de habla hispana y haremos lo posible para que entiendas bien el cuidado y las opciones de tu animal."
+        },
+        {
+          "q": "¿Cuál es su horario?",
+          "a": "Abrimos de lunes a viernes, de 8:00 AM a 5:30 PM, y los sábados de 8:00 AM al mediodía. Cerramos los domingos."
+        }
+      ]
+    }
+  }
+}

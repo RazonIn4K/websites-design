@@ -1,0 +1,674 @@
+{
+  "business": {
+    "name": "Johnny K's",
+    "shortName": "Johnny K's",
+    "vertical": "Burger & Hot Dog Stand",
+    "phone": "(815) 786-3088",
+    "phoneHref": "+18157863088",
+    "address": "125 Duvick Avenue",
+    "city": "Sandwich",
+    "state": "IL",
+    "zip": "60548",
+    "mapsQuery": "Johnny K's, 125 Duvick Avenue, Sandwich, IL 60548"
+  },
+  "en": {
+    "meta": {
+      "title": "Johnny K's | Classic Burgers, Hot Dogs & Hand-Dipped Shakes in Sandwich, IL",
+      "description": "Hometown burger & hot dog stand in Sandwich, IL. Hand-pattied burgers, snappy dogs, crispy fries, and thick hand-dipped shakes. Call (815) 786-3088 to order."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Order Now"
+    },
+    "hero": {
+      "eyebrow": "A Sandwich Drive-In Favorite",
+      "title": "Hand-Pattied Burgers,",
+      "titleAccent": "Snappy Dogs & Thick Shakes",
+      "subtitle": "Hand-pattied burgers smashed to order, snappy hot dogs, baskets of crispy fries, and thick hand-dipped shakes. It's that classic hometown drive-in feel, generous, friendly, and made fresh for Sandwich.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Call to Order",
+      "badge": "Hand-Pattied Burgers · Hand-Dipped Shakes · A Sandwich Favorite"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Hand-Pattied & Griddled to Order",
+        "text": "Fresh beef pattied by hand and smashed on the flat-top for those crispy edges and juicy, made-to-order flavor."
+      },
+      {
+        "icon": "icecream",
+        "title": "Thick Hand-Dipped Shakes",
+        "text": "Real hand-dipped malts, shakes, and floats blended thick and creamy, the way a drive-in shake is supposed to be."
+      },
+      {
+        "icon": "heart",
+        "title": "Hometown Drive-In Feel",
+        "text": "An independent, family-friendly stand serving generous portions and a warm welcome to every car that pulls in."
+      },
+      {
+        "icon": "star",
+        "title": "A Sandwich Favorite",
+        "text": "Classic burgers, snappy dogs, and crispy fries that have made us a go-to spot for hometown comfort food in Sandwich."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Menu items and prices shown are illustrative demo content for this sample site. Please call (815) 786-3088 for current offerings and pricing.",
+      "categories": [
+        {
+          "id": "burgers",
+          "name": "Burgers",
+          "blurb": "Hand-pattied fresh beef smashed on the griddle for crispy edges and juicy flavor.",
+          "items": [
+            {
+              "name": "The Classic Single",
+              "desc": "One hand-pattied beef patty smashed to order with lettuce, tomato, onion, pickle, and our house sauce on a toasted bun.",
+              "price": "$4.99",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Double Stack",
+              "desc": "Two hand-pattied patties with melted American cheese, onion, pickle, and house sauce piled high.",
+              "price": "$7.49",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Cheeseburger",
+              "desc": "A juicy single patty topped with melty American cheese, lettuce, tomato, onion, and pickle.",
+              "price": "$5.49",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bacon Cheeseburger",
+              "desc": "Single patty stacked with crispy bacon, American cheese, and all the classic fixings.",
+              "price": "$6.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Mushroom Swiss Burger",
+              "desc": "Hand-pattied burger smothered in sautéed mushrooms and melted Swiss on a toasted bun.",
+              "price": "$6.49",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dogs-beef",
+          "name": "Dogs & Beef",
+          "blurb": "Snappy all-beef dogs, hometown chili, and Chicago-style favorites done right.",
+          "items": [
+            {
+              "name": "Classic Hot Dog",
+              "desc": "A snappy all-beef hot dog on a steamed bun, dressed your way with mustard, ketchup, relish, and onion.",
+              "price": "$3.49",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Chili Cheese Dog",
+              "desc": "Snappy all-beef dog smothered in our hometown chili and melted cheddar.",
+              "price": "$4.49",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Italian Beef",
+              "desc": "Thin-sliced seasoned beef piled on a roll and dipped in savory au jus, sweet or hot peppers your call.",
+              "price": "$7.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Grilled Brat",
+              "desc": "A juicy grilled bratwurst on a toasted bun with grilled onions and mustard.",
+              "price": "$4.99",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "baskets-sides",
+          "name": "Baskets & Sides",
+          "blurb": "Crispy, golden, and made to share, the perfect sidekick to any burger or dog.",
+          "items": [
+            {
+              "name": "Crispy Fries",
+              "desc": "A generous basket of golden fries, crispy outside and fluffy inside, salted just right.",
+              "price": "$3.49",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Onion Rings",
+              "desc": "Thick-cut onions in a crunchy golden batter, fried fresh to order.",
+              "price": "$4.49",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Cheese Curds",
+              "desc": "Golden-fried Wisconsin cheese curds, hot, melty, and served with dipping sauce.",
+              "price": "$5.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Chicken Tenders Basket",
+              "desc": "Hand-breaded chicken tenders fried crispy and served with fries and your choice of sauce.",
+              "price": "$7.99",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shakes-treats",
+          "name": "Shakes & Treats",
+          "blurb": "Thick, hand-dipped, and made the old-fashioned way for the perfect sweet finish.",
+          "items": [
+            {
+              "name": "Hand-Dipped Shake",
+              "desc": "Thick and creamy hand-dipped shake in chocolate, vanilla, or strawberry, blended to order.",
+              "price": "$4.99",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Old-Fashioned Malt",
+              "desc": "A classic hand-dipped malt with that rich, malty flavor, made just like the drive-in days.",
+              "price": "$5.29",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Root Beer Float",
+              "desc": "Frosty root beer poured over scoops of hand-dipped vanilla for a fizzy, creamy treat.",
+              "price": "$4.49",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Sundae",
+              "desc": "Hand-dipped ice cream topped with hot fudge or caramel, whipped cream, and a cherry.",
+              "price": "$4.29",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Twist Cone",
+              "desc": "A tall swirl of soft-serve chocolate and vanilla in a crispy cone.",
+              "price": "$2.99",
+              "tags": [
+                "fast",
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Your Hometown Burger Stand",
+      "lead": "Johnny K's is an independent classic burger and hot dog stand in Sandwich, IL, serving hand-pattied burgers, snappy dogs, crispy fries, and thick hand-dipped shakes with that hometown drive-in feel.",
+      "paragraphs": [
+        "We keep it simple and we keep it classic. Every burger is pattied by hand and smashed to order on the flat-top, our dogs have that satisfying snap, and our baskets come out golden and crispy. It's the kind of honest, made-fresh comfort food that brings folks back again and again.",
+        "From the first car that pulls in to the last shake of the night, we're proud to serve generous portions and a friendly welcome to our neighbors. Whether you're grabbing a quick lunch, feeding the family, or cooling off with a hand-dipped shake, Johnny K's is a Sandwich favorite for a reason."
+      ],
+      "stats": [
+        {
+          "value": "Hand-Pattied",
+          "label": "Made to Order"
+        },
+        {
+          "value": "Hand-Dipped",
+          "label": "Thick Shakes"
+        },
+        {
+          "value": "Hometown",
+          "label": "Drive-In Feel"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Taste of Johnny K's",
+      "subheading": "A look at the burgers, dogs, baskets, and shakes coming off our griddle and out of our shake machine every day.",
+      "captions": [
+        "Hand-pattied burger smashed to crispy-edged perfection",
+        "Snappy all-beef dog dressed and ready",
+        "Golden basket of crispy fries, salted just right",
+        "Thick hand-dipped shake topped with whipped cream",
+        "Hot, melty fried cheese curds ready to share",
+        "Classic root beer float, fizzy and creamy"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Sandwich Is Saying",
+      "items": [
+        {
+          "quote": "Best burger in town, hands down. You can tell they patty them by hand, crispy edges and so juicy. The shakes are unreal too.",
+          "name": "Dave R.",
+          "role": "Sandwich local"
+        },
+        {
+          "quote": "We've been coming to Johnny K's for years. Friendly folks, generous portions, and those hand-dipped malts take me right back to being a kid.",
+          "name": "Karen M.",
+          "role": "Regular customer"
+        },
+        {
+          "quote": "Snappy dogs, crispy fries, and a thick shake, this place nails the classic drive-in feel. Our family's go-to on a summer night.",
+          "name": "Tony S.",
+          "role": "Local customer"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Sandwich",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "11:00 AM - 8:00 PM"
+        },
+        {
+          "day": "Friday - Saturday",
+          "time": "11:00 AM - 9:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM - 7:00 PM"
+        }
+      ],
+      "phoneLabel": "Call to Order",
+      "directions": "Find us at 125 Duvick Avenue in Sandwich, IL. Give us a call at (815) 786-3088 and we'll have your order hot and ready, or pull on in and grab a hand-dipped shake."
+    },
+    "cta": {
+      "heading": "Hungry? Call to Order Now",
+      "text": "Skip the wait and call ahead. We'll have your hand-pattied burgers, snappy dogs, and thick shakes hot and ready when you arrive.",
+      "button": "Call (815) 786-3088"
+    },
+    "form": {
+      "heading": "Send Us a Message",
+      "subheading": "Have a question about your order, a large group order, or catering for a hometown get-together? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Order Size / Group Size",
+      "date": "Preferred Date/Time",
+      "message": "How can we help? Tell us about your order or question.",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We received your message and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "A hometown burger & hot dog stand serving hand-pattied burgers, snappy dogs, and thick hand-dipped shakes to Sandwich.",
+      "rights": "© Johnny K's. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Johnny K's | Hamburguesas Clásicas, Hot Dogs y Malteadas en Sandwich, IL",
+      "description": "Puesto de hamburguesas y hot dogs de barrio en Sandwich, IL. Hamburguesas hechas a mano, hot dogs jugosos, papas crujientes y malteadas espesas. Llama al (815) 786-3088 para ordenar."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Ordenar"
+    },
+    "hero": {
+      "eyebrow": "El Drive-In Favorito de Sandwich",
+      "title": "Hamburguesas Hechas a Mano,",
+      "titleAccent": "Hot Dogs Jugosos y Malteadas Espesas",
+      "subtitle": "Hamburguesas formadas a mano y aplastadas al momento, hot dogs jugosos, canastas de papas crujientes y malteadas espesas hechas a mano. Es ese ambiente clásico de drive-in de barrio, generoso, amable y hecho al momento para Sandwich.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Llama para Ordenar",
+      "badge": "Hamburguesas Hechas a Mano · Malteadas Hechas a Mano · Favorito de Sandwich"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Hechas a Mano y a la Plancha al Momento",
+        "text": "Carne de res fresca formada a mano y aplastada en la plancha para lograr esas orillas crujientes y ese sabor jugoso hecho al momento."
+      },
+      {
+        "icon": "icecream",
+        "title": "Malteadas Espesas Hechas a Mano",
+        "text": "Malts, malteadas y floats hechos a mano, batidos espesos y cremosos, como debe ser una malteada de drive-in."
+      },
+      {
+        "icon": "heart",
+        "title": "Ambiente de Drive-In de Barrio",
+        "text": "Un puesto independiente y familiar que sirve porciones generosas y una cálida bienvenida a cada auto que llega."
+      },
+      {
+        "icon": "star",
+        "title": "Favorito de Sandwich",
+        "text": "Hamburguesas clásicas, hot dogs jugosos y papas crujientes que nos han convertido en el lugar preferido de comida casera en Sandwich."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Los platillos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Llama al (815) 786-3088 para conocer la oferta y los precios actuales.",
+      "categories": [
+        {
+          "id": "burgers",
+          "name": "Hamburguesas",
+          "blurb": "Carne de res fresca formada a mano y aplastada en la plancha para orillas crujientes y sabor jugoso.",
+          "items": [
+            {
+              "name": "La Clásica Sencilla",
+              "desc": "Una carne de res formada a mano y aplastada al momento con lechuga, tomate, cebolla, pepinillo y nuestra salsa de la casa en pan tostado.",
+              "price": "$4.99",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Doble Stack",
+              "desc": "Dos carnes formadas a mano con queso americano fundido, cebolla, pepinillo y salsa de la casa bien cargadas.",
+              "price": "$7.49",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Hamburguesa con Queso",
+              "desc": "Una carne jugosa cubierta con queso americano derretido, lechuga, tomate, cebolla y pepinillo.",
+              "price": "$5.49",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Hamburguesa con Tocino y Queso",
+              "desc": "Carne sencilla coronada con tocino crujiente, queso americano y todos los ingredientes clásicos.",
+              "price": "$6.99",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Hamburguesa de Champiñón y Suizo",
+              "desc": "Hamburguesa hecha a mano cubierta de champiñones salteados y queso suizo derretido en pan tostado.",
+              "price": "$6.49",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dogs-beef",
+          "name": "Hot Dogs y Carne",
+          "blurb": "Hot dogs de res jugosos, chili de barrio y favoritos al estilo Chicago bien hechos.",
+          "items": [
+            {
+              "name": "Hot Dog Clásico",
+              "desc": "Un hot dog de res jugoso en pan al vapor, preparado a tu gusto con mostaza, ketchup, relish y cebolla.",
+              "price": "$3.49",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Hot Dog con Chili y Queso",
+              "desc": "Hot dog de res jugoso bañado en nuestro chili de barrio y queso cheddar derretido.",
+              "price": "$4.49",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Italian Beef",
+              "desc": "Carne sazonada en rebanadas finas servida en un pan y bañada en su jugo, con pimientos dulces o picantes a tu elección.",
+              "price": "$7.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bratwurst a la Parrilla",
+              "desc": "Una jugosa salchicha bratwurst a la parrilla en pan tostado con cebolla asada y mostaza.",
+              "price": "$4.99",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "baskets-sides",
+          "name": "Canastas y Acompañamientos",
+          "blurb": "Crujientes, doradas y hechas para compartir, el acompañante perfecto para cualquier hamburguesa o hot dog.",
+          "items": [
+            {
+              "name": "Papas Crujientes",
+              "desc": "Una canasta generosa de papas doradas, crujientes por fuera y suaves por dentro, con la sal justa.",
+              "price": "$3.49",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Aros de Cebolla",
+              "desc": "Cebolla en rodajas gruesas en un empanizado dorado y crujiente, frita al momento.",
+              "price": "$4.49",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Bolitas de Queso",
+              "desc": "Bolitas de queso de Wisconsin fritas y doradas, calientes y derretidas, servidas con salsa para acompañar.",
+              "price": "$5.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Canasta de Tiras de Pollo",
+              "desc": "Tiras de pollo empanizadas a mano y fritas crujientes, servidas con papas y la salsa que elijas.",
+              "price": "$7.99",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shakes-treats",
+          "name": "Malteadas y Postres",
+          "blurb": "Espesas, hechas a mano y a la antigua, para el final dulce perfecto.",
+          "items": [
+            {
+              "name": "Malteada Hecha a Mano",
+              "desc": "Malteada espesa y cremosa hecha a mano en chocolate, vainilla o fresa, batida al momento.",
+              "price": "$4.99",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Malt a la Antigua",
+              "desc": "Un malt clásico hecho a mano con ese sabor rico y malteado, preparado como en los días del drive-in.",
+              "price": "$5.29",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Float de Root Beer",
+              "desc": "Root beer bien frío vertido sobre bolas de vainilla hecha a mano para un postre burbujeante y cremoso.",
+              "price": "$4.49",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Sundae",
+              "desc": "Helado hecho a mano cubierto con fudge caliente o caramelo, crema batida y una cereza.",
+              "price": "$4.29",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Cono Twist",
+              "desc": "Un alto remolino de helado suave de chocolate y vainilla en un cono crujiente.",
+              "price": "$2.99",
+              "tags": [
+                "fast",
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Tu Puesto de Hamburguesas de Barrio",
+      "lead": "Johnny K's es un puesto independiente de hamburguesas y hot dogs clásicos en Sandwich, IL, que sirve hamburguesas hechas a mano, hot dogs jugosos, papas crujientes y malteadas espesas hechas a mano con ese ambiente de drive-in de barrio.",
+      "paragraphs": [
+        "Lo mantenemos sencillo y lo mantenemos clásico. Cada hamburguesa se forma a mano y se aplasta al momento en la plancha, nuestros hot dogs tienen esa textura jugosa y satisfactoria, y nuestras canastas salen doradas y crujientes. Es ese tipo de comida casera honesta y hecha al momento que hace que la gente regrese una y otra vez.",
+        "Desde el primer auto que llega hasta la última malteada de la noche, nos enorgullece servir porciones generosas y una bienvenida amable a nuestros vecinos. Ya sea que busques un almuerzo rápido, alimentar a la familia o refrescarte con una malteada hecha a mano, Johnny K's es un favorito de Sandwich por una razón."
+      ],
+      "stats": [
+        {
+          "value": "Hechas a Mano",
+          "label": "Al Momento"
+        },
+        {
+          "value": "Hechas a Mano",
+          "label": "Malteadas Espesas"
+        },
+        {
+          "value": "De Barrio",
+          "label": "Ambiente Drive-In"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Sabor de Johnny K's",
+      "subheading": "Un vistazo a las hamburguesas, hot dogs, canastas y malteadas que salen de nuestra plancha y de nuestra máquina de malteadas cada día.",
+      "captions": [
+        "Hamburguesa hecha a mano aplastada hasta la perfección de orillas crujientes",
+        "Hot dog de res jugoso preparado y listo",
+        "Canasta dorada de papas crujientes, con la sal justa",
+        "Malteada espesa hecha a mano coronada con crema batida",
+        "Bolitas de queso fritas, calientes y derretidas, listas para compartir",
+        "Float clásico de root beer, burbujeante y cremoso"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice Sandwich",
+      "items": [
+        {
+          "quote": "La mejor hamburguesa del pueblo, sin duda. Se nota que las forman a mano, orillas crujientes y muy jugosas. Las malteadas también están increíbles.",
+          "name": "Dave R.",
+          "role": "Local de Sandwich"
+        },
+        {
+          "quote": "Llevamos años viniendo a Johnny K's. Gente amable, porciones generosas, y esos malts hechos a mano me regresan directo a la infancia.",
+          "name": "Karen M.",
+          "role": "Cliente frecuente"
+        },
+        {
+          "quote": "Hot dogs jugosos, papas crujientes y una malteada espesa, este lugar logra ese ambiente clásico de drive-in. Es la opción de nuestra familia en una noche de verano.",
+          "name": "Tony S.",
+          "role": "Cliente local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en Sandwich",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "11:00 AM - 8:00 PM"
+        },
+        {
+          "day": "Viernes - Sábado",
+          "time": "11:00 AM - 9:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM - 7:00 PM"
+        }
+      ],
+      "phoneLabel": "Llama para Ordenar",
+      "directions": "Encuéntranos en 125 Duvick Avenue en Sandwich, IL. Llámanos al (815) 786-3088 y tendremos tu orden caliente y lista, o pásate y disfruta de una malteada hecha a mano."
+    },
+    "cta": {
+      "heading": "¿Con Hambre? Llama para Ordenar Ahora",
+      "text": "Evita la espera y llama con anticipación. Tendremos tus hamburguesas hechas a mano, hot dogs jugosos y malteadas espesas calientes y listas cuando llegues.",
+      "button": "Llamar al (815) 786-3088"
+    },
+    "form": {
+      "heading": "Envíanos un Mensaje",
+      "subheading": "¿Tienes una pregunta sobre tu orden, un pedido grande o un servicio para una reunión del pueblo? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Pedido / Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo podemos ayudarte? Cuéntanos sobre tu pedido o pregunta.",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Un puesto de hamburguesas y hot dogs de barrio que sirve hamburguesas hechas a mano, hot dogs jugosos y malteadas espesas a Sandwich.",
+      "rights": "© Johnny K's. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

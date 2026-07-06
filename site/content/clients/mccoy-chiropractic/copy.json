@@ -1,0 +1,684 @@
+{
+  "business": {
+    "name": "McCoy Chiropractic",
+    "shortName": "McCoy Chiropractic",
+    "vertical": "Chiropractic & Wellness Clinic",
+    "phone": "(815) 895-5111",
+    "phoneHref": "+18158955111",
+    "address": "2676 DeKalb Avenue",
+    "city": "Sycamore",
+    "state": "IL",
+    "zip": "60178",
+    "mapsQuery": "McCoy Chiropractic, 2676 DeKalb Avenue, Sycamore, IL 60178",
+    "lat": 41.9598811,
+    "lon": -88.7197501
+  },
+  "en": {
+    "meta": {
+      "title": "McCoy Chiropractic | Chiropractic & Wellness Care in Sycamore, IL",
+      "description": "Patient-first chiropractic & wellness care for Sycamore-area families. Gentle, evidence-based relief from back pain, sciatica & headaches. Call (815) 895-5111."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About",
+      "gallery": "Our Office",
+      "visit": "Visit",
+      "order": "Book a Visit"
+    },
+    "hero": {
+      "eyebrow": "Sycamore's Patient-First Chiropractic & Wellness Clinic",
+      "title": "Move Better,",
+      "titleAccent": "Feel Better",
+      "subtitle": "Gentle, evidence-based chiropractic and wellness care for the whole family. From lasting pain relief to recovery and long-term wellness, we help Sycamore-area families feel like themselves again.",
+      "ctaPrimary": "View Services",
+      "ctaSecondary": "Call (815) 895-5111",
+      "badge": "New-Patient Special · Free Consultation · Walk-Ins Welcome",
+      "ctaSecondaryHref": "#contact"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "Patient-First Care",
+        "text": "We take the time to listen, explain, and build a plan around your goals, your body, and your comfort."
+      },
+      {
+        "icon": "shield",
+        "title": "Gentle & Evidence-Based",
+        "text": "Modern, research-informed techniques delivered with a careful, low-force touch you can trust."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Whole-Body Wellness",
+        "text": "More than quick fixes — we support lasting recovery, better movement, and healthier daily habits."
+      },
+      {
+        "icon": "check",
+        "title": "Free First Consultation",
+        "text": "Start with a no-cost, no-pressure consult to understand your options before anything else."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Services and prices shown are illustrative demo content for this concept site and may not reflect the clinic's actual offerings. Please call for a personalized plan.",
+      "categories": [
+        {
+          "id": "new-patient",
+          "name": "New Patient",
+          "blurb": "A welcoming first visit to understand your health and map out a clear path forward.",
+          "items": [
+            {
+              "name": "Free New-Patient Consultation",
+              "desc": "A no-cost, no-pressure conversation about your symptoms, history, and goals to see how we can help.",
+              "price": "Free Consultation",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Comprehensive Exam",
+              "desc": "A thorough chiropractic and movement exam to pinpoint the real source of your discomfort.",
+              "price": "From $65",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "X-Ray Review",
+              "desc": "A clear, plain-language walkthrough of any imaging so you understand exactly what's going on.",
+              "price": "From $45"
+            },
+            {
+              "name": "Personalized Care Plan",
+              "desc": "A step-by-step plan built around your goals, schedule, and budget — with no surprises.",
+              "price": "Included with exam",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "spinal-joint-care",
+          "name": "Spinal & Joint Care",
+          "blurb": "Gentle adjustments and joint care to restore healthy movement and ease tension.",
+          "items": [
+            {
+              "name": "Chiropractic Adjustment",
+              "desc": "Precise, gentle adjustments that restore motion to the spine and help your body move freely again.",
+              "price": "From $45",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Spinal Decompression",
+              "desc": "Gentle, targeted traction that relieves pressure on discs and nerves for lasting relief.",
+              "price": "From $60"
+            },
+            {
+              "name": "Extremity Care",
+              "desc": "Focused care for shoulders, hips, knees, and other joints beyond the spine.",
+              "price": "From $50"
+            },
+            {
+              "name": "Maintenance Adjustment",
+              "desc": "Ongoing tune-up visits to keep you moving well and stay ahead of flare-ups.",
+              "price": "From $45",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pain-relief",
+          "name": "Pain Relief",
+          "blurb": "Targeted, drug-free care to calm pain and get you back to the things you love.",
+          "items": [
+            {
+              "name": "Back & Neck Pain Relief",
+              "desc": "A focused plan to ease stiff, aching backs and necks and restore comfortable movement.",
+              "price": "From $55",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Sciatica Care",
+              "desc": "Gentle, targeted care to calm the radiating leg and lower-back pain of sciatica.",
+              "price": "From $60"
+            },
+            {
+              "name": "Headache & Migraine Relief",
+              "desc": "Hands-on care that addresses tension and alignment to reduce frequent headaches.",
+              "price": "From $55"
+            },
+            {
+              "name": "Auto-Injury Care",
+              "desc": "Careful evaluation and recovery support after an auto accident or whiplash.",
+              "price": "From $65"
+            },
+            {
+              "name": "Same-Week Flare-Up Visit",
+              "desc": "A focused visit to address a sudden flare-up and get you relief as quickly as possible.",
+              "price": "From $50",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wellness-rehab",
+          "name": "Wellness & Rehab",
+          "blurb": "Recovery and wellness care that helps you move, recover, and feel better for the long run.",
+          "items": [
+            {
+              "name": "Corrective Exercise",
+              "desc": "Simple, guided exercises that rebuild strength and stability so relief actually lasts.",
+              "price": "From $50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Posture Correction",
+              "desc": "A practical plan to undo desk slump and tech neck and help you stand taller, pain-free.",
+              "price": "From $55"
+            },
+            {
+              "name": "Therapeutic Massage",
+              "desc": "Focused soft-tissue work that releases tension and complements your chiropractic care.",
+              "price": "From $60",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Wellness Tune-Up",
+              "desc": "A whole-body check-in with movement and lifestyle tips to keep you feeling your best.",
+              "price": "From $45"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Patient-First Care in Sycamore",
+      "lead": "McCoy Chiropractic is an independent chiropractic and wellness clinic helping Sycamore-area families move and feel better with gentle, evidence-based care.",
+      "paragraphs": [
+        "We believe great care starts with listening. From your very first visit, we take the time to understand your symptoms, your history, and your goals, then explain your options in plain language. Using gentle, research-informed techniques, we focus on the real source of your discomfort rather than just chasing symptoms.",
+        "Whether you're recovering from an injury, easing chronic back or neck pain, or simply trying to move better and feel your best, you'll find a warm, welcoming clinic right here on DeKalb Avenue. Our goal is lasting relief and long-term wellness for every member of your family."
+      ],
+      "stats": [
+        {
+          "value": "Patient-First",
+          "label": "Gentle, Personalized Care"
+        },
+        {
+          "value": "Free",
+          "label": "New-Patient Consultation"
+        },
+        {
+          "value": "Sycamore",
+          "label": "Locally Owned & Independent"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside Our Office",
+      "subheading": "A look at our calm, welcoming clinic and the patient-first care we provide every day.",
+      "captions": [
+        "Bright, welcoming front reception",
+        "Comfortable, modern adjustment room",
+        "Gentle spinal decompression table",
+        "One-on-one corrective exercise space",
+        "Relaxing therapeutic massage room",
+        "Clear x-ray review with your provider"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Our Patients Say",
+      "items": [
+        {
+          "quote": "After months of back pain I finally feel like myself again. They listened, explained everything, and never rushed me.",
+          "name": "Sarah K.",
+          "role": "Patient in Sycamore"
+        },
+        {
+          "quote": "The team is so gentle and genuinely kind. My headaches are far less frequent and I actually look forward to my visits.",
+          "name": "Michael D.",
+          "role": "Patient in DeKalb"
+        },
+        {
+          "quote": "I came in after a car accident feeling anxious, and they walked me through every step. My recovery has been so much smoother.",
+          "name": "Linda R.",
+          "role": "Patient in Sycamore"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit Our Sycamore Clinic",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "8:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "time": "8:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "8:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "8:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "8:00 AM - 1:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "By Appointment"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Book a Visit",
+      "directions": "You'll find us at 2676 DeKalb Avenue in Sycamore, IL, with convenient parking right outside. Call (815) 895-5111 to book your visit and we'll find a time that works for you.",
+      "neighborhood": "The clinic sits on DeKalb Avenue (Illinois Route 23) on Sycamore's southwest side, in the shopping strip anchored by Hy-Vee along the main corridor between Sycamore and DeKalb."
+    },
+    "cta": {
+      "heading": "Ready to Move and Feel Better?",
+      "text": "New patients can start with a free consultation. Call our friendly team today and we'll help you take the first step toward lasting relief.",
+      "button": "Call (815) 895-5111"
+    },
+    "form": {
+      "heading": "Book a Visit",
+      "subheading": "Tell us a little about what's bothering you and your preferred time. We'll follow up quickly to confirm your visit.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Reason for Visit",
+      "date": "Preferred Date/Time",
+      "message": "Tell us about your symptoms or any questions you have.",
+      "submit": "Request My Visit",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly to confirm your visit.",
+      "error": "Something went wrong. Please try again or call the clinic.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Gentle, evidence-based chiropractic and wellness care for Sycamore-area families.",
+      "rights": "© McCoy Chiropractic. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    },
+    "ritual": {
+      "heading": "Your Visit, Step by Step",
+      "steps": [
+        {
+          "title": "Settle In & Share",
+          "text": "Arrive, take a breath, and tell us what's been bothering you over a relaxed, no-pressure consultation. No rush, no judgment."
+        },
+        {
+          "title": "A Plan Made for You",
+          "text": "We listen, gently examine how you move, and explain a simple care plan built around your goals, comfort, and schedule."
+        },
+        {
+          "title": "Gentle, Hands-On Care",
+          "text": "Ease onto the table for precise, low-force adjustments and soft-tissue work that calm tension and help your body move freely again."
+        },
+        {
+          "title": "Leave Lighter, Stay Well",
+          "text": "We share simple aftercare tips, answer any questions, and help you book your next visit so relief keeps building."
+        }
+      ]
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "McCoy Chiropractic | Cuidado Quiropráctico y de Bienestar en Sycamore, IL",
+      "description": "Quiropráctica y bienestar con el paciente primero para familias de Sycamore. Alivio suave del dolor de espalda, ciática y dolores de cabeza. (815) 895-5111."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Nuestra Oficina",
+      "visit": "Visítanos",
+      "order": "Reservar"
+    },
+    "hero": {
+      "eyebrow": "La Clínica Quiropráctica y de Bienestar de Sycamore que Pone al Paciente Primero",
+      "title": "Muévete Mejor,",
+      "titleAccent": "Siéntete Mejor",
+      "subtitle": "Cuidado quiropráctico y de bienestar suave y basado en evidencia para toda la familia. Desde alivio duradero del dolor hasta la recuperación y el bienestar a largo plazo, ayudamos a las familias de Sycamore a volver a sentirse ellas mismas.",
+      "ctaPrimary": "Ver Servicios",
+      "ctaSecondary": "Llamar al (815) 895-5111",
+      "badge": "Oferta para Nuevos Pacientes · Consulta Gratis · Sin Cita También",
+      "ctaSecondaryHref": "#contact"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "El Paciente Primero",
+        "text": "Nos tomamos el tiempo de escuchar, explicar y crear un plan según tus metas, tu cuerpo y tu comodidad."
+      },
+      {
+        "icon": "shield",
+        "title": "Suave y Basado en Evidencia",
+        "text": "Técnicas modernas e informadas por la investigación, aplicadas con un toque cuidadoso y de baja fuerza en el que puedes confiar."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Bienestar de Todo el Cuerpo",
+        "text": "Más que soluciones rápidas: apoyamos una recuperación duradera, mejor movimiento y hábitos diarios más saludables."
+      },
+      {
+        "icon": "check",
+        "title": "Primera Consulta Gratis",
+        "text": "Empieza con una consulta sin costo y sin presión para conocer tus opciones antes que nada."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Los servicios y precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar la oferta real de la clínica. Llama para un plan personalizado.",
+      "categories": [
+        {
+          "id": "new-patient",
+          "name": "Nuevo Paciente",
+          "blurb": "Una primera visita acogedora para entender tu salud y trazar un camino claro hacia adelante.",
+          "items": [
+            {
+              "name": "Consulta Gratis para Nuevos Pacientes",
+              "desc": "Una conversación sin costo y sin presión sobre tus síntomas, tu historial y tus metas para ver cómo podemos ayudarte.",
+              "price": "Consulta Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Examen Integral",
+              "desc": "Un examen quiropráctico y de movimiento completo para identificar el verdadero origen de tu molestia.",
+              "price": "Desde $65",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Revisión de Radiografías",
+              "desc": "Una explicación clara y en palabras sencillas de cualquier imagen para que entiendas exactamente qué está pasando.",
+              "price": "Desde $45"
+            },
+            {
+              "name": "Plan de Cuidado Personalizado",
+              "desc": "Un plan paso a paso creado según tus metas, tu horario y tu presupuesto, sin sorpresas.",
+              "price": "Incluido con el examen",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "spinal-joint-care",
+          "name": "Cuidado de Columna y Articulaciones",
+          "blurb": "Ajustes suaves y cuidado de articulaciones para restaurar un movimiento sano y aliviar la tensión.",
+          "items": [
+            {
+              "name": "Ajuste Quiropráctico",
+              "desc": "Ajustes precisos y suaves que restauran el movimiento de la columna y ayudan a tu cuerpo a moverse con libertad de nuevo.",
+              "price": "Desde $45",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Descompresión Espinal",
+              "desc": "Tracción suave y dirigida que alivia la presión sobre discos y nervios para un alivio duradero.",
+              "price": "Desde $60"
+            },
+            {
+              "name": "Cuidado de Extremidades",
+              "desc": "Cuidado enfocado para hombros, caderas, rodillas y otras articulaciones más allá de la columna.",
+              "price": "Desde $50"
+            },
+            {
+              "name": "Ajuste de Mantenimiento",
+              "desc": "Visitas de afinación continuas para mantenerte en movimiento y adelantarte a las recaídas.",
+              "price": "Desde $45",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pain-relief",
+          "name": "Alivio del Dolor",
+          "blurb": "Cuidado dirigido y sin medicamentos para calmar el dolor y devolverte a lo que amas.",
+          "items": [
+            {
+              "name": "Alivio del Dolor de Espalda y Cuello",
+              "desc": "Un plan enfocado para aliviar la rigidez y el dolor de espalda y cuello y restaurar un movimiento cómodo.",
+              "price": "Desde $55",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Cuidado de la Ciática",
+              "desc": "Cuidado suave y dirigido para calmar el dolor irradiado de pierna y espalda baja de la ciática.",
+              "price": "Desde $60"
+            },
+            {
+              "name": "Alivio de Dolores de Cabeza y Migrañas",
+              "desc": "Cuidado manual que aborda la tensión y la alineación para reducir los dolores de cabeza frecuentes.",
+              "price": "Desde $55"
+            },
+            {
+              "name": "Cuidado por Accidente Automovilístico",
+              "desc": "Evaluación cuidadosa y apoyo en la recuperación tras un accidente de auto o un latigazo cervical.",
+              "price": "Desde $65"
+            },
+            {
+              "name": "Visita por Recaída en la Misma Semana",
+              "desc": "Una visita enfocada para atender una recaída repentina y darte alivio lo más rápido posible.",
+              "price": "Desde $50",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wellness-rehab",
+          "name": "Bienestar y Rehabilitación",
+          "blurb": "Cuidado de recuperación y bienestar que te ayuda a moverte, recuperarte y sentirte mejor a largo plazo.",
+          "items": [
+            {
+              "name": "Ejercicio Correctivo",
+              "desc": "Ejercicios sencillos y guiados que reconstruyen fuerza y estabilidad para que el alivio de verdad perdure.",
+              "price": "Desde $50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Corrección de Postura",
+              "desc": "Un plan práctico para deshacer la encorvadura de escritorio y el cuello tecnológico y ayudarte a erguirte sin dolor.",
+              "price": "Desde $55"
+            },
+            {
+              "name": "Masaje Terapéutico",
+              "desc": "Trabajo enfocado de tejidos blandos que libera la tensión y complementa tu cuidado quiropráctico.",
+              "price": "Desde $60",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Afinación de Bienestar",
+              "desc": "Una revisión de todo el cuerpo con consejos de movimiento y estilo de vida para que sigas sintiéndote de maravilla.",
+              "price": "Desde $45"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "El Paciente Primero en Sycamore",
+      "lead": "McCoy Chiropractic es una clínica independiente de quiropráctica y bienestar que ayuda a las familias de Sycamore a moverse y sentirse mejor con cuidado suave y basado en evidencia.",
+      "paragraphs": [
+        "Creemos que el buen cuidado empieza por escuchar. Desde tu primera visita, nos tomamos el tiempo de entender tus síntomas, tu historial y tus metas, y luego te explicamos tus opciones en palabras sencillas. Con técnicas suaves e informadas por la investigación, nos enfocamos en el verdadero origen de tu molestia en lugar de solo perseguir los síntomas.",
+        "Ya sea que te estés recuperando de una lesión, aliviando un dolor crónico de espalda o cuello, o simplemente buscando moverte mejor y sentirte de maravilla, encontrarás una clínica cálida y acogedora aquí mismo en DeKalb Avenue. Nuestra meta es un alivio duradero y bienestar a largo plazo para cada miembro de tu familia."
+      ],
+      "stats": [
+        {
+          "value": "El Paciente Primero",
+          "label": "Cuidado Suave y Personalizado"
+        },
+        {
+          "value": "Gratis",
+          "label": "Consulta para Nuevos Pacientes"
+        },
+        {
+          "value": "Sycamore",
+          "label": "Negocio Local e Independiente"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Por Dentro de Nuestra Oficina",
+      "subheading": "Un vistazo a nuestra clínica tranquila y acogedora y al cuidado que pone al paciente primero que brindamos cada día.",
+      "captions": [
+        "Recepción luminosa y acogedora",
+        "Sala de ajustes cómoda y moderna",
+        "Mesa de descompresión espinal suave",
+        "Espacio de ejercicio correctivo uno a uno",
+        "Sala de masaje terapéutico relajante",
+        "Revisión clara de radiografías con tu proveedor"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen Nuestros Pacientes",
+      "items": [
+        {
+          "quote": "Después de meses de dolor de espalda por fin me siento yo misma otra vez. Escucharon, explicaron todo y nunca me apuraron.",
+          "name": "Sarah K.",
+          "role": "Paciente en Sycamore"
+        },
+        {
+          "quote": "El equipo es muy suave y genuinamente amable. Mis dolores de cabeza son mucho menos frecuentes y de verdad espero con ganas mis visitas.",
+          "name": "Michael D.",
+          "role": "Paciente en DeKalb"
+        },
+        {
+          "quote": "Llegué después de un accidente de auto sintiéndome ansiosa, y me guiaron en cada paso. Mi recuperación ha sido mucho más llevadera.",
+          "name": "Linda R.",
+          "role": "Paciente en Sycamore"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita Nuestra Clínica en Sycamore",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "8:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Martes",
+          "time": "8:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "8:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "8:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "8:00 AM - 1:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "Con Cita"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Reservar una Visita",
+      "directions": "Nos encuentras en 2676 DeKalb Avenue en Sycamore, IL, con estacionamiento cómodo justo afuera. Llama al (815) 895-5111 para reservar tu visita y encontraremos un horario que te funcione.",
+      "neighborhood": "La clínica está sobre DeKalb Avenue (la Ruta 23 de Illinois), en el lado suroeste de Sycamore, en la plaza comercial junto al Hy-Vee, sobre el corredor principal entre Sycamore y DeKalb."
+    },
+    "cta": {
+      "heading": "¿Listo para Moverte y Sentirte Mejor?",
+      "text": "Los nuevos pacientes pueden empezar con una consulta gratis. Llama hoy a nuestro equipo amable y te ayudaremos a dar el primer paso hacia un alivio duradero.",
+      "button": "Llamar al (815) 895-5111"
+    },
+    "form": {
+      "heading": "Reservar una Visita",
+      "subheading": "Cuéntanos un poco sobre lo que te molesta y tu horario preferido. Te contactaremos pronto para confirmar tu visita.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Motivo de la Visita",
+      "date": "Fecha/Hora Preferida",
+      "message": "Cuéntanos sobre tus síntomas o cualquier pregunta que tengas.",
+      "submit": "Solicitar mi Visita",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto para confirmar tu visita.",
+      "error": "Algo salió mal. Por favor intenta de nuevo o llama a la clínica.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Cuidado quiropráctico y de bienestar suave y basado en evidencia para las familias de Sycamore.",
+      "rights": "© McCoy Chiropractic. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    },
+    "ritual": {
+      "heading": "Tu Visita, Paso a Paso",
+      "steps": [
+        {
+          "title": "Acomódate y Cuéntanos",
+          "text": "Llega, respira y cuéntanos qué te ha estado molestando en una consulta relajada y sin presión. Sin prisa, sin juicios."
+        },
+        {
+          "title": "Un Plan Hecho para Ti",
+          "text": "Escuchamos, examinamos con suavidad cómo te mueves y te explicamos un plan sencillo según tus metas, comodidad y horario."
+        },
+        {
+          "title": "Cuidado Suave y Manual",
+          "text": "Recuéstate en la mesa para ajustes precisos de baja fuerza y trabajo de tejidos que calman la tensión y devuelven el movimiento."
+        },
+        {
+          "title": "Sal Más Ligero y Sigue Bien",
+          "text": "Compartimos consejos sencillos de cuidado, respondemos tus preguntas y te ayudamos a reservar tu próxima visita para seguir mejorando."
+        }
+      ]
+    }
+  }
+}

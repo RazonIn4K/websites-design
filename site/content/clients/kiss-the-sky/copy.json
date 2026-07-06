@@ -1,0 +1,588 @@
+{
+  "business": {
+    "name": "Kiss the Sky",
+    "shortName": "Kiss the Sky",
+    "vertical": "Independent Record Store",
+    "phone": "(630) 406-0086",
+    "phoneHref": "+16304060086",
+    "address": "180 West 1st Street",
+    "city": "Batavia",
+    "state": "IL",
+    "zip": "60510",
+    "mapsQuery": "Kiss the Sky, 180 West 1st Street, Batavia, IL 60510",
+    "lat": 41.8484094,
+    "lon": -88.3101541
+  },
+  "en": {
+    "meta": {
+      "title": "Kiss the Sky | Independent Record Store in Batavia, IL",
+      "description": "Independent record store in downtown Batavia, IL since 1996 — new & used vinyl, turntables, and merch. Call (630) 406-0086 or visit us on West 1st Street."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Shop",
+      "about": "About",
+      "gallery": "The Shop",
+      "visit": "Visit",
+      "order": "Visit the Shop"
+    },
+    "hero": {
+      "eyebrow": "Downtown Batavia · Since 1996",
+      "title": "Real records.",
+      "titleAccent": "Real crate-diggers.",
+      "subtitle": "An independent record store stacked with new and used vinyl, killer turntables, and staff who actually know the music. Pull up, flip through the bins, and find your next favorite record.",
+      "ctaPrimary": "Browse the Shop",
+      "ctaSecondary": "Call (630) 406-0086",
+      "badge": "We buy collections · New & used vinyl daily"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "New Vinyl Every Week",
+        "text": "Fresh releases, reissues, and store exclusives land on the racks all the time. There's always a reason to come back."
+      },
+      {
+        "icon": "star",
+        "title": "Deep Used Crates",
+        "text": "Pre-owned LPs, rare pressings, and dollar bins worth digging through. You never know what'll turn up."
+      },
+      {
+        "icon": "heart",
+        "title": "Staff Who Get It",
+        "text": "Ask us anything. We listen to the records, we love the records, and we'll point you to something you'll love too."
+      },
+      {
+        "icon": "flame",
+        "title": "We Buy Collections",
+        "text": "Got records to move? Bring your collection in for a fair look. We're always hunting for great vinyl."
+      }
+    ],
+    "menu": {
+      "heading": "What's in the Bins",
+      "subheading": "A taste of what you'll find in store. Titles and prices below are illustrative demo content — stock changes daily, so come dig in person.",
+      "categories": [
+        {
+          "id": "new-vinyl",
+          "name": "New Vinyl",
+          "blurb": "New releases, reissues, and store exclusives — sealed and ready to spin.",
+          "items": [
+            {
+              "name": "New Release LP",
+              "desc": "This week's just-dropped records from artists you're already streaming.",
+              "price": "$28",
+              "tags": ["new", "popular"]
+            },
+            {
+              "name": "Classic Reissue",
+              "desc": "Remastered pressings of the albums that started it all, back on wax.",
+              "price": "$32",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Colored Vinyl Variant",
+              "desc": "Limited splatter, marble, and translucent pressings while they last.",
+              "price": "$34",
+              "tags": ["new"]
+            },
+            {
+              "name": "Store Exclusive Pressing",
+              "desc": "Special editions you'll only find on our shelves. Grab it before it's gone.",
+              "price": "$36",
+              "tags": ["signature", "popular"]
+            },
+            {
+              "name": "180g Audiophile LP",
+              "desc": "Heavyweight pressings cut for the warmest, fullest sound.",
+              "price": "$30",
+              "tags": ["value"]
+            }
+          ]
+        },
+        {
+          "id": "used-rare",
+          "name": "Used & Rare",
+          "blurb": "Pre-owned LPs, rare finds, and dollar bins for the dedicated digger.",
+          "items": [
+            {
+              "name": "Pre-Owned LP",
+              "desc": "Cleaned, graded, and ready for a second home. Classics to deep cuts.",
+              "price": "$12",
+              "tags": ["value", "popular"]
+            },
+            {
+              "name": "Dollar Bin Find",
+              "desc": "Pure crate-digging gold. Take a chance and leave with a stack.",
+              "price": "$1",
+              "tags": ["value"]
+            },
+            {
+              "name": "Rare Pressing",
+              "desc": "Original and out-of-print editions for the serious collector.",
+              "price": "$65",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Used 45 Single",
+              "desc": "Jukebox-ready 7-inch singles, sorted and waiting to be flipped.",
+              "price": "$4",
+              "tags": ["value"]
+            },
+            {
+              "name": "Estate Collection Pick",
+              "desc": "Hand-selected gems from collections we've just brought in.",
+              "price": "$18",
+              "tags": ["new"]
+            }
+          ]
+        },
+        {
+          "id": "turntables-audio",
+          "name": "Turntables & Audio",
+          "blurb": "Turntables, speakers, needles, and the gear to make it all sing.",
+          "items": [
+            {
+              "name": "Entry Turntable",
+              "desc": "A solid, ready-to-spin deck for the first record player in your life.",
+              "price": "$149",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Audiophile Turntable",
+              "desc": "Step-up belt-drive performance for listeners who want more.",
+              "price": "$399",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Bookshelf Speakers",
+              "desc": "Compact powered speakers that fill the room without taking it over.",
+              "price": "$199",
+              "tags": ["value"]
+            },
+            {
+              "name": "Replacement Needle",
+              "desc": "Fresh styli for popular cartridges so your records stay safe.",
+              "price": "$24",
+              "tags": ["fast"]
+            },
+            {
+              "name": "Care & Cleaning Kit",
+              "desc": "Brushes, fluid, and inner sleeves to keep every record sounding right.",
+              "price": "$22",
+              "tags": ["value"]
+            }
+          ]
+        },
+        {
+          "id": "merch-more",
+          "name": "Merch & More",
+          "blurb": "Band tees, posters, CDs, and cassettes to round out the haul.",
+          "items": [
+            {
+              "name": "Band Tee",
+              "desc": "Soft, classic-fit shirts repping the bands you actually listen to.",
+              "price": "$25",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Album Poster",
+              "desc": "Iconic cover art and tour prints ready for your wall.",
+              "price": "$15",
+              "tags": ["value"]
+            },
+            {
+              "name": "CD",
+              "desc": "New and used compact discs — yes, people still love them.",
+              "price": "$10",
+              "tags": ["value"]
+            },
+            {
+              "name": "Cassette Tape",
+              "desc": "New runs and used finds for the tape deck faithful.",
+              "price": "$12",
+              "tags": ["new"]
+            },
+            {
+              "name": "Gift Card",
+              "desc": "The easy win for the music lover who has strong opinions.",
+              "price": "$25",
+              "tags": ["fast"]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Crate-Digging in Downtown Batavia",
+      "lead": "Kiss the Sky is an independent record store built for people who still believe in flipping through the bins.",
+      "paragraphs": [
+        "Walk in and you'll find walls of new vinyl, deep crates of used and rare LPs, turntables spinning behind the counter, and the kind of staff who'll talk you into a record you didn't know you needed. This is a shop for crate-diggers, first-timers, and everyone in between.",
+        "Founded by music lover Steve Warrenfeltz in 1996, Kiss the Sky has been a Fox Valley fixture for nearly three decades, and we're proud to be part of downtown Batavia — a place to slow down, drop the needle, and rediscover why music sounds better on wax. New releases land all the time, the dollar bins are always worth a dig, and we're always buying collections. Come hang out and bring your ears."
+      ],
+      "stats": [
+        { "value": "1,000s", "label": "Records in Stock" },
+        { "value": "New & Used", "label": "Vinyl Daily" },
+        { "value": "We Buy", "label": "Collections" }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside the Shop",
+      "subheading": "Bins to browse, gear to spin, and walls full of finds.",
+      "captions": [
+        "New arrivals up front and ready to flip",
+        "Deep crates of used and rare LPs",
+        "Turntables and audio gear behind the counter",
+        "Dollar bins worth the dig",
+        "Band tees, posters, and more on the wall",
+        "A record spinning while you shop"
+      ]
+    },
+    "testimonials": {
+      "heading": "From the Regulars",
+      "items": [
+        {
+          "quote": "I came in for one record and left with five. The staff actually knew the deep cuts I was after — this is my new spot.",
+          "name": "Marcus T.",
+          "role": "Weekend crate-digger"
+        },
+        {
+          "quote": "Best dollar bins around. I've found pressings here I'd been hunting for years. Always worth a stop.",
+          "name": "Priya R.",
+          "role": "Vinyl collector"
+        },
+        {
+          "quote": "Sold them my old collection and got a fair, honest deal. No pressure, just people who love records.",
+          "name": "Danny K.",
+          "role": "Longtime customer"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Come Dig In",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        { "day": "Monday", "time": "Closed" },
+        { "day": "Tuesday – Thursday", "time": "11:00 AM – 7:00 PM" },
+        { "day": "Friday – Saturday", "time": "10:00 AM – 8:00 PM" },
+        { "day": "Sunday", "time": "12:00 PM – 5:00 PM" }
+      ],
+      "phoneLabel": "Call the Shop",
+      "directions": "Right in the heart of downtown Batavia on West 1st Street, with street parking close by. Stop in to browse, ask about a title, or bring a collection to sell.",
+      "neighborhood": "The shop sits in historic downtown Batavia — the onetime 'Windmill City,' now the City of Energy — a short walk from the Fox River and the restored windmills along the Riverwalk."
+    },
+    "cta": {
+      "heading": "Got Records? We Buy Collections.",
+      "text": "Call us with questions, check what's new, or set up a time to bring your collection in. We're always happy to talk vinyl.",
+      "button": "Call (630) 406-0086"
+    },
+    "form": {
+      "heading": "Send Us a Note",
+      "subheading": "Looking for a title, selling a collection, or just have a question? Drop us a line and we'll get back to you.",
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "What can we help with?",
+      "date": "Best Time to Reach You",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "sending": "Sending…",
+      "success": "Thanks! We'll be in touch soon.",
+      "error": "Something went wrong. Please call us at (630) 406-0086.",
+      "consent": "By submitting, you agree to be contacted about your request. We never share your info."
+    },
+    "footer": {
+      "tagline": "Independent record store in downtown Batavia — new and used vinyl, turntables, and the people who love it all.",
+      "rights": "© Kiss the Sky. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Kiss the Sky | Tienda de Discos Independiente en Batavia, IL",
+      "description": "Tienda de discos independiente en el centro de Batavia, IL desde 1996: vinilos nuevos y usados, tornamesas y más. Llama al (630) 406-0086 en West 1st Street."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Tienda",
+      "about": "Nosotros",
+      "gallery": "La Tienda",
+      "visit": "Visítanos",
+      "order": "Visítanos"
+    },
+    "hero": {
+      "eyebrow": "Centro de Batavia · Desde 1996",
+      "title": "Discos de verdad.",
+      "titleAccent": "Buscadores de verdad.",
+      "subtitle": "Una tienda de discos independiente repleta de vinilos nuevos y usados, tornamesas increíbles y un equipo que de verdad conoce la música. Llégate, explora las cajas y encuentra tu próximo disco favorito.",
+      "ctaPrimary": "Explora la Tienda",
+      "ctaSecondary": "Llamar al (630) 406-0086",
+      "badge": "Compramos colecciones · Vinilo nuevo y usado a diario"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Vinilo Nuevo Cada Semana",
+        "text": "Lanzamientos frescos, reediciones y exclusivas de la tienda llegan todo el tiempo. Siempre hay un motivo para volver."
+      },
+      {
+        "icon": "star",
+        "title": "Cajas de Usado Bien Surtidas",
+        "text": "LPs usados, prensajes raros y cajas de a dólar que vale la pena explorar. Nunca sabes qué vas a encontrar."
+      },
+      {
+        "icon": "heart",
+        "title": "Un Equipo que Sí Sabe",
+        "text": "Pregúntanos lo que sea. Escuchamos los discos, amamos los discos y te llevaremos a algo que también vas a amar."
+      },
+      {
+        "icon": "flame",
+        "title": "Compramos Colecciones",
+        "text": "¿Tienes discos para vender? Trae tu colección y la revisamos con gusto y un trato justo. Siempre andamos buscando buen vinilo."
+      }
+    ],
+    "menu": {
+      "heading": "Lo que Hay en las Cajas",
+      "subheading": "Una muestra de lo que encontrarás en la tienda. Los títulos y precios de abajo son contenido de demostración ilustrativo — el inventario cambia a diario, así que ven a explorar en persona.",
+      "categories": [
+        {
+          "id": "new-vinyl",
+          "name": "Vinilo Nuevo",
+          "blurb": "Lanzamientos, reediciones y exclusivas de la tienda — sellados y listos para sonar.",
+          "items": [
+            {
+              "name": "LP de Lanzamiento Nuevo",
+              "desc": "Los discos recién salidos de esta semana, de artistas que ya escuchas en streaming.",
+              "price": "$28",
+              "tags": ["new", "popular"]
+            },
+            {
+              "name": "Reedición Clásica",
+              "desc": "Prensajes remasterizados de los álbumes que lo empezaron todo, de vuelta en vinilo.",
+              "price": "$32",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Vinilo de Color",
+              "desc": "Prensajes limitados con salpicaduras, mármol y translúcidos mientras duren.",
+              "price": "$34",
+              "tags": ["new"]
+            },
+            {
+              "name": "Prensaje Exclusivo de la Tienda",
+              "desc": "Ediciones especiales que solo hallarás en nuestros estantes. Llévatela antes de que se acabe.",
+              "price": "$36",
+              "tags": ["signature", "popular"]
+            },
+            {
+              "name": "LP Audiófilo de 180g",
+              "desc": "Prensajes de peso pesado cortados para el sonido más cálido y completo.",
+              "price": "$30",
+              "tags": ["value"]
+            }
+          ]
+        },
+        {
+          "id": "used-rare",
+          "name": "Usado y Raro",
+          "blurb": "LPs usados, hallazgos raros y cajas de a dólar para el buscador dedicado.",
+          "items": [
+            {
+              "name": "LP Usado",
+              "desc": "Limpio, clasificado y listo para un segundo hogar. De clásicos a rarezas.",
+              "price": "$12",
+              "tags": ["value", "popular"]
+            },
+            {
+              "name": "Hallazgo de Caja de a Dólar",
+              "desc": "Oro puro para el que sabe buscar. Arriésgate y vete con un montón.",
+              "price": "$1",
+              "tags": ["value"]
+            },
+            {
+              "name": "Prensaje Raro",
+              "desc": "Ediciones originales y agotadas para el coleccionista serio.",
+              "price": "$65",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Sencillo 45 Usado",
+              "desc": "Sencillos de 7 pulgadas listos para la rocola, ordenados y esperando.",
+              "price": "$4",
+              "tags": ["value"]
+            },
+            {
+              "name": "Selección de Colección",
+              "desc": "Joyas escogidas a mano de colecciones que acabamos de recibir.",
+              "price": "$18",
+              "tags": ["new"]
+            }
+          ]
+        },
+        {
+          "id": "turntables-audio",
+          "name": "Tornamesas y Audio",
+          "blurb": "Tornamesas, bocinas, agujas y el equipo para que todo suene como debe.",
+          "items": [
+            {
+              "name": "Tornamesa de Entrada",
+              "desc": "Una tornamesa sólida y lista para sonar, perfecta como tu primer tocadiscos.",
+              "price": "$149",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Tornamesa Audiófila",
+              "desc": "Rendimiento de tracción por correa de nivel superior para quien quiere más.",
+              "price": "$399",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Bocinas de Estante",
+              "desc": "Bocinas compactas con amplificación que llenan el cuarto sin acapararlo.",
+              "price": "$199",
+              "tags": ["value"]
+            },
+            {
+              "name": "Aguja de Repuesto",
+              "desc": "Agujas nuevas para las cápsulas más comunes para que tus discos estén seguros.",
+              "price": "$24",
+              "tags": ["fast"]
+            },
+            {
+              "name": "Kit de Cuidado y Limpieza",
+              "desc": "Cepillos, líquido y fundas internas para que cada disco suene perfecto.",
+              "price": "$22",
+              "tags": ["value"]
+            }
+          ]
+        },
+        {
+          "id": "merch-more",
+          "name": "Mercancía y Más",
+          "blurb": "Playeras de banda, pósters, CDs y casetes para redondear el botín.",
+          "items": [
+            {
+              "name": "Playera de Banda",
+              "desc": "Playeras suaves de corte clásico con las bandas que de verdad escuchas.",
+              "price": "$25",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Póster de Álbum",
+              "desc": "Portadas icónicas e impresiones de gira listas para tu pared.",
+              "price": "$15",
+              "tags": ["value"]
+            },
+            {
+              "name": "CD",
+              "desc": "Discos compactos nuevos y usados — sí, la gente todavía los ama.",
+              "price": "$10",
+              "tags": ["value"]
+            },
+            {
+              "name": "Casete",
+              "desc": "Ediciones nuevas y hallazgos usados para los fieles del tocacasetes.",
+              "price": "$12",
+              "tags": ["new"]
+            },
+            {
+              "name": "Tarjeta de Regalo",
+              "desc": "La opción segura para el amante de la música con opiniones fuertes.",
+              "price": "$25",
+              "tags": ["fast"]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Explorando Cajas en el Centro de Batavia",
+      "lead": "Kiss the Sky es una tienda de discos independiente hecha para quienes aún creen en explorar las cajas disco por disco.",
+      "paragraphs": [
+        "Entra y encontrarás paredes de vinilo nuevo, cajas profundas de LPs usados y raros, tornamesas sonando detrás del mostrador y un equipo que te convencerá de llevarte un disco que no sabías que necesitabas. Esta es una tienda para los que saben buscar, para los primerizos y para todos los demás.",
+        "Fundada por el melómano Steve Warrenfeltz en 1996, Kiss the Sky ha sido un referente del Fox Valley por casi tres décadas, y estamos orgullosos de ser parte del centro de Batavia — un lugar para bajar el ritmo, dejar caer la aguja y redescubrir por qué la música suena mejor en vinilo. Los lanzamientos llegan todo el tiempo, las cajas de a dólar siempre valen la pena y siempre estamos comprando colecciones. Ven a pasar el rato y trae tus oídos."
+      ],
+      "stats": [
+        { "value": "Miles", "label": "de Discos en Stock" },
+        { "value": "Nuevo y Usado", "label": "Vinilo a Diario" },
+        { "value": "Compramos", "label": "Colecciones" }
+      ]
+    },
+    "gallery": {
+      "heading": "Por Dentro de la Tienda",
+      "subheading": "Cajas para explorar, equipo para sonar y paredes llenas de hallazgos.",
+      "captions": [
+        "Novedades al frente y listas para explorar",
+        "Cajas profundas de LPs usados y raros",
+        "Tornamesas y equipo de audio tras el mostrador",
+        "Cajas de a dólar que valen la búsqueda",
+        "Playeras de banda, pósters y más en la pared",
+        "Un disco sonando mientras compras"
+      ]
+    },
+    "testimonials": {
+      "heading": "De los Clientes de Siempre",
+      "items": [
+        {
+          "quote": "Vine por un disco y me fui con cinco. El equipo de verdad conocía las rarezas que andaba buscando — este es mi nuevo lugar.",
+          "name": "Marcus T.",
+          "role": "Buscador de fin de semana"
+        },
+        {
+          "quote": "Las mejores cajas de a dólar de la zona. Aquí he encontrado prensajes que llevaba años buscando. Siempre vale la pena pasar.",
+          "name": "Priya R.",
+          "role": "Coleccionista de vinilo"
+        },
+        {
+          "quote": "Les vendí mi vieja colección y me dieron un trato justo y honesto. Sin presión, solo gente que ama los discos.",
+          "name": "Danny K.",
+          "role": "Cliente de años"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Ven a Explorar",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        { "day": "Lunes", "time": "Cerrado" },
+        { "day": "Martes – Jueves", "time": "11:00 AM – 7:00 PM" },
+        { "day": "Viernes – Sábado", "time": "10:00 AM – 8:00 PM" },
+        { "day": "Domingo", "time": "12:00 PM – 5:00 PM" }
+      ],
+      "phoneLabel": "Llama a la Tienda",
+      "directions": "En pleno corazón del centro de Batavia, sobre West 1st Street, con estacionamiento en la calle muy cerca. Pásate a explorar, pregunta por un título o trae una colección para vender.",
+      "neighborhood": "La tienda está en el centro histórico de Batavia — la antigua 'Ciudad de los Molinos', hoy la Ciudad de la Energía — a corta caminata del río Fox y de los molinos restaurados del Riverwalk."
+    },
+    "cta": {
+      "heading": "¿Tienes Discos? Compramos Colecciones.",
+      "text": "Llámanos con tus preguntas, mira lo que hay de nuevo o agenda un momento para traer tu colección. Siempre nos da gusto hablar de vinilo.",
+      "button": "Llamar al (630) 406-0086"
+    },
+    "form": {
+      "heading": "Mándanos un Mensaje",
+      "subheading": "¿Buscas un título, vendes una colección o solo tienes una pregunta? Escríbenos y te responderemos.",
+      "name": "Tu Nombre",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "¿En qué te podemos ayudar?",
+      "date": "Mejor Hora para Contactarte",
+      "message": "Tu Mensaje",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor llámanos al (630) 406-0086.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Nunca compartimos tu información."
+    },
+    "footer": {
+      "tagline": "Tienda de discos independiente en el centro de Batavia — vinilo nuevo y usado, tornamesas y la gente que ama todo esto.",
+      "rights": "© Kiss the Sky. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

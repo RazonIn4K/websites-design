@@ -1,0 +1,16 @@
+{
+  "concept": "Aegean palette: deep Santorini blue primary with olive secondary and flame-orange accent on a white-washed warm background with deep blue-black ink — sun-bleached island taverna meets Greek family diner.",
+  "vars": {
+    "--color-bg": "#F9F5EC",
+    "--color-surface": "#FFFDF7",
+    "--color-surface-alt": "#EFE9DA",
+    "--color-ink": "#17222E",
+    "--color-ink-soft": "#45566B",
+    "--color-primary": "#1D4E89",
+    "--color-primary-dark": "#153A67",
+    "--color-secondary": "#55622A",
+    "--color-accent": "#E8862B",
+    "--color-line": "#E0D8C3"
+  },
+  "contrastNotes": "All requirements met (computed WCAG 2.x). ink #17222E: 14.79:1 on bg #F9F5EC, 15.82:1 on surface #FFFDF7, 13.29:1 on surface-alt #EFE9DA (all >=7). ink-soft #45566B: 6.90:1 on bg, 7.38:1 on surface, 6.20:1 on surface-alt (all >=4.5). white #FFFFFF on primary #1D4E89 = 8.39:1 (>=4.5, CTA labels safe); white on primary-dark #153A67 = 11.46:1; white on secondary olive #55622A = 6.63:1. accent flame-orange #E8862B vs #222222 = 5.97:1 (>=4.5, safe over dark photo overlays). primary on bg = 7.71:1 and on surface-alt = 6.93:1 (link text safe on all surfaces)."
+}

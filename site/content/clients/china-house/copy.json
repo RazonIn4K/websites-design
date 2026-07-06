@@ -1,0 +1,795 @@
+{
+  "business": {
+    "name": "China House",
+    "shortName": "China House",
+    "vertical": "Chinese Restaurant",
+    "phone": "(815) 748-0032",
+    "phoneHref": "+18157480032",
+    "address": "1900 Sycamore Road",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "China House, 1900 Sycamore Road, DeKalb, IL 60115",
+    "lat": 41.9473205,
+    "lon": -88.7307185,
+    "cuisine": "Chinese"
+  },
+  "en": {
+    "meta": {
+      "title": "China House | Chinese Food, Carryout & Delivery in DeKalb, IL",
+      "description": "Family-run Chinese restaurant on Sycamore Road in DeKalb, IL. Fresh wok cooking, generous portions, fast carryout & delivery. Call (815) 748-0032 to order."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Order Now"
+    },
+    "hero": {
+      "eyebrow": "A DeKalb & NIU Favorite",
+      "title": "Fresh Wok Cooking,",
+      "titleAccent": "Generous Portions",
+      "subtitle": "Family-run Chinese food made to order with classic favorites, big helpings, and prices that keep DeKalb coming back. Fast carryout and delivery, every single day.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Call to Order",
+      "badge": "Family-Owned · Fast Carryout & Delivery · Great Value"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Fresh Wok Cooking",
+        "text": "Every order is fired up fresh in the wok, so your food arrives hot, fragrant, and full of flavor."
+      },
+      {
+        "icon": "heart",
+        "title": "Family-Run & Friendly",
+        "text": "An independent, family-owned kitchen that treats every customer like a neighbor, because most of them are."
+      },
+      {
+        "icon": "star",
+        "title": "A DeKalb & NIU Favorite",
+        "text": "A longtime go-to for students, families, and locals craving generous portions and dependable favorites."
+      },
+      {
+        "icon": "leaf",
+        "title": "Fresh & Great Value",
+        "text": "Crisp veggies, quality proteins, and big portions that fill you up without emptying your wallet."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Menu items and prices shown are illustrative demo content for this sample site. Please call (815) 748-0032 for current offerings and pricing.",
+      "categories": [
+        {
+          "id": "appetizers",
+          "name": "Appetizers",
+          "blurb": "Crispy, savory starters made fresh to kick off your meal.",
+          "items": [
+            {
+              "name": "Egg Rolls (2)",
+              "desc": "Golden, crispy rolls stuffed with seasoned pork and crunchy cabbage.",
+              "price": "$3.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Crab Rangoon (6)",
+              "desc": "Crispy wontons filled with creamy crab and cream cheese, fried to order.",
+              "price": "$5.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Pork Potstickers (6)",
+              "desc": "Pan-seared pork dumplings served with house dipping sauce.",
+              "price": "$6.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Vegetable Spring Rolls (2)",
+              "desc": "Light, crispy rolls packed with fresh seasoned vegetables.",
+              "price": "$3.50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Fried Wontons (10)",
+              "desc": "Crunchy fried wontons served with sweet-and-sour sauce.",
+              "price": "$4.95",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "house-specialties",
+          "name": "House Specialties",
+          "blurb": "The crowd-pleasing classics that keep DeKalb coming back.",
+          "items": [
+            {
+              "name": "General Tso's Chicken",
+              "desc": "Crispy chicken tossed in a sweet, tangy, slightly spicy signature sauce.",
+              "price": "$11.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Sesame Chicken",
+              "desc": "Lightly battered chicken in a glossy sweet sauce topped with toasted sesame.",
+              "price": "$11.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Beef & Broccoli",
+              "desc": "Tender beef and crisp broccoli in a savory brown garlic sauce.",
+              "price": "$12.50",
+              "tags": []
+            },
+            {
+              "name": "Sweet & Sour Pork",
+              "desc": "Crispy pork with pineapple, peppers, and onions in tangy sweet-and-sour sauce.",
+              "price": "$11.50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Kung Pao Chicken",
+              "desc": "Wok-fired chicken with peanuts, peppers, and dried chilies for a spicy kick.",
+              "price": "$11.95",
+              "tags": []
+            },
+            {
+              "name": "Orange Chicken",
+              "desc": "Crispy chicken in a bright, citrusy orange glaze.",
+              "price": "$11.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "noodles-rice",
+          "name": "Noodles & Rice",
+          "blurb": "Wok-tossed noodles and fried rice, generous and satisfying.",
+          "items": [
+            {
+              "name": "Chicken Lo Mein",
+              "desc": "Soft egg noodles tossed with chicken and fresh vegetables.",
+              "price": "$9.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "House Fried Rice",
+              "desc": "Wok-fried rice with egg, scallions, and your choice of protein.",
+              "price": "$9.50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Chicken Chow Mein",
+              "desc": "Stir-fried noodles with chicken, cabbage, and crunchy bean sprouts.",
+              "price": "$9.95",
+              "tags": []
+            },
+            {
+              "name": "Beef Chow Fun",
+              "desc": "Wide rice noodles wok-tossed with tender beef and onions.",
+              "price": "$11.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Singapore Rice Noodles",
+              "desc": "Thin rice noodles in a fragrant curry sauce with shrimp and chicken.",
+              "price": "$11.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "combo-plates",
+          "name": "Combo Plates",
+          "blurb": "Lunch combos served with fried rice and an egg roll. Great value.",
+          "items": [
+            {
+              "name": "General Tso's Chicken Combo",
+              "desc": "Our signature General Tso's with fried rice and a crispy egg roll.",
+              "price": "$8.95",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Sesame Chicken Combo",
+              "desc": "Sweet sesame chicken served with fried rice and an egg roll.",
+              "price": "$8.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Beef & Broccoli Combo",
+              "desc": "Beef and broccoli in garlic sauce with fried rice and an egg roll.",
+              "price": "$9.25",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Kung Pao Chicken Combo",
+              "desc": "Spicy kung pao chicken with fried rice and a crispy egg roll.",
+              "price": "$8.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Sweet & Sour Chicken Combo",
+              "desc": "Crispy sweet-and-sour chicken with fried rice and an egg roll.",
+              "price": "$8.95",
+              "tags": [
+                "fast",
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "soups-sides",
+          "name": "Soups & Sides",
+          "blurb": "Warm, comforting soups and the sides that round out your meal.",
+          "items": [
+            {
+              "name": "Wonton Soup",
+              "desc": "Delicate pork wontons in a clear, savory broth with scallions.",
+              "price": "$3.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Egg Drop Soup",
+              "desc": "Silky ribbons of egg in a rich, golden chicken broth.",
+              "price": "$2.95",
+              "tags": []
+            },
+            {
+              "name": "Hot & Sour Soup",
+              "desc": "Bold, peppery broth with tofu, mushrooms, and bamboo shoots.",
+              "price": "$3.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Steamed White Rice",
+              "desc": "Fresh, fluffy steamed rice, perfect with any dish.",
+              "price": "$1.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Steamed Dumplings (6)",
+              "desc": "Tender pork dumplings steamed and served with dipping sauce.",
+              "price": "$6.50",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Your Neighborhood Chinese Kitchen",
+      "lead": "China House is a family-run DeKalb favorite serving fresh wok cooking, generous portions, and friendly service at a price that just makes sense.",
+      "paragraphs": [
+        "From busy NIU students to families looking for an easy weeknight dinner, DeKalb has trusted China House for classic Chinese favorites done right. Every order is cooked fresh in the wok, packed with generous portions, and ready fast for carryout or delivery.",
+        "We keep it simple: quality ingredients, dependable favorites, and friendly faces who know our regulars by name. Whether you're craving General Tso's, a hot bowl of soup, or a value lunch combo, we're proud to be your neighborhood Chinese kitchen."
+      ],
+      "stats": [
+        {
+          "value": "Fresh",
+          "label": "Wok Cooking"
+        },
+        {
+          "value": "Fast",
+          "label": "Carryout & Delivery"
+        },
+        {
+          "value": "7 Days",
+          "label": "Open a Week"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Taste of China House",
+      "subheading": "A look at the fresh, made-to-order dishes coming out of our wok every day.",
+      "captions": [
+        "Crispy General Tso's chicken fresh from the wok",
+        "Golden egg rolls and crab rangoon",
+        "Sizzling beef and broccoli in garlic sauce",
+        "Generous helpings of house fried rice",
+        "Steaming bowls of wonton soup",
+        "Value lunch combos ready for carryout"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Is Saying",
+      "items": [
+        {
+          "quote": "Best Chinese in DeKalb, hands down. The portions are huge and the General Tso's is always crispy. My go-to since freshman year.",
+          "name": "Jordan K.",
+          "role": "NIU student"
+        },
+        {
+          "quote": "We order from China House almost every Friday. Always fresh, always fast, and the lunch combos are an unbeatable value.",
+          "name": "Maria L.",
+          "role": "DeKalb regular"
+        },
+        {
+          "quote": "Friendly family that runs a great kitchen. Carryout is ready right when they say, and everything tastes homemade.",
+          "name": "Derek S.",
+          "role": "Local customer"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in DeKalb",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "11:00 AM - 9:30 PM"
+        },
+        {
+          "day": "Friday - Saturday",
+          "time": "11:00 AM - 10:30 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "12:00 PM - 9:00 PM"
+        }
+      ],
+      "phoneLabel": "Call to Order",
+      "directions": "Find us at 1900 Sycamore Road in DeKalb, IL, just minutes from NIU. Call ahead and your order will be hot and ready for fast carryout, or ask about delivery.",
+      "neighborhood": "You'll find us on Sycamore Road, the busy retail corridor on DeKalb's north side that runs toward neighboring Sycamore."
+    },
+    "cta": {
+      "heading": "Hungry? Order Carryout Now",
+      "text": "Skip the wait and call ahead. Your fresh, made-to-order favorites will be hot and ready for pickup, or ask about delivery.",
+      "button": "Call (815) 748-0032"
+    },
+    "form": {
+      "heading": "Send Us a Message",
+      "subheading": "Have a question about your order, catering, or large group orders? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Order Size / Party Size",
+      "date": "Preferred Date/Time",
+      "message": "How can we help? Tell us about your order or question.",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We received your message and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Family-run Chinese food keeping DeKalb fed with fresh wok cooking and generous portions.",
+      "rights": "© China House. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "China House | Comida China para Llevar y Entrega en DeKalb, IL",
+      "description": "Restaurante chino familiar en Sycamore Road, DeKalb, IL. Cocina fresca al wok, porciones generosas, para llevar y a domicilio. Llama al (815) 748-0032."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Ordenar"
+    },
+    "hero": {
+      "eyebrow": "Un Favorito de DeKalb y NIU",
+      "title": "Cocina Fresca al Wok,",
+      "titleAccent": "Porciones Generosas",
+      "subtitle": "Comida china familiar hecha al momento con los clásicos de siempre, porciones grandes y precios que hacen que DeKalb regrese. Comida rápida para llevar y entrega, todos los días.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Llama para Ordenar",
+      "badge": "Empresa Familiar · Comida Rápida para Llevar y Entrega · Gran Valor"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Cocina Fresca al Wok",
+        "text": "Cada orden se prepara al momento en el wok, así tu comida llega caliente, aromática y llena de sabor."
+      },
+      {
+        "icon": "heart",
+        "title": "Familiar y Amable",
+        "text": "Una cocina independiente y familiar que trata a cada cliente como a un vecino, porque la mayoría lo son."
+      },
+      {
+        "icon": "star",
+        "title": "Un Favorito de DeKalb y NIU",
+        "text": "Desde hace años, la opción preferida de estudiantes, familias y locales que buscan porciones generosas y sabores confiables."
+      },
+      {
+        "icon": "leaf",
+        "title": "Fresco y Gran Valor",
+        "text": "Verduras crujientes, proteínas de calidad y porciones grandes que te llenan sin vaciar tu bolsillo."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Los platillos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Llama al (815) 748-0032 para conocer la oferta y los precios actuales.",
+      "categories": [
+        {
+          "id": "appetizers",
+          "name": "Entradas",
+          "blurb": "Aperitivos crujientes y sabrosos hechos al momento para abrir el apetito.",
+          "items": [
+            {
+              "name": "Rollos de Huevo (2)",
+              "desc": "Rollos dorados y crujientes rellenos de cerdo sazonado y col crocante.",
+              "price": "$3.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Rangoon de Cangrejo (6)",
+              "desc": "Wontones crujientes rellenos de cangrejo cremoso y queso crema, fritos al momento.",
+              "price": "$5.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Potstickers de Cerdo (6)",
+              "desc": "Empanaditas de cerdo selladas a la sartén, servidas con salsa de la casa.",
+              "price": "$6.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Rollos Primavera de Vegetales (2)",
+              "desc": "Rollos ligeros y crujientes rellenos de vegetales frescos sazonados.",
+              "price": "$3.50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Wontones Fritos (10)",
+              "desc": "Wontones fritos y crujientes servidos con salsa agridulce.",
+              "price": "$4.95",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "house-specialties",
+          "name": "Especialidades de la Casa",
+          "blurb": "Los clásicos favoritos que hacen que DeKalb regrese una y otra vez.",
+          "items": [
+            {
+              "name": "Pollo General Tso",
+              "desc": "Pollo crujiente bañado en nuestra salsa especial dulce, ácida y un poco picante.",
+              "price": "$11.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Pollo con Ajonjolí",
+              "desc": "Pollo ligeramente empanizado en una salsa dulce brillante con ajonjolí tostado.",
+              "price": "$11.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Res con Brócoli",
+              "desc": "Res tierna y brócoli crujiente en una sabrosa salsa de ajo.",
+              "price": "$12.50",
+              "tags": []
+            },
+            {
+              "name": "Cerdo Agridulce",
+              "desc": "Cerdo crujiente con piña, pimientos y cebolla en salsa agridulce.",
+              "price": "$11.50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Pollo Kung Pao",
+              "desc": "Pollo salteado al wok con cacahuates, pimientos y chiles secos para un toque picante.",
+              "price": "$11.95",
+              "tags": []
+            },
+            {
+              "name": "Pollo a la Naranja",
+              "desc": "Pollo crujiente en un glaseado de naranja brillante y cítrico.",
+              "price": "$11.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "noodles-rice",
+          "name": "Fideos y Arroz",
+          "blurb": "Fideos salteados al wok y arroz frito, generosos y satisfactorios.",
+          "items": [
+            {
+              "name": "Lo Mein de Pollo",
+              "desc": "Fideos de huevo suaves salteados con pollo y vegetales frescos.",
+              "price": "$9.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Arroz Frito de la Casa",
+              "desc": "Arroz frito al wok con huevo, cebollín y tu proteína a elegir.",
+              "price": "$9.50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Chow Mein de Pollo",
+              "desc": "Fideos salteados con pollo, col y germen de soya crujiente.",
+              "price": "$9.95",
+              "tags": []
+            },
+            {
+              "name": "Chow Fun de Res",
+              "desc": "Fideos anchos de arroz salteados al wok con res tierna y cebolla.",
+              "price": "$11.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Fideos de Arroz Singapur",
+              "desc": "Fideos finos de arroz en una aromática salsa de curry con camarón y pollo.",
+              "price": "$11.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "combo-plates",
+          "name": "Combos",
+          "blurb": "Combos de almuerzo servidos con arroz frito y un rollo primavera. Gran valor.",
+          "items": [
+            {
+              "name": "Combo de Pollo General Tso",
+              "desc": "Nuestro famoso General Tso con arroz frito y un rollo primavera crujiente.",
+              "price": "$8.95",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Combo de Pollo con Ajonjolí",
+              "desc": "Pollo dulce con ajonjolí servido con arroz frito y un rollo primavera.",
+              "price": "$8.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Combo de Res con Brócoli",
+              "desc": "Res con brócoli en salsa de ajo con arroz frito y un rollo primavera.",
+              "price": "$9.25",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Combo de Pollo Kung Pao",
+              "desc": "Pollo kung pao picante con arroz frito y un rollo primavera crujiente.",
+              "price": "$8.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Combo de Pollo Agridulce",
+              "desc": "Pollo agridulce crujiente con arroz frito y un rollo primavera.",
+              "price": "$8.95",
+              "tags": [
+                "fast",
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "soups-sides",
+          "name": "Sopas y Acompañamientos",
+          "blurb": "Sopas reconfortantes y los acompañamientos que completan tu comida.",
+          "items": [
+            {
+              "name": "Sopa de Wonton",
+              "desc": "Delicados wontones de cerdo en un caldo claro y sabroso con cebollín.",
+              "price": "$3.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Sopa de Huevo",
+              "desc": "Sedosas hebras de huevo en un caldo de pollo dorado y sustancioso.",
+              "price": "$2.95",
+              "tags": []
+            },
+            {
+              "name": "Sopa Agripicante",
+              "desc": "Caldo intenso y picosito con tofu, champiñones y brotes de bambú.",
+              "price": "$3.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Arroz Blanco al Vapor",
+              "desc": "Arroz fresco al vapor, suave y esponjoso, perfecto con cualquier platillo.",
+              "price": "$1.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Empanaditas al Vapor (6)",
+              "desc": "Tiernas empanaditas de cerdo al vapor servidas con salsa para mojar.",
+              "price": "$6.50",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Tu Cocina China de Barrio",
+      "lead": "China House es un favorito familiar de DeKalb que sirve cocina fresca al wok, porciones generosas y un trato amable a un precio que simplemente tiene sentido.",
+      "paragraphs": [
+        "Desde estudiantes ocupados de NIU hasta familias que buscan una cena fácil entre semana, DeKalb ha confiado en China House para sus clásicos chinos hechos como se debe. Cada orden se cocina fresca en el wok, viene en porciones generosas y está lista rápido para llevar o a domicilio.",
+        "Lo mantenemos sencillo: ingredientes de calidad, sabores confiables y caras amables que conocen a sus clientes por nombre. Ya sea que se te antoje un General Tso, un tazón caliente de sopa o un combo de almuerzo económico, nos enorgullece ser tu cocina china de barrio."
+      ],
+      "stats": [
+        {
+          "value": "Fresco",
+          "label": "Cocina al Wok"
+        },
+        {
+          "value": "Rápido",
+          "label": "Para Llevar y Entrega"
+        },
+        {
+          "value": "7 Días",
+          "label": "Abierto a la Semana"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Sabor de China House",
+      "subheading": "Un vistazo a los platillos frescos y hechos al momento que salen de nuestro wok cada día.",
+      "captions": [
+        "Pollo General Tso crujiente recién salido del wok",
+        "Rollos primavera dorados y rangoon de cangrejo",
+        "Res con brócoli en salsa de ajo bien caliente",
+        "Porciones generosas de arroz frito de la casa",
+        "Tazones humeantes de sopa de wonton",
+        "Combos de almuerzo económicos listos para llevar"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice DeKalb",
+      "items": [
+        {
+          "quote": "La mejor comida china de DeKalb, sin duda. Las porciones son enormes y el General Tso siempre está crujiente. Mi favorito desde primer año.",
+          "name": "Jordan K.",
+          "role": "Estudiante de NIU"
+        },
+        {
+          "quote": "Pedimos de China House casi todos los viernes. Siempre fresco, siempre rápido, y los combos de almuerzo son un valor inmejorable.",
+          "name": "Maria L.",
+          "role": "Cliente frecuente en DeKalb"
+        },
+        {
+          "quote": "Una familia amable que lleva una gran cocina. La comida para llevar está lista justo a la hora que dicen, y todo sabe casero.",
+          "name": "Derek S.",
+          "role": "Cliente local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en DeKalb",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "11:00 AM - 9:30 PM"
+        },
+        {
+          "day": "Viernes - Sábado",
+          "time": "11:00 AM - 10:30 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "12:00 PM - 9:00 PM"
+        }
+      ],
+      "phoneLabel": "Llama para Ordenar",
+      "directions": "Encuéntranos en 1900 Sycamore Road en DeKalb, IL, a solo minutos de NIU. Llama con anticipación y tu orden estará caliente y lista para llevar, o pregunta por la entrega a domicilio.",
+      "neighborhood": "Nos encuentras sobre Sycamore Road, el concurrido corredor comercial del norte de DeKalb que lleva hacia el vecino pueblo de Sycamore."
+    },
+    "cta": {
+      "heading": "¿Con Hambre? Ordena para Llevar Ahora",
+      "text": "Evita la espera y llama con anticipación. Tus favoritos frescos y hechos al momento estarán calientes y listos para recoger, o pregunta por la entrega a domicilio.",
+      "button": "Llamar al (815) 748-0032"
+    },
+    "form": {
+      "heading": "Envíanos un Mensaje",
+      "subheading": "¿Tienes una pregunta sobre tu orden, banquetes o pedidos para grupos grandes? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Pedido / Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo podemos ayudarte? Cuéntanos sobre tu pedido o pregunta.",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Comida china familiar que mantiene a DeKalb bien servido con cocina fresca al wok y porciones generosas.",
+      "rights": "© China House. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

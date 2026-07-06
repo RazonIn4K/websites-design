@@ -1,0 +1,662 @@
+{
+  "business": {
+    "name": "Yellow Bird Books",
+    "shortName": "Yellow Bird",
+    "vertical": "Independent Bookstore",
+    "phone": "",
+    "phoneHref": "",
+    "address": "34 South Stolp Avenue",
+    "city": "Aurora",
+    "state": "IL",
+    "zip": "60506",
+    "mapsQuery": "Yellow Bird Books, 34 South Stolp Avenue, Aurora, IL 60506"
+  },
+  "en": {
+    "meta": {
+      "title": "Yellow Bird Books | Independent Bookstore in Aurora, IL",
+      "description": "A warm, curated independent bookstore in downtown Aurora, IL. Handwritten staff picks, a cozy reading nook, kids' story times, gifts, stationery & special orders."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Sections",
+      "about": "About",
+      "gallery": "The Shop",
+      "visit": "Visit",
+      "order": "Visit the Shop"
+    },
+    "hero": {
+      "eyebrow": "Independent & Locally Owned · Downtown Aurora",
+      "title": "Your Cozy Corner Bookstore",
+      "titleAccent": "in Downtown Aurora",
+      "subtitle": "A warm, curated independent bookshop where handwritten staff picks line the shelves, a reading nook waits in the corner, and a quick browse has a way of turning into an afternoon.",
+      "ctaPrimary": "Browse Our Sections",
+      "ctaSecondary": "Plan Your Visit",
+      "badge": "Handwritten Staff Picks · Story Times · Special Orders Welcome"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "Handwritten Staff Picks",
+        "text": "Every shelf is lined with honest, handwritten notes from real readers, so you always leave with something you'll love."
+      },
+      {
+        "icon": "sparkle",
+        "title": "A Cozy Reading Nook",
+        "text": "Settle into the corner with a stack and a soft chair. Stay a while, this is the kind of place a browse becomes an afternoon."
+      },
+      {
+        "icon": "star",
+        "title": "Story Times for Kids",
+        "text": "Bring the little ones for weekly story times and a kids' corner full of picture books, early readers, and big adventures."
+      },
+      {
+        "icon": "leaf",
+        "title": "Special Orders Welcome",
+        "text": "Looking for something we don't have on the shelf? We'll happily track it down and order any book in print for you."
+      }
+    ],
+    "menu": {
+      "heading": "Browse Our Sections",
+      "subheading": "Titles, selections, and prices shown are illustrative demo content for this sample site. Stop by the shop for our current shelves, new arrivals, and special orders.",
+      "categories": [
+        {
+          "id": "fiction-literature",
+          "name": "Fiction & Literature",
+          "blurb": "New novels, beloved classics, and the handwritten staff picks our readers can't stop talking about.",
+          "items": [
+            {
+              "name": "New Fiction Hardcover",
+              "desc": "The season's most talked-about new releases, fresh on the front table the week they arrive.",
+              "price": "$28",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Staff Pick of the Month",
+              "desc": "Our booksellers' current obsession, complete with a handwritten note on why you'll love it.",
+              "price": "$18",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Book Club Paperback",
+              "desc": "The titles our local reading groups are diving into, ready for your next discussion night.",
+              "price": "$17",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Contemporary Fiction",
+              "desc": "A rotating shelf of voices, stories, and worlds worth getting lost in this season.",
+              "price": "$17",
+              "tags": []
+            },
+            {
+              "name": "Literary Classics",
+              "desc": "Timeless paperbacks and handsome editions of the books worth reading more than once.",
+              "price": "$14",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nonfiction-local",
+          "name": "Nonfiction & Local",
+          "blurb": "History, memoir, and the Illinois and Fox Valley stories close to home, with a soft spot for Aurora.",
+          "items": [
+            {
+              "name": "Illinois History & Lore",
+              "desc": "Deep dives into the people, places, and stories that shaped the Prairie State.",
+              "price": "$24",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Memoir & Essays",
+              "desc": "Honest, beautifully written lives and ideas, from quiet reflections to unforgettable journeys.",
+              "price": "$19",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Aurora & Fox Valley Interest",
+              "desc": "Local guides, photo histories, and hometown stories from right here in the valley.",
+              "price": "$22",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Cookbooks & Food Writing",
+              "desc": "Recipes, kitchen stories, and gorgeous tables to gather around, for browsing and cooking alike.",
+              "price": "$30",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kids-young-readers",
+          "name": "Kids & Young Readers",
+          "blurb": "A bright corner for the littlest readers and the not-so-little, from board books to big YA adventures.",
+          "items": [
+            {
+              "name": "Picture Books",
+              "desc": "Big, beautiful read-aloud favorites for story time, bedtime, and everything in between.",
+              "price": "$12",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Board Books for Babies",
+              "desc": "Chunky, chew-proof first books built for the smallest hands and the earliest pages.",
+              "price": "$8",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Early & Chapter Readers",
+              "desc": "Just-right titles that turn brand-new readers into can't-put-it-down readers.",
+              "price": "$9",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Middle Grade Adventures",
+              "desc": "Funny, brave, and big-hearted stories for the 8-to-12 crowd and the grown-ups who read along.",
+              "price": "$14",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Young Adult (YA)",
+              "desc": "The shelves teen readers swear by, from first crushes to whole new worlds.",
+              "price": "$13",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gifts-stationery",
+          "name": "Gifts & Stationery",
+          "blurb": "The little extras worth picking up at the counter, cards, journals, candles, and totes for fellow book lovers.",
+          "items": [
+            {
+              "name": "Greeting Cards",
+              "desc": "A wall of cards for every occasion, plus plenty of just-because, no occasion required.",
+              "price": "$5",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Linen Journals",
+              "desc": "Cloth-bound journals and notebooks that feel as good to hold as they do to fill.",
+              "price": "$16",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Hand-Poured Candles",
+              "desc": "Cozy, slow-burning scents that pair perfectly with a good book and a quiet afternoon.",
+              "price": "$24",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Canvas Book Tote",
+              "desc": "A sturdy everyday tote for hauling home your next stack, with room to spare.",
+              "price": "$22",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Little Bookshop with a Big Heart",
+      "lead": "Yellow Bird Books is an independent bookstore in downtown Aurora, the kind of warm, curated corner shop where the staff picks are handwritten and a quick browse has a way of turning into an afternoon.",
+      "paragraphs": [
+        "We believe a great bookstore is more than its shelves. It's the handwritten note that points you toward your next favorite read, the cozy nook where you lose track of time, and the friendly face who remembers what you loved last month. Every section here is hand-curated by booksellers who actually read what they recommend.",
+        "Bring the kids for story time, settle into the reading nook with a stack, or come find a gift for someone special. And if we don't have the book you're after, just ask, we love a good hunt and we're always happy to place a special order just for you."
+      ],
+      "stats": [
+        {
+          "value": "Independent",
+          "label": "& Locally Owned"
+        },
+        {
+          "value": "Staff Picks",
+          "label": "Handwritten & Honest"
+        },
+        {
+          "value": "Story Times",
+          "label": "For Young Readers"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside Yellow Bird Books",
+      "subheading": "A peek at the cozy shelves, the reading nook, and the handwritten picks waiting for you in downtown Aurora.",
+      "captions": [
+        "Handwritten staff picks tucked along the shelves",
+        "The cozy reading nook, made for losing track of time",
+        "New arrivals fresh on the front table",
+        "The bright kids' corner, ready for story time",
+        "Cards, journals, and candles at the gift counter",
+        "Stacks of staff favorites waiting to be discovered"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Aurora Is Saying",
+      "items": [
+        {
+          "quote": "I came in for one book and left an hour later with three and a new favorite candle. The staff picks are spot-on every single time.",
+          "name": "Hannah M.",
+          "role": "Regular customer"
+        },
+        {
+          "quote": "My kids beg to go to story time every week. It's become our favorite little ritual, and we never leave empty-handed.",
+          "name": "Carlos R.",
+          "role": "Local parent"
+        },
+        {
+          "quote": "They special-ordered a hard-to-find book for me and had it in days. This is exactly the kind of bookshop a downtown needs.",
+          "name": "Beth K.",
+          "role": "Longtime reader"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Downtown Aurora",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "10:00 AM - 7:00 PM"
+        },
+        {
+          "day": "Friday - Saturday",
+          "time": "10:00 AM - 8:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM - 5:00 PM"
+        }
+      ],
+      "phoneLabel": "Special Orders",
+      "directions": "You'll find us at 34 South Stolp Avenue in the heart of downtown Aurora. Stop in to browse the shelves, settle into the reading nook, or ask us to special-order any book in print, we're always glad to help you find it."
+    },
+    "cta": {
+      "heading": "Come Browse a While",
+      "text": "Wander the shelves, meet our staff picks, and find your next favorite read. Bring the kids for story time or stop by the gift counter, the reading nook is always open.",
+      "button": "Plan Your Visit"
+    },
+    "form": {
+      "heading": "Send Us a Message",
+      "subheading": "Have a question about an event, looking for a recommendation, or want to place a special order? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Book or Topic",
+      "date": "Preferred Date/Time",
+      "message": "How can we help? Tell us what you're looking for or what to special-order.",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We received your message and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "A warm, curated independent bookstore in downtown Aurora, handwritten staff picks, a cozy reading nook, and the kind of place where a browse becomes an afternoon.",
+      "rights": "© Yellow Bird Books. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Yellow Bird Books | Librería Independiente en Aurora, IL",
+      "description": "Una librería independiente cálida y bien curada en el centro de Aurora, IL. Recomendaciones escritas a mano, un rincón de lectura acogedor, cuentos para niños, regalos y pedidos especiales."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Secciones",
+      "about": "Nosotros",
+      "gallery": "La Librería",
+      "visit": "Visita",
+      "order": "Visítanos"
+    },
+    "hero": {
+      "eyebrow": "Independiente y de Dueños Locales · Centro de Aurora",
+      "title": "Tu Librería de Barrio",
+      "titleAccent": "en el Centro de Aurora",
+      "subtitle": "Una librería independiente cálida y bien curada donde las recomendaciones escritas a mano llenan los estantes, un rincón de lectura te espera en la esquina y un vistazo rápido suele convertirse en toda una tarde.",
+      "ctaPrimary": "Explora Nuestras Secciones",
+      "ctaSecondary": "Planea tu Visita",
+      "badge": "Recomendaciones Escritas a Mano · Cuentos para Niños · Pedidos Especiales"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "Recomendaciones Escritas a Mano",
+        "text": "Cada estante lleva notas honestas y escritas a mano por lectores de verdad, para que siempre salgas con algo que te encantará."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Un Rincón de Lectura Acogedor",
+        "text": "Acomódate en la esquina con una pila de libros y una silla suave. Quédate un rato, aquí un vistazo se vuelve toda una tarde."
+      },
+      {
+        "icon": "star",
+        "title": "Cuentos para Niños",
+        "text": "Trae a los pequeños a la hora del cuento cada semana y a un rincón infantil lleno de libros ilustrados, primeras lecturas y grandes aventuras."
+      },
+      {
+        "icon": "leaf",
+        "title": "Pedidos Especiales Bienvenidos",
+        "text": "¿Buscas algo que no tenemos en el estante? Con gusto lo localizamos y pedimos cualquier libro impreso especialmente para ti."
+      }
+    ],
+    "menu": {
+      "heading": "Explora Nuestras Secciones",
+      "subheading": "Los títulos, las selecciones y los precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Pásate por la librería para ver los estantes actuales, las novedades y los pedidos especiales.",
+      "categories": [
+        {
+          "id": "fiction-literature",
+          "name": "Ficción y Literatura",
+          "blurb": "Novelas nuevas, clásicos queridos y las recomendaciones escritas a mano de las que nuestros lectores no dejan de hablar.",
+          "items": [
+            {
+              "name": "Novedad de Ficción en Pasta Dura",
+              "desc": "Los lanzamientos más comentados de la temporada, en la mesa principal la semana en que llegan.",
+              "price": "$28",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Recomendación del Mes",
+              "desc": "La obsesión actual de nuestros libreros, con una nota escrita a mano sobre por qué te encantará.",
+              "price": "$18",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Edición de Club de Lectura",
+              "desc": "Los títulos que nuestros grupos de lectura locales están leyendo, listos para tu próxima noche de charla.",
+              "price": "$17",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Ficción Contemporánea",
+              "desc": "Un estante rotativo de voces, historias y mundos en los que vale la pena perderse esta temporada.",
+              "price": "$17",
+              "tags": []
+            },
+            {
+              "name": "Clásicos de la Literatura",
+              "desc": "Ediciones de bolsillo atemporales y ejemplares preciosos de los libros que vale la pena releer.",
+              "price": "$14",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nonfiction-local",
+          "name": "No Ficción y Local",
+          "blurb": "Historia, memorias y las historias de Illinois y el Fox Valley cercanas a casa, con un cariño especial por Aurora.",
+          "items": [
+            {
+              "name": "Historia y Leyendas de Illinois",
+              "desc": "Recorridos a fondo por las personas, los lugares y las historias que formaron el estado de la pradera.",
+              "price": "$24",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Memorias y Ensayos",
+              "desc": "Vidas e ideas honestas y bellamente escritas, desde reflexiones tranquilas hasta viajes inolvidables.",
+              "price": "$19",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Interés de Aurora y el Fox Valley",
+              "desc": "Guías locales, historias en fotos y relatos del pueblo, desde aquí mismo en el valle.",
+              "price": "$22",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Libros de Cocina y Gastronomía",
+              "desc": "Recetas, historias de cocina y mesas preciosas para reunirse, tanto para hojear como para cocinar.",
+              "price": "$30",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kids-young-readers",
+          "name": "Niños y Jóvenes Lectores",
+          "blurb": "Un rincón luminoso para los lectores más pequeños y los no tan pequeños, desde libros de cartón hasta grandes aventuras juveniles.",
+          "items": [
+            {
+              "name": "Libros Ilustrados",
+              "desc": "Grandes y hermosos favoritos para leer en voz alta, en la hora del cuento, a la hora de dormir y entre medio.",
+              "price": "$12",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Libros de Cartón para Bebés",
+              "desc": "Primeros libros gruesos y a prueba de mordidas, hechos para las manitas más pequeñas y las primeras páginas.",
+              "price": "$8",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Primeras Lecturas y por Capítulos",
+              "desc": "Títulos a la medida que convierten a los lectores novatos en lectores que no pueden soltar el libro.",
+              "price": "$9",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Aventuras de Grado Medio",
+              "desc": "Historias divertidas, valientes y de gran corazón para niños de 8 a 12 años y los adultos que leen con ellos.",
+              "price": "$14",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Jóvenes Adultos (YA)",
+              "desc": "Los estantes en los que confían los lectores adolescentes, desde primeros amores hasta mundos completamente nuevos.",
+              "price": "$13",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gifts-stationery",
+          "name": "Regalos y Papelería",
+          "blurb": "Los pequeños extras que vale la pena llevar en el mostrador, tarjetas, cuadernos, velas y bolsas para los amantes de los libros.",
+          "items": [
+            {
+              "name": "Tarjetas de Felicitación",
+              "desc": "Una pared de tarjetas para cada ocasión, y muchas para regalar porque sí, sin ocasión necesaria.",
+              "price": "$5",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Cuadernos de Lino",
+              "desc": "Cuadernos y libretas encuadernados en tela que se sienten tan bien al sostenerlos como al llenarlos.",
+              "price": "$16",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Velas Hechas a Mano",
+              "desc": "Aromas acogedores y de combustión lenta que combinan perfecto con un buen libro y una tarde tranquila.",
+              "price": "$24",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Bolsa de Lona para Libros",
+              "desc": "Una bolsa resistente para el día a día, para llevar tu próxima pila a casa con espacio de sobra.",
+              "price": "$22",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Una Librería Pequeña con un Gran Corazón",
+      "lead": "Yellow Bird Books es una librería independiente en el centro de Aurora, ese tipo de tienda de barrio cálida y bien curada donde las recomendaciones se escriben a mano y un vistazo rápido suele convertirse en toda una tarde.",
+      "paragraphs": [
+        "Creemos que una gran librería es más que sus estantes. Es la nota escrita a mano que te lleva hacia tu próxima lectura favorita, el rincón acogedor donde pierdes la noción del tiempo y la cara amable que recuerda lo que te encantó el mes pasado. Cada sección está curada a mano por libreros que de verdad leen lo que recomiendan.",
+        "Trae a los niños a la hora del cuento, acomódate en el rincón de lectura con una pila de libros o ven a buscar un regalo para alguien especial. Y si no tenemos el libro que buscas, solo pregunta, nos encanta una buena búsqueda y siempre estamos felices de hacer un pedido especial solo para ti."
+      ],
+      "stats": [
+        {
+          "value": "Independiente",
+          "label": "y de Dueños Locales"
+        },
+        {
+          "value": "Recomendaciones",
+          "label": "Escritas a Mano y Honestas"
+        },
+        {
+          "value": "Hora del Cuento",
+          "label": "Para Jóvenes Lectores"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Dentro de Yellow Bird Books",
+      "subheading": "Un vistazo a los estantes acogedores, el rincón de lectura y las recomendaciones escritas a mano que te esperan en el centro de Aurora.",
+      "captions": [
+        "Recomendaciones escritas a mano acomodadas entre los estantes",
+        "El rincón de lectura acogedor, hecho para perder la noción del tiempo",
+        "Novedades frescas en la mesa principal",
+        "El luminoso rincón infantil, listo para la hora del cuento",
+        "Tarjetas, cuadernos y velas en el mostrador de regalos",
+        "Pilas de favoritos de los libreros esperando ser descubiertos"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice Aurora",
+      "items": [
+        {
+          "quote": "Entré por un libro y salí una hora después con tres y una vela nueva favorita. Las recomendaciones del personal dan justo en el blanco cada vez.",
+          "name": "Hannah M.",
+          "role": "Cliente frecuente"
+        },
+        {
+          "quote": "Mis hijos ruegan ir a la hora del cuento cada semana. Se ha vuelto nuestro pequeño ritual favorito, y nunca nos vamos con las manos vacías.",
+          "name": "Carlos R.",
+          "role": "Padre local"
+        },
+        {
+          "quote": "Me hicieron un pedido especial de un libro difícil de encontrar y lo tuvieron en días. Esta es justo la librería que un centro necesita.",
+          "name": "Beth K.",
+          "role": "Lectora de siempre"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en el Centro de Aurora",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "10:00 AM - 7:00 PM"
+        },
+        {
+          "day": "Viernes - Sábado",
+          "time": "10:00 AM - 8:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM - 5:00 PM"
+        }
+      ],
+      "phoneLabel": "Pedidos Especiales",
+      "directions": "Nos encuentras en 34 South Stolp Avenue, en el corazón del centro de Aurora. Pásate a recorrer los estantes, acomódate en el rincón de lectura o pídenos un pedido especial de cualquier libro impreso, siempre estamos felices de ayudarte a encontrarlo."
+    },
+    "cta": {
+      "heading": "Ven a Hojear un Rato",
+      "text": "Recorre los estantes, descubre nuestras recomendaciones y encuentra tu próxima lectura favorita. Trae a los niños a la hora del cuento o pásate por el mostrador de regalos, el rincón de lectura siempre está abierto.",
+      "button": "Planea tu Visita"
+    },
+    "form": {
+      "heading": "Envíanos un Mensaje",
+      "subheading": "¿Tienes una pregunta sobre un evento, buscas una recomendación o quieres hacer un pedido especial? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Libro o Tema",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo podemos ayudarte? Cuéntanos qué buscas o qué pedido especial quieres hacer.",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Una librería independiente cálida y bien curada en el centro de Aurora, recomendaciones escritas a mano, un rincón de lectura acogedor y ese tipo de lugar donde un vistazo se vuelve toda una tarde.",
+      "rights": "© Yellow Bird Books. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

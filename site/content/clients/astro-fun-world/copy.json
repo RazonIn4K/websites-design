@@ -1,0 +1,654 @@
+{
+  "business": {
+    "name": "Astro Fun World",
+    "shortName": "Astro Fun World",
+    "vertical": "Family Fun Center & Arcade",
+    "phone": "(630) 273-3331",
+    "phoneHref": "+16302733331",
+    "address": "301 South Illinois Route 59",
+    "city": "Aurora",
+    "state": "IL",
+    "zip": "60504",
+    "mapsQuery": "Astro Fun World, 301 South Illinois Route 59, Aurora, IL 60504",
+    "lat": 41.7508291,
+    "lon": -88.2068152
+  },
+  "en": {
+    "meta": {
+      "title": "Astro Fun World | Family Fun Center & Arcade in Aurora, IL",
+      "description": "Go-karts, mini golf, bumper cars, laser tag & a wall-to-wall arcade in Aurora, IL. The go-to for birthday parties & family fun. Call (630) 273-3331."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Attractions",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Plan a Visit"
+    },
+    "hero": {
+      "eyebrow": "Aurora's Family Fun Center",
+      "title": "Go-Karts, Games",
+      "titleAccent": "& Good Times",
+      "subtitle": "A bright, buzzing family fun center in Aurora packed with go-karts, mini golf, bumper cars, laser tag, and a wall-to-wall arcade. The go-to spot for birthday parties, rainy days, and burning off energy with the whole family.",
+      "ctaPrimary": "See Attractions",
+      "ctaSecondary": "Call to Plan a Visit",
+      "badge": "Go-Karts · Arcade · Birthday Parties · All Ages"
+    },
+    "highlights": [
+      {
+        "icon": "gauge",
+        "title": "Thrills for Every Age",
+        "text": "Race the go-karts, bump it out in bumper cars, and sink a putt on mini golf. Outdoor and indoor fun the whole family can share."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Wall-to-Wall Arcade",
+        "text": "Hundreds of games, claw machines, VR, and a redemption counter stacked with prizes. Win tickets and cash them in for the good stuff."
+      },
+      {
+        "icon": "heart",
+        "title": "Birthday Party HQ",
+        "text": "Stress-free party packages with games, food, and a dedicated host. We handle the fun so you can just enjoy the day."
+      },
+      {
+        "icon": "star",
+        "title": "The Local Go-To",
+        "text": "Rainy day, school break, or just-because — Astro Fun World is where Aurora families come to make a day of it."
+      }
+    ],
+    "menu": {
+      "heading": "Attractions & Fun",
+      "subheading": "Attractions, prices, and packages shown are illustrative demo content for this sample site and may not reflect current offerings or pricing.",
+      "categories": [
+        {
+          "id": "attractions",
+          "name": "Attractions",
+          "blurb": "The big-ticket fun. Race, bump, putt, and tag your way through the day.",
+          "items": [
+            {
+              "name": "Go-Karts",
+              "desc": "Take the wheel and race around our track. A fast, family favorite for riders ready for the fast lane.",
+              "price": "From $8",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Mini Golf",
+              "desc": "Putt your way through a fun, winding course full of twists, turns, and friendly competition.",
+              "price": "From $7",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bumper Cars",
+              "desc": "Buckle up and bump into the fun. Laughs guaranteed every time you spin and crash.",
+              "price": "From $6",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Laser Tag",
+              "desc": "Gear up and team up for high-energy laser tag battles in our arena. Strategy meets pure fun.",
+              "price": "From $9",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "arcade-redemption",
+          "name": "Arcade & Redemption",
+          "blurb": "Hundreds of games, big wins, and a prize counter worth playing for.",
+          "items": [
+            {
+              "name": "Arcade Games",
+              "desc": "Classic favorites and the latest hits, all under one roof. Load up a card and start racking up tickets.",
+              "price": "From $1",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Redemption Prizes",
+              "desc": "Cash in your tickets at the prize counter for toys, candy, gadgets, and the big-ticket grand prizes.",
+              "price": "Earn Tickets",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Claw Machines",
+              "desc": "Line up your grab and go for the win. Plush, prizes, and that one-more-try thrill.",
+              "price": "From $1",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "VR Experience",
+              "desc": "Step into another world with immersive virtual reality games and adventures for all ages.",
+              "price": "From $6",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "parties-groups",
+          "name": "Parties & Groups",
+          "blurb": "Birthdays, field trips, and fundraisers made easy with packages built for groups.",
+          "items": [
+            {
+              "name": "Birthday Packages",
+              "desc": "Games, attractions, food, and a dedicated party host. We set up, serve, and clean up so you can celebrate.",
+              "price": "From $18",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Group Rates",
+              "desc": "Bringing a crowd? Special group pricing on attractions and game play for teams, clubs, and big families.",
+              "price": "From $14",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Fundraiser Nights",
+              "desc": "Turn an evening of fun into funds for your school, team, or cause with our fundraiser packages.",
+              "price": "Custom",
+              "tags": []
+            },
+            {
+              "name": "Field Trips",
+              "desc": "A fun, active outing for school and camp groups, with attraction and game bundles for every size.",
+              "price": "From $12",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "passes-snacks",
+          "name": "Passes & Snacks",
+          "blurb": "All-day fun, reloadable game cards, and snacks to keep the energy up.",
+          "items": [
+            {
+              "name": "Day Pass",
+              "desc": "One price, all-day access to attractions. The best value for a full day of family fun.",
+              "price": "From $25",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Game Card",
+              "desc": "Reloadable card for arcade play. Load it up, tap to play, and add more anytime.",
+              "price": "From $10",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Snacks & Pizza",
+              "desc": "Refuel with hot pizza, snacks, and ice-cold drinks between rounds of fun.",
+              "price": "From $4",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Season Pass",
+              "desc": "Unlimited visits all season long. Perfect for families who make Astro their go-to.",
+              "price": "From $99",
+              "tags": [
+                "value",
+                "signature"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Where Aurora Comes to Play",
+      "lead": "Astro Fun World is an independent family fun center and arcade in Aurora — go-karts, mini golf, bumper cars, laser tag, and a wall-to-wall arcade all in one bright, buzzing spot.",
+      "paragraphs": [
+        "We built Astro Fun World to be the go-to for families across Aurora, Illinois's second-largest city — the place you come for birthday parties, rainy days, school breaks, and burning off energy with the whole crew. Race the go-karts, sink a putt, bump into the fun, and trade in your arcade tickets for a counter full of prizes.",
+        "From first-timers to seasoned high-scorers, there's something here for every age. Book a birthday, bring a group, or just stop in for an afternoon — at Astro Fun World, good times are always on the menu."
+      ],
+      "stats": [
+        {
+          "value": "All Ages",
+          "label": "Family Fun"
+        },
+        {
+          "value": "100s",
+          "label": "Arcade Games"
+        },
+        {
+          "value": "Rain or Shine",
+          "label": "Indoor & Outdoor"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Look Around Astro",
+      "subheading": "A peek at the go-karts, games, and grins that make a day at Astro Fun World.",
+      "captions": [
+        "Go-karts revving up on the track",
+        "Mini golf putts and friendly rivalries",
+        "Bumper cars spinning into the fun",
+        "The wall-to-wall arcade lit up and buzzing",
+        "Tickets cashed in at the prize counter",
+        "Birthday parties and big group celebrations"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Families Are Saying",
+      "items": [
+        {
+          "quote": "Our go-to for rainy days. The kids hit the arcade and go-karts for hours and we all leave happy. Such an easy day out.",
+          "name": "Melissa R.",
+          "role": "Aurora parent"
+        },
+        {
+          "quote": "Booked my son's birthday here and it was stress-free start to finish. The host handled everything and the kids had a blast.",
+          "name": "David T.",
+          "role": "Birthday party host"
+        },
+        {
+          "quote": "Go-karts, laser tag, and a huge arcade all in one spot. The prize counter is the best part — my kids save up their tickets every visit.",
+          "name": "Andrea S.",
+          "role": "Local regular"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit Astro Fun World",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "11:00 AM - 8:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "11:00 AM - 10:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "10:00 AM - 10:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM - 7:00 PM"
+        }
+      ],
+      "phoneLabel": "Call Us",
+      "directions": "Find us at 301 South Illinois Route 59 in Aurora, IL. Call (630) 273-3331 to plan a visit, book a birthday party, or ask about group rates and packages.",
+      "neighborhood": "You'll find us on Aurora's east side along the busy Route 59 corridor, just down the road from Fox Valley Mall."
+    },
+    "cta": {
+      "heading": "Ready to Make a Day of It?",
+      "text": "Plan a visit, book a birthday party, or ask about group rates and fundraisers. Give us a call and we'll help you set it all up.",
+      "button": "Call (630) 273-3331"
+    },
+    "form": {
+      "heading": "Plan a Visit or Party",
+      "subheading": "Booking a birthday, planning a group outing, or just have a question? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Group Size",
+      "date": "Preferred Date/Time",
+      "message": "Tell us about your visit, party, or group event!",
+      "submit": "Send Request",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Aurora's family fun center & arcade — go-karts, mini golf, bumper cars, and wall-to-wall games.",
+      "rights": "© Astro Fun World. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Astro Fun World | Centro de Diversión Familiar y Arcade en Aurora, IL",
+      "description": "Go-karts, minigolf, carros chocones, laser tag y arcade enorme en Aurora, IL. El lugar ideal para cumpleaños y diversión familiar. Llama al (630) 273-3331."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Atracciones",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Planea tu Visita"
+    },
+    "hero": {
+      "eyebrow": "El Centro de Diversión Familiar de Aurora",
+      "title": "Go-Karts, Juegos",
+      "titleAccent": "y Buenos Momentos",
+      "subtitle": "Un centro de diversión familiar brillante y lleno de energía en Aurora, repleto de go-karts, minigolf, carros chocones, laser tag y un arcade de pared a pared. El lugar ideal para fiestas de cumpleaños, días lluviosos y quemar energía con toda la familia.",
+      "ctaPrimary": "Ver Atracciones",
+      "ctaSecondary": "Llama para tu Visita",
+      "badge": "Go-Karts · Arcade · Fiestas · Todas las Edades"
+    },
+    "highlights": [
+      {
+        "icon": "gauge",
+        "title": "Emoción para Toda Edad",
+        "text": "Corre en los go-karts, choca en los carros chocones y embocala en el minigolf. Diversión al aire libre y bajo techo para toda la familia."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Arcade de Pared a Pared",
+        "text": "Cientos de juegos, máquinas de garra, realidad virtual y un mostrador de premios lleno de sorpresas. Gana boletos y cámbialos por lo mejor."
+      },
+      {
+        "icon": "heart",
+        "title": "El Lugar de las Fiestas",
+        "text": "Paquetes de fiesta sin estrés con juegos, comida y un anfitrión dedicado. Nosotros nos encargamos de la diversión para que tú solo disfrutes."
+      },
+      {
+        "icon": "star",
+        "title": "El Favorito Local",
+        "text": "Día lluvioso, vacaciones escolares o solo porque sí — Astro Fun World es donde las familias de Aurora vienen a pasar el día."
+      }
+    ],
+    "menu": {
+      "heading": "Atracciones y Diversión",
+      "subheading": "Las atracciones, precios y paquetes mostrados son contenido demostrativo e ilustrativo para este sitio de muestra y podrían no reflejar la oferta ni los precios actuales.",
+      "categories": [
+        {
+          "id": "attractions",
+          "name": "Atracciones",
+          "blurb": "La diversión a lo grande. Corre, choca, embocala y juega laser tag todo el día.",
+          "items": [
+            {
+              "name": "Go-Karts",
+              "desc": "Toma el volante y corre por nuestra pista. Una favorita familiar para quienes están listos para la velocidad.",
+              "price": "Desde $8",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Minigolf",
+              "desc": "Embocala a través de un recorrido divertido y serpenteante lleno de vueltas, retos y competencia amistosa.",
+              "price": "Desde $7",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Carros Chocones",
+              "desc": "Abróchate el cinturón y choca con la diversión. Risas garantizadas cada vez que giras y chocas.",
+              "price": "Desde $6",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Laser Tag",
+              "desc": "Equípate y forma equipo para batallas de laser tag llenas de energía en nuestra arena. Estrategia y pura diversión.",
+              "price": "Desde $9",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "arcade-redemption",
+          "name": "Arcade y Premios",
+          "blurb": "Cientos de juegos, grandes ganancias y un mostrador de premios que vale la pena.",
+          "items": [
+            {
+              "name": "Juegos de Arcade",
+              "desc": "Clásicos favoritos y los últimos éxitos, todos bajo un mismo techo. Carga tu tarjeta y empieza a ganar boletos.",
+              "price": "Desde $1",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Premios de Boletos",
+              "desc": "Cambia tus boletos en el mostrador de premios por juguetes, dulces, gadgets y los grandes premios.",
+              "price": "Gana Boletos",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Máquinas de Garra",
+              "desc": "Apunta tu agarre y ve por la victoria. Peluches, premios y esa emoción de un intento más.",
+              "price": "Desde $1",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Experiencia VR",
+              "desc": "Entra a otro mundo con juegos y aventuras inmersivas de realidad virtual para todas las edades.",
+              "price": "Desde $6",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "parties-groups",
+          "name": "Fiestas y Grupos",
+          "blurb": "Cumpleaños, excursiones y recaudaciones fáciles con paquetes pensados para grupos.",
+          "items": [
+            {
+              "name": "Paquetes de Cumpleaños",
+              "desc": "Juegos, atracciones, comida y un anfitrión dedicado. Preparamos, servimos y limpiamos para que tú solo celebres.",
+              "price": "Desde $18",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Tarifas de Grupo",
+              "desc": "¿Vienes con un grupo grande? Precios especiales en atracciones y juegos para equipos, clubes y familias numerosas.",
+              "price": "Desde $14",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Noches de Recaudación",
+              "desc": "Convierte una noche de diversión en fondos para tu escuela, equipo o causa con nuestros paquetes de recaudación.",
+              "price": "A Medida",
+              "tags": []
+            },
+            {
+              "name": "Excursiones Escolares",
+              "desc": "Una salida divertida y activa para grupos escolares y de campamento, con paquetes de atracciones y juegos para cualquier tamaño.",
+              "price": "Desde $12",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "passes-snacks",
+          "name": "Pases y Snacks",
+          "blurb": "Diversión todo el día, tarjetas de juego recargables y snacks para mantener la energía.",
+          "items": [
+            {
+              "name": "Pase de Día",
+              "desc": "Un solo precio, acceso a las atracciones todo el día. El mejor valor para un día completo de diversión familiar.",
+              "price": "Desde $25",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Tarjeta de Juego",
+              "desc": "Tarjeta recargable para el arcade. Cárgala, toca para jugar y agrega más cuando quieras.",
+              "price": "Desde $10",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Snacks y Pizza",
+              "desc": "Recarga energías con pizza caliente, snacks y bebidas bien frías entre rondas de diversión.",
+              "price": "Desde $4",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pase de Temporada",
+              "desc": "Visitas ilimitadas toda la temporada. Perfecto para familias que hacen de Astro su lugar favorito.",
+              "price": "Desde $99",
+              "tags": [
+                "value",
+                "signature"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Donde Aurora Viene a Jugar",
+      "lead": "Astro Fun World es un centro de diversión familiar y arcade independiente en Aurora — go-karts, minigolf, carros chocones, laser tag y un arcade de pared a pared, todo en un lugar brillante y lleno de energía.",
+      "paragraphs": [
+        "Creamos Astro Fun World para ser el lugar favorito de las familias de Aurora, la segunda ciudad más grande de Illinois — el sitio al que vienes para fiestas de cumpleaños, días lluviosos, vacaciones escolares y para quemar energía con toda la familia. Corre en los go-karts, embocala en el minigolf, choca con la diversión y cambia tus boletos del arcade por un mostrador lleno de premios.",
+        "Desde principiantes hasta los más expertos, aquí hay algo para cada edad. Reserva un cumpleaños, trae a tu grupo o simplemente pasa una tarde — en Astro Fun World, los buenos momentos siempre están en el menú."
+      ],
+      "stats": [
+        {
+          "value": "Toda Edad",
+          "label": "Diversión Familiar"
+        },
+        {
+          "value": "100s",
+          "label": "Juegos de Arcade"
+        },
+        {
+          "value": "Llueva o Truene",
+          "label": "Bajo Techo y al Aire Libre"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Vistazo a Astro",
+      "subheading": "Un vistazo a los go-karts, los juegos y las sonrisas que hacen de un día en Astro Fun World.",
+      "captions": [
+        "Go-karts acelerando en la pista",
+        "Tiros de minigolf y rivalidades amistosas",
+        "Carros chocones girando en plena diversión",
+        "El arcade de pared a pared encendido y lleno de energía",
+        "Boletos cambiados en el mostrador de premios",
+        "Fiestas de cumpleaños y grandes celebraciones de grupo"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen las Familias",
+      "items": [
+        {
+          "quote": "Nuestro lugar favorito para días lluviosos. Los niños pasan horas en el arcade y los go-karts y todos salimos felices. Una salida facilísima.",
+          "name": "Melissa R.",
+          "role": "Mamá de Aurora"
+        },
+        {
+          "quote": "Reservé el cumpleaños de mi hijo aquí y fue sin estrés de principio a fin. El anfitrión se encargó de todo y los niños la pasaron increíble.",
+          "name": "David T.",
+          "role": "Anfitrión de fiesta"
+        },
+        {
+          "quote": "Go-karts, laser tag y un arcade enorme, todo en un solo lugar. El mostrador de premios es lo mejor — mis hijos guardan sus boletos en cada visita.",
+          "name": "Andrea S.",
+          "role": "Cliente frecuente local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita Astro Fun World",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "11:00 AM - 8:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "11:00 AM - 10:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "10:00 AM - 10:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM - 7:00 PM"
+        }
+      ],
+      "phoneLabel": "Llámanos",
+      "directions": "Encuéntranos en 301 South Illinois Route 59 en Aurora, IL. Llama al (630) 273-3331 para planear una visita, reservar una fiesta de cumpleaños o preguntar por tarifas de grupo y paquetes.",
+      "neighborhood": "Estamos en el lado este de Aurora, sobre el concurrido corredor de la Ruta 59, muy cerca del centro comercial Fox Valley Mall."
+    },
+    "cta": {
+      "heading": "¿Listo para Pasar el Día?",
+      "text": "Planea una visita, reserva una fiesta de cumpleaños o pregunta por tarifas de grupo y recaudaciones. Llámanos y te ayudamos a organizarlo todo.",
+      "button": "Llamar al (630) 273-3331"
+    },
+    "form": {
+      "heading": "Planea una Visita o Fiesta",
+      "subheading": "¿Reservas un cumpleaños, planeas una salida de grupo o tienes una pregunta? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "¡Cuéntanos sobre tu visita, fiesta o evento de grupo!",
+      "submit": "Enviar Solicitud",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "El centro de diversión familiar y arcade de Aurora — go-karts, minigolf, carros chocones y juegos de pared a pared.",
+      "rights": "© Astro Fun World. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

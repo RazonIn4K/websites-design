@@ -1,0 +1,752 @@
+{
+  "business": {
+    "name": "Friedrichs Eye Surgery & Optical",
+    "shortName": "Friedrichs Eye",
+    "vertical": "Optometry & Eyewear / Eye Care",
+    "phone": "",
+    "phoneHref": "",
+    "address": "2670 DeKalb Avenue",
+    "city": "Sycamore",
+    "state": "IL",
+    "zip": "60178",
+    "mapsQuery": "Friedrichs Eye Surgery & Optical, 2670 DeKalb Avenue, Sycamore, IL 60178",
+    "lat": 41.9599204,
+    "lon": -88.7200198
+  },
+  "en": {
+    "meta": {
+      "title": "Friedrichs Eye Surgery & Optical | Eye Exams & Eyewear in Sycamore, IL",
+      "description": "Eye exams, medical eye care & a curated frame boutique in Sycamore, IL. Family eye health, contact lens fittings & designer eyewear. Most insurance accepted."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Book Exam"
+    },
+    "hero": {
+      "eyebrow": "Sycamore's Trusted Eye Care & Optical Boutique",
+      "title": "See Clearly,",
+      "titleAccent": "Look Your Best",
+      "subtitle": "Thorough, modern eye exams paired with a curated selection of designer frames. From your child's first checkup to advanced medical eye care, we keep your whole family seeing and looking great.",
+      "ctaPrimary": "View Services",
+      "ctaSecondary": "Schedule an Eye Exam",
+      "badge": "Comprehensive Exams · Designer Eyewear · Most Insurance Accepted"
+    },
+    "highlights": [
+      {
+        "icon": "check",
+        "title": "Thorough, Modern Exams",
+        "text": "Advanced screening technology and unhurried, attentive care so nothing about your vision or eye health is missed."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Curated Frame Boutique",
+        "text": "A hand-picked selection of designer frames and sunglasses, with expert styling help to find the perfect fit."
+      },
+      {
+        "icon": "heart",
+        "title": "Family Eye Health",
+        "text": "Friendly, patient care for every age, from a child's first eye exam to lifelong vision and eye wellness."
+      },
+      {
+        "icon": "shield",
+        "title": "Medical Eye Care",
+        "text": "Dry-eye treatment, glaucoma screening, and prompt attention for red eyes and urgent concerns."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Services and pricing shown are illustrative demo content only. Most insurance accepted; please contact us to confirm your coverage and current pricing.",
+      "categories": [
+        {
+          "id": "eye-exams",
+          "name": "Eye Exams",
+          "blurb": "Thorough, modern exams for clear vision and healthy eyes at every age.",
+          "items": [
+            {
+              "name": "Comprehensive Eye Exam",
+              "desc": "A complete vision and eye-health evaluation with advanced screening, start to finish.",
+              "price": "From $89",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Contact Lens Fitting",
+              "desc": "Precise fitting and trial lenses to find your most comfortable, clearest contacts.",
+              "price": "From $119",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Pediatric Eye Exam",
+              "desc": "Gentle, kid-friendly exams to catch vision issues early and support learning.",
+              "price": "From $79",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Diabetic Eye Exam",
+              "desc": "Dilated retinal evaluation to monitor and protect eyes affected by diabetes.",
+              "price": "Most insurance accepted",
+              "tags": []
+            },
+            {
+              "name": "Annual Wellness Exam",
+              "desc": "Yearly check-up to track changes in your prescription and overall eye health.",
+              "price": "From $89",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eyewear",
+          "name": "Eyewear",
+          "blurb": "A curated boutique of designer frames and precision lenses, styled to fit you.",
+          "items": [
+            {
+              "name": "Designer Frames",
+              "desc": "A hand-picked collection of premium and designer frames for every face and style.",
+              "price": "From $149",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Prescription Lenses",
+              "desc": "Single-vision, progressive, and high-index lenses crafted to your exact prescription.",
+              "price": "From $99",
+              "tags": []
+            },
+            {
+              "name": "Prescription Sunglasses",
+              "desc": "Polarized, UV-protective sunglasses made to your prescription for sun and glare.",
+              "price": "From $169",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Kids' Frames",
+              "desc": "Durable, flexible frames built to handle everything an active kid can throw at them.",
+              "price": "From $89",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Lens Upgrades & Coatings",
+              "desc": "Anti-glare, blue-light, scratch-resistant, and transitions coatings for sharper, easier wear.",
+              "price": "From $49",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "medical-eye-care",
+          "name": "Medical Eye Care",
+          "blurb": "Expert treatment and screening to protect your long-term eye health.",
+          "items": [
+            {
+              "name": "Dry-Eye Treatment",
+              "desc": "Personalized relief plans for gritty, burning, watery, or tired dry eyes.",
+              "price": "From $99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Glaucoma Screening",
+              "desc": "Pressure testing and imaging to detect glaucoma early, when it's most treatable.",
+              "price": "Most insurance accepted",
+              "tags": []
+            },
+            {
+              "name": "Red-Eye & Urgent Care",
+              "desc": "Same-day attention for infections, irritation, foreign bodies, and sudden changes.",
+              "price": "From $109",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Eye Allergy Relief",
+              "desc": "Diagnosis and treatment for itchy, swollen, watery eyes from seasonal allergies.",
+              "price": "From $89",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "contact-lenses",
+          "name": "Contact Lenses",
+          "blurb": "The right contacts for your eyes, your routine, and your comfort.",
+          "items": [
+            {
+              "name": "Daily Disposables",
+              "desc": "Fresh, single-use lenses for the cleanest, lowest-maintenance daily wear.",
+              "price": "From $35/box",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Monthly Lenses",
+              "desc": "Comfortable, cost-effective monthly contacts for everyday vision.",
+              "price": "From $29/box",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Specialty Lenses",
+              "desc": "Toric, multifocal, and hard-to-fit lenses for astigmatism and complex prescriptions.",
+              "price": "Most insurance accepted",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Color Contacts",
+              "desc": "Prescription and plano color lenses to subtly enhance or transform your look.",
+              "price": "From $45/box",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Caring for Sycamore's Eyes",
+      "lead": "Friedrichs Eye Surgery & Optical brings together thorough, modern eye care and a stylish optical boutique under one friendly roof.",
+      "paragraphs": [
+        "We believe great eye care should feel personal and unhurried. From comprehensive exams and contact lens fittings to medical eye care and your child's very first checkup, our team takes the time to understand your eyes and explain every step in plain language.",
+        "When it's time for new glasses, our curated boutique makes finding the perfect pair a pleasure. We'll help you choose designer frames that suit your face and lifestyle, then craft precision lenses to match. Clear vision and confident style, all in one visit."
+      ],
+      "stats": [
+        {
+          "value": "All Ages",
+          "label": "Pediatric to Senior Care"
+        },
+        {
+          "value": "Most",
+          "label": "Insurance Accepted"
+        },
+        {
+          "value": "Curated",
+          "label": "Designer Frame Boutique"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside Our Practice",
+      "subheading": "A look at our exam suites, optical boutique, and the curated eyewear we love to fit.",
+      "captions": [
+        "Bright, welcoming optical boutique",
+        "Curated wall of designer frames",
+        "Modern exam suite and screening technology",
+        "Expert frame styling and fitting",
+        "Precision lenses crafted to your prescription",
+        "Friendly care for every member of the family"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Our Patients Say",
+      "items": [
+        {
+          "quote": "The most thorough eye exam I've ever had, and they took time to answer every question. I left with frames I actually love.",
+          "name": "Megan F.",
+          "role": "Sycamore patient"
+        },
+        {
+          "quote": "They were so gentle and patient with my son's first exam. The whole team made it easy and even fun for him.",
+          "name": "Carlos R.",
+          "role": "Parent in DeKalb"
+        },
+        {
+          "quote": "Finally found real relief for my dry eyes. The staff is friendly, professional, and the frame selection is gorgeous.",
+          "name": "Diane K.",
+          "role": "Sycamore patient"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit Our Sycamore Office",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Friday",
+          "time": "9:00 AM - 5:30 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "9:00 AM - 1:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Get in Touch",
+      "directions": "You'll find us at 2670 DeKalb Avenue in Sycamore, IL, with convenient parking right outside. Book your eye exam online and we'll confirm your appointment quickly.",
+      "neighborhood": "We're on DeKalb Avenue (Illinois Route 23) on Sycamore's southwest side, in the retail corridor anchored by Hy-Vee that connects the county seat with neighboring DeKalb."
+    },
+    "cta": {
+      "heading": "Ready for Clearer Vision?",
+      "text": "Whether it's time for a checkup, new glasses, or relief for tired eyes, we're here to help. Book your appointment and our team will follow up to confirm.",
+      "button": "Schedule an Eye Exam"
+    },
+    "form": {
+      "heading": "Book Your Eye Exam",
+      "subheading": "Tell us a little about what you need and your preferred time. We'll follow up quickly to confirm your appointment.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Service Needed",
+      "date": "Preferred Date/Time",
+      "message": "Anything we should know? Tell us about your eyes or what you're looking for.",
+      "submit": "Request Appointment",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly to confirm.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Thorough, modern eye care and a curated frame boutique for all of Sycamore.",
+      "rights": "© Friedrichs Eye Surgery & Optical. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    },
+    "process": {
+      "heading": "What to Expect",
+      "steps": [
+        {
+          "title": "Book Your Visit",
+          "text": "Schedule online or message us, tell us what you need, and pick a time that fits your week."
+        },
+        {
+          "title": "Comprehensive Exam",
+          "text": "We evaluate your vision and eye health with advanced screening, taking time to answer every question along the way."
+        },
+        {
+          "title": "Your Personalized Plan",
+          "text": "Together we review your results, your prescription, and any treatment or eyewear options in clear, plain language."
+        },
+        {
+          "title": "Eyewear & Follow-Up Care",
+          "text": "Choose frames and lenses with expert styling help, and we'll keep your eyes healthy at every future visit."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Do you accept walk-ins?",
+          "a": "We recommend booking ahead so we can give you unhurried, focused care, but message us about same-day availability or urgent red-eye concerns."
+        },
+        {
+          "q": "Do you take my insurance?",
+          "a": "We accept most vision and medical insurance plans. Contact us with your provider details and we'll help confirm your coverage and any out-of-pocket costs before your visit."
+        },
+        {
+          "q": "What should I bring to my first visit?",
+          "a": "Please bring your current glasses or contacts, a list of any medications, your insurance card, and any questions about your vision or eye health."
+        },
+        {
+          "q": "Do you speak Spanish?",
+          "a": "Yes, we're happy to help you in English or Spanish so you feel comfortable and fully understand your eye care every step of the way."
+        },
+        {
+          "q": "How much does an eye exam cost?",
+          "a": "Exam pricing depends on the type of exam and your insurance. Reach out and we'll gladly walk you through current pricing for what you need."
+        },
+        {
+          "q": "Do you see children?",
+          "a": "Absolutely. We offer gentle, kid-friendly exams for every age, from a child's very first checkup through the teen years, in a welcoming setting."
+        }
+      ]
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Friedrichs Eye Surgery & Optical | Exámenes de la Vista y Lentes en Sycamore, IL",
+      "description": "Exámenes de la vista y cuidado ocular para la familia en Sycamore, IL. Boutique de monturas, lentes de contacto y de diseñador. Aceptamos la mayoría de seguros."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Agendar Examen"
+    },
+    "hero": {
+      "eyebrow": "El Cuidado Ocular y la Boutique Óptica de Confianza en Sycamore",
+      "title": "Mira con Claridad,",
+      "titleAccent": "Luce tu Mejor Versión",
+      "subtitle": "Exámenes de la vista modernos y minuciosos junto a una selección cuidada de monturas de diseñador. Desde el primer chequeo de tu hijo hasta el cuidado médico ocular avanzado, mantenemos a toda tu familia viendo y luciendo de maravilla.",
+      "ctaPrimary": "Ver Servicios",
+      "ctaSecondary": "Agenda tu Examen",
+      "badge": "Exámenes Completos · Lentes de Diseñador · Aceptamos la Mayoría de los Seguros"
+    },
+    "highlights": [
+      {
+        "icon": "check",
+        "title": "Exámenes Modernos y Minuciosos",
+        "text": "Tecnología de evaluación avanzada y atención dedicada y sin prisas para no pasar por alto nada de tu visión ni de tu salud ocular."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Boutique de Monturas Selecta",
+        "text": "Una selección cuidada de monturas de diseñador y lentes de sol, con asesoría de estilo experta para encontrar tu look perfecto."
+      },
+      {
+        "icon": "heart",
+        "title": "Salud Visual Familiar",
+        "text": "Atención amable y paciente para toda edad, desde el primer examen de la vista de un niño hasta el bienestar visual de por vida."
+      },
+      {
+        "icon": "shield",
+        "title": "Cuidado Médico Ocular",
+        "text": "Tratamiento del ojo seco, detección de glaucoma y atención pronta para ojos rojos y urgencias."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Los servicios y precios mostrados son solo contenido demostrativo e ilustrativo. Aceptamos la mayoría de los seguros; contáctanos para confirmar tu cobertura y los precios vigentes.",
+      "categories": [
+        {
+          "id": "eye-exams",
+          "name": "Exámenes de la Vista",
+          "blurb": "Exámenes modernos y minuciosos para una visión clara y ojos sanos a cualquier edad.",
+          "items": [
+            {
+              "name": "Examen Completo de la Vista",
+              "desc": "Una evaluación completa de tu visión y salud ocular con tecnología avanzada, de principio a fin.",
+              "price": "Desde $89",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Adaptación de Lentes de Contacto",
+              "desc": "Adaptación precisa y lentes de prueba para encontrar tus contactos más cómodos y nítidos.",
+              "price": "Desde $119",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Examen Pediátrico de la Vista",
+              "desc": "Exámenes suaves y amigables para niños que detectan problemas de visión a tiempo y apoyan el aprendizaje.",
+              "price": "Desde $79",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Examen Ocular para Diabéticos",
+              "desc": "Evaluación de la retina con dilatación para vigilar y proteger los ojos afectados por la diabetes.",
+              "price": "Aceptamos la mayoría de los seguros",
+              "tags": []
+            },
+            {
+              "name": "Examen Anual de Bienestar",
+              "desc": "Chequeo anual para seguir los cambios en tu graduación y tu salud ocular general.",
+              "price": "Desde $89",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eyewear",
+          "name": "Lentes y Monturas",
+          "blurb": "Una boutique selecta de monturas de diseñador y lentes de precisión, a tu medida.",
+          "items": [
+            {
+              "name": "Monturas de Diseñador",
+              "desc": "Una colección cuidada de monturas premium y de diseñador para cada rostro y estilo.",
+              "price": "Desde $149",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Lentes Graduados",
+              "desc": "Lentes monofocales, progresivos y de alto índice elaborados según tu graduación exacta.",
+              "price": "Desde $99",
+              "tags": []
+            },
+            {
+              "name": "Lentes de Sol Graduados",
+              "desc": "Lentes de sol polarizados con protección UV hechos a tu graduación para el sol y el deslumbramiento.",
+              "price": "Desde $169",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Monturas para Niños",
+              "desc": "Monturas resistentes y flexibles hechas para aguantar todo lo que un niño activo les dé.",
+              "price": "Desde $89",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Mejoras y Tratamientos de Lentes",
+              "desc": "Antirreflejo, luz azul, antirrayas y fotocromáticos para una vista más nítida y cómoda.",
+              "price": "Desde $49",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "medical-eye-care",
+          "name": "Cuidado Médico Ocular",
+          "blurb": "Tratamiento experto y detección para proteger tu salud ocular a largo plazo.",
+          "items": [
+            {
+              "name": "Tratamiento del Ojo Seco",
+              "desc": "Planes de alivio personalizados para ojos secos con ardor, arenilla, lagrimeo o cansancio.",
+              "price": "Desde $99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Detección de Glaucoma",
+              "desc": "Medición de presión e imágenes para detectar el glaucoma a tiempo, cuando es más tratable.",
+              "price": "Aceptamos la mayoría de los seguros",
+              "tags": []
+            },
+            {
+              "name": "Ojo Rojo y Atención Urgente",
+              "desc": "Atención el mismo día para infecciones, irritación, cuerpos extraños y cambios repentinos.",
+              "price": "Desde $109",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Alivio de Alergias Oculares",
+              "desc": "Diagnóstico y tratamiento para ojos con comezón, hinchazón y lagrimeo por alergias de temporada.",
+              "price": "Desde $89",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "contact-lenses",
+          "name": "Lentes de Contacto",
+          "blurb": "Los contactos adecuados para tus ojos, tu rutina y tu comodidad.",
+          "items": [
+            {
+              "name": "Desechables Diarios",
+              "desc": "Lentes frescos de un solo uso para el uso diario más limpio y de menor mantenimiento.",
+              "price": "Desde $35/caja",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Lentes Mensuales",
+              "desc": "Contactos mensuales cómodos y económicos para tu visión de todos los días.",
+              "price": "Desde $29/caja",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Lentes Especiales",
+              "desc": "Lentes tóricos, multifocales y de adaptación difícil para astigmatismo y graduaciones complejas.",
+              "price": "Aceptamos la mayoría de los seguros",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Lentes de Color",
+              "desc": "Lentes de color graduados y sin graduación para realzar o transformar sutilmente tu mirada.",
+              "price": "Desde $45/caja",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Cuidando la Vista de Sycamore",
+      "lead": "Friedrichs Eye Surgery & Optical une el cuidado ocular moderno y minucioso con una elegante boutique óptica bajo un mismo techo acogedor.",
+      "paragraphs": [
+        "Creemos que un buen cuidado ocular debe sentirse personal y sin prisas. Desde exámenes completos y adaptación de lentes de contacto hasta el cuidado médico ocular y el primer chequeo de tu hijo, nuestro equipo se toma el tiempo de entender tus ojos y explicar cada paso en palabras claras.",
+        "Cuando llega el momento de unos lentes nuevos, nuestra boutique selecta hace que encontrar el par perfecto sea un placer. Te ayudamos a elegir monturas de diseñador que van con tu rostro y tu estilo de vida, y luego elaboramos lentes de precisión a juego. Visión clara y estilo con confianza, todo en una sola visita."
+      ],
+      "stats": [
+        {
+          "value": "Toda Edad",
+          "label": "Atención de Niños a Adultos Mayores"
+        },
+        {
+          "value": "La Mayoría",
+          "label": "de los Seguros Aceptados"
+        },
+        {
+          "value": "Selecta",
+          "label": "Boutique de Monturas de Diseñador"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Por Dentro de Nuestra Práctica",
+      "subheading": "Un vistazo a nuestras salas de examen, la boutique óptica y los lentes selectos que nos encanta adaptar.",
+      "captions": [
+        "Boutique óptica luminosa y acogedora",
+        "Pared selecta de monturas de diseñador",
+        "Sala de examen moderna y tecnología de evaluación",
+        "Asesoría y adaptación experta de monturas",
+        "Lentes de precisión elaborados a tu graduación",
+        "Atención amable para cada miembro de la familia"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen Nuestros Pacientes",
+      "items": [
+        {
+          "quote": "El examen de la vista más completo que me han hecho, y se tomaron el tiempo de responder cada pregunta. Salí con unos lentes que de verdad me encantan.",
+          "name": "Megan F.",
+          "role": "Paciente en Sycamore"
+        },
+        {
+          "quote": "Fueron muy delicados y pacientes en el primer examen de mi hijo. Todo el equipo se lo hizo fácil y hasta divertido.",
+          "name": "Carlos R.",
+          "role": "Padre en DeKalb"
+        },
+        {
+          "quote": "Por fin encontré alivio real para mis ojos secos. El personal es amable y profesional, y la selección de monturas es preciosa.",
+          "name": "Diane K.",
+          "role": "Paciente en Sycamore"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita Nuestra Oficina en Sycamore",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Viernes",
+          "time": "9:00 AM - 5:30 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "9:00 AM - 1:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Contáctanos",
+      "directions": "Nos encuentras en 2670 DeKalb Avenue en Sycamore, IL, con estacionamiento cómodo justo afuera. Agenda tu examen de la vista en línea y confirmaremos tu cita rápidamente.",
+      "neighborhood": "Estamos sobre DeKalb Avenue (la Ruta 23 de Illinois), en el lado suroeste de Sycamore, en el corredor comercial junto al Hy-Vee que conecta la cabecera del condado con la vecina DeKalb."
+    },
+    "cta": {
+      "heading": "¿Listo para Ver con Más Claridad?",
+      "text": "Ya sea hora de un chequeo, de unos lentes nuevos o de aliviar tus ojos cansados, estamos aquí para ayudarte. Agenda tu cita y nuestro equipo te contactará para confirmar.",
+      "button": "Agenda tu Examen"
+    },
+    "form": {
+      "heading": "Agenda tu Examen",
+      "subheading": "Cuéntanos un poco sobre lo que necesitas y tu horario preferido. Te contactaremos pronto para confirmar tu cita.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Servicio que Necesitas",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Algo que debamos saber? Cuéntanos sobre tus ojos o lo que buscas.",
+      "submit": "Solicitar Cita",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto para confirmar.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Cuidado ocular moderno y minucioso y una boutique de monturas selecta para todo Sycamore.",
+      "rights": "© Friedrichs Eye Surgery & Optical. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    },
+    "process": {
+      "heading": "Qué Esperar",
+      "steps": [
+        {
+          "title": "Agenda tu Visita",
+          "text": "Agenda en línea o escríbenos, cuéntanos qué necesitas y elige un horario que se ajuste a tu semana."
+        },
+        {
+          "title": "Examen Completo",
+          "text": "Evaluamos tu visión y salud ocular con tecnología avanzada, tomándonos el tiempo de responder cada pregunta en el camino."
+        },
+        {
+          "title": "Tu Plan Personalizado",
+          "text": "Juntos revisamos tus resultados, tu graduación y cualquier opción de tratamiento o lentes en palabras claras y sencillas."
+        },
+        {
+          "title": "Lentes y Seguimiento",
+          "text": "Elige monturas y lentes con asesoría experta, y cuidamos la salud de tus ojos en cada visita futura."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿Atienden sin cita?",
+          "a": "Recomendamos agendar con anticipación para darte una atención dedicada y sin prisas, pero escríbenos para consultar disponibilidad el mismo día o urgencias de ojo rojo."
+        },
+        {
+          "q": "¿Aceptan mi seguro?",
+          "a": "Aceptamos la mayoría de los seguros de visión y médicos. Contáctanos con los datos de tu proveedor y te ayudamos a confirmar tu cobertura y cualquier costo antes de tu visita."
+        },
+        {
+          "q": "¿Qué debo traer a mi primera visita?",
+          "a": "Por favor trae tus lentes o contactos actuales, una lista de tus medicamentos, tu tarjeta del seguro y cualquier pregunta sobre tu visión o salud ocular."
+        },
+        {
+          "q": "¿Hablan español?",
+          "a": "Sí, con gusto te atendemos en inglés o español para que te sientas cómodo y entiendas por completo tu cuidado ocular en cada paso."
+        },
+        {
+          "q": "¿Cuánto cuesta un examen de la vista?",
+          "a": "El precio del examen depende del tipo de examen y de tu seguro. Contáctanos y con gusto te explicamos los precios vigentes para lo que necesitas."
+        },
+        {
+          "q": "¿Atienden a niños?",
+          "a": "Por supuesto. Ofrecemos exámenes suaves y amigables para toda edad, desde el primer chequeo de un niño hasta la adolescencia, en un ambiente acogedor."
+        }
+      ]
+    }
+  }
+}

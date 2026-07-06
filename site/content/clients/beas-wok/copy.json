@@ -1,0 +1,773 @@
+{
+  "business": {
+    "name": "Bea's Wok N Roll",
+    "shortName": "Bea's Wok N Roll",
+    "vertical": "Vietnamese & Asian Restaurant",
+    "phone": "",
+    "phoneHref": "",
+    "address": "1402 Sycamore Road",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Bea's Wok N Roll, 1402 Sycamore Road, DeKalb, IL 60115",
+    "lat": 41.943494,
+    "lon": -88.73654,
+    "cuisine": "Vietnamese"
+  },
+  "en": {
+    "meta": {
+      "title": "Bea's Wok N Roll | Vietnamese & Asian Food in DeKalb, IL",
+      "description": "Fresh Vietnamese & Asian comfort food on Sycamore Road in DeKalb, IL. Steaming pho, crispy banh mi, build-your-own bowls, and boba. Order online for pickup."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Order Now"
+    },
+    "hero": {
+      "eyebrow": "A DeKalb & NIU Favorite",
+      "title": "Steaming Pho, Crispy Banh Mi,",
+      "titleAccent": "Bowls & Boba",
+      "subtitle": "Fresh Vietnamese and Asian comfort food made fast and full of flavor. Slurp a hot bowl of pho, grab a crispy banh mi, build your own rice or noodle bowl, and wash it down with boba.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Order Online",
+      "badge": "Fresh · Fast · Campus Pickup"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Steaming Hot Pho",
+        "text": "Rich, slow-simmered broth poured over rice noodles and your choice of protein, served piping hot every time."
+      },
+      {
+        "icon": "leaf",
+        "title": "Fresh & Build-Your-Own",
+        "text": "Crisp herbs, bright veggies, and build-your-own bowls so you get exactly the flavors you're craving."
+      },
+      {
+        "icon": "star",
+        "title": "A Big NIU Favorite",
+        "text": "A go-to for students and locals who want fresh, flavorful Vietnamese and Asian food without the wait."
+      },
+      {
+        "icon": "heart",
+        "title": "Comfort Food, Fast",
+        "text": "From banh mi to boba, everything is made fresh and ready quick for an easy campus pickup."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Menu items and prices shown are illustrative demo content for this sample site and may not reflect current offerings or pricing.",
+      "categories": [
+        {
+          "id": "pho-soups",
+          "name": "Pho & Soups",
+          "blurb": "Steaming bowls of broth, noodles, and comfort, served piping hot.",
+          "items": [
+            {
+              "name": "Beef Pho",
+              "desc": "Slow-simmered beef broth over rice noodles with tender sliced beef, fresh herbs, and lime.",
+              "price": "$12.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Chicken Pho",
+              "desc": "Light, fragrant chicken broth with rice noodles, sliced chicken, scallions, and herbs.",
+              "price": "$11.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Wonton Noodle Soup",
+              "desc": "Pork-and-shrimp wontons and egg noodles in a clear, savory broth with greens.",
+              "price": "$11.50",
+              "tags": []
+            },
+            {
+              "name": "Veggie Pho",
+              "desc": "Aromatic vegetable broth over rice noodles with tofu, bok choy, and fresh herbs.",
+              "price": "$10.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Spicy Beef Noodle Soup",
+              "desc": "Bold, chili-spiced beef broth with rice noodles, tender beef, and crisp herbs.",
+              "price": "$12.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rice-noodle-bowls",
+          "name": "Rice & Noodle Bowls",
+          "blurb": "Build-your-own bowls piled high with fresh, flavorful goodness.",
+          "items": [
+            {
+              "name": "Grilled Pork Vermicelli Bowl",
+              "desc": "Cold rice vermicelli topped with grilled pork, fresh herbs, pickled veggies, and peanuts.",
+              "price": "$11.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Lemongrass Chicken Vermicelli Bowl",
+              "desc": "Rice vermicelli with grilled lemongrass chicken, cucumber, herbs, and house dressing.",
+              "price": "$11.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "House Fried Rice",
+              "desc": "Wok-fried rice with egg, scallions, fresh veggies, and your choice of protein.",
+              "price": "$10.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Chicken Lo Mein",
+              "desc": "Soft egg noodles tossed with chicken and crisp vegetables in a savory wok sauce.",
+              "price": "$10.95",
+              "tags": []
+            },
+            {
+              "name": "Tofu & Veggie Bowl",
+              "desc": "Steamed rice with crispy tofu, stir-fried vegetables, and a light garlic glaze.",
+              "price": "$10.95",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "banh-mi-rolls",
+          "name": "Banh Mi & Rolls",
+          "blurb": "Crispy sandwiches and fresh-rolled bites packed with flavor.",
+          "items": [
+            {
+              "name": "Grilled Pork Banh Mi",
+              "desc": "Toasted baguette with grilled pork, pickled carrots, cucumber, cilantro, and jalapeño.",
+              "price": "$8.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Lemongrass Chicken Banh Mi",
+              "desc": "Crispy baguette stuffed with lemongrass chicken, fresh herbs, and house aioli.",
+              "price": "$8.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Tofu Banh Mi",
+              "desc": "Crusty baguette with marinated tofu, pickled veggies, cilantro, and chili mayo.",
+              "price": "$7.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Fresh Spring Rolls (2)",
+              "desc": "Rice paper rolls with shrimp, herbs, vermicelli, and lettuce, with peanut dipping sauce.",
+              "price": "$5.95",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Crispy Egg Rolls (3)",
+              "desc": "Golden, crunchy rolls filled with seasoned pork and vegetables, fried to order.",
+              "price": "$5.50",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "wok-classics",
+          "name": "Wok Classics",
+          "blurb": "Sizzling stir-fries fired up fresh in the wok.",
+          "items": [
+            {
+              "name": "Garlic Stir-Fry",
+              "desc": "Wok-fired vegetables and your choice of protein in a savory garlic sauce over rice.",
+              "price": "$12.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Sweet Chili Chicken",
+              "desc": "Crispy chicken tossed in a sweet-and-spicy chili glaze with peppers and onions.",
+              "price": "$12.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Beef & Broccoli Stir-Fry",
+              "desc": "Tender beef and crisp broccoli wok-tossed in a savory brown garlic sauce.",
+              "price": "$13.50",
+              "tags": []
+            },
+            {
+              "name": "Vegetable Stir-Fry",
+              "desc": "A colorful mix of fresh vegetables and tofu wok-fired in a light ginger sauce.",
+              "price": "$11.50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Spicy Garlic Shrimp",
+              "desc": "Plump shrimp stir-fried with garlic, chilies, and crisp veggies over steamed rice.",
+              "price": "$13.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "drinks",
+          "name": "Drinks",
+          "blurb": "Boba, bubble tea, and bold Vietnamese coffee to round out your order.",
+          "items": [
+            {
+              "name": "Classic Milk Tea Boba",
+              "desc": "Creamy milk tea with chewy tapioca pearls, sweetened just right.",
+              "price": "$4.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Taro Bubble Tea",
+              "desc": "Smooth, sweet taro milk tea with chewy boba pearls.",
+              "price": "$4.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Vietnamese Iced Coffee",
+              "desc": "Bold dark-roast coffee over ice with sweetened condensed milk.",
+              "price": "$4.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Fruit Green Tea",
+              "desc": "Refreshing green tea shaken with real fruit flavor, with or without boba.",
+              "price": "$4.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Your Neighborhood Vietnamese & Asian Kitchen",
+      "lead": "Bea's Wok N Roll is an independent DeKalb spot serving fresh Vietnamese and Asian comfort food, fast, flavorful, and made the way you like it.",
+      "paragraphs": [
+        "From a steaming bowl of pho on a cold day to a crispy banh mi between classes, we keep it fresh, fast, and full of flavor. Build your own rice or noodle bowl, grab a few spring rolls, and finish with a sweet, chewy boba.",
+        "From our spot on DeKalb's north side, we're proud to be a favorite of NIU students and local families alike. Everything is made fresh and ready quick for an easy campus pickup, so you can grab great food and get back to your day."
+      ],
+      "stats": [
+        {
+          "value": "Fresh",
+          "label": "Made to Order"
+        },
+        {
+          "value": "Fast",
+          "label": "Campus Pickup"
+        },
+        {
+          "value": "Boba",
+          "label": "& Bubble Tea"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Taste of Bea's",
+      "subheading": "A look at the fresh, made-to-order dishes coming out of our kitchen every day.",
+      "captions": [
+        "Steaming bowls of beef pho with fresh herbs",
+        "Crispy grilled pork banh mi, made to order",
+        "Build-your-own vermicelli bowls piled high",
+        "Fresh spring rolls with peanut dipping sauce",
+        "Sizzling wok stir-fry, fired up fresh",
+        "Creamy boba and Vietnamese iced coffee"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Is Saying",
+      "items": [
+        {
+          "quote": "Best pho in DeKalb, hands down. The broth is so rich and it's always ready fast when I order online between classes.",
+          "name": "Kayla N.",
+          "role": "NIU student"
+        },
+        {
+          "quote": "The banh mi is crispy, fresh, and packed with flavor. I grab one and a taro boba almost every week.",
+          "name": "Marcus T.",
+          "role": "DeKalb regular"
+        },
+        {
+          "quote": "Love that you can build your own bowl. Fresh herbs, great portions, and a friendly crew. A new campus favorite.",
+          "name": "Priya R.",
+          "role": "Local customer"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in DeKalb",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "11:00 AM - 9:00 PM"
+        },
+        {
+          "day": "Friday - Saturday",
+          "time": "11:00 AM - 10:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "12:00 PM - 8:00 PM"
+        }
+      ],
+      "phoneLabel": "Order Online",
+      "directions": "Find us at 1402 Sycamore Road in DeKalb, IL, just minutes from NIU. Order online and your fresh, made-to-order favorites will be ready for fast campus pickup.",
+      "neighborhood": "We're on Sycamore Road, the shopping corridor on DeKalb's north side that links the city with neighboring Sycamore."
+    },
+    "cta": {
+      "heading": "Hungry? Order Online Now",
+      "text": "Skip the wait and order ahead. Your fresh, made-to-order pho, banh mi, bowls, and boba will be ready for fast campus pickup.",
+      "button": "Order Online"
+    },
+    "form": {
+      "heading": "Order & Contact",
+      "subheading": "Place an order, ask about catering, or send us a question. Tell us what you're craving and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Order Size / Number of People",
+      "date": "Preferred Pickup Date/Time",
+      "message": "What can we get started for you? Tell us about your order or question.",
+      "submit": "Send Order Request",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Fresh Vietnamese and Asian comfort food, fast, flavorful, and a big NIU favorite.",
+      "rights": "© Bea's Wok N Roll. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Bea's Wok N Roll | Comida Vietnamita y Asiática en DeKalb, IL",
+      "description": "Comida vietnamita y asiática fresca en Sycamore Road, DeKalb, IL. Pho humeante, banh mi crujiente, tazones a tu gusto y boba. Ordena en línea para recoger."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Ordenar"
+    },
+    "hero": {
+      "eyebrow": "Un Favorito de DeKalb y NIU",
+      "title": "Pho Humeante, Banh Mi Crujiente,",
+      "titleAccent": "Tazones y Boba",
+      "subtitle": "Comida reconfortante vietnamita y asiática hecha rápida y llena de sabor. Disfruta un tazón caliente de pho, toma un banh mi crujiente, arma tu propio tazón de arroz o fideos y acompáñalo con boba.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Ordena en Línea",
+      "badge": "Fresco · Rápido · Recoger en el Campus"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Pho Bien Caliente",
+        "text": "Caldo rico cocido a fuego lento sobre fideos de arroz con la proteína que elijas, siempre servido bien caliente."
+      },
+      {
+        "icon": "leaf",
+        "title": "Fresco y a Tu Gusto",
+        "text": "Hierbas crujientes, verduras frescas y tazones que armas tú mismo para que tengas justo el sabor que se te antoja."
+      },
+      {
+        "icon": "star",
+        "title": "Un Gran Favorito de NIU",
+        "text": "La opción preferida de estudiantes y locales que quieren comida vietnamita y asiática fresca y sabrosa sin esperar."
+      },
+      {
+        "icon": "heart",
+        "title": "Comida Reconfortante, Rápida",
+        "text": "Del banh mi al boba, todo se prepara fresco y queda listo rápido para recoger fácil en el campus."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Los platillos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra y pueden no reflejar la oferta o los precios actuales.",
+      "categories": [
+        {
+          "id": "pho-soups",
+          "name": "Pho y Sopas",
+          "blurb": "Tazones humeantes de caldo, fideos y consuelo, servidos bien calientes.",
+          "items": [
+            {
+              "name": "Pho de Res",
+              "desc": "Caldo de res cocido a fuego lento sobre fideos de arroz con res en rebanadas, hierbas frescas y limón.",
+              "price": "$12.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Pho de Pollo",
+              "desc": "Caldo de pollo ligero y aromático con fideos de arroz, pollo en rebanadas, cebollín y hierbas.",
+              "price": "$11.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Sopa de Fideos con Wonton",
+              "desc": "Wontones de cerdo y camarón con fideos de huevo en un caldo claro y sabroso con verduras.",
+              "price": "$11.50",
+              "tags": []
+            },
+            {
+              "name": "Pho Vegetariano",
+              "desc": "Caldo de verduras aromático sobre fideos de arroz con tofu, bok choy y hierbas frescas.",
+              "price": "$10.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Sopa Picante de Res con Fideos",
+              "desc": "Caldo de res intenso con chile, fideos de arroz, res tierna y hierbas crujientes.",
+              "price": "$12.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rice-noodle-bowls",
+          "name": "Tazones de Arroz y Fideos",
+          "blurb": "Tazones que armas a tu gusto, repletos de sabor fresco.",
+          "items": [
+            {
+              "name": "Tazón de Vermicelli con Cerdo a la Parrilla",
+              "desc": "Vermicelli de arroz frío con cerdo a la parrilla, hierbas frescas, verduras en escabeche y cacahuates.",
+              "price": "$11.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Tazón de Vermicelli con Pollo a la Hierba Limón",
+              "desc": "Vermicelli de arroz con pollo a la parrilla con hierba limón, pepino, hierbas y aderezo de la casa.",
+              "price": "$11.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Arroz Frito de la Casa",
+              "desc": "Arroz frito al wok con huevo, cebollín, verduras frescas y tu proteína a elegir.",
+              "price": "$10.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Lo Mein de Pollo",
+              "desc": "Fideos de huevo suaves salteados con pollo y verduras crujientes en una sabrosa salsa al wok.",
+              "price": "$10.95",
+              "tags": []
+            },
+            {
+              "name": "Tazón de Tofu y Verduras",
+              "desc": "Arroz al vapor con tofu crujiente, verduras salteadas y un ligero glaseado de ajo.",
+              "price": "$10.95",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "banh-mi-rolls",
+          "name": "Banh Mi y Rollos",
+          "blurb": "Sándwiches crujientes y bocados recién enrollados llenos de sabor.",
+          "items": [
+            {
+              "name": "Banh Mi de Cerdo a la Parrilla",
+              "desc": "Baguette tostado con cerdo a la parrilla, zanahoria en escabeche, pepino, cilantro y jalapeño.",
+              "price": "$8.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Banh Mi de Pollo a la Hierba Limón",
+              "desc": "Baguette crujiente relleno de pollo con hierba limón, hierbas frescas y alioli de la casa.",
+              "price": "$8.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Banh Mi de Tofu",
+              "desc": "Baguette crocante con tofu marinado, verduras en escabeche, cilantro y mayonesa con chile.",
+              "price": "$7.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Rollos Primavera Frescos (2)",
+              "desc": "Rollos de papel de arroz con camarón, hierbas, vermicelli y lechuga, con salsa de cacahuate.",
+              "price": "$5.95",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Rollos de Huevo Crujientes (3)",
+              "desc": "Rollos dorados y crocantes rellenos de cerdo sazonado y verduras, fritos al momento.",
+              "price": "$5.50",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "wok-classics",
+          "name": "Clásicos al Wok",
+          "blurb": "Salteados chisporroteantes preparados frescos en el wok.",
+          "items": [
+            {
+              "name": "Salteado al Ajo",
+              "desc": "Verduras y la proteína que elijas salteadas al wok en una sabrosa salsa de ajo sobre arroz.",
+              "price": "$12.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pollo al Chile Dulce",
+              "desc": "Pollo crujiente bañado en un glaseado de chile dulce y picante con pimientos y cebolla.",
+              "price": "$12.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Salteado de Res con Brócoli",
+              "desc": "Res tierna y brócoli crujiente salteados al wok en una sabrosa salsa de ajo.",
+              "price": "$13.50",
+              "tags": []
+            },
+            {
+              "name": "Salteado de Verduras",
+              "desc": "Una mezcla colorida de verduras frescas y tofu salteadas al wok en una ligera salsa de jengibre.",
+              "price": "$11.50",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Camarón al Ajo Picante",
+              "desc": "Camarón jugoso salteado con ajo, chiles y verduras crujientes sobre arroz al vapor.",
+              "price": "$13.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "drinks",
+          "name": "Bebidas",
+          "blurb": "Boba, té con burbujas y café vietnamita intenso para completar tu orden.",
+          "items": [
+            {
+              "name": "Té con Leche y Boba Clásico",
+              "desc": "Cremoso té con leche con perlas masticables de tapioca, endulzado en su punto.",
+              "price": "$4.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Té con Burbujas de Taro",
+              "desc": "Suave y dulce té con leche de taro con perlas de boba masticables.",
+              "price": "$4.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Café Vietnamita Helado",
+              "desc": "Café intenso de tueste oscuro sobre hielo con leche condensada azucarada.",
+              "price": "$4.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Té Verde con Fruta",
+              "desc": "Refrescante té verde batido con sabor de fruta real, con o sin boba.",
+              "price": "$4.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Tu Cocina Vietnamita y Asiática de Barrio",
+      "lead": "Bea's Wok N Roll es un lugar independiente de DeKalb que sirve comida reconfortante vietnamita y asiática fresca, rápida, sabrosa y hecha como te gusta.",
+      "paragraphs": [
+        "Desde un tazón humeante de pho en un día frío hasta un banh mi crujiente entre clases, lo mantenemos fresco, rápido y lleno de sabor. Arma tu propio tazón de arroz o fideos, pide unos rollos primavera y termina con un boba dulce y masticable.",
+        "Desde nuestro local en el norte de DeKalb, nos enorgullece ser un favorito tanto de los estudiantes de NIU como de las familias de la zona. Todo se prepara fresco y queda listo rápido para recoger fácil en el campus, así puedes llevarte buena comida y seguir con tu día."
+      ],
+      "stats": [
+        {
+          "value": "Fresco",
+          "label": "Hecho al Momento"
+        },
+        {
+          "value": "Rápido",
+          "label": "Recoger en el Campus"
+        },
+        {
+          "value": "Boba",
+          "label": "y Té con Burbujas"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Sabor de Bea's",
+      "subheading": "Un vistazo a los platillos frescos y hechos al momento que salen de nuestra cocina cada día.",
+      "captions": [
+        "Tazones humeantes de pho de res con hierbas frescas",
+        "Banh mi crujiente de cerdo a la parrilla, hecho al momento",
+        "Tazones de vermicelli a tu gusto bien servidos",
+        "Rollos primavera frescos con salsa de cacahuate",
+        "Salteado al wok chisporroteante, recién hecho",
+        "Boba cremoso y café vietnamita helado"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice DeKalb",
+      "items": [
+        {
+          "quote": "El mejor pho de DeKalb, sin duda. El caldo es riquísimo y siempre está listo rápido cuando ordeno en línea entre clases.",
+          "name": "Kayla N.",
+          "role": "Estudiante de NIU"
+        },
+        {
+          "quote": "El banh mi es crujiente, fresco y lleno de sabor. Me llevo uno y un boba de taro casi cada semana.",
+          "name": "Marcus T.",
+          "role": "Cliente frecuente en DeKalb"
+        },
+        {
+          "quote": "Me encanta que puedes armar tu propio tazón. Hierbas frescas, buenas porciones y un equipo amable. Un nuevo favorito del campus.",
+          "name": "Priya R.",
+          "role": "Cliente local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en DeKalb",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "11:00 AM - 9:00 PM"
+        },
+        {
+          "day": "Viernes - Sábado",
+          "time": "11:00 AM - 10:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "12:00 PM - 8:00 PM"
+        }
+      ],
+      "phoneLabel": "Ordena en Línea",
+      "directions": "Encuéntranos en 1402 Sycamore Road en DeKalb, IL, a solo minutos de NIU. Ordena en línea y tus favoritos frescos y hechos al momento estarán listos para recoger rápido en el campus.",
+      "neighborhood": "Estamos sobre Sycamore Road, el corredor comercial del norte de DeKalb que conecta la ciudad con el vecino pueblo de Sycamore."
+    },
+    "cta": {
+      "heading": "¿Con Hambre? Ordena en Línea Ahora",
+      "text": "Evita la espera y ordena con anticipación. Tu pho, banh mi, tazones y boba frescos y hechos al momento estarán listos para recoger rápido en el campus.",
+      "button": "Ordena en Línea"
+    },
+    "form": {
+      "heading": "Ordenar y Contacto",
+      "subheading": "Haz un pedido, pregunta por banquetes o envíanos una pregunta. Cuéntanos qué se te antoja y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Pedido / Número de Personas",
+      "date": "Fecha/Hora Preferida para Recoger",
+      "message": "¿Qué te preparamos? Cuéntanos sobre tu pedido o pregunta.",
+      "submit": "Enviar Solicitud de Pedido",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Comida reconfortante vietnamita y asiática fresca, rápida, sabrosa y un gran favorito de NIU.",
+      "rights": "© Bea's Wok N Roll. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

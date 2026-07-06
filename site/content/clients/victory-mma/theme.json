@@ -1,0 +1,16 @@
+{
+  "concept": "Fight Night - a gritty, disciplined combat-sport palette. Signal-red primary throws the punch, gunmetal steel grounds it with discipline, and an electric-orange accent adds high-energy spark. Near-black ink sits on warm cream canvas, with optional dark gunmetal panels for bold, arena-lit contrast.",
+  "vars": {
+    "--color-bg": "#F7F3EC",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#EDE7DD",
+    "--color-ink": "#15110F",
+    "--color-ink-soft": "#595049",
+    "--color-primary": "#C81E2D",
+    "--color-primary-dark": "#9E1622",
+    "--color-secondary": "#3A444E",
+    "--color-accent": "#F4641C",
+    "--color-line": "#E2DACD"
+  },
+  "contrastNotes": "ink #15110F on bg #F7F3EC = 16.97:1 (>=7 PASS). ink-soft #595049 on bg = 7.12:1 (>=4.5 PASS). White on primary #C81E2D = 5.71:1 (>=4.5 PASS). Primary on bg = 5.16:1 (>=3 PASS). Bonus: white on primary-dark #9E1622 = 8.1:1; secondary #3A444E on bg = 9.3:1. surface-alt #17191D is a dark gunmetal panel for arena-lit sections (use cream/white text on it). Accent #F4641C is reserved for highlights and CTA sparks; pair with ink, not white, for small text."
+}

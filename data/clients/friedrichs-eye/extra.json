@@ -1,0 +1,106 @@
+{
+  "en": {
+    "process": {
+      "heading": "What to Expect",
+      "steps": [
+        {
+          "title": "Book Your Visit",
+          "text": "Schedule online or call us, tell us what you need, and pick a time that fits your week."
+        },
+        {
+          "title": "Comprehensive Exam",
+          "text": "We evaluate your vision and eye health with advanced screening, taking time to answer every question along the way."
+        },
+        {
+          "title": "Your Personalized Plan",
+          "text": "Together we review your results, your prescription, and any treatment or eyewear options in clear, plain language."
+        },
+        {
+          "title": "Eyewear & Follow-Up Care",
+          "text": "Choose frames and lenses with expert styling help, and we'll keep your eyes healthy at every future visit."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Do you accept walk-ins?",
+          "a": "We recommend booking ahead so we can give you unhurried, focused care, but call us about same-day availability or urgent red-eye concerns."
+        },
+        {
+          "q": "Do you take my insurance?",
+          "a": "We accept most vision and medical insurance plans. Contact us with your provider details and we'll help confirm your coverage and any out-of-pocket costs before your visit."
+        },
+        {
+          "q": "What should I bring to my first visit?",
+          "a": "Please bring your current glasses or contacts, a list of any medications, your insurance card, and any questions about your vision or eye health."
+        },
+        {
+          "q": "Do you speak Spanish?",
+          "a": "Yes, we're happy to help you in English or Spanish so you feel comfortable and fully understand your eye care every step of the way."
+        },
+        {
+          "q": "How much does an eye exam cost?",
+          "a": "Exam pricing depends on the type of exam and your insurance. Reach out and we'll gladly walk you through current pricing for what you need."
+        },
+        {
+          "q": "Do you see children?",
+          "a": "Absolutely. We offer gentle, kid-friendly exams for every age, from a child's very first checkup through the teen years, in a welcoming setting."
+        }
+      ]
+    }
+  },
+  "es": {
+    "process": {
+      "heading": "Qué Esperar",
+      "steps": [
+        {
+          "title": "Agenda tu Visita",
+          "text": "Agenda en línea o llámanos, cuéntanos qué necesitas y elige un horario que se ajuste a tu semana."
+        },
+        {
+          "title": "Examen Completo",
+          "text": "Evaluamos tu visión y salud ocular con tecnología avanzada, tomándonos el tiempo de responder cada pregunta en el camino."
+        },
+        {
+          "title": "Tu Plan Personalizado",
+          "text": "Juntos revisamos tus resultados, tu graduación y cualquier opción de tratamiento o lentes en palabras claras y sencillas."
+        },
+        {
+          "title": "Lentes y Seguimiento",
+          "text": "Elige monturas y lentes con asesoría experta, y cuidamos la salud de tus ojos en cada visita futura."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿Atienden sin cita?",
+          "a": "Recomendamos agendar con anticipación para darte una atención dedicada y sin prisas, pero llámanos para consultar disponibilidad el mismo día o urgencias de ojo rojo."
+        },
+        {
+          "q": "¿Aceptan mi seguro?",
+          "a": "Aceptamos la mayoría de los seguros de visión y médicos. Contáctanos con los datos de tu proveedor y te ayudamos a confirmar tu cobertura y cualquier costo antes de tu visita."
+        },
+        {
+          "q": "¿Qué debo traer a mi primera visita?",
+          "a": "Por favor trae tus lentes o contactos actuales, una lista de tus medicamentos, tu tarjeta del seguro y cualquier pregunta sobre tu visión o salud ocular."
+        },
+        {
+          "q": "¿Hablan español?",
+          "a": "Sí, con gusto te atendemos en inglés o español para que te sientas cómodo y entiendas por completo tu cuidado ocular en cada paso."
+        },
+        {
+          "q": "¿Cuánto cuesta un examen de la vista?",
+          "a": "El precio del examen depende del tipo de examen y de tu seguro. Contáctanos y con gusto te explicamos los precios vigentes para lo que necesitas."
+        },
+        {
+          "q": "¿Atienden a niños?",
+          "a": "Por supuesto. Ofrecemos exámenes suaves y amigables para toda edad, desde el primer chequeo de un niño hasta la adolescencia, en un ambiente acogedor."
+        }
+      ]
+    }
+  }
+}

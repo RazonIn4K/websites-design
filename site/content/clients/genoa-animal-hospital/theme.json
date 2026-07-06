@@ -1,0 +1,16 @@
+{
+  "concept": "A calm, caring veterinary palette pairing a trustworthy deep teal with a warm coral accent over clean mint-white surfaces and gentle slate ink.",
+  "vars": {
+    "--color-bg": "#F4FAF8",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#E8F4F0",
+    "--color-ink": "#1B2A30",
+    "--color-ink-soft": "#4A5C63",
+    "--color-primary": "#0F7B6C",
+    "--color-primary-dark": "#0A5A4F",
+    "--color-secondary": "#2E6E7E",
+    "--color-accent": "#F08A6B",
+    "--color-line": "#D5E5E0"
+  },
+  "contrastNotes": "All AA requirements met. ink #1B2A30 on bg #F4FAF8 = 13.99:1 (>=7 AAA). ink-soft #4A5C63 on bg = 6.62:1 (>=4.5 AA). white #FFFFFF on primary #0F7B6C = 5.16:1 (>=4.5 AA, safe for white CTA labels); white on primary-dark = 8.11:1 and white on secondary #2E6E7E = 5.76:1. primary on bg = 4.88:1 (>=3 for large text/UI). Accent #F08A6B is decorative/large-text use with ink #1B2A30 on accent = 6.02:1 (AA for text on coral chips)."
+}

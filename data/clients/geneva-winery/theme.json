@@ -1,0 +1,16 @@
+{
+  "concept": "Candlelit Cellar - an intimate, sophisticated winery palette pairing deep wine burgundy with antique gold over warm candlelit-cream backgrounds and near-black ink, evoking the cozy glow of an evening wine bar and the warmth of a coffeehouse.",
+  "vars": {
+    "--color-bg": "#FBF6EE",
+    "--color-surface": "#FFFDF9",
+    "--color-surface-alt": "#F4EADC",
+    "--color-ink": "#1E1411",
+    "--color-ink-soft": "#5C4A40",
+    "--color-primary": "#6E1226",
+    "--color-primary-dark": "#4C0C1A",
+    "--color-secondary": "#3A2A22",
+    "--color-accent": "#B0892E",
+    "--color-line": "#E6D8C5"
+  },
+  "contrastNotes": "All required ratios verified and pass WCAG-AA. ink(#1E1411) on bg(#FBF6EE) = 16.78:1 (>=7). ink-soft(#5C4A40) on bg = 7.78:1 (>=4.5). white on primary(#6E1226) = 11.81:1 (>=4.5). primary on bg = 10.98:1 (>=3). Bonus: ink on surface 17.77:1; ink on surface-alt 15.17:1; ink-soft on surface-alt 7.04:1; white on primary-dark 15.27:1; white on secondary(coffee #3A2A22) 13.69:1. Antique-gold accent(#B0892E) is reserved for decorative/large-text use (3.02:1 on bg, 3.25:1 white-on-accent) and is not relied upon for body-text contrast."
+}

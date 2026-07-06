@@ -1,0 +1,16 @@
+{
+  "concept": "Hearty pub-grille warmth: a smoky brick-red primary paired with toasted-amber, set on warm cream backgrounds with deep charcoal-brown ink. Rustic, appetizing, and energetic with a masculine-neutral, sports-bar feel.",
+  "vars": {
+    "--color-bg": "#FBF4E8",
+    "--color-surface": "#FFFDF8",
+    "--color-surface-alt": "#F3E7D3",
+    "--color-ink": "#2A1E17",
+    "--color-ink-soft": "#5C4636",
+    "--color-primary": "#A12B1C",
+    "--color-primary-dark": "#7C1E12",
+    "--color-secondary": "#3E5C3A",
+    "--color-accent": "#C8791A",
+    "--color-line": "#E4D5BC"
+  },
+  "contrastNotes": "All required ratios pass WCAG-AA. ink on bg 14.81:1 (>=7); ink on surface 15.93:1; ink on surface-alt 13.25:1. ink-soft on bg 8.06:1 (>=4.5); ink-soft on surface-alt 7.21:1. White on primary 7.30:1 and white on primary-dark 10.24:1 (>=4.5). White on secondary 7.51:1. primary on bg 6.67:1 (>=3); accent on bg 3.10:1 (>=3). Toasted-amber accent is for fills/borders and pairs with dark ink (ink on accent ~6.0:1), not white text."
+}

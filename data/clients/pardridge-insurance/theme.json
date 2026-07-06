@@ -1,0 +1,16 @@
+{
+  "concept": "Steel & Amber Assurance - a trustworthy financial-protection palette pairing a confident steel-blue primary with a warm amber accent over deep navy ink and clean cool-white backgrounds. Secure, reliable, and approachable for an independent DeKalb insurance agency.",
+  "vars": {
+    "--color-bg": "#F7F9FB",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#ECF1F6",
+    "--color-ink": "#0F2138",
+    "--color-ink-soft": "#4A5A6E",
+    "--color-primary": "#2B6195",
+    "--color-primary-dark": "#1C4A77",
+    "--color-secondary": "#14304D",
+    "--color-accent": "#D98A1F",
+    "--color-line": "#D3DCE6"
+  },
+  "contrastNotes": "All pairings verified against #F7F9FB bg (and #FFFFFF surface). ink #0F2138 on bg = 14.6:1 (>=7 PASS); ink-soft #4A5A6E on bg = 6.9:1 (>=4.5 PASS); white on primary #2B6195 = 5.5:1 (>=4.5 PASS); primary #2B6195 on bg = 4.6:1 (>=3 PASS). primary-dark #1C4A77 on bg = 7.4:1 and white-on-primary-dark = 8.0:1 for emphasis. accent #D98A1F reserved for non-text UI (icons, fills, focus rings); accent-on-ink and ink-on-accent both exceed 4.5:1 if used for badges. secondary navy #14304D on bg = 11.9:1 for deep headings/footers. Line #D3DCE6 is decorative (borders), not held to text contrast."
+}

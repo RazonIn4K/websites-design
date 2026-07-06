@@ -1,0 +1,106 @@
+{
+  "en": {
+    "process": {
+      "heading": "What to Expect at Cortland Vet",
+      "steps": [
+        {
+          "title": "Book Your Visit",
+          "text": "Request a time online or call, and tell us about your animal — we'll set up a clinic visit or a ranch call."
+        },
+        {
+          "title": "Gentle Exam",
+          "text": "We take our time with a calm, nose-to-tail check, asking about diet, age, and anything that's been worrying you."
+        },
+        {
+          "title": "Honest Diagnosis & Plan",
+          "text": "We explain what we find in plain language and lay out fair, practical options for your pet or your herd."
+        },
+        {
+          "title": "Follow-Up Care",
+          "text": "We send you home with clear aftercare and stay in reach to check progress and answer any questions."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Common Questions",
+      "items": [
+        {
+          "q": "Do you take walk-ins or do I need an appointment?",
+          "a": "We work best by appointment so we can give each animal real attention. For a sick pet or urgent concern, call us and we'll do our best to fit you in."
+        },
+        {
+          "q": "Do you really come out to the farm or ranch?",
+          "a": "Yes. We load up the truck for on-site visits to horses, cattle, sheep, and goats — routine herd work, sick animals, and seasonal care right at your place."
+        },
+        {
+          "q": "How much will my visit cost?",
+          "a": "Many services start at a posted price, while others depend on your animal's needs. We'll talk through honest options upfront, with no upselling and no surprises."
+        },
+        {
+          "q": "What should I bring to my first visit?",
+          "a": "Bring any past records, vaccine history, and a list of current foods or medications. For nervous pets, a leash or carrier helps keep the visit calm."
+        },
+        {
+          "q": "Do you speak Spanish?",
+          "a": "We're glad to help Spanish-speaking neighbors and will do our best to make sure you fully understand your animal's care and options."
+        },
+        {
+          "q": "What are your hours?",
+          "a": "We're open Monday through Friday, 8:00 AM to 5:30 PM, and Saturday from 8:00 AM to noon. We're closed Sundays."
+        }
+      ]
+    }
+  },
+  "es": {
+    "process": {
+      "heading": "Qué Esperar en Cortland Vet",
+      "steps": [
+        {
+          "title": "Agenda Tu Visita",
+          "text": "Pide una cita en línea o llámanos y cuéntanos sobre tu animal — coordinamos una visita a la clínica o al rancho."
+        },
+        {
+          "title": "Examen Gentil",
+          "text": "Nos tomamos el tiempo con una revisión tranquila de la nariz a la cola, preguntando sobre dieta, edad y lo que te preocupa."
+        },
+        {
+          "title": "Diagnóstico y Plan Honestos",
+          "text": "Explicamos lo que encontramos en palabras claras y te damos opciones justas y prácticas para tu mascota o tu rebaño."
+        },
+        {
+          "title": "Cuidado de Seguimiento",
+          "text": "Te enviamos a casa con cuidados claros y seguimos a tu alcance para revisar el progreso y responder tus preguntas."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿Atienden sin cita o necesito agendar?",
+          "a": "Trabajamos mejor con cita para darle atención real a cada animal. Si tu mascota está enferma o es urgente, llámanos y haremos lo posible por recibirte."
+        },
+        {
+          "q": "¿De verdad van a la granja o al rancho?",
+          "a": "Sí. Cargamos la camioneta para visitas en el lugar a caballos, vacas, ovejas y cabras — trabajo de rutina, animales enfermos y cuidado de temporada en tu propiedad."
+        },
+        {
+          "q": "¿Cuánto costará mi visita?",
+          "a": "Muchos servicios tienen un precio inicial publicado y otros dependen de las necesidades de tu animal. Hablamos de opciones honestas de antemano, sin ventas de más ni sorpresas."
+        },
+        {
+          "q": "¿Qué debo llevar a mi primera visita?",
+          "a": "Trae registros previos, historial de vacunas y una lista de alimentos o medicamentos actuales. Para mascotas nerviosas, una correa o transportadora ayuda a mantener la calma."
+        },
+        {
+          "q": "¿Hablan español?",
+          "a": "Con gusto atendemos a nuestros vecinos de habla hispana y haremos lo posible para que entiendas bien el cuidado y las opciones de tu animal."
+        },
+        {
+          "q": "¿Cuál es su horario?",
+          "a": "Abrimos de lunes a viernes, de 8:00 AM a 5:30 PM, y los sábados de 8:00 AM al mediodía. Cerramos los domingos."
+        }
+      ]
+    }
+  }
+}

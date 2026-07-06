@@ -1,0 +1,754 @@
+{
+  "business": {
+    "name": "Chicago Beauty",
+    "shortName": "Chicago Beauty",
+    "vertical": "Lash, Brow & Beauty Bar",
+    "phone": "",
+    "phoneHref": "",
+    "address": "822 West Lincoln Highway",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Chicago Beauty, 822 West Lincoln Highway, DeKalb, IL 60115"
+  },
+  "en": {
+    "meta": {
+      "title": "Chicago Beauty | Lash, Brow & Beauty Bar in DeKalb, IL",
+      "description": "Lash extensions, brow shaping & lamination, facials, and waxing at a modern beauty bar in DeKalb, IL. Book your glow-up online with skilled beauty artists."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About",
+      "gallery": "Our Work",
+      "visit": "Visit",
+      "order": "Book Now"
+    },
+    "hero": {
+      "eyebrow": "Lashes · Brows · Glowing Skin",
+      "title": "Your Glow-Up Starts Here,",
+      "titleAccent": "In the Heart of DeKalb",
+      "subtitle": "Step into a modern beauty bar built for lashes, brows, and radiant skin. Our skilled artists create on-trend looks in a relaxing space, so you leave feeling confident, refreshed, and ready to shine.",
+      "ctaPrimary": "View Services",
+      "ctaSecondary": "Book Your Appointment",
+      "badge": "Online booking · Walk-ins welcome when available"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Skilled Beauty Artists",
+        "text": "Detail-obsessed lash, brow, and skin specialists who customize every look to suit your features and style."
+      },
+      {
+        "icon": "heart",
+        "title": "Relaxing Vibe",
+        "text": "A calm, welcoming studio where every appointment feels like a little reset for your skin and your day."
+      },
+      {
+        "icon": "crown",
+        "title": "On-Trend Looks",
+        "text": "From fluffy volume lashes to laminated brows and glowing facials, we keep your look fresh and current."
+      },
+      {
+        "icon": "star",
+        "title": "Confidence & Self-Care",
+        "text": "More than beauty, it's a moment for you, designed to leave you glowing inside and out."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Services and prices shown are illustrative demo content for this concept site and may not reflect the beauty bar's actual menu.",
+      "categories": [
+        {
+          "id": "lashes",
+          "name": "Lashes",
+          "blurb": "Wake up wide-eyed with lashes made just for you.",
+          "items": [
+            {
+              "name": "Classic Lash Extensions",
+              "desc": "One lightweight extension applied per natural lash for a soft, mascara-like enhancement.",
+              "price": "$120",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Hybrid Lash Extensions",
+              "desc": "A mix of classic and volume lashes for natural-looking fullness with a bit of drama.",
+              "price": "$140",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Volume Lash Extensions",
+              "desc": "Multiple ultra-fine extensions per lash for a fluffy, full, statement set.",
+              "price": "$160"
+            },
+            {
+              "name": "Lash Lift & Tint",
+              "desc": "Curl and darken your natural lashes for an effortless, open-eyed look that lasts weeks.",
+              "price": "$85",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Lash Fill (2-3 Weeks)",
+              "desc": "Refresh your existing set to keep your lashes looking freshly done.",
+              "price": "$60",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "brows",
+          "name": "Brows",
+          "blurb": "Shaped, defined, and perfectly framed for your face.",
+          "items": [
+            {
+              "name": "Brow Shaping & Wax",
+              "desc": "Precise waxing and shaping to clean up and define your natural brow line.",
+              "price": "$25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Brow Lamination",
+              "desc": "Brushed-up, fuller-looking brows set in place for a fluffy, on-trend finish.",
+              "price": "$65",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Brow Tint",
+              "desc": "Custom-blended tint to add depth, color, and definition to sparse brows.",
+              "price": "$20"
+            },
+            {
+              "name": "Lamination + Shape + Tint",
+              "desc": "The full brow transformation, combining lamination, shaping, and a custom tint.",
+              "price": "$95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Microblading",
+              "desc": "Semi-permanent, hair-like strokes to fill, define, and reshape your brows.",
+              "price": "$350",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "skin-wax",
+          "name": "Skin & Wax",
+          "blurb": "Smooth, glowing, refreshed skin from head to toe.",
+          "items": [
+            {
+              "name": "Signature Glow Facial",
+              "desc": "A customized cleanse, exfoliation, mask, and massage to leave your skin radiant.",
+              "price": "$90",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Express Facial",
+              "desc": "A quick cleanse, exfoliation, and hydration boost for skin in a hurry.",
+              "price": "$55",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Dermaplane Treatment",
+              "desc": "Gentle exfoliation that removes peach fuzz and dull skin for an instant glow.",
+              "price": "$75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Lip or Chin Wax",
+              "desc": "Quick, gentle waxing to keep small areas smooth and tidy.",
+              "price": "$15"
+            },
+            {
+              "name": "Full Leg Wax",
+              "desc": "Smooth, long-lasting hair removal for the entire leg.",
+              "price": "$65"
+            },
+            {
+              "name": "Brazilian Wax",
+              "desc": "Thorough, careful full waxing performed with comfort and privacy in mind.",
+              "price": "$60"
+            }
+          ]
+        },
+        {
+          "id": "addons-packages",
+          "name": "Add-Ons & Packages",
+          "blurb": "Bundle your favorites and glow for less.",
+          "items": [
+            {
+              "name": "Glow Combo (Lashes + Brows)",
+              "desc": "A classic lash set paired with brow shaping and tint for a complete refresh.",
+              "price": "$150",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Bridal Glow Package",
+              "desc": "Lashes, brows, and a glow facial timed for your big day, plus a pre-wedding trial.",
+              "price": "$295",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Lash + Brow Lamination Duo",
+              "desc": "Lash lift and brow lamination together for a wide-awake, low-maintenance look.",
+              "price": "$130",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Self-Care Day",
+              "desc": "A glow facial, dermaplane, and brow shaping bundled into one relaxing visit.",
+              "price": "$160"
+            },
+            {
+              "name": "First-Visit Lash Set",
+              "desc": "A discounted full classic set for new guests trying lash extensions for the first time.",
+              "price": "$99",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A Modern Beauty Bar in DeKalb",
+      "lead": "Chicago Beauty is an independent lash, brow, and beauty bar built around confidence, self-care, and that fresh, glowing finish.",
+      "paragraphs": [
+        "Right on West Lincoln Highway, Chicago Beauty is a modern studio where lashes, brows, and skin come together in one relaxing space. We keep the vibe calm and welcoming, so every appointment feels less like an errand and more like a little reset in the middle of a busy week in DeKalb.",
+        "Our skilled artists take real pride in their craft, whether you're after fluffy volume lashes, perfectly laminated brows, or a glow facial that leaves your skin radiant. We listen, we customize every look to suit you, and we send you out the door feeling confident, refreshed, and ready to shine."
+      ],
+      "stats": [
+        {
+          "value": "Lash · Brow · Skin",
+          "label": "All Under One Roof"
+        },
+        {
+          "value": "Custom",
+          "label": "Looks Made for You"
+        },
+        {
+          "value": "Relaxing",
+          "label": "Calm, Welcoming Vibe"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Our Work",
+      "subheading": "A peek at the lashes, brows, and glowing skin coming out of our beauty bar.",
+      "captions": [
+        "Fluffy volume lash set",
+        "Laminated and tinted brows",
+        "Soft, natural classic lashes",
+        "Radiant glow facial finish",
+        "Clean, defined brow shaping",
+        "Smooth, glowing dermaplaned skin"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Is Saying",
+      "items": [
+        {
+          "quote": "My lashes have never looked better. The studio is so calm and clean, and I leave feeling like a whole new person every time.",
+          "name": "Brianna T.",
+          "role": "Lash Regular"
+        },
+        {
+          "quote": "Brow lamination here completely changed my routine. They actually listened to what I wanted and my brows look amazing.",
+          "name": "Daniela M.",
+          "role": "Brow Client"
+        },
+        {
+          "quote": "The glow facial left my skin so soft and bright. The whole experience felt like a relaxing little getaway.",
+          "name": "Kayla R.",
+          "role": "Skincare Fan"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Studio",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "9:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM – 4:00 PM"
+        }
+      ],
+      "phoneLabel": "Booking",
+      "directions": "On West Lincoln Highway in DeKalb with easy parking nearby. Book your appointment online ahead, walk-ins welcome when we have an opening."
+    },
+    "cta": {
+      "heading": "Ready for Your Glow-Up?",
+      "text": "Book your appointment online and let our artists create a look you'll love. You'll leave relaxed, refreshed, and glowing.",
+      "button": "Book Your Glow-Up"
+    },
+    "form": {
+      "heading": "Book an Appointment",
+      "subheading": "Tell us the service you'd like and your preferred time. We'll confirm your spot and get you on the schedule.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Service Needed",
+      "date": "Preferred Date & Time",
+      "message": "Anything Else?",
+      "submit": "Request Appointment",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and will confirm your appointment shortly.",
+      "error": "Something went wrong. Please try again or stop by the studio.",
+      "consent": "By submitting, you agree to be contacted about your appointment request."
+    },
+    "footer": {
+      "tagline": "A modern lash, brow, and beauty bar for confidence and self-care in DeKalb.",
+      "rights": "© Chicago Beauty. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Studio Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    },
+    "ritual": {
+      "heading": "Your Visit, Step by Step",
+      "steps": [
+        {
+          "title": "Book & Settle In",
+          "text": "Reserve online in seconds, then arrive to a calm studio where you can breathe out and slow down."
+        },
+        {
+          "title": "Your Look, Personalized",
+          "text": "We chat through your lashes, brows, and skin goals, then map a custom look made just for your features."
+        },
+        {
+          "title": "Relax Through the Treatment",
+          "text": "Recline in soft light while our artists work with care, turning your appointment into a quiet little reset."
+        },
+        {
+          "title": "Glow & Rebook",
+          "text": "Leave refreshed with simple aftercare tips, and book your next visit so your glow always stays fresh."
+        }
+      ]
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Chicago Beauty | Bar de Pestañas, Cejas y Belleza en DeKalb, IL",
+      "description": "Extensiones de pestañas, diseño y laminado de cejas, faciales y depilación en un moderno bar de belleza en DeKalb, IL. Reserva tu cita en línea con artistas expertas."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Nuestro Trabajo",
+      "visit": "Visítanos",
+      "order": "Reservar"
+    },
+    "hero": {
+      "eyebrow": "Pestañas · Cejas · Piel Radiante",
+      "title": "Tu Transformación Comienza Aquí,",
+      "titleAccent": "En el Corazón de DeKalb",
+      "subtitle": "Entra a un moderno bar de belleza creado para pestañas, cejas y piel radiante. Nuestras artistas expertas crean looks de moda en un espacio relajante, para que salgas sintiéndote segura, renovada y lista para brillar.",
+      "ctaPrimary": "Ver Servicios",
+      "ctaSecondary": "Reserva tu Cita",
+      "badge": "Reservación en línea · Sin cita cuando hay disponibilidad"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Artistas de Belleza Expertas",
+        "text": "Especialistas en pestañas, cejas y piel obsesionadas con el detalle, que personalizan cada look según tus rasgos y tu estilo."
+      },
+      {
+        "icon": "heart",
+        "title": "Ambiente Relajante",
+        "text": "Un estudio tranquilo y acogedor donde cada cita se siente como un pequeño respiro para tu piel y tu día."
+      },
+      {
+        "icon": "crown",
+        "title": "Looks de Moda",
+        "text": "Desde pestañas de volumen esponjosas hasta cejas laminadas y faciales radiantes, mantenemos tu look fresco y actual."
+      },
+      {
+        "icon": "star",
+        "title": "Confianza y Autocuidado",
+        "text": "Más que belleza, es un momento para ti, diseñado para dejarte radiante por dentro y por fuera."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Los servicios y precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar el menú real del bar de belleza.",
+      "categories": [
+        {
+          "id": "lashes",
+          "name": "Pestañas",
+          "blurb": "Despierta con una mirada abierta y pestañas hechas solo para ti.",
+          "items": [
+            {
+              "name": "Extensiones de Pestañas Clásicas",
+              "desc": "Una extensión ligera aplicada por cada pestaña natural para un efecto suave, como de máscara.",
+              "price": "$120",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Extensiones de Pestañas Híbridas",
+              "desc": "Una mezcla de pestañas clásicas y de volumen para un efecto lleno y natural con un toque dramático.",
+              "price": "$140",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Extensiones de Pestañas de Volumen",
+              "desc": "Varias extensiones ultrafinas por pestaña para un set esponjoso, lleno y llamativo.",
+              "price": "$160"
+            },
+            {
+              "name": "Lifting y Tinte de Pestañas",
+              "desc": "Riza y oscurece tus pestañas naturales para una mirada abierta sin esfuerzo que dura semanas.",
+              "price": "$85",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Relleno de Pestañas (2-3 Semanas)",
+              "desc": "Refresca tu set actual para mantener tus pestañas luciendo recién hechas.",
+              "price": "$60",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "brows",
+          "name": "Cejas",
+          "blurb": "Diseñadas, definidas y perfectamente enmarcadas para tu rostro.",
+          "items": [
+            {
+              "name": "Diseño y Depilación de Cejas",
+              "desc": "Depilación con cera precisa y diseño para limpiar y definir la línea natural de tu ceja.",
+              "price": "$25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Laminado de Cejas",
+              "desc": "Cejas peinadas hacia arriba y de aspecto más lleno, fijadas para un acabado esponjoso y de moda.",
+              "price": "$65",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Tinte de Cejas",
+              "desc": "Tinte mezclado a la medida para añadir profundidad, color y definición a cejas escasas.",
+              "price": "$20"
+            },
+            {
+              "name": "Laminado + Diseño + Tinte",
+              "desc": "La transformación completa de cejas, combinando laminado, diseño y un tinte personalizado.",
+              "price": "$95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Microblading",
+              "desc": "Trazos semipermanentes tipo pelo para rellenar, definir y redibujar tus cejas.",
+              "price": "$350",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "skin-wax",
+          "name": "Piel y Depilación",
+          "blurb": "Piel suave, radiante y renovada de pies a cabeza.",
+          "items": [
+            {
+              "name": "Facial Glow Signature",
+              "desc": "Una limpieza, exfoliación, mascarilla y masaje personalizados para dejar tu piel radiante.",
+              "price": "$90",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Facial Exprés",
+              "desc": "Una limpieza, exfoliación e impulso de hidratación rápidos para la piel con prisa.",
+              "price": "$55",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Tratamiento de Dermaplaning",
+              "desc": "Exfoliación suave que elimina el vello fino y la piel opaca para un brillo instantáneo.",
+              "price": "$75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Depilación de Labio o Mentón",
+              "desc": "Depilación rápida y suave para mantener las zonas pequeñas tersas y prolijas.",
+              "price": "$15"
+            },
+            {
+              "name": "Depilación de Pierna Completa",
+              "desc": "Depilación suave y duradera para toda la pierna.",
+              "price": "$65"
+            },
+            {
+              "name": "Depilación Brasileña",
+              "desc": "Depilación completa, minuciosa y cuidadosa, realizada pensando en tu comodidad y privacidad.",
+              "price": "$60"
+            }
+          ]
+        },
+        {
+          "id": "addons-packages",
+          "name": "Extras y Paquetes",
+          "blurb": "Combina tus favoritos y brilla por menos.",
+          "items": [
+            {
+              "name": "Combo Glow (Pestañas + Cejas)",
+              "desc": "Un set de pestañas clásicas junto con diseño y tinte de cejas para una renovación completa.",
+              "price": "$150",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Paquete Glow de Novia",
+              "desc": "Pestañas, cejas y un facial glow programados para tu gran día, más una prueba previa a la boda.",
+              "price": "$295",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Dúo de Laminado de Pestañas + Cejas",
+              "desc": "Lifting de pestañas y laminado de cejas juntos para una mirada despierta y de bajo mantenimiento.",
+              "price": "$130",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Día de Autocuidado",
+              "desc": "Un facial glow, dermaplaning y diseño de cejas combinados en una visita relajante.",
+              "price": "$160"
+            },
+            {
+              "name": "Set de Pestañas Primera Visita",
+              "desc": "Un set clásico completo con descuento para clientas nuevas que prueban las extensiones por primera vez.",
+              "price": "$99",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Un Moderno Bar de Belleza en DeKalb",
+      "lead": "Chicago Beauty es un bar independiente de pestañas, cejas y belleza creado en torno a la confianza, el autocuidado y ese acabado fresco y radiante.",
+      "paragraphs": [
+        "Justo sobre West Lincoln Highway, Chicago Beauty es un estudio moderno donde pestañas, cejas y piel se unen en un solo espacio relajante. Mantenemos un ambiente tranquilo y acogedor, para que cada cita se sienta menos como un mandado y más como un pequeño respiro en medio de una semana ocupada en DeKalb.",
+        "Nuestras artistas expertas se enorgullecen de verdad de su oficio, ya sea que busques pestañas de volumen esponjosas, cejas perfectamente laminadas o un facial glow que deje tu piel radiante. Te escuchamos, personalizamos cada look para ti y te despedimos sintiéndote segura, renovada y lista para brillar."
+      ],
+      "stats": [
+        {
+          "value": "Pestañas · Cejas · Piel",
+          "label": "Todo Bajo un Mismo Techo"
+        },
+        {
+          "value": "A la Medida",
+          "label": "Looks Hechos para Ti"
+        },
+        {
+          "value": "Relajante",
+          "label": "Ambiente Tranquilo y Acogedor"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Nuestro Trabajo",
+      "subheading": "Un vistazo a las pestañas, cejas y piel radiante que salen de nuestro bar de belleza.",
+      "captions": [
+        "Set de pestañas de volumen esponjoso",
+        "Cejas laminadas y con tinte",
+        "Pestañas clásicas suaves y naturales",
+        "Acabado radiante de facial glow",
+        "Diseño de cejas limpio y definido",
+        "Piel suave y radiante tras el dermaplaning"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice DeKalb",
+      "items": [
+        {
+          "quote": "Mis pestañas nunca se habían visto mejor. El estudio es muy tranquilo y limpio, y salgo sintiéndome como una persona nueva cada vez.",
+          "name": "Brianna T.",
+          "role": "Cliente Frecuente de Pestañas"
+        },
+        {
+          "quote": "El laminado de cejas aquí cambió por completo mi rutina. De verdad escucharon lo que quería y mis cejas se ven increíbles.",
+          "name": "Daniela M.",
+          "role": "Cliente de Cejas"
+        },
+        {
+          "quote": "El facial glow dejó mi piel muy suave y luminosa. Toda la experiencia se sintió como una pequeña escapada relajante.",
+          "name": "Kayla R.",
+          "role": "Fan del Cuidado de la Piel"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita el Estudio",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "Cerrado"
+        },
+        {
+          "day": "Martes",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "9:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM – 4:00 PM"
+        }
+      ],
+      "phoneLabel": "Reservaciones",
+      "directions": "Sobre West Lincoln Highway en DeKalb, con fácil estacionamiento cerca. Reserva tu cita en línea por adelantado; aceptamos sin cita cuando tenemos espacio."
+    },
+    "cta": {
+      "heading": "¿Lista para tu Transformación?",
+      "text": "Reserva tu cita en línea y deja que nuestras artistas creen un look que te va a encantar. Saldrás relajada, renovada y radiante.",
+      "button": "Reserva tu Cita"
+    },
+    "form": {
+      "heading": "Reservar una Cita",
+      "subheading": "Dinos el servicio que quieres y tu horario preferido. Confirmaremos tu lugar y te pondremos en la agenda.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Servicio que Necesitas",
+      "date": "Fecha y Hora Preferida",
+      "message": "¿Algo Más?",
+      "submit": "Solicitar Cita",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y confirmaremos tu cita en breve.",
+      "error": "Algo salió mal. Inténtalo de nuevo o pásate por el estudio.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud de cita."
+    },
+    "footer": {
+      "tagline": "Un moderno bar de pestañas, cejas y belleza para la confianza y el autocuidado en DeKalb.",
+      "rights": "© Chicago Beauty. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario del Estudio",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    },
+    "ritual": {
+      "heading": "Tu Visita, Paso a Paso",
+      "steps": [
+        {
+          "title": "Reserva y Acomódate",
+          "text": "Reserva en línea en segundos y llega a un estudio tranquilo donde puedes respirar y bajar el ritmo."
+        },
+        {
+          "title": "Tu Look, Personalizado",
+          "text": "Conversamos sobre tus metas de pestañas, cejas y piel, y diseñamos un look hecho solo para tus rasgos."
+        },
+        {
+          "title": "Relájate Durante el Tratamiento",
+          "text": "Recuéstate bajo una luz suave mientras nuestras artistas trabajan con cuidado y tu cita se vuelve un pequeño respiro."
+        },
+        {
+          "title": "Brilla y Vuelve a Reservar",
+          "text": "Sal renovada con consejos sencillos de cuidado, y reserva tu próxima visita para mantener tu brillo siempre fresco."
+        }
+      ]
+    }
+  }
+}

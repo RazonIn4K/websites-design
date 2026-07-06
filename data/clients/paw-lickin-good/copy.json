@@ -1,0 +1,618 @@
+{
+  "business": {
+    "name": "Paw Lickin' Good",
+    "shortName": "Paw Lickin' Good",
+    "vertical": "Pet Bakery & Boutique",
+    "phone": "(815) 758-8300",
+    "phoneHref": "+18157588300",
+    "address": "2684 DeKalb Avenue",
+    "city": "Sycamore",
+    "state": "IL",
+    "zip": "60178",
+    "mapsQuery": "Paw Lickin' Good, 2684 DeKalb Avenue, Sycamore, IL 60178"
+  },
+  "en": {
+    "meta": {
+      "title": "Paw Lickin' Good | Dog Bakery, Treats & Pet Boutique in Sycamore, IL",
+      "description": "Fresh-baked dog treats, custom birthday cakes, toys, natural chews, and a self-wash station in Sycamore, IL. Tails wag the moment they walk in. Call (815) 758-8300."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Treats & Shop",
+      "about": "About",
+      "gallery": "Our Space",
+      "visit": "Visit",
+      "order": "Shop & Visit"
+    },
+    "hero": {
+      "eyebrow": "Independent Pet Bakery & Boutique in Sycamore",
+      "title": "Fresh-baked happiness",
+      "titleAccent": "for the whole pack",
+      "subtitle": "From pupcakes and birthday cakes to healthy chews, fun toys, and a DIY self-wash station — Paw Lickin' Good is where the four-legged family comes to be spoiled. Tails wag the moment they walk in.",
+      "ctaPrimary": "View the Bakery Menu",
+      "ctaSecondary": "Call to Order",
+      "badge": "Made fresh for happy, healthy dogs"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "Baked With Love",
+        "text": "Pupcakes, biscuits, and birthday cakes made fresh for the four-legged family who deserve a little spoiling."
+      },
+      {
+        "icon": "leaf",
+        "title": "Wholesome Ingredients",
+        "text": "Natural chews, freeze-dried food, and treats made with dog-friendly ingredients you can feel good about."
+      },
+      {
+        "icon": "droplet",
+        "title": "Self-Wash Station",
+        "text": "Skip the bathtub mess. Our DIY wash stations have everything you need to send your pup home clean and fluffy."
+      },
+      {
+        "icon": "star",
+        "title": "Custom Birthday Cakes",
+        "text": "Celebrate every gotcha day and birthday with a one-of-a-kind cake made just for your best friend."
+      }
+    ],
+    "menu": {
+      "heading": "Treats, Goodies & Services",
+      "subheading": "A taste of everything we bake and stock for your best friend. Items, prices, and details shown here are illustrative demo content for this preview site — please call (815) 758-8300 for current offerings and custom cake orders.",
+      "categories": [
+        {
+          "id": "fresh-baked-treats",
+          "name": "Fresh-Baked Treats",
+          "blurb": "Baked in-house and irresistible — the goodies that make tails wag the moment they walk in.",
+          "items": [
+            {
+              "name": "Frosted Pupcakes",
+              "desc": "Soft, bakery-style cupcakes topped with creamy yogurt frosting and a sprinkle of dog-safe goodness.",
+              "price": "$3.50",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Custom Birthday Cake",
+              "desc": "A made-to-order cake decorated with your pup's name for birthdays, gotcha days, and big celebrations.",
+              "price": "$28.00",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Peanut Butter Biscuits",
+              "desc": "Crunchy, oven-baked biscuits with wholesome peanut butter — the everyday favorite by the bagful.",
+              "price": "$6.50",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Frosted Bones",
+              "desc": "Hand-decorated bone-shaped cookies in seasonal colors and flavors your dog will adore.",
+              "price": "$4.00",
+              "tags": []
+            },
+            {
+              "name": "Pumpkin Pup Cookies",
+              "desc": "Soft-baked cookies with pumpkin and a hint of cinnamon for a gentle, tummy-friendly treat.",
+              "price": "$5.50",
+              "tags": ["value"]
+            },
+            {
+              "name": "Treat Box Sampler",
+              "desc": "A mixed box of our most popular fresh-baked treats — perfect for gifting or trying it all.",
+              "price": "$18.00",
+              "tags": ["value"]
+            }
+          ]
+        },
+        {
+          "id": "toys-goodies",
+          "name": "Toys & Goodies",
+          "blurb": "Durable playthings and boutique finds to keep tails wagging long after the treats are gone.",
+          "items": [
+            {
+              "name": "Tough Squeaky Toys",
+              "desc": "Built for enthusiastic chewers, with reinforced seams and a squeak that survives playtime.",
+              "price": "$12.00",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Handmade Collars",
+              "desc": "Comfortable, stylish collars in a range of sizes and patterns to match every personality.",
+              "price": "$22.00",
+              "tags": []
+            },
+            {
+              "name": "Cozy Apparel",
+              "desc": "Sweaters, bandanas, and rain jackets to keep your pup warm, dry, and undeniably cute.",
+              "price": "$24.00",
+              "tags": ["new"]
+            },
+            {
+              "name": "Plush Pet Beds",
+              "desc": "Soft, supportive beds for the best naps — sized for tiny lap dogs to big snugglers.",
+              "price": "$45.00",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Rope & Tug Toys",
+              "desc": "Sturdy braided rope toys great for tug-of-war, fetch, and a little dental cleaning too.",
+              "price": "$9.00",
+              "tags": ["value"]
+            }
+          ]
+        },
+        {
+          "id": "self-wash-grooming",
+          "name": "Self-Wash & Grooming",
+          "blurb": "Everything you need to send your pup home clean, fluffy, and feeling their best.",
+          "items": [
+            {
+              "name": "DIY Self-Wash Station",
+              "desc": "Raised tubs, warm water, shampoo, towels, and dryers provided — we even clean up the mess.",
+              "price": "$18.00",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Nail Trim",
+              "desc": "A quick, gentle nail trim from our friendly team — no appointment stress required.",
+              "price": "$12.00",
+              "tags": ["fast"]
+            },
+            {
+              "name": "Full Bath",
+              "desc": "Let us do the work with a warm, sudsy bath, blow-dry, and a treat to finish.",
+              "price": "$35.00",
+              "tags": ["value"]
+            },
+            {
+              "name": "Bath & Brush-Out",
+              "desc": "A full bath plus a thorough brush-out to tame shedding and leave the coat soft and shiny.",
+              "price": "$45.00",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "natural-food-chews",
+          "name": "Natural Food & Chews",
+          "blurb": "Wholesome food and long-lasting chews to keep tails wagging and tummies happy.",
+          "items": [
+            {
+              "name": "Freeze-Dried Raw Food",
+              "desc": "Single-ingredient, freeze-dried nutrition that's easy to serve and packed with real flavor.",
+              "price": "$19.50",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Bully Sticks",
+              "desc": "Long-lasting, fully digestible chews that keep busy dogs happily occupied.",
+              "price": "$7.00",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Daily Supplements",
+              "desc": "Joint, skin, and coat chews to support your dog's health at every life stage.",
+              "price": "$16.00",
+              "tags": []
+            },
+            {
+              "name": "Dental Chews",
+              "desc": "Tasty chews that help freshen breath and support clean teeth between brushings.",
+              "price": "$8.50",
+              "tags": ["value"]
+            },
+            {
+              "name": "Freeze-Dried Toppers",
+              "desc": "Sprinkle on a little extra goodness to make any bowl of kibble irresistible.",
+              "price": "$11.00",
+              "tags": ["new"]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A joyful bakery for the four-legged family",
+      "lead": "Paw Lickin' Good is an independent pet bakery and boutique in Sycamore, where fresh-baked treats, healthy goodies, and a little pampering bring tails wagging through the door.",
+      "paragraphs": [
+        "We believe pets are family, and family deserves the good stuff. That's why we bake our treats and birthday cakes in small batches with dog-friendly ingredients, and stock our shelves with the toys, chews, and boutique finds we'd choose for our own pups.",
+        "Stop in to pick out a treat, design a custom birthday cake, or give your dog a sudsy makeover at our self-wash station. However you visit, you'll find a warm welcome for you and your best friend — and probably a few new favorites to take home."
+      ],
+      "stats": [
+        {
+          "value": "Baked Fresh",
+          "label": "Treats & custom cakes made in-house"
+        },
+        {
+          "value": "4 Departments",
+          "label": "Bakery · Boutique · Self-Wash · Chews"
+        },
+        {
+          "value": "Locally Owned",
+          "label": "An independent Sycamore pet shop"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Our Space",
+      "subheading": "A peek inside the bakery, boutique, and self-wash station where pups come to be spoiled.",
+      "captions": [
+        "Fresh pupcakes and biscuits straight from the oven",
+        "Custom birthday cakes decorated to order",
+        "Shelves stocked with toys and boutique finds",
+        "Natural chews and freeze-dried favorites",
+        "The DIY self-wash station, ready to go",
+        "Wagging tails and happy faces at the counter"
+      ]
+    },
+    "testimonials": {
+      "heading": "Loved by Sycamore pups & their people",
+      "items": [
+        {
+          "quote": "My dog literally pulls me to the door. The birthday cake they made for his gotcha day was adorable and he devoured it.",
+          "name": "Jessica T.",
+          "role": "Dog mom"
+        },
+        {
+          "quote": "The self-wash station is a game changer — warm water, everything provided, and no bathtub disaster at home. We're regulars now.",
+          "name": "Marcus D.",
+          "role": "Regular customer"
+        },
+        {
+          "quote": "Great selection of healthy chews and the staff actually knows their stuff. My picky pup loves the freeze-dried toppers.",
+          "name": "Aubrey L.",
+          "role": "Loyal customer"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit Paw Lickin' Good",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday – Friday",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "9:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM – 4:00 PM"
+        }
+      ],
+      "phoneLabel": "Call Us",
+      "directions": "Find us on DeKalb Avenue in Sycamore, with easy parking out front. Stop in to shop, book a self-wash, or call ahead to order a custom birthday cake for your best friend."
+    },
+    "cta": {
+      "heading": "Ready to spoil your best friend?",
+      "text": "Order a custom birthday cake, stock up on fresh-baked treats, or book the self-wash station. Give us a call and we'll have everything ready when you walk in.",
+      "button": "Call (815) 758-8300"
+    },
+    "form": {
+      "heading": "Order a Cake or Ask Us Anything",
+      "subheading": "Tell us what your pup needs — a custom birthday cake, a treat order, or a self-wash visit — and we'll be in touch.",
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Pet Name & Size",
+      "date": "Preferred Pickup Date / Time",
+      "message": "What can we bake or help with?",
+      "submit": "Send My Request",
+      "sending": "Sending...",
+      "success": "Thank you! We've received your request and will be in touch soon to confirm the details.",
+      "error": "Something went wrong. Please try again or call us at (815) 758-8300.",
+      "consent": "By submitting, you agree to be contacted about your order or request."
+    },
+    "footer": {
+      "tagline": "An independent pet bakery and boutique in Sycamore — fresh-baked treats and a little pampering for the four-legged family.",
+      "rights": "© Paw Lickin' Good. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Paw Lickin' Good | Pastelería para Perros y Boutique en Sycamore, IL",
+      "description": "Galletas y pasteles de cumpleaños recién horneados para perros, juguetes, premios naturales y estación de autolavado en Sycamore, IL. Llama al (815) 758-8300."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Premios y Tienda",
+      "about": "Nosotros",
+      "gallery": "Nuestro Espacio",
+      "visit": "Visítanos",
+      "order": "Visítanos"
+    },
+    "hero": {
+      "eyebrow": "Pastelería y Boutique Independiente para Mascotas en Sycamore",
+      "title": "Felicidad recién horneada",
+      "titleAccent": "para toda la jauría",
+      "subtitle": "Desde pastelitos y pasteles de cumpleaños hasta premios saludables, juguetes divertidos y una estación de autolavado — Paw Lickin' Good es donde la familia de cuatro patas viene a ser consentida. Las colitas se mueven en cuanto entran.",
+      "ctaPrimary": "Ver el Menú",
+      "ctaSecondary": "Llama para Ordenar",
+      "badge": "Hecho fresco para perros felices y saludables"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "Horneado con Amor",
+        "text": "Pastelitos, galletas y pasteles de cumpleaños recién hechos para la familia de cuatro patas que merece ser consentida."
+      },
+      {
+        "icon": "leaf",
+        "title": "Ingredientes Saludables",
+        "text": "Premios naturales, alimento liofilizado y golosinas hechas con ingredientes aptos para perros que te dan tranquilidad."
+      },
+      {
+        "icon": "droplet",
+        "title": "Estación de Autolavado",
+        "text": "Olvídate del desastre en la tina. Nuestras estaciones de autolavado tienen todo lo que necesitas para llevar a tu perro a casa limpio y esponjoso."
+      },
+      {
+        "icon": "star",
+        "title": "Pasteles de Cumpleaños Personalizados",
+        "text": "Celebra cada cumpleaños y aniversario con un pastel único hecho especialmente para tu mejor amigo."
+      }
+    ],
+    "menu": {
+      "heading": "Premios, Golosinas y Servicios",
+      "subheading": "Una muestra de todo lo que horneamos y ofrecemos para tu mejor amigo. Los artículos, precios y detalles que se muestran aquí son contenido ilustrativo de demostración para este sitio de vista previa — llama al (815) 758-8300 para conocer la oferta actual y los pedidos de pasteles personalizados.",
+      "categories": [
+        {
+          "id": "fresh-baked-treats",
+          "name": "Premios Recién Horneados",
+          "blurb": "Horneados en casa e irresistibles — las golosinas que hacen mover las colitas en cuanto entran.",
+          "items": [
+            {
+              "name": "Pastelitos con Glaseado",
+              "desc": "Suaves pastelitos estilo pastelería cubiertos con glaseado cremoso de yogur y una pizca de bondad apta para perros.",
+              "price": "$3.50",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Pastel de Cumpleaños Personalizado",
+              "desc": "Un pastel hecho a pedido y decorado con el nombre de tu perro para cumpleaños, aniversarios y grandes celebraciones.",
+              "price": "$28.00",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Galletas de Crema de Cacahuate",
+              "desc": "Galletas crujientes horneadas con crema de cacahuate saludable — la favorita de todos los días por bolsa.",
+              "price": "$6.50",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Huesitos con Glaseado",
+              "desc": "Galletas en forma de hueso decoradas a mano en colores y sabores de temporada que tu perro adorará.",
+              "price": "$4.00",
+              "tags": []
+            },
+            {
+              "name": "Galletas de Calabaza",
+              "desc": "Galletas suaves con calabaza y un toque de canela para un premio gentil y amable con la pancita.",
+              "price": "$5.50",
+              "tags": ["value"]
+            },
+            {
+              "name": "Caja Surtida de Premios",
+              "desc": "Una caja variada con nuestros premios recién horneados más populares — perfecta para regalar o probar de todo.",
+              "price": "$18.00",
+              "tags": ["value"]
+            }
+          ]
+        },
+        {
+          "id": "toys-goodies",
+          "name": "Juguetes y Golosinas",
+          "blurb": "Juguetes resistentes y tesoros de boutique para mantener las colitas moviéndose mucho después de los premios.",
+          "items": [
+            {
+              "name": "Juguetes Chillones Resistentes",
+              "desc": "Hechos para masticadores entusiastas, con costuras reforzadas y un chillido que sobrevive a la hora del juego.",
+              "price": "$12.00",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Collares Hechos a Mano",
+              "desc": "Collares cómodos y con estilo en una variedad de tamaños y patrones para cada personalidad.",
+              "price": "$22.00",
+              "tags": []
+            },
+            {
+              "name": "Ropa Acogedora",
+              "desc": "Suéteres, pañuelos y chubasqueros para mantener a tu perro abrigado, seco e innegablemente adorable.",
+              "price": "$24.00",
+              "tags": ["new"]
+            },
+            {
+              "name": "Camas Acolchadas",
+              "desc": "Camas suaves y firmes para las mejores siestas — en tamaños desde perritos de regazo hasta grandes abrazadores.",
+              "price": "$45.00",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Juguetes de Cuerda y Tira",
+              "desc": "Resistentes juguetes de cuerda trenzada, ideales para jalar, buscar y una pequeña limpieza dental también.",
+              "price": "$9.00",
+              "tags": ["value"]
+            }
+          ]
+        },
+        {
+          "id": "self-wash-grooming",
+          "name": "Autolavado y Aseo",
+          "blurb": "Todo lo que necesitas para llevar a tu perro a casa limpio, esponjoso y sintiéndose de maravilla.",
+          "items": [
+            {
+              "name": "Estación de Autolavado",
+              "desc": "Tinas elevadas, agua tibia, champú, toallas y secadoras incluidas — hasta limpiamos el desorden por ti.",
+              "price": "$18.00",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Corte de Uñas",
+              "desc": "Un corte de uñas rápido y gentil de nuestro amable equipo — sin el estrés de hacer cita.",
+              "price": "$12.00",
+              "tags": ["fast"]
+            },
+            {
+              "name": "Baño Completo",
+              "desc": "Déjanos hacer el trabajo con un baño tibio y enjabonado, secado y un premio para terminar.",
+              "price": "$35.00",
+              "tags": ["value"]
+            },
+            {
+              "name": "Baño y Cepillado",
+              "desc": "Un baño completo más un cepillado a fondo para controlar la muda y dejar el pelaje suave y brillante.",
+              "price": "$45.00",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "natural-food-chews",
+          "name": "Alimento Natural y Premios para Masticar",
+          "blurb": "Alimento saludable y premios duraderos para mantener las colitas moviéndose y las pancitas contentas.",
+          "items": [
+            {
+              "name": "Alimento Crudo Liofilizado",
+              "desc": "Nutrición liofilizada de un solo ingrediente, fácil de servir y llena de sabor real.",
+              "price": "$19.50",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Bully Sticks",
+              "desc": "Premios duraderos y totalmente digeribles que mantienen felizmente ocupados a los perros activos.",
+              "price": "$7.00",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Suplementos Diarios",
+              "desc": "Premios para articulaciones, piel y pelaje que apoyan la salud de tu perro en cada etapa de la vida.",
+              "price": "$16.00",
+              "tags": []
+            },
+            {
+              "name": "Premios Dentales",
+              "desc": "Sabrosos premios que ayudan a refrescar el aliento y a mantener los dientes limpios entre cepillados.",
+              "price": "$8.50",
+              "tags": ["value"]
+            },
+            {
+              "name": "Complementos Liofilizados",
+              "desc": "Espolvorea un poco de bondad extra para hacer irresistible cualquier plato de croquetas.",
+              "price": "$11.00",
+              "tags": ["new"]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Una pastelería alegre para la familia de cuatro patas",
+      "lead": "Paw Lickin' Good es una pastelería y boutique independiente para mascotas en Sycamore, donde los premios recién horneados, las golosinas saludables y un poco de mimo hacen mover las colitas al entrar.",
+      "paragraphs": [
+        "Creemos que las mascotas son familia, y la familia merece lo mejor. Por eso horneamos nuestros premios y pasteles de cumpleaños en pequeños lotes con ingredientes aptos para perros, y llenamos nuestros estantes con los juguetes, premios y tesoros de boutique que elegiríamos para nuestros propios perros.",
+        "Pasa a elegir un premio, diseñar un pastel de cumpleaños personalizado o darle a tu perro un baño enjabonado en nuestra estación de autolavado. Como sea que nos visites, encontrarás una cálida bienvenida para ti y tu mejor amigo — y probablemente algunos nuevos favoritos para llevar a casa."
+      ],
+      "stats": [
+        {
+          "value": "Recién Horneado",
+          "label": "Premios y pasteles personalizados hechos en casa"
+        },
+        {
+          "value": "4 Departamentos",
+          "label": "Pastelería · Boutique · Autolavado · Premios"
+        },
+        {
+          "value": "Negocio Local",
+          "label": "Una tienda de mascotas independiente en Sycamore"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Nuestro Espacio",
+      "subheading": "Un vistazo dentro de la pastelería, la boutique y la estación de autolavado donde los perros vienen a ser consentidos.",
+      "captions": [
+        "Pastelitos y galletas frescas directo del horno",
+        "Pasteles de cumpleaños personalizados decorados a pedido",
+        "Estantes llenos de juguetes y tesoros de boutique",
+        "Premios naturales y favoritos liofilizados",
+        "La estación de autolavado, lista para usar",
+        "Colitas moviéndose y caritas felices en el mostrador"
+      ]
+    },
+    "testimonials": {
+      "heading": "Querido por los perros de Sycamore y su gente",
+      "items": [
+        {
+          "quote": "Mi perro literalmente me jala hacia la puerta. El pastel de cumpleaños que le hicieron para su aniversario fue adorable y se lo devoró.",
+          "name": "Jessica T.",
+          "role": "Mamá de perro"
+        },
+        {
+          "quote": "La estación de autolavado lo cambia todo — agua tibia, todo incluido y sin desastre en la tina de casa. Ahora somos clientes habituales.",
+          "name": "Marcus D.",
+          "role": "Cliente habitual"
+        },
+        {
+          "quote": "Gran selección de premios saludables y el personal realmente sabe del tema. A mi perro exigente le encantan los complementos liofilizados.",
+          "name": "Aubrey L.",
+          "role": "Cliente fiel"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita Paw Lickin' Good",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes – Viernes",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "9:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM – 4:00 PM"
+        }
+      ],
+      "phoneLabel": "Llámanos",
+      "directions": "Encuéntranos en DeKalb Avenue en Sycamore, con estacionamiento fácil al frente. Pasa a comprar, reserva un autolavado o llama con anticipación para ordenar un pastel de cumpleaños personalizado para tu mejor amigo."
+    },
+    "cta": {
+      "heading": "¿Listo para consentir a tu mejor amigo?",
+      "text": "Ordena un pastel de cumpleaños personalizado, abastécete de premios recién horneados o reserva la estación de autolavado. Llámanos y tendremos todo listo cuando entres.",
+      "button": "Llamar al (815) 758-8300"
+    },
+    "form": {
+      "heading": "Ordena un Pastel o Pregúntanos lo que Sea",
+      "subheading": "Cuéntanos qué necesita tu perro — un pastel de cumpleaños personalizado, un pedido de premios o una visita de autolavado — y nos pondremos en contacto.",
+      "name": "Tu Nombre",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Nombre y Tamaño de la Mascota",
+      "date": "Fecha / Hora Preferida de Recogida",
+      "message": "¿Qué podemos hornear o en qué te ayudamos?",
+      "submit": "Enviar Mi Solicitud",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Hemos recibido tu solicitud y nos comunicaremos pronto para confirmar los detalles.",
+      "error": "Algo salió mal. Inténtalo de nuevo o llámanos al (815) 758-8300.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu pedido o solicitud."
+    },
+    "footer": {
+      "tagline": "Una pastelería y boutique independiente para mascotas en Sycamore — premios recién horneados y un poco de mimo para la familia de cuatro patas.",
+      "rights": "© Paw Lickin' Good. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

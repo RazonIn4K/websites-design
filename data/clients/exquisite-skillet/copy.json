@@ -1,0 +1,710 @@
+{
+  "business": {
+    "name": "Exquisite Skillet Pancake House",
+    "shortName": "Exquisite Skillet",
+    "vertical": "Pancake House & Breakfast Restaurant",
+    "phone": "(331) 808-0001",
+    "phoneHref": "+13318080001",
+    "address": "1180 West Route 34",
+    "city": "Plano",
+    "state": "IL",
+    "zip": "60545",
+    "mapsQuery": "Exquisite Skillet Pancake House, 1180 West Route 34, Plano, IL 60545"
+  },
+  "en": {
+    "meta": {
+      "title": "Exquisite Skillet Pancake House | Breakfast All Day in Plano, IL",
+      "description": "Family pancake house in Plano, IL serving fluffy stacks, sizzling skillets & breakfast all day. Bottomless coffee & a warm welcome. Call ahead: (331) 808-0001."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Call Ahead"
+    },
+    "hero": {
+      "eyebrow": "Plano's Family Pancake House",
+      "title": "Fluffy Stacks,",
+      "titleAccent": "Sizzling Skillets",
+      "subtitle": "Breakfast is served all day at our family pancake house, where the stacks are tall, the skillets sizzle, the coffee is bottomless, and Plano always gets a warm hometown welcome.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Call to Order Ahead",
+      "badge": "Breakfast All Day · Bottomless Coffee · Generous Portions"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "A Warm Hometown Welcome",
+        "text": "A friendly family pancake house where regulars and newcomers alike are greeted with a smile and a fresh cup of coffee."
+      },
+      {
+        "icon": "star",
+        "title": "Fluffy Stacks & Sizzling Skillets",
+        "text": "Tall buttermilk stacks, golden waffles, and loaded skillets cooked fresh on the griddle in generous, satisfying portions."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Breakfast Served All Day",
+        "text": "Craving pancakes at noon or eggs in the afternoon? No problem. Our full breakfast is ready whenever you are."
+      },
+      {
+        "icon": "leaf",
+        "title": "Bottomless Coffee, Always Fresh",
+        "text": "Fresh-brewed and endlessly refilled, plus fresh juice to start your morning right. Settle in and we'll keep your cup full."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Menu items and prices shown are illustrative demo content for this sample site. Please call (331) 808-0001 for current offerings and pricing.",
+      "categories": [
+        {
+          "id": "pancakes-waffles",
+          "name": "Pancakes & Waffles",
+          "blurb": "Tall stacks, golden waffles, and delicate crepes griddled fresh to order, the heart of our pancake house.",
+          "items": [
+            {
+              "name": "Buttermilk Stack",
+              "desc": "A tall stack of five fluffy buttermilk pancakes served with warm syrup and whipped butter.",
+              "price": "$9.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Blueberry Pancakes",
+              "desc": "Buttermilk pancakes packed with juicy blueberries and topped with whipped cream and powdered sugar.",
+              "price": "$11.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Belgian Waffle",
+              "desc": "Crisp, golden Belgian waffle dusted with powdered sugar and served with warm syrup and butter.",
+              "price": "$10.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Strawberry Banana Crepes",
+              "desc": "Three delicate crepes filled with fresh strawberries and banana, finished with whipped cream.",
+              "price": "$12.50",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Chocolate Chip Pancakes",
+              "desc": "Fluffy buttermilk pancakes loaded with chocolate chips and topped with whipped cream.",
+              "price": "$10.95",
+              "tags": []
+            },
+            {
+              "name": "Short Stack",
+              "desc": "Three fluffy buttermilk pancakes, just enough to satisfy, with syrup and butter.",
+              "price": "$7.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "skillets-eggs",
+          "name": "Skillets & Eggs",
+          "blurb": "Signature loaded skillets, fluffy omelettes, and eggs benedict, sizzling and served all day.",
+          "items": [
+            {
+              "name": "Exquisite Loaded Skillet",
+              "desc": "Crispy hash browns piled with eggs, sausage, bacon, peppers, onions, and melted cheddar, served with toast.",
+              "price": "$13.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Veggie Skillet",
+              "desc": "Hash browns topped with eggs, mushrooms, spinach, tomato, peppers, onions, and melted cheese.",
+              "price": "$12.50",
+              "tags": []
+            },
+            {
+              "name": "Western Omelette",
+              "desc": "Three-egg omelette stuffed with ham, peppers, onions, and cheddar, served with hash browns and toast.",
+              "price": "$12.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Classic Eggs Benedict",
+              "desc": "Toasted English muffin with Canadian bacon, poached eggs, and rich hollandaise, served with hash browns.",
+              "price": "$13.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Two Eggs Your Way",
+              "desc": "Two farm-fresh eggs cooked just how you like them, with hash browns, toast, and your choice of bacon or sausage.",
+              "price": "$10.95",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "griddle-favorites",
+          "name": "Griddle Favorites",
+          "blurb": "French toast, hearty combos, and home-style biscuits and gravy straight off the griddle.",
+          "items": [
+            {
+              "name": "Cinnamon French Toast",
+              "desc": "Thick-cut Texas toast dipped in cinnamon batter, griddled golden, and dusted with powdered sugar.",
+              "price": "$10.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Biscuits & Gravy",
+              "desc": "Warm buttermilk biscuits smothered in rich, peppery house-made sausage gravy.",
+              "price": "$9.50",
+              "tags": [
+                "signature",
+                "value"
+              ]
+            },
+            {
+              "name": "The Big Breakfast Combo",
+              "desc": "Two eggs, two pancakes, hash browns, and your choice of bacon, sausage, or ham. A little of everything.",
+              "price": "$14.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Stuffed French Toast",
+              "desc": "Texas toast stuffed with sweet cream cheese and strawberries, griddled golden and topped with whipped cream.",
+              "price": "$12.95",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Pancake & Eggs Combo",
+              "desc": "Two fluffy buttermilk pancakes with two eggs your way and your choice of bacon or sausage.",
+              "price": "$11.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lunch-drinks",
+          "name": "Lunch & Drinks",
+          "blurb": "Hearty sandwiches, fresh soups, bottomless coffee, and fresh-squeezed juice to round out your visit.",
+          "items": [
+            {
+              "name": "Grilled Chicken Sandwich",
+              "desc": "Seasoned grilled chicken breast with lettuce, tomato, and mayo on a toasted bun, served with fries.",
+              "price": "$11.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Turkey Club",
+              "desc": "Triple-decker with roasted turkey, bacon, lettuce, tomato, and mayo, served with fries.",
+              "price": "$11.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Soup of the Day",
+              "desc": "A warm bowl of our house-made soup, made fresh daily. Ask your server about today's batch.",
+              "price": "$5.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Bottomless Coffee",
+              "desc": "Fresh-brewed and endlessly refilled. Settle in and stay a while.",
+              "price": "$2.95",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Fresh-Squeezed Orange Juice",
+              "desc": "Bright, refreshing orange juice squeezed fresh in-house.",
+              "price": "$3.50",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Plano's Family Pancake House",
+      "lead": "Exquisite Skillet Pancake House is the warm, welcoming spot where Plano gathers over fluffy stacks, sizzling skillets, and bottomless coffee, with breakfast served all day.",
+      "paragraphs": [
+        "Mornings here start with the smell of fresh coffee and pancakes griddling away. From early risers grabbing a loaded skillet to families lingering over a second cup, our tables are made for slowing down, catching up, and feeling at home in Plano.",
+        "We keep it generous and genuine: tall stacks and big skillets cooked fresh to order, a warm hometown welcome the moment you walk in, and breakfast ready whenever the craving hits. Whether it's sunrise or mid-afternoon, there's always a seat and a hot plate waiting for you."
+      ],
+      "stats": [
+        {
+          "value": "All Day",
+          "label": "Breakfast Served"
+        },
+        {
+          "value": "Bottomless",
+          "label": "Fresh-Brewed Coffee"
+        },
+        {
+          "value": "Everyone",
+          "label": "Welcome at Our Table"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Look Around Exquisite Skillet",
+      "subheading": "A peek at the fluffy stacks, sizzling skillets, and warm mornings waiting for you in Plano.",
+      "captions": [
+        "A tall stack of fluffy buttermilk pancakes with warm syrup",
+        "Our signature loaded skillet sizzling fresh off the griddle",
+        "Golden Belgian waffle dusted with powdered sugar",
+        "Classic eggs benedict with rich hollandaise",
+        "A steaming, bottomless cup of fresh-brewed coffee",
+        "The warm, welcoming dining room ready for breakfast"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Plano Is Saying",
+      "items": [
+        {
+          "quote": "Our go-to breakfast spot. The pancakes are unbelievably fluffy and the coffee never runs dry. It feels like home every single time.",
+          "name": "Maria G.",
+          "role": "Plano regular"
+        },
+        {
+          "quote": "The loaded skillet is huge and packed with flavor, and we love that breakfast is served all day. The whole family leaves happy.",
+          "name": "Dave R.",
+          "role": "Local customer"
+        },
+        {
+          "quote": "Friendly faces, generous portions, and everything cooked fresh. The staff makes you feel welcome the moment you walk in. A true hometown gem.",
+          "name": "Karen B.",
+          "role": "Weekend regular"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Plano",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Friday",
+          "time": "6:00 AM - 2:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "6:00 AM - 3:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "7:00 AM - 2:00 PM"
+        }
+      ],
+      "phoneLabel": "Call to Order Ahead",
+      "directions": "Find us at 1180 West Route 34 in Plano, IL. Call ahead and we'll have your breakfast hot and ready for carryout, or come on in and grab a seat at the family pancake house."
+    },
+    "cta": {
+      "heading": "Hungry? Call Ahead for Carryout",
+      "text": "Skip the wait and call ahead. We'll have your fluffy stacks and sizzling skillet hot and ready for pickup, or come in and we'll pour you a cup.",
+      "button": "Call (331) 808-0001"
+    },
+    "form": {
+      "heading": "Send Us a Message",
+      "subheading": "Have a question about your order, group seating, or feeding a big breakfast crowd? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Party Size",
+      "date": "Preferred Date/Time",
+      "message": "How can we help? Tell us about your visit or question.",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We received your message and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Plano's family pancake house, serving fluffy stacks, sizzling skillets, and bottomless coffee all day.",
+      "rights": "© Exquisite Skillet Pancake House. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Exquisite Skillet Pancake House | Desayuno Todo el Día en Plano, IL",
+      "description": "Pancake house familiar en Plano, IL con panqueques esponjosos, skillets chisporroteantes y desayuno todo el día. Café sin fondo. Llama: (331) 808-0001."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Llamar"
+    },
+    "hero": {
+      "eyebrow": "La Pancake House Familiar de Plano",
+      "title": "Panqueques Esponjosos,",
+      "titleAccent": "Skillets Chisporroteantes",
+      "subtitle": "El desayuno se sirve todo el día en nuestra pancake house familiar, donde las torres son altas, los skillets chisporrotean, el café es sin fondo y Plano siempre recibe una cálida bienvenida de pueblo.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Llama para Ordenar",
+      "badge": "Desayuno Todo el Día · Café Sin Fondo · Porciones Generosas"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "Una Cálida Bienvenida de Pueblo",
+        "text": "Una pancake house familiar y amable donde tanto los clientes de siempre como los recién llegados reciben una sonrisa y una taza de café recién hecho."
+      },
+      {
+        "icon": "star",
+        "title": "Torres Esponjosas y Skillets Chisporroteantes",
+        "text": "Altas torres de suero, waffles dorados y skillets cargados cocinados frescos en la plancha, en porciones generosas y satisfactorias."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Desayuno Servido Todo el Día",
+        "text": "¿Se te antojan panqueques al mediodía o huevos por la tarde? No hay problema. Nuestro desayuno completo está listo cuando tú quieras."
+      },
+      {
+        "icon": "leaf",
+        "title": "Café Sin Fondo, Siempre Fresco",
+        "text": "Recién hecho y rellenado sin parar, además de jugo fresco para empezar bien la mañana. Acomódate y mantenemos tu taza llena."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Los platillos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Llama al (331) 808-0001 para conocer la oferta y los precios actuales.",
+      "categories": [
+        {
+          "id": "pancakes-waffles",
+          "name": "Panqueques y Waffles",
+          "blurb": "Torres altas, waffles dorados y delicadas crepas hechas al momento en la plancha, el corazón de nuestra pancake house.",
+          "items": [
+            {
+              "name": "Torre de Suero",
+              "desc": "Una torre alta de cinco panqueques esponjosos de suero servidos con jarabe tibio y mantequilla batida.",
+              "price": "$9.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Panqueques de Arándano",
+              "desc": "Panqueques de suero llenos de jugosos arándanos y coronados con crema batida y azúcar glas.",
+              "price": "$11.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Waffle Belga",
+              "desc": "Waffle belga dorado y crujiente espolvoreado con azúcar glas y servido con jarabe tibio y mantequilla.",
+              "price": "$10.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Crepas de Fresa y Plátano",
+              "desc": "Tres delicadas crepas rellenas de fresas frescas y plátano, terminadas con crema batida.",
+              "price": "$12.50",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Panqueques de Chispas de Chocolate",
+              "desc": "Panqueques esponjosos de suero cargados de chispas de chocolate y coronados con crema batida.",
+              "price": "$10.95",
+              "tags": []
+            },
+            {
+              "name": "Media Torre",
+              "desc": "Tres panqueques esponjosos de suero, justo lo necesario para satisfacer, con jarabe y mantequilla.",
+              "price": "$7.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "skillets-eggs",
+          "name": "Skillets y Huevos",
+          "blurb": "Skillets cargados de la casa, omelettes esponjosos y eggs benedict, chisporroteantes y servidos todo el día.",
+          "items": [
+            {
+              "name": "Skillet Cargado Exquisite",
+              "desc": "Papas doradas y crujientes coronadas con huevos, salchicha, tocino, pimientos, cebolla y queso cheddar derretido, servido con pan tostado.",
+              "price": "$13.95",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Skillet de Vegetales",
+              "desc": "Papas doradas coronadas con huevos, champiñones, espinaca, tomate, pimientos, cebolla y queso derretido.",
+              "price": "$12.50",
+              "tags": []
+            },
+            {
+              "name": "Omelette Western",
+              "desc": "Omelette de tres huevos relleno de jamón, pimientos, cebolla y cheddar, servido con papas doradas y pan tostado.",
+              "price": "$12.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Eggs Benedict Clásico",
+              "desc": "Muffin inglés tostado con tocino canadiense, huevos pochados y rica salsa holandesa, servido con papas doradas.",
+              "price": "$13.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Dos Huevos a tu Gusto",
+              "desc": "Dos huevos frescos del campo cocinados justo como te gustan, con papas doradas, pan tostado y tu elección de tocino o salchicha.",
+              "price": "$10.95",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "griddle-favorites",
+          "name": "Favoritos de la Plancha",
+          "blurb": "Pan francés, combos abundantes y bisquets caseros con gravy, directo de la plancha.",
+          "items": [
+            {
+              "name": "Pan Francés con Canela",
+              "desc": "Pan grueso estilo Texas remojado en mezcla de canela, dorado en la plancha y espolvoreado con azúcar glas.",
+              "price": "$10.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bisquets con Gravy",
+              "desc": "Bisquets de suero tibios bañados en nuestro gravy casero de salchicha, espeso y con pimienta.",
+              "price": "$9.50",
+              "tags": [
+                "signature",
+                "value"
+              ]
+            },
+            {
+              "name": "El Gran Combo de Desayuno",
+              "desc": "Dos huevos, dos panqueques, papas doradas y tu elección de tocino, salchicha o jamón. Un poco de todo.",
+              "price": "$14.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pan Francés Relleno",
+              "desc": "Pan estilo Texas relleno de queso crema dulce y fresas, dorado en la plancha y coronado con crema batida.",
+              "price": "$12.95",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Combo de Panqueques y Huevos",
+              "desc": "Dos panqueques esponjosos de suero con dos huevos a tu gusto y tu elección de tocino o salchicha.",
+              "price": "$11.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lunch-drinks",
+          "name": "Almuerzo y Bebidas",
+          "blurb": "Sándwiches abundantes, sopas frescas, café sin fondo y jugo recién exprimido para completar tu visita.",
+          "items": [
+            {
+              "name": "Sándwich de Pollo a la Parrilla",
+              "desc": "Pechuga de pollo sazonada a la parrilla con lechuga, tomate y mayonesa en pan tostado, servido con papas fritas.",
+              "price": "$11.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Club de Pavo",
+              "desc": "Triple piso con pavo rostizado, tocino, lechuga, tomate y mayonesa, servido con papas fritas.",
+              "price": "$11.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Sopa del Día",
+              "desc": "Un tazón caliente de nuestra sopa casera, hecha fresca cada día. Pregunta a tu mesero por la del día.",
+              "price": "$5.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Café Sin Fondo",
+              "desc": "Recién hecho y rellenado sin parar. Acomódate y quédate un rato.",
+              "price": "$2.95",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Jugo de Naranja Recién Exprimido",
+              "desc": "Jugo de naranja brillante y refrescante, exprimido fresco aquí mismo.",
+              "price": "$3.50",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "La Pancake House Familiar de Plano",
+      "lead": "Exquisite Skillet Pancake House es el lugar cálido y acogedor donde Plano se reúne con panqueques esponjosos, skillets chisporroteantes y café sin fondo, con desayuno servido todo el día.",
+      "paragraphs": [
+        "Aquí las mañanas empiezan con el aroma del café recién hecho y los panqueques en la plancha. Desde los madrugadores que pasan por un skillet cargado hasta las familias que se quedan con una segunda taza, nuestras mesas están hechas para tomarse las cosas con calma, ponerse al día y sentirse en casa en Plano.",
+        "Lo mantenemos generoso y genuino: torres altas y skillets grandes cocinados al momento, una cálida bienvenida de pueblo en cuanto entras, y desayuno listo cuando se te antoje. Ya sea al amanecer o a media tarde, siempre hay un lugar y un plato caliente esperándote."
+      ],
+      "stats": [
+        {
+          "value": "Todo el Día",
+          "label": "Desayuno Servido"
+        },
+        {
+          "value": "Sin Fondo",
+          "label": "Café Recién Hecho"
+        },
+        {
+          "value": "Todos",
+          "label": "Bienvenidos a Nuestra Mesa"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Vistazo a Exquisite Skillet",
+      "subheading": "Un vistazo a las torres esponjosas, los skillets chisporroteantes y las mañanas cálidas que te esperan en Plano.",
+      "captions": [
+        "Una torre alta de panqueques esponjosos de suero con jarabe tibio",
+        "Nuestro skillet cargado chisporroteando fresco de la plancha",
+        "Waffle belga dorado espolvoreado con azúcar glas",
+        "Eggs benedict clásico con rica salsa holandesa",
+        "Una taza humeante y sin fondo de café recién hecho",
+        "El cálido y acogedor comedor listo para el desayuno"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice Plano",
+      "items": [
+        {
+          "quote": "Nuestro lugar favorito para desayunar. Los panqueques son increíblemente esponjosos y el café nunca se acaba. Cada vez se siente como en casa.",
+          "name": "Maria G.",
+          "role": "Cliente frecuente en Plano"
+        },
+        {
+          "quote": "El skillet cargado es enorme y lleno de sabor, y nos encanta que sirvan desayuno todo el día. Toda la familia se va contenta.",
+          "name": "Dave R.",
+          "role": "Cliente local"
+        },
+        {
+          "quote": "Caras amables, porciones generosas y todo cocinado fresco. El personal te hace sentir bienvenido en cuanto entras. Una verdadera joya del pueblo.",
+          "name": "Karen B.",
+          "role": "Cliente de fin de semana"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en Plano",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Viernes",
+          "time": "6:00 AM - 2:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "6:00 AM - 3:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "7:00 AM - 2:00 PM"
+        }
+      ],
+      "phoneLabel": "Llama para Ordenar",
+      "directions": "Encuéntranos en 1180 West Route 34 en Plano, IL. Llama con anticipación y tendremos tu desayuno caliente y listo para llevar, o pásate y toma asiento en la pancake house familiar."
+    },
+    "cta": {
+      "heading": "¿Con Hambre? Llama con Anticipación para Llevar",
+      "text": "Evita la espera y llama con anticipación. Tendremos tus torres esponjosas y tu skillet chisporroteante calientes y listos para recoger, o pásate y te servimos una taza.",
+      "button": "Llamar al (331) 808-0001"
+    },
+    "form": {
+      "heading": "Envíanos un Mensaje",
+      "subheading": "¿Tienes una pregunta sobre tu orden, mesas para grupos o alimentar a un gran grupo de desayuno? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo podemos ayudarte? Cuéntanos sobre tu visita o pregunta.",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "La pancake house familiar de Plano, sirviendo torres esponjosas, skillets chisporroteantes y café sin fondo todo el día.",
+      "rights": "© Exquisite Skillet Pancake House. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

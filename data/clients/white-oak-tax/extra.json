@@ -1,0 +1,106 @@
+{
+  "en": {
+    "process": {
+      "heading": "How We Work With You",
+      "steps": [
+        {
+          "title": "Free Consultation",
+          "text": "We sit down at no charge to understand your situation, answer questions, and agree on the price before any work begins."
+        },
+        {
+          "title": "Gather & Organize",
+          "text": "We give you a simple checklist and help collect the records, forms, and statements needed to prepare everything accurately."
+        },
+        {
+          "title": "Prepare & Review Together",
+          "text": "We prepare your return or books, double-check the details, then walk through everything line by line in plain English."
+        },
+        {
+          "title": "File & Plan Ahead",
+          "text": "We file on time and keep in touch year-round, helping you plan ahead so next tax season holds no surprises."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Is the first consultation really free?",
+          "a": "Yes. Your initial consultation is free, with no obligation. We'll talk through your needs and agree on a clear, up-front price before any work starts."
+        },
+        {
+          "q": "What are your hours, and do you take walk-ins?",
+          "a": "We're open Monday through Friday, 9 AM to 5 PM, with Saturdays by appointment. Walk-ins are welcome, but calling ahead means we'll have time set aside for you."
+        },
+        {
+          "q": "What should I bring to my appointment?",
+          "a": "Bring your photo ID, last year's tax return, and any income or expense forms you've received. Not sure? Call us and we'll send a simple checklist."
+        },
+        {
+          "q": "How much will my return or bookkeeping cost?",
+          "a": "It depends on your specific situation, so we confirm a flat, agreed-upon price at your free consultation. No hidden fees and no surprise bills at the end."
+        },
+        {
+          "q": "Do you speak Spanish?",
+          "a": "Yes. We're happy to help you in English or Spanish, and we'll explain your taxes, books, or any IRS letter clearly in the language you prefer."
+        },
+        {
+          "q": "Are you available after tax season?",
+          "a": "Absolutely. We're here year-round, not just in April, ready to answer questions, handle IRS notices, and help you plan in any month."
+        }
+      ]
+    }
+  },
+  "es": {
+    "process": {
+      "heading": "Cómo Trabajamos Contigo",
+      "steps": [
+        {
+          "title": "Consulta Gratis",
+          "text": "Nos sentamos sin costo para entender tu situación, responder preguntas y acordar el precio antes de empezar cualquier trabajo."
+        },
+        {
+          "title": "Reunir y Organizar",
+          "text": "Te damos una lista sencilla y te ayudamos a juntar los registros, formularios y estados necesarios para preparar todo con precisión."
+        },
+        {
+          "title": "Preparar y Revisar Juntos",
+          "text": "Preparamos tu declaración o libros, revisamos cada detalle y luego repasamos todo línea por línea en palabras claras."
+        },
+        {
+          "title": "Declarar y Planear con Tiempo",
+          "text": "Declaramos a tiempo y seguimos en contacto todo el año, ayudándote a planear para que la próxima temporada no traiga sorpresas."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿De verdad es gratis la primera consulta?",
+          "a": "Sí. Tu consulta inicial es gratis, sin compromiso. Hablaremos de lo que necesitas y acordaremos un precio claro y por adelantado antes de empezar."
+        },
+        {
+          "q": "¿Cuál es su horario y reciben visitas sin cita?",
+          "a": "Abrimos de lunes a viernes, de 9 AM a 5 PM, y los sábados con cita. Recibimos visitas sin cita, pero si llamas antes, apartaremos tiempo para ti."
+        },
+        {
+          "q": "¿Qué debo traer a mi cita?",
+          "a": "Trae tu identificación con foto, la declaración del año pasado y los formularios de ingresos o gastos que hayas recibido. ¿No estás seguro? Llámanos y te enviamos una lista."
+        },
+        {
+          "q": "¿Cuánto costará mi declaración o contabilidad?",
+          "a": "Depende de tu situación, por eso confirmamos un precio fijo y acordado en tu consulta gratis. Sin cargos ocultos ni facturas sorpresa al final."
+        },
+        {
+          "q": "¿Hablan español?",
+          "a": "Sí. Con gusto te atendemos en inglés o español, y te explicamos tus impuestos, tus libros o cualquier carta del IRS con claridad en el idioma que prefieras."
+        },
+        {
+          "q": "¿Están disponibles después de la temporada de impuestos?",
+          "a": "Claro que sí. Estamos aquí todo el año, no solo en abril, listos para responder preguntas, atender avisos del IRS y ayudarte a planear en cualquier mes."
+        }
+      ]
+    }
+  }
+}

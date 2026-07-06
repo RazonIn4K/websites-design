@@ -1,0 +1,708 @@
+{
+  "business": {
+    "name": "My 1 Hair Solution",
+    "shortName": "My 1 Hair",
+    "vertical": "Full-Service Hair Salon",
+    "phone": "",
+    "phoneHref": "",
+    "address": "818 West Lincoln Highway",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "My 1 Hair Solution, 818 West Lincoln Highway, DeKalb, IL 60115",
+    "lat": 41.9306445,
+    "lon": -88.7686699
+  },
+  "en": {
+    "meta": {
+      "title": "My 1 Hair Solution | Hair Salon, Color & Cuts in DeKalb, IL",
+      "description": "Full-service hair salon on West Lincoln Highway near NIU in DeKalb, IL. Expert color, precision cuts, and styles for the whole family. Book online today."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About",
+      "gallery": "Our Work",
+      "visit": "Visit",
+      "order": "Book Now"
+    },
+    "hero": {
+      "eyebrow": "Your Full-Service Salon in DeKalb",
+      "title": "Great Hair Starts",
+      "titleAccent": "With Stylists Who Listen",
+      "subtitle": "From expert color and precision cuts to on-trend styles for the whole family, My 1 Hair Solution is your welcoming neighborhood salon on West Lincoln Highway. Sit back, relax, and leave loving your look.",
+      "ctaPrimary": "View Services",
+      "ctaSecondary": "Book Your Appointment",
+      "badge": "Walk-ins welcome. Online booking available."
+    },
+    "highlights": [
+      {
+        "icon": "scissors",
+        "title": "Precision Cuts",
+        "text": "Sharp, flattering cuts for women, men, and kids, tailored to your hair, your face, and your everyday routine."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Expert Color",
+        "text": "All-over color, dimensional highlights, hand-painted balayage, and gloss treatments that look natural and last."
+      },
+      {
+        "icon": "heart",
+        "title": "Stylists Who Listen",
+        "text": "We start every appointment with a real consultation, so you walk out with the look you actually wanted."
+      },
+      {
+        "icon": "crown",
+        "title": "For the Whole Family",
+        "text": "From a toddler's first haircut to bridal updos, everyone has a chair waiting at our friendly DeKalb salon."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Services and prices shown are illustrative demo content for this concept site and may not reflect the salon's actual menu or pricing.",
+      "categories": [
+        {
+          "id": "cuts-styling",
+          "name": "Cuts & Styling",
+          "blurb": "Fresh cuts and finishes that fit your hair and your life.",
+          "items": [
+            {
+              "name": "Women's Cut & Style",
+              "desc": "A personalized consultation, shampoo, precision cut, and a finished blow-dry style.",
+              "price": "$45",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Men's Cut",
+              "desc": "A clean, modern cut with a relaxing shampoo and a tidy, polished finish.",
+              "price": "$28"
+            },
+            {
+              "name": "Kids' Cut",
+              "desc": "A patient, friendly haircut for children 10 and under, with plenty of smiles.",
+              "price": "$20",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Blowout & Style",
+              "desc": "A smooth, voluminous blow-dry with the perfect finish for any occasion.",
+              "price": "$40"
+            },
+            {
+              "name": "Bang or Neck Trim",
+              "desc": "A quick touch-up between appointments to keep your style looking sharp.",
+              "price": "$12",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "color",
+          "name": "Color",
+          "blurb": "Rich, dimensional color that looks like it was made for you.",
+          "items": [
+            {
+              "name": "All-Over Color",
+              "desc": "Full single-process color to cover grays, go richer, or refresh your shade head to tip.",
+              "price": "$75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Highlights",
+              "desc": "Foiled highlights for bright dimension and a sun-kissed, blended finish.",
+              "price": "$95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Balayage",
+              "desc": "Hand-painted, lived-in color with a soft, natural grow-out you'll love for months.",
+              "price": "$130",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Gloss & Toner",
+              "desc": "A shine-boosting glaze to refresh tone, knock out brass, and add brilliant shine.",
+              "price": "$35",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Root Touch-Up",
+              "desc": "Single-process color on new growth to keep your base looking freshly done.",
+              "price": "$55"
+            }
+          ]
+        },
+        {
+          "id": "treatments",
+          "name": "Treatments",
+          "blurb": "Repair, smooth, and restore healthier-looking hair.",
+          "items": [
+            {
+              "name": "Keratin Smoothing",
+              "desc": "A smoothing treatment that tames frizz and cuts down styling time for weeks.",
+              "price": "$150",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Deep Conditioning",
+              "desc": "An intensive hydrating mask to soften, strengthen, and revive dry, tired hair.",
+              "price": "$25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Scalp Treatment",
+              "desc": "A soothing, clarifying scalp therapy to refresh and rebalance from the roots.",
+              "price": "$30"
+            },
+            {
+              "name": "Bond-Repair Treatment",
+              "desc": "A strengthening add-on that helps rebuild and protect hair after color or heat.",
+              "price": "$20",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "special-occasion",
+          "name": "Special Occasion",
+          "blurb": "Show-stopping styles for the moments that matter most.",
+          "items": [
+            {
+              "name": "Special Occasion Updo",
+              "desc": "An elegant pinned-up style for weddings, proms, galas, and big celebrations.",
+              "price": "$65",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bridal Hair",
+              "desc": "Your dream wedding-day look, styled with care so you feel radiant all day.",
+              "price": "From $120",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Bridal Trial",
+              "desc": "A pre-wedding run-through to perfect your style before the big day.",
+              "price": "$75"
+            },
+            {
+              "name": "Extensions",
+              "desc": "Added length and volume with a custom consultation and seamless blend.",
+              "price": "From $200"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Your Neighborhood Salon in DeKalb",
+      "lead": "My 1 Hair Solution is an independent, full-service hair salon built around great hair and even better hospitality.",
+      "paragraphs": [
+        "Right on West Lincoln Highway, My 1 Hair Solution is a welcoming salon where everyone in the family gets the time and attention they deserve. Whether you're in for a quick trim, a bold new color, or a special-occasion style, we start by listening, because the best haircut is the one that actually fits your life.",
+        "Our stylists love what they do and stay on top of the latest techniques and trends, from natural-looking balayage to smoothing treatments and timeless cuts. We keep our space friendly and relaxed, so every visit feels less like a chore and more like a little treat in the heart of DeKalb."
+      ],
+      "stats": [
+        {
+          "value": "Walk-Ins",
+          "label": "Always Welcome"
+        },
+        {
+          "value": "Whole Family",
+          "label": "All Ages, All Styles"
+        },
+        {
+          "value": "Color Experts",
+          "label": "On-Trend & Natural"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Our Work",
+      "subheading": "A look at the cuts, color, and styles coming out of our DeKalb salon.",
+      "captions": [
+        "Sun-kissed balayage with soft dimension",
+        "A sharp, modern precision cut",
+        "Glossy all-over color with brilliant shine",
+        "A smooth, voluminous blowout",
+        "An elegant special-occasion updo",
+        "Bright, blended foil highlights"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Is Saying",
+      "items": [
+        {
+          "quote": "Finally a salon that actually listens. I showed them a photo and walked out with the exact color I wanted.",
+          "name": "Rachel M.",
+          "role": "Color Client"
+        },
+        {
+          "quote": "They're so good with my kids and my husband, and my balayage gets compliments everywhere I go.",
+          "name": "Stephanie K.",
+          "role": "Local Mom"
+        },
+        {
+          "quote": "My stylist made my wedding-day hair absolutely perfect. I felt beautiful from morning to last dance.",
+          "name": "Brianna T.",
+          "role": "Bride"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Salon",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "9:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "8:00 AM – 4:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Booking",
+      "directions": "On West Lincoln Highway in DeKalb with easy parking right out front. Walk in anytime or book your appointment online ahead.",
+      "neighborhood": "The salon is on West Lincoln Highway near the eastern edge of the NIU campus, on the stretch that connects the university with downtown DeKalb."
+    },
+    "cta": {
+      "heading": "Ready for Hair You'll Love?",
+      "text": "Book your appointment online or walk right in. Either way, our stylists are ready to make your day.",
+      "button": "Book Your Appointment"
+    },
+    "form": {
+      "heading": "Book an Appointment",
+      "subheading": "Tell us the service you'd like and your preferred time. We'll confirm your spot, walk-ins are always welcome too.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Service Needed",
+      "date": "Preferred Date & Time",
+      "message": "Anything Else?",
+      "submit": "Request Appointment",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and will confirm your appointment shortly.",
+      "error": "Something went wrong. Please try again or stop by the salon.",
+      "consent": "By submitting, you agree to be contacted about your appointment request."
+    },
+    "footer": {
+      "tagline": "A welcoming full-service hair salon for the whole family in DeKalb.",
+      "rights": "© My 1 Hair Solution. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Salon Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    },
+    "ritual": {
+      "heading": "Your Visit, Start to Finish",
+      "steps": [
+        {
+          "title": "Book or Walk In",
+          "text": "Reserve online in a few taps or stop by anytime. Settle in, and let the day be yours."
+        },
+        {
+          "title": "Sit Down & Consult",
+          "text": "We start by really listening to your hair, your routine, and the look you've been picturing."
+        },
+        {
+          "title": "Relax Into the Chair",
+          "text": "Sink into a warm shampoo, then let your stylist work color, cut, or balayage at an easy pace."
+        },
+        {
+          "title": "Leave Loving It",
+          "text": "We finish with styling tips and book your next visit, so your look stays fresh between appointments."
+        }
+      ]
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "My 1 Hair Solution | Salón de Belleza, Color y Cortes en DeKalb, IL",
+      "description": "Salón de belleza sobre West Lincoln Highway, cerca de NIU en DeKalb, IL. Color experto, cortes de precisión y estilos para toda la familia. Reserva hoy."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Nuestro Trabajo",
+      "visit": "Visítanos",
+      "order": "Reservar"
+    },
+    "hero": {
+      "eyebrow": "Tu Salón de Servicio Completo en DeKalb",
+      "title": "Un Gran Look Empieza",
+      "titleAccent": "Con Estilistas que te Escuchan",
+      "subtitle": "Desde color experto y cortes de precisión hasta estilos de moda para toda la familia, My 1 Hair Solution es tu acogedor salón de barrio sobre West Lincoln Highway. Relájate y sal enamorada de tu look.",
+      "ctaPrimary": "Ver Servicios",
+      "ctaSecondary": "Reserva tu Cita",
+      "badge": "Aceptamos sin cita. Reservación en línea disponible."
+    },
+    "highlights": [
+      {
+        "icon": "scissors",
+        "title": "Cortes de Precisión",
+        "text": "Cortes definidos y favorecedores para mujeres, hombres y niños, hechos a la medida de tu cabello, tu rostro y tu rutina."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Color Experto",
+        "text": "Color completo, rayitos con dimensión, balayage pintado a mano y tratamientos de gloss que lucen naturales y duran."
+      },
+      {
+        "icon": "heart",
+        "title": "Estilistas que Escuchan",
+        "text": "Empezamos cada cita con una verdadera consulta, para que salgas con el look que de verdad querías."
+      },
+      {
+        "icon": "crown",
+        "title": "Para Toda la Familia",
+        "text": "Desde el primer corte de un pequeño hasta peinados de novia, todos tienen una silla lista en nuestro salón de DeKalb."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Los servicios y precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar el menú o los precios reales del salón.",
+      "categories": [
+        {
+          "id": "cuts-styling",
+          "name": "Cortes y Peinado",
+          "blurb": "Cortes y acabados frescos que van con tu cabello y tu vida.",
+          "items": [
+            {
+              "name": "Corte y Peinado de Mujer",
+              "desc": "Una consulta personalizada, lavado, corte de precisión y un peinado con secado terminado.",
+              "price": "$45",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Corte de Hombre",
+              "desc": "Un corte limpio y moderno con un lavado relajante y un acabado pulido y prolijo.",
+              "price": "$28"
+            },
+            {
+              "name": "Corte de Niños",
+              "desc": "Un corte paciente y amigable para niños de 10 años o menos, con muchas sonrisas.",
+              "price": "$20",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Secado y Peinado",
+              "desc": "Un secado suave y con volumen, con el acabado perfecto para cualquier ocasión.",
+              "price": "$40"
+            },
+            {
+              "name": "Retoque de Fleco o Nuca",
+              "desc": "Un retoque rápido entre citas para mantener tu estilo siempre impecable.",
+              "price": "$12",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "color",
+          "name": "Color",
+          "blurb": "Color intenso y con dimensión que parece hecho solo para ti.",
+          "items": [
+            {
+              "name": "Color Completo",
+              "desc": "Color de un solo proceso para cubrir canas, intensificar o renovar tu tono de raíz a puntas.",
+              "price": "$75",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Rayitos",
+              "desc": "Rayitos con papel aluminio para una dimensión luminosa y un acabado difuminado y radiante.",
+              "price": "$95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Balayage",
+              "desc": "Color pintado a mano y natural, con un crecimiento suave que vas a amar por meses.",
+              "price": "$130",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Gloss y Tóner",
+              "desc": "Un glaseado que realza el brillo, refresca el tono y neutraliza los reflejos anaranjados.",
+              "price": "$35",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Retoque de Raíz",
+              "desc": "Color de un solo proceso en el crecimiento nuevo para mantener tu base recién hecha.",
+              "price": "$55"
+            }
+          ]
+        },
+        {
+          "id": "treatments",
+          "name": "Tratamientos",
+          "blurb": "Repara, alisa y restaura un cabello de aspecto más saludable.",
+          "items": [
+            {
+              "name": "Alisado de Keratina",
+              "desc": "Un tratamiento alisador que controla el frizz y reduce el tiempo de peinado por semanas.",
+              "price": "$150",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Acondicionamiento Profundo",
+              "desc": "Una mascarilla hidratante intensiva para suavizar, fortalecer y revivir el cabello seco y cansado.",
+              "price": "$25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Tratamiento de Cuero Cabelludo",
+              "desc": "Una terapia calmante y purificante del cuero cabelludo para refrescar y reequilibrar desde la raíz.",
+              "price": "$30"
+            },
+            {
+              "name": "Tratamiento Reparador de Enlaces",
+              "desc": "Un complemento fortalecedor que ayuda a reconstruir y proteger el cabello tras el color o el calor.",
+              "price": "$20",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "special-occasion",
+          "name": "Ocasiones Especiales",
+          "blurb": "Estilos espectaculares para los momentos que más importan.",
+          "items": [
+            {
+              "name": "Peinado para Ocasión Especial",
+              "desc": "Un elegante recogido para bodas, graduaciones, galas y grandes celebraciones.",
+              "price": "$65",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Peinado de Novia",
+              "desc": "El look de tus sueños para tu día de boda, peinado con esmero para que te sientas radiante todo el día.",
+              "price": "Desde $120",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Prueba de Novia",
+              "desc": "Un ensayo previo a la boda para perfeccionar tu estilo antes del gran día.",
+              "price": "$75"
+            },
+            {
+              "name": "Extensiones",
+              "desc": "Largo y volumen extra con una consulta personalizada y una mezcla impecable.",
+              "price": "Desde $200"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Tu Salón de Barrio en DeKalb",
+      "lead": "My 1 Hair Solution es un salón de belleza independiente y de servicio completo, construido sobre un gran cabello y una hospitalidad aún mejor.",
+      "paragraphs": [
+        "Justo sobre West Lincoln Highway, My 1 Hair Solution es un salón acogedor donde toda la familia recibe el tiempo y la atención que merece. Ya sea que vengas por un recorte rápido, un color nuevo y atrevido o un peinado para una ocasión especial, empezamos por escuchar, porque el mejor corte es el que de verdad va con tu vida.",
+        "A nuestros estilistas les encanta lo que hacen y se mantienen al día con las últimas técnicas y tendencias, desde el balayage de aspecto natural hasta los tratamientos alisadores y los cortes atemporales. Mantenemos nuestro espacio amigable y relajado, para que cada visita se sienta menos como un mandado y más como un pequeño gusto en el corazón de DeKalb."
+      ],
+      "stats": [
+        {
+          "value": "Sin Cita",
+          "label": "Siempre Bienvenidos"
+        },
+        {
+          "value": "Toda la Familia",
+          "label": "Todas las Edades y Estilos"
+        },
+        {
+          "value": "Expertos en Color",
+          "label": "De Moda y Natural"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Nuestro Trabajo",
+      "subheading": "Un vistazo a los cortes, el color y los estilos que salen de nuestro salón en DeKalb.",
+      "captions": [
+        "Balayage radiante con dimensión suave",
+        "Un corte de precisión definido y moderno",
+        "Color completo brillante con un brillo radiante",
+        "Un secado suave y con volumen",
+        "Un elegante recogido para ocasión especial",
+        "Rayitos luminosos y difuminados con aluminio"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice DeKalb",
+      "items": [
+        {
+          "quote": "Por fin un salón que de verdad escucha. Les mostré una foto y salí con el color exacto que quería.",
+          "name": "Rachel M.",
+          "role": "Cliente de Color"
+        },
+        {
+          "quote": "Son excelentes con mis hijos y con mi esposo, y mi balayage recibe cumplidos a donde quiera que voy.",
+          "name": "Stephanie K.",
+          "role": "Mamá Local"
+        },
+        {
+          "quote": "Mi estilista dejó mi cabello del día de la boda absolutamente perfecto. Me sentí hermosa desde la mañana hasta el último baile.",
+          "name": "Brianna T.",
+          "role": "Novia"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita el Salón",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "Cerrado"
+        },
+        {
+          "day": "Martes",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "9:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "8:00 AM – 4:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Reservaciones",
+      "directions": "Sobre West Lincoln Highway en DeKalb, con fácil estacionamiento justo al frente. Pásate cuando quieras o reserva tu cita en línea por adelantado.",
+      "neighborhood": "El salón está sobre West Lincoln Highway, cerca del borde este del campus de NIU, en el tramo que conecta la universidad con el centro de DeKalb."
+    },
+    "cta": {
+      "heading": "¿Lista para un Look que Vas a Amar?",
+      "text": "Reserva tu cita en línea o pásate directo. De cualquier forma, nuestros estilistas están listos para consentirte.",
+      "button": "Reserva tu Cita"
+    },
+    "form": {
+      "heading": "Reservar una Cita",
+      "subheading": "Dinos el servicio que quieres y tu horario preferido. Confirmaremos tu lugar; los sin cita siempre son bienvenidos también.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Servicio que Necesitas",
+      "date": "Fecha y Hora Preferida",
+      "message": "¿Algo Más?",
+      "submit": "Solicitar Cita",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y confirmaremos tu cita en breve.",
+      "error": "Algo salió mal. Inténtalo de nuevo o pásate por el salón.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud de cita."
+    },
+    "footer": {
+      "tagline": "Un acogedor salón de belleza de servicio completo para toda la familia en DeKalb.",
+      "rights": "© My 1 Hair Solution. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario del Salón",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    },
+    "ritual": {
+      "heading": "Tu Visita, de Principio a Fin",
+      "steps": [
+        {
+          "title": "Reserva o Pásate",
+          "text": "Reserva en línea en unos toques o pásate cuando quieras. Acomódate y deja que el día sea tuyo."
+        },
+        {
+          "title": "Siéntate y Consulta",
+          "text": "Empezamos por escuchar de verdad tu cabello, tu rutina y el look que has estado imaginando."
+        },
+        {
+          "title": "Relájate en la Silla",
+          "text": "Disfruta un lavado tibio y deja que tu estilista trabaje color, corte o balayage a un ritmo tranquilo."
+        },
+        {
+          "title": "Sal Enamorada",
+          "text": "Terminamos con consejos de peinado y reservamos tu próxima visita, para que tu look siga fresco entre citas."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "concept": "Warm, hopeful shelter palette for Tails Humane Society: a friendly coral-red primary that feels caring and energetic, a fresh teal-green accent suggesting renewal and second chances, gentle slate ink, and soft warm-white backgrounds for an optimistic, welcoming community feel.",
+  "vars": {
+    "--color-bg": "#FBF7F3",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#F4ECE4",
+    "--color-ink": "#25303B",
+    "--color-ink-soft": "#5A6571",
+    "--color-primary": "#D2412B",
+    "--color-primary-dark": "#B23420",
+    "--color-secondary": "#0E7C75",
+    "--color-accent": "#149E84",
+    "--color-line": "#E8DCD0"
+  },
+  "contrastNotes": "All WCAG-AA gates pass on bg #FBF7F3. ink #25303B on bg = 12.6:1 (>=7). ink-soft #5A6571 on bg = 5.57:1 (>=4.5). white on primary #D2412B = 4.63:1 (>=4.5). primary on bg = 4.35:1 (>=3). Extras: white on primary-dark #B23420 = 6.17:1; white on secondary #0E7C75 = 5.05:1; secondary on bg = 4.74:1. Accent #149E84 (3.15:1 on bg) is for large UI/decor and white-text fills, not body text on bg."
+}

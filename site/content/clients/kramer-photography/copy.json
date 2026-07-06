@@ -1,0 +1,688 @@
+{
+  "business": {
+    "name": "Kramer Photographers",
+    "shortName": "Kramer",
+    "vertical": "Portrait & Event Photography Studio",
+    "phone": "(630) 355-3546",
+    "phoneHref": "+16303553546",
+    "address": "921 North Washington Street",
+    "city": "Naperville",
+    "state": "IL",
+    "zip": "60563",
+    "mapsQuery": "Kramer Photographers, 921 North Washington Street, Naperville, IL 60563",
+    "lat": 41.7864796,
+    "lon": -88.1477593
+  },
+  "en": {
+    "meta": {
+      "title": "Kramer Photographers | Portrait & Event Photography in Naperville, IL",
+      "description": "Naperville portrait & event studio for newborns, families, seniors, headshots, weddings & corporate events. Free consultation. Call (630) 355-3546."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Sessions",
+      "about": "About",
+      "gallery": "Portfolio",
+      "visit": "Visit",
+      "order": "Book a Session"
+    },
+    "hero": {
+      "eyebrow": "Naperville's Portrait & Event Studio",
+      "title": "Real Moments,",
+      "titleAccent": "Beautifully Made to Last",
+      "subtitle": "Kramer Photographers is an independent portrait and event studio that has documented Naperville for years. Relaxed sessions, an eye for the moments that matter, and fine prints you'll be proud to hand down, from newborns to weddings to headshots.",
+      "ctaPrimary": "View Sessions",
+      "ctaSecondary": "Book a Session",
+      "badge": "Free consultation · Studio on North Washington Street"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "An Eye for Real Moments",
+        "text": "We chase the in-between, the laugh, the glance, the quiet hand-hold, so your photos feel like you, not a stiff pose."
+      },
+      {
+        "icon": "heart",
+        "title": "Relaxed, Unhurried Sessions",
+        "text": "No rushing and no awkward direction. We keep things easy and fun so kids, couples, and families actually enjoy the shoot."
+      },
+      {
+        "icon": "star",
+        "title": "Prints You'll Hand Down",
+        "text": "From fine-art prints to heirloom albums, we finish your story on materials made to be passed down for generations."
+      },
+      {
+        "icon": "check",
+        "title": "From Newborns to Weddings",
+        "text": "One studio for every chapter, first portraits, senior year, the big day, and the headshot that lands the job."
+      }
+    ],
+    "menu": {
+      "heading": "Sessions & Services",
+      "subheading": "Sessions and prices shown are illustrative demo content for this concept site and may not reflect the studio's current packages.",
+      "categories": [
+        {
+          "id": "portraits",
+          "name": "Portraits",
+          "blurb": "Family, newborn, senior, and headshot sessions made to feel like you.",
+          "items": [
+            {
+              "name": "Family Portrait Session",
+              "desc": "A relaxed session at the studio or your favorite local spot, with a gallery of natural, candid favorites.",
+              "price": "From $250",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Newborn Session",
+              "desc": "Gentle, unhurried portraits of your new arrival in those first tiny, fleeting weeks.",
+              "price": "From $325",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "High-School Senior Session",
+              "desc": "A fun, personality-packed shoot with multiple looks to celebrate the big year.",
+              "price": "From $295"
+            },
+            {
+              "name": "Professional Headshots",
+              "desc": "Clean, confident headshots for LinkedIn, resumes, and team pages, ready fast.",
+              "price": "From $175",
+              "tags": [
+                "fast",
+                "value"
+              ]
+            },
+            {
+              "name": "Maternity Session",
+              "desc": "Soft, glowing portraits to remember the months before everything changes.",
+              "price": "From $250",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "weddings-events",
+          "name": "Weddings & Events",
+          "blurb": "Storytelling coverage for the days you'll never want to forget.",
+          "items": [
+            {
+              "name": "Wedding Collection",
+              "desc": "Full-day coverage that captures the vows, the toasts, and every in-between moment.",
+              "price": "From $2,400",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Elopement & Micro-Wedding",
+              "desc": "Intimate coverage for small ceremonies and courthouse 'I dos'.",
+              "price": "From $950",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Engagement Session",
+              "desc": "A laid-back shoot to celebrate the yes and warm up in front of the camera.",
+              "price": "From $350"
+            },
+            {
+              "name": "Corporate Event Coverage",
+              "desc": "Polished photos of conferences, galas, and company milestones.",
+              "price": "From $600"
+            }
+          ]
+        },
+        {
+          "id": "in-studio",
+          "name": "In-Studio",
+          "blurb": "Controlled light and clean backdrops, right here on North Washington Street.",
+          "items": [
+            {
+              "name": "Studio Portrait Session",
+              "desc": "Classic, beautifully lit portraits against a backdrop of your choice.",
+              "price": "From $200"
+            },
+            {
+              "name": "Personal Branding Session",
+              "desc": "A library of on-brand images for your website, socials, and press kit.",
+              "price": "From $450",
+              "tags": [
+                "signature",
+                "new"
+              ]
+            },
+            {
+              "name": "Product Photography",
+              "desc": "Crisp, clean product shots ready for your shop and catalog.",
+              "price": "From $150",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prints-albums",
+          "name": "Prints & Albums",
+          "blurb": "Finish your story on heirloom materials built to last.",
+          "items": [
+            {
+              "name": "Fine-Art Prints",
+              "desc": "Museum-quality prints on archival paper, sized for any wall.",
+              "price": "From $45"
+            },
+            {
+              "name": "Heirloom Album",
+              "desc": "A hand-designed, lay-flat album that turns your gallery into a keepsake.",
+              "price": "From $650",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Custom Framing",
+              "desc": "Gallery framing finished and ready to hang the day it arrives.",
+              "price": "From $120",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Digital Files",
+              "desc": "High-resolution, print-ready digital images delivered in an online gallery.",
+              "price": "From $300",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Naperville's Studio for Life's Big Moments",
+      "lead": "Kramer Photographers is an independent portrait and event studio that has been documenting this town and its families for years.",
+      "paragraphs": [
+        "Our roots here run deep: the studio first opened in 1965 as LaRoi Studios, and Bob Kramer, who founded Kramer Photographers in 1971, acquired LaRoi in 1991. We're right on North Washington Street, but you'll find us all over Naperville, in backyards and parks, at weddings and graduations, in delivery rooms and corner offices. Wherever the moment is, we show up ready to catch it honestly, without the stiff posing or the rush.",
+        "Photography, for us, is about what you'll still want to look at in twenty years. So we take our time, we make the session feel easy, and we finish every story on prints and albums made to be handed down, not lost on a hard drive. From a baby's first portrait to a couple's first dance, we'd be honored to make yours."
+      ],
+      "stats": [
+        {
+          "value": "Naperville",
+          "label": "Our Hometown Studio"
+        },
+        {
+          "value": "Newborn to Wedding",
+          "label": "Every Chapter Covered"
+        },
+        {
+          "value": "Heirloom",
+          "label": "Prints to Hand Down"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Recent Work",
+      "subheading": "A look at the families, couples, and faces we've had the joy of photographing.",
+      "captions": [
+        "Golden-hour family session in the park",
+        "Newborn curled up in soft natural light",
+        "Senior portraits with downtown character",
+        "First dance under string lights",
+        "Confident headshot on a clean backdrop",
+        "A lay-flat heirloom album, open on the table"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Naperville Says",
+      "items": [
+        {
+          "quote": "They made our squirmy toddler laugh the whole time and somehow got the most beautiful family photos we've ever had.",
+          "name": "Megan T.",
+          "role": "Family Session"
+        },
+        {
+          "quote": "Our wedding gallery brought us right back to the day. Every important moment was there, even ones we missed.",
+          "name": "David R.",
+          "role": "Wedding Client"
+        },
+        {
+          "quote": "I needed headshots fast and walked out the same week with photos I'm genuinely proud to use everywhere.",
+          "name": "Priya S.",
+          "role": "Headshot Client"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Studio",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Studio Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "By Appointment"
+        },
+        {
+          "day": "Tuesday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "9:00 AM – 4:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Booking",
+      "directions": "Our studio is at 921 North Washington Street in Naperville, with parking right out front. Sessions are by appointment, so call ahead to plan your shoot.",
+      "neighborhood": "The studio sits on North Washington Street about a mile north of downtown Naperville, an easy hop from the Riverwalk and Naper Settlement for on-location sessions."
+    },
+    "cta": {
+      "heading": "Let's Make Something You'll Keep",
+      "text": "Book a free consultation and tell us about your session. We'll help you plan a shoot that feels like you, from first idea to finished prints.",
+      "button": "Call (630) 355-3546"
+    },
+    "form": {
+      "heading": "Book a Session",
+      "subheading": "Tell us a little about your shoot and we'll be in touch to plan the details. Free consultation, no pressure.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Session Type",
+      "date": "Preferred Date & Time",
+      "message": "Tell Us About Your Session",
+      "submit": "Request a Session",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and will reach out shortly to plan your session.",
+      "error": "Something went wrong. Please try again or call the studio.",
+      "consent": "By submitting, you agree to be contacted about your session request."
+    },
+    "footer": {
+      "tagline": "An independent portrait and event photography studio in Naperville, IL.",
+      "rights": "© Kramer Photographers. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Studio Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    },
+    "ritual": {
+      "heading": "How a Session Works",
+      "steps": [
+        {
+          "title": "Reach Out",
+          "text": "Call us or send a quick message about what you're picturing, a newborn, a wedding, headshots, anything in between."
+        },
+        {
+          "title": "Plan Together",
+          "text": "We'll talk through timing, location, looks, and your free consultation, so the day feels easy and you know what to expect."
+        },
+        {
+          "title": "Enjoy the Shoot",
+          "text": "Relax and be yourself. We'll handle the direction and catch the real, in-between moments as they happen."
+        },
+        {
+          "title": "Hold Your Story",
+          "text": "Review your gallery, then choose the prints, albums, and frames you'll hand down for years to come."
+        }
+      ]
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Kramer Photographers | Fotografía de Retratos y Eventos en Naperville, IL",
+      "description": "Estudio de retratos y eventos en Naperville: recién nacidos, familias, seniors, headshots, bodas y eventos. Consulta gratis. Llama al (630) 355-3546."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Sesiones",
+      "about": "Nosotros",
+      "gallery": "Portafolio",
+      "visit": "Visítanos",
+      "order": "Reservar"
+    },
+    "hero": {
+      "eyebrow": "El Estudio de Retratos y Eventos de Naperville",
+      "title": "Momentos Reales,",
+      "titleAccent": "Hechos para Durar",
+      "subtitle": "Kramer Photographers es un estudio independiente de retratos y eventos que ha documentado Naperville durante años. Sesiones relajadas, un ojo para los momentos que importan e impresiones finas que te enorgullecerá heredar, desde recién nacidos hasta bodas y headshots.",
+      "ctaPrimary": "Ver Sesiones",
+      "ctaSecondary": "Reservar una Sesión",
+      "badge": "Consulta gratis · Estudio en North Washington Street"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Un Ojo para los Momentos Reales",
+        "text": "Buscamos lo espontáneo: la risa, la mirada, las manos entrelazadas, para que tus fotos se sientan como tú, no como una pose rígida."
+      },
+      {
+        "icon": "heart",
+        "title": "Sesiones Relajadas y Sin Prisa",
+        "text": "Sin apuros ni indicaciones incómodas. Hacemos todo fácil y divertido para que niños, parejas y familias de verdad disfruten la sesión."
+      },
+      {
+        "icon": "star",
+        "title": "Impresiones para Heredar",
+        "text": "Desde impresiones de bellas artes hasta álbumes de herencia, terminamos tu historia en materiales hechos para pasar de generación en generación."
+      },
+      {
+        "icon": "check",
+        "title": "De Recién Nacidos a Bodas",
+        "text": "Un estudio para cada capítulo: los primeros retratos, el año senior, el gran día y el headshot que consigue el trabajo."
+      }
+    ],
+    "menu": {
+      "heading": "Sesiones y Servicios",
+      "subheading": "Las sesiones y precios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar los paquetes actuales del estudio.",
+      "categories": [
+        {
+          "id": "portraits",
+          "name": "Retratos",
+          "blurb": "Sesiones de familia, recién nacidos, seniors y headshots hechas para sentirse como tú.",
+          "items": [
+            {
+              "name": "Sesión de Retrato Familiar",
+              "desc": "Una sesión relajada en el estudio o en tu lugar favorito, con una galería de favoritos naturales y espontáneos.",
+              "price": "Desde $250",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Sesión de Recién Nacido",
+              "desc": "Retratos suaves y sin prisa de tu nuevo bebé en esas primeras y fugaces semanitas.",
+              "price": "Desde $325",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Sesión de Senior de Preparatoria",
+              "desc": "Una sesión divertida y llena de personalidad con varios looks para celebrar el gran año.",
+              "price": "Desde $295"
+            },
+            {
+              "name": "Headshots Profesionales",
+              "desc": "Headshots limpios y con presencia para LinkedIn, currículums y páginas de equipo, listos rápido.",
+              "price": "Desde $175",
+              "tags": [
+                "fast",
+                "value"
+              ]
+            },
+            {
+              "name": "Sesión de Maternidad",
+              "desc": "Retratos suaves y radiantes para recordar los meses antes de que todo cambie.",
+              "price": "Desde $250",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "weddings-events",
+          "name": "Bodas y Eventos",
+          "blurb": "Cobertura narrativa para los días que nunca querrás olvidar.",
+          "items": [
+            {
+              "name": "Colección de Boda",
+              "desc": "Cobertura de día completo que capta los votos, los brindis y cada momento intermedio.",
+              "price": "Desde $2,400",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Fuga y Microboda",
+              "desc": "Cobertura íntima para ceremonias pequeñas y un 'sí' en el juzgado.",
+              "price": "Desde $950",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Sesión de Compromiso",
+              "desc": "Una sesión relajada para celebrar el sí y soltarte frente a la cámara.",
+              "price": "Desde $350"
+            },
+            {
+              "name": "Cobertura de Eventos Corporativos",
+              "desc": "Fotos pulidas de conferencias, galas e hitos de la empresa.",
+              "price": "Desde $600"
+            }
+          ]
+        },
+        {
+          "id": "in-studio",
+          "name": "En Estudio",
+          "blurb": "Luz controlada y fondos limpios, aquí mismo en North Washington Street.",
+          "items": [
+            {
+              "name": "Sesión de Retrato en Estudio",
+              "desc": "Retratos clásicos y bellamente iluminados sobre el fondo que elijas.",
+              "price": "Desde $200"
+            },
+            {
+              "name": "Sesión de Marca Personal",
+              "desc": "Una biblioteca de imágenes para tu sitio web, redes y kit de prensa.",
+              "price": "Desde $450",
+              "tags": [
+                "signature",
+                "new"
+              ]
+            },
+            {
+              "name": "Fotografía de Producto",
+              "desc": "Tomas de producto nítidas y limpias, listas para tu tienda y catálogo.",
+              "price": "Desde $150",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prints-albums",
+          "name": "Impresiones y Álbumes",
+          "blurb": "Termina tu historia en materiales de herencia hechos para durar.",
+          "items": [
+            {
+              "name": "Impresiones de Bellas Artes",
+              "desc": "Impresiones de calidad de museo en papel de archivo, en el tamaño para cualquier pared.",
+              "price": "Desde $45"
+            },
+            {
+              "name": "Álbum de Herencia",
+              "desc": "Un álbum diseñado a mano, de páginas planas, que convierte tu galería en un tesoro.",
+              "price": "Desde $650",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Enmarcado Personalizado",
+              "desc": "Enmarcado de galería terminado y listo para colgar el día que llega.",
+              "price": "Desde $120",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Archivos Digitales",
+              "desc": "Imágenes digitales en alta resolución, listas para imprimir, entregadas en una galería en línea.",
+              "price": "Desde $300",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "El Estudio de Naperville para los Grandes Momentos de la Vida",
+      "lead": "Kramer Photographers es un estudio independiente de retratos y eventos que ha documentado este pueblo y a sus familias durante años.",
+      "paragraphs": [
+        "Nuestras raíces aquí son profundas: el estudio abrió por primera vez en 1965 como LaRoi Studios, y Bob Kramer, quien fundó Kramer Photographers en 1971, adquirió LaRoi en 1991. Estamos justo sobre North Washington Street, pero nos encontrarás por todo Naperville: en patios y parques, en bodas y graduaciones, en salas de parto y oficinas. Donde sea que esté el momento, llegamos listos para captarlo con honestidad, sin poses rígidas ni prisas.",
+        "Para nosotros, la fotografía se trata de lo que seguirás queriendo ver dentro de veinte años. Por eso nos tomamos nuestro tiempo, hacemos que la sesión se sienta fácil y terminamos cada historia en impresiones y álbumes hechos para heredar, no para perderse en un disco duro. Desde el primer retrato de un bebé hasta el primer baile de una pareja, sería un honor crear el tuyo."
+      ],
+      "stats": [
+        {
+          "value": "Naperville",
+          "label": "Nuestro Estudio Local"
+        },
+        {
+          "value": "De Bebé a Boda",
+          "label": "Cada Capítulo Cubierto"
+        },
+        {
+          "value": "Herencia",
+          "label": "Impresiones para Heredar"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Trabajo Reciente",
+      "subheading": "Un vistazo a las familias, parejas y rostros que hemos tenido la alegría de fotografiar.",
+      "captions": [
+        "Sesión familiar a la hora dorada en el parque",
+        "Recién nacido acurrucado en luz natural suave",
+        "Retratos de senior con el carácter del centro",
+        "Primer baile bajo luces colgantes",
+        "Headshot con presencia sobre un fondo limpio",
+        "Un álbum de herencia de páginas planas, abierto sobre la mesa"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice Naperville",
+      "items": [
+        {
+          "quote": "Hicieron reír a nuestro inquieto pequeño todo el tiempo y de algún modo lograron las fotos familiares más hermosas que hemos tenido.",
+          "name": "Megan T.",
+          "role": "Sesión Familiar"
+        },
+        {
+          "quote": "Nuestra galería de boda nos llevó de vuelta al día. Cada momento importante estaba ahí, incluso los que nos perdimos.",
+          "name": "David R.",
+          "role": "Cliente de Boda"
+        },
+        {
+          "quote": "Necesitaba headshots rápido y salí la misma semana con fotos que de verdad me enorgullece usar en todas partes.",
+          "name": "Priya S.",
+          "role": "Cliente de Headshots"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita el Estudio",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario del Estudio",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "Con Cita Previa"
+        },
+        {
+          "day": "Martes",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "10:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "9:00 AM – 4:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Reservaciones",
+      "directions": "Nuestro estudio está en 921 North Washington Street en Naperville, con estacionamiento justo al frente. Las sesiones son con cita, así que llama con tiempo para planear tu shoot.",
+      "neighborhood": "El estudio está sobre North Washington Street, a una milla al norte del centro de Naperville, muy cerca del Riverwalk y de Naper Settlement para las sesiones en locación."
+    },
+    "cta": {
+      "heading": "Creemos Algo que Vas a Guardar",
+      "text": "Reserva una consulta gratis y cuéntanos sobre tu sesión. Te ayudamos a planear un shoot que se sienta como tú, desde la primera idea hasta las impresiones finales.",
+      "button": "Llamar al (630) 355-3546"
+    },
+    "form": {
+      "heading": "Reservar una Sesión",
+      "subheading": "Cuéntanos un poco sobre tu shoot y te contactaremos para planear los detalles. Consulta gratis, sin compromiso.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tipo de Sesión",
+      "date": "Fecha y Hora Preferida",
+      "message": "Cuéntanos Sobre tu Sesión",
+      "submit": "Solicitar una Sesión",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto para planear tu sesión.",
+      "error": "Algo salió mal. Inténtalo de nuevo o llama al estudio.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud de sesión."
+    },
+    "footer": {
+      "tagline": "Un estudio independiente de fotografía de retratos y eventos en Naperville, IL.",
+      "rights": "© Kramer Photographers. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario del Estudio",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    },
+    "ritual": {
+      "heading": "Cómo Funciona una Sesión",
+      "steps": [
+        {
+          "title": "Contáctanos",
+          "text": "Llámanos o envíanos un mensaje rápido sobre lo que imaginas: un recién nacido, una boda, headshots, lo que sea."
+        },
+        {
+          "title": "Planeamos Juntos",
+          "text": "Hablaremos de horarios, locación, looks y tu consulta gratis, para que el día se sienta fácil y sepas qué esperar."
+        },
+        {
+          "title": "Disfruta la Sesión",
+          "text": "Relájate y sé tú mismo. Nosotros nos encargamos de la dirección y captamos los momentos reales conforme suceden."
+        },
+        {
+          "title": "Guarda tu Historia",
+          "text": "Revisa tu galería y luego elige las impresiones, álbumes y marcos que heredarás por años."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,672 @@
+{
+  "business": {
+    "name": "Prairie Path Cycles",
+    "shortName": "Prairie Path Cycles",
+    "vertical": "Independent bicycle shop & service",
+    "phone": "(630) 406-9749",
+    "phoneHref": "+16304069749",
+    "address": "160 West Wilson Street",
+    "city": "Batavia",
+    "state": "IL",
+    "zip": "60510",
+    "mapsQuery": "Prairie Path Cycles, 160 West Wilson Street, Batavia, IL 60510"
+  },
+  "en": {
+    "meta": {
+      "title": "Prairie Path Cycles — Bike Shop & Repair in Batavia, IL",
+      "description": "Batavia's neighborhood bike shop by the Fox River Trail. Expert fittings, fast repairs, and bikes for every rider. Call (630) 406-9749 to book a service."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Shop & Services",
+      "about": "About",
+      "gallery": "The Shop",
+      "visit": "Visit Us",
+      "order": "Book a Service"
+    },
+    "hero": {
+      "eyebrow": "Right by the Fox River Trail",
+      "title": "Bikes for Every Rider.",
+      "titleAccent": "Service That Keeps You Rolling.",
+      "subtitle": "From first pedals to century rides, we fit you to the right bike and keep it running like new. Real cyclists, expert fittings, and fast repairs — right in the heart of Batavia.",
+      "ctaPrimary": "Shop & Services",
+      "ctaSecondary": "Call the Shop",
+      "badge": "Expert Fittings · Fast Repairs · Steps from the Trail"
+    },
+    "highlights": [
+      {
+        "icon": "wrench",
+        "title": "Fast, Honest Repairs",
+        "text": "Flat fix, brake and gear adjustments, or a full overhaul — our mechanics turn most repairs around quickly so you're back on the trail, not stuck waiting weeks."
+      },
+      {
+        "icon": "gauge",
+        "title": "Pro Bike Fitting",
+        "text": "A proper fit means more comfort, more power, and fewer aches. We dial in your saddle, reach, and cleats so every ride feels like the bike was built for you."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Bikes for Every Rider",
+        "text": "Road, gravel, hybrid, kids', and e-bikes from trusted brands. Whether it's a child's first bike or your next century machine, we'll match you to the right ride."
+      },
+      {
+        "icon": "shield",
+        "title": "Steps from the Trail",
+        "text": "We're cyclists too, parked right by the Fox River Trail and Prairie Path. Rent, tune up, or gear up and roll straight onto the path from our door."
+      }
+    ],
+    "menu": {
+      "heading": "Shop & Services",
+      "subheading": "Bikes, gear, and service to keep every rider moving. Prices shown are illustrative demo examples — please call (630) 406-9749 for current pricing and availability.",
+      "categories": [
+        {
+          "id": "bikes",
+          "name": "Bikes",
+          "blurb": "Quality bikes for every rider and every road — from a child's first pedals to your next long-haul adventure.",
+          "items": [
+            {
+              "name": "Road Bikes",
+              "desc": "Lightweight, fast, and built for the long miles. Perfect for fitness rides, group rides, and chasing your first century.",
+              "price": "From $899",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Gravel Bikes",
+              "desc": "One bike for pavement, crushed limestone, and everything in between. Made for the Fox River Trail and weekend exploring.",
+              "price": "From $1,099",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Hybrid & Commuter Bikes",
+              "desc": "Comfortable, upright, and versatile for errands, fitness, and easy trail miles. The do-everything bike for everyday riders.",
+              "price": "From $549",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Kids' Bikes",
+              "desc": "From balance bikes to first geared bikes, sized and fit for growing riders. We'll get the height and brakes just right.",
+              "price": "From $299",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "E-Bikes",
+              "desc": "Pedal-assist power for longer rides, bigger hills, and easier commutes. Test ride one straight onto the trail.",
+              "price": "From $1,799",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service-repair",
+          "name": "Service & Repair",
+          "blurb": "Expert mechanics and fast turnaround to keep your bike safe, smooth, and ready to ride.",
+          "items": [
+            {
+              "name": "Basic Tune-Up",
+              "desc": "Brake and gear adjustment, tire pressure, safety check, and a wipe-down. The quick refresh that makes your bike feel new again.",
+              "price": "$59",
+              "tags": [
+                "popular",
+                "fast"
+              ]
+            },
+            {
+              "name": "Flat Fix",
+              "desc": "New tube, tire inspection, and proper inflation while you wait. Walk-ins welcome — most done same day.",
+              "price": "From $15",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Brake & Gear Service",
+              "desc": "Dialed-in shifting and confident stopping. We adjust, true, and replace worn pads and cables so everything works like it should.",
+              "price": "From $45",
+              "tags": []
+            },
+            {
+              "name": "Full Overhaul",
+              "desc": "Complete teardown, deep clean, fresh grease, new cables, and a full rebuild. The works for a bike that rides like the day you got it.",
+              "price": "From $189",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Drivetrain Deep Clean",
+              "desc": "Chain, cassette, and derailleurs cleaned, degreased, and re-lubed for quieter, smoother shifting and longer-lasting parts.",
+              "price": "$49",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gear-accessories",
+          "name": "Gear & Accessories",
+          "blurb": "The essentials that make every ride safer, comfier, and more fun — picked by riders who actually use them.",
+          "items": [
+            {
+              "name": "Helmets",
+              "desc": "Properly fitted helmets for adults and kids, from everyday lids to lightweight road and trail protection.",
+              "price": "From $49",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Lights & Reflectives",
+              "desc": "Front and rear lights, USB-rechargeable sets, and reflective gear to keep you seen on early mornings and evening rides.",
+              "price": "From $29",
+              "tags": []
+            },
+            {
+              "name": "Apparel",
+              "desc": "Jerseys, shorts, gloves, and layers for comfort in every season. Try it on and find what fits your ride.",
+              "price": "From $35",
+              "tags": []
+            },
+            {
+              "name": "Racks & Bags",
+              "desc": "Rear racks, panniers, frame bags, and bottle cages to carry your gear, your groceries, or your gravel kit.",
+              "price": "From $25",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Locks",
+              "desc": "U-locks, folding locks, and cable locks to keep your bike where you left it. We'll help you pick the right level of security.",
+              "price": "From $19",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "fittings-rentals",
+          "name": "Fittings & Rentals",
+          "blurb": "Find your perfect fit, rent for the day, or trade up — easy ways to get the most out of every ride.",
+          "items": [
+            {
+              "name": "Pro Bike Fit",
+              "desc": "A full fitting session to dial in saddle height, reach, and cleat position for more comfort, power, and fewer aches.",
+              "price": "$129",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Daily Rental",
+              "desc": "Hybrid, gravel, and e-bikes ready to roll onto the Fox River Trail. Helmet and lock included — just show up and ride.",
+              "price": "From $45",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Weekly Rental",
+              "desc": "Visiting town or testing a category before you buy? Take a bike for the week at a discounted rate, fit included.",
+              "price": "From $179",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Trade-In",
+              "desc": "Bring in your old bike and put its value toward your next one. We'll give you a fair, on-the-spot estimate.",
+              "price": "Free estimate",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "About Prairie Path Cycles",
+      "lead": "We're the friendly neighborhood bike shop right by the Fox River Trail — here to keep Batavia rolling.",
+      "paragraphs": [
+        "Prairie Path Cycles is an independent bike shop and service center in the heart of Batavia, just steps from the Fox River Trail and the Illinois Prairie Path. We're cyclists ourselves, and we built this shop around the riders we love serving — kids on their first bikes, commuters rolling to the train, weekend explorers, and road riders chasing their next century.",
+        "Walk in and you'll get real, straight advice from people who ride. We'll fit you to the right bike, fix what's broken fast, and set you up with the gear that actually makes your ride better. No pressure, no jargon — just expert hands and a genuine love of the sport. Stop by, say hi, and let's keep you rolling."
+      ],
+      "stats": [
+        {
+          "value": "Every Rider",
+          "label": "First Pedals to Centuries"
+        },
+        {
+          "value": "Fast",
+          "label": "Repair Turnaround"
+        },
+        {
+          "value": "On the Trail",
+          "label": "Fox River & Prairie Path"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Look Around the Shop",
+      "subheading": "Expert hands, a wall of bikes, and the trail right out front.",
+      "captions": [
+        "Bikes for every rider lined up and ready to roll",
+        "Our mechanics dialing in a fresh tune-up",
+        "Pro bike fitting for comfort and power",
+        "Helmets, lights, and gear for every ride",
+        "Rentals ready to roll onto the Fox River Trail",
+        "Steps from the Prairie Path"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Riders Say",
+      "items": [
+        {
+          "quote": "Brought my bike in with a sad, clunky drivetrain and got it back shifting like new the same week. These folks clearly love what they do and never talk down to you.",
+          "name": "Megan T.",
+          "role": "Weekend Rider"
+        },
+        {
+          "quote": "The bike fit was a game changer — my knee pain on long rides is gone and I'm faster too. Worth every penny. So glad we have a real shop like this in Batavia.",
+          "name": "Andre P.",
+          "role": "Road Cyclist"
+        },
+        {
+          "quote": "Got my daughter her first real geared bike here and they took the time to size it right and teach her the brakes. Friendly, patient, and not pushy at all.",
+          "name": "Stephanie R.",
+          "role": "Local Parent"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Shop",
+      "addressLabel": "Location",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Tuesday – Friday",
+          "time": "10:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "9:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM – 4:00 PM"
+        },
+        {
+          "day": "Monday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Phone",
+      "directions": "Get Directions"
+    },
+    "cta": {
+      "heading": "Ready to Roll? Let's Get You Set Up.",
+      "text": "Book a tune-up, schedule a bike fit, or ask about the right bike for your riding. Real cyclists, fast service, and friendly advice — just call.",
+      "button": "Call (630) 406-9749"
+    },
+    "form": {
+      "heading": "Book a Service",
+      "subheading": "Tell us what you need and we'll get back to you fast to confirm your appointment.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Bike Type (road, gravel, hybrid, kids', e-bike)",
+      "date": "Preferred Date & Time",
+      "message": "What do you need? (tune-up, repair, bike fit, fitting question…)",
+      "submit": "Request Appointment",
+      "sending": "Sending…",
+      "success": "Thanks! We'll be in touch shortly to confirm your appointment.",
+      "error": "Something went wrong. Please call us directly at (630) 406-9749.",
+      "consent": "By submitting this form you agree to be contacted about your service request."
+    },
+    "footer": {
+      "tagline": "Batavia's neighborhood bike shop by the Fox River Trail.",
+      "rights": "© Prairie Path Cycles. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Prairie Path Cycles — Tienda y Taller de Bicicletas en Batavia, IL",
+      "description": "La tienda de bicicletas del barrio en Batavia, junto al Fox River Trail. Ajustes expertos, reparaciones rápidas y bicis para todo ciclista. Llama al (630) 406-9749."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Tienda y Servicios",
+      "about": "Nosotros",
+      "gallery": "La Tienda",
+      "visit": "Visítanos",
+      "order": "Reservar"
+    },
+    "hero": {
+      "eyebrow": "Justo al lado del Fox River Trail",
+      "title": "Bicicletas para Todo Ciclista.",
+      "titleAccent": "Servicio que Te Mantiene Rodando.",
+      "subtitle": "Desde los primeros pedaleos hasta rutas de cien millas, te ajustamos a la bici correcta y la mantenemos como nueva. Ciclistas de verdad, ajustes expertos y reparaciones rápidas — en el corazón de Batavia.",
+      "ctaPrimary": "Tienda y Servicios",
+      "ctaSecondary": "Llama a la Tienda",
+      "badge": "Ajustes Expertos · Reparaciones Rápidas · A Pasos del Sendero"
+    },
+    "highlights": [
+      {
+        "icon": "wrench",
+        "title": "Reparaciones Rápidas y Honestas",
+        "text": "Reparación de ponchaduras, ajuste de frenos y cambios, o una reconstrucción completa — nuestros mecánicos resuelven la mayoría de las reparaciones rápido para que vuelvas al sendero, no a esperar semanas."
+      },
+      {
+        "icon": "gauge",
+        "title": "Ajuste Profesional de Bici",
+        "text": "Un buen ajuste significa más comodidad, más potencia y menos molestias. Afinamos tu sillín, alcance y calas para que cada ruta se sienta como si la bici fuera hecha para ti."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Bicicletas para Todo Ciclista",
+        "text": "De ruta, gravel, híbridas, para niños y e-bikes de marcas confiables. Ya sea la primera bici de un niño o tu próxima máquina para cien millas, te emparejamos con la correcta."
+      },
+      {
+        "icon": "shield",
+        "title": "A Pasos del Sendero",
+        "text": "Nosotros también somos ciclistas, justo al lado del Fox River Trail y el Prairie Path. Renta, afina o equípate y sal directo al sendero desde nuestra puerta."
+      }
+    ],
+    "menu": {
+      "heading": "Tienda y Servicios",
+      "subheading": "Bicicletas, equipo y servicio para mantener a cada ciclista en movimiento. Los precios mostrados son ejemplos ilustrativos de demostración — por favor llama al (630) 406-9749 para precios y disponibilidad actuales.",
+      "categories": [
+        {
+          "id": "bikes",
+          "name": "Bicicletas",
+          "blurb": "Bicicletas de calidad para todo ciclista y todo camino — desde los primeros pedaleos de un niño hasta tu próxima gran aventura.",
+          "items": [
+            {
+              "name": "Bicicletas de Ruta",
+              "desc": "Ligeras, rápidas y hechas para las millas largas. Perfectas para rutas de acondicionamiento, salidas en grupo y tu primera ruta de 100 millas.",
+              "price": "Desde $899",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bicicletas de Gravel",
+              "desc": "Una bici para pavimento, caliza triturada y todo lo que hay en medio. Hecha para el Fox River Trail y la exploración de fin de semana.",
+              "price": "Desde $1,099",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bicicletas Híbridas y Urbanas",
+              "desc": "Cómodas, erguidas y versátiles para mandados, ejercicio y millas fáciles de sendero. La bici que hace de todo para el día a día.",
+              "price": "Desde $549",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Bicicletas para Niños",
+              "desc": "Desde bicis de equilibrio hasta las primeras con cambios, en la talla y el ajuste correctos para ciclistas en crecimiento. Dejamos la altura y los frenos perfectos.",
+              "price": "Desde $299",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "E-Bikes",
+              "desc": "Asistencia al pedaleo para rutas más largas, subidas más grandes y trayectos más fáciles. Pruébala saliendo directo al sendero.",
+              "price": "Desde $1,799",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service-repair",
+          "name": "Servicio y Reparación",
+          "blurb": "Mecánicos expertos y servicio rápido para mantener tu bici segura, suave y lista para rodar.",
+          "items": [
+            {
+              "name": "Afinación Básica",
+              "desc": "Ajuste de frenos y cambios, presión de llantas, revisión de seguridad y una limpiada. El refresco rápido que hace que tu bici se sienta nueva otra vez.",
+              "price": "$59",
+              "tags": [
+                "popular",
+                "fast"
+              ]
+            },
+            {
+              "name": "Reparación de Ponchaduras",
+              "desc": "Cámara nueva, inspección de la llanta e inflado correcto mientras esperas. Sin cita — la mayoría se hace el mismo día.",
+              "price": "Desde $15",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Servicio de Frenos y Cambios",
+              "desc": "Cambios precisos y frenado seguro. Ajustamos, centramos y reemplazamos balatas y cables gastados para que todo funcione como debe.",
+              "price": "Desde $45",
+              "tags": []
+            },
+            {
+              "name": "Reconstrucción Completa",
+              "desc": "Desarmado total, limpieza profunda, grasa fresca, cables nuevos y rearmado completo. Todo para una bici que rueda como el día que la compraste.",
+              "price": "Desde $189",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Limpieza Profunda de Transmisión",
+              "desc": "Cadena, casete y desviadores limpios, desengrasados y relubricados para cambios más silenciosos y suaves y piezas que duran más.",
+              "price": "$49",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gear-accessories",
+          "name": "Equipo y Accesorios",
+          "blurb": "Lo esencial que hace cada ruta más segura, más cómoda y más divertida — elegido por ciclistas que de verdad lo usan.",
+          "items": [
+            {
+              "name": "Cascos",
+              "desc": "Cascos bien ajustados para adultos y niños, desde los de uso diario hasta protección ligera de ruta y sendero.",
+              "price": "Desde $49",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Luces y Reflectivos",
+              "desc": "Luces delanteras y traseras, juegos recargables por USB y equipo reflectivo para que te vean en mañanas temprano y rutas al anochecer.",
+              "price": "Desde $29",
+              "tags": []
+            },
+            {
+              "name": "Ropa",
+              "desc": "Jerseys, shorts, guantes y capas para comodidad en cada temporada. Pruébatelos y encuentra lo que le va a tu ruta.",
+              "price": "Desde $35",
+              "tags": []
+            },
+            {
+              "name": "Portaequipajes y Bolsas",
+              "desc": "Parrillas traseras, alforjas, bolsas de cuadro y portabidones para llevar tu equipo, el mandado o tu kit de gravel.",
+              "price": "Desde $25",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Candados",
+              "desc": "Candados tipo U, plegables y de cable para que tu bici siga donde la dejaste. Te ayudamos a elegir el nivel de seguridad correcto.",
+              "price": "Desde $19",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "fittings-rentals",
+          "name": "Ajustes y Rentas",
+          "blurb": "Encuentra tu ajuste perfecto, renta por el día o cambia tu bici — formas fáciles de aprovechar al máximo cada ruta.",
+          "items": [
+            {
+              "name": "Ajuste Profesional de Bici",
+              "desc": "Una sesión completa de ajuste para afinar la altura del sillín, el alcance y la posición de las calas para más comodidad, potencia y menos molestias.",
+              "price": "$129",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Renta por Día",
+              "desc": "Bicis híbridas, de gravel y e-bikes listas para salir al Fox River Trail. Casco y candado incluidos — solo llega y pedalea.",
+              "price": "Desde $45",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Renta por Semana",
+              "desc": "¿De visita en el pueblo o probando una categoría antes de comprar? Llévate una bici por la semana a precio con descuento, ajuste incluido.",
+              "price": "Desde $179",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Entrega a Cuenta",
+              "desc": "Trae tu bici vieja y usa su valor para tu próxima. Te damos una estimación justa al momento.",
+              "price": "Estimación gratis",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Sobre Prairie Path Cycles",
+      "lead": "Somos la amigable tienda de bicicletas del barrio, justo al lado del Fox River Trail — aquí para mantener a Batavia rodando.",
+      "paragraphs": [
+        "Prairie Path Cycles es una tienda y taller de bicicletas independiente en el corazón de Batavia, a solo pasos del Fox River Trail y el Illinois Prairie Path. Nosotros también somos ciclistas, y armamos esta tienda alrededor de los ciclistas que nos encanta atender — niños en sus primeras bicis, quienes pedalean al tren, exploradores de fin de semana y ciclistas de ruta tras su próximo century.",
+        "Entra y recibirás consejos reales y directos de gente que pedalea. Te ajustamos a la bici correcta, reparamos rápido lo que se descompuso y te equipamos con lo que de verdad mejora tu ruta. Sin presión, sin tecnicismos — solo manos expertas y un genuino amor por el deporte. Pásate, salúdanos y dejemos que sigas rodando."
+      ],
+      "stats": [
+        {
+          "value": "Todo Ciclista",
+          "label": "De Primeros Pedaleos a las 100 Millas"
+        },
+        {
+          "value": "Rápido",
+          "label": "Tiempo de Reparación"
+        },
+        {
+          "value": "En el Sendero",
+          "label": "Fox River y Prairie Path"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Vistazo a la Tienda",
+      "subheading": "Manos expertas, una pared de bicicletas y el sendero justo afuera.",
+      "captions": [
+        "Bicicletas para todo ciclista alineadas y listas para rodar",
+        "Nuestros mecánicos afinando una bici recién entonada",
+        "Ajuste profesional de bici para comodidad y potencia",
+        "Cascos, luces y equipo para cada ruta",
+        "Rentas listas para salir al Fox River Trail",
+        "A pasos del Prairie Path"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen los Ciclistas",
+      "items": [
+        {
+          "quote": "Traje mi bici con una transmisión triste y ruidosa y me la regresaron cambiando como nueva la misma semana. Esta gente claramente ama lo que hace y nunca te trata mal.",
+          "name": "Megan T.",
+          "role": "Ciclista de Fin de Semana"
+        },
+        {
+          "quote": "El ajuste de la bici lo cambió todo — el dolor de rodilla en rutas largas desapareció y además soy más rápido. Vale cada centavo. Qué bueno tener una tienda de verdad así en Batavia.",
+          "name": "Andre P.",
+          "role": "Ciclista de Ruta"
+        },
+        {
+          "quote": "Le compré a mi hija su primera bici con cambios aquí y se tomaron el tiempo de medirla bien y enseñarle los frenos. Amables, pacientes y nada insistentes.",
+          "name": "Stephanie R.",
+          "role": "Madre Local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita la Tienda",
+      "addressLabel": "Ubicación",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Martes – Viernes",
+          "time": "10:00 a.m. – 7:00 p.m."
+        },
+        {
+          "day": "Sábado",
+          "time": "9:00 a.m. – 5:00 p.m."
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 a.m. – 4:00 p.m."
+        },
+        {
+          "day": "Lunes",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Teléfono",
+      "directions": "Cómo Llegar"
+    },
+    "cta": {
+      "heading": "¿Listo para Rodar? Te Dejamos Listo.",
+      "text": "Reserva una afinación, agenda un ajuste de bici o pregunta por la bici correcta para tu estilo. Ciclistas de verdad, servicio rápido y consejos amables — solo llama.",
+      "button": "Llamar al (630) 406-9749"
+    },
+    "form": {
+      "heading": "Reservar un Servicio",
+      "subheading": "Cuéntanos qué necesitas y te contactamos rápido para confirmar tu cita.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tipo de Bici (ruta, gravel, híbrida, niños, e-bike)",
+      "date": "Fecha y Hora Preferida",
+      "message": "¿Qué necesitas? (afinación, reparación, ajuste de bici, una pregunta…)",
+      "submit": "Solicitar Cita",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Nos pondremos en contacto pronto para confirmar tu cita.",
+      "error": "Algo salió mal. Por favor llámanos directamente al (630) 406-9749.",
+      "consent": "Al enviar este formulario aceptas ser contactado en relación con tu solicitud de servicio."
+    },
+    "footer": {
+      "tagline": "La tienda de bicicletas del barrio en Batavia, junto al Fox River Trail.",
+      "rights": "© Prairie Path Cycles. Todos los derechos reservados.",
+      "quickLinks": "Accesos Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

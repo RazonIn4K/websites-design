@@ -1,0 +1,648 @@
+{
+  "business": {
+    "name": "University City Barbershop",
+    "shortName": "University City",
+    "vertical": "Barbershop",
+    "phone": "",
+    "phoneHref": "",
+    "address": "817 West Lincoln Highway",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "University City Barbershop, 817 West Lincoln Highway, DeKalb, IL 60115"
+  },
+  "en": {
+    "meta": {
+      "title": "University City Barbershop | Fades, Shaves & Lineups in DeKalb, IL",
+      "description": "Classic cuts, skin fades, and hot-towel straight razor shaves in DeKalb, IL. Walk-ins welcome or book a chair online near Northern Illinois University."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "Our Shop",
+      "gallery": "Our Work",
+      "visit": "Visit",
+      "order": "Book a Chair"
+    },
+    "hero": {
+      "eyebrow": "DeKalb's Neighborhood Barbershop",
+      "title": "Sharp Cuts, Good Conversation,",
+      "titleAccent": "A Chair That Feels Like Home",
+      "subtitle": "Classic craftsmanship with a modern edge, right on Lincoln Highway. From clean skin fades to hot-towel straight razor shaves, we keep NIU students and DeKalb locals looking their best.",
+      "ctaPrimary": "View Services",
+      "ctaSecondary": "Book Your Cut",
+      "badge": "Walk-ins welcome. No appointment needed."
+    },
+    "highlights": [
+      {
+        "icon": "scissors",
+        "title": "Precision Fades",
+        "text": "Tight, blended fades and clean classic cuts dialed in for every hair type and head shape."
+      },
+      {
+        "icon": "razor",
+        "title": "Hot-Towel Shaves",
+        "text": "Old-school straight razor shaves with steamed towels, hot lather, and a smooth, close finish."
+      },
+      {
+        "icon": "clock",
+        "title": "Walk-Ins Welcome",
+        "text": "Got time between classes or after work? Drop in, or book a chair ahead to skip the wait."
+      },
+      {
+        "icon": "star",
+        "title": "Student-Friendly",
+        "text": "Steps from Northern Illinois University with a student cut priced for a college budget."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Prices and services shown are illustrative demo content for this concept site and may not reflect the shop's actual menu.",
+      "categories": [
+        {
+          "id": "haircuts",
+          "name": "Haircuts",
+          "blurb": "Clippers, scissors, and a clean finish, tailored to your style.",
+          "items": [
+            {
+              "name": "Classic Cut",
+              "desc": "Tailored scissor or clipper cut finished with a clean neckline and style.",
+              "price": "$25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Skin Fade",
+              "desc": "Seamless fade taken down to the skin and blended to perfection.",
+              "price": "$30",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Student Cut",
+              "desc": "Sharp, budget-friendly cut for NIU students with a valid ID.",
+              "price": "$20",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Kids Cut",
+              "desc": "Patient, friendly cut for the little ones, ages 10 and under.",
+              "price": "$18"
+            },
+            {
+              "name": "Buzz Cut",
+              "desc": "Quick, even all-over clipper cut at the guard length you want.",
+              "price": "$15",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "beard-shave",
+          "name": "Beard & Shave",
+          "blurb": "Hot towels, sharp lines, and a finish that lasts.",
+          "items": [
+            {
+              "name": "Beard Trim",
+              "desc": "Shaped, trimmed, and detailed to keep your beard looking its best.",
+              "price": "$15",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Hot-Towel Straight Razor Shave",
+              "desc": "Steamed towels, hot lather, and a precise straight razor for a smooth, close shave.",
+              "price": "$30",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Lineup / Edge-Up",
+              "desc": "Crisp razor lineup on the hairline, temples, and neck for clean edges.",
+              "price": "$12",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Beard Sculpt & Hot Towel",
+              "desc": "Full beard shape-up with a relaxing hot towel and conditioning finish.",
+              "price": "$22"
+            }
+          ]
+        },
+        {
+          "id": "styling-extras",
+          "name": "Styling & Extras",
+          "blurb": "The finishing touches that set your look apart.",
+          "items": [
+            {
+              "name": "Gray Blending",
+              "desc": "Subtle, natural-looking color to soften the gray without the dyed look.",
+              "price": "$25"
+            },
+            {
+              "name": "Hair Design",
+              "desc": "Custom razor part, line, or design work added to any cut.",
+              "price": "From $10",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Wash & Style",
+              "desc": "Shampoo, scalp massage, and a clean blow-out finish.",
+              "price": "$15"
+            },
+            {
+              "name": "Kids Design Add-On",
+              "desc": "A fun lightning bolt, star, or stripe added to the kids cut.",
+              "price": "$8"
+            }
+          ]
+        },
+        {
+          "id": "packages",
+          "name": "Packages",
+          "blurb": "Bundle up and save on the full grooming experience.",
+          "items": [
+            {
+              "name": "Cut + Beard Combo",
+              "desc": "Classic cut paired with a full beard trim and shape-up.",
+              "price": "$38",
+              "tags": [
+                "value",
+                "popular"
+              ]
+            },
+            {
+              "name": "The Full Service",
+              "desc": "Skin fade, hot-towel straight razor shave, and a wash & style.",
+              "price": "$55",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Student Combo",
+              "desc": "Student cut plus a lineup, made for the NIU schedule and budget.",
+              "price": "$28",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Father & Son",
+              "desc": "One adult classic cut and one kids cut, side by side.",
+              "price": "$40"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Your Chair on Lincoln Highway",
+      "lead": "We're an independent neighborhood barbershop built on sharp craft and good conversation.",
+      "paragraphs": [
+        "University City Barbershop sits right in the heart of DeKalb, where the energy of Northern Illinois University meets the loyalty of longtime locals. Whether you're a freshman getting your first college fade or a regular who's been coming in for years, you'll get the same care, the same attention to detail, and the same easy conversation every time.",
+        "Our barbers take pride in the classics, clean fades, precise lineups, and traditional hot-towel shaves, while keeping a modern edge on every style that comes through the door. Pull up a chair, relax, and walk out looking and feeling your best."
+      ],
+      "stats": [
+        {
+          "value": "Walk-Ins",
+          "label": "Always Welcome"
+        },
+        {
+          "value": "All Ages",
+          "label": "Kids to Grandpas"
+        },
+        {
+          "value": "NIU",
+          "label": "Student Friendly"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Our Work",
+      "subheading": "A look at the cuts, fades, and finishes coming out of our chairs.",
+      "captions": [
+        "Clean skin fade with a sharp lineup",
+        "Classic scissor cut with natural texture",
+        "Hot-towel straight razor shave",
+        "Detailed beard sculpt and shape-up",
+        "Razor part and custom hair design",
+        "Kids cut with a confident finish"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Is Saying",
+      "items": [
+        {
+          "quote": "Best fade I've gotten since moving to DeKalb. They take their time and the lineup is always perfect.",
+          "name": "Marcus T.",
+          "role": "NIU Student"
+        },
+        {
+          "quote": "The hot-towel shave is the real deal. I leave relaxed and looking ten years younger every single time.",
+          "name": "Robert G.",
+          "role": "Longtime Local"
+        },
+        {
+          "quote": "Took my son in for his first real haircut and they made him feel like a champ. We're regulars now.",
+          "name": "Andre W.",
+          "role": "DeKalb Dad"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Shop",
+      "addressLabel": "Find Us",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "8:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "10:00 AM – 3:00 PM"
+        }
+      ],
+      "phoneLabel": "Booking",
+      "directions": "On West Lincoln Highway near Northern Illinois University, with easy street parking. Walk in anytime or book a chair ahead online."
+    },
+    "cta": {
+      "heading": "Ready for a Fresh Cut?",
+      "text": "Book a chair online or walk right in. Either way, you'll leave looking sharp and feeling great.",
+      "button": "Book Your Cut"
+    },
+    "form": {
+      "heading": "Book a Chair",
+      "subheading": "Tell us what you need and your preferred time. We'll confirm your spot, walk-ins are always welcome too.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Service Needed",
+      "date": "Preferred Date & Time",
+      "message": "Anything Else?",
+      "submit": "Request Booking",
+      "sending": "Sending...",
+      "success": "Thanks! We've got your request and will confirm your chair shortly.",
+      "error": "Something went wrong. Please try again or stop by the shop.",
+      "consent": "By submitting, you agree to be contacted about your booking request."
+    },
+    "footer": {
+      "tagline": "Classic cuts and hot-towel shaves in the heart of DeKalb.",
+      "rights": "© University City Barbershop. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Shop Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "University City Barbershop | Fades, Afeitadas y Perfilados en DeKalb, IL",
+      "description": "Cortes clásicos, fades al ras y afeitadas con toalla caliente y navaja en DeKalb, IL. Aceptamos sin cita o reserva tu silla en línea cerca de NIU."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "La Barbería",
+      "gallery": "Nuestro Trabajo",
+      "visit": "Visítanos",
+      "order": "Reservar Silla"
+    },
+    "hero": {
+      "eyebrow": "La Barbería del Barrio en DeKalb",
+      "title": "Cortes Precisos, Buena Plática,",
+      "titleAccent": "Una Silla que se Siente Como Casa",
+      "subtitle": "Trabajo artesanal clásico con un toque moderno, justo en Lincoln Highway. Desde fades al ras hasta afeitadas con navaja y toalla caliente, mantenemos a los estudiantes de NIU y a los vecinos de DeKalb luciendo de lo mejor.",
+      "ctaPrimary": "Ver Servicios",
+      "ctaSecondary": "Reserva tu Corte",
+      "badge": "Sin cita. Atendemos al instante."
+    },
+    "highlights": [
+      {
+        "icon": "scissors",
+        "title": "Fades Precisos",
+        "text": "Fades bien degradados y cortes clásicos limpios, ajustados a cada tipo de cabello y forma de cabeza."
+      },
+      {
+        "icon": "razor",
+        "title": "Afeitadas con Toalla Caliente",
+        "text": "Afeitadas tradicionales con navaja, toallas al vapor, espuma caliente y un acabado al ras."
+      },
+      {
+        "icon": "clock",
+        "title": "Aceptamos Sin Cita",
+        "text": "¿Tienes un rato entre clases o después del trabajo? Pásate, o reserva tu silla para evitar la espera."
+      },
+      {
+        "icon": "star",
+        "title": "Para Estudiantes",
+        "text": "A pasos de Northern Illinois University, con un corte estudiantil a precio de bolsillo universitario."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Los precios y servicios mostrados son contenido de demostración ilustrativo para este sitio conceptual y pueden no reflejar el menú real de la barbería.",
+      "categories": [
+        {
+          "id": "haircuts",
+          "name": "Cortes de Cabello",
+          "blurb": "Máquina, tijera y un acabado limpio, hecho a tu estilo.",
+          "items": [
+            {
+              "name": "Corte Clásico",
+              "desc": "Corte a tijera o máquina hecho a tu medida, con cuello limpio y peinado.",
+              "price": "$25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Fade al Ras",
+              "desc": "Fade impecable degradado hasta la piel y mezclado a la perfección.",
+              "price": "$30",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Corte Estudiantil",
+              "desc": "Corte preciso y económico para estudiantes de NIU con identificación válida.",
+              "price": "$20",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Corte para Niños",
+              "desc": "Corte amable y con paciencia para los pequeños de 10 años o menos.",
+              "price": "$18"
+            },
+            {
+              "name": "Corte al Rape",
+              "desc": "Corte rápido y parejo a máquina con la guía que prefieras.",
+              "price": "$15",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "beard-shave",
+          "name": "Barba y Afeitado",
+          "blurb": "Toallas calientes, líneas precisas y un acabado que dura.",
+          "items": [
+            {
+              "name": "Recorte de Barba",
+              "desc": "Barba perfilada, recortada y detallada para que luzca de lo mejor.",
+              "price": "$15",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Afeitada con Navaja y Toalla Caliente",
+              "desc": "Toallas al vapor, espuma caliente y navaja precisa para una afeitada suave y al ras.",
+              "price": "$30",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Perfilado / Delineado",
+              "desc": "Perfilado preciso con navaja en el contorno, sienes y cuello para bordes limpios.",
+              "price": "$12",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Esculpido de Barba con Toalla Caliente",
+              "desc": "Perfilado completo de barba con una toalla caliente relajante y acabado acondicionador.",
+              "price": "$22"
+            }
+          ]
+        },
+        {
+          "id": "styling-extras",
+          "name": "Estilo y Extras",
+          "blurb": "Los toques finales que hacen único tu look.",
+          "items": [
+            {
+              "name": "Difuminado de Canas",
+              "desc": "Color sutil y de aspecto natural para suavizar las canas sin el look de tinte.",
+              "price": "$25"
+            },
+            {
+              "name": "Diseño en el Cabello",
+              "desc": "Raya, línea o diseño personalizado con navaja en cualquier corte.",
+              "price": "Desde $10",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Lavado y Peinado",
+              "desc": "Champú, masaje en el cuero cabelludo y un acabado con secado limpio.",
+              "price": "$15"
+            },
+            {
+              "name": "Diseño para Niños",
+              "desc": "Un rayo, estrella o línea divertida añadida al corte de niños.",
+              "price": "$8"
+            }
+          ]
+        },
+        {
+          "id": "packages",
+          "name": "Paquetes",
+          "blurb": "Combina y ahorra en la experiencia completa de aseo.",
+          "items": [
+            {
+              "name": "Combo Corte + Barba",
+              "desc": "Corte clásico junto con un recorte completo y perfilado de barba.",
+              "price": "$38",
+              "tags": [
+                "value",
+                "popular"
+              ]
+            },
+            {
+              "name": "Servicio Completo",
+              "desc": "Fade al ras, afeitada con navaja y toalla caliente, más lavado y peinado.",
+              "price": "$55",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Combo Estudiantil",
+              "desc": "Corte estudiantil más perfilado, hecho para el horario y el bolsillo de NIU.",
+              "price": "$28",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Padre e Hijo",
+              "desc": "Un corte clásico de adulto y un corte de niño, lado a lado.",
+              "price": "$40"
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Tu Silla en Lincoln Highway",
+      "lead": "Somos una barbería de barrio independiente, construida sobre el buen oficio y la buena plática.",
+      "paragraphs": [
+        "University City Barbershop está en el corazón de DeKalb, donde la energía de Northern Illinois University se junta con la lealtad de los vecinos de toda la vida. Ya seas un estudiante de primer año buscando tu primer fade universitario o un cliente que viene desde hace años, recibirás el mismo cuidado, la misma atención al detalle y la misma plática relajada cada vez.",
+        "Nuestros barberos se enorgullecen de lo clásico: fades limpios, perfilados precisos y afeitadas tradicionales con toalla caliente, manteniendo siempre un toque moderno en cada estilo que entra por la puerta. Acomódate en la silla, relájate y sal luciendo y sintiéndote de lo mejor."
+      ],
+      "stats": [
+        {
+          "value": "Sin cita",
+          "label": "Siempre Bienvenidos"
+        },
+        {
+          "value": "Todas las Edades",
+          "label": "De Niños a Abuelos"
+        },
+        {
+          "value": "NIU",
+          "label": "Para Estudiantes"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Nuestro Trabajo",
+      "subheading": "Un vistazo a los cortes, fades y acabados que salen de nuestras sillas.",
+      "captions": [
+        "Fade al ras con perfilado preciso",
+        "Corte clásico a tijera con textura natural",
+        "Afeitada con navaja y toalla caliente",
+        "Esculpido y perfilado detallado de barba",
+        "Raya con navaja y diseño personalizado",
+        "Corte de niño con un acabado seguro"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo que Dice DeKalb",
+      "items": [
+        {
+          "quote": "El mejor fade que me han hecho desde que me mudé a DeKalb. Se toman su tiempo y el perfilado siempre queda perfecto.",
+          "name": "Marcus T.",
+          "role": "Estudiante de NIU"
+        },
+        {
+          "quote": "La afeitada con toalla caliente es de verdad. Salgo relajado y luciendo diez años más joven cada vez.",
+          "name": "Robert G.",
+          "role": "Vecino de Siempre"
+        },
+        {
+          "quote": "Llevé a mi hijo a su primer corte de verdad y lo hicieron sentir todo un campeón. Ahora somos clientes fijos.",
+          "name": "Andre W.",
+          "role": "Papá de DeKalb"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita la Barbería",
+      "addressLabel": "Encuéntranos",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "Cerrado"
+        },
+        {
+          "day": "Martes",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Miércoles",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Jueves",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Viernes",
+          "time": "9:00 AM – 7:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "8:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "10:00 AM – 3:00 PM"
+        }
+      ],
+      "phoneLabel": "Reservaciones",
+      "directions": "Sobre West Lincoln Highway, cerca de Northern Illinois University, con fácil estacionamiento en la calle. Pásate cuando quieras o reserva tu silla en línea."
+    },
+    "cta": {
+      "heading": "¿Listo para un Corte Fresco?",
+      "text": "Reserva tu silla en línea o pásate directo. De cualquier forma, saldrás luciendo nítido y sintiéndote genial.",
+      "button": "Reserva tu Corte"
+    },
+    "form": {
+      "heading": "Reservar Silla",
+      "subheading": "Dinos qué necesitas y tu horario preferido. Confirmaremos tu lugar; los sin cita siempre son bienvenidos también.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Servicio que Necesitas",
+      "date": "Fecha y Hora Preferida",
+      "message": "¿Algo Más?",
+      "submit": "Solicitar Reservación",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y confirmaremos tu silla en breve.",
+      "error": "Algo salió mal. Inténtalo de nuevo o pásate por la barbería.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud de reservación."
+    },
+    "footer": {
+      "tagline": "Cortes clásicos y afeitadas con toalla caliente en el corazón de DeKalb.",
+      "rights": "© University City Barbershop. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario de la Barbería",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

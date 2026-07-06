@@ -1,0 +1,616 @@
+{
+  "business": {
+    "name": "The Montcler",
+    "shortName": "Montcler",
+    "vertical": "Italian Fine Dining Restaurant",
+    "phone": "(630) 273-6000",
+    "phoneHref": "+16302736000",
+    "address": "3300 Drew Avenue",
+    "city": "Plano",
+    "state": "IL",
+    "zip": "60545",
+    "mapsQuery": "The Montcler, 3300 Drew Avenue, Plano, IL 60545"
+  },
+  "en": {
+    "meta": {
+      "title": "The Montcler | Upscale Italian Fine Dining in Plano, IL",
+      "description": "The Montcler in Plano, IL serves house-made pasta, refined seasonal plates and a curated wine list. Reserve your table today: (630) 273-6000."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Reserve"
+    },
+    "hero": {
+      "eyebrow": "Independent Italian Fine Dining",
+      "title": "An evening worth",
+      "titleAccent": "savoring slowly",
+      "subtitle": "House-made pasta, refined seasonal plates and a curated wine list — served with warm, attentive care in the heart of Plano.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Call to Reserve",
+      "badge": "Reservations recommended for every occasion"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "House-Made Pasta",
+        "text": "Rolled, cut and filled by hand each morning, the way it should be."
+      },
+      {
+        "icon": "star",
+        "title": "Curated Wine List",
+        "text": "Thoughtful Italian and Old World pairings chosen to match every plate."
+      },
+      {
+        "icon": "leaf",
+        "title": "Seasonal Plates",
+        "text": "Refined dishes built around the best ingredients each season brings."
+      },
+      {
+        "icon": "heart",
+        "title": "Warm, Attentive Service",
+        "text": "Unhurried, gracious hospitality for the moments that matter most."
+      }
+    ],
+    "menu": {
+      "heading": "The Menu",
+      "subheading": "A taste of the experience. Items and prices below are illustrative demo content and may not reflect current offerings.",
+      "categories": [
+        {
+          "id": "antipasti",
+          "name": "Antipasti",
+          "blurb": "Elegant first impressions to open the evening.",
+          "items": [
+            {
+              "name": "Beef Carpaccio",
+              "desc": "Thinly sliced raw beef, arugula, shaved Parmigiano, capers and lemon oil.",
+              "price": "$22",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Burrata di Puglia",
+              "desc": "Creamy burrata, heirloom tomato, basil and aged balsamic on grilled crostini.",
+              "price": "$19",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Calamari Fritti",
+              "desc": "Lightly fried calamari with spicy arrabbiata and lemon aioli.",
+              "price": "$18",
+              "tags": []
+            },
+            {
+              "name": "Vitello Tonnato",
+              "desc": "Chilled veal, silky tuna-caper sauce and crisp capers.",
+              "price": "$21",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "pasta-risotto",
+          "name": "Pasta & Risotto",
+          "blurb": "House-made pasta and slow-stirred risotto, the heart of the kitchen.",
+          "items": [
+            {
+              "name": "Tagliatelle al Ragù",
+              "desc": "Hand-cut ribbons with a slow-braised veal and pork Bolognese.",
+              "price": "$28",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Cacio e Pepe",
+              "desc": "House tonnarelli, Pecorino Romano and cracked black pepper.",
+              "price": "$24",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Lobster Ravioli",
+              "desc": "Hand-filled ravioli, butter-poached lobster and saffron cream.",
+              "price": "$34",
+              "tags": []
+            },
+            {
+              "name": "Risotto ai Funghi",
+              "desc": "Carnaroli rice, wild mushrooms, white wine and Parmigiano.",
+              "price": "$26",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "secondi",
+          "name": "Secondi",
+          "blurb": "Refined mains for the centerpiece of the meal.",
+          "items": [
+            {
+              "name": "Veal Saltimbocca",
+              "desc": "Pan-seared veal, prosciutto, sage and a white wine pan sauce.",
+              "price": "$38",
+              "tags": []
+            },
+            {
+              "name": "Branzino al Forno",
+              "desc": "Whole roasted Mediterranean sea bass, lemon, herbs and olive oil.",
+              "price": "$36",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Filet Mignon",
+              "desc": "Center-cut filet, Barolo reduction and truffle potato purée.",
+              "price": "$46",
+              "tags": ["popular"]
+            }
+          ]
+        },
+        {
+          "id": "dolci",
+          "name": "Dolci",
+          "blurb": "A sweet, lingering close to the evening.",
+          "items": [
+            {
+              "name": "Tiramisù",
+              "desc": "Espresso-soaked ladyfingers, mascarpone cream and cocoa.",
+              "price": "$12",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Panna Cotta",
+              "desc": "Vanilla bean cream with seasonal berry compote.",
+              "price": "$11",
+              "tags": []
+            },
+            {
+              "name": "Affogato",
+              "desc": "Vanilla gelato 'drowned' in a shot of hot espresso.",
+              "price": "$10",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "wine-cocktails",
+          "name": "Wine & Cocktails",
+          "blurb": "A curated pour to begin, accompany or finish.",
+          "items": [
+            {
+              "name": "Negroni",
+              "desc": "Gin, Campari and sweet vermouth with an orange peel.",
+              "price": "$15",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Aperol Spritz",
+              "desc": "Aperol, Prosecco and soda over ice with an orange slice.",
+              "price": "$13",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Barolo, by the Glass",
+              "desc": "Bold, structured Nebbiolo from Piedmont.",
+              "price": "$18",
+              "tags": []
+            },
+            {
+              "name": "Chianti Classico, by the Glass",
+              "desc": "Sangiovese with bright cherry and a savory finish.",
+              "price": "$14",
+              "tags": ["value"]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "About The Montcler",
+      "lead": "An independent Italian kitchen built for the evenings you want to remember.",
+      "paragraphs": [
+        "The Montcler is an upscale Italian restaurant in Plano, where house-made pasta, refined seasonal plates and a carefully chosen wine list come together in a warm, candlelit room. Every detail is set for celebrations, quiet anniversaries and unhurried nights out.",
+        "Our kitchen leans on classic Italian technique and the rhythm of the seasons, while our team brings the kind of attentive, gracious service that makes a table feel reserved just for you."
+      ],
+      "stats": [
+        {
+          "value": "100%",
+          "label": "House-made pasta"
+        },
+        {
+          "value": "60+",
+          "label": "Wines on the list"
+        },
+        {
+          "value": "5★",
+          "label": "Guest experience"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Look Inside",
+      "subheading": "The room, the plates and the little details that set the evening.",
+      "captions": [
+        "Candlelit dining room set for the evening",
+        "Hand-rolled pasta finished to order",
+        "Dry-aged filet with Barolo reduction",
+        "Creamy burrata with heirloom tomato",
+        "The curated wine wall",
+        "Tiramisù dusted tableside"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Guests Are Saying",
+      "items": [
+        {
+          "quote": "The house-made pasta was unforgettable and the service made our anniversary feel truly special.",
+          "name": "Maria L.",
+          "role": "Anniversary dinner"
+        },
+        {
+          "quote": "Easily the best Italian in the area. The wine pairing for the filet was perfect.",
+          "name": "David R.",
+          "role": "Regular guest"
+        },
+        {
+          "quote": "Elegant without being stuffy. Every course was beautifully done from start to finish.",
+          "name": "Jenna P.",
+          "role": "Birthday celebration"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit Us",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "Closed"
+        },
+        {
+          "day": "Tuesday – Thursday",
+          "time": "5:00 PM – 9:30 PM"
+        },
+        {
+          "day": "Friday – Saturday",
+          "time": "5:00 PM – 10:30 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "4:00 PM – 9:00 PM"
+        }
+      ],
+      "phoneLabel": "Phone",
+      "directions": "Get Directions"
+    },
+    "cta": {
+      "heading": "Reserve Your Table Tonight",
+      "text": "Special occasion or simply a beautiful dinner — we will hold the perfect table for you.",
+      "button": "Call to Reserve"
+    },
+    "form": {
+      "heading": "Request a Reservation",
+      "subheading": "Send your details and we will confirm your table by phone.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Party Size",
+      "date": "Preferred Date & Time",
+      "message": "Special Requests",
+      "submit": "Request Reservation",
+      "sending": "Sending…",
+      "success": "Thank you! We will call shortly to confirm your reservation.",
+      "error": "Something went wrong. Please call us at (630) 273-6000.",
+      "consent": "By submitting, you agree to be contacted about your reservation."
+    },
+    "footer": {
+      "tagline": "Upscale Italian fine dining in Plano, Illinois.",
+      "rights": "© The Montcler. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "The Montcler | Alta Cocina Italiana en Plano, IL",
+      "description": "The Montcler en Plano, IL ofrece pasta hecha en casa, platos de temporada refinados y una carta de vinos seleccionada. Reserve su mesa hoy: (630) 273-6000."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítenos",
+      "order": "Reservar"
+    },
+    "hero": {
+      "eyebrow": "Alta Cocina Italiana Independiente",
+      "title": "Una velada para",
+      "titleAccent": "saborear sin prisa",
+      "subtitle": "Pasta hecha en casa, platos de temporada refinados y una carta de vinos seleccionada — con un servicio cálido y atento en el corazón de Plano.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Llamar para Reservar",
+      "badge": "Reservación recomendada para cada ocasión"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Pasta Hecha en Casa",
+        "text": "Amasada, cortada y rellena a mano cada mañana, como debe ser."
+      },
+      {
+        "icon": "star",
+        "title": "Carta de Vinos Seleccionada",
+        "text": "Maridajes italianos y del Viejo Mundo elegidos para cada plato."
+      },
+      {
+        "icon": "leaf",
+        "title": "Platos de Temporada",
+        "text": "Platos refinados creados con los mejores ingredientes de cada estación."
+      },
+      {
+        "icon": "heart",
+        "title": "Servicio Cálido y Atento",
+        "text": "Hospitalidad amable y sin prisas para los momentos que más importan."
+      }
+    ],
+    "menu": {
+      "heading": "El Menú",
+      "subheading": "Una muestra de la experiencia. Los platillos y precios a continuación son contenido ilustrativo de demostración y pueden no reflejar la oferta actual.",
+      "categories": [
+        {
+          "id": "antipasti",
+          "name": "Antipasti",
+          "blurb": "Primeras impresiones elegantes para abrir la velada.",
+          "items": [
+            {
+              "name": "Carpaccio de Res",
+              "desc": "Res cruda en finas láminas, arúgula, Parmigiano en lascas, alcaparras y aceite de limón.",
+              "price": "$22",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Burrata di Puglia",
+              "desc": "Burrata cremosa, tomate heirloom, albahaca y balsámico añejo sobre crostini a la parrilla.",
+              "price": "$19",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Calamari Fritti",
+              "desc": "Calamares fritos ligeros con arrabbiata picante y alioli de limón.",
+              "price": "$18",
+              "tags": []
+            },
+            {
+              "name": "Vitello Tonnato",
+              "desc": "Ternera fría, sedosa salsa de atún y alcaparras crujientes.",
+              "price": "$21",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "pasta-risotto",
+          "name": "Pasta y Risotto",
+          "blurb": "Pasta hecha en casa y risotto al punto, el corazón de la cocina.",
+          "items": [
+            {
+              "name": "Tagliatelle al Ragù",
+              "desc": "Cintas cortadas a mano con boloñesa de ternera y cerdo cocida a fuego lento.",
+              "price": "$28",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Cacio e Pepe",
+              "desc": "Tonnarelli de la casa, Pecorino Romano y pimienta negra recién molida.",
+              "price": "$24",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Ravioles de Langosta",
+              "desc": "Ravioles rellenos a mano, langosta pochada en mantequilla y crema de azafrán.",
+              "price": "$34",
+              "tags": []
+            },
+            {
+              "name": "Risotto ai Funghi",
+              "desc": "Arroz Carnaroli, hongos silvestres, vino blanco y Parmigiano.",
+              "price": "$26",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "secondi",
+          "name": "Secondi",
+          "blurb": "Platos fuertes refinados, el centro de la comida.",
+          "items": [
+            {
+              "name": "Saltimbocca de Ternera",
+              "desc": "Ternera sellada a la sartén, prosciutto, salvia y salsa de vino blanco.",
+              "price": "$38",
+              "tags": []
+            },
+            {
+              "name": "Branzino al Forno",
+              "desc": "Lubina mediterránea entera al horno, limón, hierbas y aceite de oliva.",
+              "price": "$36",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Filete Mignon",
+              "desc": "Filete del centro, reducción de Barolo y puré de papa con trufa.",
+              "price": "$46",
+              "tags": ["popular"]
+            }
+          ]
+        },
+        {
+          "id": "dolci",
+          "name": "Dolci",
+          "blurb": "Un cierre dulce que se queda con usted.",
+          "items": [
+            {
+              "name": "Tiramisù",
+              "desc": "Soletas empapadas en espresso, crema de mascarpone y cacao.",
+              "price": "$12",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Panna Cotta",
+              "desc": "Crema de vainilla con compota de frutos rojos de temporada.",
+              "price": "$11",
+              "tags": []
+            },
+            {
+              "name": "Affogato",
+              "desc": "Gelato de vainilla 'ahogado' en un shot de espresso caliente.",
+              "price": "$10",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "wine-cocktails",
+          "name": "Vinos y Cócteles",
+          "blurb": "Una copa seleccionada para comenzar, acompañar o terminar.",
+          "items": [
+            {
+              "name": "Negroni",
+              "desc": "Ginebra, Campari y vermut dulce con cáscara de naranja.",
+              "price": "$15",
+              "tags": ["signature"]
+            },
+            {
+              "name": "Aperol Spritz",
+              "desc": "Aperol, Prosecco y soda con hielo y una rodaja de naranja.",
+              "price": "$13",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Barolo, por Copa",
+              "desc": "Nebbiolo intenso y estructurado del Piemonte.",
+              "price": "$18",
+              "tags": []
+            },
+            {
+              "name": "Chianti Classico, por Copa",
+              "desc": "Sangiovese con cereza brillante y un final sabroso.",
+              "price": "$14",
+              "tags": ["value"]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Sobre The Montcler",
+      "lead": "Una cocina italiana independiente creada para las noches que querrá recordar.",
+      "paragraphs": [
+        "The Montcler es un restaurante italiano de alta cocina en Plano, donde la pasta hecha en casa, los platos de temporada refinados y una carta de vinos cuidadosamente elegida se unen en un salón cálido y a la luz de las velas. Cada detalle está dispuesto para celebraciones, aniversarios íntimos y noches sin prisa.",
+        "Nuestra cocina se apoya en la técnica italiana clásica y el ritmo de las estaciones, mientras nuestro equipo ofrece ese servicio atento y amable que hace que la mesa se sienta reservada solo para usted."
+      ],
+      "stats": [
+        {
+          "value": "100%",
+          "label": "Pasta hecha en casa"
+        },
+        {
+          "value": "60+",
+          "label": "Vinos en la carta"
+        },
+        {
+          "value": "5★",
+          "label": "Experiencia del huésped"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Una Mirada por Dentro",
+      "subheading": "El salón, los platos y los pequeños detalles que marcan la velada.",
+      "captions": [
+        "Salón a la luz de las velas listo para la velada",
+        "Pasta amasada a mano y terminada al momento",
+        "Filete madurado con reducción de Barolo",
+        "Burrata cremosa con tomate heirloom",
+        "El muro de vinos seleccionados",
+        "Tiramisù espolvoreado en la mesa"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen Nuestros Huéspedes",
+      "items": [
+        {
+          "quote": "La pasta hecha en casa fue inolvidable y el servicio hizo que nuestro aniversario se sintiera muy especial.",
+          "name": "María L.",
+          "role": "Cena de aniversario"
+        },
+        {
+          "quote": "Sin duda la mejor cocina italiana de la zona. El maridaje del filete fue perfecto.",
+          "name": "David R.",
+          "role": "Cliente habitual"
+        },
+        {
+          "quote": "Elegante sin ser presuntuoso. Cada tiempo estuvo bellamente preparado de principio a fin.",
+          "name": "Jenna P.",
+          "role": "Celebración de cumpleaños"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visítenos",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "Cerrado"
+        },
+        {
+          "day": "Martes – Jueves",
+          "time": "5:00 PM – 9:30 PM"
+        },
+        {
+          "day": "Viernes – Sábado",
+          "time": "5:00 PM – 10:30 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "4:00 PM – 9:00 PM"
+        }
+      ],
+      "phoneLabel": "Teléfono",
+      "directions": "Cómo Llegar"
+    },
+    "cta": {
+      "heading": "Reserve Su Mesa Esta Noche",
+      "text": "Una ocasión especial o simplemente una cena hermosa — le guardaremos la mesa perfecta.",
+      "button": "Llamar para Reservar"
+    },
+    "form": {
+      "heading": "Solicitar una Reservación",
+      "subheading": "Envíe sus datos y confirmaremos su mesa por teléfono.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Número de Personas",
+      "date": "Fecha y Hora Preferidas",
+      "message": "Peticiones Especiales",
+      "submit": "Solicitar Reservación",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Le llamaremos pronto para confirmar su reservación.",
+      "error": "Algo salió mal. Por favor llámenos al (630) 273-6000.",
+      "consent": "Al enviar, acepta ser contactado sobre su reservación."
+    },
+    "footer": {
+      "tagline": "Alta cocina italiana en Plano, Illinois.",
+      "rights": "© The Montcler. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

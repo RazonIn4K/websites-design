@@ -1,0 +1,580 @@
+{
+  "business": {
+    "name": "Tapa La Luna",
+    "shortName": "Tapa La Luna",
+    "vertical": "Tapas & Wine Bistro",
+    "phone": "",
+    "phoneHref": "",
+    "address": "226 East Lincoln Highway",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Tapa La Luna, 226 East Lincoln Highway, DeKalb, IL",
+    "lat": 41.9299655,
+    "lon": -88.7522793
+  },
+  "en": {
+    "meta": {
+      "title": "Tapa La Luna | Candlelit Tapas & Wine Bistro in DeKalb, IL",
+      "description": "Candlelit tapas and wine bistro in downtown DeKalb, IL, a block from the 1929 Egyptian Theatre. Small plates for sharing, wines by the glass. Walk-ins welcome."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Reserve"
+    },
+    "hero": {
+      "eyebrow": "Candlelit Tapas & Wine",
+      "title": "Share small plates",
+      "titleAccent": "under the moon",
+      "subtitle": "Cold and hot tapas made for passing, Spanish wines by the glass, and a candlelit room that keeps the night unhurried — in downtown DeKalb.",
+      "ctaPrimary": "View the Menu",
+      "ctaSecondary": "Reserve at the Door",
+      "badge": "Walk-ins welcome every evening"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Plates Made for Sharing",
+        "text": "Every tapa arrives ready to pass around — the table is the point."
+      },
+      {
+        "icon": "star",
+        "title": "Spanish Wines by the Glass",
+        "text": "Rioja, Albariño and sherry poured to keep pace with every plate."
+      },
+      {
+        "icon": "leaf",
+        "title": "Seasonal Ingredients",
+        "text": "Simple Spanish recipes built on whatever is best right now."
+      },
+      {
+        "icon": "heart",
+        "title": "Candlelit & Unhurried",
+        "text": "A warm, moonlit room where no one rushes your evening."
+      }
+    ],
+    "menu": {
+      "heading": "The Menu",
+      "subheading": "Small plates for sharing. Items and prices below are illustrative demo content and may not reflect current offerings.",
+      "categories": [
+        {
+          "id": "tapas-frias",
+          "name": "Tapas Frías",
+          "blurb": "Bright, chilled plates to open the night.",
+          "items": [
+            {
+              "name": "Jamón & Manchego",
+              "desc": "Hand-carved Serrano ham, aged Manchego, Marcona almonds and membrillo.",
+              "price": "$16",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pan con Tomate",
+              "desc": "Grilled bread rubbed with ripe tomato, garlic, olive oil and sea salt.",
+              "price": "$8",
+              "tags": []
+            },
+            {
+              "name": "Boquerones en Vinagre",
+              "desc": "White anchovies in vinegar with olive oil, parsley and shaved garlic.",
+              "price": "$11",
+              "tags": []
+            },
+            {
+              "name": "Ensaladilla Rusa",
+              "desc": "Chilled potato salad with tuna, peas, carrot and lemon aioli.",
+              "price": "$9",
+              "tags": []
+            },
+            {
+              "name": "Aceitunas de la Casa",
+              "desc": "Citrus-marinated olives with rosemary and toasted fennel seed.",
+              "price": "$7",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tapas-calientes",
+          "name": "Tapas Calientes",
+          "blurb": "Small plates from the fire, meant to be passed around.",
+          "items": [
+            {
+              "name": "Patatas Bravas",
+              "desc": "Crisp-fried potatoes with smoked-paprika bravas sauce and garlic aioli.",
+              "price": "$10",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Gambas al Ajillo",
+              "desc": "Shrimp sizzled in olive oil with garlic, guindilla chile and sherry.",
+              "price": "$15",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Croquetas de Jamón",
+              "desc": "Golden ham croquettes with a creamy béchamel center and aioli.",
+              "price": "$11",
+              "tags": []
+            },
+            {
+              "name": "Champiñones al Jerez",
+              "desc": "Mushrooms sautéed in sherry and garlic butter, with grilled bread.",
+              "price": "$12",
+              "tags": []
+            },
+            {
+              "name": "Tortilla Española",
+              "desc": "Slow-cooked potato and onion omelet, served warm by the slice.",
+              "price": "$9",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "vino-dulces",
+          "name": "Vino & Dulces",
+          "blurb": "Pours and sweets to carry the evening to a slow close.",
+          "items": [
+            {
+              "name": "Rioja Tempranillo, by the Glass",
+              "desc": "Garnet-red and velvety, with dark cherry and a whisper of oak.",
+              "price": "$12",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Albariño, by the Glass",
+              "desc": "Crisp Galician white with sea-salt minerality and citrus blossom.",
+              "price": "$11",
+              "tags": []
+            },
+            {
+              "name": "Sangría de la Luna",
+              "desc": "House red sangría with brandied orange, stone fruit and cinnamon.",
+              "price": "$10",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Churros con Chocolate",
+              "desc": "Cinnamon-sugar churros with thick drinking chocolate for dipping.",
+              "price": "$9",
+              "tags": []
+            },
+            {
+              "name": "Crema Catalana",
+              "desc": "Chilled citrus custard under a torched sugar crust.",
+              "price": "$8",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "About Tapa La Luna",
+      "lead": "A playful name, a serious love of tapas — the moon is always on the menu.",
+      "paragraphs": [
+        "Tapa La Luna is a candlelit tapas and wine bistro on East Lincoln Highway in downtown DeKalb. The name is a wink — 'tapa the moon' — and the idea is just as simple: small Spanish plates meant for sharing, wines poured by the glass, and evenings that stretch as slowly as moonlight across the table.",
+        "Come with someone worth lingering with — perhaps before or after a show at the 1929 Egyptian Theatre, just around the corner on North Second Street. Order a few plates, then a few more, and let the table fill up the way a good night does — one small, delicious thing at a time."
+      ],
+      "stats": [
+        {
+          "value": "Nightly",
+          "label": "Fired to order"
+        },
+        {
+          "value": "By the Glass",
+          "label": "Wines & sherries"
+        },
+        {
+          "value": "Walk-ins",
+          "label": "Welcome at the door"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Moonlit Moments",
+      "subheading": "The plates, the pours and the candlelit corners of the room.",
+      "captions": [
+        "Hand-carved jamón and Manchego board with Marcona almonds",
+        "Patatas bravas drizzled with smoked-paprika sauce and aioli",
+        "A glass of Rioja Tempranillo poured at the bar",
+        "The candlelit bar just after dusk",
+        "A shared table crowded with small plates",
+        "Churros dusted in cinnamon sugar with drinking chocolate"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Guests Are Saying",
+      "items": [
+        {
+          "quote": "We ordered half the menu and stayed for hours. The gambas al ajillo alone are worth the trip.",
+          "name": "Sofia M.",
+          "role": "Date night"
+        },
+        {
+          "quote": "Perfect stop before a show — a couple of glasses of Rioja, a board of jamón, and zero rush.",
+          "name": "Daniel K.",
+          "role": "Evening out"
+        },
+        {
+          "quote": "The candlelight, the churros, the sangría — it feels like a little piece of Spain on Lincoln Highway.",
+          "name": "Elena R.",
+          "role": "Night out with friends"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit Us",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "Closed"
+        },
+        {
+          "day": "Tuesday – Thursday",
+          "time": "4:00 PM – 10:00 PM"
+        },
+        {
+          "day": "Friday – Saturday",
+          "time": "4:00 PM – 12:00 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "4:00 PM – 9:00 PM"
+        }
+      ],
+      "phoneLabel": "",
+      "directions": "Get Directions",
+      "neighborhood": "We're at 226 East Lincoln Highway in the heart of downtown DeKalb, just around the corner from the historic 1929 Egyptian Theatre on North Second Street."
+    },
+    "cta": {
+      "heading": "Meet Us Under the Moon",
+      "text": "No reservations needed — come as you are, claim a corner of the bar and let the small plates keep coming.",
+      "button": "Visit Us Tonight"
+    },
+    "form": {
+      "heading": "Request a Table",
+      "subheading": "Send your details and we will confirm your table by email.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Contact Number",
+      "partySize": "Party Size",
+      "date": "Preferred Date & Time",
+      "message": "Special Requests",
+      "submit": "Request a Table",
+      "sending": "Sending…",
+      "success": "Thank you! We will email you shortly to confirm your table.",
+      "error": "Something went wrong. Please try again, or simply visit us at 226 East Lincoln Highway.",
+      "consent": "By submitting, you agree to be contacted about your table."
+    },
+    "footer": {
+      "tagline": "A candlelit tapas & wine bistro in DeKalb, Illinois.",
+      "rights": "© Tapa La Luna. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Tapa La Luna | Tapas y Vino a la Luz de las Velas en DeKalb, IL",
+      "description": "Bistró de tapas y vino a la luz de las velas en el centro de DeKalb, IL, a una cuadra del Egyptian Theatre de 1929. Platillos para compartir y vinos por copa."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítenos",
+      "order": "Reservar"
+    },
+    "hero": {
+      "eyebrow": "Tapas y Vino a la Luz de las Velas",
+      "title": "Platillos para compartir",
+      "titleAccent": "bajo la luna",
+      "subtitle": "Tapas frías y calientes hechas para pasar de mano en mano, vinos españoles por copa y un salón a la luz de las velas donde la noche transcurre sin prisa — en el centro de DeKalb.",
+      "ctaPrimary": "Ver el Menú",
+      "ctaSecondary": "Visítanos esta Noche",
+      "badge": "Bienvenidos sin reservación, cada noche"
+    },
+    "highlights": [
+      {
+        "icon": "sparkle",
+        "title": "Platillos para Compartir",
+        "text": "Cada tapa llega lista para pasar de mano en mano — la mesa es lo importante."
+      },
+      {
+        "icon": "star",
+        "title": "Vinos Españoles por Copa",
+        "text": "Rioja, Albariño y jerez servidos al ritmo de cada plato."
+      },
+      {
+        "icon": "leaf",
+        "title": "Ingredientes de Temporada",
+        "text": "Recetas españolas sencillas con lo mejor de cada estación."
+      },
+      {
+        "icon": "heart",
+        "title": "Velas y Calma",
+        "text": "Un salón cálido, bañado en luz de luna, donde nadie apura su velada."
+      }
+    ],
+    "menu": {
+      "heading": "El Menú",
+      "subheading": "Platillos para compartir. Los platillos y precios a continuación son contenido ilustrativo de demostración y pueden no reflejar la oferta actual.",
+      "categories": [
+        {
+          "id": "tapas-frias",
+          "name": "Tapas Frías",
+          "blurb": "Platos frescos y luminosos para abrir la noche.",
+          "items": [
+            {
+              "name": "Jamón y Manchego",
+              "desc": "Jamón serrano cortado a mano, Manchego curado, almendras Marcona y membrillo.",
+              "price": "$16",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Pan con Tomate",
+              "desc": "Pan a la parrilla con tomate maduro, ajo, aceite de oliva y sal marina.",
+              "price": "$8",
+              "tags": []
+            },
+            {
+              "name": "Boquerones en Vinagre",
+              "desc": "Boquerones en vinagre con aceite de oliva, perejil y láminas de ajo.",
+              "price": "$11",
+              "tags": []
+            },
+            {
+              "name": "Ensaladilla Rusa",
+              "desc": "Ensaladilla fría de papa con atún, guisantes, zanahoria y alioli de limón.",
+              "price": "$9",
+              "tags": []
+            },
+            {
+              "name": "Aceitunas de la Casa",
+              "desc": "Aceitunas marinadas en cítricos con romero y semilla de hinojo tostada.",
+              "price": "$7",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tapas-calientes",
+          "name": "Tapas Calientes",
+          "blurb": "Platillos salidos del fuego, hechos para pasar de mano en mano.",
+          "items": [
+            {
+              "name": "Patatas Bravas",
+              "desc": "Papas doradas y crujientes con salsa brava de pimentón ahumado y alioli de ajo.",
+              "price": "$10",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Gambas al Ajillo",
+              "desc": "Camarones al ajillo en aceite de oliva con guindilla y jerez.",
+              "price": "$15",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Croquetas de Jamón",
+              "desc": "Croquetas doradas de jamón con centro cremoso de bechamel y alioli.",
+              "price": "$11",
+              "tags": []
+            },
+            {
+              "name": "Champiñones al Jerez",
+              "desc": "Champiñones salteados al jerez con mantequilla de ajo y pan a la parrilla.",
+              "price": "$12",
+              "tags": []
+            },
+            {
+              "name": "Tortilla Española",
+              "desc": "Tortilla de papa y cebolla cocida a fuego lento, servida tibia en porciones.",
+              "price": "$9",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "vino-dulces",
+          "name": "Vino y Dulces",
+          "blurb": "Copas y dulces para cerrar la noche sin prisa.",
+          "items": [
+            {
+              "name": "Tempranillo de Rioja, por Copa",
+              "desc": "Granate y aterciopelado, con cereza oscura y un susurro de roble.",
+              "price": "$12",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Albariño, por Copa",
+              "desc": "Blanco gallego fresco, con mineralidad salina y azahar.",
+              "price": "$11",
+              "tags": []
+            },
+            {
+              "name": "Sangría de la Luna",
+              "desc": "Sangría tinta de la casa con naranja al brandy, fruta de hueso y canela.",
+              "price": "$10",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Churros con Chocolate",
+              "desc": "Churros con azúcar y canela, y chocolate espeso para mojar.",
+              "price": "$9",
+              "tags": []
+            },
+            {
+              "name": "Crema Catalana",
+              "desc": "Crema fría de cítricos bajo una costra de azúcar caramelizada.",
+              "price": "$8",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Sobre Tapa La Luna",
+      "lead": "Un nombre juguetón y un amor serio por las tapas — la luna siempre está en el menú.",
+      "paragraphs": [
+        "Tapa La Luna es un bistró de tapas y vino a la luz de las velas en East Lincoln Highway, en el centro de DeKalb. El nombre es un guiño — 'tapa la luna' — y la idea es igual de sencilla: platillos españoles hechos para compartir, vinos servidos por copa y veladas que se alargan despacio, como la luz de la luna sobre la mesa.",
+        "Venga con alguien con quien valga la pena quedarse un rato — quizá antes o después de una función en el Egyptian Theatre de 1929, a la vuelta de la esquina sobre North Second Street. Pida unos platillos, luego unos más, y deje que la mesa se llene como se llenan las buenas noches — de una pequeña delicia a la vez."
+      ],
+      "stats": [
+        {
+          "value": "Cada Noche",
+          "label": "Al momento"
+        },
+        {
+          "value": "Por Copa",
+          "label": "Vinos y jereces"
+        },
+        {
+          "value": "Sin Reserva",
+          "label": "Bienvenidos en la puerta"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Momentos de Luna",
+      "subheading": "Los platos, las copas y los rincones a la luz de las velas.",
+      "captions": [
+        "Tabla de jamón cortado a mano con Manchego y almendras Marcona",
+        "Patatas bravas con salsa de pimentón ahumado y alioli",
+        "Una copa de Tempranillo de Rioja servida en la barra",
+        "La barra a la luz de las velas al caer la noche",
+        "Una mesa compartida repleta de platillos",
+        "Churros con azúcar y canela y chocolate para mojar"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen Nuestros Huéspedes",
+      "items": [
+        {
+          "quote": "Pedimos medio menú y nos quedamos horas. Solo las gambas al ajillo ya valen el viaje.",
+          "name": "Sofía M.",
+          "role": "Cena en pareja"
+        },
+        {
+          "quote": "La parada perfecta antes de una función — un par de copas de Rioja, una tabla de jamón y cero prisa.",
+          "name": "Daniel K.",
+          "role": "Noche de salida"
+        },
+        {
+          "quote": "La luz de las velas, los churros, la sangría — se siente como un pedacito de España en Lincoln Highway.",
+          "name": "Elena R.",
+          "role": "Noche entre amigas"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visítenos",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "Cerrado"
+        },
+        {
+          "day": "Martes – Jueves",
+          "time": "4:00 PM – 10:00 PM"
+        },
+        {
+          "day": "Viernes – Sábado",
+          "time": "4:00 PM – 12:00 AM"
+        },
+        {
+          "day": "Domingo",
+          "time": "4:00 PM – 9:00 PM"
+        }
+      ],
+      "phoneLabel": "",
+      "directions": "Cómo Llegar",
+      "neighborhood": "Estamos en el 226 de East Lincoln Highway, en pleno centro de DeKalb, a la vuelta de la esquina del histórico Egyptian Theatre de 1929, en North Second Street."
+    },
+    "cta": {
+      "heading": "Nos Vemos Bajo la Luna",
+      "text": "No hace falta reservar — venga tal como está, elija un rincón de la barra y deje que los platillos sigan llegando.",
+      "button": "Visítanos esta Noche"
+    },
+    "form": {
+      "heading": "Solicitar una Mesa",
+      "subheading": "Envíe sus datos y confirmaremos su mesa por correo electrónico.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Contacto",
+      "partySize": "Número de Personas",
+      "date": "Fecha y Hora Preferidas",
+      "message": "Peticiones Especiales",
+      "submit": "Solicitar Mesa",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Le escribiremos pronto por correo para confirmar su mesa.",
+      "error": "Algo salió mal. Inténtelo de nuevo o visítenos en 226 East Lincoln Highway.",
+      "consent": "Al enviar, acepta ser contactado sobre su mesa."
+    },
+    "footer": {
+      "tagline": "Un bistró de tapas y vino a la luz de las velas en DeKalb, Illinois.",
+      "rights": "© Tapa La Luna. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

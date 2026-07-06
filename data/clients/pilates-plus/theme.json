@@ -1,0 +1,16 @@
+{
+  "concept": "Serene boutique-wellness palette for Pilates Plus Unlimited. A calm eucalyptus-sage green leads as the primary, paired with a soft dusty-gold accent for warmth and a refined boutique feel. Warm greige ink grounds the type, while airy off-white backgrounds keep the space light, modern, and balanced.",
+  "vars": {
+    "--color-bg": "#FAFBF7",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#EDF0E8",
+    "--color-ink": "#2C312A",
+    "--color-ink-soft": "#565B4F",
+    "--color-primary": "#5C7460",
+    "--color-primary-dark": "#3F5544",
+    "--color-secondary": "#8A9A86",
+    "--color-accent": "#B08D4F",
+    "--color-line": "#DEE2D6"
+  },
+  "contrastNotes": "All required ratios pass WCAG-AA with margin. ink #2C312A on bg #FAFBF7 = 12.79:1 (>=7). ink-soft #565B4F on bg = 6.72:1 (>=4.5). white on primary #5C7460 = 5.09:1 (>=4.5). primary on bg = 4.90:1 (>=3). Bonus: white on primary-dark #3F5544 = 8.09:1; primary-dark on bg = 7.79:1 (AA body text); ink on surface-alt = 11.54:1. Dusty-gold accent #B08D4F is decorative (2.99:1 on bg, 3.10:1 white-on-accent) and is reserved for non-text ornamentation, icons, and large/bold display only, not body copy."
+}

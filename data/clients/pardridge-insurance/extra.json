@@ -1,0 +1,106 @@
+{
+  "en": {
+    "process": {
+      "heading": "How We Work",
+      "steps": [
+        {
+          "title": "Tell Us About Your Life",
+          "text": "We start by getting to know you — your vehicles, home, family, business, or farm — and the coverage you actually need."
+        },
+        {
+          "title": "We Shop Multiple Carriers",
+          "text": "Because we're independent, we compare quotes from several trusted carriers to find strong protection at a fair price."
+        },
+        {
+          "title": "Review Your Options Together",
+          "text": "We walk through the choices in plain English — no jargon, no pressure — so you can pick the coverage that fits."
+        },
+        {
+          "title": "We're Here When You Need Us",
+          "text": "After you're covered, we stay in your corner — answering questions, reviewing your policy, and guiding you through any claim."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Are quotes really free?",
+          "a": "Yes. Getting a quote is always free and there's no obligation. We'll shop multiple carriers and walk you through your options at no cost."
+        },
+        {
+          "q": "Do I need an appointment, or can I walk in?",
+          "a": "You're welcome to stop by during office hours, Monday through Friday. Saturdays are by appointment, so it's best to call ahead at (815) 758-4447."
+        },
+        {
+          "q": "What should I bring to get a quote?",
+          "a": "Whatever you have handy helps — current policy details, vehicle or property information, and the coverage you have now. If you're not sure, just call and we'll guide you."
+        },
+        {
+          "q": "Can you help me in Spanish?",
+          "a": "We're happy to help in both English and Spanish. Just let us know which you prefer and we'll explain your options clearly."
+        },
+        {
+          "q": "What happens if I need to file a claim?",
+          "a": "You won't be on your own. We help you understand the process, answer your questions, and guide you through your claim every step of the way."
+        },
+        {
+          "q": "Can you review my current insurance to see if I'm overpaying?",
+          "a": "Absolutely. Bring us your current policy and we'll compare it against several carriers to see whether there's better coverage or a better price out there."
+        }
+      ]
+    }
+  },
+  "es": {
+    "process": {
+      "heading": "Cómo Trabajamos",
+      "steps": [
+        {
+          "title": "Cuéntanos Sobre tu Vida",
+          "text": "Empezamos por conocerte — tus vehículos, tu hogar, tu familia, tu negocio o tu campo — y la cobertura que de verdad necesitas."
+        },
+        {
+          "title": "Comparamos Varias Aseguradoras",
+          "text": "Como somos independientes, comparamos cotizaciones de varias aseguradoras de confianza para encontrar una buena protección a un precio justo."
+        },
+        {
+          "title": "Revisamos tus Opciones Juntos",
+          "text": "Repasamos las opciones en palabras claras — sin tecnicismos, sin presión — para que elijas la cobertura que se ajusta a ti."
+        },
+        {
+          "title": "Estamos Aquí Cuando nos Necesitas",
+          "text": "Después de que estés cubierto, seguimos de tu lado — respondiendo preguntas, revisando tu póliza y guiándote en cualquier reclamo."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿Las cotizaciones de verdad son gratis?",
+          "a": "Sí. Cotizar siempre es gratis y sin compromiso. Comparamos varias aseguradoras y te explicamos tus opciones sin ningún costo."
+        },
+        {
+          "q": "¿Necesito cita o puedo llegar sin avisar?",
+          "a": "Eres bienvenido a pasar durante el horario de oficina, de lunes a viernes. Los sábados son con cita, así que es mejor llamar antes al (815) 758-4447."
+        },
+        {
+          "q": "¿Qué debo traer para cotizar?",
+          "a": "Lo que tengas a la mano ayuda — los datos de tu póliza actual, la información de tu vehículo o propiedad y la cobertura que tienes ahora. Si no estás seguro, solo llama y te guiamos."
+        },
+        {
+          "q": "¿Pueden ayudarme en español?",
+          "a": "Con gusto te atendemos en español y en inglés. Solo dinos qué prefieres y te explicamos tus opciones con claridad."
+        },
+        {
+          "q": "¿Qué pasa si necesito presentar un reclamo?",
+          "a": "No estarás solo. Te ayudamos a entender el proceso, respondemos tus preguntas y te guiamos en tu reclamo en cada paso del camino."
+        },
+        {
+          "q": "¿Pueden revisar mi seguro actual para ver si estoy pagando de más?",
+          "a": "Claro que sí. Tráenos tu póliza actual y la comparamos con varias aseguradoras para ver si hay mejor cobertura o mejor precio disponible."
+        }
+      ]
+    }
+  }
+}

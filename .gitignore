@@ -1,0 +1,23 @@
+# dependencies / build output
+node_modules/
+site/.next/
+site/out/
+*.tsbuildinfo
+site/next-env.d.ts
+
+# local tooling & session config
+.claude/
+
+# env & secrets (never commit)
+.env
+.env.*
+*.pem
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log
+
+# python
+__pycache__/
+*.pyc

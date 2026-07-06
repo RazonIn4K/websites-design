@@ -1,0 +1,16 @@
+{
+  "concept": "Worn-oak small-town tavern: a deep bottle-green primary with an oxblood secondary and aged-brass accent, set on warm cream backgrounds with green-tinted charcoal ink. Quiet, sturdy, and unpretentious — old wood, brass taps, and a Friday-night glow rather than sports-bar energy. Distinct from the brick-red/amber pub-grille palette used elsewhere in the fleet.",
+  "vars": {
+    "--color-bg": "#F6EFDE",
+    "--color-surface": "#FCF8ED",
+    "--color-surface-alt": "#EAE0C4",
+    "--color-ink": "#20241D",
+    "--color-ink-soft": "#4E5244",
+    "--color-primary": "#2A5240",
+    "--color-primary-dark": "#1C3A2D",
+    "--color-secondary": "#6E2F28",
+    "--color-accent": "#E3A83C",
+    "--color-line": "#D9CCAD"
+  },
+  "contrastNotes": "All required ratios verified computationally (WCAG relative luminance). ink on bg 13.76:1, on surface 14.86:1, on surface-alt 11.98:1 (all >=7). ink-soft on bg 7.01:1, on surface 7.57:1, on surface-alt 6.10:1 (all >=4.5). White on primary 8.83:1, on primary-dark 12.41:1, on secondary 10.00:1 (all >=4.5). Accent vs #222 7.53:1 (>=4.5, safe over dark photos). primary on bg 7.70:1. Brass accent pairs with dark ink for text-on-accent (ink on accent 7.46:1); use white text only on primary/primary-dark/secondary."
+}

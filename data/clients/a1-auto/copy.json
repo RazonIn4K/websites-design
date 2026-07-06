@@ -1,0 +1,662 @@
+{
+  "business": {
+    "name": "A-1 Auto Repair",
+    "shortName": "A-1 Auto",
+    "vertical": "Independent auto repair shop",
+    "phone": "(815) 756-9054",
+    "phoneHref": "+18157569054",
+    "address": "816 Lacas Street",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "A-1 Auto Repair, 816 Lacas Street, DeKalb, IL 60115"
+  },
+  "en": {
+    "meta": {
+      "title": "A-1 Auto Repair — Honest Auto Repair & Service in DeKalb, IL",
+      "description": "Family-owned auto repair shop in DeKalb, IL. Oil changes, brakes, diagnostics, tires & more — fair pricing, quick turnaround, no surprises. Call (815) 756-9054."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About Us",
+      "gallery": "Our Work",
+      "visit": "Visit Us",
+      "order": "Book Service"
+    },
+    "hero": {
+      "eyebrow": "Honest Auto Repair in DeKalb",
+      "title": "Straight Talk.",
+      "titleAccent": "Honest Repairs.",
+      "subtitle": "From a quick oil change to a check-engine light that won't quit, A-1 Auto Repair gets you back on the road fast — with upfront pricing and work you can trust.",
+      "ctaPrimary": "View Our Services",
+      "ctaSecondary": "Call for a Quote",
+      "badge": "Family-Owned · Fair Pricing · Quick Turnaround"
+    },
+    "highlights": [
+      {
+        "icon": "shield",
+        "title": "Upfront, Honest Pricing",
+        "text": "You get a clear estimate before we touch a thing. No surprise add-ons, no upselling repairs you don't need — just straight answers and a fair price."
+      },
+      {
+        "icon": "clock",
+        "title": "Quick Turnaround",
+        "text": "We know you've got places to be. Most routine services are done the same day, so you're not stuck waiting on your car any longer than you have to."
+      },
+      {
+        "icon": "wrench",
+        "title": "Quality Work, Done Right",
+        "text": "We fix it right the first time using quality parts and careful workmanship — because a repair that lasts is the only kind worth doing."
+      },
+      {
+        "icon": "gauge",
+        "title": "Accurate Diagnostics",
+        "text": "Modern scan tools plus old-school know-how mean we pinpoint the real problem instead of guessing — so you only pay to fix what's actually wrong."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Everything your vehicle needs under one roof. Prices shown are illustrative demo examples — please call for an exact quote on your vehicle.",
+      "categories": [
+        {
+          "id": "maintenance",
+          "name": "Maintenance",
+          "blurb": "Routine care that keeps your car running strong and helps you avoid the big repairs down the road.",
+          "items": [
+            {
+              "name": "Oil & Filter Change",
+              "desc": "Conventional, synthetic-blend, or full-synthetic oil with a new filter and a complimentary fluid top-off and visual check.",
+              "price": "From $39",
+              "tags": [
+                "popular",
+                "fast"
+              ]
+            },
+            {
+              "name": "Brake Service",
+              "desc": "Pads, rotors, and brake inspection. We'll show you exactly what's worn and what can wait — no scare tactics.",
+              "price": "From $129",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Battery Test & Replacement",
+              "desc": "Free battery and charging-system check. If it's time, we install a quality replacement on the spot.",
+              "price": "From $149",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Fluid Flush & Top-Off",
+              "desc": "Coolant, transmission, brake, or power-steering fluid service to keep your systems clean and protected.",
+              "price": "From $79",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Tune-Up",
+              "desc": "Spark plugs, filters, and a performance check to restore smooth starts, better mileage, and pep.",
+              "price": "From $99",
+              "tags": []
+            },
+            {
+              "name": "Belts & Hoses",
+              "desc": "Inspection and replacement of worn serpentine belts and hoses before they leave you stranded.",
+              "price": "From $89",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "diagnostics-repair",
+          "name": "Diagnostics & Repair",
+          "blurb": "Something feels off? We track down the real cause and fix it right — no guesswork, no parts cannon.",
+          "items": [
+            {
+              "name": "Check-Engine Light Diagnostic",
+              "desc": "Full computer scan and hands-on diagnosis to find out what that light really means. Fee credited toward your repair.",
+              "price": "$59",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Electrical System Repair",
+              "desc": "Starters, alternators, wiring, lights, and power accessories — we chase down gremlins others give up on.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "A/C Service & Recharge",
+              "desc": "Performance check, leak inspection, and recharge to get cold air blowing again before summer hits.",
+              "price": "From $119",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Suspension & Steering",
+              "desc": "Shocks, struts, ball joints, and tie rods to smooth out the ride and keep you in control.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Engine & Transmission Repair",
+              "desc": "From minor leaks to major work, we diagnose honestly and tell you straight whether it's worth fixing.",
+              "price": "Free Estimate",
+              "tags": [
+                "guarantee"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tires-alignment",
+          "name": "Tires & Alignment",
+          "blurb": "Keep your tires gripping and your car tracking straight — for safer driving and longer tire life.",
+          "items": [
+            {
+              "name": "Tire Mount & Balance",
+              "desc": "Professional mounting and computer balancing for a smooth, vibration-free ride. Priced per tire.",
+              "price": "From $25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Wheel Alignment",
+              "desc": "Precision alignment to stop uneven tire wear and that annoying pull to one side.",
+              "price": "From $89",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Tire Rotation",
+              "desc": "Even out tread wear and extend the life of your tires. Quick and easy while you wait.",
+              "price": "From $25",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Flat Repair",
+              "desc": "Safe, proper plug-and-patch repairs to get you rolling again without buying a whole new tire.",
+              "price": "From $20",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "inspections",
+          "name": "Inspections",
+          "blurb": "Peace of mind before you buy, before you travel, or before the state asks for it.",
+          "items": [
+            {
+              "name": "Emissions Test Prep",
+              "desc": "We check and ready your vehicle so it passes the Illinois emissions test the first time.",
+              "price": "From $49",
+              "tags": []
+            },
+            {
+              "name": "Pre-Purchase Inspection",
+              "desc": "Thinking of buying a used car? We give it a thorough once-over so you know exactly what you're getting.",
+              "price": "$99",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Multi-Point Safety Inspection",
+              "desc": "A head-to-toe look at brakes, tires, fluids, lights, and more — with an honest report on what needs attention.",
+              "price": "Free",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Pre-Trip Inspection",
+              "desc": "Heading out of town? We make sure your car is road-trip ready before you hit the highway.",
+              "price": "From $39",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "About A-1 Auto Repair",
+      "lead": "We're the neighborhood shop that treats your car like it's our own — and treats you like a neighbor, not a number.",
+      "paragraphs": [
+        "A-1 Auto Repair is an independent, family-owned shop right here in DeKalb. We built this place on a simple promise: tell people the truth, charge a fair price, and do the work right. No corporate quotas, no pressure to sell you repairs you don't need — just honest mechanics who explain what's going on in plain English and let you make the call.",
+        "Whether you're an NIU student trying to get through finals without a breakdown, a family keeping the daily driver going, or someone who just wants a mechanic they can finally trust, you'll get the same straight answers and quality work every time. Bring us your car, and we'll get you back on the road fast — and back to your life."
+      ],
+      "stats": [
+        {
+          "value": "Upfront",
+          "label": "Pricing, Every Time"
+        },
+        {
+          "value": "Same-Day",
+          "label": "Service Available"
+        },
+        {
+          "value": "Family",
+          "label": "Owned & Operated"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Look Inside the Shop",
+      "subheading": "Clean bays, careful hands, and cars treated with respect.",
+      "captions": [
+        "Our service bays, ready for your vehicle",
+        "Computer diagnostics that find the real problem",
+        "Brake service done with quality parts",
+        "Tire mounting and precision balancing",
+        "Honest, hands-on inspections every time",
+        "Back on the road and ready to roll"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Our Customers Say",
+      "items": [
+        {
+          "quote": "Took my car in for a check-engine light and they explained everything before doing any work. Fair price, fixed it fast, and didn't try to sell me a bunch of extras. Finally a shop I trust.",
+          "name": "Mike D.",
+          "role": "DeKalb Local"
+        },
+        {
+          "quote": "As a broke college student, I was nervous about getting ripped off. They gave me a free estimate and an honest answer. Brakes done same day for way less than the dealer quoted.",
+          "name": "Ashley R.",
+          "role": "NIU Student"
+        },
+        {
+          "quote": "Been bringing both our cars here for years. They're upfront, they're quick, and they actually call before doing anything extra. You can't ask for more from a mechanic.",
+          "name": "Robert T.",
+          "role": "Repeat Customer"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit the Shop",
+      "addressLabel": "Location",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday – Friday",
+          "time": "8:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "8:00 AM – 2:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Phone",
+      "directions": "Get Directions"
+    },
+    "cta": {
+      "heading": "Car Trouble? Let's Fix It.",
+      "text": "Call us to book a service appointment, get a free quote, or just ask a question. Real people, honest answers, fast service.",
+      "button": "Call (815) 756-9054"
+    },
+    "form": {
+      "heading": "Book a Service",
+      "subheading": "Tell us what's going on and we'll get back to you fast with a time and an honest estimate.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Vehicle (Year / Make / Model)",
+      "date": "Preferred Date & Time",
+      "message": "What's going on with your vehicle?",
+      "submit": "Request Appointment",
+      "sending": "Sending…",
+      "success": "Thanks! We'll be in touch shortly to confirm your appointment.",
+      "error": "Something went wrong. Please call us directly at (815) 756-9054.",
+      "consent": "By submitting this form you agree to be contacted about your service request."
+    },
+    "footer": {
+      "tagline": "Honest, family-owned auto repair in the heart of DeKalb, IL.",
+      "rights": "© A-1 Auto Repair. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "A-1 Auto Repair — Mecánico Honesto y Confiable en DeKalb, IL",
+      "description": "Taller mecánico familiar en DeKalb, IL. Cambio de aceite, frenos, diagnóstico, llantas y más — precios justos, servicio rápido, sin sorpresas. Llama al (815) 756-9054."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Nuestro Trabajo",
+      "visit": "Visítanos",
+      "order": "Agendar Servicio"
+    },
+    "hero": {
+      "eyebrow": "Mecánico Honesto en DeKalb",
+      "title": "Hablamos Claro.",
+      "titleAccent": "Reparamos Honesto.",
+      "subtitle": "Desde un cambio de aceite rápido hasta esa luz de motor que no se apaga, en A-1 Auto Repair te regresamos al camino rápido — con precios claros y un trabajo en el que puedes confiar.",
+      "ctaPrimary": "Ver Nuestros Servicios",
+      "ctaSecondary": "Llama para Cotizar",
+      "badge": "Negocio Familiar · Precios Justos · Servicio Rápido"
+    },
+    "highlights": [
+      {
+        "icon": "shield",
+        "title": "Precios Claros y Honestos",
+        "text": "Recibes un presupuesto claro antes de que toquemos nada. Sin cargos sorpresa ni reparaciones que no necesitas — solo respuestas directas y un precio justo."
+      },
+      {
+        "icon": "clock",
+        "title": "Servicio Rápido",
+        "text": "Sabemos que tienes cosas que hacer. La mayoría de los servicios de rutina los terminamos el mismo día, para que no te quedes esperando tu carro más de lo necesario."
+      },
+      {
+        "icon": "wrench",
+        "title": "Trabajo de Calidad, Bien Hecho",
+        "text": "Lo arreglamos bien desde la primera vez, con refacciones de calidad y mano de obra cuidadosa — porque una reparación que dura es la única que vale la pena."
+      },
+      {
+        "icon": "gauge",
+        "title": "Diagnóstico Preciso",
+        "text": "Equipo de escaneo moderno más experiencia de toda la vida: encontramos el problema real en lugar de adivinar — así solo pagas por arreglar lo que de verdad falla."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Todo lo que tu vehículo necesita en un solo lugar. Los precios mostrados son ejemplos ilustrativos de demostración — por favor llámanos para una cotización exacta de tu vehículo.",
+      "categories": [
+        {
+          "id": "maintenance",
+          "name": "Mantenimiento",
+          "blurb": "El cuidado de rutina que mantiene tu carro fuerte y te ayuda a evitar las reparaciones grandes más adelante.",
+          "items": [
+            {
+              "name": "Cambio de Aceite y Filtro",
+              "desc": "Aceite convencional, semisintético o sintético con filtro nuevo, además de relleno de fluidos y revisión visual sin costo.",
+              "price": "Desde $39",
+              "tags": [
+                "popular",
+                "fast"
+              ]
+            },
+            {
+              "name": "Servicio de Frenos",
+              "desc": "Balatas, discos e inspección de frenos. Te mostramos exactamente qué está gastado y qué puede esperar — sin meterte miedo.",
+              "price": "Desde $129",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Prueba y Cambio de Batería",
+              "desc": "Revisión gratis de la batería y el sistema de carga. Si ya toca, instalamos una batería de calidad en el momento.",
+              "price": "Desde $149",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Cambio y Relleno de Fluidos",
+              "desc": "Servicio de anticongelante, transmisión, frenos o dirección hidráulica para mantener tus sistemas limpios y protegidos.",
+              "price": "Desde $79",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Afinación",
+              "desc": "Bujías, filtros y revisión de desempeño para recuperar arranques suaves, mejor rendimiento de gasolina y potencia.",
+              "price": "Desde $99",
+              "tags": []
+            },
+            {
+              "name": "Bandas y Mangueras",
+              "desc": "Inspección y cambio de bandas y mangueras gastadas antes de que te dejen tirado en el camino.",
+              "price": "Desde $89",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "diagnostics-repair",
+          "name": "Diagnóstico y Reparación",
+          "blurb": "¿Algo se siente raro? Encontramos la causa real y lo arreglamos bien — sin adivinanzas, sin cambiar piezas a lo loco.",
+          "items": [
+            {
+              "name": "Diagnóstico de Luz de Motor",
+              "desc": "Escaneo completo por computadora y diagnóstico a mano para saber qué significa de verdad esa luz. El costo se abona a tu reparación.",
+              "price": "$59",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Reparación del Sistema Eléctrico",
+              "desc": "Marchas, alternadores, cableado, luces y accesorios — encontramos las fallas que otros se rinden en buscar.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Servicio y Recarga de A/C",
+              "desc": "Revisión de desempeño, inspección de fugas y recarga para que vuelva a salir aire frío antes de que pegue el calor.",
+              "price": "Desde $119",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Suspensión y Dirección",
+              "desc": "Amortiguadores, rótulas y terminales para suavizar la marcha y mantenerte en control del volante.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Reparación de Motor y Transmisión",
+              "desc": "Desde fugas menores hasta trabajo mayor, diagnosticamos con honestidad y te decimos claro si vale la pena arreglarlo.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "guarantee"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tires-alignment",
+          "name": "Llantas y Alineación",
+          "blurb": "Mantén tus llantas agarrando bien y tu carro derecho — para manejar más seguro y que las llantas duren más.",
+          "items": [
+            {
+              "name": "Montaje y Balanceo de Llantas",
+              "desc": "Montaje profesional y balanceo por computadora para una marcha suave y sin vibración. Precio por llanta.",
+              "price": "Desde $25",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Alineación",
+              "desc": "Alineación de precisión para frenar el desgaste disparejo y ese jaloneo molesto hacia un lado.",
+              "price": "Desde $89",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Rotación de Llantas",
+              "desc": "Empareja el desgaste y alarga la vida de tus llantas. Rápido y fácil mientras esperas.",
+              "price": "Desde $25",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Reparación de Ponchaduras",
+              "desc": "Reparaciones seguras y bien hechas para que sigas rodando sin tener que comprar una llanta nueva.",
+              "price": "Desde $20",
+              "tags": [
+                "fast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "inspections",
+          "name": "Inspecciones",
+          "blurb": "Tranquilidad antes de comprar, antes de viajar o antes de que el estado te lo pida.",
+          "items": [
+            {
+              "name": "Preparación para Prueba de Emisiones",
+              "desc": "Revisamos y preparamos tu vehículo para que pase la prueba de emisiones de Illinois a la primera.",
+              "price": "Desde $49",
+              "tags": []
+            },
+            {
+              "name": "Inspección Antes de Comprar",
+              "desc": "¿Vas a comprar un carro usado? Le hacemos una revisión a fondo para que sepas exactamente qué estás llevando.",
+              "price": "$99",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Inspección de Seguridad de Varios Puntos",
+              "desc": "Una revisión de pies a cabeza de frenos, llantas, fluidos, luces y más — con un reporte honesto de lo que necesita atención.",
+              "price": "Gratis",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Inspección Antes de Viajar",
+              "desc": "¿Vas a salir de la ciudad? Nos aseguramos de que tu carro esté listo para la carretera antes de que arranques.",
+              "price": "Desde $39",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Sobre A-1 Auto Repair",
+      "lead": "Somos el taller del barrio que trata tu carro como si fuera nuestro — y te trata como vecino, no como un número.",
+      "paragraphs": [
+        "A-1 Auto Repair es un taller independiente y familiar aquí mismo en DeKalb. Construimos este lugar sobre una promesa sencilla: decirle la verdad a la gente, cobrar un precio justo y hacer el trabajo bien. Sin cuotas corporativas, sin presión para venderte reparaciones que no necesitas — solo mecánicos honestos que te explican qué pasa en palabras claras y te dejan a ti decidir.",
+        "Ya seas estudiante de NIU tratando de pasar los exámenes finales sin que el carro te falle, una familia que mantiene andando el carro de diario, o alguien que por fin quiere un mecánico de confianza, vas a recibir las mismas respuestas directas y el mismo trabajo de calidad siempre. Tráenos tu carro y te regresamos al camino rápido — y de vuelta a tu vida."
+      ],
+      "stats": [
+        {
+          "value": "Claros",
+          "label": "Precios, Siempre"
+        },
+        {
+          "value": "Mismo Día",
+          "label": "Servicio Disponible"
+        },
+        {
+          "value": "Familia",
+          "label": "Negocio Familiar"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Vistazo al Taller",
+      "subheading": "Bahías limpias, manos cuidadosas y carros tratados con respeto.",
+      "captions": [
+        "Nuestras bahías de servicio, listas para tu vehículo",
+        "Diagnóstico por computadora que encuentra el problema real",
+        "Servicio de frenos con refacciones de calidad",
+        "Montaje de llantas y balanceo de precisión",
+        "Inspecciones honestas y a mano siempre",
+        "De vuelta al camino y listo para rodar"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen Nuestros Clientes",
+      "items": [
+        {
+          "quote": "Llevé mi carro por la luz de motor y me explicaron todo antes de hacer cualquier trabajo. Precio justo, lo arreglaron rápido y no me quisieron vender un montón de extras. Por fin un taller en el que confío.",
+          "name": "Mike D.",
+          "role": "Vecino de DeKalb"
+        },
+        {
+          "quote": "Como estudiante sin dinero, tenía miedo de que me vieran la cara. Me dieron una cotización gratis y una respuesta honesta. Me hicieron los frenos el mismo día por mucho menos de lo que cobraba la agencia.",
+          "name": "Ashley R.",
+          "role": "Estudiante de NIU"
+        },
+        {
+          "quote": "Llevo años trayendo aquí los dos carros. Son claros, son rápidos y de verdad llaman antes de hacer cualquier cosa extra. No se le puede pedir más a un mecánico.",
+          "name": "Roberto T.",
+          "role": "Cliente Frecuente"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visita el Taller",
+      "addressLabel": "Ubicación",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes – Viernes",
+          "time": "8:00 a.m. – 6:00 p.m."
+        },
+        {
+          "day": "Sábado",
+          "time": "8:00 a.m. – 2:00 p.m."
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Teléfono",
+      "directions": "Cómo Llegar"
+    },
+    "cta": {
+      "heading": "¿Problemas con el Carro? Nosotros lo Arreglamos.",
+      "text": "Llámanos para agendar una cita de servicio, pedir una cotización gratis o simplemente hacer una pregunta. Gente real, respuestas honestas, servicio rápido.",
+      "button": "Llamar al (815) 756-9054"
+    },
+    "form": {
+      "heading": "Agenda un Servicio",
+      "subheading": "Cuéntanos qué está pasando y te contestamos rápido con una hora y un presupuesto honesto.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Vehículo (Año / Marca / Modelo)",
+      "date": "Fecha y Hora Preferida",
+      "message": "¿Qué está pasando con tu vehículo?",
+      "submit": "Solicitar Cita",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Nos pondremos en contacto pronto para confirmar tu cita.",
+      "error": "Algo salió mal. Por favor llámanos directamente al (815) 756-9054.",
+      "consent": "Al enviar este formulario aceptas ser contactado en relación con tu solicitud de servicio."
+    },
+    "footer": {
+      "tagline": "Reparación de autos honesta y familiar en el corazón de DeKalb, IL.",
+      "rights": "© A-1 Auto Repair. Todos los derechos reservados.",
+      "quickLinks": "Accesos Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

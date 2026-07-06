@@ -1,0 +1,714 @@
+{
+  "business": {
+    "name": "Dearborn Cafe",
+    "shortName": "Dearborn Cafe",
+    "vertical": "Breakfast & Brunch Cafe",
+    "phone": "(815) 786-6185",
+    "phoneHref": "+18157866185",
+    "address": "220 Indian Springs Drive",
+    "city": "Sandwich",
+    "state": "IL",
+    "zip": "60548",
+    "mapsQuery": "Dearborn Cafe, 220 Indian Springs Drive, Sandwich, IL 60548"
+  },
+  "en": {
+    "meta": {
+      "title": "Dearborn Cafe | Breakfast & Brunch in Sandwich, IL",
+      "description": "Cozy small-town breakfast & brunch cafe in Sandwich, IL. Bottomless coffee, hearty home-style plates & friendly faces. Call ahead: (815) 786-6185."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "Call Ahead"
+    },
+    "hero": {
+      "eyebrow": "Sandwich's Hometown Breakfast Table",
+      "title": "Hearty Breakfast,",
+      "titleAccent": "Bottomless Coffee",
+      "subtitle": "Wake up to home-style plates, fresh-brewed bottomless coffee, and friendly faces at the cozy corner cafe where everyone in Sandwich feels right at home.",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Call to Order Ahead",
+      "badge": "Locally Loved · Bottomless Coffee · Home-Style Cooking"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "The Hometown Table",
+        "text": "A warm, welcoming spot where regulars and first-timers alike are greeted with a smile and a fresh cup of coffee."
+      },
+      {
+        "icon": "star",
+        "title": "Hearty Home-Style Plates",
+        "text": "Big, satisfying breakfasts made the way you remember, generous portions cooked fresh to order every morning."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Bottomless Coffee",
+        "text": "Fresh-brewed and always flowing. Settle in, catch up with friends, and we'll keep your cup full."
+      },
+      {
+        "icon": "leaf",
+        "title": "Fresh & Made to Order",
+        "text": "Cracked eggs, fluffy pancakes, fresh-squeezed juice, and ingredients prepped daily for a breakfast that tastes homemade."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Menu items and prices shown are illustrative demo content for this sample site. Please call (815) 786-6185 for current offerings and pricing.",
+      "categories": [
+        {
+          "id": "breakfast-classics",
+          "name": "Breakfast Classics",
+          "blurb": "The home-style favorites that get Sandwich out of bed, cooked fresh every morning.",
+          "items": [
+            {
+              "name": "Two Eggs Your Way",
+              "desc": "Two farm-fresh eggs cooked just how you like them, with toast and your choice of bacon, sausage, or ham.",
+              "price": "$9.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Western Omelette",
+              "desc": "Three-egg omelette stuffed with ham, peppers, onions, and melted cheddar, served with toast.",
+              "price": "$11.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Country Skillet",
+              "desc": "Crispy hash browns piled with eggs, sausage, peppers, onions, and melted cheese.",
+              "price": "$12.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Biscuits & Gravy",
+              "desc": "Warm buttermilk biscuits smothered in rich, peppery house-made sausage gravy.",
+              "price": "$8.95",
+              "tags": [
+                "signature",
+                "value"
+              ]
+            },
+            {
+              "name": "Veggie Omelette",
+              "desc": "Three-egg omelette loaded with mushrooms, spinach, tomato, and cheese, served with toast.",
+              "price": "$10.95",
+              "tags": []
+            },
+            {
+              "name": "Steak & Eggs",
+              "desc": "Grilled sirloin with two eggs your way, hash browns, and toast.",
+              "price": "$14.95",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "pancakes-waffles",
+          "name": "Pancakes & Waffles",
+          "blurb": "Fluffy, golden, and griddled to order, a little sweet start to your morning.",
+          "items": [
+            {
+              "name": "Buttermilk Pancakes",
+              "desc": "A tall stack of fluffy buttermilk pancakes served with warm syrup and butter.",
+              "price": "$8.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Belgian Waffle",
+              "desc": "Crisp, golden Belgian waffle dusted with powdered sugar and served with syrup.",
+              "price": "$9.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Blueberry Pancakes",
+              "desc": "Buttermilk pancakes packed with juicy blueberries and topped with whipped cream.",
+              "price": "$9.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Strawberry Waffle",
+              "desc": "Belgian waffle crowned with fresh strawberries and a swirl of whipped cream.",
+              "price": "$10.50",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Short Stack",
+              "desc": "Two fluffy buttermilk pancakes, just enough to satisfy, with syrup and butter.",
+              "price": "$6.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lunch",
+          "name": "Lunch",
+          "blurb": "Hearty sandwiches, burgers, soups, and salads to carry you through the afternoon.",
+          "items": [
+            {
+              "name": "Classic Cheeseburger",
+              "desc": "Juicy grilled beef patty with melted cheese, lettuce, tomato, and onion on a toasted bun, with fries.",
+              "price": "$11.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Turkey Club",
+              "desc": "Triple-decker with roasted turkey, bacon, lettuce, tomato, and mayo, served with fries.",
+              "price": "$11.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Patty Melt",
+              "desc": "Grilled beef patty with sauteed onions and Swiss on toasted rye, served with fries.",
+              "price": "$11.95",
+              "tags": []
+            },
+            {
+              "name": "Soup of the Day",
+              "desc": "A warm bowl of our house-made soup, made fresh daily. Ask your server about today's batch.",
+              "price": "$5.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Garden Salad",
+              "desc": "Crisp mixed greens with tomato, cucumber, carrot, and cheese with your choice of dressing.",
+              "price": "$8.95",
+              "tags": []
+            },
+            {
+              "name": "Grilled Chicken Sandwich",
+              "desc": "Seasoned grilled chicken breast with lettuce, tomato, and mayo on a toasted bun, with fries.",
+              "price": "$10.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coffee-drinks",
+          "name": "Coffee & Drinks",
+          "blurb": "Bottomless coffee, fresh juice, and creamy smoothies to round out your visit.",
+          "items": [
+            {
+              "name": "Bottomless Coffee",
+              "desc": "Fresh-brewed and endlessly refilled. Settle in and stay a while.",
+              "price": "$2.95",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Fresh-Squeezed Orange Juice",
+              "desc": "Bright, refreshing orange juice squeezed fresh in-house.",
+              "price": "$3.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Berry Smoothie",
+              "desc": "Blended strawberries, blueberries, banana, and yogurt for a fruity pick-me-up.",
+              "price": "$5.50",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Hot Tea",
+              "desc": "A soothing pot of your favorite tea, served piping hot.",
+              "price": "$2.50",
+              "tags": []
+            },
+            {
+              "name": "Hot Chocolate",
+              "desc": "Rich, creamy cocoa topped with a generous swirl of whipped cream.",
+              "price": "$3.25",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "The Hometown Table in Sandwich",
+      "lead": "Dearborn Cafe is the cozy corner spot where Sandwich gathers over bottomless coffee, hearty home-style plates, and friendly faces who feel like family.",
+      "paragraphs": [
+        "Mornings here start with the smell of fresh coffee and sizzling breakfast on the griddle. From early risers grabbing biscuits and gravy to friends lingering over a second cup, our tables are made for slowing down, catching up, and feeling at home.",
+        "We keep it simple and genuine: generous home-style plates cooked fresh to order, a warm welcome the moment you walk in, and that hometown feeling you can't get anywhere else. Whether it's breakfast, brunch, or a hearty lunch, there's always a seat for you at Dearborn Cafe."
+      ],
+      "stats": [
+        {
+          "value": "Bottomless",
+          "label": "Fresh-Brewed Coffee"
+        },
+        {
+          "value": "Home-Style",
+          "label": "Made to Order"
+        },
+        {
+          "value": "Everyone",
+          "label": "Welcome at Our Table"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Look Around Dearborn Cafe",
+      "subheading": "A peek at the hearty plates and warm mornings waiting for you at our table.",
+      "captions": [
+        "Two eggs your way with crispy bacon and toast",
+        "A tall stack of fluffy buttermilk pancakes",
+        "Biscuits smothered in house-made sausage gravy",
+        "A steaming, bottomless cup of fresh coffee",
+        "Golden Belgian waffle topped with fresh strawberries",
+        "The cozy, welcoming dining room ready for brunch"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Sandwich Is Saying",
+      "items": [
+        {
+          "quote": "Our go-to breakfast spot. The coffee never runs dry and the biscuits and gravy are the best in town. It feels like home every time.",
+          "name": "Sandra M.",
+          "role": "Sandwich regular"
+        },
+        {
+          "quote": "Friendly faces, big portions, and everything is cooked fresh. We bring the whole family every Sunday for brunch.",
+          "name": "Tom R.",
+          "role": "Local customer"
+        },
+        {
+          "quote": "Cozy, welcoming, and the pancakes are unbeatable. The staff knows our order by heart. A true hometown gem.",
+          "name": "Karen B.",
+          "role": "Weekend regular"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us in Sandwich",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Friday",
+          "time": "6:00 AM - 2:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "6:00 AM - 2:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "7:00 AM - 1:00 PM"
+        }
+      ],
+      "phoneLabel": "Call to Order Ahead",
+      "directions": "Find us at 220 Indian Springs Drive in Sandwich, IL. Call ahead and we'll have your breakfast or lunch hot and ready for carryout, or come on in and grab a seat at the hometown table."
+    },
+    "cta": {
+      "heading": "Hungry? Call Ahead for Carryout",
+      "text": "Skip the wait and call ahead. We'll have your home-style breakfast or lunch hot and ready for pickup, or come in and we'll pour you a cup.",
+      "button": "Call (815) 786-6185"
+    },
+    "form": {
+      "heading": "Send Us a Message",
+      "subheading": "Have a question about your order, group seating, or catering a gathering? Send us a note and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Party Size",
+      "date": "Preferred Date/Time",
+      "message": "How can we help? Tell us about your visit or question.",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We received your message and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "The cozy hometown table in Sandwich, serving hearty home-style breakfast and bottomless coffee.",
+      "rights": "© Dearborn Cafe. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Dearborn Cafe | Desayuno y Brunch en Sandwich, IL",
+      "description": "Acogedor café de desayuno y brunch en Sandwich, IL. Café sin fondo, platillos caseros y abundantes y caras amables. Llama con anticipación: (815) 786-6185."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Llamar"
+    },
+    "hero": {
+      "eyebrow": "La Mesa de Desayuno del Pueblo de Sandwich",
+      "title": "Desayuno Abundante,",
+      "titleAccent": "Café Sin Fondo",
+      "subtitle": "Despierta con platillos caseros, café recién hecho que nunca se acaba y caras amables en el acogedor café de la esquina donde todo Sandwich se siente como en casa.",
+      "ctaPrimary": "Ver Menú",
+      "ctaSecondary": "Llama para Ordenar",
+      "badge": "Querido por la Comunidad · Café Sin Fondo · Cocina Casera"
+    },
+    "highlights": [
+      {
+        "icon": "heart",
+        "title": "La Mesa del Pueblo",
+        "text": "Un lugar cálido y acogedor donde tanto los clientes de siempre como los recién llegados reciben una sonrisa y una taza de café recién hecho."
+      },
+      {
+        "icon": "star",
+        "title": "Platillos Caseros y Abundantes",
+        "text": "Desayunos grandes y satisfactorios hechos como los recuerdas, porciones generosas cocinadas al momento cada mañana."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Café Sin Fondo",
+        "text": "Recién hecho y siempre fluyendo. Acomódate, ponte al día con los amigos y nosotros mantenemos tu taza llena."
+      },
+      {
+        "icon": "leaf",
+        "title": "Fresco y Hecho al Momento",
+        "text": "Huevos recién partidos, panqueques esponjosos, jugo recién exprimido e ingredientes preparados a diario para un desayuno con sabor casero."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Los platillos y precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Llama al (815) 786-6185 para conocer la oferta y los precios actuales.",
+      "categories": [
+        {
+          "id": "breakfast-classics",
+          "name": "Clásicos del Desayuno",
+          "blurb": "Los favoritos caseros que levantan a Sandwich, cocinados frescos cada mañana.",
+          "items": [
+            {
+              "name": "Dos Huevos a tu Gusto",
+              "desc": "Dos huevos frescos del campo cocinados justo como te gustan, con pan tostado y tu elección de tocino, salchicha o jamón.",
+              "price": "$9.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Omelette Western",
+              "desc": "Omelette de tres huevos relleno de jamón, pimientos, cebolla y queso cheddar derretido, servido con pan tostado.",
+              "price": "$11.95",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Skillet Campestre",
+              "desc": "Papas doradas y crujientes coronadas con huevos, salchicha, pimientos, cebolla y queso derretido.",
+              "price": "$12.50",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Bisquets con Gravy",
+              "desc": "Bisquets de suero tibios bañados en nuestro gravy casero de salchicha, espeso y con pimienta.",
+              "price": "$8.95",
+              "tags": [
+                "signature",
+                "value"
+              ]
+            },
+            {
+              "name": "Omelette de Vegetales",
+              "desc": "Omelette de tres huevos cargado de champiñones, espinaca, tomate y queso, servido con pan tostado.",
+              "price": "$10.95",
+              "tags": []
+            },
+            {
+              "name": "Bistec con Huevos",
+              "desc": "Sirloin a la parrilla con dos huevos a tu gusto, papas doradas y pan tostado.",
+              "price": "$14.95",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "pancakes-waffles",
+          "name": "Panqueques y Waffles",
+          "blurb": "Esponjosos, dorados y hechos al momento en la plancha, un inicio dulce para tu mañana.",
+          "items": [
+            {
+              "name": "Panqueques de Suero",
+              "desc": "Una torre de panqueques esponjosos de suero servidos con jarabe tibio y mantequilla.",
+              "price": "$8.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Waffle Belga",
+              "desc": "Waffle belga dorado y crujiente espolvoreado con azúcar glas y servido con jarabe.",
+              "price": "$9.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Panqueques de Arándano",
+              "desc": "Panqueques de suero llenos de jugosos arándanos y coronados con crema batida.",
+              "price": "$9.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Waffle de Fresa",
+              "desc": "Waffle belga coronado con fresas frescas y un remolino de crema batida.",
+              "price": "$10.50",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Media Torre",
+              "desc": "Dos panqueques esponjosos de suero, justo lo necesario para satisfacer, con jarabe y mantequilla.",
+              "price": "$6.50",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lunch",
+          "name": "Almuerzo",
+          "blurb": "Sándwiches abundantes, hamburguesas, sopas y ensaladas para llevarte por la tarde.",
+          "items": [
+            {
+              "name": "Hamburguesa con Queso",
+              "desc": "Jugosa carne de res a la parrilla con queso derretido, lechuga, tomate y cebolla en pan tostado, con papas fritas.",
+              "price": "$11.95",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Club de Pavo",
+              "desc": "Triple piso con pavo rostizado, tocino, lechuga, tomate y mayonesa, servido con papas fritas.",
+              "price": "$11.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Patty Melt",
+              "desc": "Carne de res a la parrilla con cebolla salteada y queso suizo en pan de centeno tostado, servido con papas fritas.",
+              "price": "$11.95",
+              "tags": []
+            },
+            {
+              "name": "Sopa del Día",
+              "desc": "Un tazón caliente de nuestra sopa casera, hecha fresca cada día. Pregunta a tu mesero por la del día.",
+              "price": "$5.95",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Ensalada del Huerto",
+              "desc": "Mezcla de hojas verdes crujientes con tomate, pepino, zanahoria y queso con tu aderezo a elegir.",
+              "price": "$8.95",
+              "tags": []
+            },
+            {
+              "name": "Sándwich de Pollo a la Parrilla",
+              "desc": "Pechuga de pollo sazonada a la parrilla con lechuga, tomate y mayonesa en pan tostado, con papas fritas.",
+              "price": "$10.95",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coffee-drinks",
+          "name": "Café y Bebidas",
+          "blurb": "Café sin fondo, jugo fresco y cremosos smoothies para completar tu visita.",
+          "items": [
+            {
+              "name": "Café Sin Fondo",
+              "desc": "Recién hecho y rellenado sin parar. Acomódate y quédate un rato.",
+              "price": "$2.95",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Jugo de Naranja Recién Exprimido",
+              "desc": "Jugo de naranja brillante y refrescante, exprimido fresco aquí mismo.",
+              "price": "$3.50",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Smoothie de Frutos Rojos",
+              "desc": "Fresas, arándanos, plátano y yogur licuados para un toque frutal de energía.",
+              "price": "$5.50",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Té Caliente",
+              "desc": "Una reconfortante taza de tu té favorito, servida bien caliente.",
+              "price": "$2.50",
+              "tags": []
+            },
+            {
+              "name": "Chocolate Caliente",
+              "desc": "Cocoa cremosa y rica coronada con un generoso remolino de crema batida.",
+              "price": "$3.25",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "La Mesa del Pueblo en Sandwich",
+      "lead": "Dearborn Cafe es el acogedor rincón donde Sandwich se reúne con café sin fondo, platillos caseros y abundantes, y caras amables que se sienten como familia.",
+      "paragraphs": [
+        "Aquí las mañanas empiezan con el aroma del café recién hecho y el desayuno chisporroteando en la plancha. Desde los madrugadores que pasan por sus bisquets con gravy hasta los amigos que se quedan con una segunda taza, nuestras mesas están hechas para tomarse las cosas con calma, ponerse al día y sentirse en casa.",
+        "Lo mantenemos sencillo y genuino: platillos caseros y generosos cocinados al momento, una cálida bienvenida en cuanto entras, y ese sentimiento de pueblo que no encuentras en ningún otro lado. Ya sea desayuno, brunch o un almuerzo abundante, siempre hay un lugar para ti en Dearborn Cafe."
+      ],
+      "stats": [
+        {
+          "value": "Sin Fondo",
+          "label": "Café Recién Hecho"
+        },
+        {
+          "value": "Casero",
+          "label": "Hecho al Momento"
+        },
+        {
+          "value": "Todos",
+          "label": "Bienvenidos a Nuestra Mesa"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Vistazo a Dearborn Cafe",
+      "subheading": "Un vistazo a los platillos abundantes y las mañanas cálidas que te esperan en nuestra mesa.",
+      "captions": [
+        "Dos huevos a tu gusto con tocino crujiente y pan tostado",
+        "Una torre alta de panqueques esponjosos de suero",
+        "Bisquets bañados en gravy casero de salchicha",
+        "Una taza humeante y sin fondo de café recién hecho",
+        "Waffle belga dorado coronado con fresas frescas",
+        "El acogedor comedor listo para el brunch"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice Sandwich",
+      "items": [
+        {
+          "quote": "Nuestro lugar favorito para desayunar. El café nunca se acaba y los bisquets con gravy son los mejores del pueblo. Cada vez se siente como en casa.",
+          "name": "Sandra M.",
+          "role": "Cliente frecuente en Sandwich"
+        },
+        {
+          "quote": "Caras amables, porciones grandes y todo cocinado fresco. Traemos a toda la familia cada domingo al brunch.",
+          "name": "Tom R.",
+          "role": "Cliente local"
+        },
+        {
+          "quote": "Acogedor, cálido y los panqueques son inmejorables. El personal se sabe nuestra orden de memoria. Una verdadera joya del pueblo.",
+          "name": "Karen B.",
+          "role": "Cliente de fin de semana"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en Sandwich",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Viernes",
+          "time": "6:00 AM - 2:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "6:00 AM - 2:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "7:00 AM - 1:00 PM"
+        }
+      ],
+      "phoneLabel": "Llama para Ordenar",
+      "directions": "Encuéntranos en 220 Indian Springs Drive en Sandwich, IL. Llama con anticipación y tendremos tu desayuno o almuerzo caliente y listo para llevar, o pásate y toma asiento en la mesa del pueblo."
+    },
+    "cta": {
+      "heading": "¿Con Hambre? Llama con Anticipación para Llevar",
+      "text": "Evita la espera y llama con anticipación. Tendremos tu desayuno o almuerzo casero caliente y listo para recoger, o pásate y te servimos una taza.",
+      "button": "Llamar al (815) 786-6185"
+    },
+    "form": {
+      "heading": "Envíanos un Mensaje",
+      "subheading": "¿Tienes una pregunta sobre tu orden, mesas para grupos o banquetes para una reunión? Escríbenos y te responderemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo podemos ayudarte? Cuéntanos sobre tu visita o pregunta.",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "La acogedora mesa del pueblo en Sandwich, sirviendo desayuno casero y abundante con café sin fondo.",
+      "rights": "© Dearborn Cafe. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

@@ -1,0 +1,702 @@
+{
+  "business": {
+    "name": "Lord Stanley's and Annex",
+    "shortName": "Lord Stanley's",
+    "vertical": "Neighborhood Pub & Bar",
+    "phone": "",
+    "phoneHref": "",
+    "address": "142 East Lincoln Highway",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Lord Stanley's and Annex, 142 East Lincoln Highway, DeKalb, IL 60115"
+  },
+  "en": {
+    "meta": {
+      "title": "Lord Stanley's and Annex | Neighborhood Pub & Bar in DeKalb, IL",
+      "description": "Downtown DeKalb's neighborhood pub. Cold craft beer on tap, trivia nights, live music, and late-night pub grub steps from NIU. See what's on tap."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About",
+      "gallery": "Gallery",
+      "visit": "Visit",
+      "order": "What's On"
+    },
+    "hero": {
+      "eyebrow": "Downtown DeKalb's Neighborhood Pub",
+      "title": "Cold Beer, Good People,",
+      "titleAccent": "Your Local",
+      "subtitle": "An independent pub and bar in the heart of downtown DeKalb. Craft and local drafts, trivia nights, live music, and late-night pub grub with the easy energy of the NIU crowd. Pull up a stool, this one's yours.",
+      "ctaPrimary": "See What's On Tap",
+      "ctaSecondary": "Plan Your Visit",
+      "badge": "Independent & Local · Craft Drafts · Trivia & Live Music"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Always Something On",
+        "text": "Trivia nights, live music, and game day on the big screens. There's a reason downtown ends up here."
+      },
+      {
+        "icon": "star",
+        "title": "Craft & Local on Tap",
+        "text": "A rotating lineup of cold craft and Illinois drafts, plus cocktails and well drinks that won't break the bank."
+      },
+      {
+        "icon": "heart",
+        "title": "Your Neighborhood Local",
+        "text": "An independent, locally run pub where the regulars know your name and the NIU crowd feels right at home."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Late-Night Pub Grub",
+        "text": "Burgers, wings, nachos, and warm soft pretzels served late, because the night's not over yet."
+      }
+    ],
+    "menu": {
+      "heading": "On the Menu",
+      "subheading": "Drinks, food, events, and prices shown are illustrative demo content for this sample site. Stop in for current taps, specials, and the real lineup.",
+      "categories": [
+        {
+          "id": "on-tap-drinks",
+          "name": "On Tap & Drinks",
+          "blurb": "Cold craft and local drafts, honest cocktails, and well drinks poured right.",
+          "items": [
+            {
+              "name": "Rotating Craft Draft",
+              "desc": "Ask what's pouring. Our taps rotate through fresh craft picks all week long.",
+              "price": "$6",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Illinois Local Brew",
+              "desc": "A revolving handle dedicated to breweries from right here in Illinois.",
+              "price": "$6",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "House Old Fashioned",
+              "desc": "Bourbon, bitters, and an orange peel, stirred the way it should be.",
+              "price": "$9",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Frozen Margarita",
+              "desc": "Tequila, lime, and a salted rim, ice-cold and made for a long night.",
+              "price": "$8",
+              "tags": []
+            },
+            {
+              "name": "Well Drinks",
+              "desc": "Your call with the rail spirits. Simple, strong, and easy on the wallet.",
+              "price": "$5",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Domestic Cans & Bottles",
+              "desc": "The familiar standbys, kept frosty for when you just want a cold one.",
+              "price": "$4",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pub-grub",
+          "name": "Pub Grub",
+          "blurb": "The kind of food that goes down easy with a cold pint, served late.",
+          "items": [
+            {
+              "name": "Stanley Stack Burger",
+              "desc": "Smashed double patty, American cheese, pickles, and house sauce on a toasted bun.",
+              "price": "$12",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Buffalo Wings (10)",
+              "desc": "Crispy jumbo wings tossed in classic buffalo, with ranch or blue cheese.",
+              "price": "$11",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Loaded Pub Nachos",
+              "desc": "A mountain of chips with melted cheese, jalapeños, pico, and sour cream.",
+              "price": "$10",
+              "tags": []
+            },
+            {
+              "name": "Bavarian Soft Pretzel",
+              "desc": "Warm, salted, and golden, served with beer cheese for dipping.",
+              "price": "$7",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Annex Smash Double",
+              "desc": "Two thin smashed patties, crispy edges, caramelized onions, and melty cheese.",
+              "price": "$13",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Basket of Fries",
+              "desc": "Golden, crispy, and salted, perfect for sharing or not sharing at all.",
+              "price": "$5",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "whats-on",
+          "name": "What's On",
+          "blurb": "The reasons downtown DeKalb keeps ending up at Lord Stanley's.",
+          "items": [
+            {
+              "name": "Trivia Night",
+              "desc": "Tuesday nights. Round up your team, talk smack, and play for bar tabs and bragging rights.",
+              "price": "Free",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Live Music Weekends",
+              "desc": "Local bands and acoustic sets in the Annex. Cold beer and a good crowd, every weekend.",
+              "price": "Free",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Game Day on the Big Screens",
+              "desc": "Huskies, pro games, and the big matchups with sound on and specials pouring.",
+              "price": "Free",
+              "tags": []
+            },
+            {
+              "name": "Open Mic Night",
+              "desc": "Grab the mic or grab a seat. The stage is open and the room's always friendly.",
+              "price": "Free",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "specials",
+          "name": "Specials",
+          "blurb": "Happy hour and daily deals that keep the good times affordable.",
+          "items": [
+            {
+              "name": "Happy Hour",
+              "desc": "Monday through Friday, 3 to 6 PM. Discount drafts, well drinks, and apps.",
+              "price": "$4",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Pint & Pretzel Combo",
+              "desc": "A cold draft pour paired with a warm Bavarian pretzel and beer cheese.",
+              "price": "$10",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Late-Night Half-Price Apps",
+              "desc": "After 10 PM, knock half off the pub grub favorites to close out the night.",
+              "price": "From $5",
+              "tags": []
+            },
+            {
+              "name": "Huskie Student Special",
+              "desc": "Show your NIU ID for a draft and basket of fries at the student price.",
+              "price": "$5",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Weekend Bloody Mary",
+              "desc": "Our loaded weekend pour, garnished the way a weekend deserves.",
+              "price": "$7",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Downtown DeKalb's Living Room",
+      "lead": "Lord Stanley's and Annex is an independent neighborhood pub and bar where cold drafts, good music, and the NIU crowd come together right in the heart of downtown.",
+      "paragraphs": [
+        "We're the kind of place you wander into for one and stay for three. Craft and local beer on tap, cocktails poured honest, trivia teams arguing over the final answer, and a band warming up in the Annex. It's loud when it should be and easy the rest of the time.",
+        "From students and locals to anyone looking for their go-to spot downtown, Lord Stanley's is built to be your local. Pull up a stool, catch the game, win at trivia, and let the kitchen keep the pub grub coming late into the night."
+      ],
+      "stats": [
+        {
+          "value": "Local",
+          "label": "Independent Pub"
+        },
+        {
+          "value": "Late",
+          "label": "Pub Grub Nightly"
+        },
+        {
+          "value": "Live",
+          "label": "Music & Trivia"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Inside the Pub",
+      "subheading": "A look at the cold pours, packed trivia nights, and easy downtown energy.",
+      "captions": [
+        "Cold craft drafts lined up at the bar",
+        "Packed tables on trivia night",
+        "Live music lighting up the Annex",
+        "The Stanley Stack burger and a basket of fries",
+        "Game day on the big screens",
+        "Last call with the downtown crowd"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Is Saying",
+      "items": [
+        {
+          "quote": "My favorite bar downtown, hands down. Great taps, trivia on Tuesdays, and the staff actually remembers you. This is my local.",
+          "name": "Tyler M.",
+          "role": "NIU student"
+        },
+        {
+          "quote": "We come for the live music in the Annex and stay way too late. Cold beer, good crowd, solid burgers. Can't beat it.",
+          "name": "Carla R.",
+          "role": "DeKalb regular"
+        },
+        {
+          "quote": "Best spot to catch a game in town. Big screens, half-price late apps, and a happy hour that's genuinely a deal.",
+          "name": "Devon P.",
+          "role": "Local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Find Us Downtown",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Thursday",
+          "time": "3:00 PM - 12:00 AM"
+        },
+        {
+          "day": "Friday - Saturday",
+          "time": "11:00 AM - 2:00 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM - 12:00 AM"
+        }
+      ],
+      "phoneLabel": "Stop By",
+      "directions": "Find us at 142 East Lincoln Highway in the heart of downtown DeKalb, just steps from NIU. Walk in, pull up a stool, and ask what's on tap. Reach out through the form to plan a group night or ask about events."
+    },
+    "cta": {
+      "heading": "Your Local Is Waiting",
+      "text": "Cold drafts, trivia, live music, and late-night grub in downtown DeKalb. Send us a note to plan a group night, ask about events, or just see what's on.",
+      "button": "See What's On Tap"
+    },
+    "form": {
+      "heading": "Get in Touch",
+      "subheading": "Planning a group night, booking the Annex for an event, or just have a question? Drop us a line and we'll get right back to you.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Group Size",
+      "date": "Preferred Date/Time",
+      "message": "What's the occasion? Tell us how we can help.",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thanks! We got your message and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Downtown DeKalb's independent neighborhood pub. Cold beer, live music, trivia, and late-night grub. Your local.",
+      "rights": "© Lord Stanley's and Annex. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Lord Stanley's and Annex | Bar y Pub de Barrio en DeKalb, IL",
+      "description": "El pub de barrio del centro de DeKalb. Cerveza artesanal bien fría, noches de trivia, música en vivo y comida de bar hasta tarde, a pasos de NIU."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nosotros",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Eventos"
+    },
+    "hero": {
+      "eyebrow": "El Pub de Barrio del Centro de DeKalb",
+      "title": "Cerveza Fría, Buena Gente,",
+      "titleAccent": "Tu Bar de Siempre",
+      "subtitle": "Un bar y pub independiente en pleno centro de DeKalb. Cervezas artesanales y locales de barril, noches de trivia, música en vivo y comida de bar hasta tarde con la buena onda del público de NIU. Agarra un banco, este es el tuyo.",
+      "ctaPrimary": "Ver lo que hay",
+      "ctaSecondary": "Planea tu Visita",
+      "badge": "Independiente y Local · Cervezas Artesanales · Trivia y Música en Vivo"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Siempre Hay Algo",
+        "text": "Noches de trivia, música en vivo y los partidos en las pantallas grandes. Por algo el centro termina aquí."
+      },
+      {
+        "icon": "star",
+        "title": "Artesanal y Local de Barril",
+        "text": "Una selección rotativa de cervezas artesanales y de Illinois bien frías, más cócteles y tragos sencillos que no vacían el bolsillo."
+      },
+      {
+        "icon": "heart",
+        "title": "Tu Bar de Barrio",
+        "text": "Un pub independiente y local donde los clientes de siempre te conocen por nombre y el público de NIU se siente como en casa."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Comida de Bar Hasta Tarde",
+        "text": "Hamburguesas, alitas, nachos y pretzels calientes servidos hasta tarde, porque la noche apenas empieza."
+      }
+    ],
+    "menu": {
+      "heading": "En el Menú",
+      "subheading": "Las bebidas, la comida, los eventos y los precios mostrados son contenido demostrativo e ilustrativo para este sitio de muestra. Pásate para conocer los barriles, las promociones y la programación real.",
+      "categories": [
+        {
+          "id": "on-tap-drinks",
+          "name": "De Barril y Bebidas",
+          "blurb": "Cervezas artesanales y locales bien frías, cócteles honestos y tragos servidos como se debe.",
+          "items": [
+            {
+              "name": "Barril Artesanal Rotativo",
+              "desc": "Pregunta qué hay servido. Nuestros barriles rotan con selecciones artesanales frescas toda la semana.",
+              "price": "$6",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Cerveza Local de Illinois",
+              "desc": "Una llave rotativa dedicada a las cervecerías de aquí mismo en Illinois.",
+              "price": "$6",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Old Fashioned de la Casa",
+              "desc": "Bourbon, amargos y cáscara de naranja, revuelto como debe ser.",
+              "price": "$9",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Margarita Frozen",
+              "desc": "Tequila, limón y borde con sal, bien fría y hecha para una noche larga.",
+              "price": "$8",
+              "tags": []
+            },
+            {
+              "name": "Tragos Sencillos",
+              "desc": "Tú eliges con los licores de la barra. Simples, fuertes y suaves con el bolsillo.",
+              "price": "$5",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Latas y Botellas Nacionales",
+              "desc": "Las de siempre, bien heladas para cuando solo quieres una fría.",
+              "price": "$4",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pub-grub",
+          "name": "Comida de Bar",
+          "blurb": "Ese tipo de comida que baja bien con una cerveza fría, servida hasta tarde.",
+          "items": [
+            {
+              "name": "Hamburguesa Stanley Stack",
+              "desc": "Doble carne smash, queso americano, pepinillos y salsa de la casa en pan tostado.",
+              "price": "$12",
+              "tags": [
+                "popular",
+                "signature"
+              ]
+            },
+            {
+              "name": "Alitas Buffalo (10)",
+              "desc": "Alitas jumbo crujientes bañadas en salsa buffalo clásica, con ranch o queso azul.",
+              "price": "$11",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Nachos Cargados del Pub",
+              "desc": "Una montaña de totopos con queso derretido, jalapeños, pico y crema.",
+              "price": "$10",
+              "tags": []
+            },
+            {
+              "name": "Pretzel Bávaro",
+              "desc": "Caliente, salado y doradito, servido con salsa de queso y cerveza para mojar.",
+              "price": "$7",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Doble Smash del Annex",
+              "desc": "Dos carnes finas estilo smash, bordes crujientes, cebolla caramelizada y queso derretido.",
+              "price": "$13",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Canasta de Papas Fritas",
+              "desc": "Doradas, crujientes y saladas, perfectas para compartir o no compartir nada.",
+              "price": "$5",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "whats-on",
+          "name": "Eventos",
+          "blurb": "Las razones por las que el centro de DeKalb siempre termina en Lord Stanley's.",
+          "items": [
+            {
+              "name": "Noche de Trivia",
+              "desc": "Los martes. Junta a tu equipo, échale ganas y juega por consumo gratis y el derecho a presumir.",
+              "price": "Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Música en Vivo los Fines de Semana",
+              "desc": "Bandas locales y sets acústicos en el Annex. Cerveza fría y buen ambiente, cada fin de semana.",
+              "price": "Gratis",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Día de Partido en las Pantallas Grandes",
+              "desc": "Los Huskies, los juegos profesionales y los partidazos con sonido y promociones servidas.",
+              "price": "Gratis",
+              "tags": []
+            },
+            {
+              "name": "Noche de Micrófono Abierto",
+              "desc": "Agarra el micrófono o agarra una silla. El escenario está abierto y el ambiente siempre es buena onda.",
+              "price": "Gratis",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "specials",
+          "name": "Promociones",
+          "blurb": "Happy hour y ofertas diarias que mantienen los buenos ratos a buen precio.",
+          "items": [
+            {
+              "name": "Happy Hour",
+              "desc": "De lunes a viernes, de 3 a 6 PM. Barriles, tragos y aperitivos con descuento.",
+              "price": "$4",
+              "tags": [
+                "popular",
+                "value"
+              ]
+            },
+            {
+              "name": "Combo Cerveza y Pretzel",
+              "desc": "Una cerveza fría de barril con un pretzel bávaro caliente y salsa de queso.",
+              "price": "$10",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Aperitivos a Mitad de Precio Hasta Tarde",
+              "desc": "Después de las 10 PM, mitad de precio en los favoritos del pub para cerrar la noche.",
+              "price": "Desde $5",
+              "tags": []
+            },
+            {
+              "name": "Especial Estudiante Huskie",
+              "desc": "Muestra tu credencial de NIU por una cerveza de barril y una canasta de papas a precio de estudiante.",
+              "price": "$5",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Bloody Mary de Fin de Semana",
+              "desc": "Nuestra preparación cargada de fin de semana, decorada como un fin de semana merece.",
+              "price": "$7",
+              "tags": [
+                "new"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "La Sala del Centro de DeKalb",
+      "lead": "Lord Stanley's and Annex es un bar y pub de barrio independiente donde las cervezas frías, la buena música y el público de NIU se juntan en pleno corazón del centro.",
+      "paragraphs": [
+        "Somos ese tipo de lugar al que entras por una y te quedas por tres. Cerveza artesanal y local de barril, cócteles servidos honestos, equipos de trivia discutiendo la respuesta final y una banda afinando en el Annex. Hace ruido cuando debe y se pone tranquilo el resto del tiempo.",
+        "Desde estudiantes y locales hasta cualquiera que busque su lugar de siempre en el centro, Lord Stanley's está hecho para ser tu bar de barrio. Agarra un banco, mira el partido, gana en la trivia y deja que la cocina siga sacando comida de bar hasta entrada la noche."
+      ],
+      "stats": [
+        {
+          "value": "Local",
+          "label": "Pub Independiente"
+        },
+        {
+          "value": "Tarde",
+          "label": "Comida de Bar a Diario"
+        },
+        {
+          "value": "En Vivo",
+          "label": "Música y Trivia"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Por Dentro del Pub",
+      "subheading": "Un vistazo a las cervezas frías, las noches de trivia llenas y la buena onda del centro.",
+      "captions": [
+        "Cervezas artesanales frías alineadas en la barra",
+        "Mesas llenas en la noche de trivia",
+        "Música en vivo encendiendo el Annex",
+        "La hamburguesa Stanley Stack y una canasta de papas",
+        "Día de partido en las pantallas grandes",
+        "Última ronda con el público del centro"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dice DeKalb",
+      "items": [
+        {
+          "quote": "Mi bar favorito del centro, sin duda. Buenos barriles, trivia los martes y el personal de verdad te recuerda. Este es mi lugar.",
+          "name": "Tyler M.",
+          "role": "Estudiante de NIU"
+        },
+        {
+          "quote": "Venimos por la música en vivo en el Annex y nos quedamos hasta demasiado tarde. Cerveza fría, buen ambiente y hamburguesas de las buenas. Imbatible.",
+          "name": "Carla R.",
+          "role": "Cliente frecuente en DeKalb"
+        },
+        {
+          "quote": "El mejor lugar para ver un partido en la ciudad. Pantallas grandes, aperitivos a mitad de precio hasta tarde y un happy hour que de verdad vale la pena.",
+          "name": "Devon P.",
+          "role": "Cliente local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Encuéntranos en el Centro",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Jueves",
+          "time": "3:00 PM - 12:00 AM"
+        },
+        {
+          "day": "Viernes - Sábado",
+          "time": "11:00 AM - 2:00 AM"
+        },
+        {
+          "day": "Domingo",
+          "time": "11:00 AM - 12:00 AM"
+        }
+      ],
+      "phoneLabel": "Pásate",
+      "directions": "Encuéntranos en 142 East Lincoln Highway, en pleno centro de DeKalb, a pasos de NIU. Entra, agarra un banco y pregunta qué hay de barril. Escríbenos por el formulario para planear una noche de grupo o preguntar por los eventos."
+    },
+    "cta": {
+      "heading": "Tu Bar de Siempre te Espera",
+      "text": "Cervezas frías, trivia, música en vivo y comida hasta tarde en el centro de DeKalb. Escríbenos para planear una noche de grupo, preguntar por los eventos o ver qué hay.",
+      "button": "Ver lo que hay"
+    },
+    "form": {
+      "heading": "Contáctanos",
+      "subheading": "¿Planeas una noche de grupo, reservar el Annex para un evento o solo tienes una pregunta? Escríbenos y te respondemos enseguida.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Tamaño del Grupo",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cuál es la ocasión? Cuéntanos cómo podemos ayudarte.",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "El pub de barrio independiente del centro de DeKalb. Cerveza fría, música en vivo, trivia y comida hasta tarde. Tu bar de siempre.",
+      "rights": "© Lord Stanley's and Annex. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

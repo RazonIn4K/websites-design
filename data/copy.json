@@ -1,0 +1,872 @@
+{
+  "business": {
+    "name": "Flamengo Restaurant and Ice Cream",
+    "shortName": "Flamengo",
+    "vertical": "Mexican restaurant & ice cream",
+    "phone": "(815) 901-0049",
+    "phoneHref": "+18159010049",
+    "address": "1029 Pleasant Street",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Flamengo Restaurant and Ice Cream, 1029 Pleasant Street, DeKalb, IL 60115"
+  },
+  "en": {
+    "meta": {
+      "title": "Flamengo Restaurant & Ice Cream — Authentic Mexican Food in DeKalb, IL",
+      "description": "Family-owned Mexican restaurant and nieves shop in DeKalb, IL. Handmade tacos, classic platillos, and fresh-churned ice cream & paletas. Dine in or carry out — (815) 901-0049."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "Our Story",
+      "gallery": "Gallery",
+      "visit": "Visit Us",
+      "order": "Order Now"
+    },
+    "hero": {
+      "eyebrow": "Authentic Mexican Flavors in DeKalb",
+      "title": "Real Food.",
+      "titleAccent": "Real Family.",
+      "subtitle": "From slow-simmered salsas to hand-packed nieves, every bite at Flamengo is made with love, tradition, and the freshest ingredients we can find.",
+      "ctaPrimary": "View Our Menu",
+      "ctaSecondary": "Call to Order",
+      "badge": "Family-Owned & Made Fresh Daily"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Cooked From Scratch",
+        "text": "Our sauces, marinades, and salsas are prepared fresh every morning using time-honored family recipes — no shortcuts, ever."
+      },
+      {
+        "icon": "leaf",
+        "title": "Fresh, Quality Ingredients",
+        "text": "We source the ripest chiles, freshest herbs, and finest cuts so every taco and plate tastes the way it was meant to."
+      },
+      {
+        "icon": "icecream",
+        "title": "Handcrafted Nieves & Paletas",
+        "text": "Our ice cream and paletas are churned and frozen in-house daily — classic Mexican flavors like tamarindo, horchata, and fresh strawberry."
+      },
+      {
+        "icon": "heart",
+        "title": "Community & Family",
+        "text": "Rooted in DeKalb's vibrant Latino community, Flamengo is a place where neighbors become family and every guest is welcomed at the table."
+      }
+    ],
+    "menu": {
+      "heading": "Our Menu",
+      "subheading": "Handmade with tradition. Priced for everyone. Illustrated prices are for demo purposes — please call for current pricing.",
+      "categories": [
+        {
+          "id": "antojitos",
+          "name": "Antojitos & Starters",
+          "blurb": "Little bites, big flavor — perfect for sharing before the main event.",
+          "items": [
+            {
+              "name": "Guacamole de Molcajete",
+              "desc": "Hand-mashed avocado with lime, cilantro, white onion, serrano, and tomato. Served with warm tortilla chips.",
+              "price": "$8.99",
+              "tags": [
+                "popular",
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Elote Callejero",
+              "desc": "Grilled corn on the cob slathered with crema, cotija cheese, chili powder, and fresh lime.",
+              "price": "$4.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Tostadas de Tinga",
+              "desc": "Crispy tostadas topped with chipotle-braised chicken tinga, refried beans, lettuce, crema, and queso fresco.",
+              "price": "$9.99",
+              "tags": []
+            },
+            {
+              "name": "Flautas Doradas",
+              "desc": "Three rolled and fried corn tortillas filled with seasoned potato and cheese, served with salsa verde and crema.",
+              "price": "$8.49",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Sopa de Tortilla",
+              "desc": "Rich tomato-chile broth with crispy tortilla strips, avocado, queso fresco, crema, and a squeeze of lime.",
+              "price": "$6.99",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "tacos",
+          "name": "Tacos",
+          "blurb": "Served on double corn tortillas with fresh cilantro, white onion, and your choice of salsa.",
+          "items": [
+            {
+              "name": "Taco de Carnitas",
+              "desc": "Slow-braised pork carnitas with a crispy edge, topped with salsa verde, cilantro, and pickled red onion.",
+              "price": "$3.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Taco al Pastor",
+              "desc": "Marinated pork cooked on a vertical spit, served with pineapple, onion, cilantro, and house red salsa.",
+              "price": "$3.99",
+              "tags": [
+                "popular",
+                "spicy"
+              ]
+            },
+            {
+              "name": "Taco de Birria",
+              "desc": "Tender beef birria braised in a complex chile-tomato consommé, dipped and griddled. Served with consommé for dipping.",
+              "price": "$4.99",
+              "tags": [
+                "popular",
+                "spicy"
+              ]
+            },
+            {
+              "name": "Taco de Lengua",
+              "desc": "Slow-cooked beef tongue, tender and richly seasoned, with a house salsa and fresh cilantro.",
+              "price": "$4.49",
+              "tags": []
+            },
+            {
+              "name": "Taco de Camarón",
+              "desc": "Sautéed Gulf shrimp with garlic, butter, and chile de árbol, topped with shredded cabbage and chipotle mayo.",
+              "price": "$4.99",
+              "tags": []
+            },
+            {
+              "name": "Taco Vegetal",
+              "desc": "Grilled cactus (nopal), black beans, roasted peppers, and Oaxacan cheese on a warm corn tortilla.",
+              "price": "$3.49",
+              "tags": [
+                "vegetarian"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "platillos",
+          "name": "Platillos Principales",
+          "blurb": "Hearty plates to satisfy — served with rice, refried beans, and warm tortillas.",
+          "items": [
+            {
+              "name": "Chile Relleno",
+              "desc": "Roasted poblano pepper stuffed with seasoned beef picadillo and melted cheese, finished in a light tomato sauce.",
+              "price": "$14.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Enchiladas Verdes",
+              "desc": "Three corn tortillas filled with shredded chicken, bathed in tangy tomatillo salsa verde, topped with crema and cotija.",
+              "price": "$13.99",
+              "tags": []
+            },
+            {
+              "name": "Mole Rojo con Pollo",
+              "desc": "Tender braised chicken in a deep, complex house mole rojo made from dried chiles, chocolate, and warm spices.",
+              "price": "$15.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Carne Asada a la Mexicana",
+              "desc": "Grilled skirt steak with sautéed tomatoes, jalapeño, and onion. Served with rice, beans, and warm tortillas.",
+              "price": "$17.99",
+              "tags": []
+            },
+            {
+              "name": "Pozole Rojo",
+              "desc": "A generous bowl of hominy and tender pork in a rich red chile broth, garnished with cabbage, radish, oregano, and lime.",
+              "price": "$13.99",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "especialidades",
+          "name": "Especialidades de la Casa",
+          "blurb": "Chef's signatures — dishes we're especially proud to put on the table.",
+          "items": [
+            {
+              "name": "Plato Flamengo",
+              "desc": "Our signature combo: two tacos al pastor, a chile relleno, and a tamale with house red salsa, rice, and beans.",
+              "price": "$18.99",
+              "tags": [
+                "popular",
+                "house special"
+              ]
+            },
+            {
+              "name": "Tamales de Rajas con Queso",
+              "desc": "Housemade masa steamed in corn husks with strips of roasted poblano and melted Chihuahua cheese. Order of three.",
+              "price": "$10.99",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Camarones a la Diabla",
+              "desc": "Jumbo shrimp in a fiery chile de árbol and guajillo sauce, served over white rice with warm tortillas.",
+              "price": "$18.99",
+              "tags": [
+                "spicy"
+              ]
+            },
+            {
+              "name": "Carnitas por Kilo",
+              "desc": "A full pound of our slow-braised, crispy-edged pork carnitas. Perfect for sharing. Comes with tortillas, salsas, onion, and cilantro.",
+              "price": "$24.99",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "helados",
+          "name": "Nieves, Helados & Paletas",
+          "blurb": "Handcrafted in-house daily using real fruit and authentic Mexican flavors.",
+          "items": [
+            {
+              "name": "Nieve de Horchata",
+              "desc": "Creamy rice and cinnamon ice cream — the classic Mexican drink, frozen to perfection.",
+              "price": "$3.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Nieve de Tamarindo",
+              "desc": "Bold, tangy tamarind sorbet with a hint of chile-salt. Sweet, sour, and a little spicy.",
+              "price": "$3.99",
+              "tags": [
+                "popular",
+                "spicy"
+              ]
+            },
+            {
+              "name": "Nieve de Fresa Natural",
+              "desc": "Fresh strawberry ice cream made with real berries — bright, sweet, and unmistakably fresh.",
+              "price": "$3.99",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Paleta de Mango con Chile",
+              "desc": "Ripe mango popsicle dusted with tajín and a squeeze of lime. A street-cart classic.",
+              "price": "$2.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Paleta de Coco",
+              "desc": "Creamy coconut popsicle with shredded coconut throughout — rich and tropical.",
+              "price": "$2.99",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Copa Loca",
+              "desc": "Your choice of two scoops, fresh fruit, chamoy, tajín, gummies, and a tamarind straw. A full fiesta in a cup.",
+              "price": "$6.99",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bebidas",
+          "name": "Bebidas",
+          "blurb": "Refresh yourself with our housemade drinks and classic Mexican beverages.",
+          "items": [
+            {
+              "name": "Agua de Jamaica",
+              "desc": "Iced hibiscus flower tea, lightly sweetened and deeply refreshing.",
+              "price": "$2.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Agua de Horchata",
+              "desc": "Classic creamy rice water with cinnamon — served over ice.",
+              "price": "$2.99",
+              "tags": []
+            },
+            {
+              "name": "Limonada Mineral",
+              "desc": "Sparkling water with fresh-squeezed lime juice and a pinch of salt.",
+              "price": "$2.99",
+              "tags": []
+            },
+            {
+              "name": "Jarritos",
+              "desc": "Imported Mexican soda in your choice of tamarindo, mandarina, or toronja.",
+              "price": "$2.49",
+              "tags": []
+            },
+            {
+              "name": "Café de Olla",
+              "desc": "Traditional Mexican coffee brewed with cinnamon and piloncillo, served hot.",
+              "price": "$2.99",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Our Story",
+      "lead": "Flamengo started with a simple idea: bring the flavors of home to the heart of DeKalb.",
+      "paragraphs": [
+        "We are a family-owned restaurant rooted in the traditions of Mexican home cooking. Every recipe we serve has been passed down and perfected over generations — from our slow-simmered moles and hand-pressed tortillas to the nieves and paletas we churn fresh every morning. We believe food is more than sustenance; it is memory, love, and community served on a plate.",
+        "DeKalb is our home, and its vibrant, diverse community inspires everything we do. Whether you are a Northern Illinois University student craving something from home, a longtime DeKalb resident exploring new flavors, or a family looking for a place where everyone feels welcome — Flamengo is your table. Pull up a chair."
+      ],
+      "stats": [
+        {
+          "value": "100%",
+          "label": "Made From Scratch"
+        },
+        {
+          "value": "Fresh",
+          "label": "Nieves Churned Daily"
+        },
+        {
+          "value": "Family",
+          "label": "Owned & Operated"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "A Feast for the Eyes",
+      "subheading": "Every dish is as beautiful as it is delicious.",
+      "captions": [
+        "Tacos al Pastor with fresh pineapple and salsa roja",
+        "Our housemade guacamole, mashed to order",
+        "A Copa Loca loaded with fresh mango and chamoy",
+        "Slow-braised birria tacos with rich consommé",
+        "Vibrant agua de jamaica and horchata side by side",
+        "Paletas de mango con chile — a classic afternoon treat"
+      ]
+    },
+    "testimonials": {
+      "heading": "What Our Neighbors Are Saying",
+      "items": [
+        {
+          "quote": "The birria tacos here are the real deal — rich, deeply flavored consommé and perfectly crispy tortillas. I've driven from Rockford twice just for these.",
+          "name": "Maria G.",
+          "role": "Regular Guest"
+        },
+        {
+          "quote": "As an NIU student far from home, Flamengo is my comfort food spot. The mole rojo tastes exactly like my grandma's. These people cook with soul.",
+          "name": "Carlos M.",
+          "role": "NIU Student"
+        },
+        {
+          "quote": "We had a birthday party for our daughter and ordered the nieves and paletas for the whole crew. Every single flavor was a hit. Absolutely will be back!",
+          "name": "Sandra R.",
+          "role": "DeKalb Local"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Come Visit Us",
+      "addressLabel": "Location",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday",
+          "time": "Closed"
+        },
+        {
+          "day": "Tuesday – Thursday",
+          "time": "11:00 AM – 9:00 PM"
+        },
+        {
+          "day": "Friday – Saturday",
+          "time": "10:00 AM – 10:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "10:00 AM – 8:00 PM"
+        }
+      ],
+      "phoneLabel": "Phone",
+      "directions": "Get Directions"
+    },
+    "cta": {
+      "heading": "Hungry? Let's Fix That.",
+      "text": "Call us to place a carry-out order, check today's specials, or ask about catering for your next event.",
+      "button": "Call (815) 901-0049"
+    },
+    "form": {
+      "heading": "Make a Reservation",
+      "subheading": "Reserve your table or reach out with any questions — we'll get back to you quickly.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Party Size",
+      "date": "Preferred Date & Time",
+      "message": "Message or Special Requests",
+      "submit": "Send Message",
+      "sending": "Sending…",
+      "success": "Thanks! We'll be in touch shortly.",
+      "error": "Something went wrong. Please call us directly at (815) 901-0049.",
+      "consent": "By submitting this form you agree to be contacted about your reservation."
+    },
+    "footer": {
+      "tagline": "Authentic Mexican food & handcrafted ice cream in the heart of DeKalb, IL.",
+      "rights": "© Flamengo Restaurant and Ice Cream. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Flamengo Restaurant & Ice Cream — Comida Mexicana Auténtica en DeKalb, IL",
+      "description": "Restaurante mexicano y nevería familiar en DeKalb, IL. Tacos artesanales, platillos tradicionales y nieves y paletas preparadas a diario. Para comer aquí o para llevar — (815) 901-0049."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "about": "Nuestra Historia",
+      "gallery": "Galería",
+      "visit": "Visítanos",
+      "order": "Ordenar Ahora"
+    },
+    "hero": {
+      "eyebrow": "Sabores Mexicanos Auténticos en DeKalb",
+      "title": "Comida de Verdad.",
+      "titleAccent": "Familia de Verdad.",
+      "subtitle": "Desde las salsas cocidas a fuego lento hasta las nieves preparadas a mano, cada bocado en Flamengo está hecho con amor, tradición y los ingredientes más frescos que encontramos.",
+      "ctaPrimary": "Ver Nuestro Menú",
+      "ctaSecondary": "Llámanos para Ordenar",
+      "badge": "Negocio Familiar · Hecho Fresco Cada Día"
+    },
+    "highlights": [
+      {
+        "icon": "flame",
+        "title": "Cocinado Desde Cero",
+        "text": "Nuestras salsas, adobos y caldos se preparan frescos cada mañana siguiendo recetas familiares de toda la vida — sin atajos, siempre con sabor."
+      },
+      {
+        "icon": "leaf",
+        "title": "Ingredientes Frescos y de Calidad",
+        "text": "Buscamos los chiles más frescos, las hierbas más aromáticas y los mejores cortes para que cada taco y platillo sepa como debe saber."
+      },
+      {
+        "icon": "icecream",
+        "title": "Nieves y Paletas Artesanales",
+        "text": "Nuestras nieves y paletas se hacen y congelan en casa todos los días — sabores clásicos mexicanos como tamarindo, horchata y fresa natural."
+      },
+      {
+        "icon": "heart",
+        "title": "Comunidad y Familia",
+        "text": "Arraigados en la vibrante comunidad latina de DeKalb, en Flamengo los vecinos se vuelven familia y cada cliente es bienvenido a nuestra mesa."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestro Menú",
+      "subheading": "Hecho a mano con tradición. Con precios para todos. Los precios indicados son ilustrativos — por favor llámanos para los precios actuales.",
+      "categories": [
+        {
+          "id": "antojitos",
+          "name": "Antojitos y Entradas",
+          "blurb": "Bocadillos con mucho sabor — perfectos para compartir antes del plato fuerte.",
+          "items": [
+            {
+              "name": "Guacamole de Molcajete",
+              "desc": "Aguacate machacado a mano con limón, cilantro, cebolla blanca, serrano y jitomate. Se sirve con totopos calientes.",
+              "price": "$8.99",
+              "tags": [
+                "popular",
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Elote Callejero",
+              "desc": "Elote asado untado con crema, queso cotija, chile piquín y limón fresco.",
+              "price": "$4.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Tostadas de Tinga",
+              "desc": "Tostadas crujientes con tinga de pollo al chipotle, frijoles refritos, lechuga, crema y queso fresco.",
+              "price": "$9.99",
+              "tags": []
+            },
+            {
+              "name": "Flautas Doradas",
+              "desc": "Tres taquitos de maíz rellenos de papa con queso, dorados al punto. Se sirven con salsa verde y crema.",
+              "price": "$8.49",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Sopa de Tortilla",
+              "desc": "Caldo rico de jitomate y chile con tiras de tortilla crujientes, aguacate, queso fresco, crema y limón.",
+              "price": "$6.99",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "tacos",
+          "name": "Tacos",
+          "blurb": "Servidos en doble tortilla de maíz con cilantro fresco, cebolla blanca y tu salsa favorita.",
+          "items": [
+            {
+              "name": "Taco de Carnitas",
+              "desc": "Carnitas de cerdo cocidas a fuego lento con un toque doradito, con salsa verde, cilantro y cebolla morada curtida.",
+              "price": "$3.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Taco al Pastor",
+              "desc": "Cerdo marinado en achiote y chiles, asado en trompo, con piña, cebolla, cilantro y salsa roja de la casa.",
+              "price": "$3.99",
+              "tags": [
+                "popular",
+                "spicy"
+              ]
+            },
+            {
+              "name": "Taco de Birria",
+              "desc": "Carne de res guisada en un rico consomé de chile y jitomate, dorado en comal. Se sirve con consomé para mojar.",
+              "price": "$4.99",
+              "tags": [
+                "popular",
+                "spicy"
+              ]
+            },
+            {
+              "name": "Taco de Lengua",
+              "desc": "Lengua de res cocida lentamente hasta quedar suave y sabrosa, con salsa de la casa y cilantro fresco.",
+              "price": "$4.49",
+              "tags": []
+            },
+            {
+              "name": "Taco de Camarón",
+              "desc": "Camarón salteado con ajo, mantequilla y chile de árbol, con col rallada y mayonesa de chipotle.",
+              "price": "$4.99",
+              "tags": []
+            },
+            {
+              "name": "Taco Vegetal",
+              "desc": "Nopal asado, frijoles negros, rajas de chile asadas y queso oaxaqueño en tortilla de maíz caliente.",
+              "price": "$3.49",
+              "tags": [
+                "vegetarian"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "platillos",
+          "name": "Platillos Principales",
+          "blurb": "Platos contundentes que satisfacen — servidos con arroz rojo, frijoles refritos y tortillas calientes.",
+          "items": [
+            {
+              "name": "Chile Relleno",
+              "desc": "Chile poblano asado y relleno de picadillo de carne molida con queso fundido, en salsa de jitomate.",
+              "price": "$14.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Enchiladas Verdes",
+              "desc": "Tres tortillas de maíz rellenas de pollo deshebrado, bañadas en salsa verde de tomatillo, con crema y cotija.",
+              "price": "$13.99",
+              "tags": []
+            },
+            {
+              "name": "Mole Rojo con Pollo",
+              "desc": "Pollo tierno estofado en mole rojo de la casa, preparado con chiles secos, chocolate y especias.",
+              "price": "$15.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Carne Asada a la Mexicana",
+              "desc": "Arrachera asada al comal con jitomate, jalapeño y cebolla salteados. Se sirve con arroz, frijoles y tortillas.",
+              "price": "$17.99",
+              "tags": []
+            },
+            {
+              "name": "Pozole Rojo",
+              "desc": "Un tazón generoso de maíz cacahuazintle con cerdo tierno en caldo rojo de chile, con col, rábano, orégano y limón.",
+              "price": "$13.99",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "especialidades",
+          "name": "Especialidades de la Casa",
+          "blurb": "Las firmas del chef — platillos de los que estamos especialmente orgullosos de servir.",
+          "items": [
+            {
+              "name": "Plato Flamengo",
+              "desc": "Nuestro combo especial: dos tacos al pastor, un chile relleno y un tamal con salsa roja, arroz y frijoles.",
+              "price": "$18.99",
+              "tags": [
+                "popular",
+                "house special"
+              ]
+            },
+            {
+              "name": "Tamales de Rajas con Queso",
+              "desc": "Masa artesanal cocida al vapor en hoja de maíz, rellena de rajas de poblano asadas y queso Chihuahua. Orden de tres.",
+              "price": "$10.99",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Camarones a la Diabla",
+              "desc": "Camarones jumbo en salsa ardiente de chile de árbol y guajillo, servidos sobre arroz blanco y tortillas.",
+              "price": "$18.99",
+              "tags": [
+                "spicy"
+              ]
+            },
+            {
+              "name": "Carnitas por Kilo",
+              "desc": "Medio kilo de carnitas de cerdo doraditas y jugosas. Ideal para compartir. Incluye tortillas, salsas, cebolla y cilantro.",
+              "price": "$24.99",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "helados",
+          "name": "Nieves, Helados y Paletas",
+          "blurb": "Preparados en casa todos los días con fruta natural y sabores mexicanos auténticos.",
+          "items": [
+            {
+              "name": "Nieve de Horchata",
+              "desc": "Helado cremoso de arroz con canela — la bebida clásica mexicana, convertida en nieve perfecta.",
+              "price": "$3.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Nieve de Tamarindo",
+              "desc": "Nieve agridulce de tamarindo con un toque de chile-sal. Dulce, ácida y con su picadito.",
+              "price": "$3.99",
+              "tags": [
+                "popular",
+                "spicy"
+              ]
+            },
+            {
+              "name": "Nieve de Fresa Natural",
+              "desc": "Helado de fresa hecho con fruta de verdad — brillante, dulce e inconfundiblemente fresco.",
+              "price": "$3.99",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Paleta de Mango con Chile",
+              "desc": "Paleta de mango maduro espolvoreada con tajín y limón. Un clásico del carrito.",
+              "price": "$2.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Paleta de Coco",
+              "desc": "Paleta cremosa de coco con coco rallado por dentro — rica y tropical.",
+              "price": "$2.99",
+              "tags": [
+                "vegetarian"
+              ]
+            },
+            {
+              "name": "Copa Loca",
+              "desc": "Tu elección de dos bolas de nieve, fruta fresca, chamoy, tajín, gomitas y popote de tamarindo. Una fiesta completa en vaso.",
+              "price": "$6.99",
+              "tags": [
+                "popular"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bebidas",
+          "name": "Bebidas",
+          "blurb": "Refréscate con nuestras aguas frescas artesanales y bebidas mexicanas de siempre.",
+          "items": [
+            {
+              "name": "Agua de Jamaica",
+              "desc": "Infusión fría de flor de jamaica, ligeramente endulzada y muy refrescante.",
+              "price": "$2.99",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Agua de Horchata",
+              "desc": "Horchata clásica cremosa de arroz con canela — servida bien fría.",
+              "price": "$2.99",
+              "tags": []
+            },
+            {
+              "name": "Limonada Mineral",
+              "desc": "Agua mineral con jugo de limón recién exprimido y una pizca de sal.",
+              "price": "$2.99",
+              "tags": []
+            },
+            {
+              "name": "Jarritos",
+              "desc": "Refresco mexicano importado en sabor tamarindo, mandarina o toronja.",
+              "price": "$2.49",
+              "tags": []
+            },
+            {
+              "name": "Café de Olla",
+              "desc": "Café tradicional mexicano preparado con canela y piloncillo, servido caliente.",
+              "price": "$2.99",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Nuestra Historia",
+      "lead": "Flamengo nació de una idea sencilla: traer los sabores de casa al corazón de DeKalb.",
+      "paragraphs": [
+        "Somos un restaurante familiar arraigado en las tradiciones de la cocina mexicana de hogar. Cada receta que servimos ha pasado de generación en generación y ha sido perfeccionada con el tiempo — desde nuestros moles cocidos a fuego lento y las tortillas prensadas a mano, hasta las nieves y paletas que preparamos frescos cada mañana. Creemos que la comida es más que alimento: es recuerdo, es amor y es comunidad servida en un plato.",
+        "DeKalb es nuestro hogar, y su comunidad vibrante y diversa nos inspira en todo lo que hacemos. Ya seas estudiante de la Universidad del Norte de Illinois con ganas de algo de casa, un vecino de DeKalb que quiere descubrir nuevos sabores, o una familia que busca un lugar donde todos se sientan bienvenidos — en Flamengo tu mesa te espera. Jálate una silla."
+      ],
+      "stats": [
+        {
+          "value": "100%",
+          "label": "Hecho Desde Cero"
+        },
+        {
+          "value": "Fresco",
+          "label": "Nieves Preparadas a Diario"
+        },
+        {
+          "value": "Familia",
+          "label": "Negocio Familiar"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Un Festín para los Ojos",
+      "subheading": "Cada platillo es tan hermoso como delicioso.",
+      "captions": [
+        "Tacos al pastor con piña fresca y salsa roja",
+        "Nuestro guacamole de molcajete, hecho al momento",
+        "Copa Loca cargada de mango fresco y chamoy",
+        "Tacos de birria estofados en su rico consomé",
+        "Agua de jamaica y horchata, una al lado de la otra",
+        "Paletas de mango con chile — el antojo de la tarde"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen Nuestros Vecinos",
+      "items": [
+        {
+          "quote": "Los tacos de birria aquí son de verdad — consomé con mucho sabor y tortillas perfectamente doradas. He venido desde Rockford dos veces nomás por estos tacos.",
+          "name": "María G.",
+          "role": "Cliente Frecuente"
+        },
+        {
+          "quote": "Como estudiante de NIU lejos de casa, Flamengo es mi lugar de confort. El mole rojo sabe igual que el de mi abuela. Esta gente cocina con alma.",
+          "name": "Carlos M.",
+          "role": "Estudiante de NIU"
+        },
+        {
+          "quote": "Hicimos el cumpleaños de nuestra hija y pedimos nieves y paletas para todos. Cada sabor fue un éxito. ¡Definitivamente volvemos!",
+          "name": "Sandra R.",
+          "role": "Vecina de DeKalb"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Ven a Visitarnos",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes",
+          "time": "Cerrado"
+        },
+        {
+          "day": "Martes – Jueves",
+          "time": "11:00 a.m. – 9:00 p.m."
+        },
+        {
+          "day": "Viernes – Sábado",
+          "time": "10:00 a.m. – 10:00 p.m."
+        },
+        {
+          "day": "Domingo",
+          "time": "10:00 a.m. – 8:00 p.m."
+        }
+      ],
+      "phoneLabel": "Teléfono",
+      "directions": "Cómo Llegar"
+    },
+    "cta": {
+      "heading": "¿Con Hambre? Nosotros Te Ayudamos.",
+      "text": "Llámanos para ordenar para llevar, preguntar por los especiales del día o consultar sobre servicio de catering para tu próximo evento.",
+      "button": "Llamar al (815) 901-0049"
+    },
+    "form": {
+      "heading": "Haz una Reservación",
+      "subheading": "Reserva tu mesa o escríbenos con cualquier pregunta — te respondemos pronto.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Número de Personas",
+      "date": "Fecha y Hora Preferida",
+      "message": "Mensaje o Peticiones Especiales",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Nos pondremos en contacto contigo pronto.",
+      "error": "Algo salió mal. Por favor llámanos directamente al (815) 901-0049.",
+      "consent": "Al enviar este formulario aceptas ser contactado en relación con tu reservación."
+    },
+    "footer": {
+      "tagline": "Comida mexicana auténtica y nieves artesanales en el corazón de DeKalb, IL.",
+      "rights": "© Flamengo Restaurant and Ice Cream. Todos los derechos reservados.",
+      "quickLinks": "Accesos Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

@@ -1,0 +1,706 @@
+{
+  "business": {
+    "name": "Cronauer Law",
+    "shortName": "Cronauer Law",
+    "vertical": "Law Firm / Legal Services",
+    "phone": "(815) 895-8585",
+    "phoneHref": "+18158958585",
+    "address": "1101 DeKalb Avenue",
+    "city": "Sycamore",
+    "state": "IL",
+    "zip": "60178",
+    "mapsQuery": "Cronauer Law, 1101 DeKalb Avenue, Sycamore, IL 60178",
+    "lat": 41.9833606,
+    "lon": -88.702645
+  },
+  "en": {
+    "meta": {
+      "title": "Cronauer Law | Sycamore, IL Attorneys for DeKalb County Families",
+      "description": "Cronauer Law in Sycamore, IL: personal injury, family law, estate planning & criminal defense for DeKalb County. Free consultation, call (815) 895-8585."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Practice Areas",
+      "about": "About",
+      "gallery": "Our Office",
+      "visit": "Visit",
+      "order": "Free Consultation"
+    },
+    "hero": {
+      "eyebrow": "Sycamore & DeKalb County Attorneys",
+      "title": "Experienced Counsel,",
+      "titleAccent": "Personal Attention",
+      "subtitle": "From an injury claim to a divorce to planning your estate, Cronauer Law gives DeKalb County families straight talk and a steady hand. We listen first, explain your options clearly, and fight for what matters most to you.",
+      "ctaPrimary": "View Practice Areas",
+      "ctaSecondary": "Call (815) 895-8585",
+      "badge": "Local Firm - Free Consultation - Personal Attention"
+    },
+    "highlights": [
+      {
+        "icon": "shield",
+        "title": "On Your Side",
+        "text": "We stand up for DeKalb County families and individuals, handling the legal pressure so you can focus on moving forward."
+      },
+      {
+        "icon": "star",
+        "title": "Experienced Counsel",
+        "text": "Seasoned advocates across injury, family, estate, and criminal matters, with the judgment that comes from years in local courtrooms."
+      },
+      {
+        "icon": "check",
+        "title": "Straight Talk",
+        "text": "No legal runaround. We explain your options in plain language so you always know where your case stands."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Personal Attention",
+        "text": "You are a neighbor, not a case number. Expect responsive answers and counsel tailored to your situation."
+      }
+    ],
+    "menu": {
+      "heading": "Our Practice Areas",
+      "subheading": "Practice areas and any fees shown are illustrative demo content only and not legal advice. Every matter starts with a free consultation; outcomes depend on the facts of your case.",
+      "categories": [
+        {
+          "id": "personal-injury",
+          "name": "Personal Injury",
+          "blurb": "Hurt by someone else's negligence? We pursue the recovery you deserve so you can heal.",
+          "items": [
+            {
+              "name": "Auto Accidents",
+              "desc": "Help with car, truck, and motorcycle crash claims, from insurance negotiations to trial.",
+              "price": "Contingency",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Slip & Fall Injuries",
+              "desc": "Premises liability claims when unsafe property conditions cause serious injury.",
+              "price": "Contingency",
+              "tags": []
+            },
+            {
+              "name": "Wrongful Death",
+              "desc": "Compassionate, determined representation for families who have lost a loved one.",
+              "price": "Free Consultation",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Workplace Injuries",
+              "desc": "Guidance on work-related injury claims and the benefits you may be owed.",
+              "price": "Free Consultation",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "family-law",
+          "name": "Family Law",
+          "blurb": "Steady guidance through life's hardest family transitions, with your priorities first.",
+          "items": [
+            {
+              "name": "Divorce",
+              "desc": "Contested and uncontested divorce handled with discretion and a clear plan forward.",
+              "price": "Free Consultation",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Child Custody",
+              "desc": "Parenting time and allocation of responsibilities focused on your children's well-being.",
+              "price": "Free Consultation",
+              "tags": []
+            },
+            {
+              "name": "Child & Spousal Support",
+              "desc": "Fair support orders, plus modifications when your circumstances change.",
+              "price": "Free Consultation",
+              "tags": []
+            },
+            {
+              "name": "Mediation",
+              "desc": "A calmer, cost-conscious path to resolving family disputes outside the courtroom.",
+              "price": "Free Consultation",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "estate-planning",
+          "name": "Estate Planning",
+          "blurb": "Protect what you've built and give your family clarity and peace of mind.",
+          "items": [
+            {
+              "name": "Wills",
+              "desc": "Clear, valid wills that make sure your wishes are followed and your family is provided for.",
+              "price": "Free Consultation",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Trusts",
+              "desc": "Living and other trusts to manage assets, reduce hassle, and help avoid probate.",
+              "price": "Free Consultation",
+              "tags": []
+            },
+            {
+              "name": "Probate",
+              "desc": "Guiding executors and families through estate administration step by step.",
+              "price": "Free Consultation",
+              "tags": []
+            },
+            {
+              "name": "Powers of Attorney",
+              "desc": "Healthcare and financial directives so trusted people can act if you cannot.",
+              "price": "Free Consultation",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "criminal-defense",
+          "name": "Criminal Defense",
+          "blurb": "A charge is not a conviction. We protect your rights and your future.",
+          "items": [
+            {
+              "name": "DUI Defense",
+              "desc": "Defense against DUI charges, license issues, and the penalties that come with them.",
+              "price": "Free Consultation",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Misdemeanor Defense",
+              "desc": "Strong representation for misdemeanor charges to limit the impact on your life.",
+              "price": "Free Consultation",
+              "tags": []
+            },
+            {
+              "name": "Expungement & Sealing",
+              "desc": "Clear eligible records so an old mistake stops holding you back.",
+              "price": "Free Consultation",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Traffic Violations",
+              "desc": "Help with tickets and serious traffic matters that threaten your driving record.",
+              "price": "Free Consultation",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "A DeKalb County Law Firm That Fights for Families",
+      "lead": "Cronauer Law is an independent firm in Sycamore built on experienced counsel, straight talk, and genuine personal attention for the people of DeKalb County.",
+      "paragraphs": [
+        "Legal problems rarely arrive at a convenient time. Whether you are recovering from an injury, working through a divorce, planning for your family's future, or facing a criminal charge, you deserve an advocate who listens, explains your options honestly, and stands beside you the whole way.",
+        "Our Sycamore roots reach back to 1979, when Charles E. Cronauer founded the firm here in the county seat, where the historic 1905 DeKalb County Courthouse still anchors downtown. From our office on DeKalb Avenue, we serve neighbors across Sycamore, DeKalb, and the surrounding communities, treating every client like a person, not a file."
+      ],
+      "stats": [
+        {
+          "value": "Free",
+          "label": "Initial Consultation"
+        },
+        {
+          "value": "4 Practice Areas",
+          "label": "Injury, Family, Estate & Defense"
+        },
+        {
+          "value": "Local",
+          "label": "DeKalb County Firm"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Our Office",
+      "subheading": "A welcoming, professional space on DeKalb Avenue where DeKalb County families can talk things through.",
+      "captions": [
+        "Our office on DeKalb Avenue in Sycamore",
+        "A private space for honest conversations",
+        "Comfortable consultation and meeting rooms",
+        "Welcoming reception and waiting area",
+        "Conference room ready for your case",
+        "Conveniently located in downtown Sycamore"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb County Clients Say",
+      "items": [
+        {
+          "quote": "They explained everything in plain language and answered every call. I never felt like just another case.",
+          "name": "Karen S.",
+          "role": "Sycamore client"
+        },
+        {
+          "quote": "Going through a divorce was overwhelming, but they kept me calm and focused on what mattered for my kids.",
+          "name": "Michael D.",
+          "role": "DeKalb client"
+        },
+        {
+          "quote": "Professional, honest, and genuinely on my side from start to finish. I always knew where my case stood.",
+          "name": "Patricia R.",
+          "role": "DeKalb County client"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visit Cronauer Law",
+      "addressLabel": "Office",
+      "hoursLabel": "Office Hours",
+      "hours": [
+        {
+          "day": "Monday - Friday",
+          "time": "8:30 AM - 5:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "By Appointment"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "phoneLabel": "Call Us",
+      "directions": "Find us at 1101 DeKalb Avenue in Sycamore, IL, serving clients throughout DeKalb County. Call to schedule your free consultation and we'll find a time that works for you.",
+      "neighborhood": "Our office is on DeKalb Avenue (Illinois Route 23), the main artery linking Sycamore, the DeKalb County seat, with neighboring DeKalb, just southwest of the historic courthouse square."
+    },
+    "cta": {
+      "heading": "Let's Talk About Your Case",
+      "text": "Your first consultation is free and confidential. Tell us what you're facing and we'll explain your options with no pressure and no obligation.",
+      "button": "Call (815) 895-8585"
+    },
+    "form": {
+      "heading": "Request Your Free Consultation",
+      "subheading": "Share a few details about your situation and we'll reach out to schedule a confidential consultation.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Legal Matter",
+      "date": "Preferred Date/Time",
+      "message": "Briefly, how can we help?",
+      "submit": "Request Free Consultation",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "Submitting this form does not create an attorney-client relationship. By submitting, you agree to be contacted about your inquiry."
+    },
+    "footer": {
+      "tagline": "Experienced counsel and personal attention for DeKalb County families, from Sycamore.",
+      "rights": "© Cronauer Law. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Office Hours",
+      "demoNote": "Demo site · Content illustrative",
+      "allSites": "All generated sites →"
+    },
+    "process": {
+      "heading": "How We Work With You",
+      "steps": [
+        {
+          "title": "Free Consultation",
+          "text": "Call or request a meeting and tell us what you're facing. The first consultation is free and completely confidential."
+        },
+        {
+          "title": "Case Review",
+          "text": "We listen closely, review your documents and the facts, and explain honestly how the law applies to your situation."
+        },
+        {
+          "title": "Your Strategy",
+          "text": "Together we map out your options and a clear plan, so you always know the next step and what to expect."
+        },
+        {
+          "title": "Moving Forward",
+          "text": "We handle the legal pressure and advocate for you, whether your matter settles, resolves in court, or simply gets done right."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Is the first consultation really free?",
+          "a": "Yes. Your initial consultation is free and confidential, with no pressure and no obligation. We'll listen to your situation and explain your options clearly."
+        },
+        {
+          "q": "What should I bring to my consultation?",
+          "a": "Bring any documents related to your matter, such as accident reports, court papers, contracts, or letters. If you're unsure, just bring what you have and we'll guide you."
+        },
+        {
+          "q": "How much will my case cost?",
+          "a": "It depends on the matter. Many personal injury cases are handled on a contingency basis, and we'll explain any fees clearly during your free consultation before you commit."
+        },
+        {
+          "q": "Do you speak Spanish?",
+          "a": "Yes, we serve our DeKalb County neighbors in both English and Spanish, so you can explain your situation comfortably in the language you prefer."
+        },
+        {
+          "q": "What are your hours and do I need an appointment?",
+          "a": "We're open Monday through Friday, 8:30 AM to 5:00 PM, with Saturday by appointment. Please call ahead so we can set aside time to talk things through."
+        },
+        {
+          "q": "What kinds of cases do you handle?",
+          "a": "We focus on personal injury, family law, estate planning, and criminal defense for DeKalb County families. If we're not the right fit, we'll point you in the right direction."
+        }
+      ]
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Cronauer Law | Abogados en Sycamore, IL para Familias del Condado de DeKalb",
+      "description": "Cronauer Law en Sycamore, IL: lesiones personales, derecho familiar, planificación patrimonial y defensa penal. Consulta gratis, llame al (815) 895-8585."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Áreas de Práctica",
+      "about": "Nosotros",
+      "gallery": "Nuestra Oficina",
+      "visit": "Visítenos",
+      "order": "Consulta Gratis"
+    },
+    "hero": {
+      "eyebrow": "Abogados en Sycamore y el Condado de DeKalb",
+      "title": "Asesoría con Experiencia,",
+      "titleAccent": "Atención Personal",
+      "subtitle": "Desde un reclamo por lesiones hasta un divorcio o la planificación de su patrimonio, Cronauer Law ofrece a las familias del Condado de DeKalb un trato franco y una mano firme. Escuchamos primero, explicamos sus opciones con claridad y luchamos por lo que más le importa.",
+      "ctaPrimary": "Ver Áreas de Práctica",
+      "ctaSecondary": "Llamar al (815) 895-8585",
+      "badge": "Firma Local - Consulta Gratis - Atención Personal"
+    },
+    "highlights": [
+      {
+        "icon": "shield",
+        "title": "De Su Lado",
+        "text": "Defendemos a las familias y personas del Condado de DeKalb, asumiendo la presión legal para que usted pueda seguir adelante."
+      },
+      {
+        "icon": "star",
+        "title": "Asesoría con Experiencia",
+        "text": "Defensores con experiencia en casos de lesiones, familia, patrimonio y defensa penal, con el criterio que dan los años en los tribunales locales."
+      },
+      {
+        "icon": "check",
+        "title": "Trato Franco",
+        "text": "Sin rodeos legales. Explicamos sus opciones en palabras claras para que siempre sepa en qué situación está su caso."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Atención Personal",
+        "text": "Usted es un vecino, no un número de expediente. Espere respuestas atentas y asesoría adaptada a su situación."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestras Áreas de Práctica",
+      "subheading": "Las áreas de práctica y cualquier tarifa que se muestre son solo contenido demostrativo e ilustrativo, no asesoría legal. Cada caso comienza con una consulta gratis; los resultados dependen de los hechos de su caso.",
+      "categories": [
+        {
+          "id": "personal-injury",
+          "name": "Lesiones Personales",
+          "blurb": "¿Lesionado por la negligencia de otra persona? Buscamos la compensación que merece para que pueda sanar.",
+          "items": [
+            {
+              "name": "Accidentes de Auto",
+              "desc": "Ayuda con reclamos por choques de autos, camiones y motocicletas, desde la aseguradora hasta el juicio.",
+              "price": "Por Contingencia",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Resbalones y Caídas",
+              "desc": "Reclamos por responsabilidad de locales cuando condiciones inseguras causan lesiones graves.",
+              "price": "Por Contingencia",
+              "tags": []
+            },
+            {
+              "name": "Muerte por Negligencia",
+              "desc": "Representación compasiva y firme para familias que han perdido a un ser querido.",
+              "price": "Consulta Gratis",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Lesiones Laborales",
+              "desc": "Orientación sobre reclamos por lesiones de trabajo y los beneficios que le pueden corresponder.",
+              "price": "Consulta Gratis",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "family-law",
+          "name": "Derecho Familiar",
+          "blurb": "Guía firme en las transiciones familiares más difíciles, con sus prioridades primero.",
+          "items": [
+            {
+              "name": "Divorcio",
+              "desc": "Divorcios disputados y de mutuo acuerdo, manejados con discreción y un plan claro a seguir.",
+              "price": "Consulta Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Custodia de Menores",
+              "desc": "Tiempo de crianza y responsabilidades centrados en el bienestar de sus hijos.",
+              "price": "Consulta Gratis",
+              "tags": []
+            },
+            {
+              "name": "Manutención de Hijos y Cónyuge",
+              "desc": "Órdenes de manutención justas y modificaciones cuando cambian sus circunstancias.",
+              "price": "Consulta Gratis",
+              "tags": []
+            },
+            {
+              "name": "Mediación",
+              "desc": "Un camino más tranquilo y económico para resolver disputas familiares fuera del tribunal.",
+              "price": "Consulta Gratis",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "estate-planning",
+          "name": "Planificación Patrimonial",
+          "blurb": "Proteja lo que ha construido y dele a su familia claridad y tranquilidad.",
+          "items": [
+            {
+              "name": "Testamentos",
+              "desc": "Testamentos claros y válidos que aseguran que se cumplan sus deseos y se cuide a su familia.",
+              "price": "Consulta Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Fideicomisos",
+              "desc": "Fideicomisos en vida y otros para administrar bienes, reducir trámites y ayudar a evitar el proceso sucesorio.",
+              "price": "Consulta Gratis",
+              "tags": []
+            },
+            {
+              "name": "Proceso Sucesorio",
+              "desc": "Guiamos a albaceas y familias por la administración del patrimonio paso a paso.",
+              "price": "Consulta Gratis",
+              "tags": []
+            },
+            {
+              "name": "Poderes Notariales",
+              "desc": "Directivas médicas y financieras para que personas de confianza actúen si usted no puede.",
+              "price": "Consulta Gratis",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "criminal-defense",
+          "name": "Defensa Penal",
+          "blurb": "Un cargo no es una condena. Protegemos sus derechos y su futuro.",
+          "items": [
+            {
+              "name": "Defensa por DUI",
+              "desc": "Defensa contra cargos de DUI, problemas de licencia y las sanciones que conllevan.",
+              "price": "Consulta Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Defensa por Delitos Menores",
+              "desc": "Representación sólida ante cargos menores para reducir el impacto en su vida.",
+              "price": "Consulta Gratis",
+              "tags": []
+            },
+            {
+              "name": "Eliminación y Sellado de Antecedentes",
+              "desc": "Limpie antecedentes elegibles para que un error del pasado deje de frenarlo.",
+              "price": "Consulta Gratis",
+              "tags": [
+                "value"
+              ]
+            },
+            {
+              "name": "Infracciones de Tránsito",
+              "desc": "Ayuda con multas y asuntos de tránsito serios que amenazan su historial de manejo.",
+              "price": "Consulta Gratis",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Una Firma del Condado de DeKalb que Lucha por las Familias",
+      "lead": "Cronauer Law es una firma independiente en Sycamore construida sobre asesoría con experiencia, trato franco y verdadera atención personal para la gente del Condado de DeKalb.",
+      "paragraphs": [
+        "Los problemas legales rara vez llegan en un buen momento. Ya sea que se esté recuperando de una lesión, atravesando un divorcio, planificando el futuro de su familia o enfrentando un cargo penal, usted merece un defensor que escuche, explique sus opciones con honestidad y lo acompañe en todo el camino.",
+        "Nuestras raíces en Sycamore se remontan a 1979, cuando Charles E. Cronauer fundó la firma aquí, en la cabecera del condado, donde el histórico Tribunal del Condado de DeKalb de 1905 sigue siendo el corazón del centro. Desde nuestra oficina en DeKalb Avenue, servimos a vecinos de Sycamore, DeKalb y las comunidades cercanas, tratando a cada cliente como una persona, no como un expediente."
+      ],
+      "stats": [
+        {
+          "value": "Gratis",
+          "label": "Consulta Inicial"
+        },
+        {
+          "value": "4 Áreas de Práctica",
+          "label": "Lesiones, Familiar, Patrimonial y Penal"
+        },
+        {
+          "value": "Local",
+          "label": "Firma del Condado de DeKalb"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Nuestra Oficina",
+      "subheading": "Un espacio acogedor y profesional en DeKalb Avenue donde las familias del Condado de DeKalb pueden conversar con calma.",
+      "captions": [
+        "Nuestra oficina en DeKalb Avenue en Sycamore",
+        "Un espacio privado para conversaciones honestas",
+        "Salas de consulta y reunión cómodas",
+        "Recepción y sala de espera acogedoras",
+        "Sala de conferencias lista para su caso",
+        "Ubicación cómoda en el centro de Sycamore"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen los Clientes del Condado de DeKalb",
+      "items": [
+        {
+          "quote": "Me explicaron todo en palabras claras y contestaron cada llamada. Nunca me sentí como un caso más.",
+          "name": "Karen S.",
+          "role": "Cliente en Sycamore"
+        },
+        {
+          "quote": "Pasar por un divorcio fue abrumador, pero me mantuvieron tranquilo y enfocado en lo que importaba para mis hijos.",
+          "name": "Michael D.",
+          "role": "Cliente en DeKalb"
+        },
+        {
+          "quote": "Profesionales, honestos y de verdad de mi lado de principio a fin. Siempre supe en qué situación estaba mi caso.",
+          "name": "Patricia R.",
+          "role": "Cliente del Condado de DeKalb"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Visite Cronauer Law",
+      "addressLabel": "Oficina",
+      "hoursLabel": "Horario de Oficina",
+      "hours": [
+        {
+          "day": "Lunes - Viernes",
+          "time": "8:30 AM - 5:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "Con Cita Previa"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        }
+      ],
+      "phoneLabel": "Llámenos",
+      "directions": "Encuéntrenos en 1101 DeKalb Avenue en Sycamore, IL, sirviendo a clientes en todo el Condado de DeKalb. Llame para agendar su consulta gratis y encontraremos un horario que le funcione.",
+      "neighborhood": "Nuestra oficina está sobre DeKalb Avenue (la Ruta 23 de Illinois), la vía principal que une Sycamore, cabecera del Condado de DeKalb, con la vecina ciudad de DeKalb, muy cerca al suroeste de la histórica plaza del tribunal."
+    },
+    "cta": {
+      "heading": "Hablemos de Su Caso",
+      "text": "Su primera consulta es gratis y confidencial. Cuéntenos lo que enfrenta y le explicaremos sus opciones sin presión y sin compromiso.",
+      "button": "Llamar al (815) 895-8585"
+    },
+    "form": {
+      "heading": "Solicite Su Consulta Gratis",
+      "subheading": "Comparta algunos detalles sobre su situación y nos comunicaremos para agendar una consulta confidencial.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Asunto Legal",
+      "date": "Fecha/Hora Preferida",
+      "message": "En breve, ¿cómo podemos ayudarle?",
+      "submit": "Solicitar Consulta Gratis",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos su solicitud y le contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intente de nuevo.",
+      "consent": "Enviar este formulario no crea una relación abogado-cliente. Al enviar, acepta que le contactemos sobre su consulta."
+    },
+    "footer": {
+      "tagline": "Asesoría con experiencia y atención personal para las familias del Condado de DeKalb, desde Sycamore.",
+      "rights": "© Cronauer Law. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario de Oficina",
+      "demoNote": "Sitio de demostración · Contenido ilustrativo",
+      "allSites": "Todos los sitios generados →"
+    },
+    "process": {
+      "heading": "Cómo Trabajamos con Usted",
+      "steps": [
+        {
+          "title": "Consulta Gratis",
+          "text": "Llámenos o solicite una cita y cuéntenos lo que enfrenta. La primera consulta es gratis y totalmente confidencial."
+        },
+        {
+          "title": "Revisión del Caso",
+          "text": "Escuchamos con atención, revisamos sus documentos y los hechos, y le explicamos con honestidad cómo aplica la ley a su situación."
+        },
+        {
+          "title": "Su Estrategia",
+          "text": "Juntos trazamos sus opciones y un plan claro, para que siempre sepa el siguiente paso y qué esperar."
+        },
+        {
+          "title": "Seguir Adelante",
+          "text": "Asumimos la presión legal y luchamos por usted, ya sea que su caso se resuelva con un acuerdo, en el tribunal o como corresponda."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿La primera consulta de verdad es gratis?",
+          "a": "Sí. Su consulta inicial es gratis y confidencial, sin presión y sin compromiso. Escuchamos su situación y le explicamos sus opciones con claridad."
+        },
+        {
+          "q": "¿Qué debo llevar a mi consulta?",
+          "a": "Lleve cualquier documento relacionado con su asunto, como reportes de accidente, papeles del tribunal, contratos o cartas. Si no está seguro, traiga lo que tenga y le orientamos."
+        },
+        {
+          "q": "¿Cuánto costará mi caso?",
+          "a": "Depende del asunto. Muchos casos de lesiones personales se manejan por contingencia, y le explicaremos cualquier tarifa con claridad durante su consulta gratis antes de comprometerse."
+        },
+        {
+          "q": "¿Hablan español?",
+          "a": "Sí, atendemos a nuestros vecinos del Condado de DeKalb en inglés y español, para que explique su situación con comodidad en el idioma que prefiera."
+        },
+        {
+          "q": "¿Cuál es su horario y necesito cita?",
+          "a": "Abrimos de lunes a viernes, de 8:30 AM a 5:00 PM, y los sábados con cita previa. Llame con anticipación para reservar tiempo y conversar con calma."
+        },
+        {
+          "q": "¿Qué tipo de casos manejan?",
+          "a": "Nos enfocamos en lesiones personales, derecho familiar, planificación patrimonial y defensa penal para las familias del Condado de DeKalb. Si no somos la opción indicada, le orientamos."
+        }
+      ]
+    }
+  }
+}

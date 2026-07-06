@@ -1,0 +1,16 @@
+{
+  "concept": "Vintage drive-in Americana for Johnny K's: a juicy cherry-red primary straight off a 1950s neon sign, a retro turquoise accent like a chrome-trimmed diner stool, charcoal ink for menu-board legibility, all set on warm creamy paper-white backgrounds. Nostalgic, high-appetite, and fun.",
+  "vars": {
+    "--color-bg": "#FBF5E9",
+    "--color-surface": "#FFFBF2",
+    "--color-surface-alt": "#F4EAD6",
+    "--color-ink": "#1E1B18",
+    "--color-ink-soft": "#5C534A",
+    "--color-primary": "#C8102E",
+    "--color-primary-dark": "#9E0B23",
+    "--color-secondary": "#0E7C86",
+    "--color-accent": "#2FBFCB",
+    "--color-line": "#E6DCC8"
+  },
+  "contrastNotes": "All required pairs pass WCAG-AA. ink #1E1B18 on bg #FBF5E9 = 15.8:1 (>=7). ink-soft #5C534A on bg = 6.9:1 (>=4.5). white on primary #C8102E = 5.9:1 (>=4.5). primary on bg = 5.4:1 (>=3). Bonus: white on primary-dark #9E0B23 = 8.6:1; white on secondary teal #0E7C86 = 4.7:1; ink on accent turquoise #2FBFCB = 9.6:1, so accent is used as a fill behind ink/dark text, not as text on the cream bg. Line #E6DCC8 is a subtle hairline only (decorative, not text)."
+}
