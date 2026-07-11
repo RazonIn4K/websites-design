@@ -231,7 +231,7 @@
         },
         {
           "value": "Clinic & Ranch Calls",
-          "label": "In-office or on your land"
+          "label": "Office or on-site"
         },
         {
           "value": "Locally Owned",
@@ -590,7 +590,7 @@
         },
         {
           "value": "Clínica y Visitas al Rancho",
-          "label": "En el consultorio o en tu tierra"
+          "label": "Consultorio o domicilio"
         },
         {
           "value": "De Dueños Locales",

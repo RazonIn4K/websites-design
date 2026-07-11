@@ -9,7 +9,7 @@
     "--color-primary": "#364552",
     "--color-primary-dark": "#242F39",
     "--color-secondary": "#3E5C74",
-    "--color-accent": "#FF8B3D",
+    "--color-accent": "#FF5A45",
     "--color-line": "#D3D9DD"
   },
   "contrastNotes": "All WCAG targets computationally verified. Ink #1B2126 on bg #F4F5F5 = 14.88:1, on surface #FFFFFF = 16.25:1, on surface-alt #E7EAEC = 13.45:1 (all >=7 AAA). Ink-soft #4C565F on bg = 6.86:1, on surface = 7.49:1, on surface-alt = 6.20:1 (all >=4.5 AA). White on primary #364552 = 9.86:1, on primary-dark #242F39 = 13.63:1, on secondary #3E5C74 = 7.03:1 (all >=4.5). Accent #FF8B3D vs #222222 = 6.83:1 (>=4.5; safe rendered solid over dark photos), and ink on accent = 6.97:1 for badges. Primary on bg = 9.03:1 and secondary on bg = 6.43:1 (>=3 for UI/large text). Accent is a non-text highlight on light backgrounds (2.13:1 on bg)."

@@ -9,7 +9,7 @@
     "--color-primary": "#6B2D5C",
     "--color-primary-dark": "#521F44",
     "--color-secondary": "#13726E",
-    "--color-accent": "#FFA245",
+    "--color-accent": "#DCA8D8",
     "--color-line": "#DAD3E6"
   },
   "contrastNotes": "All WCAG-AA ratios verified. ink on bg 16.99:1 (>=7); ink-soft on bg 8.83:1 (>=4.5); white on primary 10.41:1 (>=4.5); primary-dark on bg 12.15:1 (>=4.5); accent #FF8A2B on near-black #000 8.92:1 (>=3, bright pop on dark heroes). surface-alt #ECE7F4 is a light purple tint near bg with ink on surface-alt 15.14:1 (>=7) for dark text on section backgrounds; ink on surface (white) 18.38:1."

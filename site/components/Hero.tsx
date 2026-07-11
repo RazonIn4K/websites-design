@@ -143,13 +143,17 @@ export function Hero() {
               at three parallax speeds — nearest moves most. Decorative photos
               carry empty alt; the composition is described by the copy column. */}
           <div className="relative mx-auto aspect-square w-full max-w-[26rem] sm:max-w-[30rem] lg:max-w-[34rem]">
-            <span
-              aria-hidden
-              className="ghost-word ghost-fade absolute left-1/2 top-[2%] -translate-x-1/2 animate-rise text-[clamp(3.5rem,8vw,7rem)]"
-              style={{ animationDelay: "200ms" }}
-            >
-              {t.hero.titleAccent}
-            </span>
+            {/* ghost word lives inside a fade-masked, overflow-hidden wrapper the
+                width of the stack — long phrases fade out INSIDE the wrapper
+                instead of hard-clipping at the viewport edge (re-critique v2) */}
+            <div aria-hidden className="ghost-fade absolute inset-x-0 top-[2%] flex justify-center overflow-hidden">
+              <span
+                className="ghost-word animate-rise whitespace-nowrap text-[clamp(3.5rem,8vw,7rem)]"
+                style={{ animationDelay: "200ms" }}
+              >
+                {t.hero.titleAccent}
+              </span>
+            </div>
             <motion.figure
               style={{ y: reduce ? 0 : ySlow }}
               className="polaroid absolute left-0 top-[14%] z-10 w-[60%] rotate-[-4deg] animate-rise"
@@ -218,7 +222,7 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="relative mx-auto w-full max-w-[22rem] sm:max-w-[24rem]">
+          <div className="relative mx-auto w-full max-w-[24rem] sm:max-w-[26rem]">
             <span
               aria-hidden
               className="ghost-word ghost-fade absolute -left-10 top-1/2 -translate-y-1/2 -rotate-90 animate-rise text-[clamp(3rem,6vw,5rem)]"
@@ -266,14 +270,16 @@ export function Hero() {
           <motion.div style={{ y: reduce ? 0 : yImg }} className="absolute inset-x-0 top-0 h-[112%]">
             <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="100vw" className="animate-kenburns object-cover" {...blurProps} />
           </motion.div>
-          {/* fade from the page background so the hanging accent stays legible */}
-          <div className="absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-bg to-transparent" />
-          <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/45 to-transparent" />
+          {/* eased fade from the page background so the hanging accent stays
+              legible without a hard gradient edge (re-critique v2) */}
+          <div className="absolute inset-x-0 top-0 h-36 bg-gradient-to-b from-bg via-bg/45 to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent" />
           {t.about?.stats?.[0] && <StatChip stat={t.about.stats[0]} position="right-[6%] top-[30%]" delay="560ms" />}
         </div>
 
-        {/* glass action card pulled up over the photo's bottom edge */}
-        <div className="container-max relative z-10 -mt-20 pb-10 sm:-mt-28">
+        {/* glass action card pulled up over the photo's bottom edge; tight
+            bottom padding so no dead band sits between card and next section */}
+        <div className="container-max relative z-10 -mt-20 pb-4 sm:-mt-28">
           <div className="glass mx-auto flex max-w-3xl flex-col items-center gap-4 rounded-2xl px-6 py-6 text-center animate-rise sm:px-10" style={{ animationDelay: "320ms" }}>
             <p className="max-w-xl text-ink-soft">{t.hero.subtitle}</p>
             <div className="flex flex-wrap items-center justify-center gap-3">

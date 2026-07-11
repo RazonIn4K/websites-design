@@ -9,7 +9,7 @@
     "--color-primary": "#1A5BD6",
     "--color-primary-dark": "#16489E",
     "--color-secondary": "#F26419",
-    "--color-accent": "#38BDF8",
+    "--color-accent": "#75A0F0",
     "--color-line": "#D5DEE7"
   },
   "contrastNotes": "WCAG-AA verified. ink #0B1220 on bg #F7FAFC = 17.86:1 (>=7). ink-soft #475569 on bg = 7.23:1 (>=4.5). white on primary #1A5BD6 = 5.98:1 (>=4.5). primary-dark #16489E on bg = 8.16:1 (>=4.5). accent #C2F500 on #000 = 16.35:1 (>=3, bright pop on dark heroes). surface-alt #E9EFF5 is a LIGHT tint of bg; ink on surface-alt = 16.16:1 (>=7) and ink-soft on surface-alt = 6.54:1, so dark text reads cleanly on painted sections."

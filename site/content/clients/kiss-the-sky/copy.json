@@ -20,7 +20,7 @@
     },
     "nav": {
       "home": "Home",
-      "menu": "Shop",
+      "menu": "Records",
       "about": "About",
       "gallery": "The Shop",
       "visit": "Visit",
@@ -306,7 +306,7 @@
     },
     "nav": {
       "home": "Inicio",
-      "menu": "Tienda",
+      "menu": "Discos",
       "about": "Nosotros",
       "gallery": "La Tienda",
       "visit": "Visítanos",

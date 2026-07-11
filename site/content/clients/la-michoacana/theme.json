@@ -2,8 +2,8 @@
   "concept": "Paletería-case brights for La Michoacana: a watermelon-fresa magenta primary (the color of a fresas con crema paleta), a mango-gold accent, and a lime-leaf green secondary, all set on a warm horchata-cream background with a pale mango surface-alt. Reads like an open freezer case on a hot day — fruity, Spanish-first, and celebratory. Deliberately distinct from Tastee Bite's retro teal/cherry soda-fountain palette and Flamingo's terracotta/amber editorial palette.",
   "vars": {
     "--color-bg": "#FFF8EC",
-    "--color-surface": "#FFFFFF",
-    "--color-surface-alt": "#FFEDD6",
+    "--color-surface": "#FFFBF2",
+    "--color-surface-alt": "#FAF0DF",
     "--color-ink": "#2B2014",
     "--color-ink-soft": "#5F4C38",
     "--color-primary": "#C2185B",

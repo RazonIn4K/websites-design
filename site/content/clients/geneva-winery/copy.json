@@ -29,7 +29,7 @@
     "hero": {
       "eyebrow": "Urban Winery · Wine Bar · Coffeehouse",
       "title": "Espresso by Day,",
-      "titleAccent": "Candlelit Flights by Night",
+      "titleAccent": "Flights by Night",
       "subtitle": "An intimate urban winery and coffeehouse in downtown Geneva, small-batch wines by the glass, espresso drinks worth slowing down for, and a curated board to linger over.",
       "ctaPrimary": "View Wine List",
       "ctaSecondary": "Call to Reserve",
@@ -372,7 +372,7 @@
     "hero": {
       "eyebrow": "Vinería Urbana · Wine Bar · Cafetería",
       "title": "Espresso de Día,",
-      "titleAccent": "Degustaciones a la Luz de las Velas de Noche",
+      "titleAccent": "Degustaciones de Noche",
       "subtitle": "Una vinería urbana y cafetería íntima en el centro de Geneva, vinos de lote pequeño por copa, bebidas de espresso que invitan a bajar el ritmo y una tabla curada para disfrutar sin prisa.",
       "ctaPrimary": "Ver Carta de Vinos",
       "ctaSecondary": "Llama para Reservar",

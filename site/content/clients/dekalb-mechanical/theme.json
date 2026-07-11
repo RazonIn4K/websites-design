@@ -8,7 +8,7 @@
     "--color-ink-soft": "#4D6173",
     "--color-primary": "#0B5394",
     "--color-primary-dark": "#073A68",
-    "--color-secondary": "#1E6FB0",
+    "--color-secondary": "#0B5394",
     "--color-accent": "#E0521B",
     "--color-line": "#D3DEE8"
   },

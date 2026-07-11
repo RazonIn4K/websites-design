@@ -1,9 +1,9 @@
 {
   "concept": "A warm, sunny breakfast-cafe palette pairing golden honey-amber and tangerine accents with cozy brown ink on creamy buttermilk backgrounds for a cheerful, homey, inviting feel.",
   "vars": {
-    "--color-bg": "#FFFBF2",
-    "--color-surface": "#FFFFFF",
-    "--color-surface-alt": "#FBF1DD",
+    "--color-bg": "#FFF6E8",
+    "--color-surface": "#FFFAF4",
+    "--color-surface-alt": "#F9E8D2",
     "--color-ink": "#3A2417",
     "--color-ink-soft": "#6B4A2E",
     "--color-primary": "#B45816",
