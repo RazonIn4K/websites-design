@@ -280,7 +280,7 @@
       ]
     },
     "testimonials": {
-      "heading": "What Naperville Is Saying",
+      "heading": "Taproom Talk",
       "items": [
         {
           "quote": "My go-to taproom. The hazy IPA is always fresh, the staff knows my order, and they actually welcome my dog. It feels like the neighborhood's living room.",
@@ -330,7 +330,7 @@
       "neighborhood": "The taproom sits on West Jefferson Avenue on Naperville's west side, just east of Route 59 and a short drive from downtown Naperville and its Riverwalk."
     },
     "cta": {
-      "heading": "Come Pull Up a Stool",
+      "heading": "Answer the Noon Whistle",
       "text": "Stop by the taproom for a fresh pint, build a flight, or grab a 4-pack and a crowler to go. Bring the family, bring the dog, and see what's pouring tonight.",
       "button": "Call (331) 431-4882"
     },
@@ -625,7 +625,7 @@
       ]
     },
     "testimonials": {
-      "heading": "Lo Que Dice Naperville",
+      "heading": "Se Cuenta en el Taproom",
       "items": [
         {
           "quote": "Mi taproom de cabecera. La IPA turbia siempre está fresca, el personal se sabe mi pedido y de verdad reciben a mi perro. Se siente como la sala del vecindario.",
@@ -675,7 +675,7 @@
       "neighborhood": "El taproom está sobre West Jefferson Avenue, en el lado oeste de Naperville, justo al este de la Ruta 59 y a un corto trayecto en auto del centro de Naperville y su Riverwalk."
     },
     "cta": {
-      "heading": "Ven y Acércate a la Barra",
+      "heading": "Responde al Silbato del Mediodía",
       "text": "Pásate por el taproom por una cerveza fresca, arma un flight o llévate un 4-pack y un crowler para llevar. Trae a la familia, trae al perro y ve qué está saliendo esta noche.",
       "button": "Llamar al (331) 431-4882"
     },

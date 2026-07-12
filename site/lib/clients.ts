@@ -176,6 +176,11 @@ export interface SiteLayout {
   steps?: "deck";
   /** Story skin. "scrolly" = sticky panel crossfades images per chapter. */
   story?: "scrolly";
+  /**
+   * Testimonials skin. Default resolves from archetype (editorial/authority/
+   * wellness → "spotlight", edge=hard → "wall", else "grid"); set to pin one.
+   */
+  reviews?: "spotlight" | "wall" | "grid";
   /** Cross-cutting CSS scope: corner/shadow language. Default soft. */
   edge?: "hard";
   /** Cross-cutting CSS scope: section surface palette. Default light. */

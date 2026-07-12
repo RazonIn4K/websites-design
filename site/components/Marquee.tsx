@@ -33,9 +33,13 @@ export function Marquee() {
 
   return (
     <div className="gradient-brand noise-overlay overflow-hidden py-6" aria-hidden="true">
-      <div className="marquee-mask flex w-max animate-marquee">
-        {track("a", false)}
-        {track("b", true)}
+      {/* mask on the fixed wrapper, not the translating track — on the track
+          the fade scrolls away and words hard-slice at the viewport edge */}
+      <div className="marquee-mask">
+        <div className="flex w-max animate-marquee">
+          {track("a", false)}
+          {track("b", true)}
+        </div>
       </div>
     </div>
   );

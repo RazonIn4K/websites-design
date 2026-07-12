@@ -125,39 +125,60 @@ export function MenuSection() {
           </div>
         ) : (
           <>
-        {/* Crowd Favorites — photo-driven feature strip */}
+        {/* Crowd Favorites — photo strip for food/drink; a typographic trio for
+            service businesses (gallery photos rarely match specific services,
+            so a numbered card sells the offer better than a mismatched image) */}
         {favorites.length >= 3 && (
           <div className="mb-[var(--header-gap)]">
             <p className="eyebrow mb-5 text-center">{(services ? SERVICES_FAV_LABEL : FAV_LABEL)[lang]}</p>
-            <div className="grid gap-4 sm:grid-cols-3">
-              {favorites.map((it, idx) => (
-                <Reveal key={it.name} delay={idx * 0.08}>
-                {/* pointer-fine 3D tilt replaces hover-lift here (inline Motion
-                    transform would fight the CSS hover translate) */}
-                <TiltFigure className="group relative aspect-[4/5] overflow-hidden rounded-2xl shadow-card">
-                  <Image
-                    src={`${imgBase}/g${idx + 1}.jpg`}
-                    alt=""
-                    fill
-                    sizes="(min-width: 640px) 30vw, 90vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    {...(blur[`g${idx + 1}`] ? { placeholder: "blur" as const, blurDataURL: blur[`g${idx + 1}`] } : {})}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent" />
-                  {!services && (
+            {services ? (
+              <div className="grid gap-4 sm:grid-cols-3">
+                {favorites.map((it, idx) => (
+                  <Reveal
+                    key={it.name}
+                    delay={idx * 0.08}
+                    className="hover-lift relative overflow-hidden rounded-2xl border border-line bg-bg p-7 shadow-card"
+                  >
+                    <span
+                      aria-hidden
+                      className="pointer-events-none absolute -right-1 -top-5 select-none font-display text-[5.5rem] font-black leading-none text-primary/10"
+                    >
+                      {String(idx + 1).padStart(2, "0")}
+                    </span>
+                    <h3 className="relative max-w-[80%] font-display text-xl font-black text-ink">{it.name}</h3>
+                    <p className="relative mt-2 text-sm text-ink-soft">{it.desc}</p>
+                    <span className="badge badge-primary relative mt-4">{it.price}</span>
+                  </Reveal>
+                ))}
+              </div>
+            ) : (
+              <div className="grid gap-4 sm:grid-cols-3">
+                {favorites.map((it, idx) => (
+                  <Reveal key={it.name} delay={idx * 0.08}>
+                  {/* pointer-fine 3D tilt replaces hover-lift here (inline Motion
+                      transform would fight the CSS hover translate) */}
+                  <TiltFigure className="group relative aspect-[4/5] overflow-hidden rounded-2xl shadow-card">
+                    <Image
+                      src={`${imgBase}/g${idx + 1}.jpg`}
+                      alt=""
+                      fill
+                      sizes="(min-width: 640px) 30vw, 90vw"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      {...(blur[`g${idx + 1}`] ? { placeholder: "blur" as const, blurDataURL: blur[`g${idx + 1}`] } : {})}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent" />
                     <span className="badge-overlay absolute right-3 top-3 rounded-full px-3 py-1 font-display text-sm font-black tabular-nums text-white">
                       {it.price}
                     </span>
-                  )}
-                  <figcaption className="absolute inset-x-0 bottom-0 p-5">
-                    {!services && <span className="badge badge-accent">{TAG_LABELS.popular[lang]}</span>}
-                    <h3 className="mt-2 font-display text-xl font-black text-white">{it.name}</h3>
-                    <p className="line-clamp-1 text-sm text-white/80">{it.desc}</p>
-                  </figcaption>
-                </TiltFigure>
-                </Reveal>
-              ))}
-            </div>
+                    <figcaption className="absolute inset-x-0 bottom-0 p-5">
+                      <span className="badge badge-accent">{TAG_LABELS.popular[lang]}</span>
+                      <h3 className="mt-2 font-display text-xl font-black text-white">{it.name}</h3>
+                    </figcaption>
+                  </TiltFigure>
+                  </Reveal>
+                ))}
+              </div>
+            )}
           </div>
         )}
 

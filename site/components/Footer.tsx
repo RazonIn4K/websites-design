@@ -27,7 +27,7 @@ export function CtaBand() {
   const { t, biz, hasPhone } = useLang();
   return (
     <section className="container-max glow-conic py-8">
-      <Reveal className="gradient-brand noise-overlay relative overflow-hidden rounded-3xl px-8 py-16 text-center shadow-lifted sm:px-16">
+      <Reveal className="cta-card gradient-brand noise-overlay relative overflow-hidden rounded-3xl px-8 py-16 text-center shadow-lifted sm:px-16">
         <h2 className="text-h2 relative text-white">{t.cta.heading}</h2>
         <p className="relative mx-auto mt-4 max-w-2xl text-lg text-white/90">{t.cta.text}</p>
         <a
@@ -55,8 +55,9 @@ export function Footer() {
   ).filter((l) => present.has(l.key) || (l.key === "about" && present.has("story")));
 
   return (
-    <footer className="bg-ink text-white">
-      <div className="container-max grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-3">
+    // overflow-hidden crops the statement wordmark at the page's bottom edge
+    <footer className="overflow-hidden bg-ink text-white">
+      <div className="container-max grid gap-10 py-11 sm:grid-cols-2 lg:grid-cols-3">
         <div>
           <div className="flex items-center gap-2">
             <span className="grid h-9 w-9 place-items-center rounded-full gradient-brand font-display text-lg font-black text-white">
@@ -118,7 +119,7 @@ export function Footer() {
 
       <div className="border-t border-white/10">
         {/* pb-24 clears the fixed MobileBar (visible < lg, e.g. with JS off) */}
-        <div className="container-max flex flex-col items-center justify-between gap-2 pt-5 pb-24 text-xs text-white/50 sm:flex-row lg:pb-5">
+        <div className="container-max flex flex-col items-center justify-between gap-2 pt-4 pb-24 text-xs text-white/50 sm:flex-row lg:pb-4">
           <span>{t.footer.rights}</span>
           <div className="flex items-center gap-4">
             <span>{t.footer.demoNote ?? "Demo site · Prices illustrative"}</span>
@@ -127,6 +128,17 @@ export function Footer() {
             </Link>
           </div>
         </div>
+      </div>
+
+      {/* Statement wordmark: oversized display type cropped by the footer's
+          bottom edge — sized so any shortName spans ~the full width */}
+      <div aria-hidden className="statement">
+        <span
+          className="statement-word font-display"
+          style={{ fontSize: `min(${(150 / Math.max(biz.shortName.length, 4)).toFixed(2)}vw, 13rem)` }}
+        >
+          {biz.shortName}
+        </span>
       </div>
     </footer>
   );
