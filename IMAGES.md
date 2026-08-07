@@ -192,3 +192,22 @@ the design system the images must suit (§3a). Palette cue = from each site's
 | `la-michoacana` | paleteria | warm · energetic · hero:arch | a watermelon-fresa magenta primary (the color of a fresas con crema paleta), a mango-gold accent, and a lime-l… |
 | `hinks-bar-and-grill` | pubgrill | craft · hard-edge · energetic | an aged-copper primary (old tap lines and downtown brick) over smoky parchment with deep charcoal-brown ink, a… |
 | `star-34-cafe` | breakfast | warm | butter-yellow sunshine and buttermilk cream grounded by deep denim-blue booths, with a maple-toast secondary —… |
+## 6. Current status & re-generation priorities (audited 2026-08-07)
+
+**All 72 sites have complete, valid 8-slot kits (576/576 files).** Nothing is
+missing. The queue below is quality/art-direction re-shoots, in priority order —
+current sets were generated for the pre-v3 light template, before the register
+system existed.
+
+| Priority | Sites | What to regenerate | Why |
+|---|---|---|---|
+| **1 — ink register (dark pages)** | `kiss-the-sky`, `sapphire-tattoo`, `victory-mma`, `noon-whistle-brewing`, `riddlebox-escape`, `lisle-lanes` | Full kit (8 each, 48 images) | Pages are now near-black; current images were shot for cream pages. Use the low-key rider (§3a): subjects lit against darkness, rich shadows. |
+| **2 — wellness/mono (CSS desaturates to 70%)** | `leza-nail-spa`, `my1-hair`, `chicago-beauty`, `pilates-plus`, `mccoy-chiropractic` | Full kit (40 images) | Color-led images lose their punch under the mono filter — re-shoot shape-and-light-first, airy, generous negative space. |
+| **3 — trust-critical hero/about, premium model** | The 7 authority sites (`cronauer-law`, `pardridge-insurance`, `white-oak-tax`, `friedrichs-eye`, `todd-curtis-orthodontist`, `genoa-animal-hospital`, `cortland-vet`) + flagship `flamengo` | `hero` + `about` (16 images) | The split hero shows the photo as a large framed panel — quality is most visible here. Use ChatGPT/GPT-image or Midjourney rather than bulk Flux. |
+| **4 — editorial heroes** | `the-montcler`, `dearborn-cafe`, `south-moon-bbq`, `geneva-winery`, `arcada-theater`, `tapa-la-luna` | `hero` (6 images) | Chiaroscuro/candlelit re-shoots suit the magazine register better than the current warm-generic set. |
+| 5 — everything else | remaining warm/craft sites | as needed | Current Flux sets are serviceable; replace opportunistically or when a business becomes a live prospect. |
+
+Workflow per batch: generate → drop into `site/public/img/<slug>/` under the
+same filenames → `python scripts/gen_blur.py` → restart any running dev server
+→ build + spot-check. Delete a slot's file and re-run `gen_images.py` to redo
+just that slot with Flux.
