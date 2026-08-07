@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { AnimatePresence, motion, useScroll, useReducedMotion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
 import { useLang } from "@/components/LanguageProvider";
 import { LANGS } from "@/lib/content";
 import { A11Y } from "@/lib/a11y";
@@ -13,7 +13,7 @@ function LangToggle({ scrolled }: { scrolled: boolean }) {
   return (
     <div
       className={`inline-flex items-center rounded-full border p-0.5 transition-colors ${
-        scrolled ? "border-line/80 bg-white/60" : "border-white/40 bg-black/25 backdrop-blur"
+        scrolled ? "border-line/80 bg-bg/70" : "border-white/40 bg-black/25 backdrop-blur"
       }`}
       role="group"
       aria-label={A11Y[lang].languageSelector}
@@ -45,8 +45,6 @@ export function Nav() {
   const { t, biz, hasPhone, lang, layout } = useLang();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
-  const reduce = useReducedMotion();
-  const { scrollYProgress } = useScroll();
   const openBtnRef = useRef<HTMLButtonElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
 
@@ -119,13 +117,14 @@ export function Nav() {
       }`}
     >
       <nav className="container-max flex h-16 items-center justify-between gap-4">
-        <a href="#top" className="flex items-center gap-2 no-underline">
-          <span className="grid h-9 w-9 place-items-center rounded-full gradient-brand font-display text-lg font-black text-white">
-            {biz.shortName.charAt(0)}
-          </span>
+        {/* Typographic wordmark + brand full-stop — the letter-in-a-gradient-
+            circle monogram was the most generic identity device on the page
+            (and repeated in the footer of all 72 sites). */}
+        <a href="#top" className="no-underline">
           <span className={`font-display text-xl font-black tracking-tight transition-colors ${solid ? "text-ink" : "text-white"}`}>
             {biz.shortName}
           </span>
+          <span aria-hidden className={`font-display text-xl font-black ${solid ? "text-primary" : "text-accent"}`}>.</span>
         </a>
 
         <div className="hidden items-center gap-7 lg:flex">
@@ -154,7 +153,7 @@ export function Nav() {
           <button
             ref={openBtnRef}
             className={`grid h-10 w-10 place-items-center rounded-full border transition-colors lg:hidden ${
-              solid ? "border-line bg-white/60 text-ink" : "border-white/40 bg-white/10 text-white"
+              solid ? "border-line bg-bg/70 text-ink" : "border-white/40 bg-white/10 text-white"
             }`}
             onClick={() => setOpen(true)}
             aria-label={A11Y[lang].openMenu}
@@ -164,13 +163,6 @@ export function Nav() {
           </button>
         </div>
       </nav>
-
-      {/* Scroll progress hairline */}
-      <motion.div
-        aria-hidden
-        style={{ scaleX: reduce ? 1 : scrollYProgress }}
-        className="absolute inset-x-0 bottom-0 h-0.5 origin-left gradient-brand"
-      />
 
       <AnimatePresence>
         {open && (

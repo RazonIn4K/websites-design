@@ -145,6 +145,8 @@ const BLUR_BY_SLUG: Record<string, Record<string, string>> = {
   "tapa-la-luna": b_tapa_la_luna,
   "anderson-auto-body": b_anderson_auto_body,
   "la-michoacana": b_la_michoacana,
+  "hinks-bar-and-grill": b_hinks_bar_and_grill,
+  "star-34-cafe": b_star_34_cafe,
 };
 
 export function getBlur(slug: string): Record<string, string> {

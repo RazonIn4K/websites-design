@@ -4,9 +4,8 @@ import Image from "next/image";
 import { useLang } from "@/components/LanguageProvider";
 import { Reveal } from "@/components/motion";
 import { SectionHeader } from "@/components/SectionHeader";
-import { CountUp } from "@/components/CountUp";
+import { StatBand } from "@/components/StatBand";
 
-const COLLAGE = ["about", "g4", "g5", "g6"];
 /** Refined (calm/editorial) collage: one tall anchor + two supporting tiles. */
 const COLLAGE_REFINED = ["about", "g4", "g5"];
 
@@ -41,15 +40,24 @@ export function About() {
       <div className="container-max grid items-center gap-12 lg:grid-cols-2">
         {/* Photo collage with clip-reveal */}
         {refined ? (
-          /* Asymmetric two-thirds anchor — quieter than the 2×2 checkerboard */
+          /* Asymmetric two-thirds anchor — quieter than a checkerboard */
           <div className="order-2 grid aspect-square grid-cols-3 grid-rows-2 gap-3 lg:order-1">
             {tile(COLLAGE_REFINED[0], 0, "col-span-2 row-span-2", "(min-width: 1024px) 30vw, 60vw")}
             {tile(COLLAGE_REFINED[1], 1, "", "(min-width: 1024px) 15vw, 30vw")}
             {tile(COLLAGE_REFINED[2], 2, "", "(min-width: 1024px) 15vw, 30vw")}
           </div>
         ) : (
-          <div className="order-2 grid aspect-square grid-cols-2 grid-rows-2 gap-3 lg:order-1">
-            {COLLAGE.map((name, idx) => tile(name, idx, "", "(min-width: 1024px) 22vw, 45vw"))}
+          /* Asymmetric pair: dominant portrait anchor + smaller square that
+             overlaps its inner corner on lg (offset into the column gap, so it
+             never spills past the viewport edge). */
+          <div className="relative order-2 lg:order-1">
+            {tile("about", 0, "aspect-[3/4]", "(min-width: 1024px) 45vw, 92vw")}
+            {tile(
+              "g4",
+              1,
+              "ml-auto mt-3 aspect-square w-1/2 lg:absolute lg:-bottom-8 lg:-right-6 lg:mt-0 lg:w-2/5",
+              "(min-width: 1024px) 18vw, 46vw",
+            )}
           </div>
         )}
 
@@ -74,22 +82,7 @@ export function About() {
           </div>
 
           {/* Credential stat band */}
-          <Reveal className="mt-10 overflow-hidden rounded-2xl border border-line bg-bg">
-            <div className="h-1 gradient-brand" />
-            <div className="grid grid-cols-1 divide-y divide-line sm:grid-cols-3 sm:divide-x sm:divide-y-0">
-              {t.about.stats.map((s) => (
-                <div key={s.label} className="px-4 py-5 text-center">
-                  <CountUp
-                    value={s.value}
-                    className="block text-balance break-words font-display text-xl font-black leading-tight text-primary sm:text-2xl"
-                  />
-                  <div className="mt-1 text-[0.7rem] font-semibold uppercase tracking-wider text-ink-soft">
-                    {s.label}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </Reveal>
+          <StatBand stats={t.about.stats} />
         </div>
       </div>
     </section>

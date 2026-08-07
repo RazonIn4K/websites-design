@@ -1,6 +1,6 @@
 # Multi-tenant site app
 
-One shared component set renders all **65 bilingual (EN/ES) client sites**. A
+One shared component set renders all **72 bilingual (EN/ES) client sites**. A
 client is *content + theme + photos + a layout assignment* — no per-client
 components exist anywhere.
 

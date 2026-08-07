@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { CLIENTS } from "@/lib/clients";
+import { CLIENTS, type SiteLayout } from "@/lib/clients";
 import { getBlur } from "@/lib/blur";
 import { SitesExplorer, type SiteCard } from "@/components/SitesExplorer";
 
@@ -25,26 +25,68 @@ function categorize(vertical: string): string {
   return "Shops & Retail";
 }
 
-/** Design-system label from the layout assignment. */
-function designLabel(layout?: { archetype?: string; hero?: string }): string {
+/** Named hero compositions worth surfacing as a design label on their own. */
+const HERO_LABELS: Partial<Record<NonNullable<SiteLayout["hero"]>, string>> = {
+  collage: "Collage",
+  arch: "Arch",
+  feast: "Feast",
+  split: "Split",
+  editorial: "Editorial",
+};
+
+/**
+ * Design-system label from the layout assignment: archetype when set (the
+ * strongest register), else a named hero composition, else the default
+ * Warm-Hospitality template.
+ */
+function designLabel(layout?: SiteLayout): string {
   if (layout?.archetype) return layout.archetype[0].toUpperCase() + layout.archetype.slice(1);
-  if (layout?.hero === "collage") return "Collage";
-  return "Warm";
+  return (layout?.hero && HERO_LABELS[layout.hero]) || "Warm";
 }
 
+/**
+ * Dark register for surface:"ink" tenants' cards — mirrors the card-relevant
+ * subset of INK_SURFACE_VARS in components/Providers.tsx (not exported; keep
+ * the two in sync). Merged into the card's inline themeVars for the same
+ * reason Providers merges them: a stylesheet swap loses to the inline palette.
+ */
+const INK_CARD_VARS: Record<string, string> = {
+  "--color-surface": "color-mix(in srgb, var(--color-primary) 8%, #1B1717)",
+  "--color-ink": "#F5F0EA",
+  "--color-ink-soft": "#BAB0A6",
+  "--color-line": "color-mix(in srgb, var(--color-primary) 14%, #3B3430)",
+};
+
+/** Corner register per edge — .card reads --radius-lg, so the inline var is
+ *  enough to echo the tenant's [data-edge] radius scale on its card. */
+const EDGE_RADIUS: Record<NonNullable<SiteLayout["edge"]>, string> = {
+  hard: "3px",
+  crisp: "0.875rem",
+};
+
 export default function SitesIndex() {
-  const items: SiteCard[] = CLIENTS.map((c) => ({
-    slug: c.slug,
-    href: c.slug === "flamengo" ? "/" : `/sites/${c.slug}`,
-    name: c.site.business.name,
-    vertical: c.vertical,
-    address: c.site.business.address,
-    cityState: `${c.site.business.city}, ${c.site.business.state}`,
-    category: categorize(c.vertical),
-    design: designLabel(c.layout),
-    themeVars: c.themeVars,
-    blurHero: getBlur(c.slug).hero,
-  }));
+  const items: SiteCard[] = CLIENTS.map((c) => {
+    const edge = c.layout?.edge;
+    const ink = c.layout?.surface === "ink";
+    return {
+      slug: c.slug,
+      href: c.slug === "flamengo" ? "/" : `/sites/${c.slug}`,
+      name: c.site.business.name,
+      vertical: c.vertical,
+      address: c.site.business.address,
+      cityState: `${c.site.business.city}, ${c.site.business.state}`,
+      category: categorize(c.vertical),
+      design: designLabel(c.layout),
+      themeVars: {
+        ...c.themeVars,
+        ...(edge ? { "--radius-lg": EDGE_RADIUS[edge] } : {}),
+        ...(ink ? INK_CARD_VARS : {}),
+      },
+      blurHero: getBlur(c.slug).hero,
+      edge,
+      ink,
+    };
+  });
 
   return (
     <main id="main" className="min-h-dvh bg-bg">

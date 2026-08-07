@@ -37,34 +37,36 @@ export function Gallery() {
           </span>
           <SectionHeader eyebrow={t.nav.gallery} heading={t.gallery.heading} sub={t.gallery.subheading} />
         </div>
-        <div
-          tabIndex={0}
-          role="group"
-          aria-label={t.gallery.heading}
-          className="no-scrollbar flex snap-x-mandatory gap-4 overflow-x-auto px-[var(--gutter)] pb-4 [scroll-padding-left:var(--gutter)]"
-        >
-          {STRIP.map((img, i) => (
-            <figure
-              key={img}
-              className="group relative aspect-[3/4] w-[78vw] shrink-0 snap-start overflow-hidden rounded-2xl shadow-card sm:w-[360px]"
-            >
-              <Image
-                src={`${imgBase}/${img}.jpg`}
-                alt=""
-                fill
-                sizes="(min-width: 640px) 360px, 78vw"
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
-                {...(blur[img] ? { placeholder: "blur" as const, blurDataURL: blur[img] } : {})}
-              />
-              <span className="badge-overlay absolute left-3 top-3 rounded-full px-2 py-0.5 text-xs font-semibold text-white">
-                {String(i + 1).padStart(2, "0")}
-              </span>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-              <figcaption className="absolute inset-x-0 bottom-0 p-4 font-display text-sm font-semibold italic leading-tight text-white">
-                {captions[i] ?? ""}
-              </figcaption>
-            </figure>
-          ))}
+        {/* Edge-fade affordance lives on this STATIC wrapper (marquee-mask
+            rule: mask a non-translating box, never the moving content) — the
+            faded card peeking through the right edge says "more this way". */}
+        <div className="marquee-mask">
+          <div
+            tabIndex={0}
+            role="group"
+            aria-label={t.gallery.heading}
+            className="no-scrollbar flex snap-x-mandatory gap-4 overflow-x-auto px-[var(--gutter)] pb-4 [scroll-padding-left:var(--gutter)]"
+          >
+            {STRIP.map((img, i) => (
+              <figure
+                key={img}
+                className="group relative aspect-[3/4] w-[78vw] shrink-0 snap-start overflow-hidden rounded-2xl shadow-card sm:w-[360px]"
+              >
+                <Image
+                  src={`${imgBase}/${img}.jpg`}
+                  alt=""
+                  fill
+                  sizes="(min-width: 640px) 360px, 78vw"
+                  className="object-cover transition-transform duration-500 group-hover:scale-105 group-focus-within:scale-105"
+                  {...(blur[img] ? { placeholder: "blur" as const, blurDataURL: blur[img] } : {})}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent transition-colors duration-300 group-hover:from-black/85 group-focus-within:from-black/85" />
+                <figcaption className="absolute inset-x-0 bottom-0 p-4 font-display text-sm font-semibold italic leading-tight text-white">
+                  {captions[i] ?? ""}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
         </div>
       </section>
     );
@@ -87,14 +89,13 @@ export function Gallery() {
               alt=""
               fill
               sizes={tile.size}
-              className="object-cover transition-transform duration-500 group-hover:scale-105"
+              className="object-cover transition-transform duration-500 group-hover:scale-105 group-focus-within:scale-105"
               {...(blur[tile.img] ? { placeholder: "blur" as const, blurDataURL: blur[tile.img] } : {})}
             />
-            <span className="badge-overlay absolute left-3 top-3 rounded-full px-2 py-0.5 text-xs font-semibold text-white">
-              {String(i + 1).padStart(2, "0")}
-            </span>
-            <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent transition-colors duration-300 group-hover:from-black/80" />
-            <figcaption className="absolute inset-x-0 bottom-0 translate-y-2 p-4 font-display text-sm font-semibold italic leading-tight text-white opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+            {/* Caption is always readable (touch/keyboard parity) — the scrim
+                and caption merely intensify on hover/focus-within. */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent transition-colors duration-300 group-hover:from-black/85 group-focus-within:from-black/85" />
+            <figcaption className="absolute inset-x-0 bottom-0 p-4 font-display text-sm font-semibold italic leading-tight text-white">
               {captions[i] ?? ""}
             </figcaption>
           </Reveal>
