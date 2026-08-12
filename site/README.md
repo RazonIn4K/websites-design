@@ -1,18 +1,18 @@
 # Multi-tenant site app
 
-One shared component set renders all **72 bilingual (EN/ES) client sites**. A
-client is *content + theme + photos + a layout assignment* — no per-client
+One shared component set renders all **72 bilingual (EN/ES) illustrative concept sites**. A
+concept is *content + theme + photos + a layout assignment* — no per-client
 components exist anywhere.
 
 - **Stack:** Next.js 16 (App Router, SSG) · React 19 · TypeScript 6 ·
   Tailwind CSS v4 (CSS-first `@theme`) · Motion 12.
-- **Routes:** `/` (flagship), `/sites` (filterable portfolio explorer),
-  `/sites/<slug>` (64 clients), `/api/lead` (demo lead endpoint; set
-  `LEAD_WEBHOOK_URL` to forward).
+- **Routes:** `/` (unapproved flagship concept), `/sites` (filterable portfolio explorer),
+  `/sites/<slug>` (71 concept routes), `/api/lead` (demo lead endpoint for the
+  other concepts; the flagship renders no form; set `LEAD_WEBHOOK_URL` to forward).
 
 ```bash
 npm run dev        # develop
-npm run build      # SSG build (72 pages) + TS typecheck
+npm run build      # 72 concept sites / 81 generated pages + TS typecheck
 npm run start      # serve the production build
 npm run qa:all     # fleet-wide QA harness (see qa/README.md) — server must be running
 ```
@@ -27,9 +27,9 @@ npm run qa:all     # fleet-wide QA harness (see qa/README.md) — server must be
 | LQIP blur placeholders | `content/clients/<slug>/blur.json` (`lib/blur.ts`) |
 | Registration + layout assignment | `lib/clients.ts` (`CLIENTS` + `LAYOUTS`) |
 
-Integrity rules: business name/address/phone are real (OpenStreetMap); menus,
-prices, hours, and testimonials are demo content and each site says so; no
-fabricated founding years, staff, or awards; phone-less clients never render
+Integrity rules: business name/address/phone are open-data inputs, not
+owner-confirmed facts; menus, prices, hours, and testimonials are demo content
+and each site says so; no fabricated founding years, staff, or awards; phone-less concepts never render
 "call" CTAs in either language.
 
 ## Design system levers (`SiteLayout` in `lib/clients.ts`)

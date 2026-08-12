@@ -7,8 +7,22 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { LeadForm } from "@/components/LeadForm";
 import { MapPin, Clock, Phone, ArrowRight } from "@/components/icons";
 
-export function Visit() {
+const ORDERING_URL = "https://flamingorestaurantdekalb.com/";
+
+export function Visit({ leadEnabled = true }: { leadEnabled?: boolean }) {
   const { t, biz, hasPhone, lang } = useLang();
+  const demoInquiry =
+    lang === "es"
+      ? {
+          heading: "Concepto ilustrativo — sin reservaciones activas",
+          text: "Las reservaciones y solicitudes de contacto no están activas en este concepto ilustrativo. Este panel es informativo: no se puede ingresar ni enviar información.",
+          link: "Use el sitio externo de pedidos reales para información actual",
+        }
+      : {
+          heading: "Illustrative concept — no active reservations",
+          text: "Reservations and contact requests are not active on this illustrative concept. This panel is informational: nothing can be entered or sent.",
+          link: "Use the live external ordering site for current ordering",
+        };
   // Coordinate-mode embed (real OSM lat/lon): shows a clean pin WITHOUT the
   // stock Google place card — whose live star rating (e.g. 2.7★) otherwise
   // sits right next to the testimonials. Name-query only as fallback.
@@ -98,11 +112,33 @@ export function Visit() {
             </Reveal>
           </div>
 
-          {/* Lead form */}
+          {/* Lead form, or an inert boundary for an unapproved prospect concept. */}
           <Reveal className="rounded-2xl bg-bg p-6 shadow-card sm:p-8" delay={0.1}>
-            <h3 className="text-h3 text-ink">{t.form.heading}</h3>
-            <p className="mb-5 mt-1 text-sm text-ink-soft">{t.form.subheading}</p>
-            <LeadForm />
+            <h3 className="text-h3 text-ink">{leadEnabled ? t.form.heading : demoInquiry.heading}</h3>
+            {leadEnabled ? (
+              <>
+                <p className="mb-5 mt-1 text-sm text-ink-soft">{t.form.subheading}</p>
+                <LeadForm />
+              </>
+            ) : (
+              <div
+                id="lead"
+                data-demo-inquiry
+                role="note"
+                className="mt-4 rounded-xl border border-primary/30 bg-primary/10 p-5"
+              >
+                <p className="text-sm leading-relaxed text-ink">{demoInquiry.text}</p>
+                <a
+                  href={ORDERING_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-underline mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary"
+                >
+                  {demoInquiry.link}
+                  <ArrowRight className="h-4 w-4" />
+                </a>
+              </div>
+            )}
           </Reveal>
         </div>
       </div>

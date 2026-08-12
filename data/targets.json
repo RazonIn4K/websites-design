@@ -1,5 +1,6 @@
 {
   "generated_for": "DeKalb County, IL + corridor toward Chicago",
+  "record_basis": "OpenStreetMap discovery snapshot with dated manual status corrections; aggregate stats reflect the checked-in manifest after known corrections, not a complete live re-audit",
   "regions": [
     "DeKalb / Sycamore / Cortland (county core)",
     "Genoa / Kingston / Kirkland (north county)",
@@ -7,8 +8,8 @@
   ],
   "stats": {
     "total_businesses": 237,
-    "without_website": 112,
-    "without_website_pct": 47.3,
+    "without_website": 111,
+    "without_website_pct": 46.8,
     "by_vertical": {
       "auto": 22,
       "food_retail": 4,
@@ -23,7 +24,7 @@
     "without_website_by_vertical": {
       "auto": 13,
       "food_retail": 2,
-      "restaurant": 54,
+      "restaurant": 53,
       "health": 18,
       "beauty": 8,
       "fitness": 7,
@@ -259,35 +260,6 @@
       },
       "is_chain": false,
       "region": "Sandwich / Somonauk / Waterman (south county)",
-      "lead_score": 7,
-      "audit": [
-        "no website",
-        "phone reachable",
-        "full address"
-      ]
-    },
-    {
-      "osm_id": "way/327347626",
-      "name": "Flamengo Restaurant and Ice Cream",
-      "vertical": "restaurant",
-      "subtype": "restaurant",
-      "lat": 41.9331188,
-      "lon": -88.7399673,
-      "website": "",
-      "social": {},
-      "phone": "+1 815-901-0049",
-      "email": "",
-      "opening_hours": "10:00-22:00",
-      "cuisine": "mexican",
-      "address": {
-        "line1": "1029 Pleasant Street",
-        "city": "DeKalb",
-        "state": "IL",
-        "postcode": "60115",
-        "full": "1029 Pleasant Street, DeKalb, IL 60115"
-      },
-      "is_chain": false,
-      "region": "DeKalb / Sycamore / Cortland (county core)",
       "lead_score": 7,
       "audit": [
         "no website",
@@ -3218,6 +3190,52 @@
       "region": "DeKalb / Sycamore / Cortland (county core)",
       "lead_score": 3,
       "audit": [
+        "phone reachable",
+        "full address"
+      ]
+    },
+    {
+      "osm_id": "way/327347626",
+      "name": "Flamingo Restaurant & Ice Cream",
+      "vertical": "restaurant",
+      "subtype": "restaurant",
+      "lat": 41.9331188,
+      "lon": -88.7399673,
+      "website": "https://flamingorestaurantdekalb.com/",
+      "social": {},
+      "phone": "+1 815-901-0049",
+      "email": "",
+      "opening_hours": "10:00-22:00",
+      "cuisine": "mexican",
+      "address": {
+        "line1": "1029 Pleasant Street",
+        "city": "DeKalb",
+        "state": "IL",
+        "postcode": "60115",
+        "full": "1029 Pleasant Street, DeKalb, IL 60115"
+      },
+      "is_chain": false,
+      "region": "DeKalb / Sycamore / Cortland (county core)",
+      "source_snapshot": {
+        "name": "Flamengo Restaurant and Ice Cream",
+        "website": ""
+      },
+      "website_status": {
+        "checked_on": "2026-08-11",
+        "status": "verified live",
+        "surface": "branded EatStreet-powered ordering site",
+        "name_basis": "observed on the live ordering surface; canonical business-name style not owner-confirmed",
+        "account_authority": "unknown",
+        "relationship": "prospect/discovery only; not a confirmed client"
+      },
+      "outreach_status": "hold until engagement and account authority are confirmed",
+      "lead_score": 3,
+      "lead_score_status": "recomputed after the dated website correction; not outreach authorization",
+      "audit": [
+        "source snapshot had no website tag; dated current-status override applied",
+        "live branded EatStreet-powered ordering site verified 2026-08-11",
+        "live-surface name style observed; canonical style not owner-confirmed",
+        "account authority and client relationship unknown",
         "phone reachable",
         "full address"
       ]

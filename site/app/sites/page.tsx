@@ -6,7 +6,7 @@ import { SitesExplorer, type SiteCard } from "@/components/SitesExplorer";
 export const metadata: Metadata = {
   title: "Generated Local Business Sites — DeKalb, IL",
   description:
-    "A portfolio of modern, bilingual marketing sites auto-generated for local DeKalb-area businesses discovered from open data.",
+    "A gallery of illustrative bilingual spec concepts generated from an open-data local-business discovery snapshot.",
   alternates: { canonical: "/sites" },
 };
 
@@ -114,18 +114,20 @@ export default function SitesIndex() {
             Generated Business Sites
           </h1>
           <p className="mx-auto mt-4 text-ink-soft">
-            {CLIENTS.length} modern, fully bilingual (EN/ES) marketing sites — each
-            discovered from open data, audited for a missing web presence, and built
-            on one content-driven template with a per-vertical brand theme.
+            {CLIENTS.length} illustrative, fully bilingual (EN/ES) spec concepts —
+            each originated from an open-data discovery snapshot. Inclusion does not
+            confirm a current missing web presence, owner approval, or a client
+            relationship.
           </p>
         </header>
 
         <SitesExplorer items={items} />
 
         <p className="mx-auto mt-12 max-w-2xl text-center text-xs text-ink-soft">
-          Spec/demo sites built for a local-business pitch. Business name, address, and
-          phone come from public OpenStreetMap data; menus, prices, hours, and reviews
-          are illustrative placeholders.
+          Prospect/discovery concepts only. Business identity fields came from public
+          OpenStreetMap data; current web presence and account authority require
+          separate verification. Menus, prices, hours, reviews, and imagery are
+          illustrative placeholders.
         </p>
       </section>
     </main>

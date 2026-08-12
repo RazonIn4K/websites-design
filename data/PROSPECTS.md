@@ -1,15 +1,22 @@
-# Local Recon — Prospect Report
+# Local Recon — Discovery Snapshot with Dated Corrections
 
 **Area:** DeKalb County, IL + corridor toward Chicago  
 **Source:** OpenStreetMap Overpass API (public, ODbL)  
 **Businesses found:** 237  
-**Without a website:** 112 (47.3%)
+**Rows still flagged without a website after known dated corrections:** 111 (46.8%)
 
-## No-website prospects by vertical
+The original OpenStreetMap snapshot contained 112 such rows; the count above
+reflects the verified Flamingo correction only, not a complete live re-audit.
+A blank OpenStreetMap website field does not prove that a business lacks a
+website, and the list does not prove a client relationship or account authority.
+Apply the dated corrections in [`prospect-status.md`](./prospect-status.md)
+before outreach.
 
-| Vertical | No website | Total |
+## Rows still flagged without a website after known corrections, by vertical
+
+| Vertical | No website tag | Total |
 |---|---:|---:|
-| restaurant | 54 | 126 |
+| restaurant | 53 | 126 |
 | health | 18 | 31 |
 | auto | 13 | 22 |
 | beauty | 8 | 11 |
@@ -19,7 +26,7 @@
 | prof_services | 3 | 9 |
 | food_retail | 2 | 4 |
 
-## Top 20 leads (independent, reachable, no website)
+## Historical ranked candidates (current status requires verification)
 
 | Score | Business | Vertical | Phone | City |
 |---:|---|---|---|---|
@@ -31,7 +38,6 @@
 | +7 | Lovells Discount Tire - DeKalb | auto/tyres | +1 815-756-5656 | Dekalb |
 | +7 | Lacey's Place | restaurant/restaurant | +1-630-552-3630 | Plano |
 | +7 | Johnny K's | restaurant/fast_food | +1-815-786-3088 | Sandwich |
-| +7 | Flamengo Restaurant and Ice Cream | restaurant/restaurant | +1 815-901-0049 | DeKalb |
 | +7 | Exquisite Skillet Pancake House | restaurant/restaurant | +1-331-808-0001 | Plano |
 | +7 | Dearborn Cafe | restaurant/restaurant | +1-815-786-6185 | Sandwich |
 | +7 | China House | restaurant/restaurant | +1 815-748-0032 | DeKalb |
@@ -44,6 +50,20 @@
 | +5 | The Lincoln Inn | restaurant/restaurant | — | DeKalb |
 | +5 | The Huddle | restaurant/restaurant | — | DeKalb |
 
-> Scoring favors independents with a phone/email and a full address but **no website** — the strongest pitch targets. Chains/brands are deprioritized.
+> Historical scoring favored independents with a phone/email, full address, and
+> no website tag in the source snapshot. It must not be used as a current
+> no-website or outreach claim.
 
-**Flagship build:** Flamengo Restaurant and Ice Cream (DeKalb, IL) — see `/site`.
+## Flamingo current-status correction — 2026-08-11
+
+- The live ordering surface displayed **Flamingo Restaurant & Ice Cream** on
+  2026-08-11. That is observed public branding, not owner-confirmed canonical naming;
+  the source snapshot used “Flamengo Restaurant and Ice Cream.”
+- [flamingorestaurantdekalb.com](https://flamingorestaurantdekalb.com/) was
+  verified live as a branded, EatStreet-powered ordering surface. Flamingo is
+  therefore removed from the current no-website classification.
+- The flagship rendered at `/` from the `site/` directory is an **illustrative
+  prospect/discovery spec demo**, not confirmed client work or an owner-approved
+  official site.
+- Merchant/admin ownership, account authority, and any client relationship are
+  **unknown**. The live ordering surface proves neither access nor permission.

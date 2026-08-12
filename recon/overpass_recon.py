@@ -156,9 +156,72 @@ def score(rec):
     return s, reasons
 
 
+def load_status_overrides(out_dir):
+    """Load dated corrections that supersede stale discovery-source fields."""
+    path = out_dir / "current-status-overrides.json"
+    if not path.exists():
+        return {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    records = payload.get("records", {})
+    if not isinstance(records, dict):
+        raise ValueError(f"{path}: records must be an object keyed by OSM id")
+    return records
+
+
+def apply_status_override(rec, override):
+    """Merge a dated correction while retaining the discovery-source fields."""
+    source_snapshot = {
+        "name": rec["name"],
+        "website": rec["website"],
+    }
+    rec["name"] = override["observed_name"]
+    rec["website"] = override["website"]
+    rec["source_snapshot"] = source_snapshot
+    rec["website_status"] = {
+        "checked_on": override["checked_on"],
+        "status": "verified live",
+        "surface": override["surface"],
+        "name_basis": override["name_basis"],
+        "account_authority": override["account_authority"],
+        "relationship": override["relationship"],
+    }
+    rec["outreach_status"] = override["outreach_status"]
+
+
+def finalize_record(rec, override=None):
+    """Apply any durable correction, then score and annotate the record."""
+    if override:
+        apply_status_override(rec, override)
+    lead_score, reasons = score(rec)
+    rec["lead_score"] = lead_score
+    if override:
+        rec["lead_score_status"] = (
+            "recomputed after the dated website correction; "
+            "not outreach authorization"
+        )
+        override_reasons = []
+        if not rec["source_snapshot"]["website"] and rec["website"]:
+            override_reasons.append(
+                "source snapshot had no website tag; "
+                "dated current-status override applied"
+            )
+        override_reasons.extend(
+            [
+                f"live {rec['website_status']['surface']} verified "
+                f"{rec['website_status']['checked_on']}",
+                "live-surface name style observed; canonical style not owner-confirmed",
+                "account authority and client relationship unknown",
+            ]
+        )
+        reasons = override_reasons + reasons
+    rec["audit"] = reasons
+    return rec
+
+
 def main():
     out_dir = Path(__file__).resolve().parent.parent / "data"
     out_dir.mkdir(exist_ok=True)
+    status_overrides = load_status_overrides(out_dir)
 
     seen = {}
     for label, s, w, n, e in REGIONS:
@@ -179,8 +242,9 @@ def main():
             if key in seen:
                 continue
             website = get_website(tags)
+            osm_id = f"{el['type']}/{el['id']}"
             rec = {
-                "osm_id": f"{el['type']}/{el['id']}",
+                "osm_id": osm_id,
                 "name": name,
                 "vertical": vert,
                 "subtype": subtype,
@@ -196,10 +260,8 @@ def main():
                 "is_chain": bool(tags.get("brand") or tags.get("brand:wikidata")),
                 "region": label,
             }
-            sc, reasons = score(rec)
-            rec["lead_score"] = sc
-            rec["audit"] = reasons
-            seen[key] = rec
+            override = status_overrides.get(osm_id)
+            seen[key] = finalize_record(rec, override)
         time.sleep(2)  # be polite to Overpass between regions
 
     records = sorted(seen.values(),
@@ -217,6 +279,11 @@ def main():
 
     manifest = {
         "generated_for": "DeKalb County, IL + corridor toward Chicago",
+        "record_basis": (
+            "OpenStreetMap discovery snapshot with dated manual status "
+            "corrections; aggregate stats reflect the checked-in manifest "
+            "after known corrections, not a complete live re-audit"
+        ),
         "regions": [r[0] for r in REGIONS],
         "stats": {
             "total_businesses": total,

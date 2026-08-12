@@ -16,10 +16,20 @@ across DeKalb County + the corridor toward Chicago, classifies each business by
 vertical, audits website/contact presence, scores it as a web-design lead, and
 writes a ranked manifest.
 
-- **`data/targets.json`** — full machine-readable manifest (237 businesses).
-- **`data/PROSPECTS.md`** — human-readable prospect report + top-20 leads.
+- **`data/targets.json`** — machine-readable OpenStreetMap discovery snapshot
+  (237 businesses) plus dated status notes where later verification supersedes
+  a source tag.
+- **`data/current-status-overrides.json`** — durable, dated corrections merged
+  by the recon generator so a rerun does not silently restore a superseded
+  prospect claim.
+- **`data/PROSPECTS.md`** — human-readable snapshot report. It is not a current
+  outreach list; consult `data/prospect-status.md` before treating any record as
+  a prospect.
 
-**Result:** 237 businesses found, **112 (47%) have no website**. Re-run (stdlib only):
+**Manifest status:** the original snapshot contained 112 rows without a website
+tag. After the dated Flamingo correction, the checked-in manifest contains
+**111 (46.8%)**. This is not a complete live re-audit and does not prove that
+those businesses currently lack a website. Re-run (stdlib only):
 
 ```bash
 python recon/overpass_recon.py
@@ -27,10 +37,12 @@ python recon/overpass_recon.py
 
 ## 2. Generated sites (`site/`)
 
-One shared component template renders **72 client sites across 72 verticals**, each
-discovered from the manifest as an independent business with no current website, and
-each with its own bilingual copy, brand palette, display font, emoji set, and a full
-set of **8 AI-generated photos** (hero, ambiance, 6 gallery) — 520 images total.
+One shared component template renders **72 illustrative business spec/demo sites
+across 71 unique vertical labels**. Each originated from a discovery manifest, but inclusion
+does not establish a current missing website, a client relationship, owner
+approval, or authority over any business account. Each demo has its own bilingual
+copy, brand palette, display font, emoji set, and a full set of **8 AI-generated
+photos** (hero, ambiance, 6 gallery) — 576 images total.
 
 Beyond palette/font, each client opts into a **layout archetype** (`lib/clients.ts`
 `SiteLayout`) so the sites differ in their *bones*, not just color: **Warm Hospitality**
@@ -51,9 +63,12 @@ deterministic **QA harness** (`site/qa/`, `npm run qa:all`) sweeps all 72 sites
 for overflow, Spanish structural parity, interactive behaviors, and real-motion
 scroll reveals.
 
+The table uses working labels from the discovery snapshot or a dated public-surface
+observation; it does not assert owner-confirmed canonical naming.
+
 | Route (`/` or `/sites/<slug>`) | Business | Vertical · City |
 |---|---|---|
-| `/` (flamengo) | Flamingo Restaurant and Ice Cream | Mexican Restaurant & Ice Cream · DeKalb |
+| `/` (flamengo) | Flamingo Restaurant & Ice Cream | Mexican Restaurant & Ice Cream · DeKalb |
 | `a1-auto` | A-1 Auto Repair | Auto Repair · DeKalb |
 | `university-city-barbershop` | University City Barbershop | Barbershop · DeKalb |
 | `dekalb-mechanical` | DeKalb Mechanical | Heating & Cooling (HVAC) · DeKalb |
@@ -157,11 +172,13 @@ npm run dev            # http://localhost:3000
 npm run build && npm run start
 ```
 
-Status: `tsc --noEmit` ✅ · `eslint` ✅ 0 errors · `next build` ✅ (72 routes) · runtime + browser verified.
+Status: `tsc --noEmit` ✅ · `eslint` ✅ 0 errors · `next build` ✅ (72 concept sites; 81 generated pages in the current build) · runtime + browser verified.
 
 ### Lead pipeline
-The form posts to `/api/lead`, which forwards a normalized, **per-tenant** payload
-(each site sends its own business identity) to your deal pipeline. Configure:
+The form on the 71 non-flagship concept routes posts to `/api/lead`, which
+forwards a normalized, **per-tenant** payload (each route sends its own business
+identity) to your deal pipeline. The unapproved Flamingo flagship renders no
+form; its inquiry panel is inert. Configure:
 
 ```bash
 cp site/.env.local.example site/.env.local
@@ -199,8 +216,17 @@ Swap in a client's real photos by dropping files into `public/img/<slug>/` with 
 same names (`hero`, `about`, `g1`–`g6`).
 
 ## Notes & integrity
-- Business **name, address, and phone** come from public OpenStreetMap data.
+- Business **name, address, and phone** fields originated in public OpenStreetMap
+  data. Dated status overrides may record later observed public branding; that
+  is not an owner-confirmed canonical-name claim.
 - **Menus, prices, hours, testimonials, and photos are illustrative demo content**
   (each site states this) — no fabricated specifics (founding years, awards, named
   individuals). Imagery is AI-generated and meant to be replaced with the owner's real photos.
-- These are **spec/demo sites** to be shown to each business owner.
+- These are **illustrative prospect/discovery spec demos**, not confirmed client
+  work or owner-approved official sites unless a separate engagement record says
+  otherwise.
+- **Flamingo correction (verified 2026-08-11):**
+  [flamingorestaurantdekalb.com](https://flamingorestaurantdekalb.com/) is a live,
+  branded EatStreet-powered ordering surface. The `/` demo remains an illustrative
+  prospect concept; merchant/admin ownership, account authority, owner approval,
+  and any client relationship are unknown. See `data/prospect-status.md`.

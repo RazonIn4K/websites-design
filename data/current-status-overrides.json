@@ -1,0 +1,14 @@
+{
+  "records": {
+    "way/327347626": {
+      "checked_on": "2026-08-11",
+      "observed_name": "Flamingo Restaurant & Ice Cream",
+      "name_basis": "observed on the live ordering surface; canonical business-name style not owner-confirmed",
+      "website": "https://flamingorestaurantdekalb.com/",
+      "surface": "branded EatStreet-powered ordering site",
+      "account_authority": "unknown",
+      "relationship": "prospect/discovery only; not a confirmed client",
+      "outreach_status": "hold until engagement and account authority are confirmed"
+    }
+  }
+}

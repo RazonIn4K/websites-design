@@ -181,7 +181,7 @@ export function SitesExplorer({ items }: { items: SiteCard[] }) {
                   // [data-surface="ink"] link rule on the tenant pages.
                   style={c.ink ? { color: "color-mix(in srgb, var(--color-primary) 45%, var(--color-ink))" } : undefined}
                 >
-                  View live site →
+                  View concept →
                 </span>
               </div>
             </a>

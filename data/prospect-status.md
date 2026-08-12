@@ -1,9 +1,9 @@
-# Prospect status ledger — verified July 2026
+# Prospect status ledger — verified through August 11, 2026
 
-Findings from the locale/business research pass (10 web-research agents, every
-claim source-checked). The generated sites still render the original manifest
-data; nothing below was silently changed. Use this to prioritize/clean the
-pitch list.
+Findings from dated locale/business research passes. The generated sites remain
+illustrative spec demos; a route does not establish a client relationship,
+owner approval, or account authority. Use this ledger to qualify the historical
+manifest before outreach.
 
 ## Closed or gone (no longer prospects as-is)
 
@@ -30,7 +30,7 @@ pitch list.
 
 | Site | Finding | Status |
 | --- | --- | --- |
-| flamengo (flagship) | Real business is spelled **"Flamingo"** Restaurant & Ice Cream (flamingorestaurantdekalb.com) — OSM tag carried the misspelling | ✅ APPLIED (display name + all copy; slug unchanged) |
+| flamengo (flagship) | [flamingorestaurantdekalb.com](https://flamingorestaurantdekalb.com/) was verified live on 2026-08-11 as a branded, EatStreet-powered ordering surface using **Flamingo Restaurant & Ice Cream**. The repository site is an illustrative prospect/discovery spec demo; merchant/admin ownership, account authority, owner approval, the canonical business-name style, and any client relationship remain unknown. | ✅ REMOVED from current no-website classification; claim-boundary containment applied (noindex/nofollow, Restaurant schema removed, early disclosure, and Flamingo lead form suppressed/replaced with an inert panel); no visual redesign, provider, or deployment change |
 | the-montcler | Actually The Montcler **Hotel & Conference Center** (official: Sandwich, IL 60548) with on-site dining — not a standalone restaurant | open (concept reframe = your call) |
 | tastee-bite | Real business is a Chicago-style hot dog / ice-cream stand, not a frozen-custard stand | open (demo concept, disclaimed) |
 | china-house | Currently described as buffet/hibachi/sushi, not wok carryout | open (demo menu, disclaimed) |

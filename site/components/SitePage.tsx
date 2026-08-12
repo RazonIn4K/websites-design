@@ -13,10 +13,17 @@ import { Faq } from "@/components/Faq";
 import { Story } from "@/components/Story";
 import { CtaBand, Footer } from "@/components/Footer";
 import { MobileBar } from "@/components/MobileBar";
+import { ProspectDisclosure } from "@/components/ProspectDisclosure";
 import { type Archetype, type SectionKey, sectionOrder } from "@/lib/sections";
 
 /** Full one-page site. Section order is driven by the client's archetype. */
-export function SitePage({ archetype }: { archetype?: Archetype }) {
+export function SitePage({
+  archetype,
+  prospectDemo = false,
+}: {
+  archetype?: Archetype;
+  prospectDemo?: boolean;
+}) {
   const sections: Record<SectionKey, ReactNode> = {
     hero: <Hero />,
     highlights: <Highlights />,
@@ -29,7 +36,7 @@ export function SitePage({ archetype }: { archetype?: Archetype }) {
     ritual: <Steps which="ritual" />,
     faq: <Faq />,
     story: <Story />,
-    visit: <Visit />,
+    visit: <Visit leadEnabled={!prospectDemo} />,
     cta: <CtaBand />,
   };
   const order = sectionOrder(archetype);
@@ -38,6 +45,7 @@ export function SitePage({ archetype }: { archetype?: Archetype }) {
     <>
       <Nav />
       <main id="main">
+        {prospectDemo && <ProspectDisclosure />}
         {order.map((key) => (
           <Fragment key={key}>{sections[key]}</Fragment>
         ))}

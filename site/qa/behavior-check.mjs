@@ -4,7 +4,8 @@
  * 3. testimonial carousel Next advances without error
  * 4. mobile nav dialog opens, Escape closes, focus returns to trigger
  * 5. language toggle switches <html lang> to es
- * 6. lead form submits (ES mode) and shows the success live-region message
+ * 6. lead form submits (ES mode) and shows the success live-region message,
+ *    except the unapproved Flamingo concept, which must render an inert panel
  * Usage: node qa/behavior-check.js   (POSTs demo leads to /api/lead)
  */
 import { launch, forEachSite, urlFor } from "./lib.mjs";
@@ -75,7 +76,12 @@ import { launch, forEachSite, urlFor } from "./lib.mjs";
       } else fails.push("ES toggle button not found");
 
       const nameField = page.locator('#lead input[name="name"]');
-      if (await nameField.count()) {
+      if (slug === "flamengo") {
+        if (await nameField.count()) fails.push("flagship exposes an active lead form");
+        if ((await page.locator("[data-demo-inquiry]").count()) !== 1) {
+          fails.push("flagship inert inquiry panel not found");
+        }
+      } else if (await nameField.count()) {
         await nameField.scrollIntoViewIfNeeded();
         await nameField.fill("QA Prueba");
         await page.locator('#lead input[name="email"]').fill("qa@example.com");
