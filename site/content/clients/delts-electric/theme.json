@@ -1,0 +1,16 @@
+{
+  "concept": "Graphite industrial palette with safety-orange primary for Delts Electric \u2014 high-contrast licensed trade identity on cool neutral surfaces.",
+  "vars": {
+    "--color-bg": "#F4F5F6",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#E5E8EB",
+    "--color-ink": "#1A2330",
+    "--color-ink-soft": "#4A5568",
+    "--color-primary": "#EA580C",
+    "--color-primary-dark": "#C2410C",
+    "--color-secondary": "#334155",
+    "--color-accent": "#FBBF24",
+    "--color-line": "#CBD5E1"
+  },
+  "contrastNotes": "ink #1A2330 on bg #F4F5F6 >= 12:1. White on primary #EA580C >= 4.5:1 for CTA labels. Primary on bg >= 4.5:1 for large text."
+}

@@ -1,0 +1,16 @@
+{
+  "concept": "Deep navy primary with warm copper secondary for Votaw Plumbing \u2014 residential DeKalb trust on clean light surfaces.",
+  "vars": {
+    "--color-bg": "#F7F8FA",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#E8EDF3",
+    "--color-ink": "#0F172A",
+    "--color-ink-soft": "#475569",
+    "--color-primary": "#1E3A5F",
+    "--color-primary-dark": "#152A45",
+    "--color-secondary": "#B87333",
+    "--color-accent": "#D4A574",
+    "--color-line": "#CBD5E1"
+  },
+  "contrastNotes": "ink #0F172A on bg #F7F8FA >= 14:1. White on primary #1E3A5F >= 11:1 for CTA labels. Copper secondary reserved for accents and large headings."
+}

@@ -73,6 +73,8 @@ import b_anderson_auto_body from "@/content/clients/anderson-auto-body/blur.json
 import b_la_michoacana from "@/content/clients/la-michoacana/blur.json";
 import b_hinks_bar_and_grill from "@/content/clients/hinks-bar-and-grill/blur.json";
 import b_star_34_cafe from "@/content/clients/star-34-cafe/blur.json";
+import b_delts_electric from "@/content/clients/delts-electric/blur.json";
+import b_votaw_plumbing from "@/content/clients/votaw-plumbing/blur.json";
 
 const BLUR_BY_SLUG: Record<string, Record<string, string>> = {
   "flamengo": b_flamengo,
@@ -145,6 +147,10 @@ const BLUR_BY_SLUG: Record<string, Record<string, string>> = {
   "tapa-la-luna": b_tapa_la_luna,
   "anderson-auto-body": b_anderson_auto_body,
   "la-michoacana": b_la_michoacana,
+  "hinks-bar-and-grill": b_hinks_bar_and_grill,
+  "star-34-cafe": b_star_34_cafe,
+  "delts-electric": b_delts_electric,
+  "votaw-plumbing": b_votaw_plumbing,
 };
 
 export function getBlur(slug: string): Record<string, string> {

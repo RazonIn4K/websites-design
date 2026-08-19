@@ -1,0 +1,618 @@
+{
+  "business": {
+    "name": "Votaw Plumbing LLC",
+    "shortName": "Votaw Plumbing",
+    "vertical": "Residential & light commercial plumbing",
+    "phone": "(815) 793-9811",
+    "phoneHref": "+18157939811",
+    "address": "1704 Prather Lane",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Votaw Plumbing LLC, 1704 Prather Lane, DeKalb, IL 60115",
+    "lat": 41.9396625,
+    "lon": -88.7320834
+  },
+  "en": {
+    "meta": {
+      "title": "Votaw Plumbing LLC | Plumber in DeKalb, IL",
+      "description": "Residential and light commercial plumbing in DeKalb, IL. Drains, water heaters, leaks, remodels, and emergency service. Call (815) 793-9811 for a free estimate."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About",
+      "gallery": "Our Work",
+      "visit": "Visit",
+      "order": "Free Estimate"
+    },
+    "hero": {
+      "eyebrow": "DeKalb Plumbing · Residential & Light Commercial",
+      "title": "Plumbing Done",
+      "titleAccent": "Right the First Time",
+      "subtitle": "Leaks, clogs, water heaters, and remodel rough-ins — Votaw Plumbing keeps DeKalb homes flowing with honest estimates, tidy work, and a local crew you can reach by phone.",
+      "ctaPrimary": "View Services",
+      "ctaSecondary": "Call for a Free Estimate",
+      "badge": "Licensed · Insured · Free Estimates · DeKalb Residential Specialist"
+    },
+    "highlights": [
+      {
+        "icon": "shield",
+        "title": "Licensed & Insured",
+        "text": "Code-compliant installs and repairs with clear communication before we turn a valve."
+      },
+      {
+        "icon": "clock",
+        "title": "Same-Week Scheduling",
+        "text": "Most routine calls booked within the week — emergency help when a leak can't wait."
+      },
+      {
+        "icon": "gauge",
+        "title": "Honest, Written Quotes",
+        "text": "You'll know the plan and the price before we start — no bait-and-switch upsells."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Respect for Your Home",
+        "text": "Drop cloths, shoe covers, and a clean work area when we're finished."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Prices shown are illustrative demo examples only. Every job starts with a free estimate.",
+      "categories": [
+        {
+          "id": "drains-clogs",
+          "name": "Drains & Clogs",
+          "blurb": "Clear blockages and keep lines flowing before small clogs become big messes.",
+          "items": [
+            {
+              "name": "Drain Cleaning",
+              "desc": "Kitchen, bath, and floor drains opened with snakes or hydro-jetting when needed.",
+              "price": "From $129",
+              "tags": [
+                "popular",
+                "fast"
+              ]
+            },
+            {
+              "name": "Main Line Clearing",
+              "desc": "Restore flow when every fixture backs up at once.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Garbage Disposal Repair",
+              "desc": "Jam clears, resets, and replacements when repair isn't worth it.",
+              "price": "From $149",
+              "tags": []
+            },
+            {
+              "name": "Sewer Camera Inspection",
+              "desc": "See what's blocking the line before we dig or jackhammer.",
+              "price": "From $199",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leaks-repair",
+          "name": "Leaks & Pipe Repair",
+          "blurb": "Stop water damage fast with targeted repairs that last.",
+          "items": [
+            {
+              "name": "Leak Detection & Repair",
+              "desc": "Find hidden leaks under slabs, behind walls, and at fixtures.",
+              "price": "From $89",
+              "tags": [
+                "popular",
+                "fast"
+              ]
+            },
+            {
+              "name": "Pipe Replacement",
+              "desc": "Swap failing galvanized or polybutylene runs with modern PEX or copper.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Fixture Repair",
+              "desc": "Faucets, valves, and supply lines tightened, rebuilt, or replaced.",
+              "price": "From $99",
+              "tags": []
+            },
+            {
+              "name": "Sump Pump Service",
+              "desc": "Test, repair, or replace pumps before the next heavy rain.",
+              "price": "From $149",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "water-heaters",
+          "name": "Water Heaters",
+          "blurb": "Reliable hot water with repair, replacement, and tankless options.",
+          "items": [
+            {
+              "name": "Water Heater Repair",
+              "desc": "No hot water, leaks, or pilot issues diagnosed and fixed fast.",
+              "price": "From $89",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Tank Water Heater Install",
+              "desc": "Properly sized replacement with permit and haul-away when needed.",
+              "price": "Free Estimate",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Tankless Install",
+              "desc": "On-demand hot water with gas line or electrical upgrades as required.",
+              "price": "Free Estimate",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Flush & Maintenance",
+              "desc": "Annual flush to extend tank life and maintain efficiency.",
+              "price": "From $129",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "remodel-new",
+          "name": "Remodel & New Install",
+          "blurb": "Rough-ins and finish plumbing for kitchens, baths, and additions.",
+          "items": [
+            {
+              "name": "Bathroom Rough-In",
+              "desc": "Supply, drain, and vent layout for showers, tubs, and vanities.",
+              "price": "Free Estimate",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Kitchen & Laundry Lines",
+              "desc": "Dishwasher, ice maker, and washer box connections done cleanly.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Water Softener & Filtration",
+              "desc": "Whole-home softeners and under-sink filters plumbed to code.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Outdoor Hose Bibs & Lines",
+              "desc": "Frost-free spigots and irrigation tie-ins that survive Illinois winters.",
+              "price": "From $175",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Local Plumbing You Can Reach",
+      "lead": "Votaw Plumbing LLC is a DeKalb crew focused on residential service — clear estimates, tidy installs, and a phone number that reaches a local team.",
+      "paragraphs": [
+        "From a running toilet to a full bathroom remodel rough-in, we explain options in plain language and pull permits when the village requires it.",
+        "Our service trucks cover DeKalb neighborhoods daily — and we know the older homes on Prather Lane and the newer builds off Lincoln Highway equally well."
+      ],
+      "stats": [
+        {
+          "value": "Local",
+          "label": "DeKalb Crew"
+        },
+        {
+          "value": "Free",
+          "label": "Estimates"
+        },
+        {
+          "value": "Licensed",
+          "label": "Illinois Plumber"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Our Plumbing Work",
+      "subheading": "Service calls, water heater swaps, and clean remodel plumbing across DeKalb homes.",
+      "captions": [
+        "Votaw service truck on a DeKalb street",
+        "Water heater replacement in a utility room",
+        "Under-sink leak repair and new supply lines",
+        "Bathroom vanity and drain install",
+        "Sump pump and discharge line upgrade",
+        "Kitchen faucet and disposal hookup"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Homeowners Say",
+      "items": [
+        {
+          "quote": "Fixed a slow main drain and showed us the camera footage. Price was exactly what they quoted on the phone.",
+          "name": "Amy S.",
+          "role": "DeKalb homeowner"
+        },
+        {
+          "quote": "Replaced our water heater same week. Clean install and hauled the old tank away.",
+          "name": "Tom H.",
+          "role": "DeKalb homeowner"
+        },
+        {
+          "quote": "They found a pinhole leak behind the washing machine before it ruined the floor. Lifesavers.",
+          "name": "Rosa G.",
+          "role": "Sycamore homeowner"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Serving DeKalb & Surrounding Areas",
+      "addressLabel": "Based In",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Friday",
+          "time": "7:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "Emergency & By Appointment"
+        },
+        {
+          "day": "Sunday",
+          "time": "Emergency Only"
+        },
+        {
+          "day": "Emergencies",
+          "time": "Call — leaks can't wait"
+        }
+      ],
+      "phoneLabel": "Call or Request Estimate",
+      "directions": "Based on Prather Lane in DeKalb, we serve homeowners throughout DeKalb, Sycamore, and nearby DeKalb County communities.",
+      "neighborhood": "Prather Lane sits in a quiet residential pocket of DeKalb — close enough to Lincoln Highway for quick runs across town, far enough to feel like neighborhood plumbing, not a call center."
+    },
+    "cta": {
+      "heading": "Need a Plumber You Can Trust?",
+      "text": "Tell us what's going on and we'll follow up with a free estimate — usually the same week.",
+      "button": "Request a Free Estimate"
+    },
+    "form": {
+      "heading": "Request a Free Estimate",
+      "subheading": "Share a few details about the issue or project. We'll get back to you quickly.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Service Needed",
+      "date": "Preferred Date/Time",
+      "message": "Describe the plumbing issue or project",
+      "submit": "Request Free Estimate",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "DeKalb residential plumbing with honest estimates and a local crew you can call.",
+      "rights": "© Votaw Plumbing LLC. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative · Photos representative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Votaw Plumbing LLC | Plomero en DeKalb, IL",
+      "description": "Plomería residencial y comercial ligera en DeKalb, IL. Drenajes, calentadores, fugas, remodelaciones y emergencias. Llama al (815) 793-9811 para cotización gratis."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Nuestro Trabajo",
+      "visit": "Visítanos",
+      "order": "Cotización Gratis"
+    },
+    "hero": {
+      "eyebrow": "Plomería en DeKalb · Residencial y Comercial Ligera",
+      "title": "Plomería Bien Hecha",
+      "titleAccent": "A la Primera",
+      "subtitle": "Fugas, atascos, calentadores y rough-in de remodelaciones — Votaw Plumbing mantiene los hogares de DeKalb funcionando con cotizaciones honestas, trabajo ordenado y un equipo local al teléfono.",
+      "ctaPrimary": "Ver Servicios",
+      "ctaSecondary": "Llama para Cotización",
+      "badge": "Con Licencia · Asegurado · Cotizaciones Gratis · Especialista Residencial DeKalb"
+    },
+    "highlights": [
+      {
+        "icon": "shield",
+        "title": "Con Licencia y Asegurado",
+        "text": "Instalaciones y reparaciones a código con comunicación clara antes de abrir una válvula."
+      },
+      {
+        "icon": "clock",
+        "title": "Citas en la Misma Semana",
+        "text": "La mayoría de llamadas rutinarias se agendan en la semana — ayuda de emergencia cuando la fuga no puede esperar."
+      },
+      {
+        "icon": "gauge",
+        "title": "Cotizaciones Honestas por Escrito",
+        "text": "Conocerás el plan y el precio antes de empezar — sin ventas engañosas."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Respeto por tu Hogar",
+        "text": "Telas protectoras, cubre-zapatos y área de trabajo limpia al terminar."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Los precios mostrados son solo ejemplos demostrativos. Cada trabajo comienza con una cotización gratis.",
+      "categories": [
+        {
+          "id": "drains-clogs",
+          "name": "Drenajes y Atascos",
+          "blurb": "Despeja obstrucciones antes de que un atasco pequeño se vuelva un desastre.",
+          "items": [
+            {
+              "name": "Limpieza de Drenajes",
+              "desc": "Drenajes de cocina, baño y piso abiertos con snake o hidrojet cuando hace falta.",
+              "price": "Desde $129",
+              "tags": [
+                "popular",
+                "fast"
+              ]
+            },
+            {
+              "name": "Desobstrucción de Línea Principal",
+              "desc": "Restaura el flujo cuando todos los accesorios se respaldan a la vez.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Reparación de Triturador",
+              "desc": "Desatascos, reinicios y reemplazos cuando reparar no conviene.",
+              "price": "Desde $149",
+              "tags": []
+            },
+            {
+              "name": "Inspección con Cámara de Alcantarillado",
+              "desc": "Ve qué bloquea la línea antes de excavar.",
+              "price": "Desde $199",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "leaks-repair",
+          "name": "Fugas y Reparación de Tuberías",
+          "blurb": "Detén daños por agua rápido con reparaciones duraderas.",
+          "items": [
+            {
+              "name": "Detección y Reparación de Fugas",
+              "desc": "Encuentra fugas ocultas bajo losas, detrás de paredes y en accesorios.",
+              "price": "Desde $89",
+              "tags": [
+                "popular",
+                "fast"
+              ]
+            },
+            {
+              "name": "Reemplazo de Tuberías",
+              "desc": "Cambia tuberías galvanizadas o de polibutileno por PEX o cobre moderno.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Reparación de Accesorios",
+              "desc": "Grifos, válvulas y líneas de suministro ajustados, reconstruidos o reemplazados.",
+              "price": "Desde $99",
+              "tags": []
+            },
+            {
+              "name": "Servicio de Bomba de Sótano",
+              "desc": "Prueba, repara o reemplaza bombas antes de la próxima lluvia fuerte.",
+              "price": "Desde $149",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "water-heaters",
+          "name": "Calentadores de Agua",
+          "blurb": "Agua caliente confiable con reparación, reemplazo y opciones sin tanque.",
+          "items": [
+            {
+              "name": "Reparación de Calentador",
+              "desc": "Sin agua caliente, fugas o problemas de piloto diagnosticados y arreglados rápido.",
+              "price": "Desde $89",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Instalación de Calentador con Tanque",
+              "desc": "Reemplazo bien dimensionado con permiso y retiro del tanque viejo.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Instalación sin Tanque",
+              "desc": "Agua caliente bajo demanda con mejoras de gas o eléctricas según se requiera.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "new"
+              ]
+            },
+            {
+              "name": "Lavado y Mantenimiento",
+              "desc": "Lavado anual para alargar la vida del tanque y mantener eficiencia.",
+              "price": "Desde $129",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "remodel-new",
+          "name": "Remodelación e Instalación Nueva",
+          "blurb": "Rough-in y acabado para cocinas, baños y ampliaciones.",
+          "items": [
+            {
+              "name": "Rough-In de Baño",
+              "desc": "Distribución de suministro, drenaje y ventilación para duchas, tinas y vanidades.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Líneas de Cocina y Lavandería",
+              "desc": "Conexiones de lavavajillas, hielo y caja de lavadora hechas limpiamente.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Suavizador y Filtración de Agua",
+              "desc": "Suavizadores de casa completa y filtros bajo fregadero instalados a código.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Llaves Exteriores y Líneas",
+              "desc": "Grifos a prueba de heladas e irrigación que sobreviven inviernos de Illinois.",
+              "price": "Desde $175",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Plomería Local a la que Puedes Llamar",
+      "lead": "Votaw Plumbing LLC es un equipo de DeKalb enfocado en servicio residencial — cotizaciones claras, instalaciones ordenadas y un teléfono que llega a un equipo local.",
+      "paragraphs": [
+        "Desde un inodoro que no para de correr hasta el rough-in completo de un baño, explicamos opciones en palabras simples y gestionamos permisos cuando el municipio lo requiere.",
+        "Nuestras camionetas cubren barrios de DeKalb a diario — y conocemos igual de bien las casas antiguas en Prather Lane y las construcciones nuevas cerca de Lincoln Highway."
+      ],
+      "stats": [
+        {
+          "value": "Local",
+          "label": "Equipo DeKalb"
+        },
+        {
+          "value": "Gratis",
+          "label": "Cotizaciones"
+        },
+        {
+          "value": "Licencia",
+          "label": "Plomero IL"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Nuestro Trabajo de Plomería",
+      "subheading": "Llamadas de servicio, cambios de calentador y plomería limpia de remodelación en hogares de DeKalb.",
+      "captions": [
+        "Camioneta de servicio Votaw en calle de DeKalb",
+        "Reemplazo de calentador en cuarto de servicio",
+        "Reparación de fuga bajo fregadero y líneas nuevas",
+        "Instalación de vanidad y drenaje de baño",
+        "Mejora de bomba de sótano y línea de descarga",
+        "Grifo de cocina y conexión de triturador"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen los Hogares de DeKalb",
+      "items": [
+        {
+          "quote": "Arreglaron un drenaje principal lento y nos mostraron la cámara. El precio fue exactamente lo cotizado por teléfono.",
+          "name": "Amy S.",
+          "role": "Propietaria en DeKalb"
+        },
+        {
+          "quote": "Reemplazaron nuestro calentador la misma semana. Instalación limpia y se llevaron el tanque viejo.",
+          "name": "Tom H.",
+          "role": "Propietario en DeKalb"
+        },
+        {
+          "quote": "Encontraron una fuga pinhole detrás de la lavadora antes de arruinar el piso. Nos salvaron.",
+          "name": "Rosa G.",
+          "role": "Propietaria en Sycamore"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Servimos a DeKalb y Áreas Cercanas",
+      "addressLabel": "Ubicados En",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Viernes",
+          "time": "7:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "Emergencias y Con Cita"
+        },
+        {
+          "day": "Domingo",
+          "time": "Solo Emergencias"
+        },
+        {
+          "day": "Emergencias",
+          "time": "Llama — las fugas no esperan"
+        }
+      ],
+      "phoneLabel": "Llama o Pide Cotización",
+      "directions": "Ubicados en Prather Lane en DeKalb, servimos a propietarios en DeKalb, Sycamore y comunidades cercanas del condado de DeKalb.",
+      "neighborhood": "Prather Lane está en un tranquilo sector residencial de DeKalb — lo suficientemente cerca de Lincoln Highway para moverse rápido por la ciudad, lo suficientemente local para sentirse plomería de barrio, no un call center."
+    },
+    "cta": {
+      "heading": "¿Necesitas un Plomero de Confianza?",
+      "text": "Cuéntanos qué pasa y te contactaremos con una cotización gratis — usualmente la misma semana.",
+      "button": "Pide tu Cotización"
+    },
+    "form": {
+      "heading": "Pide tu Cotización",
+      "subheading": "Comparte algunos detalles sobre el problema o proyecto. Te contactaremos pronto.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Servicio que Necesitas",
+      "date": "Fecha/Hora Preferida",
+      "message": "Describe el problema o proyecto de plomería",
+      "submit": "Pedir Cotización",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Plomería residencial en DeKalb con cotizaciones honestas y un equipo local al que puedes llamar.",
+      "rights": "© Votaw Plumbing LLC. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos · Fotos representativas",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

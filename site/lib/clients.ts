@@ -142,6 +142,10 @@ import hinksCopy from "@/content/clients/hinks-bar-and-grill/copy.json";
 import hinksTheme from "@/content/clients/hinks-bar-and-grill/theme.json";
 import star34Copy from "@/content/clients/star-34-cafe/copy.json";
 import star34Theme from "@/content/clients/star-34-cafe/theme.json";
+import deltsCopy from "@/content/clients/delts-electric/copy.json";
+import deltsTheme from "@/content/clients/delts-electric/theme.json";
+import votawCopy from "@/content/clients/votaw-plumbing/copy.json";
+import votawTheme from "@/content/clients/votaw-plumbing/theme.json";
 
 interface ThemeFile {
   concept: string;
@@ -785,6 +789,22 @@ export const CLIENTS: ClientSite[] = [
     emojis: ["🥞", "☕", "🍳", "🥓", "🧇", "⭐"],
     schemaTypes: ["Restaurant", "CafeOrCoffeeShop"],
   },
+  {
+    slug: "delts-electric",
+    vertical: "Licensed Electrical Contractor",
+    site: deltsCopy as unknown as SiteContent,
+    themeVars: withFont((deltsTheme as ThemeFile).vars, ARCHIVO),
+    emojis: ["⚡", "🔌", "🏠", "🔧", "💡", "🚐"],
+    schemaTypes: ["Electrician"],
+  },
+  {
+    slug: "votaw-plumbing",
+    vertical: "Residential & Light Commercial Plumbing",
+    site: votawCopy as unknown as SiteContent,
+    themeVars: withFont((votawTheme as ThemeFile).vars, ARCHIVO),
+    emojis: ["🔧", "🚿", "🏠", "💧", "🔩", "🚐"],
+    schemaTypes: ["Plumber"],
+  },
 ];
 
 /**
@@ -890,6 +910,10 @@ const LAYOUTS: Record<string, SiteLayout> = {
   "tapa-la-luna": { archetype: "editorial", hero: "editorial", tone: "editorial", menuKind: "carte", highlights: "index", gallery: "horizontal", story: "scrolly" },
   "anderson-auto-body": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "services", gallery: "horizontal" },
   "la-michoacana": { hero: "arch", tone: "energetic" }, // paletería brights
+
+  // ── Aug 2026 factory slate (trades spec sites) ──
+  "delts-electric": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "services", gallery: "horizontal" },
+  "votaw-plumbing": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "services", gallery: "horizontal" },
 };
 for (const c of CLIENTS) {
   if (LAYOUTS[c.slug]) c.layout = LAYOUTS[c.slug];

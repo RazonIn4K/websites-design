@@ -1,0 +1,618 @@
+{
+  "business": {
+    "name": "Delts Electric",
+    "shortName": "Delts Electric",
+    "vertical": "Licensed electrical contractor",
+    "phone": "(815) 517-1449",
+    "phoneHref": "+18155171449",
+    "address": "1422 E. Lincoln Hwy",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "60115",
+    "mapsQuery": "Delts Electric, 1422 E. Lincoln Hwy, DeKalb, IL 60115",
+    "lat": 41.924148,
+    "lon": -88.7351131
+  },
+  "en": {
+    "meta": {
+      "title": "Delts Electric | Licensed Electrical Contractor in DeKalb, IL",
+      "description": "Licensed electrical contractor in DeKalb, IL. Panel upgrades, rewiring, lighting, EV chargers, and emergency service. Call (815) 517-1449 for a free estimate."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About",
+      "gallery": "Our Work",
+      "visit": "Visit",
+      "order": "Free Estimate"
+    },
+    "hero": {
+      "eyebrow": "Licensed Electrical Contractor · DeKalb",
+      "title": "Power You Can",
+      "titleAccent": "Count On",
+      "subtitle": "From panel upgrades and whole-home rewiring to lighting, EV chargers, and emergency calls — Delts Electric keeps DeKalb homes and businesses safe, up to code, and ready for what's next.",
+      "ctaPrimary": "View Services",
+      "ctaSecondary": "Call for a Free Estimate",
+      "badge": "Licensed · Insured · Free Estimates · DeKalb & Surrounding Areas"
+    },
+    "highlights": [
+      {
+        "icon": "shield",
+        "title": "Licensed & Insured",
+        "text": "Every job meets Illinois code with licensed electricians who explain the work before we start."
+      },
+      {
+        "icon": "clock",
+        "title": "Fast Response",
+        "text": "Same-week scheduling for most projects and emergency service when power or safety is on the line."
+      },
+      {
+        "icon": "gauge",
+        "title": "Up-Front Estimates",
+        "text": "Clear written quotes before work begins — no surprise add-ons after we're on site."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Clean, Professional Work",
+        "text": "Neat panel work, labeled circuits, and a jobsite left tidy when we're done."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Prices shown are illustrative demo examples only. Every project starts with a free, no-obligation estimate.",
+      "categories": [
+        {
+          "id": "panels-upgrades",
+          "name": "Panels & Upgrades",
+          "blurb": "Modern panels and service upgrades that handle today's loads safely.",
+          "items": [
+            {
+              "name": "Panel Replacement",
+              "desc": "Swap outdated fuse boxes or crowded panels for a safe, labeled breaker panel.",
+              "price": "Free Estimate",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "200-Amp Service Upgrade",
+              "desc": "Bring older homes up to today's power demands with a full service upgrade.",
+              "price": "Free Estimate",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Subpanel Installation",
+              "desc": "Add capacity for garages, workshops, and additions without overloading the main.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Whole-Home Surge Protection",
+              "desc": "Protect appliances and electronics from Illinois storm spikes.",
+              "price": "From $299",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lighting-power",
+          "name": "Lighting & Power",
+          "blurb": "Better light, safer circuits, and outlets where you actually need them.",
+          "items": [
+            {
+              "name": "Recessed & Fixture Lighting",
+              "desc": "Kitchens, basements, and outdoor areas wired with clean, even light.",
+              "price": "Free Estimate",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Outlet & Switch Upgrades",
+              "desc": "GFCI, USB, and dedicated circuits for appliances and home offices.",
+              "price": "From $149",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Ceiling Fan Installation",
+              "desc": "Balanced installs with proper boxes and switches — no wobble, no buzz.",
+              "price": "From $175",
+              "tags": []
+            },
+            {
+              "name": "Landscape & Security Lighting",
+              "desc": "Path lights, motion security, and timer controls that look sharp at night.",
+              "price": "Free Estimate",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "rewiring-repair",
+          "name": "Rewiring & Repair",
+          "blurb": "Fix what's failing and upgrade what's outdated before it becomes an emergency.",
+          "items": [
+            {
+              "name": "Troubleshooting & Repair",
+              "desc": "Tripping breakers, dead circuits, flickering lights — we find the root cause.",
+              "price": "From $89",
+              "tags": [
+                "popular",
+                "fast"
+              ]
+            },
+            {
+              "name": "Knob-and-Tube Replacement",
+              "desc": "Retire old wiring safely with modern NM or conduit where required.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Aluminum Wire Remediation",
+              "desc": "Pig-tailing and device upgrades to reduce heat and fire risk.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Smoke & CO Detector Wiring",
+              "desc": "Hardwired, interconnected detectors placed to code.",
+              "price": "From $129",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ev-smart",
+          "name": "EV & Smart Home",
+          "blurb": "Charge faster at home and add the circuits smart devices need.",
+          "items": [
+            {
+              "name": "Level 2 EV Charger Install",
+              "desc": "Dedicated 240V circuit and wall charger sized for your vehicle and panel.",
+              "price": "Free Estimate",
+              "tags": [
+                "new",
+                "popular"
+              ]
+            },
+            {
+              "name": "Generator Transfer Switch",
+              "desc": "Safe hookup for portable or standby generators when the grid goes down.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Smart Switch & Dimmer Wiring",
+              "desc": "Neutral-ready installs for modern smart dimmers and switches.",
+              "price": "From $99",
+              "tags": []
+            },
+            {
+              "name": "Hot Tub & Pool Equipment",
+              "desc": "GFCI-protected circuits for pumps, heaters, and outdoor loads.",
+              "price": "Free Estimate",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "DeKalb's Electrical Partner",
+      "lead": "Delts Electric is a licensed DeKalb contractor built on safe work, clear communication, and showing up when you need power restored or upgraded.",
+      "paragraphs": [
+        "Whether you're opening a wall for a remodel, replacing an overloaded panel, or adding an EV charger in the driveway, we walk you through options in plain language and pull permits when the job requires it.",
+        "Our vans are stocked for most residential and light commercial calls across DeKalb and nearby communities — and we treat every home like we'd want our own wired."
+      ],
+      "stats": [
+        {
+          "value": "Licensed",
+          "label": "Illinois Contractor"
+        },
+        {
+          "value": "Free",
+          "label": "Estimates"
+        },
+        {
+          "value": "Local",
+          "label": "DeKalb Crew"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Recent Electrical Work",
+      "subheading": "Panel upgrades, clean conduit runs, and lighting installs across DeKalb-area homes and shops.",
+      "captions": [
+        "Service van ready for a DeKalb call",
+        "Labeled residential panel upgrade",
+        "Clean conduit and device install",
+        "Kitchen recessed lighting layout",
+        "EV charger circuit and wall mount",
+        "Exterior security lighting at dusk"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb Customers Say",
+      "items": [
+        {
+          "quote": "They replaced our old panel and explained every breaker. Work was neat and passed inspection first try.",
+          "name": "Karen W.",
+          "role": "DeKalb homeowner"
+        },
+        {
+          "quote": "Fast response when half the house went dark. Found a loose neutral and had us back up same day.",
+          "name": "Mike R.",
+          "role": "Sycamore homeowner"
+        },
+        {
+          "quote": "Installed our EV charger and handled the permit. Up-front price matched the final invoice.",
+          "name": "James L.",
+          "role": "DeKalb homeowner"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Serving DeKalb & Nearby Communities",
+      "addressLabel": "Service Area",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday - Friday",
+          "time": "7:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "time": "By Appointment"
+        },
+        {
+          "day": "Sunday",
+          "time": "Emergency Only"
+        },
+        {
+          "day": "Emergencies",
+          "time": "Call — we respond fast"
+        }
+      ],
+      "phoneLabel": "Call or Request Estimate",
+      "directions": "Based on East Lincoln Highway in DeKalb, we serve homeowners and small businesses throughout DeKalb County and the western corridor.",
+      "neighborhood": "Our shop sits along Lincoln Highway — the same corridor DeKalb has used for decades to connect farm country with Chicago-bound traffic."
+    },
+    "cta": {
+      "heading": "Ready for Safe, Modern Power?",
+      "text": "Tell us what you're planning — or what's failing — and we'll follow up with a free estimate.",
+      "button": "Request a Free Estimate"
+    },
+    "form": {
+      "heading": "Request a Free Estimate",
+      "subheading": "Share a few details about your project. We'll get back to you quickly.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Service Needed",
+      "date": "Preferred Date/Time",
+      "message": "Describe the project or issue",
+      "submit": "Request Free Estimate",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Licensed electrical contractor keeping DeKalb homes and businesses powered safely.",
+      "rights": "© Delts Electric. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative · Photos representative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Delts Electric | Contratista Eléctrico con Licencia en DeKalb, IL",
+      "description": "Contratista eléctrico con licencia en DeKalb, IL. Paneles, cableado, iluminación, cargadores EV y emergencias. Llama al (815) 517-1449 para una cotización gratis."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Nuestro Trabajo",
+      "visit": "Visítanos",
+      "order": "Cotización Gratis"
+    },
+    "hero": {
+      "eyebrow": "Contratista Eléctrico con Licencia · DeKalb",
+      "title": "Energía en la que",
+      "titleAccent": "Puedes Confiar",
+      "subtitle": "Desde paneles y cableado completo hasta iluminación, cargadores EV y emergencias — Delts Electric mantiene hogares y negocios de DeKalb seguros, a código y listos para lo que sigue.",
+      "ctaPrimary": "Ver Servicios",
+      "ctaSecondary": "Llama para Cotización",
+      "badge": "Con Licencia · Asegurado · Cotizaciones Gratis · DeKalb y Alrededores"
+    },
+    "highlights": [
+      {
+        "icon": "shield",
+        "title": "Con Licencia y Asegurado",
+        "text": "Cada trabajo cumple el código de Illinois con electricistas que explican el trabajo antes de empezar."
+      },
+      {
+        "icon": "clock",
+        "title": "Respuesta Rápida",
+        "text": "Citas en la misma semana para la mayoría de proyectos y servicio de emergencia cuando la seguridad está en juego."
+      },
+      {
+        "icon": "gauge",
+        "title": "Cotizaciones Claras",
+        "text": "Presupuestos por escrito antes de empezar — sin cargos sorpresa en sitio."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Trabajo Limpio y Profesional",
+        "text": "Paneles ordenados, circuitos etiquetados y un sitio de trabajo limpio al terminar."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Los precios mostrados son solo ejemplos demostrativos. Cada proyecto comienza con una cotización gratis y sin compromiso.",
+      "categories": [
+        {
+          "id": "panels-upgrades",
+          "name": "Paneles y Mejoras",
+          "blurb": "Paneles modernos y mejoras de servicio que manejan las cargas de hoy con seguridad.",
+          "items": [
+            {
+              "name": "Reemplazo de Panel",
+              "desc": "Cambia fusibles o paneles saturados por un panel de breakers seguro y etiquetado.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Mejora a 200 Amperios",
+              "desc": "Actualiza hogares antiguos a las demandas eléctricas de hoy.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "signature"
+              ]
+            },
+            {
+              "name": "Instalación de Subpanel",
+              "desc": "Agrega capacidad para garajes, talleres y ampliaciones.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Protección contra Sobretensiones",
+              "desc": "Protege electrodomésticos y electrónicos de picos por tormentas.",
+              "price": "Desde $299",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lighting-power",
+          "name": "Iluminación y Toma Corriente",
+          "blurb": "Mejor luz, circuitos más seguros y contactos donde los necesitas.",
+          "items": [
+            {
+              "name": "Iluminación Empotrada y Luminarias",
+              "desc": "Cocinas, sótanos y exteriores con luz uniforme y limpia.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "popular"
+              ]
+            },
+            {
+              "name": "Mejora de Contactos e Interruptores",
+              "desc": "GFCI, USB y circuitos dedicados para electrodomésticos y oficinas.",
+              "price": "Desde $149",
+              "tags": [
+                "fast"
+              ]
+            },
+            {
+              "name": "Instalación de Ventilador de Techo",
+              "desc": "Montaje balanceado con cajas y switches correctos.",
+              "price": "Desde $175",
+              "tags": []
+            },
+            {
+              "name": "Iluminación Exterior y Seguridad",
+              "desc": "Luces de camino, sensores de movimiento y temporizadores.",
+              "price": "Cotización Gratis",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "rewiring-repair",
+          "name": "Cableado y Reparación",
+          "blurb": "Arregla lo que falla y actualiza lo obsoleto antes de que sea emergencia.",
+          "items": [
+            {
+              "name": "Diagnóstico y Reparación",
+              "desc": "Breakers que saltan, circuitos muertos, luces parpadeantes — encontramos la causa.",
+              "price": "Desde $89",
+              "tags": [
+                "popular",
+                "fast"
+              ]
+            },
+            {
+              "name": "Reemplazo de Cableado Antiguo",
+              "desc": "Retira cableado obsoleto con instalación moderna donde se requiera.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Remediación de Cable de Aluminio",
+              "desc": "Conexiones y dispositivos que reducen riesgo de calor e incendio.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Detectores de Humo y CO Cableados",
+              "desc": "Detectores interconectados instalados según código.",
+              "price": "Desde $129",
+              "tags": [
+                "value"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ev-smart",
+          "name": "EV y Hogar Inteligente",
+          "blurb": "Carga más rápido en casa y agrega los circuitos que los dispositivos inteligentes necesitan.",
+          "items": [
+            {
+              "name": "Instalación de Cargador EV Nivel 2",
+              "desc": "Circuito 240V dedicado y cargador de pared para tu vehículo y panel.",
+              "price": "Cotización Gratis",
+              "tags": [
+                "new",
+                "popular"
+              ]
+            },
+            {
+              "name": "Switch de Transferencia para Generador",
+              "desc": "Conexión segura para generadores portátiles o de respaldo.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Cableado de Dimmers Inteligentes",
+              "desc": "Instalaciones con neutro para dimmers y switches modernos.",
+              "price": "Desde $99",
+              "tags": []
+            },
+            {
+              "name": "Equipos de Spa y Piscina",
+              "desc": "Circuitos GFCI para bombas, calentadores y cargas exteriores.",
+              "price": "Cotización Gratis",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Tu Socio Eléctrico en DeKalb",
+      "lead": "Delts Electric es un contratista con licencia en DeKalb, construido sobre trabajo seguro, comunicación clara y presentarse cuando necesitas energía restaurada o mejorada.",
+      "paragraphs": [
+        "Ya sea que abras una pared para una remodelación, reemplaces un panel saturado o agregues un cargador EV en la entrada, te explicamos las opciones en palabras simples y gestionamos permisos cuando el trabajo lo requiere.",
+        "Nuestras camionetas están equipadas para la mayoría de llamadas residenciales y comerciales ligeras en DeKalb y comunidades cercanas — y tratamos cada hogar como si fuera el nuestro."
+      ],
+      "stats": [
+        {
+          "value": "Licencia",
+          "label": "Contratista IL"
+        },
+        {
+          "value": "Gratis",
+          "label": "Cotizaciones"
+        },
+        {
+          "value": "Local",
+          "label": "Equipo DeKalb"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Trabajo Eléctrico Reciente",
+      "subheading": "Mejoras de panel, canalización limpia e iluminación en hogares y talleres del área de DeKalb.",
+      "captions": [
+        "Camioneta de servicio lista para llamada en DeKalb",
+        "Panel residencial etiquetado y actualizado",
+        "Canalización e instalación de dispositivos limpia",
+        "Iluminación empotrada en cocina",
+        "Circuito y montaje de cargador EV",
+        "Iluminación de seguridad exterior al atardecer"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen los Clientes de DeKalb",
+      "items": [
+        {
+          "quote": "Reemplazaron nuestro panel viejo y explicaron cada breaker. Trabajo ordenado y pasó inspección a la primera.",
+          "name": "Karen W.",
+          "role": "Propietaria en DeKalb"
+        },
+        {
+          "quote": "Respuesta rápida cuando se apagó media casa. Encontraron un neutro suelto y nos restauraron el mismo día.",
+          "name": "Mike R.",
+          "role": "Propietario en Sycamore"
+        },
+        {
+          "quote": "Instalaron nuestro cargador EV y gestionaron el permiso. El precio final coincidió con la cotización.",
+          "name": "James L.",
+          "role": "Propietario en DeKalb"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Servimos a DeKalb y Comunidades Cercanas",
+      "addressLabel": "Área de Servicio",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes - Viernes",
+          "time": "7:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Sábado",
+          "time": "Con Cita"
+        },
+        {
+          "day": "Domingo",
+          "time": "Solo Emergencias"
+        },
+        {
+          "day": "Emergencias",
+          "time": "Llama — respondemos rápido"
+        }
+      ],
+      "phoneLabel": "Llama o Pide Cotización",
+      "directions": "Ubicados en East Lincoln Highway en DeKalb, servimos a propietarios y pequeños negocios en el condado de DeKalb y el corredor oeste.",
+      "neighborhood": "Nuestro taller está en Lincoln Highway — el mismo corredor que DeKalb ha usado por décadas para conectar el campo con el tráfico hacia Chicago."
+    },
+    "cta": {
+      "heading": "¿Listo para Energía Segura y Moderna?",
+      "text": "Cuéntanos qué planeas — o qué está fallando — y te contactaremos con una cotización gratis.",
+      "button": "Pide tu Cotización"
+    },
+    "form": {
+      "heading": "Pide tu Cotización",
+      "subheading": "Comparte algunos detalles sobre tu proyecto. Te contactaremos pronto.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Servicio que Necesitas",
+      "date": "Fecha/Hora Preferida",
+      "message": "Describe el proyecto o problema",
+      "submit": "Pedir Cotización",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Contratista eléctrico con licencia que mantiene hogares y negocios de DeKalb energizados con seguridad.",
+      "rights": "© Delts Electric. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos · Fotos representativas",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}
