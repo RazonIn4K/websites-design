@@ -24,11 +24,11 @@ export function Faq() {
             // name="faq" makes the browser keep only one panel open (zero-JS,
             // research-recommended); first item open as a sensible SSR default.
             <details key={i} name="faq" open={i === 0} className="group border-b border-line last:border-0">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 py-5 font-display text-lg font-bold text-ink [&::-webkit-details-marker]:hidden">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 py-4 font-display text-lg font-bold text-ink [&::-webkit-details-marker]:hidden">
                 {it.q}
                 <ChevronDown className="h-5 w-5 shrink-0 text-primary transition-transform duration-300 group-open:rotate-180" />
               </summary>
-              <p className="pb-5 pr-9 text-ink-soft">{it.a}</p>
+              <p className="pb-4 pr-9 text-ink-soft">{it.a}</p>
             </details>
           ))}
         </div>

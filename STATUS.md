@@ -13,7 +13,7 @@ sites) and what to do next. Product desk / staging kits live in sibling repo
 | Layout archetypes | default · editorial · authority · wellness · craft |
 | Flagship | `/` → Flamingo (flamengo); catalog → `/sites` |
 | Local preview | `npx next dev -p 3010` in `site/` |
-| Image quality floor | Prefer ≥ ~120KB JPEG after regen (hero/about especially) |
+| Image quality floor | **≥ ~120KB** every slot (0 under floor as of 20 Aug evening) |
 
 ## What shipped recently (Aug 2026)
 
@@ -61,6 +61,14 @@ and food/retail samples; arch/collage heroes tightened further after sparse
 reports on tastee-bite / la-michoacana / astro-fun-world. HTTP check: **74/74**
 routes return 200.
 
+**20 Aug evening pass:** Cleared mid-band JPEGs (&lt;120KB) across about/gallery
+slots (Johnny K’s full g1–g6 caption-aligned regen; toys, arcade, florist,
+bikes, escape room, trades, books, etc.). Mobile `--hero-min` capped at 28rem.
+`/sites` catalog header densified. FAQ row padding tightened. Overflow QA:
+**148 checks, 0 flagged**.
+
+## How to verify
+
 ```bash
 cd site
 npx next dev -p 3010
@@ -80,15 +88,13 @@ Studio catalog + image audit: sibling repo `node scripts/sync-spec-audit.mjs`
 
 1. **Owner photo swap** — Replace AI kits with phone shots for paid closes;
    keep slot names + run `gen_blur.py`.
-2. **Gallery caption fidelity** — Spot-check `g1`–`g6` against EN/ES captions
-   on food sites; regenerate mismatches with aesthetic briefs.
-3. **Remaining mid-band files** — Re-audit any JPEG still &lt; ~120KB (especially
-   secondary gallery slots) after each compress pass.
-4. **Mobile density pass** — Re-critique split/editorial heroes at 390px width
-   (stack order, CTAs above fold).
-5. **Lead webhook** — Wire `LEAD_WEBHOOK_URL` for production lead capture.
-6. **Publish / Vercel** — Confirm `npm run build` + env (no secrets in repo).
-7. **Studio sync** — New kits → `public/spec/<slug>/` then
+2. **Gallery caption fidelity (remaining food sites)** — Continue matching
+   `g1`–`g6` to EN/ES captions beyond Johnny K’s (China House buffet look, etc.).
+3. **Mobile CTA fold check** — Spot-check split/editorial at 390×844 after the
+   `--hero-min` mobile cap; flip any feast/arch CTAs still below the fold.
+4. **Lead webhook** — Wire `LEAD_WEBHOOK_URL` for production lead capture.
+5. **Publish / Vercel** — Confirm `npm run build` + env (no secrets in repo).
+6. **Studio sync** — New kits → `public/spec/<slug>/` then
    `./scripts/copy-spec-kit.sh` when staging from Razon Studio.
 
 ## Do not

@@ -107,13 +107,13 @@ export default function SitesIndex() {
           }),
         }}
       />
-      <section className="container-max py-20 lg:py-28">
+      <section className="container-max py-12 lg:py-16">
         <header className="mx-auto max-w-2xl text-center">
           <p className="badge badge-primary mx-auto">DeKalb County, IL</p>
-          <h1 className="mt-4 font-display text-4xl font-black text-ink sm:text-6xl">
+          <h1 className="mt-3 font-display text-4xl font-black text-ink sm:text-5xl">
             Generated Business Sites
           </h1>
-          <p className="mx-auto mt-4 text-ink-soft">
+          <p className="mx-auto mt-3 text-ink-soft">
             {CLIENTS.length} modern, fully bilingual (EN/ES) marketing sites — each
             discovered from open data, audited for a missing web presence, and built
             on one content-driven template with a per-vertical brand theme.

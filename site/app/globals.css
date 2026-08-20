@@ -573,6 +573,16 @@ html.js .reveal-clip:not(.is-visible) img { transform: scale(1.12); }
 [data-tone="energetic"] img { filter: saturate(1.1) contrast(1.05); }
 [data-tone="energetic"] .animate-marquee { animation-duration: 22s; }
 
+/* Mobile: don't force a tall empty hero band — content height wins on phones. */
+@media (max-width: 639px) {
+  :root,
+  [data-tone="calm"],
+  [data-tone="editorial"],
+  [data-tone="energetic"] {
+    --hero-min: min(100svh, 28rem);
+  }
+}
+
 /* mono image desaturation — placed after tone so the combined selector
    (specificity 0,2,1) beats any [data-tone] img rule (0,1,1). */
 [data-surface="mono"] img,
