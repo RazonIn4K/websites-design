@@ -52,7 +52,7 @@
   --gutter: 1.5rem;
   --bento-gap: 1rem;
   /* Hero band: fill most of the first viewport without forcing empty columns. */
-  --hero-min: min(100svh, 42rem);
+  --hero-min: min(100svh, 38rem);
 
   /* ── Fluid type scale (Utopia-style clamp steps) ── */
   --step--1: clamp(0.8rem, 0.76rem + 0.18vw, 0.9rem);
@@ -554,21 +554,21 @@ html.js .reveal-clip:not(.is-visible) img { transform: scale(1.12); }
 
 /* ── tone: calm — airy, restrained (authority/medical) ── */
 [data-tone="calm"] {
-  --section-y: clamp(3rem, 2.25rem + 3.5vw, 5.5rem);
-  --header-gap: clamp(1.5rem, 1.15rem + 1.5vw, 2.5rem);
+  --section-y: clamp(2.5rem, 2rem + 3vw, 4.75rem);
+  --header-gap: clamp(1.25rem, 1rem + 1.25vw, 2.15rem);
 }
-/* ── tone: editorial — literary, generous (fine dining / wellness) ── */
+/* ── tone: editorial — literary, still denser than before ── */
 [data-tone="editorial"] {
-  --section-y: clamp(3.25rem, 2.5rem + 4vw, 6rem);
-  --header-gap: clamp(1.5rem, 1.2rem + 1.75vw, 2.75rem);
+  --section-y: clamp(2.75rem, 2.15rem + 3.25vw, 5.25rem);
+  --header-gap: clamp(1.25rem, 1rem + 1.5vw, 2.35rem);
   --display-tracking: -0.018em; /* serif display breathes a touch */
 }
 [data-tone="editorial"] img { filter: saturate(0.92); }
 /* ── tone: energetic — tight, punchy (craft/gym/trades) ── */
 [data-tone="energetic"] {
-  --section-y: clamp(2.25rem, 1.75rem + 3vw, 4.25rem);
-  --header-gap: clamp(1rem, 0.85rem + 1.25vw, 1.85rem);
-  --hero-min: min(100svh, 38rem);
+  --section-y: clamp(2rem, 1.5rem + 2.5vw, 3.75rem);
+  --header-gap: clamp(0.9rem, 0.75rem + 1vw, 1.65rem);
+  --hero-min: min(100svh, 34rem);
 }
 [data-tone="energetic"] img { filter: saturate(1.1) contrast(1.05); }
 [data-tone="energetic"] .animate-marquee { animation-duration: 22s; }
@@ -723,7 +723,7 @@ header.glass { background: color-mix(in srgb, var(--color-bg) 95%, transparent);
    the fleet); collapses to a single column below lg. */
 .bento { display: grid; gap: var(--bento-gap); grid-template-columns: 1fr; }
 @media (min-width: 1024px) {
-  .bento { grid-template-columns: repeat(6, 1fr); grid-auto-rows: minmax(11rem, auto); grid-auto-flow: dense; }
+  .bento { grid-template-columns: repeat(6, 1fr); grid-auto-rows: minmax(9rem, auto); grid-auto-flow: dense; }
   .bento > :first-child { grid-column: span 4; grid-row: span 2; }
   .bento > :nth-child(2) { grid-column: span 2; }
   .bento > :nth-child(3) { grid-column: span 2; }

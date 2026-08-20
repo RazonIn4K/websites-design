@@ -22,7 +22,7 @@ export function StatBand({ stats }: { stats: { value: string; label: string }[] 
   }`;
 
   const cells = stats.map((s) => (
-    <div key={s.label} className="px-4 py-5 text-center">
+    <div key={s.label} className="px-4 py-3.5 text-center">
       {/\d/.test(s.value) ? (
         <CountUp value={s.value} className={valueCls} />
       ) : (
@@ -36,7 +36,7 @@ export function StatBand({ stats }: { stats: { value: string; label: string }[] 
 
   if (quiet) {
     return (
-      <Reveal className="mt-12 border-y border-line">
+      <Reveal className="mt-8 border-y border-line">
         <div className="grid grid-cols-1 divide-y divide-line sm:grid-cols-3 sm:divide-x sm:divide-y-0">
           {cells}
         </div>
@@ -45,7 +45,7 @@ export function StatBand({ stats }: { stats: { value: string; label: string }[] 
   }
 
   return (
-    <Reveal className="mt-12 overflow-hidden rounded-2xl border border-line bg-bg">
+    <Reveal className="mt-8 overflow-hidden rounded-2xl border border-line bg-bg">
       <div className="h-1 gradient-brand" />
       <div className="grid grid-cols-1 divide-y divide-line sm:grid-cols-3 sm:divide-x sm:divide-y-0">
         {cells}

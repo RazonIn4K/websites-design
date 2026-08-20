@@ -50,13 +50,13 @@ export function Gallery() {
             {STRIP.map((img, i) => (
               <figure
                 key={img}
-                className="group relative aspect-[3/4] w-[78vw] shrink-0 snap-start overflow-hidden rounded-2xl shadow-card sm:w-[360px]"
+                className="group relative aspect-[4/5] w-[72vw] shrink-0 snap-start overflow-hidden rounded-2xl shadow-card sm:w-[300px]"
               >
                 <Image
                   src={`${imgBase}/${img}.jpg`}
                   alt=""
                   fill
-                  sizes="(min-width: 640px) 360px, 78vw"
+                  sizes="(min-width: 640px) 300px, 72vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105 group-focus-within:scale-105"
                   {...(blur[img] ? { placeholder: "blur" as const, blurDataURL: blur[img] } : {})}
                 />
@@ -76,7 +76,7 @@ export function Gallery() {
     <section id="gallery" className="section container-max">
       <SectionHeader eyebrow={t.nav.gallery} heading={t.gallery.heading} sub={t.gallery.subheading} />
 
-      <div className="grid auto-rows-[180px] grid-cols-2 gap-3 sm:auto-rows-[200px] sm:grid-cols-6">
+      <div className="grid auto-rows-[160px] grid-cols-2 gap-3 sm:auto-rows-[180px] sm:grid-cols-6">
         {TILES.map((tile, i) => (
           <Reveal
             key={tile.img}

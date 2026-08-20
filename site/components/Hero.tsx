@@ -197,13 +197,13 @@ export function Hero() {
   if (variant === "collage") {
     return (
       <section ref={ref} id="top" className="gradient-mesh-anim relative w-full overflow-x-clip bg-bg">
-        <div className="container-max grid items-center gap-8 pt-16 pb-12 lg:grid-cols-2 lg:gap-8 lg:pt-20">
+        <div className="container-max grid items-center gap-6 pt-14 pb-10 lg:grid-cols-2 lg:gap-8 lg:pt-16">
           <HeroCopy className="relative z-10 max-w-xl" />
 
           {/* Layered photo stack: ghost type at the back, then three polaroids
               at three parallax speeds — nearest moves most. Decorative photos
               carry empty alt; the composition is described by the copy column. */}
-          <div className="relative mx-auto aspect-square w-full max-w-[26rem] sm:max-w-[30rem] lg:max-w-[34rem]">
+          <div className="relative mx-auto aspect-square w-full max-w-[22rem] sm:max-w-[26rem] lg:max-w-[28rem]">
             {/* ghost word lives inside a fade-masked, overflow-hidden wrapper the
                 width of the stack — long phrases fade out INSIDE the wrapper
                 instead of hard-clipping at the viewport edge (re-critique v2) */}
@@ -253,10 +253,10 @@ export function Hero() {
   if (variant === "arch") {
     return (
       <section ref={ref} id="top" className="gradient-mesh-anim relative w-full overflow-x-clip bg-bg">
-        <div className="container-max grid items-center gap-8 pt-16 pb-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:pt-20">
+        <div className="container-max grid items-center gap-6 pt-14 pb-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:pt-16">
           <HeroCopy className="relative z-10 max-w-xl" />
 
-          <div className="relative mx-auto w-full max-w-[24rem] sm:max-w-[26rem]">
+          <div className="relative mx-auto w-full max-w-[20rem] sm:max-w-[22rem]">
             <span
               aria-hidden
               className="ghost-word ghost-fade absolute -left-10 top-1/2 -translate-y-1/2 -rotate-90 animate-rise text-[clamp(3rem,6vw,5rem)]"
@@ -288,8 +288,8 @@ export function Hero() {
     const reserveHref = hasPhone ? `tel:${biz.phoneHref}` : "#visit";
     return (
       <section ref={ref} id="top" className="relative w-full overflow-x-clip bg-bg">
-        <div className="container-max relative z-10 pt-20 text-center sm:pt-24">
-          <span className="eyebrow mb-4 inline-flex animate-rise items-center gap-2" style={{ animationDelay: "0ms" }}>
+        <div className="container-max relative z-10 pt-16 text-center sm:pt-20">
+          <span className="eyebrow mb-3 inline-flex animate-rise items-center gap-2" style={{ animationDelay: "0ms" }}>
             <Sparkle className="h-3.5 w-3.5" />
             {t.hero.eyebrow}
           </span>
@@ -307,14 +307,14 @@ export function Hero() {
 
         {/* band height + card overlap tuned so the action card's CTAs sit fully
             above the fold on 800-900px-tall desktops (re-critique regression) */}
-        <div className="relative mt-0 h-[38vh] min-h-[16rem] w-full overflow-hidden sm:h-[42vh]">
+        <div className="relative mt-0 h-[28vh] min-h-[14rem] w-full overflow-hidden sm:h-[32vh]">
           <motion.div style={{ y: reduce ? 0 : yImg }} className="absolute inset-x-0 top-0 h-[112%]">
             <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="100vw" className="animate-kenburns object-cover" {...blurProps} />
           </motion.div>
           {/* eased fade from the page background so the hanging accent stays
               legible without a hard gradient edge (re-critique v2) */}
-          <div className="absolute inset-x-0 top-0 h-36 bg-gradient-to-b from-bg via-bg/45 to-transparent" />
-          <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent" />
+          <div className="absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-bg via-bg/45 to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/40 to-transparent" />
           {t.about?.stats?.[0] && <StatMark stat={t.about.stats[0]} position="right-[6%] top-[30%]" delay="560ms" />}
         </div>
 
@@ -322,8 +322,8 @@ export function Hero() {
             de-glassed in v3 — frosted panels over food photos read washed);
             tight bottom padding so no dead band sits between card and next
             section */}
-        <div className="container-max relative z-10 -mt-20 pb-4 sm:-mt-28">
-          <div className="mx-auto flex max-w-3xl flex-col items-center gap-4 rounded-2xl border border-line bg-bg/95 px-6 py-6 text-center shadow-card animate-rise sm:px-10" style={{ animationDelay: "320ms" }}>
+        <div className="container-max relative z-10 -mt-16 pb-4 sm:-mt-20">
+          <div className="mx-auto flex max-w-3xl flex-col items-center gap-3 rounded-2xl border border-line bg-bg/95 px-6 py-5 text-center shadow-card animate-rise sm:px-10" style={{ animationDelay: "320ms" }}>
             <p className="max-w-xl text-ink-soft">{t.hero.subtitle}</p>
             <div className="flex flex-wrap items-center justify-center gap-3">
               <a href="#menu" className="btn btn-primary group text-base">
@@ -381,7 +381,7 @@ export function Hero() {
 
       <motion.div
         style={{ y: reduce ? 0 : yCopy }}
-        className="container-max relative z-10 flex min-h-[var(--hero-min)] flex-col justify-center pt-20 pb-28"
+        className="container-max relative z-10 flex min-h-[var(--hero-min)] flex-col justify-center pt-16 pb-20 sm:pt-20 sm:pb-24"
       >
         <HeroCopy
           dark

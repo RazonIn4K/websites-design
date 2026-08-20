@@ -37,26 +37,24 @@ export function About() {
 
   return (
     <section id="about" className="section bg-surface">
-      <div className="container-max grid items-center gap-8 lg:grid-cols-2 lg:gap-10">
+      <div className="container-max grid items-start gap-8 lg:grid-cols-2 lg:gap-10">
         {/* Photo collage with clip-reveal */}
         {refined ? (
-          /* Asymmetric two-thirds anchor — quieter than a checkerboard */
-          <div className="order-2 grid aspect-square grid-cols-3 grid-rows-2 gap-3 lg:order-1">
+          /* Shorter than square so short copy doesn't sit beside a hollow void */
+          <div className="order-2 grid aspect-[5/4] max-h-[28rem] w-full grid-cols-3 grid-rows-2 gap-3 lg:order-1 lg:max-h-[32rem]">
             {tile(COLLAGE_REFINED[0], 0, "col-span-2 row-span-2", "(min-width: 1024px) 30vw, 60vw")}
             {tile(COLLAGE_REFINED[1], 1, "", "(min-width: 1024px) 15vw, 30vw")}
             {tile(COLLAGE_REFINED[2], 2, "", "(min-width: 1024px) 15vw, 30vw")}
           </div>
         ) : (
-          /* Asymmetric pair: dominant portrait anchor + smaller square that
-             overlaps its inner corner on lg (offset into the column gap, so it
-             never spills past the viewport edge). */
+          /* Asymmetric pair: dominant portrait + overlapping square (capped height) */
           <div className="relative order-2 lg:order-1">
-            {tile("about", 0, "aspect-[3/4]", "(min-width: 1024px) 45vw, 92vw")}
+            {tile("about", 0, "aspect-[4/5] max-h-[32rem] w-full", "(min-width: 1024px) 40vw, 92vw")}
             {tile(
               "g4",
               1,
-              "ml-auto mt-3 aspect-square w-1/2 lg:absolute lg:-bottom-8 lg:-right-6 lg:mt-0 lg:w-2/5",
-              "(min-width: 1024px) 18vw, 46vw",
+              "ml-auto mt-3 aspect-square w-1/2 lg:absolute lg:-bottom-6 lg:-right-4 lg:mt-0 lg:w-2/5",
+              "(min-width: 1024px) 16vw, 46vw",
             )}
           </div>
         )}
@@ -65,7 +63,7 @@ export function About() {
         <div className="order-1 lg:order-2">
           <SectionHeader eyebrow={t.about.heading} heading={t.about.lead} align="left" />
 
-          <div className="space-y-4">
+          <div className="space-y-3">
             {t.about.paragraphs.map((p, i) => (
               <Reveal key={i} delay={i * 0.08}>
                 <p

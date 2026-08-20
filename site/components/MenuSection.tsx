@@ -39,7 +39,7 @@ function Tags({ tags, lang }: { tags: string[]; lang: "en" | "es" }) {
 function ItemRow({ item, lang, as: Heading = "h3" }: { item: MenuItem; lang: "en" | "es"; as?: "h3" | "h4" }) {
   const tags = item.tags ?? [];
   return (
-    <div className="group -mx-3 border-b border-line/60 px-3 py-5 transition-colors last:border-0 hover:bg-surface/50">
+    <div className="group -mx-3 border-b border-line/60 px-3 py-3.5 transition-colors last:border-0 hover:bg-surface/50">
       <div className="flex items-baseline">
         <Heading className="font-display text-lg font-bold text-ink">{item.name}</Heading>
         <span aria-hidden className="mx-3 mt-3 flex-1 border-b border-dotted border-line" />
@@ -110,8 +110,8 @@ export function MenuSection() {
           <div className="noise-overlay rounded-2xl bg-bg p-6 shadow-card sm:p-10">
             <div className="gap-x-14 md:columns-2">
               {categories.map((c) => (
-                <div key={c.id} className="mb-9 break-inside-avoid">
-                  <div className="mb-4 text-center">
+                <div key={c.id} className="mb-6 break-inside-avoid">
+                  <div className="mb-3 text-center">
                     <h3 className="font-display text-sm font-bold uppercase tracking-[0.22em] text-primary">{c.name}</h3>
                     <span aria-hidden className="mx-auto mt-3 block h-px w-16 bg-line" />
                     {c.blurb && <p className="mt-2 text-sm italic text-ink-soft">{c.blurb}</p>}

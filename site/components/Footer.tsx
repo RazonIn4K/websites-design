@@ -38,7 +38,7 @@ export function CtaBand() {
              aria-label needed, and Label-in-Name holds by construction. */
           <a
             href={`tel:${biz.phoneHref}`}
-            className="group relative mt-8 inline-block text-white no-underline"
+            className="group relative mt-5 inline-block text-white no-underline"
           >
             <span className="block text-sm font-bold tracking-[0.18em] uppercase text-white/75">
               {A11Y[lang].callLabel}
@@ -60,7 +60,7 @@ export function CtaBand() {
         ) : (
           <a
             href="#lead"
-            className="btn btn-lg relative mt-8 bg-white font-bold text-primary shadow-card hover:-translate-y-0.5"
+            className="btn btn-lg relative mt-5 bg-white font-bold text-primary shadow-card hover:-translate-y-0.5"
           >
             {t.cta.button}
           </a>
@@ -102,7 +102,7 @@ export function Footer() {
         </span>
       </div>
 
-      <div className="container-max grid gap-10 py-12 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="container-max grid gap-8 py-8 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <p className="font-display text-2xl font-bold">{biz.shortName}</p>
           <p className="mt-3 max-w-xs text-sm text-white/70">{t.footer.tagline}</p>
