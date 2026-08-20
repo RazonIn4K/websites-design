@@ -67,6 +67,11 @@ bikes, escape room, trades, books, etc.). Mobile `--hero-min` capped at 28rem.
 `/sites` catalog header densified. FAQ row padding tightened. Overflow QA:
 **148 checks, 0 flagged**.
 
+**20 Aug night pass:** Motion polish — tone-tuned Ken Burns + rise/reveal,
+polaroid hover lift, earlier scroll-reveal trigger. Caption-aligned kits for
+**Tastee Bite**, **La Michoacana**, and **China House** (buffet/hibachi), plus
+Chicago Beauty hero and Growing Place gallery refresh.
+
 ## How to verify
 
 ```bash
@@ -89,7 +94,8 @@ Studio catalog + image audit: sibling repo `node scripts/sync-spec-audit.mjs`
 1. **Owner photo swap** — Replace AI kits with phone shots for paid closes;
    keep slot names + run `gen_blur.py`.
 2. **Gallery caption fidelity (remaining food sites)** — Continue matching
-   `g1`–`g6` to EN/ES captions beyond Johnny K’s (China House buffet look, etc.).
+   `g1`–`g6` to EN/ES captions (Johnny K’s, Tastee Bite, La Michoacana, China
+   House done; pubs/cafes next).
 3. **Mobile CTA fold check** — Spot-check split/editorial at 390×844 after the
    `--hero-min` mobile cap; flip any feast/arch CTAs still below the fold.
 4. **Lead webhook** — Wire `LEAD_WEBHOOK_URL` for production lead capture.

@@ -37,7 +37,8 @@ export function Reveal({
           }
         }
       },
-      { rootMargin: "0px 0px -8% 0px", threshold: 0.08 },
+      /* Trigger a bit earlier so sections feel alive while still scrolling in */
+      { rootMargin: "0px 0px -4% 0px", threshold: 0.06 },
     );
     io.observe(el);
     return () => io.disconnect();

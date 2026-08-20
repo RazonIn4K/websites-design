@@ -300,6 +300,14 @@
   }
 }
 
+:where([data-tone="energetic"]) .animate-rise {
+  animation-duration: 0.42s;
+  animation-timing-function: cubic-bezier(0.2, 0.9, 0.2, 1);
+}
+:where([data-tone="editorial"], [data-tone="calm"]) .animate-rise {
+  animation-duration: 0.75s;
+}
+
 @keyframes riseIn {
   from { opacity: 0; transform: translateY(22px); }
   to { opacity: 1; transform: none; }
@@ -400,6 +408,16 @@ html.js .reveal:not(.is-visible) {
 @media (forced-colors: active) { .text-gradient-accent { color: CanvasText; -webkit-text-fill-color: CanvasText; } }
 @keyframes kenburns { from { transform: scale(1.02); } to { transform: scale(1.1); } }
 .animate-kenburns { animation: kenburns 26s cubic-bezier(0.4,0,0.2,1) both; transform-origin: 50% 42%; }
+/* Tone-tuned Ken Burns: calm drifts slowly; energetic punches sooner. */
+:where([data-tone="calm"], [data-tone="editorial"]) .animate-kenburns {
+  animation-duration: 36s;
+  animation-name: kenburns-soft;
+}
+:where([data-tone="energetic"]) .animate-kenburns {
+  animation-duration: 18s;
+  transform-origin: 55% 40%;
+}
+@keyframes kenburns-soft { from { transform: scale(1.015); } to { transform: scale(1.06); } }
 
 /* ── Scroll clip-reveal for photos (progressive enhancement) ──
    CRITICAL: the curtain clip lives on the CHILDREN, never on the observed
@@ -428,6 +446,8 @@ html.js .reveal-clip:not(.is-visible) img { transform: scale(1.12); }
   html.js .reveal-clip:not(.is-visible) > * { clip-path: none; }
   html.js .reveal-clip:not(.is-visible) img { transform: none; }
   .animate-marquee { animation: none; }
+  .polaroid { transition: none; }
+  .polaroid:hover { transform: none; }
 }
 
 /* ══════════════════ Tenant scope (v3) ══════════════════
@@ -803,6 +823,13 @@ header.glass { background: color-mix(in srgb, var(--color-bg) 95%, transparent);
   padding: 0.6rem 0.6rem 0.8rem;
   border-radius: 0.9rem;
   box-shadow: var(--shadow-lifted);
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.45s ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .polaroid:hover {
+    transform: scale(1.035);
+    box-shadow: 0 18px 40px -12px rgba(26, 18, 16, 0.32);
+  }
 }
 [data-edge="hard"] .polaroid { border-radius: 3px; }
 
@@ -873,6 +900,15 @@ details[open]::details-content { height: auto; }
 html.js :where([data-edge="hard"]) .reveal:not(.is-visible) { transform: none; }
 :where([data-tone="calm"]) .reveal { transition-duration: 0.75s; }
 html.js :where([data-tone="calm"]) .reveal:not(.is-visible) { transform: translateY(14px); }
+:where([data-tone="editorial"]) .reveal {
+  transition-duration: 0.85s;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+html.js :where([data-tone="editorial"]) .reveal:not(.is-visible) {
+  transform: translateY(18px) scale(0.985);
+}
+:where([data-tone="energetic"]) .reveal { transition-duration: 0.4s; }
+html.js :where([data-tone="energetic"]) .reveal:not(.is-visible) { transform: translateY(18px); }
 @media (prefers-reduced-motion: reduce) {
   :where([data-edge], [data-tone]) .reveal { transition: none; }
   html.js :where([data-edge], [data-tone]) .reveal:not(.is-visible) { opacity: 1; transform: none; }
