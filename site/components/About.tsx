@@ -37,7 +37,7 @@ export function About() {
 
   return (
     <section id="about" className="section bg-surface">
-      <div className="container-max grid items-center gap-12 lg:grid-cols-2">
+      <div className="container-max grid items-center gap-8 lg:grid-cols-2 lg:gap-10">
         {/* Photo collage with clip-reveal */}
         {refined ? (
           /* Asymmetric two-thirds anchor — quieter than a checkerboard */

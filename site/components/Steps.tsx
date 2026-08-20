@@ -38,7 +38,7 @@ export function Steps({ which }: { which: "process" | "ritual" }) {
                   key={s.title}
                   // per-card sticky offset: stacked edges peek out like a hand of cards
                   style={{ top: `calc(5.5rem + ${i} * 1.15rem)` }}
-                  className={`noise-overlay relative flex min-h-[19rem] flex-col justify-end overflow-hidden rounded-2xl p-8 shadow-lifted sm:min-h-[21rem] sm:p-10 ${
+                  className={`noise-overlay relative flex min-h-[15rem] flex-col justify-end overflow-hidden rounded-2xl p-6 shadow-lifted sm:min-h-[17rem] sm:p-8 ${
                     climax ? "gradient-brand" : DECK_TONES[i % DECK_TONES.length]
                   } ${climax ? "" : "border border-line"}`}
                 >

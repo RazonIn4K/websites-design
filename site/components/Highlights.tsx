@@ -52,7 +52,7 @@ export function Highlights() {
               key={h.title}
               as="li"
               delay={i * 0.06}
-              className="grid items-baseline gap-x-6 gap-y-1 border-b border-line py-7 sm:grid-cols-[3.5rem_1fr] lg:grid-cols-[5rem_1fr_2fr]"
+              className="grid items-baseline gap-x-6 gap-y-1 border-b border-line py-5 sm:grid-cols-[3.5rem_1fr] lg:grid-cols-[5rem_1fr_2fr]"
             >
               <span className="font-display text-4xl font-black tabular-nums leading-none text-primary/30">
                 {String(i + 1).padStart(2, "0")}
@@ -81,7 +81,7 @@ export function Highlights() {
               <Reveal
                 key={h.title}
                 as="article"
-                className="hover-lift relative flex min-h-72 flex-col justify-end gap-3 overflow-hidden rounded-2xl p-6 shadow-card"
+                className="hover-lift relative flex min-h-56 flex-col justify-end gap-3 overflow-hidden rounded-2xl p-6 shadow-card"
               >
                 <Image
                   src={`${imgBase}/about.jpg`}

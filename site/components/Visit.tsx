@@ -36,7 +36,7 @@ export function Visit() {
               <iframe
                 src={mapSrc}
                 title={A11Y[lang].mapTitle(biz.name)}
-                className="map-tint h-full min-h-72 w-full sm:min-h-80"
+                className="map-tint h-full min-h-56 w-full sm:min-h-64"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />

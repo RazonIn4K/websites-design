@@ -77,7 +77,7 @@ function Spotlight() {
       <div className="container-max">
         <SectionHeader eyebrow={EYEBROW[lang]} heading={t.testimonials.heading} align="left" />
         <StarLockup align="left" />
-        <div className="grid gap-12 lg:grid-cols-[7fr_5fr] lg:gap-16">
+        <div className="grid gap-8 lg:grid-cols-[7fr_5fr] lg:gap-10">
           <Reveal as="figure">
             <blockquote
               className={`font-display text-[length:var(--step-2)] font-medium italic leading-[1.3] text-ink ${QUOTE_HANG}`}
@@ -87,7 +87,7 @@ function Spotlight() {
             <Attribution
               name={feature.name}
               role={feature.role}
-              className="mt-8 border-t border-line pt-6"
+              className="mt-6 border-t border-line pt-5"
             />
           </Reveal>
           <div className="flex flex-col justify-center gap-5">

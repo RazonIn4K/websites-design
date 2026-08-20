@@ -93,7 +93,7 @@ function HeroCopy({
   const rule = <span className={`hidden h-4 w-px sm:block ${dark ? "bg-white/25" : "bg-line"}`} />;
   return (
     <div className={`${center ? "mx-auto text-center" : ""} ${className}`}>
-      <span className={`${dark ? "eyebrow-on-dark" : "eyebrow"} mb-5 inline-flex animate-rise items-center gap-2`} style={{ animationDelay: "0ms" }}>
+      <span className={`${dark ? "eyebrow-on-dark" : "eyebrow"} mb-4 inline-flex animate-rise items-center gap-2`} style={{ animationDelay: "0ms" }}>
         <Sparkle className="h-3.5 w-3.5" />
         {t.hero.eyebrow}
       </span>
@@ -109,12 +109,12 @@ function HeroCopy({
         </span>
       </h1>
       <p
-        className={dark ? `mt-6 max-w-xl animate-rise text-lg text-white/90 ${center ? "mx-auto" : ""}` : "text-lead mt-6 animate-rise"}
+        className={dark ? `mt-5 max-w-xl animate-rise text-lg text-white/90 ${center ? "mx-auto" : ""}` : "text-lead mt-5 animate-rise"}
         style={{ animationDelay: "260ms" }}
       >
         {t.hero.subtitle}
       </p>
-      <div className={`mt-8 flex flex-wrap items-center gap-3 animate-rise ${center ? "justify-center" : ""}`} style={{ animationDelay: "360ms" }}>
+      <div className={`mt-6 flex flex-wrap items-center gap-3 animate-rise ${center ? "justify-center" : ""}`} style={{ animationDelay: "360ms" }}>
         <a href="#menu" className={`btn btn-primary group text-base${focusDark}`}>
           {t.hero.ctaPrimary}
           <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
@@ -126,7 +126,7 @@ function HeroCopy({
       </div>
       {proof !== "none" && (
         <div
-          className={`mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 animate-rise text-sm ${dark ? "text-white/85" : "text-ink-soft"} ${center ? "justify-center" : ""}`}
+          className={`mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 animate-rise text-sm ${dark ? "text-white/85" : "text-ink-soft"} ${center ? "justify-center" : ""}`}
           style={{ animationDelay: "480ms" }}
         >
           <StarLockup dark={dark} />
@@ -169,16 +169,17 @@ export function Hero() {
   const blurProps = blur.hero ? { placeholder: "blur" as const, blurDataURL: blur.hero } : {};
   const blurFor = (k: string) => (blur[k] ? { placeholder: "blur" as const, blurDataURL: blur[k] } : {});
 
-  // ── Editorial split: full-height photo beside a typeset copy panel ──
+  // ── Editorial split: photo beside a typeset copy panel. Photo stretches to
+  //    copy height on lg — no hollow band under a short headline. ──
   if (variant === "editorial") {
     return (
       <section ref={ref} id="top" className="relative w-full">
-        <div className="grid min-h-dvh lg:grid-cols-2">
-          <div className="gradient-mesh-anim order-2 flex flex-col justify-center bg-surface px-6 py-20 sm:px-12 lg:order-1 lg:px-16">
+        <div className="grid lg:grid-cols-2">
+          <div className="gradient-mesh-anim order-2 flex flex-col justify-center bg-surface px-6 py-12 sm:px-12 lg:order-1 lg:px-14 lg:py-14">
             <HeroCopy className="relative max-w-xl" />
           </div>
-          <div className="relative order-1 min-h-[44vh] overflow-hidden lg:order-2 lg:min-h-dvh">
-            <motion.div style={{ y: reduce ? 0 : yImg }} className="absolute inset-x-0 top-0 h-[110%]">
+          <div className="relative order-1 min-h-[36vh] overflow-hidden lg:order-2 lg:min-h-[18rem]">
+            <motion.div style={{ y: reduce ? 0 : yImg }} className="absolute inset-x-0 top-0 h-[110%] lg:h-[115%]">
               <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="(min-width:1024px) 50vw, 100vw" className="animate-kenburns object-cover" {...blurProps} />
             </motion.div>
           </div>
@@ -196,7 +197,7 @@ export function Hero() {
   if (variant === "collage") {
     return (
       <section ref={ref} id="top" className="gradient-mesh-anim relative w-full overflow-x-clip bg-bg">
-        <div className="container-max grid min-h-dvh items-center gap-12 pt-28 pb-20 lg:grid-cols-2 lg:gap-10">
+        <div className="container-max grid items-center gap-8 pt-16 pb-12 lg:grid-cols-2 lg:gap-8 lg:pt-20">
           <HeroCopy className="relative z-10 max-w-xl" />
 
           {/* Layered photo stack: ghost type at the back, then three polaroids
@@ -252,7 +253,7 @@ export function Hero() {
   if (variant === "arch") {
     return (
       <section ref={ref} id="top" className="gradient-mesh-anim relative w-full overflow-x-clip bg-bg">
-        <div className="container-max grid min-h-dvh items-center gap-12 pt-28 pb-16 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8">
+        <div className="container-max grid items-center gap-8 pt-16 pb-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:pt-20">
           <HeroCopy className="relative z-10 max-w-xl" />
 
           <div className="relative mx-auto w-full max-w-[24rem] sm:max-w-[26rem]">
@@ -287,8 +288,8 @@ export function Hero() {
     const reserveHref = hasPhone ? `tel:${biz.phoneHref}` : "#visit";
     return (
       <section ref={ref} id="top" className="relative w-full overflow-x-clip bg-bg">
-        <div className="container-max relative z-10 pt-24 text-center sm:pt-28">
-          <span className="eyebrow mb-5 inline-flex animate-rise items-center gap-2" style={{ animationDelay: "0ms" }}>
+        <div className="container-max relative z-10 pt-20 text-center sm:pt-24">
+          <span className="eyebrow mb-4 inline-flex animate-rise items-center gap-2" style={{ animationDelay: "0ms" }}>
             <Sparkle className="h-3.5 w-3.5" />
             {t.hero.eyebrow}
           </span>
@@ -341,22 +342,23 @@ export function Hero() {
     );
   }
 
-  // ── Split (authority): copy on light + photo in a contained bordered panel ──
+  // ── Split (authority/craft): copy + contained photo. Photo column stretches
+  //    to the copy height on lg so neither side leaves a hollow band. ──
   if (variant === "split") {
     return (
       <section ref={ref} id="top" className="relative w-full bg-bg">
-        <div className="container-max grid min-h-dvh items-center gap-10 py-28 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
-          <HeroCopy className="max-w-xl" proof="eyebrow" />
-          <div className="relative">
+        <div className="container-max grid gap-8 py-12 lg:grid-cols-[1.1fr_0.9fr] lg:gap-10 lg:py-14">
+          <HeroCopy className="max-w-xl lg:py-2" proof="eyebrow" />
+          <div className="relative min-h-[20rem] lg:min-h-[18rem]">
             <motion.figure
               style={{ y: reduce ? 0 : yImg }}
-              className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-line shadow-lifted"
+              className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-line shadow-lifted lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
             >
               <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="(min-width:1024px) 45vw, 100vw" className="object-cover" {...blurProps} />
             </motion.figure>
             {/* Proof marks break the seam for foreground depth (existing stat data, desktop only). */}
             {t.about?.stats?.[0] && <StatMark stat={t.about.stats[0]} position="-left-6 top-10" delay="560ms" />}
-            {t.about?.stats?.[1] && <StatMark stat={t.about.stats[1]} position="-bottom-6 -right-6" delay="680ms" />}
+            {t.about?.stats?.[1] && <StatMark stat={t.about.stats[1]} position="bottom-6 -right-4" delay="680ms" />}
           </div>
         </div>
       </section>
@@ -366,7 +368,7 @@ export function Hero() {
   // ── Full-bleed (default): left or centered copy over the photo ──
   const centered = variant === "centered";
   return (
-    <section ref={ref} id="top" className="relative min-h-dvh w-full overflow-hidden">
+    <section ref={ref} id="top" className="relative min-h-[var(--hero-min)] w-full overflow-hidden">
       <motion.div style={{ y: reduce ? 0 : yImg }} className="absolute inset-x-0 top-0 h-[112%]">
         <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="100vw" className="animate-kenburns object-cover" {...blurProps} />
       </motion.div>
@@ -379,7 +381,7 @@ export function Hero() {
 
       <motion.div
         style={{ y: reduce ? 0 : yCopy }}
-        className="container-max relative z-10 flex min-h-dvh flex-col justify-center pt-24 pb-40"
+        className="container-max relative z-10 flex min-h-[var(--hero-min)] flex-col justify-center pt-20 pb-28"
       >
         <HeroCopy
           dark

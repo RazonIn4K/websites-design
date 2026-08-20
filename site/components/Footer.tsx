@@ -28,7 +28,7 @@ export function CtaBand() {
   const { t, biz, hasPhone, lang } = useLang();
   return (
     <section className="container-max py-8">
-      <Reveal className="cta-card gradient-brand noise-overlay relative overflow-hidden rounded-3xl px-8 py-16 text-center shadow-lifted sm:px-16">
+      <Reveal className="cta-card gradient-brand noise-overlay relative overflow-hidden rounded-3xl px-8 py-10 text-center shadow-lifted sm:px-14 sm:py-12">
         <h2 className="text-h2 relative text-white">{t.cta.heading}</h2>
         <p className="relative mx-auto mt-4 max-w-2xl text-lg text-white/90">{t.cta.text}</p>
         {hasPhone ? (
