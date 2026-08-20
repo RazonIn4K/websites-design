@@ -1,0 +1,67 @@
+{
+  "_note": "Research-backed aesthetic briefs for image generation. Not served to clients.",
+  "flamengo": {
+    "real": "Flamingo Authentic Mexican Cuisine & Ice Cream, 1029 Pleasant St, DeKalb — dual Mexican restaurant + ice cream parlor in a residential strip; spacious casual dining, chips with multiple salsas, birria, giant burritos, nieves/paletas/licuados",
+    "avoid": "fine-dining white tablecloth, upscale margarita lounge, moody romantic Mexican",
+    "look": "casual family Mexican + bright ice-cream parlor energy; Formica/booth casual; colorful desserts; generous plates"
+  },
+  "china-house": {
+    "real": "China House buffet, 1900 Sycamore Rd, DeKalb — Chinese buffet with hibachi cook-to-order, fresh sushi, crystal chandeliers, clean spacious dining room, kid-friendly (pizza/fries/ice cream machine)",
+    "avoid": "intimate lantern tea-house, dark fine dining, single plated tasting dishes only",
+    "look": "bright clean buffet lines, hibachi grill station, sushi platter, chandelier dining room, family plates"
+  },
+  "leza-nail-spa": {
+    "real": "LeZa Nail Spa, 2444 Sycamore Rd — 12 manicure + 16 pedicure stations, modern clean Midwest spa, walk-ins, lemonade, nail art with gems/glitter",
+    "avoid": "ultra-luxury marble hotel spa emptiness",
+    "look": "busy modern nail spa stations, pedicure chairs in rows, realistic gel/chrome nail art, warm welcoming"
+  },
+  "noon-whistle-brewing": {
+    "real": "Noon Whistle Naperville botanical taproom — Drink.Sip.Sprout., plants for sale, hazy IPAs/sours, industrial biergarten, pinball, food trucks, community",
+    "avoid": "dark industrial brewery with no plants, generic copper tanks only",
+    "look": "plant-filled taproom, flight of craft beer, kettle sour, pretzel+beer cheese, food truck outside, dog-friendly patio"
+  },
+  "kiss-the-sky": {
+    "real": "Kiss the Sky Records since 1996, downtown Batavia — new/used vinyl, Cloud Nine vintage shop-within-shop, posters, incense, live music venue, Fox River Valley",
+    "avoid": "sterile Apple-store music shop, neon cyberpunk",
+    "look": "crate-digger vinyl walls, used LP bins, turntable counter, band posters, vintage Cloud Nine corner, spinning record"
+  },
+  "hinks-bar-and-grill": {
+    "real": "Hink's Bar & Grill, downtown Sycamore — 100+ beers, bourbon, biker-friendly, karaoke Tue, homemade pizza via dumbwaiter, pretzel rolls, grouper, worn neighborhood bar",
+    "avoid": "polished gastropub, craft-beer cathedral",
+    "look": "worn brick corner bar, deep bottle coolers, hand-pattied burger, karaoke mic, motorcycles out front"
+  },
+  "inbodens-meats": {
+    "real": "Inboden's since 1962 — full-service butcher + deli + bakery + specialty grocery, USDA, local pork/beef, catering/pig roast",
+    "avoid": "trendy butcher-chic restaurant plating",
+    "look": "classic Midwest meat market glass case, hand-cut steaks, house brats, deli subs, specialty shelves"
+  },
+  "lord-stanleys": {
+    "real": "Lord Stanley's & Annex downtown DeKalb — sports bar, pitchers + JB's pizza deal, Blackhawks nights, pool/gaming, dive-friendly",
+    "avoid": "British gentlemen's club racing-green luxury",
+    "look": "downtown sports bar TVs, pizza+pitchers, pool table, crowded game night, craft taps in Annex"
+  },
+  "lisle-lanes": {
+    "real": "Lisle Lanes — bowling + leagues + bar & grill, cosmic glow bowling, stone-baked pizza, wings",
+    "look": "retro lanes, cosmic neon weekend, league night, birthday parties, lane-side pitchers and pizza"
+  },
+  "bowlrrito": {
+    "real": "Bowlrrito DeKalb — Tex-Mex fast-casual build-your-own bowls & burritos, avocado-lime energy",
+    "look": "Chipotle-style line, loaded bowls, foil burritos, guacamole station, agua fresca, bright casual"
+  },
+  "mad-batter-bakery": {
+    "real": "Mad Batter Bakery St. Charles — from-scratch pastries, custom cakes, glass case confections",
+    "look": "butter croissants, hand-decorated cakes, cookie case, brownies, sourdough, truffles"
+  },
+  "paw-lickin-good": {
+    "real": "Paw Lickin' Good Sycamore — dog bakery, pupcakes, boutique toys, self-wash station",
+    "look": "dog biscuits, birthday pupcakes, toy shelves, natural chews, DIY wash tub, happy dogs at counter"
+  },
+  "nona-jos": {
+    "real": "Nona Jo's Naperville home & gift boutique — candles, throws, jewelry, baby gifts, seasonal",
+    "look": "curated boutique shelves, candle display, window-styled throws, gift wrapping, soft sage warmth"
+  },
+  "mvps-sports-bar": {
+    "real": "MVP Sports Bar Sycamore — wings, every game on, beer buckets, packed house",
+    "look": "jumbo wings, wall of TVs, beer buckets, sampler platter, cheering crowd, nachos/sliders"
+  }
+}
