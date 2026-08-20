@@ -197,13 +197,13 @@ export function Hero() {
   if (variant === "collage") {
     return (
       <section ref={ref} id="top" className="gradient-mesh-anim relative w-full overflow-x-clip bg-bg">
-        <div className="container-max grid items-center gap-6 pt-14 pb-10 lg:grid-cols-2 lg:gap-8 lg:pt-16">
+        <div className="container-max grid items-center gap-6 pt-12 pb-8 lg:grid-cols-2 lg:gap-8 lg:pt-14">
           <HeroCopy className="relative z-10 max-w-xl" />
 
           {/* Layered photo stack: ghost type at the back, then three polaroids
               at three parallax speeds — nearest moves most. Decorative photos
               carry empty alt; the composition is described by the copy column. */}
-          <div className="relative mx-auto aspect-square w-full max-w-[22rem] sm:max-w-[26rem] lg:max-w-[28rem]">
+          <div className="relative mx-auto aspect-square w-full max-w-[20rem] sm:max-w-[24rem] lg:max-w-[26rem]">
             {/* ghost word lives inside a fade-masked, overflow-hidden wrapper the
                 width of the stack — long phrases fade out INSIDE the wrapper
                 instead of hard-clipping at the viewport edge (re-critique v2) */}
@@ -253,13 +253,13 @@ export function Hero() {
   if (variant === "arch") {
     return (
       <section ref={ref} id="top" className="gradient-mesh-anim relative w-full overflow-x-clip bg-bg">
-        <div className="container-max grid items-center gap-6 pt-14 pb-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:pt-16">
+        <div className="container-max grid items-center gap-6 pt-12 pb-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:pt-14">
           <HeroCopy className="relative z-10 max-w-xl" />
 
-          <div className="relative mx-auto w-full max-w-[20rem] sm:max-w-[22rem]">
+          <div className="relative mx-auto w-full max-w-[18rem] sm:max-w-[20rem]">
             <span
               aria-hidden
-              className="ghost-word ghost-fade absolute -left-10 top-1/2 -translate-y-1/2 -rotate-90 animate-rise text-[clamp(3rem,6vw,5rem)]"
+              className="ghost-word ghost-fade absolute -left-10 top-1/2 -translate-y-1/2 -rotate-90 animate-rise text-[clamp(2.5rem,5vw,4rem)]"
               style={{ animationDelay: "200ms" }}
             >
               {biz.shortName}
@@ -268,7 +268,7 @@ export function Hero() {
               style={{ y: reduce ? 0 : yMid }}
               className="relative animate-rise overflow-hidden rounded-t-[999px] rounded-b-3xl border-[6px] border-bg shadow-lifted ring-1 ring-line"
             >
-              <div className="relative aspect-[3/4]">
+              <div className="relative aspect-[3/4] max-h-[min(52svh,26rem)]">
                 <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="(min-width:1024px) 24rem, 88vw" className="object-cover" {...blurProps} />
               </div>
             </motion.figure>

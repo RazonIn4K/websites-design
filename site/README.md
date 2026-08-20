@@ -1,18 +1,20 @@
 # Multi-tenant site app
 
-One shared component set renders all **72 bilingual (EN/ES) client sites**. A
+One shared component set renders all **74 bilingual (EN/ES) client sites**. A
 client is *content + theme + photos + a layout assignment* — no per-client
 components exist anywhere.
+
+> Fleet status + next steps: **[../STATUS.md](../STATUS.md)**
 
 - **Stack:** Next.js 16 (App Router, SSG) · React 19 · TypeScript 6 ·
   Tailwind CSS v4 (CSS-first `@theme`) · Motion 12.
 - **Routes:** `/` (flagship), `/sites` (filterable portfolio explorer),
-  `/sites/<slug>` (64 clients), `/api/lead` (demo lead endpoint; set
+  `/sites/<slug>` (clients), `/api/lead` (demo lead endpoint; set
   `LEAD_WEBHOOK_URL` to forward).
 
 ```bash
-npm run dev        # develop
-npm run build      # SSG build (72 pages) + TS typecheck
+npm run dev        # develop (use -p 3010 if 3000 is taken)
+npm run build      # SSG build + TS typecheck
 npm run start      # serve the production build
 npm run qa:all     # fleet-wide QA harness (see qa/README.md) — server must be running
 ```

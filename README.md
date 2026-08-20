@@ -4,6 +4,10 @@ End-to-end pipeline that **discovers** local businesses from open data, **audits
 their digital presence, and **generates** modern, bilingual marketing sites for the
 best prospects — from one content-driven, multi-tenant template.
 
+> **Fleet status (20 Aug 2026):** **74** live kits, spacing densified, image floor
+> cleared (≥110KB every slot). See **[STATUS.md](./STATUS.md)** for what shipped,
+> how to verify, and best next steps.
+
 ```
 recon/  →  data/  →  site/  (one template → many themed client sites)
 scan       manifest    Next.js app
@@ -27,29 +31,26 @@ python recon/overpass_recon.py
 
 ## 2. Generated sites (`site/`)
 
-One shared component template renders **72 client sites across 72 verticals**, each
-discovered from the manifest as an independent business with no current website, and
-each with its own bilingual copy, brand palette, display font, emoji set, and a full
-set of **8 AI-generated photos** (hero, ambiance, 6 gallery) — 520 images total.
+One shared component template renders **74 client sites**, each with bilingual
+copy, brand palette, display font, and a full **8-photo kit** (hero, about,
+g1–g6) — 592 images. Preview locally with `npx next dev -p 3010` in `site/`.
 
 Beyond palette/font, each client opts into a **layout archetype** (`lib/clients.ts`
 `SiteLayout`) so the sites differ in their *bones*, not just color: **Warm Hospitality**
-(default, full-bleed hero), **Editorial** (fine dining — magazine split hero, no bento),
-**Authority** (law/finance/medical — split hero on light, drops gallery/marquee, leads
-with structure), **Wellness** (beauty/spa — editorial hero, monochrome imagery), and
-**Craft** (retail/trades/gym — hard-edged brutalist cards, marquee-first). Driven by an
-`archetype` + cross-cutting `edge`/`surface`/`tone` scope and a per-archetype section
-registry in `SitePage`; an unassigned client renders the default composition unchanged.
+(default, full-bleed / feast / collage heroes), **Editorial** (fine dining — magazine
+split hero), **Authority** (law/finance/medical — split on light), **Wellness**
+(beauty/spa — editorial + mono), and **Craft** (retail/trades/gym — hard-edged,
+energetic density). Driven by `archetype` + `edge`/`surface`/`tone` and a
+per-archetype section registry.
+
+**Spacing (Aug 2026):** heroes are capped (not forced full-viewport); section
+rhythm and about/gallery/menu padding were tightened fleet-wide so pages stop
+reading as hollow. Details in `STATUS.md`.
 
 On top of the archetypes sits a scroll-driven **layered wave**: sticky-stacking
-process decks, collage heroes (rotated polaroids at three parallax speeds behind
-ghost display type), scrollytelling story panels that crossfade per chapter,
-outlined ghost words drifting behind gallery headers, count-up stats, 3D-tilt
-photo cards, a View-Transition language crossfade, and an animated native FAQ
-accordion — all progressive enhancements (no-JS/reduced-motion safe). A
-deterministic **QA harness** (`site/qa/`, `npm run qa:all`) sweeps all 72 sites
-for overflow, Spanish structural parity, interactive behaviors, and real-motion
-scroll reveals.
+process decks, collage heroes, scrollytelling story panels, ghost words, count-up
+stats, and progressive-enhancement motion (no-JS/reduced-motion safe). QA harness:
+`site/qa/`, `npm run qa:all`.
 
 | Route (`/` or `/sites/<slug>`) | Business | Vertical · City |
 |---|---|---|

@@ -1,24 +1,28 @@
 # Image system & generation guide
 
-Every one of the 72 sites uses the same **8-slot image kit**, generated per client
-into `site/public/img/<slug>/`. This file documents what each slot needs, how the
-current pipeline builds prompts, and how to generate replacements with any
-external image AI (ChatGPT/GPT-image, Midjourney, Flux, etc.). The per-site
-briefing table is at the bottom.
+Every one of the **74** sites uses the same **8-slot image kit**, generated per
+client into `site/public/img/<slug>/`. This file documents what each slot needs,
+how the pipeline builds prompts, and how to generate replacements with any
+external image AI (ChatGPT/GPT-image, Midjourney, Flux, Cursor Imagine, etc.).
+
+> **Ops note (20 Aug 2026):** Prefer Cursor/Grok Imagine for production slots —
+> do **not** use Pollinations/`regen_fleet.py` for heroes. After any install run
+> `python scripts/gen_blur.py`. Fleet status: [STATUS.md](./STATUS.md).
+> Aesthetic research: `site/scripts/aesthetic_briefs.json`.
 
 ## 1. The 8 slots — sizes and where each renders
 
 | File | Generated size | Aspect | Renders in |
 |---|---|---|---|
 | `hero.jpg` | 1536×960 | 8:5 | Full-bleed default hero · editorial/split hero column (cropped ~4:5) · arch frame (tall crop) · feast photo band (wide) · collage stack · `/sites` explorer card (wide) · OG/social card background · the `vt-hero` view-transition morph |
-| `about.jpg` | 1000×1000 | 1:1 | About dominant frame (~3:4 crop) · **Highlights bento feature cell** (wide crop, dark scrim + white text) · Story chapter 1 |
-| `g1.jpg`–`g3.jpg` | 800×800 | 1:1 | Menu "favorites" photo cards (default-menu sites) · gallery |
-| `g4.jpg` | 800×800 | 1:1 | About offset square · Story chapter 2 · gallery |
-| `g5.jpg` | 800×800 | 1:1 | Story chapter 3 · gallery |
-| `g6.jpg` | 800×800 | 1:1 | Gallery |
+| `about.jpg` | 1000×1000 | 1:1 | About dominant frame (~4:5 crop) · **Highlights bento feature cell** (wide crop, dark scrim + white text) · Story chapter 1 |
+| `g1.jpg`–`g3.jpg` | 800–1000² | 1:1 | Menu "favorites" photo cards (default-menu sites) · gallery |
+| `g4.jpg` | 800–1000² | 1:1 | About offset square · Story chapter 2 · gallery |
+| `g5.jpg` | 800–1000² | 1:1 | Story chapter 3 · gallery |
+| `g6.jpg` | 800–1000² | 1:1 | Gallery |
 
 Everything renders through `object-cover` center-crops at many aspect ratios
-(mosaic tiles span differently; the filmstrip crops to 3:4 portrait), so:
+(mosaic tiles span differently; the filmstrip crops to ~4:5 portrait), so:
 
 - **Keep the subject centered with generous margins** — assume any edge can be
   cropped away. The two exceptions:
@@ -30,26 +34,24 @@ Everything renders through `object-cover` center-crops at many aspect ratios
   visible bar over the image. If you regenerate a gallery image with different
   content, update the caption in `copy.json` (both `en` **and** `es`).
 
+**Quality floor:** after regen, aim for **≥ ~120KB** JPEG per slot (about/hero
+especially). Recompress oversized kits carefully — a hard quality drop can push
+files back under the floor (seen on Delts gallery mid-Aug).
+
 ## 2. How the current pipeline works
 
 `site/scripts/gen_images.py` (run from `site/`: `python scripts/gen_images.py`)
 calls the Pollinations **Flux** endpoint (no API key), seeded, sequential,
-rate-limit-friendly, and **skips existing files** — so you can delete one file
-and re-run to redo just that slot. Prompts are assembled from three dicts in
-that file, and they are the canonical source for scene language:
+rate-limit-friendly, and **skips existing files** — useful for drafts only.
+**Production heroes/abouts should use Cursor/Grok Imagine** (or equivalent HQ
+generator), then overwrite the slot file.
 
-- `HERO[vertical]` — a full scene description per vertical (mechanic at work,
-  barber mid-fade, vet with golden retriever, …), plus the `_LEFT` composition
-  rider for text overlay.
-- `ABOUT[vertical]` — the interior/ambiance shot.
-- `STYLE[vertical]` — the per-vertical photographic style suffix appended to
-  every prompt ("professional food photography, warm moody restaurant lighting,
-  shallow depth of field … 50mm", "…crisp workshop lighting… no text").
-- Gallery: `"{caption}, {STYLE[vertical]}"`.
+- `HERO[vertical]` / `ABOUT[vertical]` / `STYLE[vertical]` in `gen_images.py`
+- Gallery: `"{caption}, {STYLE[vertical]}"`
+- Research look/avoid: `site/scripts/aesthetic_briefs.json`
 
-`site/scripts/regen_heroes*.py` are precedents for targeted re-shoots of a
-subset. After any image swap: `python scripts/gen_blur.py` regenerates the LQIP
-placeholders (`blur.json`).
+`site/scripts/regen_heroes*.py` are precedents for targeted re-shoots.
+After any image swap: `python scripts/gen_blur.py` regenerates LQIP placeholders.
 
 ## 3. Prompt formula for external AIs (ChatGPT, Midjourney, …)
 
