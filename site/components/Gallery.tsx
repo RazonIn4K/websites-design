@@ -93,8 +93,9 @@ export function Gallery() {
             <span className="badge-overlay absolute left-3 top-3 rounded-full px-2 py-0.5 text-xs font-semibold text-white">
               {String(i + 1).padStart(2, "0")}
             </span>
-            <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent transition-colors duration-300 group-hover:from-black/80" />
-            <figcaption className="absolute inset-x-0 bottom-0 translate-y-2 p-4 font-display text-sm font-semibold italic leading-tight text-white opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+            {/* Always-readable caption on touch; hover deepens on pointer devices */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent transition-colors duration-300 [@media(hover:hover)]:from-black/40 [@media(hover:hover)]:group-hover:from-black/80" />
+            <figcaption className="absolute inset-x-0 bottom-0 p-4 font-display text-sm font-semibold italic leading-tight text-white transition duration-300 [@media(hover:hover)]:translate-y-1 [@media(hover:hover)]:opacity-90 [@media(hover:hover)]:group-hover:translate-y-0 [@media(hover:hover)]:group-hover:opacity-100">
               {captions[i] ?? ""}
             </figcaption>
           </Reveal>

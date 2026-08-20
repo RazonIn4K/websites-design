@@ -825,7 +825,7 @@ const LAYOUTS: Record<string, SiteLayout> = {
   "cortland-vet": { archetype: "authority", hero: "split", tone: "calm", menuKind: "services", highlights: "credentials" },
   // Shelter: keep the warm full-bleed default (retains the adoptable-pet
   // Gallery), with services cards for adopt/foster/volunteer/donate programs.
-  "tails-humane": { menuKind: "services" },
+  "tails-humane": { hero: "split", tone: "calm", menuKind: "services", highlights: "credentials", gallery: "horizontal" },
 
   // ── Soft wellness / beauty — editorial split hero, airy tone, monochrome
   //    imagery, services menu.
@@ -843,61 +843,59 @@ const LAYOUTS: Record<string, SiteLayout> = {
   "south-moon-bbq": { archetype: "editorial", hero: "editorial", tone: "editorial", menuKind: "carte", highlights: "index", gallery: "horizontal", story: "scrolly" },
 
   // ── Bold craft / industrial retail & trades — hard edges, energetic density.
-  "a1-auto": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "services", gallery: "horizontal" },
-  "dekalb-mechanical": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "services", gallery: "horizontal" },
-  "lovells-tire": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "services", gallery: "horizontal" },
-  "university-city-barbershop": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "services", gallery: "horizontal" },
-  "realize-athletics": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "services", gallery: "horizontal" },
-  "inbodens-meats": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "shelf", gallery: "horizontal" },
-  "cast-iron-coffee": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "shelf", gallery: "horizontal" },
-  "woodys-orchard": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "shelf", gallery: "horizontal" },
-  "wired-nutrition": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "shelf", gallery: "horizontal" },
-  "paw-lickin-good": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "shelf", gallery: "horizontal" },
+  "a1-auto": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" },
+  "dekalb-mechanical": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" },
+  "lovells-tire": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" },
+  "university-city-barbershop": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" },
+  "realize-athletics": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" },
+  "inbodens-meats": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "shelf", gallery: "horizontal" },
+  "cast-iron-coffee": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "shelf", gallery: "horizontal" },
+  "woodys-orchard": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "shelf", gallery: "horizontal" },
+  "wired-nutrition": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "shelf", gallery: "horizontal" },
+  "paw-lickin-good": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "shelf", gallery: "horizontal" },
 
   // ── Batch-8 (Fox Valley corridor) ──
-  "prairie-path-cycles": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "shelf", gallery: "horizontal" },
-  "kiss-the-sky": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "shelf", gallery: "horizontal" },
-  "yellow-bird-books": { menuKind: "shelf", tone: "editorial", hero: "arch" }, // cozy literary shelf, arch reading-nook hero
+  "prairie-path-cycles": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "shelf", gallery: "horizontal" },
+  "kiss-the-sky": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "shelf", gallery: "horizontal" },
+  "yellow-bird-books": { archetype: "editorial", hero: "arch", tone: "editorial", menuKind: "shelf", gallery: "horizontal" }, // cozy literary shelf
   "geneva-winery": { archetype: "editorial", hero: "editorial", tone: "editorial", menuKind: "carte", highlights: "index", gallery: "horizontal", story: "scrolly" },
   "mad-batter-bakery": { hero: "collage" }, // playful from-scratch bakery — layered polaroid hero
 
   // ── Batch-9 (corridor toward Chicago) ──
-  "celidan-florist": { hero: "arch", tone: "editorial", menuKind: "shelf" }, // soft, colorful — arch conservatory hero
-  "noon-whistle-brewing": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "carte", gallery: "horizontal" }, // tap list as carte
+  "celidan-florist": { archetype: "editorial", hero: "arch", tone: "editorial", menuKind: "shelf", gallery: "horizontal" }, // soft, colorful — arch conservatory hero
+  "noon-whistle-brewing": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "carte", gallery: "horizontal" }, // tap list as carte
   "suburban-music": { menuKind: "shelf", hero: "collage" }, // warm family music shop
   "pottery-bayou": { menuKind: "services", hero: "collage" }, // playful, paint sessions
   "flavor-spice": { menuKind: "shelf" }, // warm spice shelf
 
   // ── Batch-10 (corridor toward Chicago) ──
-  "beidelman-furniture": { hero: "split", tone: "editorial", menuKind: "shelf" }, // elegant showroom
-  "kramer-photography": { hero: "editorial", tone: "editorial", menuKind: "services", gallery: "horizontal" }, // portfolio filmstrip
-  "victory-mma": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "services", gallery: "horizontal" },
+  "beidelman-furniture": { archetype: "editorial", hero: "split", tone: "editorial", menuKind: "shelf", gallery: "horizontal" }, // elegant showroom
+  "kramer-photography": { archetype: "wellness", hero: "editorial", tone: "editorial", surface: "mono", menuKind: "services", gallery: "horizontal", highlights: "credentials", steps: "deck" }, // portfolio filmstrip
+  "victory-mma": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" },
   "schmaltz-deli": { menuKind: "carte" }, // classic deli board
-  "sapphire-tattoo": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "services", gallery: "horizontal" },
+  "sapphire-tattoo": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" },
   "envision-dance": { menuKind: "services", hero: "collage" }, // joyful, class cards
 
   // ── Batch-11 (corridor toward Chicago) ──
-  "costello-jewelry": { hero: "editorial", tone: "editorial", menuKind: "shelf" }, // elegant jeweler
-  "all-chocolate-kitchen": { hero: "editorial", tone: "editorial", menuKind: "shelf" }, // luxe chocolatier
+  "costello-jewelry": { archetype: "editorial", hero: "editorial", tone: "editorial", menuKind: "shelf", gallery: "horizontal" }, // elegant jeweler
+  "all-chocolate-kitchen": { archetype: "editorial", hero: "editorial", tone: "editorial", menuKind: "shelf", gallery: "horizontal" }, // luxe chocolatier
   "andersons-toyshop": { menuKind: "shelf", hero: "collage" }, // playful toy store
   "arcada-theater": { archetype: "editorial", hero: "editorial", tone: "editorial", menuKind: "carte", highlights: "index", gallery: "horizontal", story: "scrolly" }, // show lineup carte
   "elite-boba": { hero: "collage" }, // fun boba (phone-less, default menu)
-  "nona-jos": { menuKind: "shelf", tone: "editorial", hero: "arch" }, // curated gift shelf, arch boutique hero
-
-  // ── Batch-12 (corridor toward Chicago) ──
-  "growing-place": { hero: "arch", tone: "calm", menuKind: "shelf" }, // fresh garden center — greenhouse-arch hero
-  "naperville-running": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "shelf", gallery: "horizontal" },
-  "riddlebox-escape": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "services", gallery: "horizontal" }, // phone-less
+  "nona-jos": { archetype: "editorial", menuKind: "shelf", tone: "editorial", hero: "arch", gallery: "horizontal" }, // curated gift shelf
+  "growing-place": { archetype: "editorial", hero: "arch", tone: "calm", menuKind: "shelf", gallery: "horizontal" }, // fresh garden center
+  "naperville-running": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "shelf", gallery: "horizontal" },
+  "riddlebox-escape": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" }, // phone-less
   "astro-fun-world": { menuKind: "services", hero: "collage" }, // playful family fun center
-  "lindsays-cobbler": { hero: "split", tone: "calm", menuKind: "services" }, // heritage cobbler
-  "lisle-lanes": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "services", gallery: "horizontal" }, // retro bowling
+  "lindsays-cobbler": { archetype: "authority", hero: "split", tone: "calm", menuKind: "services", highlights: "credentials" }, // heritage cobbler
+  "lisle-lanes": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" }, // retro bowling
 
   // ── Design-overhaul wave: de-templatize the warm/casual-food cohort ──
   // feast = type-forward stacked hero (giant display type hanging into a full-
   // width photo band, glass action card on the seam); arch = soft ornamental
   // arch-framed photo. flamengo / lord-stanleys / mvps keep the classic warm
   // full-bleed so that register stays represented.
-  "hinks-bar-and-grill": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "carte", gallery: "horizontal" }, // 100+ beer tap board
+  "hinks-bar-and-grill": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "carte", gallery: "horizontal" }, // 100+ beer tap board
   "johnny-ks": { hero: "feast" }, // burger & hot dog stand
   "fattys-pub": { hero: "feast" }, // wings & burgers pub
   "bowlrrito": { hero: "feast" }, // build-your-own bowls
@@ -908,12 +906,12 @@ const LAYOUTS: Record<string, SiteLayout> = {
   // ── Batch 13 — one of each register (the-flame keeps the warm classic default) ──
   "pub-west": { hero: "feast" }, // small-town grill pub
   "tapa-la-luna": { archetype: "editorial", hero: "editorial", tone: "editorial", menuKind: "carte", highlights: "index", gallery: "horizontal", story: "scrolly" },
-  "anderson-auto-body": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "services", gallery: "horizontal" },
+  "anderson-auto-body": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" },
   "la-michoacana": { hero: "arch", tone: "energetic" }, // paletería brights
 
   // ── Aug 2026 factory slate (trades spec sites) ──
-  "delts-electric": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "services", gallery: "horizontal" },
-  "votaw-plumbing": { archetype: "craft", edge: "hard", tone: "energetic", menuKind: "services", gallery: "horizontal" },
+  "delts-electric": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" },
+  "votaw-plumbing": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" },
 };
 for (const c of CLIENTS) {
   if (LAYOUTS[c.slug]) c.layout = LAYOUTS[c.slug];
