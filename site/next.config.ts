@@ -19,6 +19,11 @@ const nextConfig: NextConfig = {
     // Photos are immutable per slug — let the optimizer cache aggressively.
     minimumCacheTTL: 31536000,
   },
+  async redirects() {
+    // Flagship lives at "/"; keep /sites/flamengo from 404ing (generateStaticParams
+    // excludes it + dynamicParams=false). Index already links the card to "/".
+    return [{ source: "/sites/flamengo", destination: "/", permanent: false }];
+  },
   async headers() {
     return [
       { source: "/:path*", headers: securityHeaders },

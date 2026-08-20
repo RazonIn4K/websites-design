@@ -20,7 +20,7 @@ function categorize(vertical: string): string {
   if (/chiro|dental|orthodon|eye|clinic|nutrition|pilates/.test(v)) return "Health & Wellness";
   if (/gym|athletic|mma|martial|dance|bowl|escape|fun|theater|arcade|music school|running/.test(v))
     return "Active & Fun";
-  if (/law|insurance|tax|account|photo|repair|auto|tire|hvac|mechanical|cobbler|shoe/.test(v))
+  if (/law|insurance|tax|account|photo|repair|auto|tire|hvac|mechanical|cobbler|shoe|electric|plumb|body|glass|collision/.test(v))
     return "Services & Trades";
   return "Shops & Retail";
 }

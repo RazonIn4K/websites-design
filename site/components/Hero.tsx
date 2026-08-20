@@ -153,7 +153,10 @@ function HeroCopy({
 
 export function Hero() {
   const { t, biz, hasPhone, imgBase, blur, layout } = useLang();
-  const variant = layout.hero ?? "left";
+  // Craft/authority default to split so trades never fall back to restaurant full-bleed.
+  const variant =
+    layout.hero ??
+    (layout.archetype === "craft" || layout.archetype === "authority" ? "split" : "left");
   const reduce = useReducedMotion();
   const ref = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });

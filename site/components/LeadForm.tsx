@@ -13,10 +13,12 @@ const field =
 const label = "text-sm font-medium text-ink";
 
 export function LeadForm() {
-  const { t, lang, biz } = useLang();
+  const { t, lang, biz, layout } = useLang();
   const f = t.form;
   const [status, setStatus] = useState<Status>("idle");
   const dateRef = useRef<HTMLInputElement>(null);
+  // Services/trades remap partySize to free-text context (vehicle, legal matter, etc.)
+  const freeTextContext = layout.menuKind === "services";
 
   // `min` comes from the visitor's local clock, applied post-mount: rendering
   // it on the server would bake in the server's date (timezone drift +
@@ -106,7 +108,14 @@ export function LeadForm() {
           <label htmlFor="lead-partySize" className={label}>
             {f.partySize}
           </label>
-          <input id="lead-partySize" name="partySize" inputMode="numeric" pattern="[0-9]*" className={field} />
+          <input
+            id="lead-partySize"
+            name="partySize"
+            {...(freeTextContext
+              ? { type: "text" as const, autoComplete: "off" }
+              : { inputMode: "numeric" as const, pattern: "[0-9]*" })}
+            className={field}
+          />
         </div>
       </div>
       <div className="flex flex-col gap-1.5">
