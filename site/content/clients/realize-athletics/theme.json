@@ -9,7 +9,7 @@
     "--color-primary": "#D6260F",
     "--color-primary-dark": "#A81B08",
     "--color-secondary": "#0E3A66",
-    "--color-accent": "#FFB020",
+    "--color-accent": "#FF8A57",
     "--color-line": "#D8DEE7"
   },
   "contrastNotes": "All WCAG-AA requirements met. ink #13171E on bg #F6F8FB = 16.89:1 (>=7). ink-soft #515A68 on bg = 6.55:1 (>=4.5). White #FFFFFF on primary #D6260F = 5.07:1 (>=4.5, CTA labels pass). primary #D6260F on bg = 4.76:1 (>=3). Bonus: white on primary-dark #A81B08 = 7.43:1; white on secondary #0E3A66 = 11.57:1; ink on accent #B6E000 = 11.68:1 (use ink text on lime, never white)."

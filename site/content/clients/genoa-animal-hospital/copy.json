@@ -225,7 +225,7 @@
       "stats": [
         {
           "value": "Dogs & Cats",
-          "label": "Small pets welcome too"
+          "label": "Small pets welcome"
         },
         {
           "value": "All Ages",
@@ -607,7 +607,7 @@
       ]
     },
     "testimonials": {
-      "heading": "Querido por las familias de mascotas de Genoa",
+      "heading": "El Cariño de las Familias de Genoa",
       "items": [
         {
           "quote": "Trataron a mi perro rescatado, que es muy ansioso, con tanta paciencia. Nunca me he sentido tan tranquila dejándolo en manos de alguien.",

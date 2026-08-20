@@ -9,7 +9,7 @@
     "--color-primary": "#2563EB",
     "--color-primary-dark": "#1D4ED8",
     "--color-secondary": "#33506E",
-    "--color-accent": "#F5401F",
+    "--color-accent": "#8FBAFF",
     "--color-line": "#CFD8E3"
   },
   "contrastNotes": "ink on bg 17.07:1 (>=7); ink-soft on bg 7.10:1 (>=4.5); white on primary 14.16:1 (>=4.5); primary on bg 13.31:1 (>=3). Bonus: white on accent 4.91:1, accent on bg 4.61:1, white on primary-dark 16.58:1, secondary on bg 7.85:1 - all AA compliant."

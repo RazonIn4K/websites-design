@@ -180,8 +180,15 @@ export interface SiteLayout {
   steps?: "deck";
   /** Story skin. "scrolly" = sticky panel crossfades images per chapter. */
   story?: "scrolly";
-  /** Cross-cutting CSS scope: corner/shadow language. Default soft. */
-  edge?: "hard";
+  /**
+   * Testimonials skin. Default resolves from archetype (editorial/authority/
+   * wellness → "spotlight", edge=hard → "wall", else "grid"); set to pin one.
+   */
+  reviews?: "spotlight" | "wall" | "grid";
+  /** Cross-cutting CSS scope: corner/shadow language. Default soft (pillowy);
+   *  "crisp" = professional middle register (~0.875rem, hairline borders);
+   *  "hard" = brutalist 2-6px + offset shadows. */
+  edge?: "hard" | "crisp";
   /** Cross-cutting CSS scope: section surface palette. Default light. */
   surface?: "ink" | "mono";
   /** Cross-cutting CSS scope: spacing/photo/motion register. Default lively. */
@@ -816,13 +823,13 @@ export const CLIENTS: ClientSite[] = [
 const LAYOUTS: Record<string, SiteLayout> = {
   // ── Authority / professional — split hero on light, calm, services; SitePage
   //    drops Gallery + Marquee so structure (not photos) carries trust.
-  "cronauer-law": { archetype: "authority", hero: "split", tone: "calm", menuKind: "services", highlights: "credentials" },
-  "pardridge-insurance": { archetype: "authority", hero: "split", tone: "calm", menuKind: "services", highlights: "credentials" },
-  "white-oak-tax": { archetype: "authority", hero: "split", tone: "calm", menuKind: "services", highlights: "credentials" },
-  "friedrichs-eye": { archetype: "authority", hero: "split", tone: "calm", menuKind: "services", highlights: "credentials" },
-  "todd-curtis-orthodontist": { archetype: "authority", hero: "split", tone: "calm", menuKind: "services", highlights: "credentials" },
-  "genoa-animal-hospital": { archetype: "authority", hero: "split", tone: "calm", menuKind: "services", highlights: "credentials" },
-  "cortland-vet": { archetype: "authority", hero: "split", tone: "calm", menuKind: "services", highlights: "credentials" },
+  "cronauer-law": { archetype: "authority", hero: "split", tone: "calm", edge: "crisp", menuKind: "services", highlights: "credentials" },
+  "pardridge-insurance": { archetype: "authority", hero: "split", tone: "calm", edge: "crisp", menuKind: "services", highlights: "credentials" },
+  "white-oak-tax": { archetype: "authority", hero: "split", tone: "calm", edge: "crisp", menuKind: "services", highlights: "credentials" },
+  "friedrichs-eye": { archetype: "authority", hero: "split", tone: "calm", edge: "crisp", menuKind: "services", highlights: "credentials" },
+  "todd-curtis-orthodontist": { archetype: "authority", hero: "split", tone: "calm", edge: "crisp", menuKind: "services", highlights: "credentials" },
+  "genoa-animal-hospital": { archetype: "authority", hero: "split", tone: "calm", edge: "crisp", menuKind: "services", highlights: "credentials" },
+  "cortland-vet": { archetype: "authority", hero: "split", tone: "calm", edge: "crisp", menuKind: "services", highlights: "credentials" },
   // Shelter: keep the warm full-bleed default (retains the adoptable-pet
   // Gallery), with services cards for adopt/foster/volunteer/donate programs.
   "tails-humane": { hero: "split", tone: "calm", menuKind: "services", highlights: "credentials", gallery: "horizontal" },
@@ -856,14 +863,15 @@ const LAYOUTS: Record<string, SiteLayout> = {
 
   // ── Batch-8 (Fox Valley corridor) ──
   "prairie-path-cycles": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "shelf", gallery: "horizontal" },
-  "kiss-the-sky": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "shelf", gallery: "horizontal" },
+  // surface:"ink" — dark register (record-store neon reads right on near-black)
+  "kiss-the-sky": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", surface: "ink", highlights: "credentials", menuKind: "shelf", gallery: "horizontal" },
   "yellow-bird-books": { archetype: "editorial", hero: "arch", tone: "editorial", menuKind: "shelf", gallery: "horizontal" }, // cozy literary shelf
   "geneva-winery": { archetype: "editorial", hero: "editorial", tone: "editorial", menuKind: "carte", highlights: "index", gallery: "horizontal", story: "scrolly" },
   "mad-batter-bakery": { hero: "collage" }, // playful from-scratch bakery — layered polaroid hero
 
   // ── Batch-9 (corridor toward Chicago) ──
   "celidan-florist": { archetype: "editorial", hero: "arch", tone: "editorial", menuKind: "shelf", gallery: "horizontal" }, // soft, colorful — arch conservatory hero
-  "noon-whistle-brewing": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "carte", gallery: "horizontal" }, // tap list as carte
+  "noon-whistle-brewing": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", surface: "ink", highlights: "credentials", menuKind: "carte", gallery: "horizontal" }, // tap list as carte, taproom-dark
   "suburban-music": { menuKind: "shelf", hero: "collage" }, // warm family music shop
   "pottery-bayou": { menuKind: "services", hero: "collage" }, // playful, paint sessions
   "flavor-spice": { menuKind: "shelf" }, // warm spice shelf
@@ -871,9 +879,9 @@ const LAYOUTS: Record<string, SiteLayout> = {
   // ── Batch-10 (corridor toward Chicago) ──
   "beidelman-furniture": { archetype: "editorial", hero: "split", tone: "editorial", menuKind: "shelf", gallery: "horizontal" }, // elegant showroom
   "kramer-photography": { archetype: "wellness", hero: "editorial", tone: "editorial", surface: "mono", menuKind: "services", gallery: "horizontal", highlights: "credentials", steps: "deck" }, // portfolio filmstrip
-  "victory-mma": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" },
+  "victory-mma": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", surface: "ink", highlights: "credentials", menuKind: "services", gallery: "horizontal" }, // fight-gym dark
   "schmaltz-deli": { menuKind: "carte" }, // classic deli board
-  "sapphire-tattoo": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" },
+  "sapphire-tattoo": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", surface: "ink", highlights: "credentials", menuKind: "services", gallery: "horizontal" }, // tattoo-studio dark
   "envision-dance": { menuKind: "services", hero: "collage" }, // joyful, class cards
 
   // ── Batch-11 (corridor toward Chicago) ──
@@ -883,12 +891,14 @@ const LAYOUTS: Record<string, SiteLayout> = {
   "arcada-theater": { archetype: "editorial", hero: "editorial", tone: "editorial", menuKind: "carte", highlights: "index", gallery: "horizontal", story: "scrolly" }, // show lineup carte
   "elite-boba": { hero: "collage" }, // fun boba (phone-less, default menu)
   "nona-jos": { archetype: "editorial", menuKind: "shelf", tone: "editorial", hero: "arch", gallery: "horizontal" }, // curated gift shelf
+
+  // ── Batch-12 (corridor toward Chicago) ──
   "growing-place": { archetype: "editorial", hero: "arch", tone: "calm", menuKind: "shelf", gallery: "horizontal" }, // fresh garden center
   "naperville-running": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "shelf", gallery: "horizontal" },
-  "riddlebox-escape": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" }, // phone-less
+  "riddlebox-escape": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", surface: "ink", highlights: "credentials", menuKind: "services", gallery: "horizontal" }, // phone-less, mystery-dark
   "astro-fun-world": { menuKind: "services", hero: "collage" }, // playful family fun center
   "lindsays-cobbler": { archetype: "authority", hero: "split", tone: "calm", menuKind: "services", highlights: "credentials" }, // heritage cobbler
-  "lisle-lanes": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" }, // retro bowling
+  "lisle-lanes": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", surface: "ink", highlights: "credentials", menuKind: "services", gallery: "horizontal" }, // retro bowling, cosmic-dark
 
   // ── Design-overhaul wave: de-templatize the warm/casual-food cohort ──
   // feast = type-forward stacked hero (giant display type hanging into a full-

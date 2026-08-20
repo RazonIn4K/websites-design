@@ -6,7 +6,7 @@ import { motion, useReducedMotion } from "motion/react";
 import { useLang } from "@/components/LanguageProvider";
 import { Reveal } from "@/components/motion";
 import { SectionHeader } from "@/components/SectionHeader";
-import { CountUp } from "@/components/CountUp";
+import { StatBand } from "@/components/StatBand";
 
 /**
  * Editorial provenance spread: a photo that pins (position: sticky) while the
@@ -84,6 +84,20 @@ export function Story() {
               </div>
             )}
           </Reveal>
+          {scrolly && (
+            /* Caption for the active figure. The content model has no per-chapter
+               titles, so this pairs the live chapter ordinal with the localized
+               story heading; aria-hidden — it duplicates the section header. */
+            <p
+              aria-hidden
+              className="mt-3 flex items-baseline gap-2 text-xs font-semibold uppercase tracking-wider text-ink-soft"
+            >
+              <span className="font-display font-black tabular-nums text-primary">
+                {String(active + 1).padStart(2, "0")}
+              </span>
+              {a.heading}
+            </p>
+          )}
         </div>
 
         <div>
@@ -96,7 +110,7 @@ export function Story() {
                     chapterRefs.current[i] = el;
                   }}
                 >
-                  <span className="font-display text-sm font-black tabular-nums tracking-widest text-primary">
+                  <span className="font-display text-xs font-bold tabular-nums tracking-widest text-ink-soft">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   <p className="mt-2 text-lg leading-relaxed text-ink-soft">{p}</p>
@@ -105,17 +119,7 @@ export function Story() {
             ))}
           </div>
 
-          <Reveal className="mt-12 grid grid-cols-1 divide-y divide-line rounded-2xl border border-line bg-bg sm:grid-cols-3 sm:divide-x sm:divide-y-0">
-            {a.stats.map((s) => (
-              <div key={s.label} className="px-4 py-5 text-center">
-                <CountUp
-                  value={s.value}
-                  className="block text-balance break-words font-display text-xl font-black leading-tight text-primary sm:text-2xl"
-                />
-                <div className="mt-1 text-[0.7rem] font-semibold uppercase tracking-wider text-ink-soft">{s.label}</div>
-              </div>
-            ))}
-          </Reveal>
+          <StatBand stats={a.stats} />
         </div>
       </div>
     </section>

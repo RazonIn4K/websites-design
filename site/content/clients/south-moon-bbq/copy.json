@@ -237,8 +237,8 @@
       ],
       "stats": [
         {
-          "value": "Low & Slow",
-          "label": "Over Real Wood"
+          "value": "Real Wood",
+          "label": "Real Smoke"
         },
         {
           "value": "Scratch-Made",
@@ -572,8 +572,8 @@
       ],
       "stats": [
         {
-          "value": "Lento y Bajo",
-          "label": "Sobre Leña Real"
+          "value": "Leña Real",
+          "label": "Humo de Verdad"
         },
         {
           "value": "Hecho desde Cero",

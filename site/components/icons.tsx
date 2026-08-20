@@ -11,6 +11,10 @@ const base = {
   strokeWidth: 1.8,
   strokeLinecap: "round" as const,
   strokeLinejoin: "round" as const,
+  // Scope hook, not a class: callers spread their own className after base,
+  // which would clobber a class. [data-edge]/[data-tone] CSS re-voices stroke
+  // weight/caps through this attribute (see globals.css v3).
+  "data-icon": true,
   // Icons are decorative by default; labelled controls supply their own name.
   // A specific usage can re-expose via {...p} (e.g. aria-hidden={false}).
   "aria-hidden": true,

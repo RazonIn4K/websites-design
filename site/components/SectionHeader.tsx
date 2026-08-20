@@ -21,8 +21,14 @@ export function SectionHeader({
   eyebrowColor?: string;
 }) {
   const center = align === "center";
+  // Statement headings (About passes its full lead sentence here) drop a size
+  // tier and gain wrap room past ~18 words — step-4 at that length reads as a
+  // wall, not a headline.
+  const dense = heading.trim().split(/\s+/).length > 18;
   return (
-    <Reveal className={`mb-[var(--header-gap)] ${center ? "mx-auto max-w-2xl text-center" : "max-w-2xl"}`}>
+    <Reveal
+      className={`mb-[var(--header-gap)] ${center ? `mx-auto ${dense ? "max-w-3xl" : "max-w-2xl"} text-center` : dense ? "max-w-3xl" : "max-w-2xl"}`}
+    >
       <div
         className={`flex items-center gap-3 ${center ? "justify-center" : ""}`}
         style={{ color: eyebrowColor }}
@@ -35,7 +41,12 @@ export function SectionHeader({
         <span aria-hidden className="inline-block h-px w-6 bg-current opacity-60" />
         <span className="eyebrow" style={{ color: eyebrowColor }}>{eyebrow}</span>
       </div>
-      <h2 className="text-h2 mt-3 text-ink">{heading}</h2>
+      <h2
+        className="text-h2 mt-3 text-ink"
+        style={dense ? { fontSize: "var(--step-3)", lineHeight: 1.14 } : undefined}
+      >
+        {heading}
+      </h2>
       {sub && <p className={`text-lead mt-4 ${center ? "mx-auto" : ""}`}>{sub}</p>}
     </Reveal>
   );

@@ -10,30 +10,174 @@ import { Star, ChevronLeft } from "@/components/icons";
 
 const EYEBROW = { en: "Reviews", es: "Reseñas" };
 
-function Stars({ label }: { label: string }) {
+/** Stars on LIGHT cards: raw accent tokens are tuned for dark-photo overlays
+ *  and can wash out on cream surfaces (tails/victory audit) — mixing toward
+ *  ink guarantees presence on any palette. */
+const STAR_ON_LIGHT = { color: "color-mix(in srgb, var(--color-accent) 55%, var(--color-ink))" };
+
+/** Hanging punctuation is Safari-only; every quote also opens with a real
+ *  typographic glyph inline, so other engines simply render it in-flow. */
+const QUOTE_HANG = "[hanging-punctuation:first]";
+
+/** ONE compact decorative star lockup beside the section header — replaces the
+ *  old per-card 5-star rows. Purely decorative (aria-hidden): these are demo
+ *  quotes and each site discloses that, so no counts, rating numbers, or
+ *  source names are claimed (content-integrity rule). Sits centered in the
+ *  header gap: pulled up by half, restored below. */
+function StarLockup({ align = "center" }: { align?: "center" | "left" }) {
   return (
-    <div className="flex gap-1 text-accent" role="img" aria-label={label}>
+    <div
+      aria-hidden
+      style={STAR_ON_LIGHT}
+      className={`-mt-[calc(var(--header-gap)/2)] mb-[calc(var(--header-gap)/2)] flex gap-1.5 ${align === "center" ? "justify-center" : ""}`.trim()}
+    >
       {Array.from({ length: 5 }).map((_, s) => (
-        <Star key={s} className="h-5 w-5" />
+        <Star key={s} className="h-4 w-4" />
       ))}
     </div>
   );
 }
 
-function Avatar({ name }: { name: string }) {
+/** Typographic attribution — em-dash, name at 600, role in small caps.
+ *  Replaces the monogram Avatar: fake initial-circles next to demo quotes
+ *  actively reduce trust, a plain byline doesn't. */
+function Attribution({
+  name,
+  role,
+  compact = false,
+  className = "",
+}: {
+  name: string;
+  role: string;
+  compact?: boolean;
+  className?: string;
+}) {
   return (
-    <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full gradient-brand font-display text-lg font-black text-white">
-      {name.charAt(0)}
-    </span>
+    <figcaption className={`flex flex-wrap items-baseline gap-x-2 ${className}`.trim()}>
+      <span className={`font-semibold text-ink ${compact ? "text-sm" : ""}`.trim()}>
+        <span aria-hidden>{"— "}</span>
+        {name}
+      </span>
+      <span
+        className={`tracking-wide text-ink-soft [font-variant-caps:all-small-caps] ${compact ? "text-xs" : "text-sm"}`}
+      >
+        {role}
+      </span>
+    </figcaption>
+  );
+}
+
+/* ── Spotlight (editorial/authority/wellness): one oversized pull-quote
+      carries the section; the other voices support from the side ── */
+function Spotlight() {
+  const { t, lang } = useLang();
+  const [feature, ...rest] = t.testimonials.items;
+  return (
+    <section className="section noise-overlay bg-surface-alt">
+      <div className="container-max">
+        <SectionHeader eyebrow={EYEBROW[lang]} heading={t.testimonials.heading} align="left" />
+        <StarLockup align="left" />
+        <div className="grid gap-12 lg:grid-cols-[7fr_5fr] lg:gap-16">
+          <Reveal as="figure">
+            <blockquote
+              className={`font-display text-[length:var(--step-2)] font-medium italic leading-[1.3] text-ink ${QUOTE_HANG}`}
+            >
+              “{feature.quote}”
+            </blockquote>
+            <Attribution
+              name={feature.name}
+              role={feature.role}
+              className="mt-8 border-t border-line pt-6"
+            />
+          </Reveal>
+          <div className="flex flex-col justify-center gap-5">
+            {rest.map((q, idx) => (
+              <Reveal as="figure" key={idx} delay={0.1 + idx * 0.1} className="card-flat p-6">
+                <blockquote className={`italic leading-relaxed text-ink ${QUOTE_HANG}`}>
+                  “{q.quote}”
+                </blockquote>
+                <Attribution compact name={q.name} role={q.role} className="mt-4" />
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ── Quote wall (craft/energetic): two counter-scrolling rows of stamped
+      ticket chips — the hard-edge CSS supplies the border + offset shadow via
+      `.shadow-card`; a dashed rule above the byline reads as the stub tear ── */
+function Wall() {
+  const { t, lang } = useLang();
+  const items = t.testimonials.items;
+  const row = (list: typeof items, hidden: boolean) => (
+    <div aria-hidden={hidden} className="flex shrink-0 gap-4 pr-4">
+      {list.map((q, idx) => (
+        <figure
+          key={idx}
+          className="w-[17rem] shrink-0 rounded-xl border border-line bg-bg p-5 shadow-card sm:w-[22rem]"
+        >
+          <blockquote className={`line-clamp-3 text-sm leading-relaxed text-ink ${QUOTE_HANG}`}>
+            “{q.quote}”
+          </blockquote>
+          <Attribution
+            compact
+            name={q.name}
+            role={q.role}
+            className="mt-3 border-t border-dashed border-line pt-3"
+          />
+        </figure>
+      ))}
+    </div>
+  );
+  const reordered = [...items.slice(1), items[0]];
+  return (
+    <section className="section noise-overlay overflow-x-clip bg-surface-alt">
+      <div className="container-max">
+        <SectionHeader eyebrow={EYEBROW[lang]} heading={t.testimonials.heading} />
+        <StarLockup />
+      </div>
+      {/* mask lives on the fixed-width wrapper, NOT the translating w-max
+          track — on the track it scrolls away with the chips and the
+          viewport's left edge hard-slices them */}
+      <div className="marquee-mask overflow-x-clip">
+        <div className="flex w-max animate-marquee">
+          {row(items, false)}
+          {row(items, true)}
+          {row(items, true)}
+          {row(items, true)}
+        </div>
+      </div>
+      <div className="marquee-mask mt-4 overflow-x-clip">
+        <div className="flex w-max animate-marquee [animation-direction:reverse]">
+          {row(reordered, true)}
+          {row(reordered, true)}
+          {row(reordered, true)}
+          {row(reordered, true)}
+        </div>
+      </div>
+    </section>
   );
 }
 
 export function Testimonials() {
-  const { t, lang } = useLang();
+  const { t, lang, layout } = useLang();
   const reduce = useReducedMotion();
   const items = t.testimonials.items;
   const [i, setI] = useState(0);
   const [paused, setPaused] = useState(false);
+
+  // Skin resolves from the archetype so the fleet differentiates automatically;
+  // layout.reviews overrides per client.
+  const skin =
+    layout.reviews ??
+    (["editorial", "authority", "wellness"].includes(layout.archetype ?? "")
+      ? "spotlight"
+      : layout.edge === "hard"
+        ? "wall"
+        : "grid");
 
   const go = useCallback(
     (dir: number) => setI((p) => (p + dir + items.length) % items.length),
@@ -41,12 +185,15 @@ export function Testimonials() {
   );
 
   useEffect(() => {
-    if (paused || reduce) return;
+    if (paused || reduce || skin !== "grid") return;
     // The carousel is lg:hidden — don't run the timer where it isn't shown.
     if (typeof window !== "undefined" && window.matchMedia("(min-width: 1024px)").matches) return;
     const id = setInterval(() => setI((p) => (p + 1) % items.length), 5500);
     return () => clearInterval(id);
-  }, [paused, reduce, items.length]);
+  }, [paused, reduce, items.length, skin]);
+
+  if (skin === "spotlight") return <Spotlight />;
+  if (skin === "wall") return <Wall />;
 
   const active = items[i];
 
@@ -54,25 +201,17 @@ export function Testimonials() {
     <section className="section noise-overlay bg-surface-alt">
       <div className="container-max">
         <SectionHeader eyebrow={EYEBROW[lang]} heading={t.testimonials.heading} />
+        <StarLockup />
 
-        {/* Desktop: staggered 3-up pull-quote grid */}
+        {/* Desktop: aligned 3-up quote grid — quiet flat cards; bylines pin to
+            the bottom edge so the em-dash line gives the row its rhythm */}
         <div className="hidden gap-6 lg:grid lg:grid-cols-3">
           {items.map((q, idx) => (
-            <Reveal
-              key={idx}
-              delay={idx * 0.1}
-              className={`hover-lift rounded-2xl bg-bg p-8 shadow-card ${idx === 1 ? "lg:-mt-4" : ""}`}
-            >
-              <span aria-hidden className="block select-none font-display text-7xl leading-[0.6] text-primary/15">“</span>
-              <div className="mt-2"><Stars label={A11Y[lang].ratingStars} /></div>
-              <blockquote className="mt-4 font-display text-xl italic leading-snug text-ink">{q.quote}</blockquote>
-              <figcaption className="mt-6 flex items-center gap-3">
-                <Avatar name={q.name} />
-                <span>
-                  <span className="block font-display font-bold text-ink">{q.name}</span>
-                  <span className="block text-sm text-ink-soft">{q.role}</span>
-                </span>
-              </figcaption>
+            <Reveal as="figure" key={idx} delay={idx * 0.1} className="card-flat flex flex-col p-8">
+              <blockquote className={`font-display text-xl italic leading-snug text-ink ${QUOTE_HANG}`}>
+                “{q.quote}”
+              </blockquote>
+              <Attribution name={q.name} role={q.role} className="mt-auto pt-6" />
             </Reveal>
           ))}
         </div>
@@ -85,7 +224,7 @@ export function Testimonials() {
           onFocus={() => setPaused(true)}
           onBlur={() => setPaused(false)}
         >
-          <div className="min-h-[16rem] rounded-2xl bg-bg p-8 shadow-card" aria-live={paused ? "polite" : "off"}>
+          <div className="card-flat min-h-[16rem] p-8" aria-live={paused ? "polite" : "off"}>
             <AnimatePresence mode="wait">
               {/* drag-to-swipe (direct manipulation, so not gated on reduced
                   motion); pan-y stays free for page scrolling */}
@@ -105,17 +244,12 @@ export function Testimonials() {
                 }}
                 className="cursor-grab touch-pan-y active:cursor-grabbing"
               >
-                <Stars label={A11Y[lang].ratingStars} />
-                <blockquote className="mt-4 font-display text-2xl font-medium italic leading-snug text-ink">
+                <blockquote
+                  className={`font-display text-2xl font-medium italic leading-snug text-ink ${QUOTE_HANG}`}
+                >
                   “{active.quote}”
                 </blockquote>
-                <figcaption className="mt-6 flex items-center gap-3">
-                  <Avatar name={active.name} />
-                  <span>
-                    <span className="block font-display font-bold text-ink">{active.name}</span>
-                    <span className="block text-sm text-ink-soft">{active.role}</span>
-                  </span>
-                </figcaption>
+                <Attribution name={active.name} role={active.role} className="mt-6" />
               </motion.figure>
             </AnimatePresence>
           </div>

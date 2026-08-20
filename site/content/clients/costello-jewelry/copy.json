@@ -28,8 +28,8 @@
     },
     "hero": {
       "eyebrow": "Downtown Naperville's Family Jeweler",
-      "title": "Fine Jewelry for",
-      "titleAccent": "the Moments That Matter",
+      "title": "Fine Jewelry,",
+      "titleAccent": "Made for the Yes",
       "subtitle": "A trusted downtown Naperville jeweler for engagement rings designed with you, expert repairs, and the kind of personal attention you only get from a family jeweler.",
       "ctaPrimary": "View Collections",
       "ctaSecondary": "Call (630) 355-1311",
@@ -251,7 +251,7 @@
       ]
     },
     "testimonials": {
-      "heading": "What Naperville Is Saying",
+      "heading": "Kind Words That Sparkle",
       "items": [
         {
           "quote": "They designed my engagement ring exactly the way I pictured it and made the whole process feel special instead of stressful. She said yes.",
@@ -352,8 +352,8 @@
     },
     "hero": {
       "eyebrow": "El Joyero Familiar del Centro de Naperville",
-      "title": "Joyería Fina para",
-      "titleAccent": "los Momentos que Importan",
+      "title": "Joyería Fina,",
+      "titleAccent": "Hecha para el Sí",
       "subtitle": "Un joyero de confianza en el centro de Naperville para anillos de compromiso diseñados contigo, reparaciones expertas y esa atención personal que solo te da un joyero familiar.",
       "ctaPrimary": "Ver Colecciones",
       "ctaSecondary": "Llama al (630) 355-1311",
@@ -575,7 +575,7 @@
       ]
     },
     "testimonials": {
-      "heading": "Lo que Dice Naperville",
+      "heading": "Comentarios Con Brillo",
       "items": [
         {
           "quote": "Diseñaron mi anillo de compromiso justo como lo imaginé e hicieron que todo el proceso se sintiera especial en lugar de estresante. Dijo que sí.",

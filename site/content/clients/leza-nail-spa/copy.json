@@ -29,7 +29,7 @@
     "hero": {
       "eyebrow": "Your Self-Care Escape in DeKalb",
       "title": "Beautiful Nails,",
-      "titleAccent": "A Little Spa Day Every Time",
+      "titleAccent": "A Little Spa Day",
       "subtitle": "Step into a calm, spotlessly clean nail spa on Sycamore Road. From classic manicures and soothing spa pedicures to on-trend gel and custom nail art, our skilled techs help you slow down, relax, and leave glowing.",
       "ctaPrimary": "View Services",
       "ctaSecondary": "Book Your Appointment",
@@ -268,7 +268,7 @@
       ]
     },
     "testimonials": {
-      "heading": "What DeKalb Is Saying",
+      "heading": "Reviews Worth Showing Off",
       "items": [
         {
           "quote": "The cleanest, calmest nail spa I've been to in DeKalb. My gel set still looked perfect three weeks later.",
@@ -391,7 +391,7 @@
     "hero": {
       "eyebrow": "Tu Escape de Autocuidado en DeKalb",
       "title": "Uñas Hermosas,",
-      "titleAccent": "Un Día de Spa en Cada Visita",
+      "titleAccent": "Un Día de Spa",
       "subtitle": "Entra a un nail spa tranquilo e impecablemente limpio en Sycamore Road. Desde manicuras clásicas y pedicuras spa relajantes hasta gel de moda y arte de uñas personalizado, nuestras técnicas expertas te ayudan a desconectar, relajarte y salir radiante.",
       "ctaPrimary": "Ver Servicios",
       "ctaSecondary": "Reserva tu Cita",
@@ -630,7 +630,7 @@
       ]
     },
     "testimonials": {
-      "heading": "Lo que Dice DeKalb",
+      "heading": "Reseñas Para Presumir",
       "items": [
         {
           "quote": "El nail spa más limpio y tranquilo al que he ido en DeKalb. Mi set en gel seguía perfecto tres semanas después.",

@@ -28,8 +28,8 @@
     },
     "hero": {
       "eyebrow": "Plano's Frozen Custard Stand",
-      "title": "Creamy Custard,",
-      "titleAccent": "Sweet Summer Nights",
+      "title": "Creamy Custard",
+      "titleAccent": "on Summer Nights",
       "subtitle": "Pull up to the window for fresh frozen custard, loaded concretes, and thick hand-spun shakes. A sweet Plano tradition the whole family comes back for, scoop after scoop.",
       "ctaPrimary": "View Menu",
       "ctaSecondary": "Call to Order",
@@ -263,7 +263,7 @@
       ]
     },
     "testimonials": {
-      "heading": "What Neighbors Are Saying",
+      "heading": "Proof Is in the Custard",
       "items": [
         {
           "quote": "The custard is unbelievably creamy and the concretes are loaded. We make a stop here part of every summer night.",
@@ -321,7 +321,7 @@
       "neighborhood": "The stand sits on Burroughs Avenue in Plano, just minutes from the historic downtown that transformed into Smallville for the filming of Man of Steel."
     },
     "cta": {
-      "heading": "Craving Something Sweet?",
+      "heading": "Save Room for Dessert",
       "text": "Give us a call to hear today's flavor or place your order, then pull up to the window. We'll have your treat ready.",
       "button": "Call (630) 552-0200"
     },
@@ -364,8 +364,8 @@
     },
     "hero": {
       "eyebrow": "El Puesto de Natilla Congelada de Plano",
-      "title": "Natilla Cremosa,",
-      "titleAccent": "Dulces Noches de Verano",
+      "title": "Natilla Cremosa",
+      "titleAccent": "en Noches de Verano",
       "subtitle": "Acércate a la ventanilla por natilla congelada fresca, concretes cargados y malteadas espesas batidas a mano. Una dulce tradición de Plano a la que toda la familia regresa, cucharada tras cucharada.",
       "ctaPrimary": "Ver Menú",
       "ctaSecondary": "Llama para Ordenar",
@@ -599,7 +599,7 @@
       ]
     },
     "testimonials": {
-      "heading": "Lo que Dicen los Vecinos",
+      "heading": "La Prueba Está en el Postre",
       "items": [
         {
           "quote": "La natilla es increíblemente cremosa y los concretes vienen bien cargados. Pasar por aquí es parte de cada noche de verano.",
@@ -657,7 +657,7 @@
       "neighborhood": "El puesto está en Burroughs Avenue en Plano, a solo unos minutos del centro histórico que se transformó en Smallville durante la filmación de Man of Steel."
     },
     "cta": {
-      "heading": "¿Se te Antoja Algo Dulce?",
+      "heading": "Guarda Lugar Para el Postre",
       "text": "Llámanos para conocer el sabor de hoy o hacer tu pedido, y luego acércate a la ventanilla. Tendremos tu antojo listo.",
       "button": "Llamar al (630) 552-0200"
     },

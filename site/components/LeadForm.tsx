@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { useLang } from "@/components/LanguageProvider";
 import { ArrowRight } from "@/components/icons";
@@ -10,10 +10,26 @@ type Status = "idle" | "sending" | "success" | "error";
 const field =
   "w-full rounded-lg border border-line bg-bg px-4 py-3 text-ink outline-none transition focus:border-primary focus:ring-2 focus:ring-primary placeholder:text-ink-soft";
 
+const label = "text-sm font-medium text-ink";
+
 export function LeadForm() {
   const { t, lang, biz } = useLang();
   const f = t.form;
   const [status, setStatus] = useState<Status>("idle");
+  const dateRef = useRef<HTMLInputElement>(null);
+
+  // `min` comes from the visitor's local clock, applied post-mount: rendering
+  // it on the server would bake in the server's date (timezone drift +
+  // hydration mismatch). No-JS visitors get an unconstrained date picker.
+  useEffect(() => {
+    const now = new Date();
+    const today = [
+      now.getFullYear(),
+      String(now.getMonth() + 1).padStart(2, "0"),
+      String(now.getDate()).padStart(2, "0"),
+    ].join("-");
+    dateRef.current?.setAttribute("min", today);
+  }, []);
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -47,15 +63,71 @@ export function LeadForm() {
   }
 
   return (
-    <form id="lead" onSubmit={onSubmit} aria-busy={status === "sending"} className="flex flex-col gap-3">
+    <form
+      id="lead"
+      action="/api/lead"
+      method="post"
+      onSubmit={onSubmit}
+      aria-busy={status === "sending"}
+      aria-describedby={status === "error" ? "lead-form-hint" : undefined}
+      className="flex flex-col gap-3"
+    >
       <div className="grid gap-3 sm:grid-cols-2">
-        <input name="name" required aria-label={f.name} placeholder={f.name} autoComplete="name" className={field} />
-        <input name="email" type="email" inputMode="email" autoCapitalize="off" autoCorrect="off" spellCheck={false} aria-label={f.email} placeholder={f.email} autoComplete="email" className={field} />
-        <input name="phone" type="tel" inputMode="tel" aria-label={f.phone} placeholder={f.phone} autoComplete="tel" className={field} />
-        <input name="partySize" aria-label={f.partySize} placeholder={f.partySize} className={field} />
+        <div className="flex flex-col gap-1.5">
+          <label htmlFor="lead-name" className={label}>
+            {f.name}
+          </label>
+          <input id="lead-name" name="name" required autoComplete="name" className={field} />
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <label htmlFor="lead-email" className={label}>
+            {f.email}
+          </label>
+          <input
+            id="lead-email"
+            name="email"
+            type="email"
+            inputMode="email"
+            autoCapitalize="off"
+            autoCorrect="off"
+            spellCheck={false}
+            placeholder="email@example.com"
+            autoComplete="email"
+            className={field}
+          />
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <label htmlFor="lead-phone" className={label}>
+            {f.phone}
+          </label>
+          <input id="lead-phone" name="phone" type="tel" inputMode="tel" autoComplete="tel" className={field} />
+        </div>
+        <div className="flex flex-col gap-1.5">
+          <label htmlFor="lead-partySize" className={label}>
+            {f.partySize}
+          </label>
+          <input id="lead-partySize" name="partySize" inputMode="numeric" pattern="[0-9]*" className={field} />
+        </div>
       </div>
-      <input name="date" aria-label={f.date} placeholder={f.date} className={field} />
-      <textarea name="message" rows={3} aria-label={f.message} placeholder={f.message} className={field} />
+      <div className="flex flex-col gap-1.5">
+        <label htmlFor="lead-date" className={label}>
+          {f.date}
+        </label>
+        <input id="lead-date" ref={dateRef} name="date" type="date" className={field} />
+      </div>
+      <div className="flex flex-col gap-1.5">
+        <label htmlFor="lead-message" className={label}>
+          {f.message}
+        </label>
+        <textarea id="lead-message" name="message" rows={3} className={field} />
+      </div>
+
+      {/* No-JS parity: tenant identity + locale travel with the form-encoded
+          POST. The JS path sends the same values from context in the JSON body. */}
+      <input type="hidden" name="lang" value={lang} />
+      <input type="hidden" name="businessName" value={biz.name} />
+      <input type="hidden" name="businessCity" value={biz.city} />
+      <input type="hidden" name="businessState" value={biz.state} />
 
       {/* Honeypot (visually hidden, ignored by users) */}
       <input
@@ -66,11 +138,7 @@ export function LeadForm() {
         className="absolute left-[-9999px] h-0 w-0 opacity-0"
       />
 
-      <button
-        type="submit"
-        disabled={status === "sending"}
-        className="mt-1 inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3.5 text-base font-semibold text-white transition-colors hover:bg-primary-dark disabled:opacity-70"
-      >
+      <button type="submit" disabled={status === "sending"} className="btn btn-primary mt-1 justify-center">
         {status === "sending" ? f.sending : f.submit}
         {status !== "sending" && <ArrowRight className="h-5 w-5" />}
       </button>
@@ -93,6 +161,7 @@ export function LeadForm() {
       <AnimatePresence>
         {status === "error" && (
           <motion.p
+            id="lead-form-hint"
             role="alert"
             initial={{ opacity: 0, y: -6 }}
             animate={{ opacity: 1, y: 0 }}

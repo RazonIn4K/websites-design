@@ -1,7 +1,7 @@
 # Deploying the generated sites
 
 The `site/` app is a standard Next.js 16 (App Router, SSG + image optimization)
-project. All 59 business sites are routes in one deployment; nothing per‑client
+project. All 72 business sites are routes in one deployment; nothing per‑client
 is built separately.
 
 ## 1. Environment variables

@@ -9,7 +9,13 @@ import { MapPin, Clock, Phone, ArrowRight } from "@/components/icons";
 
 export function Visit() {
   const { t, biz, hasPhone, lang } = useLang();
-  const mapSrc = `https://www.google.com/maps?q=${encodeURIComponent(biz.mapsQuery)}&output=embed`;
+  // Coordinate-mode embed (real OSM lat/lon): shows a clean pin WITHOUT the
+  // stock Google place card — whose live star rating (e.g. 2.7★) otherwise
+  // sits right next to the testimonials. Name-query only as fallback.
+  const mapSrc =
+    biz.lat != null && biz.lon != null
+      ? `https://www.google.com/maps?q=${biz.lat},${biz.lon}&z=16&output=embed`
+      : `https://www.google.com/maps?q=${encodeURIComponent(biz.mapsQuery)}&output=embed`;
   const directionsHref = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(biz.mapsQuery)}`;
 
   return (
@@ -18,22 +24,29 @@ export function Visit() {
         <SectionHeader eyebrow={t.nav.visit} heading={t.visit.heading} />
 
         <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr]">
-          {/* Map + info */}
+          {/* Map + info — map stretches so this column bottom-aligns with the
+              taller form column instead of leaving dead space under the cards */}
           <div className="flex flex-col gap-6">
             {/* bg-surface-alt shows while the map document streams in, so the
                 card reads as a branded panel instead of a stark white void */}
-            <Reveal className="overflow-hidden rounded-2xl border border-line bg-surface-alt shadow-card">
+            <Reveal className="flex-1 overflow-hidden rounded-2xl border border-line bg-surface-alt shadow-card">
+              {/* map-tint pulls the Google chrome toward the page's neutral
+                  register (the one rectangle no tenant palette can touch);
+                  pointer interaction restores full color. */}
               <iframe
                 src={mapSrc}
                 title={A11Y[lang].mapTitle(biz.name)}
-                className="h-72 w-full sm:h-80"
+                className="map-tint h-full min-h-72 w-full sm:min-h-80"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
             </Reveal>
 
-            <div className="grid gap-4 sm:grid-cols-2">
-              <Reveal className="rounded-2xl bg-bg p-6 shadow-card">
+            {/* One quiet divided panel instead of two peer shadow cards — the
+                map and the form carry the section's visual weight; contact
+                facts read as reference material. */}
+            <Reveal className="card-flat grid divide-y divide-line p-0 sm:grid-cols-2 sm:divide-x sm:divide-y-0">
+              <div className="p-6">
                 <div className="flex items-center gap-2 text-primary">
                   <MapPin className="h-5 w-5" />
                   <h3 className="font-display text-lg font-bold text-ink">{t.visit.addressLabel}</h3>
@@ -65,9 +78,9 @@ export function Visit() {
                     </a>
                   </div>
                 )}
-              </Reveal>
+              </div>
 
-              <Reveal className="rounded-2xl bg-bg p-6 shadow-card" delay={0.08}>
+              <div className="p-6">
                 <div className="flex items-center gap-2 text-primary">
                   <Clock className="h-5 w-5" />
                   <h3 className="font-display text-lg font-bold text-ink">{t.visit.hoursLabel}</h3>
@@ -76,12 +89,13 @@ export function Visit() {
                   {t.visit.hours.map((h) => (
                     <div key={h.day} className="flex justify-between gap-3">
                       <dt className="text-ink-soft">{h.day}</dt>
-                      <dd className="font-medium text-ink">{h.time}</dd>
+                      {/* nowrap + tabular so "9:00 PM" never orphans its meridiem */}
+                      <dd className="whitespace-nowrap font-medium tabular-nums text-ink">{h.time}</dd>
                     </div>
                   ))}
                 </dl>
-              </Reveal>
-            </div>
+              </div>
+            </Reveal>
           </div>
 
           {/* Lead form */}

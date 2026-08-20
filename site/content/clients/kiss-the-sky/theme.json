@@ -12,5 +12,5 @@
     "--color-accent": "#C9A8FF",
     "--color-line": "#E4DBCD"
   },
-  "contrastNotes": "All required ratios verified against #FAF6F0 bg (L=0.925). ink #1A1622 on bg = 16.5:1 (>=7). ink-soft #5C5466 on bg = 6.7:1 (>=4.5). white on primary #8E1CC9 = 6.6:1 (>=4.5); white on primary-dark #6E12A0 = 9.3:1. primary #8E1CC9 on bg = 6.2:1 (>=3). Bonus: white on secondary #D8208E = 4.6:1 (AA for UI text). Accent #16D9D9 is a bright neon-cyan reserved for decorative highlights and for use on the dark ink fields (accent on ink = ~9:1), not for body text on the light bg."
+  "contrastNotes": "All required ratios verified against #FAF6F0 bg (L=0.925). ink #1A1622 on bg = 16.5:1 (>=7). ink-soft #5C5466 on bg = 6.7:1 (>=4.5). white on primary #8E1CC9 = 6.6:1 (>=4.5); white on primary-dark #6E12A0 = 9.3:1. primary #8E1CC9 on bg = 6.2:1 (>=3). Bonus: white on secondary #D8208E = 4.6:1 (AA for UI text). Accent #C9A8FF is a pale neon-lavender reserved for decorative highlights and for use on dark ink fields (accent on ink ~9:1), not for body text on the light bg. Note: this client renders with surface:'ink' (dark register) — light surface vars above are overridden at runtime by INK_SURFACE_VARS in Providers."
 }

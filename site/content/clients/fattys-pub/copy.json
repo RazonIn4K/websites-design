@@ -256,8 +256,8 @@
       ],
       "stats": [
         {
-          "value": "Every",
-          "label": "Game On"
+          "value": "Happy Hour",
+          "label": "Cocktails & Specials"
         },
         {
           "value": "Cold",
@@ -324,7 +324,7 @@
       "neighborhood": "Fatty's sits on West Lincoln Highway, DeKalb's stretch of America's first coast-to-coast highway, right across from the NIU campus."
     },
     "cta": {
-      "heading": "Game On? Grab Your Table.",
+      "heading": "Your Corner Booth Awaits",
       "text": "Round up the crew and head to Fatty's for every game, cold drafts, and jumbo wings. Use the form to plan your visit or reserve space for the big group.",
       "button": "Plan Your Visit"
     },
@@ -594,8 +594,8 @@
       ],
       "stats": [
         {
-          "value": "Todos",
-          "label": "los Partidos"
+          "value": "Happy Hour",
+          "label": "Cócteles y Especiales"
         },
         {
           "value": "Frías",
@@ -662,7 +662,7 @@
       "neighborhood": "Fatty's está sobre West Lincoln Highway, el tramo de DeKalb de la primera carretera de costa a costa del país, justo enfrente del campus de NIU."
     },
     "cta": {
-      "heading": "¿Listo para el Partido? Agarra tu Mesa.",
+      "heading": "Tu Mesa de Siempre te Espera",
       "text": "Reúne al grupo y vente a Fatty's para todos los partidos, cervezas frías y alitas jumbo. Usa el formulario para planear tu visita o reservar espacio para el grupo grande.",
       "button": "Planea tu Visita"
     },

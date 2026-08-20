@@ -6,9 +6,9 @@
     "--color-surface-alt": "#EFE9DA",
     "--color-ink": "#17222E",
     "--color-ink-soft": "#45566B",
-    "--color-primary": "#1D4E89",
-    "--color-primary-dark": "#153A67",
-    "--color-secondary": "#55622A",
+    "--color-primary": "#A94510",
+    "--color-primary-dark": "#813308",
+    "--color-secondary": "#1D4E89",
     "--color-accent": "#E8862B",
     "--color-line": "#E0D8C3"
   },

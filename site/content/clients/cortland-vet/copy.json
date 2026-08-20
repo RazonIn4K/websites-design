@@ -231,7 +231,7 @@
         },
         {
           "value": "Clinic & Ranch Calls",
-          "label": "In-office or on your land"
+          "label": "Office or on-site"
         },
         {
           "value": "Locally Owned",
@@ -590,7 +590,7 @@
         },
         {
           "value": "Clínica y Visitas al Rancho",
-          "label": "En el consultorio o en tu tierra"
+          "label": "Consultorio o domicilio"
         },
         {
           "value": "De Dueños Locales",
@@ -611,7 +611,7 @@
       ]
     },
     "testimonials": {
-      "heading": "La confianza de las familias y granjas de Cortland",
+      "heading": "La confianza del campo de Cortland",
       "items": [
         {
           "quote": "Trataron a mi viejo perro de granja con mucha paciencia y me lo dijeron sin rodeos. Eso ya no se encuentra en todas partes.",

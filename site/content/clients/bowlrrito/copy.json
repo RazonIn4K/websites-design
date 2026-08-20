@@ -28,8 +28,8 @@
     },
     "hero": {
       "eyebrow": "The NIU Campus Go-To",
-      "title": "Pick Your Base, Protein",
-      "titleAccent": "& Toppings",
+      "title": "Where Bowls Meet Burritos,",
+      "titleAccent": "Built Your Way",
       "subtitle": "Fresh, fast-casual bowls and burritos built exactly how you like them. Choose your base, load up your protein and toppings, and grab it fast — made fresh, every single time.",
       "ctaPrimary": "View Menu",
       "ctaSecondary": "Build Your Bowl",
@@ -274,7 +274,7 @@
       ]
     },
     "testimonials": {
-      "heading": "What DeKalb Is Saying",
+      "heading": "Full Bowls, Happy People",
       "items": [
         {
           "quote": "My go-to between classes. The bowls are huge, everything tastes fresh, and the line moves so fast. Build-your-own is the best.",
@@ -359,8 +359,8 @@
     },
     "hero": {
       "eyebrow": "El Favorito del Campus de NIU",
-      "title": "Elige tu Base, Proteína",
-      "titleAccent": "y Toppings",
+      "title": "Donde el Bowl se Une al Burrito,",
+      "titleAccent": "Hecho a tu Manera",
       "subtitle": "Bowls y burritos frescos, de comida rápida casual, hechos exactamente como te gustan. Elige tu base, llénalo de proteína y toppings, y llévatelo rápido — hecho fresco, siempre.",
       "ctaPrimary": "Ver Menú",
       "ctaSecondary": "Arma tu Bowl",
@@ -605,7 +605,7 @@
       ]
     },
     "testimonials": {
-      "heading": "Lo Que Dice DeKalb",
+      "heading": "Bowls Llenos, Gente Feliz",
       "items": [
         {
           "quote": "Mi opción favorita entre clases. Los bowls son enormes, todo sabe fresco y la fila avanza rapidísimo. Hacerlo a tu gusto es lo mejor.",

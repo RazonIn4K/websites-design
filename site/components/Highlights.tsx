@@ -1,20 +1,22 @@
 "use client";
 
+import Image from "next/image";
 import { useLang } from "@/components/LanguageProvider";
 import { Reveal } from "@/components/motion";
 import { SectionHeader } from "@/components/SectionHeader";
 import { ICONS } from "@/components/icons";
 import { A11Y } from "@/lib/a11y";
 
-// Light tones for the non-feature bento cells (the first cell is the feature).
+// Quiet tones for the non-feature bento cells (the first cell is the photo
+// feature). Surface/bg alternation only — no gradient cells; the icon carries
+// the color and its voice varies per tenant via CSS on svg[data-icon].
 const TONES = [
-  { bg: "bg-surface", icon: "bg-primary/10 text-primary" },
-  { bg: "bg-surface-alt", icon: "bg-accent/25 text-ink" },
-  { bg: "bg-surface", icon: "bg-secondary/12 text-secondary" },
+  { bg: "bg-surface", icon: "text-primary" },
+  { bg: "bg-bg", icon: "text-secondary" },
 ];
 
 export function Highlights() {
-  const { t, lang, layout } = useLang();
+  const { t, lang, layout, imgBase, blur } = useLang();
   const skin = layout.highlights;
   const items = t.highlights;
 
@@ -27,11 +29,9 @@ export function Highlights() {
           {items.map((h, i) => {
             const Icon = ICONS[h.icon] ?? ICONS.heart;
             return (
-              <Reveal key={h.title} as="article" delay={i * 0.07} className="hover-lift rounded-2xl border border-line bg-surface p-6">
-                <span className="grid h-10 w-10 place-items-center rounded-full bg-primary/10 text-primary">
-                  <Icon className="h-5 w-5" />
-                </span>
-                <h3 className="text-h3 mt-4 text-primary">{h.title}</h3>
+              <Reveal key={h.title} as="article" delay={i * 0.07} className="hover-lift card-flat p-6">
+                <Icon className="h-6 w-6 text-primary" />
+                <h3 className="text-h3 mt-4 text-ink">{h.title}</h3>
                 <p className="mt-2 text-sm text-ink-soft">{h.text}</p>
               </Reveal>
             );
@@ -66,36 +66,50 @@ export function Highlights() {
     );
   }
 
-  // ── Default: Apple-style asymmetric bento — first card is the feature ──
+  // ── Default: asymmetric bento — first cell is a photo feature, the rest are
+  // quiet one-device tiles (icon only; no ordinal watermark, no accent rule) ──
   return (
     <section id="highlights" className="section container-max">
       <SectionHeader eyebrow={A11Y[lang].highlights} heading={A11Y[lang].whyUs} />
       <div className="bento">
         {items.map((h, i) => {
           const Icon = ICONS[h.icon] ?? ICONS.heart;
-          const feature = i === 0;
-          const tone = feature
-            ? { bg: "gradient-brand text-white", icon: "bg-white/20 text-white" }
-            : TONES[(i - 1) % TONES.length];
-          const light = tone.bg.includes("text-white");
+          if (i === 0) {
+            // Feature cell: tenant photo under a dark scrim with white text;
+            // brand color is a 2px top rule, not the whole cell.
+            return (
+              <Reveal
+                key={h.title}
+                as="article"
+                className="hover-lift relative flex min-h-72 flex-col justify-end gap-3 overflow-hidden rounded-2xl p-6 shadow-card"
+              >
+                <Image
+                  src={`${imgBase}/about.jpg`}
+                  alt=""
+                  fill
+                  sizes="(min-width: 1024px) 60vw, 100vw"
+                  className="object-cover"
+                  {...(blur.about ? { placeholder: "blur" as const, blurDataURL: blur.about } : {})}
+                />
+                <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/35 to-black/15" />
+                <span aria-hidden className="absolute inset-x-0 top-0 h-0.5 bg-primary" />
+                <Icon className="relative h-6 w-6 text-white" />
+                <h3 className="wrap-break-word relative text-h2 text-white">{h.title}</h3>
+                <p className="relative text-lg text-white/85">{h.text}</p>
+              </Reveal>
+            );
+          }
+          const tone = TONES[(i - 1) % TONES.length];
           return (
             <Reveal
               key={h.title}
               as="article"
               delay={i * 0.08}
-              className={`hover-lift noise-overlay relative flex flex-col gap-4 overflow-hidden rounded-2xl p-7 shadow-card ${feature ? "justify-end" : ""} ${tone.bg}`}
+              className={`hover-lift flex flex-col gap-3 overflow-hidden rounded-2xl border border-line p-6 shadow-card ${tone.bg}`}
             >
-              <span aria-hidden className="pointer-events-none absolute right-5 top-2 select-none font-display text-7xl font-black leading-none opacity-10">
-                {String(i + 1).padStart(2, "0")}
-              </span>
-              <span className={`grid h-11 w-11 place-items-center rounded-full ${tone.icon}`}>
-                <Icon className="h-6 w-6" />
-              </span>
-              <div>
-                <h3 className={`wrap-break-word ${feature ? "text-h2" : "text-h3"} ${light ? "text-white" : "text-ink"}`}>{h.title}</h3>
-                <span className={`mt-3 block h-px w-8 ${light ? "bg-white/40" : "bg-primary/40"}`} />
-              </div>
-              <p className={`${feature ? "text-lg" : ""} ${light ? "text-white/85" : "text-ink-soft"}`}>{h.text}</p>
+              <Icon className={`h-6 w-6 ${tone.icon}`} />
+              <h3 className="wrap-break-word text-h3 text-ink">{h.title}</h3>
+              <p className="text-ink-soft">{h.text}</p>
             </Reveal>
           );
         })}

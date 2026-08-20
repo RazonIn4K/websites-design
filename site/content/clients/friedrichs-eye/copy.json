@@ -239,8 +239,8 @@
           "label": "Pediatric to Senior Care"
         },
         {
-          "value": "Most",
-          "label": "Insurance Accepted"
+          "value": "Insurance",
+          "label": "Most Plans Accepted"
         },
         {
           "value": "Curated",
@@ -607,8 +607,8 @@
           "label": "Atención de Niños a Adultos Mayores"
         },
         {
-          "value": "La Mayoría",
-          "label": "de los Seguros Aceptados"
+          "value": "Seguros",
+          "label": "Aceptamos la Mayoría"
         },
         {
           "value": "Selecta",

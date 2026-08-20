@@ -6,8 +6,8 @@
     "--color-surface-alt": "#E7E9F1",
     "--color-ink": "#0C1018",
     "--color-ink-soft": "#515A6B",
-    "--color-primary": "#1C3FAE",
-    "--color-primary-dark": "#142C7A",
+    "--color-primary": "#A61264",
+    "--color-primary-dark": "#7A0B49",
     "--color-secondary": "#2563EB",
     "--color-accent": "#D6217F",
     "--color-line": "#D7DBE3"
