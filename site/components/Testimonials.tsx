@@ -77,7 +77,7 @@ function Spotlight() {
       <div className="container-max">
         <SectionHeader eyebrow={EYEBROW[lang]} heading={t.testimonials.heading} align="left" />
         <StarLockup align="left" />
-        <div className="grid gap-8 lg:grid-cols-[7fr_5fr] lg:gap-10">
+        <div className="grid gap-6 lg:grid-cols-[7fr_5fr] lg:gap-8">
           <Reveal as="figure">
             <blockquote
               className={`font-display text-[length:var(--step-2)] font-medium italic leading-[1.3] text-ink ${QUOTE_HANG}`}

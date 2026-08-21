@@ -175,10 +175,10 @@ export function Hero() {
     return (
       <section ref={ref} id="top" className="relative w-full">
         <div className="grid lg:grid-cols-2">
-          <div className="gradient-mesh-anim order-2 flex flex-col justify-center bg-surface px-6 py-12 sm:px-12 lg:order-1 lg:px-14 lg:py-14">
+          <div className="gradient-mesh-anim order-2 flex flex-col justify-center bg-surface px-6 py-10 sm:px-12 lg:order-1 lg:px-12 lg:py-12">
             <HeroCopy className="relative max-w-xl" />
           </div>
-          <div className="relative order-1 min-h-[36vh] overflow-hidden lg:order-2 lg:min-h-[18rem]">
+          <div className="relative order-1 min-h-[32vh] max-h-[28rem] overflow-hidden lg:order-2 lg:min-h-[16rem] lg:max-h-none">
             <motion.div style={{ y: reduce ? 0 : yImg }} className="absolute inset-x-0 top-0 h-[110%] lg:h-[115%]">
               <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="(min-width:1024px) 50vw, 100vw" className="animate-kenburns object-cover" {...blurProps} />
             </motion.div>
@@ -197,13 +197,13 @@ export function Hero() {
   if (variant === "collage") {
     return (
       <section ref={ref} id="top" className="gradient-mesh-anim relative w-full overflow-x-clip bg-bg">
-        <div className="container-max grid items-center gap-6 pt-12 pb-8 lg:grid-cols-2 lg:gap-8 lg:pt-14">
+        <div className="container-max grid items-center gap-5 pt-10 pb-6 lg:grid-cols-2 lg:gap-6 lg:pt-12">
           <HeroCopy className="relative z-10 max-w-xl" />
 
           {/* Layered photo stack: ghost type at the back, then three polaroids
               at three parallax speeds — nearest moves most. Decorative photos
               carry empty alt; the composition is described by the copy column. */}
-          <div className="relative mx-auto aspect-square w-full max-w-[20rem] sm:max-w-[24rem] lg:max-w-[26rem]">
+          <div className="relative mx-auto aspect-square w-full max-w-[18rem] sm:max-w-[22rem] lg:max-w-[24rem]">
             {/* ghost word lives inside a fade-masked, overflow-hidden wrapper the
                 width of the stack — long phrases fade out INSIDE the wrapper
                 instead of hard-clipping at the viewport edge (re-critique v2) */}
@@ -253,10 +253,10 @@ export function Hero() {
   if (variant === "arch") {
     return (
       <section ref={ref} id="top" className="gradient-mesh-anim relative w-full overflow-x-clip bg-bg">
-        <div className="container-max grid items-center gap-6 pt-12 pb-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:pt-14">
+        <div className="container-max grid items-center gap-5 pt-10 pb-6 lg:grid-cols-[1.05fr_0.95fr] lg:gap-6 lg:pt-12">
           <HeroCopy className="relative z-10 max-w-xl" />
 
-          <div className="relative mx-auto w-full max-w-[18rem] sm:max-w-[20rem]">
+          <div className="relative mx-auto w-full max-w-[16rem] sm:max-w-[18rem]">
             <span
               aria-hidden
               className="ghost-word ghost-fade absolute -left-10 top-1/2 -translate-y-1/2 -rotate-90 animate-rise text-[clamp(2.5rem,5vw,4rem)]"
@@ -288,8 +288,8 @@ export function Hero() {
     const reserveHref = hasPhone ? `tel:${biz.phoneHref}` : "#visit";
     return (
       <section ref={ref} id="top" className="relative w-full overflow-x-clip bg-bg">
-        <div className="container-max relative z-10 pt-16 text-center sm:pt-20">
-          <span className="eyebrow mb-3 inline-flex animate-rise items-center gap-2" style={{ animationDelay: "0ms" }}>
+        <div className="container-max relative z-10 pt-14 text-center sm:pt-16">
+          <span className="eyebrow mb-2 inline-flex animate-rise items-center gap-2" style={{ animationDelay: "0ms" }}>
             <Sparkle className="h-3.5 w-3.5" />
             {t.hero.eyebrow}
           </span>
@@ -307,7 +307,7 @@ export function Hero() {
 
         {/* band height + card overlap tuned so the action card's CTAs sit fully
             above the fold on 800-900px-tall desktops (re-critique regression) */}
-        <div className="relative mt-0 h-[28vh] min-h-[14rem] w-full overflow-hidden sm:h-[32vh]">
+        <div className="relative mt-0 h-[24vh] min-h-[12rem] w-full overflow-hidden sm:h-[28vh]">
           <motion.div style={{ y: reduce ? 0 : yImg }} className="absolute inset-x-0 top-0 h-[112%]">
             <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="100vw" className="animate-kenburns object-cover" {...blurProps} />
           </motion.div>
@@ -347,12 +347,12 @@ export function Hero() {
   if (variant === "split") {
     return (
       <section ref={ref} id="top" className="relative w-full bg-bg">
-        <div className="container-max grid gap-8 py-12 lg:grid-cols-[1.1fr_0.9fr] lg:gap-10 lg:py-14">
-          <HeroCopy className="max-w-xl lg:py-2" proof="eyebrow" />
-          <div className="relative min-h-[20rem] lg:min-h-[18rem]">
+        <div className="container-max grid gap-6 py-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-8 lg:py-12">
+          <HeroCopy className="max-w-xl lg:py-1" proof="eyebrow" />
+          <div className="relative min-h-[16rem] lg:min-h-[16rem]">
             <motion.figure
               style={{ y: reduce ? 0 : yImg }}
-              className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-line shadow-lifted lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
+              className="relative aspect-[4/5] max-h-[min(58svh,28rem)] w-full overflow-hidden rounded-2xl border border-line shadow-lifted lg:absolute lg:inset-0 lg:aspect-auto lg:max-h-none lg:h-full"
             >
               <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="(min-width:1024px) 45vw, 100vw" className="object-cover" {...blurProps} />
             </motion.figure>
@@ -368,7 +368,7 @@ export function Hero() {
   // ── Full-bleed (default): left or centered copy over the photo ──
   const centered = variant === "centered";
   return (
-    <section ref={ref} id="top" className="relative min-h-[var(--hero-min)] w-full overflow-hidden">
+    <section ref={ref} id="top" className="relative w-full overflow-hidden">
       <motion.div style={{ y: reduce ? 0 : yImg }} className="absolute inset-x-0 top-0 h-[112%]">
         <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="100vw" className="animate-kenburns object-cover" {...blurProps} />
       </motion.div>
@@ -381,7 +381,7 @@ export function Hero() {
 
       <motion.div
         style={{ y: reduce ? 0 : yCopy }}
-        className="container-max relative z-10 flex min-h-[var(--hero-min)] flex-col justify-center pt-16 pb-20 sm:pt-20 sm:pb-24"
+        className="container-max relative z-10 flex min-h-[var(--hero-min)] flex-col justify-end pt-24 pb-16 sm:justify-center sm:pb-20 sm:pt-28"
       >
         <HeroCopy
           dark
@@ -394,9 +394,9 @@ export function Hero() {
       {/* Proof strip set directly on the darkened bottom zone — typographic,
           hairline-ruled, no glass panel. */}
       <div className="absolute inset-x-0 bottom-0 z-10 hidden sm:block">
-        <div className="container-max pb-10">
+        <div className="container-max pb-6">
           <div
-            className={`flex flex-wrap items-center gap-x-6 gap-y-2 border-t border-white/25 pt-4 text-sm text-white/90 animate-rise [text-shadow:0_1px_12px_rgba(0,0,0,0.55)] ${centered ? "justify-center text-center" : ""}`}
+            className={`flex flex-wrap items-center gap-x-6 gap-y-2 border-t border-white/25 pt-3 text-sm text-white/90 animate-rise [text-shadow:0_1px_12px_rgba(0,0,0,0.55)] ${centered ? "justify-center text-center" : ""}`}
             style={{ animationDelay: "560ms" }}
           >
             <StarLockup dark />

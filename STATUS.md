@@ -13,7 +13,7 @@ sites) and what to do next. Product desk / staging kits live in sibling repo
 | Layout archetypes | default · editorial · authority · wellness · craft |
 | Flagship | `/` → Flamingo (flamengo); catalog → `/sites` |
 | Local preview | `npx next dev -p 3010` in `site/` |
-| Image quality floor | **≥ ~120KB** every slot (0 under floor as of 20 Aug evening) |
+| Image quality floor | **≥ ~120KB** every slot (0 under floor as of 20 Aug late night) |
 
 ## What shipped recently (Aug 2026)
 
@@ -72,6 +72,14 @@ polaroid hover lift, earlier scroll-reveal trigger. Caption-aligned kits for
 **Tastee Bite**, **La Michoacana**, and **China House** (buffet/hibachi), plus
 Chicago Beauty hero and Growing Place gallery refresh.
 
+**20 Aug late-night densify + photo pass:** Killed leftover `:3010` Next servers.
+Further cut `--section-y` / `--header-gap` / `--hero-min` (default ~34rem,
+energetic ~30rem, mobile 24rem). Full-bleed heroes no longer double-`min-h`
+the section; split/feast/collage/arch/about/story/visit tightened. Replaced
+odd about/gallery/heroes for Cast Iron, Woody’s, Sapphire, Naperville Running,
+Realize, Yellow Bird, Suburban Music, Lord Stanley’s, MVP’s, Pub West, Growing
+Place, Chicago Beauty, Mad Batter. Overflow QA still **148/0**.
+
 ## How to verify
 
 ```bash
@@ -94,10 +102,11 @@ Studio catalog + image audit: sibling repo `node scripts/sync-spec-audit.mjs`
 1. **Owner photo swap** — Replace AI kits with phone shots for paid closes;
    keep slot names + run `gen_blur.py`.
 2. **Gallery caption fidelity (remaining food sites)** — Continue matching
-   `g1`–`g6` to EN/ES captions (Johnny K’s, Tastee Bite, La Michoacana, China
-   House done; pubs/cafes next).
+   `g1`–`g6` to EN/ES captions (Johnny K’s / Tastee / Michoacana / China House
+   done; Lord Stanley’s / MVP’s / Pub West g1–g2 refreshed — finish g3–g6 +
+   cafes).
 3. **Mobile CTA fold check** — Spot-check split/editorial at 390×844 after the
-   `--hero-min` mobile cap; flip any feast/arch CTAs still below the fold.
+   24rem mobile `--hero-min`; flip any feast/arch CTAs still below the fold.
 4. **Lead webhook** — Wire `LEAD_WEBHOOK_URL` for production lead capture.
 5. **Publish / Vercel** — Confirm `npm run build` + env (no secrets in repo).
 6. **Studio sync** — New kits → `public/spec/<slug>/` then

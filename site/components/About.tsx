@@ -37,11 +37,11 @@ export function About() {
 
   return (
     <section id="about" className="section bg-surface">
-      <div className="container-max grid items-start gap-8 lg:grid-cols-2 lg:gap-10">
+      <div className="container-max grid items-start gap-6 lg:grid-cols-2 lg:gap-8">
         {/* Photo collage with clip-reveal */}
         {refined ? (
           /* Shorter than square so short copy doesn't sit beside a hollow void */
-          <div className="order-2 grid aspect-[5/4] max-h-[28rem] w-full grid-cols-3 grid-rows-2 gap-3 lg:order-1 lg:max-h-[32rem]">
+          <div className="order-2 grid aspect-[5/4] max-h-[24rem] w-full grid-cols-3 grid-rows-2 gap-2.5 lg:order-1 lg:max-h-[28rem]">
             {tile(COLLAGE_REFINED[0], 0, "col-span-2 row-span-2", "(min-width: 1024px) 30vw, 60vw")}
             {tile(COLLAGE_REFINED[1], 1, "", "(min-width: 1024px) 15vw, 30vw")}
             {tile(COLLAGE_REFINED[2], 2, "", "(min-width: 1024px) 15vw, 30vw")}

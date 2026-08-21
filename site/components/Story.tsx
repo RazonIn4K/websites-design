@@ -49,7 +49,7 @@ export function Story() {
 
   return (
     <section id="about" className="section bg-surface">
-      <div className="container-max grid gap-8 lg:grid-cols-2 lg:gap-12">
+      <div className="container-max grid gap-6 lg:grid-cols-2 lg:gap-8">
         <div className="lg:sticky lg:top-24 lg:self-start">
           <Reveal as="figure" className="reveal-clip relative aspect-[4/5] overflow-hidden rounded-2xl shadow-lifted">
             {images.map((img, i) => (

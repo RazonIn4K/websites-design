@@ -23,10 +23,10 @@ export function Visit() {
       <div className="container-max">
         <SectionHeader eyebrow={t.nav.visit} heading={t.visit.heading} />
 
-        <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr]">
+        <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
           {/* Map + info — map stretches so this column bottom-aligns with the
               taller form column instead of leaving dead space under the cards */}
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-5">
             {/* bg-surface-alt shows while the map document streams in, so the
                 card reads as a branded panel instead of a stark white void */}
             <Reveal className="flex-1 overflow-hidden rounded-2xl border border-line bg-surface-alt shadow-card">

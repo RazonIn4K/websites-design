@@ -45,14 +45,14 @@
   --shadow-glass: 0 8px 32px 0 rgba(26,18,16,0.08);
 
   /* ── Layout Tokens ────────────────────────────── */
-  /* Section rhythm: dense enough that pages don't feel hollow, still airy. */
-  --section-y: clamp(2.75rem, 2rem + 3.5vw, 5rem);
-  --header-gap: clamp(1.25rem, 1rem + 1.5vw, 2.25rem);
+  /* Section rhythm: denser — pages were still reading hollow on laptop. */
+  --section-y: clamp(2.25rem, 1.75rem + 2.75vw, 4.25rem);
+  --header-gap: clamp(1rem, 0.85rem + 1.25vw, 1.85rem);
   --container-max: 1280px;
   --gutter: 1.5rem;
-  --bento-gap: 1rem;
-  /* Hero band: fill most of the first viewport without forcing empty columns. */
-  --hero-min: min(100svh, 38rem);
+  --bento-gap: 0.85rem;
+  /* Hero band: prefer content height; cap so we never invent empty columns. */
+  --hero-min: min(88svh, 34rem);
 
   /* ── Fluid type scale (Utopia-style clamp steps) ── */
   --step--1: clamp(0.8rem, 0.76rem + 0.18vw, 0.9rem);
@@ -574,21 +574,21 @@ html.js .reveal-clip:not(.is-visible) img { transform: scale(1.12); }
 
 /* ── tone: calm — airy, restrained (authority/medical) ── */
 [data-tone="calm"] {
-  --section-y: clamp(2.5rem, 2rem + 3vw, 4.75rem);
-  --header-gap: clamp(1.25rem, 1rem + 1.25vw, 2.15rem);
+  --section-y: clamp(2.25rem, 1.85rem + 2.5vw, 4.25rem);
+  --header-gap: clamp(1.1rem, 0.9rem + 1.1vw, 1.95rem);
 }
 /* ── tone: editorial — literary, still denser than before ── */
 [data-tone="editorial"] {
-  --section-y: clamp(2.75rem, 2.15rem + 3.25vw, 5.25rem);
-  --header-gap: clamp(1.25rem, 1rem + 1.5vw, 2.35rem);
+  --section-y: clamp(2.5rem, 2rem + 2.75vw, 4.75rem);
+  --header-gap: clamp(1.15rem, 0.95rem + 1.25vw, 2.1rem);
   --display-tracking: -0.018em; /* serif display breathes a touch */
 }
 [data-tone="editorial"] img { filter: saturate(0.92); }
 /* ── tone: energetic — tight, punchy (craft/gym/trades) ── */
 [data-tone="energetic"] {
-  --section-y: clamp(2rem, 1.5rem + 2.5vw, 3.75rem);
-  --header-gap: clamp(0.9rem, 0.75rem + 1vw, 1.65rem);
-  --hero-min: min(100svh, 34rem);
+  --section-y: clamp(1.85rem, 1.4rem + 2.25vw, 3.5rem);
+  --header-gap: clamp(0.85rem, 0.7rem + 0.9vw, 1.5rem);
+  --hero-min: min(82svh, 30rem);
 }
 [data-tone="energetic"] img { filter: saturate(1.1) contrast(1.05); }
 [data-tone="energetic"] .animate-marquee { animation-duration: 22s; }
@@ -599,7 +599,7 @@ html.js .reveal-clip:not(.is-visible) img { transform: scale(1.12); }
   [data-tone="calm"],
   [data-tone="editorial"],
   [data-tone="energetic"] {
-    --hero-min: min(100svh, 28rem);
+    --hero-min: min(100svh, 24rem);
   }
 }
 
