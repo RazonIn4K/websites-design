@@ -5,9 +5,10 @@ client into `site/public/img/<slug>/`. This file documents what each slot needs,
 how the pipeline builds prompts, and how to generate replacements with any
 external image AI (ChatGPT/GPT-image, Midjourney, Flux, Cursor Imagine, etc.).
 
-> **Ops note (20 Aug 2026):** Prefer Cursor/Grok Imagine for production slots —
+> **Ops note (23 Aug 2026):** Prefer Cursor/Grok Imagine for production slots —
 > do **not** use Pollinations/`regen_fleet.py` for heroes. After any install run
-> `python scripts/gen_blur.py`. Fleet status: [STATUS.md](./STATUS.md).
+> `python scripts/gen_blur.py`, then `python scripts/check_fleet.py` (every slot
+> present, ≥120KB, registry + docs in sync). Fleet status: [STATUS.md](./STATUS.md).
 > Aesthetic research: `site/scripts/aesthetic_briefs.json`.
 
 ## 1. The 8 slots — sizes and where each renders
@@ -46,11 +47,19 @@ rate-limit-friendly, and **skips existing files** — useful for drafts only.
 **Production heroes/abouts should use Cursor/Grok Imagine** (or equivalent HQ
 generator), then overwrite the slot file.
 
+- `CLIENTS` in `gen_images.py` maps every slug → vertical key (all 74, including the
+  Aug 2026 trades `electrician` / `plumber`); `check_fleet.py` fails if a registered
+  slug is missing here or its vertical lacks a prompt entry.
 - `HERO[vertical]` / `ABOUT[vertical]` / `STYLE[vertical]` in `gen_images.py`
 - Gallery: `"{caption}, {STYLE[vertical]}"`
 - Research look/avoid: `site/scripts/aesthetic_briefs.json`
+- `site/scripts/regen_fleet.py` composes the same dicts with the researched
+  `HERO_OVERRIDES` + a photoreal `QUALITY` rider for targeted re-shoots
+  (`--dry-run --force --slug <slug>`, `--archetype craft`, `--slots hero`). It
+  covers the flagship too. Use it to *list* prompts for an HQ generator; don't
+  bulk-run it for heroes.
 
-`site/scripts/regen_heroes*.py` are precedents for targeted re-shoots.
+`site/scripts/regen_heroes*.py` are earlier one-off precedents.
 After any image swap: `python scripts/gen_blur.py` regenerates LQIP placeholders.
 
 ## 3. Prompt formula for external AIs (ChatGPT, Midjourney, …)
@@ -89,8 +98,9 @@ The CSS post-processes images per register, so shoot for the register:
 - **Midjourney**: `--ar 8:5` for heroes, `--ar 1:1` for the rest; keep
   `--style raw` and moderate `--stylize` so results stay photographic, not
   illustrated. Upscale before export.
-- **Flux (current default via Pollinations)**: already wired; keep using it for
-  bulk, use the premium tools for hero/about re-shoots where quality shows most.
+- **Flux via Pollinations** (`gen_images.py`): wired and keyless, but output is
+  muddy at 30–90KB — draft/new-client scaffolding only. It does not clear the
+  120KB floor reliably, so finished slots should come from the tools above.
 - **Any tool**: export JPG. The Next.js optimizer serves AVIF/WebP from it.
 
 ### 3c. Consistency & integrity rules
@@ -112,6 +122,12 @@ The CSS post-processes images per register, so shoot for the register:
 2. `cd site && python scripts/gen_blur.py` — regenerate blur placeholders.
 3. If a dev server was running during the swap, **finish all images first, then
    restart it** (the optimizer caches 404s mid-swap).
+   **Same-filename swaps also survive a rebuild:** `next start` keeps
+   `site/.next/cache/images` across builds and `minimumCacheTTL` is one year,
+   so a swapped slot keeps serving the *old* optimized bytes at any width that
+   was already requested. Delete `site/.next/cache/images` before restarting
+   (confirm the new photo with `Read`/an image viewer on the raw `.jpg` if a
+   page tile looks unchanged).
 4. `npm run build` and spot-check `/sites/<slug>` (or `npm run qa:all`).
 
 ## 5. Per-site briefing table
@@ -194,22 +210,35 @@ the design system the images must suit (§3a). Palette cue = from each site's
 | `la-michoacana` | paleteria | warm · energetic · hero:arch | a watermelon-fresa magenta primary (the color of a fresas con crema paleta), a mango-gold accent, and a lime-l… |
 | `hinks-bar-and-grill` | pubgrill | craft · hard-edge · energetic | an aged-copper primary (old tap lines and downtown brick) over smoky parchment with deep charcoal-brown ink, a… |
 | `star-34-cafe` | breakfast | warm | butter-yellow sunshine and buttermilk cream grounded by deep denim-blue booths, with a maple-toast secondary —… |
-## 6. Current status & re-generation priorities (audited 2026-08-07)
+| `delts-electric` | electrician | craft · hard-edge · energetic · hero:split | Graphite industrial palette with a safety-orange primary — high-contrast licensed-trade identity, clean gara… |
+| `votaw-plumbing` | plumber | craft · hard-edge · energetic · hero:split | Deep navy primary with a warm copper secondary — residential DeKalb trust on clean light surfaces, service va… |
+## 6. Current status & re-shoot guidance (audited 2026-08-23)
 
-**All 72 sites have complete, valid 8-slot kits (576/576 files).** Nothing is
-missing. The queue below is quality/art-direction re-shoots, in priority order —
-current sets were generated for the pre-v3 light template, before the register
-system existed.
+**All 74 sites have complete 8-slot kits (592/592 files), every slot ≥ 120KB.**
+Verify any time with `cd site && python scripts/check_fleet.py`. The live
+re-shoot queue is tracked in [STATUS.md → Best next steps](./STATUS.md); as of
+23 Aug it is four slots (pub-west g5, lord-stanleys g3, mvps-sports-bar g5,
+cast-iron-coffee g1) plus owner photo swaps.
 
-| Priority | Sites | What to regenerate | Why |
-|---|---|---|---|
-| **1 — ink register (dark pages)** | `kiss-the-sky`, `sapphire-tattoo`, `victory-mma`, `noon-whistle-brewing`, `riddlebox-escape`, `lisle-lanes` | Full kit (8 each, 48 images) | Pages are now near-black; current images were shot for cream pages. Use the low-key rider (§3a): subjects lit against darkness, rich shadows. |
-| **2 — wellness/mono (CSS desaturates to 70%)** | `leza-nail-spa`, `my1-hair`, `chicago-beauty`, `pilates-plus`, `mccoy-chiropractic` | Full kit (40 images) | Color-led images lose their punch under the mono filter — re-shoot shape-and-light-first, airy, generous negative space. |
-| **3 — trust-critical hero/about, premium model** | The 7 authority sites (`cronauer-law`, `pardridge-insurance`, `white-oak-tax`, `friedrichs-eye`, `todd-curtis-orthodontist`, `genoa-animal-hospital`, `cortland-vet`) + flagship `flamengo` | `hero` + `about` (16 images) | The split hero shows the photo as a large framed panel — quality is most visible here. Use ChatGPT/GPT-image or Midjourney rather than bulk Flux. |
-| **4 — editorial heroes** | `the-montcler`, `dearborn-cafe`, `south-moon-bbq`, `geneva-winery`, `arcada-theater`, `tapa-la-luna` | `hero` (6 images) | Chiaroscuro/candlelit re-shoots suit the magazine register better than the current warm-generic set. |
-| 5 — everything else | remaining warm/craft sites | as needed | Current Flux sets are serviceable; replace opportunistically or when a business becomes a live prospect. |
+**Caption fidelity rule (learned 23 Aug):** before regenerating a "mismatched"
+gallery image, view the whole kit — most mismatches were kits generated for a
+shuffled caption order, fixable by renaming slots (`g3→g1`, …) and re-running
+`gen_blur.py`. Only when no photo in the kit fits should you regenerate, or
+rewrite the caption (EN **and** ES) to what the photo shows.
+
+When a slot does get re-shot, match the register it renders in:
+
+| Register | Sites | Shoot for |
+|---|---|---|
+| **ink (dark pages)** | `kiss-the-sky`, `sapphire-tattoo`, `victory-mma`, `noon-whistle-brewing`, `riddlebox-escape`, `lisle-lanes` | Low-key rider (§3a): subjects lit against darkness, rich shadows — bright white backgrounds glare on near-black pages. |
+| **wellness / mono (CSS desaturates to ~70%)** | `leza-nail-spa`, `my1-hair`, `chicago-beauty`, `pilates-plus`, `mccoy-chiropractic` | Shape-and-light first, airy, generous negative space — color-led images lose their punch under the mono filter. |
+| **authority split hero (trust-critical)** | `cronauer-law`, `pardridge-insurance`, `white-oak-tax`, `friedrichs-eye`, `todd-curtis-orthodontist`, `genoa-animal-hospital`, `cortland-vet` + flagship `flamengo` | The split hero shows the photo as a large framed panel, so quality is most visible — premium generator only, people/hands over empty rooms. |
+| **craft split hero (trades)** | `a1-auto`, `dekalb-mechanical`, `lovells-tire`, `anderson-auto-body`, `delts-electric`, `votaw-plumbing`, `hinks-bar-and-grill` | Hard directional light, high contrast, technician + place; the photo column stretches to copy height, so keep the subject centered. |
+| **editorial heroes** | `the-montcler`, `dearborn-cafe`, `south-moon-bbq`, `geneva-winery`, `arcada-theater`, `tapa-la-luna` | Chiaroscuro / candlelit magazine photography. |
+| everything else | remaining warm/craft sites | Replace opportunistically, or when a business becomes a live prospect (owner photos first). |
 
 Workflow per batch: generate → drop into `site/public/img/<slug>/` under the
-same filenames → `python scripts/gen_blur.py` → restart any running dev server
-→ build + spot-check. Delete a slot's file and re-run `gen_images.py` to redo
-just that slot with Flux.
+same filenames → `python scripts/gen_blur.py` → `python scripts/check_fleet.py`
+→ restart any running dev server → build + spot-check. To redo a single slot
+as a Flux draft, delete that file and re-run `gen_images.py` (it only fills
+empty slots).

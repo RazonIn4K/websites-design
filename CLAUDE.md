@@ -8,11 +8,11 @@ An end-to-end local-business site generator for the DeKalb County, IL corridor:
 
 ```
 recon/  →  data/  →  site/
-scan       manifest    one Next.js template → 72 themed client sites
+scan       manifest    one Next.js template → 74 themed client sites
 ```
 
 - `recon/overpass_recon.py` (stdlib-only Python) queries the OpenStreetMap Overpass API, scores businesses as web-design leads, and writes `data/targets.json` + `data/PROSPECTS.md`.
-- `site/` is a Next.js 16 (App Router, SSG) · React 19 · TypeScript · Tailwind CSS v4 (CSS-first `@theme`) · Motion 12 app in which **one shared component tree renders all 72 bilingual (EN/ES) client sites**. No per-client components exist anywhere.
+- `site/` is a Next.js 16 (App Router, SSG) · React 19 · TypeScript · Tailwind CSS v4 (CSS-first `@theme`) · Motion 12 app in which **one shared component tree renders all 74 bilingual (EN/ES) client sites**. No per-client components exist anywhere.
 
 **Next.js 16 differs from training data.** `site/AGENTS.md` (loaded via `site/CLAUDE.md`) says to read the relevant guide in `site/node_modules/next/dist/docs/` before writing Next.js code.
 
@@ -22,10 +22,11 @@ All from `site/` unless noted:
 
 ```bash
 npm run dev            # dev server at http://localhost:3000
-npm run build          # SSG build (72 routes) — includes TS typecheck
+npm run build          # SSG build (74 client routes) — includes TS typecheck
 npm run start          # serve the production build
 npm run lint           # eslint
 npx tsc --noEmit       # typecheck only
+npm run check:fleet    # registry ↔ content ↔ images ↔ gen_images ↔ docs integrity (python, stdlib)
 
 # QA harness (the test suite): requires a running production server
 # (npm run build && npm run start), drives local Chrome headless via
@@ -35,15 +36,17 @@ npm run qa:overflow    # no horizontal overflow on any site at 390px/1440px
 npm run qa:es          # Spanish hydration + no ES-copy overflow at 390/768/1440
 npm run qa:behavior    # lang toggle, menu tabs, nav dialog, carousel, lead form
 npm run qa:reveal      # every .reveal element fires under real (non-reduced-motion) scroll
+npm run qa:cta         # hero primary CTA fully above the fold at 390x844 on every site (CTA_FOLD_VIEWPORT=390x740 for short phones)
 
-python scripts/gen_images.py   # regenerate AI photos (Pollinations/Flux, no key; skips existing)
+python scripts/gen_images.py   # fill EMPTY photo slots with Flux drafts (skips existing) — also the prompt registry
+python scripts/regen_fleet.py --dry-run --force --slug <slug>   # list targeted re-shoot tasks (never bulk-run for heroes)
 python scripts/gen_blur.py     # regenerate LQIP blur.json after swapping photos
 
 # repo root:
 python recon/overpass_recon.py # re-run the business recon (stdlib only)
 ```
 
-There are no unit tests; the deterministic fleet-wide QA harness in `site/qa/` is the verification layer.
+There are no unit tests; the deterministic fleet-wide QA harness in `site/qa/` plus `scripts/check_fleet.py` are the verification layer. `STATUS.md` at the repo root is the living fleet status / next-steps doc — update it when a pass ships.
 
 ## Architecture: content-driven multi-tenancy
 
@@ -73,8 +76,9 @@ A client is **content + theme + photos + a layout assignment** — never new com
 
 1. Create `content/clients/<slug>/copy.json` (same bilingual shape) + `theme.json`.
 2. Add an entry to `CLIENTS` in `lib/clients.ts` (slug, vertical, emojis, display font, schema types, optional layout).
-3. `python scripts/gen_images.py` (add the slug to its `CLIENTS` list) and `python scripts/gen_blur.py`.
-4. `npm run build` — `/sites/<slug>` is generated automatically.
+3. Add the slug + vertical key to `CLIENTS` in `scripts/gen_images.py` (new vertical → add `STYLE`/`HERO`/`ABOUT` entries there, not in `regen_fleet.py`), then `python scripts/gen_images.py` (or drop in HQ photos) and `python scripts/gen_blur.py`.
+4. Add the row to the client table in `README.md` and the per-site briefing table in `IMAGES.md`.
+5. `npm run check:fleet` then `npm run build` — `/sites/<slug>` is generated automatically.
 
 ## Gotchas encoded in the code (do not undo)
 
@@ -84,11 +88,14 @@ A client is **content + theme + photos + a layout assignment** — never new com
 - `font-variation-settings` inherits as a resolved value — children needing a lighter weight must re-declare it (`.display-accent`).
 - `text-box-trim` + `background-clip: text` amputates final-line descenders — `.text-gradient-accent` compensates with padding-bottom + negative margin.
 - Phone-less clients (e.g. barber, HVAC) must never render "call" CTAs in either language — CTAs route to the quote form.
+- `.text-display` uses `overflow-wrap: anywhere`, not `break-word` — `break-word` leaves a grid/flex item's min-content at its longest word, so long uppercase Spanish words widened hard-edge hero columns past 390px (65–71px page overflow) instead of wrapping; `anywhere` + the `:lang(es)` hyphenation is what keeps ES headlines inside the viewport.
+- Copy-first hero containers (split/arch/collage/feast) carry `.hero-clear-header` (unlayered top padding that clears the fixed 4rem header); editorial's desktop copy column uses `lg:pt-24`. Don't swap these for `pt-*` utilities when densifying — the first text line ends up under the glass nav. Measure `#top` first-text top vs `header` bottom at 390 and 1440 after any hero spacing change.
+- `next start` keeps `.next/cache/images` across builds (`minimumCacheTTL` = 1 year): after swapping a photo under the same filename, delete that cache before restarting or the page keeps serving the old bytes.
 - QA authoring rules (`site/qa/README.md`): always include a non-reduced-motion pass; Google Maps iframes render blank in headless Chrome (not a defect); fixed elements ghost in `fullPage: true` screenshots — use viewport shots; `body { overflow-x: hidden }` propagates to the viewport, so skip `body`/`html` when walking ancestors for clip checks.
 
 ## Images
 
-Each site uses an 8-slot kit in `site/public/img/<slug>/`: `hero` (1536×960), `about` (1000×1000), `g1`–`g6` (800×800), all rendered through `object-cover` crops. Prompt sources are the `HERO`/`ABOUT`/`STYLE` dicts in `site/scripts/gen_images.py`; gallery prompts come from each site's own `gallery.captions`, and the caption text renders over the image — regenerating a gallery image means keeping (or updating, EN+ES) its caption. `IMAGES.md` at the repo root holds the full spec, per-register art direction, and external-AI prompt recipes. After any image swap: `python scripts/gen_blur.py`, and restart any running dev server only after all images are in place.
+Each site uses an 8-slot kit in `site/public/img/<slug>/`: `hero` (1536×960), `about` (1000×1000), `g1`–`g6` (800×800), all rendered through `object-cover` crops. Prompt sources are the `HERO`/`ABOUT`/`STYLE` dicts in `site/scripts/gen_images.py`; gallery prompts come from each site's own `gallery.captions`, and the caption text renders over the image — regenerating a gallery image means keeping (or updating, EN+ES) its caption. `IMAGES.md` at the repo root holds the full spec, per-register art direction, and external-AI prompt recipes. **Quality floor is ≥120KB per slot** (`check_fleet.py` fails below it); Pollinations/Flux output is draft-grade — production heroes/abouts come from a higher-quality generator dropped in under the same filenames. After any image swap: `python scripts/gen_blur.py`, and restart any running dev server only after all images are in place.
 
 ## Content integrity
 

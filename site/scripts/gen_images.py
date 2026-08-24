@@ -5,6 +5,17 @@ Generate per-client photography via the Pollinations (Flux) text-to-image API
 from each site's real captions so the image matches the caption shown over it.
 
 Run from the `site/` directory:  python scripts/gen_images.py
+Then:                            python scripts/gen_blur.py
+
+Role (Aug 2026): this file is the fleet's *prompt registry* — CLIENTS maps every
+slug to a vertical key, and HERO/ABOUT/STYLE hold the per-vertical scene text
+that IMAGES.md, regen_fleet.py, and external generators all compose from. It
+skips existing files, so running it only fills empty slots (drafts). Production
+heroes/abouts should come from a higher-quality generator (see IMAGES.md and
+STATUS.md); do not re-run this over finished kits.
+
+Every slug in lib/clients.ts must appear in CLIENTS — `python scripts/check_fleet.py`
+enforces that.
 """
 
 import json
@@ -90,6 +101,9 @@ CLIENTS = [
     # ── Batch 14 ──
     {"slug": "hinks-bar-and-grill", "copy": "content/clients/hinks-bar-and-grill/copy.json", "vertical": "pubgrill"},
     {"slug": "star-34-cafe", "copy": "content/clients/star-34-cafe/copy.json", "vertical": "breakfast"},
+    # Aug 2026 trades (bootstrap_aug2026_trades.py)
+    {"slug": "delts-electric", "copy": "content/clients/delts-electric/copy.json", "vertical": "electrician"},
+    {"slug": "votaw-plumbing", "copy": "content/clients/votaw-plumbing/copy.json", "vertical": "plumber"},
 ]
 
 STYLE = {
@@ -161,6 +175,8 @@ STYLE = {
     "tapas": "professional Spanish tapas photography, shared small plates and wine in a candlelit bistro, intimate moody lighting, ultra detailed",
     "autobody": "professional auto-body-shop photography, collision repair, paint booth and gleaming refinished panels, crisp workshop lighting, ultra detailed, no text",
     "paleteria": "professional Mexican paleteria photography, colorful fruit paletas, nieves and aguas frescas, bright cheerful lighting, ultra detailed, no text",
+    "electrician": "professional electrician photography, licensed technician at a labeled residential panel, clean garage workshop, natural daylight, ultra detailed, no text",
+    "plumber": "professional plumber photography, service van and residential plumbing work, clean trustworthy lighting, ultra detailed, no text",
 }
 
 _LEFT = "wide cinematic composition with the main subject on the right and generous empty darker negative space on the left for text overlay"
@@ -234,6 +250,8 @@ HERO = {
     "tapas": f"cinematic photograph, a candlelit table of shared Spanish tapas — patatas bravas, gambas al ajillo, olives — with glasses of red wine, intimate moody light, {_LEFT}",
     "autobody": f"cinematic photograph, a freshly refinished car panel gleaming under paint-booth lights in a clean collision repair shop, crisp dramatic light, {_LEFT}",
     "paleteria": f"cinematic photograph, rows of colorful hand-made fruit paletas in a bright display case with a mangonada drizzled in chamoy, cheerful vivid light, {_LEFT}",
+    "electrician": f"cinematic photograph, a licensed electrician in navy work clothes servicing a clean residential breaker panel in a bright Midwest garage, blue service van visible through the open door, {_LEFT}",
+    "plumber": f"cinematic photograph, a professional plumber in uniform with a branded service truck parked outside a DeKalb Illinois home, copper pipes and clean tools, {_LEFT}",
 }
 
 ABOUT = {
@@ -305,6 +323,8 @@ ABOUT = {
     "tapas": "intimate candlelit tapas bistro interior with a marble bar, wine shelves, and moonlit window seats",
     "autobody": "clean collision repair shop interior with a paint booth, frame rack, and a freshly repaired car",
     "paleteria": "bright cheerful paleteria interior with a colorful ice-cream case, papel picado accents, and counter seating",
+    "electrician": "friendly licensed electrician smiling with arms crossed in a clean bright workshop, approachable local contractor",
+    "plumber": "friendly local plumber with a service van and tidy tools, trustworthy Midwest residential specialist",
 }
 
 OUT = Path("public/img")

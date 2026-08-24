@@ -17,6 +17,9 @@ npm run dev        # develop (use -p 3010 if 3000 is taken)
 npm run build      # SSG build + TS typecheck
 npm run start      # serve the production build
 npm run qa:all     # fleet-wide QA harness (see qa/README.md) — server must be running
+npm run check:fleet            # registry ↔ content ↔ images (≥120KB) ↔ gen_images ↔ docs (python, stdlib)
+python scripts/gen_blur.py     # regenerate LQIP blur.json after ANY photo swap
+python scripts/gen_images.py   # fill empty photo slots with Flux drafts; also the prompt registry (see ../IMAGES.md)
 ```
 
 ## Anatomy of a client

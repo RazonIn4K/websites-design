@@ -4,9 +4,9 @@ End-to-end pipeline that **discovers** local businesses from open data, **audits
 their digital presence, and **generates** modern, bilingual marketing sites for the
 best prospects — from one content-driven, multi-tenant template.
 
-> **Fleet status (20 Aug 2026):** **74** live kits, spacing densified, image floor
-> cleared (≥110KB every slot). See **[STATUS.md](./STATUS.md)** for what shipped,
-> how to verify, and best next steps.
+> **Fleet status (23 Aug 2026):** **74** live kits, spacing densified, image floor
+> cleared (≥120KB every slot, enforced by `npm run check:fleet`). See
+> **[STATUS.md](./STATUS.md)** for what shipped, how to verify, and best next steps.
 
 ```
 recon/  →  data/  →  site/  (one template → many themed client sites)
@@ -69,7 +69,7 @@ stats, and progressive-enhancement motion (no-JS/reduced-motion safe). QA harnes
 | `the-montcler` | The Montcler | Italian Restaurant · Plano |
 | `dearborn-cafe` | Dearborn Cafe | Breakfast & Brunch Cafe · Sandwich |
 | `lord-stanleys` | Lord Stanley's and Annex | Neighborhood Pub · DeKalb |
-| `mvps-sports-bar` | MVPs Sports Bar and Grill | Sports Bar & Grill · Sycamore |
+| `mvps-sports-bar` | MVP Sports Bar | Sports Bar & Grill · Sycamore |
 | `lovells-tire` | Lovells Discount Tire | Tire & Wheel Shop · DeKalb |
 | `beas-wok` | Bea's Wok N Roll | Vietnamese Restaurant · DeKalb |
 | `wired-nutrition` | Wired Nutrition | Nutrition & Smoothie Shop · DeKalb |
@@ -81,7 +81,7 @@ stats, and progressive-enhancement motion (no-JS/reduced-motion safe). QA harnes
 | `chicago-beauty` | Chicago Beauty | Lash & Brow Beauty Bar · DeKalb |
 | `tastee-bite` | Tastee Bite | Frozen Custard & Treats · Plano |
 | `fattys-pub` | Fatty's Pub & Grille | Sports Pub & Grille · DeKalb |
-| `cortland-vet` | Cortland Vet | Country Veterinary Clinic · Cortland |
+| `cortland-vet` | Cortland Animal Hospital | Country Veterinary Clinic · DeKalb |
 | `inbodens-meats` | Inboden's Gourmet Meats & Specialty Foods | Butcher & Specialty Foods · DeKalb |
 | `cast-iron-coffee` | Cast Iron Coffee | Coffee Roaster & Espresso Bar · DeKalb |
 | `paw-lickin-good` | Paw Lickin' Good | Pet Bakery & Boutique · Sycamore |
@@ -94,7 +94,7 @@ stats, and progressive-enhancement motion (no-JS/reduced-motion safe). QA harnes
 | `prairie-path-cycles` | Prairie Path Cycles | Bicycle Shop & Service · Batavia |
 | `kiss-the-sky` | Kiss the Sky | Independent Record Store · Batavia |
 | `yellow-bird-books` | Yellow Bird Books | Independent Bookstore · Aurora |
-| `mad-batter-bakery` | Mad Batter Bakery and Confections | Bakery & Confections · Geneva |
+| `mad-batter-bakery` | Mad Batter Bakery and Confections | Bakery & Confections · St. Charles |
 | `geneva-winery` | Geneva Winery & Coffeehouse | Winery & Wine Bar · Geneva |
 | `celidan-florist` | Celidan Creations Florist | Florist & Gift Shop · Naperville |
 | `noon-whistle-brewing` | Noon Whistle Brewing | Craft Brewery & Taproom · Naperville |
@@ -104,7 +104,7 @@ stats, and progressive-enhancement motion (no-JS/reduced-motion safe). QA harnes
 | `beidelman-furniture` | Beidelman Furniture | Furniture & Home Store · Naperville |
 | `kramer-photography` | Kramer Photographers | Photography Studio · Naperville |
 | `victory-mma` | Victory Mixed Martial Arts | Martial Arts & MMA Gym · Naperville |
-| `schmaltz-deli` | Schmaltz Delicatessen | Jewish Deli & Sandwiches · Naperville |
+| `schmaltz-deli` | Schmaltz Delicatessen | Jewish Deli & Sandwiches · Lisle |
 | `sapphire-tattoo` | Sapphire Studios | Tattoo & Piercing Studio · Naperville |
 | `envision-dance` | Envision Dance | Dance Studio & School · Naperville |
 | `costello-jewelry` | Costello Jewelry Company | Fine Jewelry Store · Naperville |
@@ -117,15 +117,26 @@ stats, and progressive-enhancement motion (no-JS/reduced-motion safe). QA harnes
 | `naperville-running` | Naperville Running Co. | Running & Footwear Store · Naperville |
 | `riddlebox-escape` | Riddlebox Escape Rooms | Escape Room · Naperville |
 | `astro-fun-world` | Astro Fun World | Family Fun Center & Arcade · Aurora |
-| `lindsays-cobbler` | Lindsay's Leather & Shoe Repair | Shoe Repair & Leather Goods · Naperville |
+| `lindsays-cobbler` | Lindsay's Leather and Shoe Repair | Shoe Repair & Leather Goods · Naperville |
 | `lisle-lanes` | Lisle Lanes | Bowling Alley · Lisle |
+| `pub-west` | Pub West | Grill Pub · Waterman |
+| `the-flame` | The Flame | Greek Family Restaurant · DeKalb |
+| `tapa-la-luna` | Tapa La Luna | Tapas & Wine Bistro · DeKalb |
+| `anderson-auto-body` | Anderson Auto Body | Auto Body & Collision · Genoa |
+| `la-michoacana` | La Michoacana | Paletería & Ice Cream · DeKalb |
+| `hinks-bar-and-grill` | Hink's Bar and Grill | Bar & Grill · Sycamore |
+| `star-34-cafe` | Star 34 Cafè | Breakfast & Brunch Cafe · Sandwich |
+| `delts-electric` | Delts Electric | Licensed Electrical Contractor · DeKalb |
+| `votaw-plumbing` | Votaw Plumbing LLC | Residential & Light Commercial Plumbing · DeKalb |
 
-- **`/sites`** — portfolio index of all 72 generated sites.
+- **`/sites`** — filterable portfolio explorer of all 74 generated sites.
 
-All 72 come from one template; only `content/clients/<slug>/copy.json` (bilingual),
-`theme.json` (palette), `public/img/<slug>/*` (photos), and the `lib/clients.ts`
-registry entry (emojis, font, schema type) differ per business. Add more by repeating
-those steps. Photos are generated by `scripts/gen_images.py` (Flux via Pollinations).
+All 74 come from one template; only `content/clients/<slug>/copy.json` (bilingual),
+`theme.json` (palette), `blur.json` (LQIP), `public/img/<slug>/*` (photos), and the
+`lib/clients.ts` registry entry (emojis, font, schema type, layout) differ per
+business. Add more by repeating those steps (§3). Photo kits were bootstrapped by
+`scripts/gen_images.py` (Flux drafts) and upgraded slot-by-slot with higher-quality
+generators — see [IMAGES.md](./IMAGES.md).
 
 ### How the template generalizes
 - **Content-driven:** each client is `content/clients/<slug>/copy.json` (bilingual
@@ -158,7 +169,8 @@ npm run dev            # http://localhost:3000
 npm run build && npm run start
 ```
 
-Status: `tsc --noEmit` ✅ · `eslint` ✅ 0 errors · `next build` ✅ (72 routes) · runtime + browser verified.
+Status: `tsc --noEmit` ✅ · `eslint` ✅ 0 errors · `next build` ✅ (74 client routes) ·
+`npm run check:fleet` ✅ · runtime + browser verified.
 
 ### Lead pipeline
 The form posts to `/api/lead`, which forwards a normalized, **per-tenant** payload
@@ -176,28 +188,47 @@ An adversarial multi-agent review (6 dimensions — animation, a11y, i18n, multi
 responsive, React — with independent verification of high-severity findings) was run
 against the codebase; all confirmed findings were fixed, including a multi-tenant
 lead-attribution bug, form labelling/contrast, theming leaks, heading order, and
-mobile layout. See `recon`/workflow scripts under `.claude/`.
+mobile layout. Ongoing verification is the deterministic QA harness (`npm run qa:all`)
+plus the fleet integrity check (`npm run check:fleet`).
 
 ## 3. Adding another client
-1. Generate `content/clients/<slug>/copy.json` (bilingual, same shape) + `theme.json` (10 color vars).
-2. Add an entry to `CLIENTS` in `lib/clients.ts` (slug, vertical, emojis, display font).
-3. `npm run build` — the route `/sites/<slug>` is generated automatically.
+All from `site/`:
+
+1. Create `content/clients/<slug>/copy.json` (bilingual, EN/ES structurally identical)
+   + `theme.json` (10 color vars + `concept`).
+2. Add an entry to `CLIENTS` in `lib/clients.ts` (slug, vertical, emojis, display font,
+   JSON-LD type, optional `LAYOUTS` archetype assignment).
+3. Add the slug + vertical key to `CLIENTS` in `scripts/gen_images.py` (add
+   `STYLE`/`HERO`/`ABOUT` prompts if the vertical is new), then
+   `python scripts/gen_images.py` for draft photos — or drop in owner/HQ photos under
+   the 8 slot filenames — and `python scripts/gen_blur.py`.
+4. Add the row to the client table above and to the per-site briefing table in
+   `IMAGES.md`.
+5. `npm run check:fleet` → `npm run build` — the route `/sites/<slug>` is generated
+   automatically. Run `npm run qa:all` against the production server before shipping.
 
 ## Photography
-Hero, gallery, and ambiance images are **AI-generated** per client (Flux via the
-Pollinations HTTP API — no API key) and saved locally to `public/img/<slug>/`, so
-they are build- and offline-safe. **See `IMAGES.md`** for the full slot spec,
-per-register art direction, and prompt recipes for external image AIs
-(ChatGPT/GPT-image, Midjourney, …), plus a per-site briefing table. Gallery prompts are derived from each site's own
-captions so the image matches the caption. Design follows the modern-restaurant
-research: full-bleed hero photography, photo bento gallery, and ambiance collage.
+Hero, gallery, and ambiance images are **AI-generated** per client and saved locally
+to `public/img/<slug>/` (8 slots: `hero` 1536×960, `about` 1000×1000, `g1`–`g6`
+800×800), so they are build- and offline-safe. **See `IMAGES.md`** for the full slot
+spec, per-register art direction, prompt recipes for external image AIs
+(ChatGPT/GPT-image, Midjourney, Grok/Cursor Imagine, …), and the per-site briefing
+table. Gallery prompts are derived from each site's own captions so the image matches
+the caption rendered over it.
 
-Regenerate (sequential, rate-limit-friendly, skips existing):
-```bash
-cd site && python scripts/gen_images.py
-```
+- `scripts/gen_images.py` — the **prompt registry** (`CLIENTS` slug→vertical,
+  `STYLE`/`HERO`/`ABOUT`). Runs Flux via Pollinations (no key), sequential, and
+  **only fills empty slots** — use it for drafts/new clients, not to overwrite
+  finished kits.
+- `scripts/regen_fleet.py --dry-run --force [--slug s | --archetype a | --slots hero]`
+  — lists targeted re-shoot tasks using the researched-aesthetic prompts
+  (`scripts/aesthetic_briefs.json`). Production heroes/abouts should come from a
+  higher-quality generator, then be dropped in under the same filenames.
+- `scripts/gen_blur.py` — regenerate LQIP `blur.json` after **any** image swap.
+- `scripts/check_fleet.py` — every slot present and ≥120KB, registry/docs in sync.
+
 Swap in a client's real photos by dropping files into `public/img/<slug>/` with the
-same names (`hero`, `about`, `g1`–`g6`).
+same names (`hero`, `about`, `g1`–`g6`), then run `gen_blur.py`.
 
 ## Notes & integrity
 - Business **name, address, and phone** come from public OpenStreetMap data.

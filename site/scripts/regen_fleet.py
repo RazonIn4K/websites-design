@@ -41,36 +41,10 @@ QUALITY = (
     "no watermark, no text, no logos, no distorted faces or hands, no AI artifacts"
 )
 
-# Aug 2026 trades + gaps not in legacy CLIENTS list
-EXTRA_VERTICAL: dict[str, str] = {
-    "delts-electric": "electrician",
-    "votaw-plumbing": "plumber",
-}
-
-STYLE["electrician"] = (
-    "professional electrician photography, licensed technician at a labeled residential panel, "
-    "clean garage workshop, natural daylight, ultra detailed, no text"
-)
-STYLE["plumber"] = (
-    "professional plumber photography, service van and residential plumbing work, "
-    "clean trustworthy lighting, ultra detailed, no text"
-)
-HERO["electrician"] = (
-    "cinematic photograph, a licensed electrician in navy work clothes servicing a clean residential breaker panel "
-    "in a bright Midwest garage, blue service van visible through open door, "
-    "wide composition with darker negative space on the left for headline text"
-)
-HERO["plumber"] = (
-    "cinematic photograph, a professional plumber in uniform with a branded service truck parked outside "
-    "a DeKalb Illinois home, copper pipes and clean tools, "
-    "wide composition with darker negative space on the left for headline text"
-)
-ABOUT["electrician"] = (
-    "friendly licensed electrician smiling with arms crossed in a clean bright workshop, approachable local contractor"
-)
-ABOUT["plumber"] = (
-    "friendly local plumber with a service van and tidy tools, trustworthy Midwest residential specialist"
-)
+# Slug -> vertical overrides for anything missing from gen_images.CLIENTS.
+# (The Aug 2026 trades — delts-electric / votaw-plumbing — now live in
+# gen_images.py itself, so this is empty; keep it as the escape hatch.)
+EXTRA_VERTICAL: dict[str, str] = {}
 
 # Craft / authority / editorial refresh — less stock, more people + place
 HERO_OVERRIDES: dict[str, str] = {
@@ -123,9 +97,16 @@ def vertical_for(slug: str) -> str:
     return "restaurant"
 
 
+# copy.json location per slug — the flagship (flamengo) keeps its copy at
+# content/copy.json, everything else under content/clients/<slug>/copy.json.
+COPY_PATH: dict[str, Path] = {c["slug"]: SITE / c["copy"] for c in _gen.CLIENTS}
+
+
 def discover_slugs() -> list[str]:
     root = SITE / "content" / "clients"
-    return sorted(p.name for p in root.iterdir() if p.is_dir() and (p / "copy.json").exists())
+    slugs = {p.name for p in root.iterdir() if p.is_dir() and (p / "copy.json").exists()}
+    slugs |= {slug for slug, path in COPY_PATH.items() if path.exists()}
+    return sorted(slugs)
 
 
 def build_tasks(slugs: list[str], slots: set[str]) -> list[tuple]:
@@ -133,7 +114,7 @@ def build_tasks(slugs: list[str], slots: set[str]) -> list[tuple]:
     seed = 9000
     for slug in slugs:
         vert = vertical_for(slug)
-        copy_path = SITE / "content" / "clients" / slug / "copy.json"
+        copy_path = COPY_PATH.get(slug, SITE / "content" / "clients" / slug / "copy.json")
         data = json.loads(copy_path.read_text(encoding="utf-8"))
         captions = data["en"]["gallery"]["captions"][:6]
         style = STYLE.get(vert, STYLE["restaurant"])
