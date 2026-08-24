@@ -215,10 +215,31 @@ the design system the images must suit (§3a). Palette cue = from each site's
 ## 6. Current status & re-shoot guidance (audited 2026-08-23)
 
 **All 74 sites have complete 8-slot kits (592/592 files), every slot ≥ 120KB.**
-Verify any time with `cd site && python scripts/check_fleet.py`. The live
-re-shoot queue is tracked in [STATUS.md → Best next steps](./STATUS.md); as of
-23 Aug it is four slots (pub-west g5, lord-stanleys g3, mvps-sports-bar g5,
-cast-iron-coffee g1) plus owner photo swaps.
+Verify any time with `cd site && python scripts/check_fleet.py`. Captions and
+photos were audited fleet-wide (24 Aug, all 444 gallery slots) and re-aligned
+by slot permutation + caption rewrites. The remaining **re-shoot queue** (HQ
+generator, same filenames, then `gen_blur.py`) in priority order:
+
+1. **Embedded wrong branding** — votaw-plumbing g6 (baked-in competitor logo
+   "ALL CLEAR DRAIN CLEANING") and g2 (visible third-party water-heater brand);
+   nona-jos g5 (ghosted stock-photo watermark); lovells-tire g3 (baked-in
+   marketing headline).
+2. **Surreal/AI-broken content** — andersons-toyshop g6 (melted toy blobs),
+   suburban-music g3/g5 (warped instrument clones), growing-place g5,
+   pizza-villa g5/g6, sapphire-tattoo g5 (distorted machine), lindsays-cobbler
+   g2, prairie-path-cycles g4.
+3. **Garbled readable text** — andersons-toyshop g1/g2 (box art),
+   yellow-bird-books g1/g4 (spines/covers), riddlebox g5 (countdown digits),
+   delts-electric g5 (breaker labels), friedrichs-eye g6 (kids' chart),
+   lisle-lanes g3, hinks g5 (songbook), wired-nutrition g6 ("PEANUT BUTER"),
+   paw-lickin-good g4 ("YALMON BITES"), kiss-the-sky g5, naperville-running g4,
+   mvps-sports-bar g5.
+4. **Favorites-item gaps** (no matching photo exists in the kit; the Crowd
+   Favorites card shows the item name over a related-but-wrong photo) —
+   pizza-villa g1 (Villa Supreme) & g3 (calzone), fattys-pub g3 (ribs),
+   elite-boba g3 (mango slush), beas-wok g2 (chicken pho), plus pub-west g5
+   (pork tenderloin), lord-stanleys g3 (live music), cast-iron-coffee g1
+   (floating portafilter).
 
 **Caption fidelity rule (learned 23 Aug):** before regenerating a "mismatched"
 gallery image, view the whole kit — most mismatches were kits generated for a

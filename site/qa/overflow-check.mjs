@@ -1,9 +1,11 @@
 /* Horizontal-overflow check (EN) at phone + desktop widths.
  * Any scrollWidth > clientWidth means stray page overflow — on real phones
  * that expands the layout viewport and shrinks the whole site.
+ * Covers every client site PLUS the /sites portfolio explorer (historically a
+ * harness blind spot — it isn't a client slug, so forEachSite never visits it).
  * Usage: node qa/overflow-check.js
  */
-import { launch, forEachSite, urlFor } from "./lib.mjs";
+import { launch, forEachSite, urlFor, BASE } from "./lib.mjs";
 
 const VIEWPORTS = [
   { name: "mobile", width: 390, height: 844 },
@@ -30,6 +32,19 @@ const VIEWPORTS = [
       },
     );
     total += results.length;
+
+    // The /sites catalog page, same viewport
+    const ctx = await browser.newContext({ viewport: { width: vp.width, height: vp.height }, reducedMotion: "reduce", isMobile: vp.width < 800, hasTouch: vp.width < 800 });
+    const page = await ctx.newPage();
+    await page.goto(`${BASE}/sites`, { waitUntil: "domcontentloaded", timeout: 30000 });
+    await page.waitForTimeout(400);
+    const o = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+    if (o > 1) {
+      flagged++;
+      console.log(`FLAG /sites ${vp.name}: overflow=${o}px`);
+    }
+    await ctx.close();
+    total++;
   }
   await browser.close();
   console.log(`\nDONE ${total} checks, ${flagged} flagged`);

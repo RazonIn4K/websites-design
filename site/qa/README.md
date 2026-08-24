@@ -7,11 +7,11 @@ exit non-zero on failures. Override the target with `QA_BASE_URL`.
 
 | Script | What it verifies | Notes |
 | --- | --- | --- |
-| `npm run qa:overflow` | No horizontal page overflow on any site at 390px / 1440px | Overflow expands the mobile layout viewport and shrinks the whole page |
+| `npm run qa:overflow` | No horizontal page overflow on any site — plus the `/sites` catalog — at 390px / 1440px | Overflow expands the mobile layout viewport and shrinks the whole page; `/sites` isn't a client slug, so it was a harness blind spot |
 | `npm run qa:es` | `<html lang>` hydrates to `es` and the longer Spanish copy adds no overflow at 390/768/1440 | Forces the language via the `lbg:lang` localStorage key |
 | `npm run qa:behavior` | Language toggle, menu tabs, nav dialog (open/Escape/focus return), carousel, lead-form submit → success message | Mobile 390; POSTs demo leads to `/api/lead` |
 | `npm run qa:reveal` | Every `.reveal` / `.reveal-clip` element becomes `.is-visible` after real wheel scrolling, **without reduced motion** | Guards the Chromium IO + self-clip deadlock (2026-07): a fully self-clipped element never intersects, so its reveal never fires |
-| `npm run qa:cta` | The hero's primary CTA (`#top a.btn-primary`) is fully above the fold at 390×844 on every site | Reduced motion so hero rise animations don't skew the box; `CTA_FOLD_VIEWPORT=390x740` tests a shorter phone |
+| `npm run qa:cta` | The hero's primary CTA (`#top a.btn-primary`) is fully above the fold at 390×844 on every site | Reduced motion so hero rise animations don't skew the box; `CTA_FOLD_VIEWPORT=390x740` tests a shorter phone; `CTA_FOLD_LANG=es` runs it in Spanish (longer copy sits deeper) |
 | `npm run qa:all` | All of the above | |
 
 ## Hard-won rules for future checks

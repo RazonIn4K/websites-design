@@ -5,11 +5,13 @@
  * business site. Runs with reduced motion so hero rise/reveal animations
  * don't skew the measurement. Set CTA_FOLD_VIEWPORT=390x740 to test a
  * shorter phone (Safari with its toolbars ≈ 740–780px tall).
+ * CTA_FOLD_LANG=es runs the same check in Spanish (longer copy sits deeper).
  * Usage: node qa/cta-fold-check.mjs
  */
 import { launch, forEachSite, urlFor } from "./lib.mjs";
 
 const [W, H] = (process.env.CTA_FOLD_VIEWPORT || "390x844").split("x").map(Number);
+const LANG = process.env.CTA_FOLD_LANG === "es" ? "es" : "en";
 
 (async () => {
   const browser = await launch();
@@ -19,6 +21,13 @@ const [W, H] = (process.env.CTA_FOLD_VIEWPORT || "390x844").split("x").map(Numbe
     browser,
     { viewport: { width: W, height: H }, reducedMotion: "reduce", isMobile: true, hasTouch: true },
     async (slug, page) => {
+      // same shared-context init-script pattern as es-check.mjs
+      if (LANG === "es" && !page.__esInit) {
+        await page.context().addInitScript(() => {
+          try { localStorage.setItem("lbg:lang", "es"); } catch {}
+        });
+        page.__esInit = true;
+      }
       await page.goto(urlFor(slug), { waitUntil: "domcontentloaded", timeout: 30000 });
       await page.waitForTimeout(500);
       const r = await page.evaluate(() => {

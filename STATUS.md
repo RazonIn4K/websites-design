@@ -18,6 +18,24 @@ sites) and what to do next. Product desk / staging kits live in sibling repo
 
 ## What shipped recently (Aug 2026)
 
+### 24 Aug — fleet-wide gallery caption-fidelity pass + QA hardening
+
+- **Vision audit of all 74 sites** (8 parallel agents, 444 gallery slots +
+  the 36-slot café pass on 23 Aug): ~200 slots matched their caption, 139
+  mismatched — almost always a kit generated for a shuffled caption order.
+- **Fixed with zero regeneration:** slot permutations on **36 sites**
+  (flamengo, arcada, a1-auto, cortland-vet, the-montcler, beas-wok, votaw,
+  delts, …) + **103 caption rewrites (EN + ES)** where no photo in the kit fit.
+  Remaps were favorites-aware: on `menu`/`shelf` sites g1–g3 render as Crowd
+  Favorites cards with the item name + price overlaid, so those slots follow
+  the top-3 popular items first, captions second (`carte`/`services` don't
+  render the strip; flamengo has <3 popular items so no strip).
+- **QA hardening:** `/sites` catalog added to `qa:overflow` (was a documented
+  harness blind spot — 150 checks now); `qa:cta` gained `CTA_FOLD_LANG=es`.
+  Spanish CTAs at 390×740 flagged johnny-ks (+48px) and chicago-beauty
+  (+12px) — fixed by tightening their ES hero copy (meaning kept), now 74/74
+  in both languages at 844 and 740.
+
 ### 23 Aug — next-steps pass: CTA fold QA, caption fidelity, hero trim
 
 - **`npm run qa:cta`** (`qa/cta-fold-check.mjs`, now part of `qa:all`): the
@@ -159,10 +177,11 @@ Studio catalog + image audit: sibling repo `node scripts/sync-spec-audit.mjs`
 
 1. **Owner photo swap** — Replace AI kits with phone shots for paid closes;
    keep slot names + run `gen_blur.py`.
-2. **Gallery re-shoots (4 slots)** — pub-west g5 (pork tenderloin), lord-stanleys
-   g3 (live music), mvps g5 (cap lettering defect), cast-iron g1 (portafilter).
-   Caption fidelity is otherwise done for the food/café set (23 Aug); when a
-   slot is re-shot, restore the original caption intent EN + ES.
+2. **Gallery re-shoots** — caption fidelity is now done fleet-wide (24 Aug);
+   what remains is the prioritized defect/re-shoot queue in
+   [IMAGES.md §6](./IMAGES.md) (embedded wrong branding → surreal AI content →
+   garbled text → favorites-item gaps). When a slot is re-shot, restore the
+   original caption intent EN + ES.
 3. **Mobile CTA fold** — done and automated (`npm run qa:cta`, 74/74 at 844
    and at 740). Keep it in `qa:all`; re-run after any hero/spacing change.
 4. **Lead webhook** — Wire `LEAD_WEBHOOK_URL` for production lead capture.
