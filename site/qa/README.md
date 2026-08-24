@@ -11,6 +11,7 @@ exit non-zero on failures. Override the target with `QA_BASE_URL`.
 | `npm run qa:es` | `<html lang>` hydrates to `es` and the longer Spanish copy adds no overflow at 390/768/1440 | Forces the language via the `lbg:lang` localStorage key |
 | `npm run qa:behavior` | Language toggle, menu tabs, nav dialog (open/Escape/focus return), carousel, lead-form submit → success message | Mobile 390; POSTs demo leads to `/api/lead` |
 | `npm run qa:reveal` | Every `.reveal` / `.reveal-clip` element becomes `.is-visible` after real wheel scrolling, **without reduced motion** | Guards the Chromium IO + self-clip deadlock (2026-07): a fully self-clipped element never intersects, so its reveal never fires |
+| `npm run qa:cta` | The hero's primary CTA (`#top a.btn-primary`) is fully above the fold at 390×844 on every site | Reduced motion so hero rise animations don't skew the box; `CTA_FOLD_VIEWPORT=390x740` tests a shorter phone |
 | `npm run qa:all` | All of the above | |
 
 ## Hard-won rules for future checks

@@ -7,11 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "check:fleet": "python scripts/check_fleet.py",
     "qa:overflow": "node qa/overflow-check.mjs",
     "qa:es": "node qa/es-check.mjs",
     "qa:behavior": "node qa/behavior-check.mjs",
     "qa:reveal": "node qa/reveal-check.mjs",
-    "qa:all": "node qa/overflow-check.mjs && node qa/es-check.mjs && node qa/behavior-check.mjs && node qa/reveal-check.mjs"
+    "qa:cta": "node qa/cta-fold-check.mjs",
+    "qa:all": "node qa/overflow-check.mjs && node qa/es-check.mjs && node qa/behavior-check.mjs && node qa/reveal-check.mjs && node qa/cta-fold-check.mjs"
   },
   "dependencies": {
     "motion": "^12.42.2",

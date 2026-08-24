@@ -175,10 +175,12 @@ export function Hero() {
     return (
       <section ref={ref} id="top" className="relative w-full">
         <div className="grid lg:grid-cols-2">
-          <div className="gradient-mesh-anim order-2 flex flex-col justify-center bg-surface px-6 py-10 sm:px-12 lg:order-1 lg:px-12 lg:py-12">
+          <div className="gradient-mesh-anim order-2 flex flex-col justify-center bg-surface px-6 py-10 sm:px-12 lg:order-1 lg:px-12 lg:pb-12 lg:pt-24">
             <HeroCopy className="relative max-w-xl" />
           </div>
-          <div className="relative order-1 min-h-[32vh] max-h-[28rem] overflow-hidden lg:order-2 lg:min-h-[16rem] lg:max-h-none">
+          {/* Mobile photo band: 28vh (was 32vh) keeps the primary CTA above a
+              740px short-phone fold on the longest wellness copy (qa:cta). */}
+          <div className="relative order-1 min-h-[28vh] max-h-[28rem] overflow-hidden lg:order-2 lg:min-h-[16rem] lg:max-h-none">
             <motion.div style={{ y: reduce ? 0 : yImg }} className="absolute inset-x-0 top-0 h-[110%] lg:h-[115%]">
               <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="(min-width:1024px) 50vw, 100vw" className="animate-kenburns object-cover" {...blurProps} />
             </motion.div>
@@ -197,7 +199,7 @@ export function Hero() {
   if (variant === "collage") {
     return (
       <section ref={ref} id="top" className="gradient-mesh-anim relative w-full overflow-x-clip bg-bg">
-        <div className="container-max grid items-center gap-5 pt-10 pb-6 lg:grid-cols-2 lg:gap-6 lg:pt-12">
+        <div className="container-max hero-clear-header grid items-center gap-5 pb-6 lg:grid-cols-2 lg:gap-6">
           <HeroCopy className="relative z-10 max-w-xl" />
 
           {/* Layered photo stack: ghost type at the back, then three polaroids
@@ -253,7 +255,7 @@ export function Hero() {
   if (variant === "arch") {
     return (
       <section ref={ref} id="top" className="gradient-mesh-anim relative w-full overflow-x-clip bg-bg">
-        <div className="container-max grid items-center gap-5 pt-10 pb-6 lg:grid-cols-[1.05fr_0.95fr] lg:gap-6 lg:pt-12">
+        <div className="container-max hero-clear-header grid items-center gap-5 pb-6 lg:grid-cols-[1.05fr_0.95fr] lg:gap-6">
           <HeroCopy className="relative z-10 max-w-xl" />
 
           <div className="relative mx-auto w-full max-w-[16rem] sm:max-w-[18rem]">
@@ -288,7 +290,7 @@ export function Hero() {
     const reserveHref = hasPhone ? `tel:${biz.phoneHref}` : "#visit";
     return (
       <section ref={ref} id="top" className="relative w-full overflow-x-clip bg-bg">
-        <div className="container-max relative z-10 pt-14 text-center sm:pt-16">
+        <div className="container-max hero-clear-header relative z-10 text-center">
           <span className="eyebrow mb-2 inline-flex animate-rise items-center gap-2" style={{ animationDelay: "0ms" }}>
             <Sparkle className="h-3.5 w-3.5" />
             {t.hero.eyebrow}
@@ -347,7 +349,7 @@ export function Hero() {
   if (variant === "split") {
     return (
       <section ref={ref} id="top" className="relative w-full bg-bg">
-        <div className="container-max grid gap-6 py-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-8 lg:py-12">
+        <div className="container-max hero-clear-header grid gap-6 pb-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-8 lg:pb-12">
           <HeroCopy className="max-w-xl lg:py-1" proof="eyebrow" />
           <div className="relative min-h-[16rem] lg:min-h-[16rem]">
             <motion.figure

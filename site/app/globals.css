@@ -357,7 +357,13 @@ html.js .reveal:not(.is-visible) {
 /* overflow-wrap only engages when a single word can't fit the line (long
    Spanish words — "Hamburguesas", "Transformación" — were silently clipped
    at 390px inside overflow-hidden hero panels). */
-.text-display { font-family: var(--font-display); font-size: var(--step-6); line-height: 0.92; letter-spacing: var(--display-tracking, -0.035em); font-weight: 900; font-variation-settings: "opsz" 144, "wght" 900; font-variant-numeric: lining-nums proportional-nums; overflow-wrap: break-word; }
+.text-display { font-family: var(--font-display); font-size: var(--step-6); line-height: 0.92; letter-spacing: var(--display-tracking, -0.035em); font-weight: 900; font-variation-settings: "opsz" 144, "wght" 900; font-variant-numeric: lining-nums proportional-nums; overflow-wrap: anywhere; }
+/* overflow-wrap: anywhere (not break-word) — break-word leaves a grid/flex
+   item's min-content at the width of its longest word, so a long uppercase
+   Spanish word ("HAMBURGUESAS,", "PERFORACIONES") widened the hard-edge split
+   hero column past a 390px viewport (65–71px page overflow) instead of ever
+   wrapping. `anywhere` lets the column stay inside the viewport; the :lang(es)
+   hyphenation below then supplies a real hyphen at the emergency break. */
 /* Spanish-only hyphenation: emergency breaks get a proper hyphen
    ("Recomendacio-/nes") instead of a bare mid-word cut. English headings
    never hyphenate. */
@@ -382,6 +388,14 @@ html.js .reveal:not(.is-visible) {
 
 /* ── Vertical rhythm ── */
 .section { padding-block: var(--section-y); }
+/* Copy-first heroes (split / arch / collage / feast) start at the top of the
+   page under the fixed 4rem glass header. Their inner container clears it plus
+   a breath so the eyebrow/headline is never rendered beneath the nav
+   (regression from the Aug 2026 densify pass: py-10 left 10–26px of copy
+   under the header on every such site). Unlayered on purpose so it wins over
+   the pb-* utilities beside it; editorial's desktop copy column uses lg:pt-24. */
+.hero-clear-header { padding-top: 5.5rem; }
+@media (min-width: 1024px) { .hero-clear-header { padding-top: 6rem; } }
 
 /* ── Button system ── */
 .btn { display: inline-flex; align-items: center; gap: 0.5rem; border-radius: var(--radius-full); font-weight: 600; text-decoration: none; transition: transform 0.25s cubic-bezier(0.22,1,0.36,1), box-shadow 0.25s ease, background-color 0.2s ease, color 0.2s ease; }
