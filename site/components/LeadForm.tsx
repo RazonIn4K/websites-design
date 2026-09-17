@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { useLang } from "@/components/LanguageProvider";
 import { ArrowRight } from "@/components/icons";
 
-type Status = "idle" | "sending" | "success" | "error";
+type Status = "idle" | "sending" | "success" | "error" | "demo";
 
 const field =
   "w-full rounded-lg border border-line bg-bg px-4 py-3 text-ink outline-none transition focus:border-primary focus:ring-2 focus:ring-primary placeholder:text-ink-soft";
@@ -13,7 +13,7 @@ const field =
 const label = "text-sm font-medium text-ink";
 
 export function LeadForm() {
-  const { t, lang, biz, layout } = useLang();
+  const { t, lang, biz, layout, managedSiteId } = useLang();
   const f = t.form;
   const [status, setStatus] = useState<Status>("idle");
   const dateRef = useRef<HTMLInputElement>(null);
@@ -53,10 +53,28 @@ export function LeadForm() {
           date: data.get("date"),
           message: data.get("message"),
           lang,
+          siteId: managedSiteId,
           business: { name: biz.name, city: biz.city, state: biz.state },
         }),
       });
-      if (!res.ok) throw new Error("bad status");
+      const body = (await res.json().catch(() => null)) as {
+        ok?: boolean;
+        mode?: string;
+      } | null;
+      // Demo fleet may still respond mode=demo — never show the success copy.
+      if (res.ok && body?.ok === true && body.mode === "demo") {
+        setStatus("demo");
+        form.reset();
+        return;
+      }
+      const accepted =
+        res.ok &&
+        body?.ok === true &&
+        (body.mode === "forwarded" ||
+          body.mode === "queued" ||
+          body.mode === "stored" ||
+          body.mode === "delivered");
+      if (!accepted) throw new Error("not delivered");
       setStatus("success");
       form.reset();
     } catch {
@@ -134,6 +152,7 @@ export function LeadForm() {
       {/* No-JS parity: tenant identity + locale travel with the form-encoded
           POST. The JS path sends the same values from context in the JSON body. */}
       <input type="hidden" name="lang" value={lang} />
+      {managedSiteId ? <input type="hidden" name="siteId" value={managedSiteId} /> : null}
       <input type="hidden" name="businessName" value={biz.name} />
       <input type="hidden" name="businessCity" value={biz.city} />
       <input type="hidden" name="businessState" value={biz.state} />
@@ -163,6 +182,16 @@ export function LeadForm() {
               className="rounded-lg border border-secondary/30 bg-secondary/15 px-4 py-3 text-sm font-medium text-ink"
             >
               {f.success}
+            </motion.p>
+          )}
+          {status === "demo" && (
+            <motion.p
+              initial={{ opacity: 0, y: -6 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0 }}
+              className="rounded-lg border border-line bg-surface px-4 py-3 text-sm font-medium text-ink"
+            >
+              Demo only — this inquiry was not delivered to a pipeline. Set LEAD_WEBHOOK_URL for real delivery.
             </motion.p>
           )}
         </AnimatePresence>
