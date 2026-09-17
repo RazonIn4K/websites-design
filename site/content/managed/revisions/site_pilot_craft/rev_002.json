@@ -1,7 +1,7 @@
 {
-  "id": "rev_001",
+  "id": "rev_002",
   "siteId": "site_pilot_craft",
-  "createdAt": "2026-09-17T00:00:00.000Z",
+  "createdAt": "2026-09-17T01:00:00.000Z",
   "createdBy": "operator",
   "layout": {
     "archetype": "craft",
@@ -20,23 +20,23 @@
     "kitRef": "a1-auto",
     "overrides": {
       "business": {
-        "name": "Pilot Craft Auto (v1)",
+        "name": "Pilot Craft Auto",
         "shortName": "Pilot Craft",
-        "vertical": "Managed publish pilot — revision 1"
+        "vertical": "Managed publish pilot — active revision"
       },
       "en": {
         "meta": {
-          "title": "Pilot Craft Auto (v1) — Managed publish rollback base",
-          "description": "Published revision 1 for managed-platform rollback proof."
+          "title": "Pilot Craft Auto — Managed publish pilot",
+          "description": "Active published revision for the managed-platform pilot site."
         }
       },
       "es": {
         "meta": {
-          "title": "Pilot Craft Auto (v1) — Base de rollback",
-          "description": "Revisión publicada 1 para prueba de rollback."
+          "title": "Pilot Craft Auto — Piloto de publicación",
+          "description": "Revisión publicada activa del sitio piloto."
         }
       }
     }
   },
-  "label": "Initial pilot publication"
+  "label": "Customer-approved copy v2 (active)"
 }

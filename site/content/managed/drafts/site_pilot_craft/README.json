@@ -1,0 +1,6 @@
+{
+  "note": "Draft kits are never served on verified customer hostnames. This placeholder documents the draft boundary; ContentAdapter only returns active PublishedRevision snapshots.",
+  "siteId": "site_pilot_craft",
+  "status": "draft",
+  "unpublishedBusinessName": "Pilot Craft Auto (DRAFT — do not serve)"
+}
