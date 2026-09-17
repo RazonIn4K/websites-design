@@ -11,6 +11,14 @@ import { getDomain, normalizeHostname } from "@/lib/platform/registry";
 
 const PASSTHROUGH_PREFIXES = ["/sites", "/api", "/_next", "/img", "/favicon", "/robots", "/sitemap"];
 
+/** Metadata/icon routes that must map to /m/<siteId>/… on customer hosts (not flagship). */
+const MANAGED_META_PATHS = new Set([
+  "/opengraph-image",
+  "/twitter-image",
+  "/icon",
+  "/apple-icon",
+]);
+
 export function proxy(request: NextRequest) {
   const hostHeader = request.headers.get("host") ?? "";
   const hostname = normalizeHostname(hostHeader);
@@ -34,9 +42,15 @@ export function proxy(request: NextRequest) {
   }
 
   // Customer hostname: serve managed site at `/` (and nested paths) via rewrite.
+  // Meta image routes rewrite to /m/<siteId>/opengraph-image (dedicated route).
   const url = request.nextUrl.clone();
-  const suffix = pathname === "/" ? "" : pathname;
-  url.pathname = `/m/${domain.siteId}${suffix}`;
+  if (pathname === "/" ) {
+    url.pathname = `/m/${domain.siteId}`;
+  } else if (MANAGED_META_PATHS.has(pathname) || pathname.startsWith("/opengraph-image")) {
+    url.pathname = `/m/${domain.siteId}${pathname}`;
+  } else {
+    url.pathname = `/m/${domain.siteId}${pathname}`;
+  }
 
   const requestHeaders = new Headers(request.headers);
   requestHeaders.set("x-managed-site-id", domain.siteId);

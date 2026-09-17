@@ -43,6 +43,15 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     ? published.canonicalOrigin
     : `/m/${siteId}`;
 
+  const assetBase =
+    published.canonicalOrigin ||
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    "http://localhost:3000";
+  // On a customer host, /opengraph-image is rewritten to this site's OG route.
+  const ogImageUrl = published.canonicalOrigin
+    ? `${published.canonicalOrigin}/opengraph-image`
+    : `${assetBase}/m/${siteId}/opengraph-image`;
+
   return {
     title: published.siteContent.en.meta.title,
     description: published.siteContent.en.meta.description,
@@ -55,11 +64,13 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       locale: "en_US",
       alternateLocale: "es_US",
       siteName: published.siteContent.business.name,
+      images: [{ url: ogImageUrl, width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
       title: published.siteContent.en.meta.title,
       description: published.siteContent.en.meta.description,
+      images: [ogImageUrl],
     },
   };
 }

@@ -38,7 +38,9 @@ Proxy rewrites verified+enabled hosts to `/m/<siteId>`.
 ## Lead pipeline
 
 1. Resolve site from `Host` (preferred) or managed `siteId`.
-2. Persist under `.data/leads/<siteId>/` (tenant-isolated). On Vercel this is ephemeral until Postgres/Payload — durable store UNKNOWN.
+2. Persist under `.data/leads/<siteId>/` when writable; on Vercel use `/tmp` then
+   in-memory fallback so a read-only FS never blocks webhook delivery. Durable
+   store UNKNOWN until Postgres/Payload.
 3. Attempt webhook delivery; failures set `deliveryStatus=failed|dead` with `nextRetryAt`.
 4. Production-like paths **never** return `{ ok: true, mode: "demo" }`.
 
