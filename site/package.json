@@ -13,7 +13,8 @@
     "qa:behavior": "node qa/behavior-check.mjs",
     "qa:reveal": "node qa/reveal-check.mjs",
     "qa:cta": "node qa/cta-fold-check.mjs",
-    "qa:all": "node qa/overflow-check.mjs && node qa/es-check.mjs && node qa/behavior-check.mjs && node qa/reveal-check.mjs && node qa/cta-fold-check.mjs"
+    "qa:all": "node qa/overflow-check.mjs && node qa/es-check.mjs && node qa/behavior-check.mjs && node qa/reveal-check.mjs && node qa/cta-fold-check.mjs",
+    "test:managed": "npx tsx scripts/test-managed-platform.ts"
   },
   "dependencies": {
     "motion": "^12.42.2",
