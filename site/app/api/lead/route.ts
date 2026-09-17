@@ -9,7 +9,7 @@
  *   form UI must not treat that as delivery success.
  */
 
-import { attemptDelivery } from "@/lib/platform/leads/delivery";
+import { attemptDelivery, deliverLead } from "@/lib/platform/leads/delivery";
 import { resolveLeadSite } from "@/lib/platform/leads/identity";
 import { createLeadId, persistLead } from "@/lib/platform/leads/store";
 import type { StoredLead } from "@/lib/platform/types";
@@ -196,14 +196,12 @@ export async function POST(request: Request) {
     updatedAt: now,
   };
 
-  try {
-    persistLead(lead);
-  } catch (err) {
-    console.error("[lead] persist failed owner=razonworks-ops", err);
-    if (isFormPost) return redirectBack(request);
-    return Response.json(
-      { ok: false, error: "Could not store the lead.", mode: "undelivered" },
-      { status: 500 },
+  // Persist with FS → /tmp → memory fallback. Never block webhook delivery on
+  // read-only Vercel cwd; still never claim demo-success on prod-like paths.
+  const { backend } = persistLead(lead);
+  if (backend === "memory") {
+    console.warn(
+      `[lead] persisted in-memory only (FS unavailable) site=${lead.siteId} lead=${lead.id} owner=razonworks-ops`,
     );
   }
 
@@ -211,11 +209,27 @@ export async function POST(request: Request) {
     // Managed preview without webhook should not reach here (productionLike guard),
     // but keep an honest stored response if ALLOW path exists.
     if (isFormPost) return redirectBack(request);
-    return Response.json({ ok: true, mode: "stored", leadId: lead.id, siteId: lead.siteId });
+    return Response.json({
+      ok: true,
+      mode: "stored",
+      leadId: lead.id,
+      siteId: lead.siteId,
+      persistBackend: backend,
+    });
   }
 
-  const after = await attemptDelivery(lead.siteId, lead.id);
-  const status = after?.deliveryStatus ?? "failed";
+  // Prefer store-backed attempt (updates deliveryStatus); if that cannot load
+  // the lead, deliver the in-memory object directly.
+  let status = (await attemptDelivery(lead.siteId, lead.id))?.deliveryStatus;
+  if (!status) {
+    const result = await deliverLead(lead);
+    status = result.ok ? "delivered" : "failed";
+    if (!result.ok) {
+      console.error(
+        `[lead] delivery failed without durable store lead=${lead.id} site=${lead.siteId} error=${result.error} owner=razonworks-ops`,
+      );
+    }
+  }
 
   if (status === "delivered") {
     if (isFormPost) return redirectBack(request);
@@ -224,6 +238,7 @@ export async function POST(request: Request) {
       mode: "delivered",
       leadId: lead.id,
       siteId: lead.siteId,
+      persistBackend: backend,
     });
   }
 
@@ -235,11 +250,12 @@ export async function POST(request: Request) {
   return Response.json(
     {
       ok: false,
-      error: "Lead stored but delivery failed; queued for retry.",
+      error: "Lead accepted for delivery but webhook failed; queued for retry when store allows.",
       mode: "queued",
       leadId: lead.id,
       siteId: lead.siteId,
       deliveryStatus: status,
+      persistBackend: backend,
     },
     { status: 502 },
   );

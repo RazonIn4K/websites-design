@@ -10,4 +10,5 @@ export {
   listLeadsForSite,
   updateLeadDelivery,
   listRetryableLeads,
+  resetLeadStoreForTests,
 } from "./store";
