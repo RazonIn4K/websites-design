@@ -1,0 +1,16 @@
+[
+  {
+    "hostname": "pilot.managed.localhost",
+    "siteId": "site_pilot_craft",
+    "verification": "verified",
+    "enabled": true,
+    "notes": "Local/test mapping only. Replace with David's approved test domain via MANAGED_DOMAIN_MAP or this file after DNS/TLS. Vercel project ID: UNKNOWN."
+  },
+  {
+    "hostname": "pilot-craft.example.test",
+    "siteId": "site_pilot_craft",
+    "verification": "pending",
+    "enabled": false,
+    "notes": "Placeholder — enable after David verifies DNS. Do not invent a live domain."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "site_pilot_craft",
+    "slug": "pilot-craft",
+    "templateId": "tmpl_craft_services",
+    "status": "published",
+    "displayName": "Pilot Craft Auto",
+    "activePublishedRevisionId": "rev_002",
+    "publishedRevisionIds": ["rev_001", "rev_002"],
+    "draftKitPath": "content/managed/drafts/site_pilot_craft",
+    "createdAt": "2026-09-17T00:00:00.000Z",
+    "updatedAt": "2026-09-17T00:00:00.000Z"
+  }
+]
