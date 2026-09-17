@@ -1,20 +1,18 @@
 /**
- * Decoupled lead-capture endpoint.
+ * Lead-capture endpoint (managed-publish hardened).
  *
- * Accepts contact/reservation submissions and forwards a normalized payload to
- * an automated deal pipeline. Point LEAD_WEBHOOK_URL at an n8n webhook, a Cloud
- * Run service, or a FastAPI endpoint. If it is unset, the lead is logged and
- * accepted so the form works out-of-the-box in demo mode.
- *
- * Two content types share one pipeline:
- * - JSON (the hydrated client fetch) — responses are JSON, unchanged contract.
- * - form-encoded / multipart (the no-JS <form action> fallback) — every
- *   outcome answers with a 303 redirect back to the referring page's #lead
- *   anchor, because a static no-JS page has no way to render a response body.
- *
- * Multi-tenant: the submitting site sends its own business identity in the body
- * so leads route to the correct tenant (not a hardcoded business).
+ * - Site identity from Host → Domain → Site (or verified managed siteId), not
+ *   trust-only body business fields.
+ * - Persist first; delivery is a separate attempt with retry hooks.
+ * - Production-like / managed paths never return { ok: true, mode: "demo" }.
+ * - Demo fleet (/sites/* without managed mapping) may still log-only, but the
+ *   form UI must not treat that as delivery success.
  */
+
+import { attemptDelivery } from "@/lib/platform/leads/delivery";
+import { resolveLeadSite } from "@/lib/platform/leads/identity";
+import { createLeadId, persistLead } from "@/lib/platform/leads/store";
+import type { StoredLead } from "@/lib/platform/types";
 
 export const runtime = "nodejs";
 
@@ -26,11 +24,18 @@ interface LeadInput {
   date?: string;
   message?: string;
   lang?: string;
+  siteId?: string;
   business?: { name?: string; city?: string; state?: string };
 }
 
 function isEmail(v: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+}
+
+function requestHostname(request: Request): string | null {
+  const forwarded = request.headers.get("x-forwarded-host");
+  const host = forwarded || request.headers.get("host");
+  return host;
 }
 
 /**
@@ -72,8 +77,6 @@ export async function POST(request: Request) {
       return typeof v === "string" ? v : "";
     };
 
-    // Honeypot — the no-JS path has no client-side check, so enforce it here.
-    // Pretend-accept (redirect back) so bots learn nothing.
     if (text("company").trim()) {
       console.info("[lead] honeypot tripped — dropping form submission");
       return redirectBack(request);
@@ -87,6 +90,7 @@ export async function POST(request: Request) {
       date: text("date"),
       message: text("message"),
       lang: text("lang"),
+      siteId: text("siteId") || undefined,
       business: {
         name: text("businessName"),
         city: text("businessCity"),
@@ -105,10 +109,6 @@ export async function POST(request: Request) {
   const email = body.email?.trim() ?? "";
   const phone = body.phone?.trim() ?? "";
 
-  // Require a name plus at least one usable contact channel. Form mode answers
-  // every validation failure with the same redirect: the static page cannot
-  // display a response body, and the browser's built-in validation (required
-  // name, type=email) already catches these before a no-JS submit.
   if (name.length < 2) {
     if (isFormPost) return redirectBack(request);
     return Response.json({ ok: false, error: "A name is required." }, { status: 422 });
@@ -125,13 +125,22 @@ export async function POST(request: Request) {
     return Response.json({ ok: false, error: "Invalid email address." }, { status: 422 });
   }
 
-  const lead = {
+  const headerSiteId = request.headers.get("x-managed-site-id");
+  const resolved = resolveLeadSite({
+    hostname: requestHostname(request),
+    bodySiteId: body.siteId || headerSiteId,
+    bodyBusiness: body.business,
+  });
+
+  if ("error" in resolved) {
+    if (isFormPost) return redirectBack(request);
+    return Response.json({ ok: false, error: resolved.error }, { status: resolved.status });
+  }
+
+  const receivedAt = new Date().toISOString();
+  const payload = {
     source: "website",
-    business: {
-      name: body.business?.name?.trim() || "Unknown",
-      city: body.business?.city?.trim() || "",
-      state: body.business?.state?.trim() || "",
-    },
+    business: resolved.business,
     contact: { name, email, phone },
     reservation: {
       partySize: body.partySize?.trim() ?? "",
@@ -139,7 +148,7 @@ export async function POST(request: Request) {
     },
     message: body.message?.trim() ?? "",
     locale: body.lang === "es" ? "es" : "en",
-    receivedAt: new Date().toISOString(),
+    receivedAt,
     meta: {
       userAgent: request.headers.get("user-agent") ?? "",
       referer: request.headers.get("referer") ?? "",
@@ -147,45 +156,91 @@ export async function POST(request: Request) {
   };
 
   const webhook = process.env.LEAD_WEBHOOK_URL;
+  const isDemoTenant = resolved.siteId === "demo";
 
-  if (!webhook) {
-    // Demo mode: no pipeline wired up yet. Accept and log.
-    console.info("[lead] (demo mode — set LEAD_WEBHOOK_URL to forward)", JSON.stringify(lead));
+  // Production-like / managed: never masquerade undelivered as success.
+  if (resolved.productionLike && !webhook) {
+    console.error(
+      "[lead] REJECTED production-like path without LEAD_WEBHOOK_URL owner=razonworks-ops",
+      JSON.stringify({ siteId: resolved.siteId, hostname: resolved.hostname }),
+    );
+    if (isFormPost) return redirectBack(request);
+    return Response.json(
+      {
+        ok: false,
+        error: "Lead delivery is not configured for this site.",
+        mode: "undelivered",
+      },
+      { status: 503 },
+    );
+  }
+
+  // Demo fleet without webhook: log only — client must not show success copy.
+  if (isDemoTenant && !webhook) {
+    console.info("[lead] (demo mode — set LEAD_WEBHOOK_URL to forward)", JSON.stringify(payload));
     if (isFormPost) return redirectBack(request);
     return Response.json({ ok: true, mode: "demo" });
   }
 
+  // Persist managed (and demo-with-webhook) leads with tenant isolation.
+  const now = receivedAt;
+  const lead: StoredLead = {
+    id: createLeadId(),
+    siteId: resolved.siteId,
+    hostname: resolved.hostname,
+    revisionId: resolved.revisionId,
+    payload,
+    deliveryStatus: webhook ? "queued" : "stored",
+    deliveryAttempts: 0,
+    createdAt: now,
+    updatedAt: now,
+  };
+
   try {
-    const res = await fetch(webhook, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        ...(process.env.LEAD_WEBHOOK_TOKEN
-          ? { Authorization: `Bearer ${process.env.LEAD_WEBHOOK_TOKEN}` }
-          : {}),
-      },
-      body: JSON.stringify(lead),
-      // Don't hang the user's request on a slow pipeline.
-      signal: AbortSignal.timeout(8000),
-    });
-
-    if (!res.ok) {
-      console.error("[lead] webhook responded", res.status);
-      if (isFormPost) return redirectBack(request);
-      return Response.json(
-        { ok: false, error: "Pipeline rejected the lead." },
-        { status: 502 },
-      );
-    }
-
-    if (isFormPost) return redirectBack(request);
-    return Response.json({ ok: true, mode: "forwarded" });
+    persistLead(lead);
   } catch (err) {
-    console.error("[lead] webhook error", err);
+    console.error("[lead] persist failed owner=razonworks-ops", err);
     if (isFormPost) return redirectBack(request);
     return Response.json(
-      { ok: false, error: "Could not reach the pipeline." },
-      { status: 502 },
+      { ok: false, error: "Could not store the lead.", mode: "undelivered" },
+      { status: 500 },
     );
   }
+
+  if (!webhook) {
+    // Managed preview without webhook should not reach here (productionLike guard),
+    // but keep an honest stored response if ALLOW path exists.
+    if (isFormPost) return redirectBack(request);
+    return Response.json({ ok: true, mode: "stored", leadId: lead.id, siteId: lead.siteId });
+  }
+
+  const after = await attemptDelivery(lead.siteId, lead.id);
+  const status = after?.deliveryStatus ?? "failed";
+
+  if (status === "delivered") {
+    if (isFormPost) return redirectBack(request);
+    return Response.json({
+      ok: true,
+      mode: "delivered",
+      leadId: lead.id,
+      siteId: lead.siteId,
+    });
+  }
+
+  // Stored + failed delivery is visible/retryable — do not claim success.
+  console.error(
+    `[lead] delivery ${status} lead=${lead.id} site=${lead.siteId} owner=razonworks-ops`,
+  );
+  if (isFormPost) return redirectBack(request);
+  return Response.json(
+    {
+      ok: false,
+      error: "Lead stored but delivery failed; queued for retry.",
+      mode: "queued",
+      leadId: lead.id,
+      siteId: lead.siteId,
+      deliveryStatus: status,
+    },
+    { status: 502 },
+  );
 }
