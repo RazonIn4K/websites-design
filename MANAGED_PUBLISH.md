@@ -29,11 +29,13 @@ Uses Next.js `proxy.ts` (renamed from deprecated `middleware`) plus
 `domains.json` / optional env:
 
 ```bash
-MANAGED_DOMAIN_MAP=pilot.example.com:site_pilot_craft
+MANAGED_DOMAIN_MAP=your.test.host:site_pilot_craft
 ```
 
-Proxy rewrites verified+enabled hosts to `/m/<siteId>`.  
-**Live Vercel domain attach:** UNKNOWN project ID — needs David.
+Proxy rewrites verified+enabled hosts to `/m/<siteId>`.
+
+**Vercel project:** `prj_p3yXTA3YM7m6kxdXbuBlhDbOTYAT` (`websites-design`) on team `razs-projects-29d4f2e6` (**hobby**).  
+SSO: `all_except_custom_domains` — attach an approved custom host to unlock unauthenticated lead/operator smoke.
 
 ## Lead pipeline
 
@@ -48,12 +50,14 @@ Env:
 
 | Variable | Purpose |
 | -------- | ------- |
+| `NEXT_PUBLIC_SITE_URL` | Canonical / asset origin |
 | `LEAD_WEBHOOK_URL` | Delivery target |
 | `LEAD_WEBHOOK_TOKEN` | Optional bearer |
 | `LEAD_STORE_DIR` | Override persist root |
 | `MANAGED_REQUIRE_DELIVERY=1` | Force fail-closed without webhook |
 | `ALLOW_LEAD_DEMO_MODE=1` | Allow log-only demo on production NODE_ENV for `/sites/*` prospect fleet |
 | `OPERATOR_PUBLISH_TOKEN` | Publish / rollback / lead retry |
+| `MANAGED_DOMAIN_MAP` | `host:siteId` overrides/extends `domains.json` |
 
 ## Silent-failure owners
 
@@ -69,7 +73,8 @@ Env:
 - Template: `tmpl_craft_services` (craft archetype, `a1-auto` kit shape)
 - Site: `site_pilot_craft` / slug `pilot-craft`
 - Revisions: `rev_001` (rollback base), `rev_002` (active)
-- Test host mapping: `pilot.managed.localhost` (local only)
+- Local mapping: `pilot.managed.localhost` (verified in `domains.json`)
+- Tip (draft PR #3): `ac7d57e` · preview deploy READY
 
 ## Rollback (operator)
 
@@ -82,14 +87,13 @@ curl -X POST "$ORIGIN/api/operator/rollback" \
 
 Overlays are process-local until Payload/Postgres; committed `sites.json` is the durable default on cold start.
 
-## Needs David (blocked for live attach)
+## Still needs David (live prove)
 
-1. **GitHub:** grant Cursor GitHub App write on `RazonIn4K/websites-design` (cloud install currently only has `razonworks-studio`) so the draft PR can be pushed
-2. Approved test hostname + DNS
-3. **Vercel:** create/link a project for `websites-design` — as of 2026-09-17 none exists under team `razs-projects-29d4f2e6` (`team_beZmg9993FuuEcaP00QH8Vdy`). Team plan is **hobby** (commercial plan still required for paid managed A)
-4. `LEAD_WEBHOOK_URL` (+ token) for real delivery
-5. `OPERATOR_PUBLISH_TOKEN` for publish/rollback
-6. Whether production demo fleet keeps `ALLOW_LEAD_DEMO_MODE=1` (required if `/sites/*` should still accept log-only leads under `next start` / production)
-7. Durable lead store choice (Postgres via Payload step 3 vs other)
+1. Confirm Vercel env vars are set on this project and **redeploy** the PR branch so they bind
+2. Confirm the approved test hostname appears under project Domains (API still shows only `*.vercel.app` aliases) and `MANAGED_DOMAIN_MAP` / `domains.json` maps it → `site_pilot_craft`
+3. Prove on that host: lead without webhook fails; with webhook delivers; operator rollback to `rev_001`
+4. Commercial plan before selling managed A (still **hobby**)
+5. Durable lead store (Payload/Postgres step 3)
+6. Review/merge draft PR #3 when 1–3 are green
 
 See also `site/.env.example`.

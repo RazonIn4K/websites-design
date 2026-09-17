@@ -4,13 +4,13 @@
     "siteId": "site_pilot_craft",
     "verification": "verified",
     "enabled": true,
-    "notes": "Local/test mapping only. Replace with David's approved test domain via MANAGED_DOMAIN_MAP or this file after DNS/TLS. Vercel project ID: UNKNOWN."
+    "notes": "Local/test mapping only. Live attach: Vercel project prj_p3yXTA3YM7m6kxdXbuBlhDbOTYAT. Prefer MANAGED_DOMAIN_MAP for the approved host until this file is updated."
   },
   {
     "hostname": "pilot-craft.example.test",
     "siteId": "site_pilot_craft",
     "verification": "pending",
     "enabled": false,
-    "notes": "Placeholder — enable after David verifies DNS. Do not invent a live domain."
+    "notes": "Placeholder only — do not invent a live domain. Enable after David verifies DNS on the Vercel project."
   }
 ]
