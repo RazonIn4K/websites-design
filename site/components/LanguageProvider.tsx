@@ -25,6 +25,8 @@ interface LanguageCtx {
   blur: Record<string, string>;
   /** Per-client layout variant flags (empty = default composition). */
   layout: SiteLayout;
+  /** Managed site id when rendering /m/<siteId> (not demo /sites/*). */
+  managedSiteId?: string;
 }
 
 const Ctx = createContext<LanguageCtx | null>(null);
@@ -37,6 +39,7 @@ export function LanguageProvider({
   emojis = DEFAULT_EMOJIS,
   blur = {},
   layout = {},
+  managedSiteId,
   children,
 }: {
   site: SiteContent;
@@ -44,6 +47,7 @@ export function LanguageProvider({
   emojis?: string[];
   blur?: Record<string, string>;
   layout?: SiteLayout;
+  managedSiteId?: string;
   children: React.ReactNode;
 }) {
   const [lang, setLangState] = useState<Lang>("en");
@@ -104,7 +108,19 @@ export function LanguageProvider({
 
   return (
     <Ctx.Provider
-      value={{ lang, setLang, toggle, t, biz, emojis, hasPhone: Boolean(biz.phone), imgBase: `/img/${slug}`, blur, layout }}
+      value={{
+        lang,
+        setLang,
+        toggle,
+        t,
+        biz,
+        emojis,
+        hasPhone: Boolean(biz.phone),
+        imgBase: `/img/${slug}`,
+        blur,
+        layout,
+        managedSiteId,
+      }}
     >
       {children}
     </Ctx.Provider>
