@@ -60,8 +60,15 @@ export function rollbackPublication(
 
   let target = toRevisionId;
   if (!target) {
-    const history = site.publishedRevisionIds.filter((id) => id !== site.activePublishedRevisionId);
-    target = history[history.length - 1];
+    // Step to the revision immediately before the active one in publish order.
+    // Do NOT pick "last non-active" — that can re-activate a newer id after
+    // one rollback (roll forward).
+    const ids = site.publishedRevisionIds;
+    const idx = ids.indexOf(site.activePublishedRevisionId);
+    if (idx <= 0) {
+      throw new PublishError("No prior revision available for rollback", "invalid");
+    }
+    target = ids[idx - 1];
   }
   if (!target) {
     throw new PublishError("No prior revision available for rollback", "invalid");
