@@ -11,7 +11,12 @@ site/next-env.d.ts
 # env & secrets (never commit)
 .env
 .env.*
+!.env.example
+!site/.env.example
 *.pem
+
+# managed lead store (local / ephemeral)
+site/.data/
 
 # OS / editor noise
 .DS_Store
