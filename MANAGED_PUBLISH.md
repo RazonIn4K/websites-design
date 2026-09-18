@@ -85,7 +85,73 @@ curl -X POST "$ORIGIN/api/operator/rollback" \
   -d '{"siteId":"site_pilot_craft","toRevisionId":"rev_001"}'
 ```
 
-Overlays are process-local until Payload/Postgres; committed `sites.json` is the durable default on cold start.
+Response includes `durableWriteConfigured: true` when Edge Config is set up.
+
+## Durable active-revision state
+
+Active revision is persisted to **Vercel Edge Config** so that operator rollback is visible across all serverless instances.
+
+### How it works
+
+1. **Write path**: When `/api/operator/rollback` (or `/publish`) activates a revision, it writes to:
+   - Process-local overlay (immediate, for the responding instance)
+   - Vercel Edge Config (durable, globally replicated in ~50ms)
+
+2. **Read path**: When a page renders, it reads active revision from:
+   - Edge Config (if `EDGE_CONFIG` is set) — preferred, cross-instance
+   - Process-local overlay (fallback for dev)
+   - Committed `sites.json` (cold-start fallback when Edge Config is empty)
+
+3. **Cold start**: New instances always read from Edge Config first; committed JSON is only used when the durable store has no entry for the site.
+
+### Setup on Vercel
+
+1. **Create Edge Config**: Vercel Dashboard → Storage → Create → Edge Config → name it (e.g. `managed-state`).
+
+2. **Link to project**: In the Edge Config settings, link it to `websites-design` project. This auto-populates `GLOBAL_CONFIG` (or `EDGE_CONFIG` on older setups — both work).
+
+3. **Add write credentials** (env vars on Vercel project):
+
+   | Variable | Value | Scope |
+   | -------- | ----- | ----- |
+   | `GLOBAL_CONFIG` | (auto-linked) | All |
+   | `EDGE_CONFIG_ID` | `ecfg_...` from Edge Config settings | All |
+   | `VERCEL_API_TOKEN` | API token with write access | Production + Preview |
+   | `VERCEL_TEAM_ID` | (optional) Team ID if not hobby | All |
+
+   Note: `EDGE_CONFIG` is a legacy alias for `GLOBAL_CONFIG` — either works for reads.
+
+4. **Redeploy** so the new env vars bind.
+
+### Re-prove rollback works (operator test)
+
+```bash
+# Rollback to rev_001 (should show title with "(v1)" or "rollback base")
+curl -X POST "https://managed.razonworks.com/api/operator/rollback" \
+  -H "Authorization: Bearer $OPERATOR_PUBLISH_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"siteId":"site_pilot_craft","toRevisionId":"rev_001"}'
+
+# Verify durableWriteConfigured: true in response
+# Then refresh https://managed.razonworks.com — title should contain "(v1)"
+
+# Restore rev_002
+curl -X POST "https://managed.razonworks.com/api/operator/rollback" \
+  -H "Authorization: Bearer $OPERATOR_PUBLISH_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"siteId":"site_pilot_craft","toRevisionId":"rev_002"}'
+
+# Refresh — title should be "Pilot Craft Auto — Managed publish pilot"
+```
+
+### Fallback behavior
+
+| GLOBAL_CONFIG / EDGE_CONFIG | Behavior |
+| --------------------------- | -------- |
+| Set | Reads from Edge Config; falls back to sites.json if key missing |
+| Unset | Reads from process overlay → sites.json (single-instance only) |
+
+Local dev without Edge Config works as before — rollback is transient per process.
 
 ## Still needs David (live prove)
 

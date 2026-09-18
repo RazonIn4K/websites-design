@@ -1,10 +1,14 @@
 /**
  * Operator publish API — token-gated, no public signup.
  * POST { siteId, label?, activate?, overrides? }
- * Requires OPERATOR_PUBLISH_TOKEN (UNKNOWN until David sets it).
+ * Requires OPERATOR_PUBLISH_TOKEN.
+ *
+ * Uses async publish that persists to Vercel Edge Config when configured,
+ * ensuring the active revision is durable across serverless instances.
  */
 
-import { createPublishedRevision, PublishError } from "@/lib/platform/publish";
+import { createPublishedRevisionAsync, PublishError } from "@/lib/platform/publish";
+import { isDurableWriteConfigured } from "@/lib/platform/durable-state";
 
 export const runtime = "nodejs";
 
@@ -37,7 +41,7 @@ export async function POST(request: Request) {
     siteId?: string;
     label?: string;
     activate?: boolean;
-    overrides?: Parameters<typeof createPublishedRevision>[0]["overrides"];
+    overrides?: Parameters<typeof createPublishedRevisionAsync>[0]["overrides"];
   };
   try {
     body = await request.json();
@@ -50,7 +54,7 @@ export async function POST(request: Request) {
   }
 
   try {
-    const result = createPublishedRevision({
+    const result = await createPublishedRevisionAsync({
       siteId: body.siteId,
       label: body.label,
       activate: body.activate !== false,
@@ -62,6 +66,7 @@ export async function POST(request: Request) {
       revisionId: result.revision.id,
       activePublishedRevisionId: result.site.activePublishedRevisionId,
       siteId: result.site.id,
+      durableWriteConfigured: isDurableWriteConfigured(),
     });
   } catch (err) {
     if (err instanceof PublishError) {

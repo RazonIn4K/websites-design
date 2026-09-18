@@ -7,14 +7,19 @@ import type {
   SiteRecord,
   TemplateRecord,
 } from "@/lib/platform/types";
+import { getDurableActiveRevision, isDurableReadConfigured } from "@/lib/platform/durable-state";
 
 /**
  * In-repo managed registry (JSON kits first). Payload can later implement the
  * same read surface without changing the adapter contract.
  *
- * Runtime publish/rollback mutates an in-memory overlay on top of committed
- * JSON so serverless instances can exercise activate/rollback in a single
- * process (durable CMS is step 3).
+ * Active revision lookup priority:
+ * 1. Vercel Edge Config (durable, cross-instance) — when EDGE_CONFIG is set
+ * 2. Process-local overlay (transient, for tests and single-instance dev)
+ * 3. Committed sites.json (cold-start fallback)
+ *
+ * On Vercel, operator rollback writes to Edge Config; every subsequent request
+ * reads the durable state, ensuring visible content switch across all instances.
  */
 
 const templates = templatesJson as TemplateRecord[];
@@ -48,8 +53,50 @@ export function getSite(id: string): SiteRecord | undefined {
   return cloneSites().find((s) => s.id === id);
 }
 
+/**
+ * Async site lookup that checks the durable store for the active revision.
+ * Use this in SSR/API routes where the extra await is acceptable.
+ * Falls back to sites.json when Edge Config is unconfigured or empty.
+ */
+export async function getSiteAsync(id: string): Promise<SiteRecord | undefined> {
+  const base = getSite(id);
+  if (!base) return undefined;
+
+  if (isDurableReadConfigured()) {
+    const durableRevisionId = await getDurableActiveRevision(id);
+    if (durableRevisionId) {
+      return {
+        ...base,
+        activePublishedRevisionId: durableRevisionId,
+      };
+    }
+  }
+
+  return base;
+}
+
 export function getSiteBySlug(slug: string): SiteRecord | undefined {
   return cloneSites().find((s) => s.slug === slug);
+}
+
+/**
+ * Async slug lookup that checks the durable store for the active revision.
+ */
+export async function getSiteBySlugAsync(slug: string): Promise<SiteRecord | undefined> {
+  const base = getSiteBySlug(slug);
+  if (!base) return undefined;
+
+  if (isDurableReadConfigured()) {
+    const durableRevisionId = await getDurableActiveRevision(base.id);
+    if (durableRevisionId) {
+      return {
+        ...base,
+        activePublishedRevisionId: durableRevisionId,
+      };
+    }
+  }
+
+  return base;
 }
 
 export function listDomains(): DomainRecord[] {
