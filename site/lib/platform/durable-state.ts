@@ -5,8 +5,11 @@
  * Vercel REST API for writes. Falls back to committed sites.json when Edge
  * Config is unconfigured or empty.
  *
- * Env vars:
- *   EDGE_CONFIG             — Edge Config connection string (auto-linked by Vercel)
+ * Env vars (reads):
+ *   GLOBAL_CONFIG           — Edge Config connection string (auto-linked by Vercel)
+ *   EDGE_CONFIG             — Legacy alias (same behavior)
+ *
+ * Env vars (writes):
  *   EDGE_CONFIG_ID          — Edge Config ID (ecfg_...) for write ops
  *   VERCEL_API_TOKEN        — Vercel API token for write ops (operator scope)
  *   VERCEL_TEAM_ID          — (optional) Team ID for write ops
@@ -23,10 +26,15 @@ type ActiveRevisionMap = Record<string, string>;
 
 let cachedClient: EdgeConfigClient | null = null;
 
+function getEdgeConfigConnectionString(): string | undefined {
+  return process.env.GLOBAL_CONFIG || process.env.EDGE_CONFIG;
+}
+
 function getEdgeConfigClient(): EdgeConfigClient | null {
-  if (!process.env.EDGE_CONFIG) return null;
+  const connectionString = getEdgeConfigConnectionString();
+  if (!connectionString) return null;
   if (!cachedClient) {
-    cachedClient = createClient(process.env.EDGE_CONFIG);
+    cachedClient = createClient(connectionString);
   }
   return cachedClient;
 }
@@ -131,7 +139,7 @@ export async function setDurableActiveRevision(
  * Check if durable store is configured for reads.
  */
 export function isDurableReadConfigured(): boolean {
-  return Boolean(process.env.EDGE_CONFIG);
+  return Boolean(getEdgeConfigConnectionString());
 }
 
 /**

@@ -108,16 +108,18 @@ Active revision is persisted to **Vercel Edge Config** so that operator rollback
 
 1. **Create Edge Config**: Vercel Dashboard → Storage → Create → Edge Config → name it (e.g. `managed-state`).
 
-2. **Link to project**: In the Edge Config settings, link it to `websites-design` project. This auto-populates `EDGE_CONFIG`.
+2. **Link to project**: In the Edge Config settings, link it to `websites-design` project. This auto-populates `GLOBAL_CONFIG` (or `EDGE_CONFIG` on older setups — both work).
 
 3. **Add write credentials** (env vars on Vercel project):
 
    | Variable | Value | Scope |
    | -------- | ----- | ----- |
-   | `EDGE_CONFIG` | (auto-linked) | All |
+   | `GLOBAL_CONFIG` | (auto-linked) | All |
    | `EDGE_CONFIG_ID` | `ecfg_...` from Edge Config settings | All |
    | `VERCEL_API_TOKEN` | API token with write access | Production + Preview |
    | `VERCEL_TEAM_ID` | (optional) Team ID if not hobby | All |
+
+   Note: `EDGE_CONFIG` is a legacy alias for `GLOBAL_CONFIG` — either works for reads.
 
 4. **Redeploy** so the new env vars bind.
 
@@ -144,8 +146,8 @@ curl -X POST "https://managed.razonworks.com/api/operator/rollback" \
 
 ### Fallback behavior
 
-| EDGE_CONFIG | Behavior |
-| ----------- | -------- |
+| GLOBAL_CONFIG / EDGE_CONFIG | Behavior |
+| --------------------------- | -------- |
 | Set | Reads from Edge Config; falls back to sites.json if key missing |
 | Unset | Reads from process overlay → sites.json (single-instance only) |
 
