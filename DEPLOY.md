@@ -11,12 +11,13 @@ Set these in the host (Vercel project settings, or `.env.local` for local prod):
 | Variable | Required | Purpose |
 |---|---|---|
 | `NEXT_PUBLIC_SITE_URL` | **Yes (prod)** | Canonical origin (no trailing slash). Drives `metadataBase`, canonical/OG/Twitter URLs, JSON‑LD `url`/`image`, `sitemap.xml`, and `robots.txt`. If unset it falls back to `http://localhost:3000`, which would bake localhost links into the static export. |
-| `LEAD_WEBHOOK_URL` | No | Where `/api/lead` forwards normalized leads (n8n / Cloud Run / FastAPI). If unset, the form runs in **demo mode**: submissions are validated and logged but not forwarded. |
+| `LEAD_WEBHOOK_URL` | No* | Where `/api/lead` forwards normalized leads (n8n / Cloud Run / FastAPI). *Required for managed/production-like hosts — those paths never accept undelivered demo mode. |
 | `LEAD_WEBHOOK_TOKEN` | No | Sent as `Authorization: Bearer <token>` to the webhook. |
+| `ALLOW_LEAD_DEMO_MODE` | No | Set `1` on the prospect-demo deploy if `/sites/*` should still log-only without a webhook under `NODE_ENV=production`. |
+| `MANAGED_DOMAIN_MAP` | No | `hostname:siteId` pairs for managed hostname resolution (see `MANAGED_PUBLISH.md`). |
+| `OPERATOR_PUBLISH_TOKEN` | No | Bearer token for `/api/operator/publish`, `/rollback`, `/leads/retry`. |
 
-The lead payload is already normalized for a deal pipeline:
-`{ source, business:{name,city,state}, contact:{name,email,phone}, reservation:{partySize,date}, message, locale, receivedAt, meta }`.
-
+Managed publish pilot (Template / Site / PublishedRevision, hostname scaffolding, lead persist+retry): see **`MANAGED_PUBLISH.md`**. Demo routes `/sites/<slug>` stay as the prospect catalog.
 ## 2. Deploy to Vercel
 
 ```bash

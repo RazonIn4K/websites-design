@@ -1,0 +1,42 @@
+{
+  "id": "rev_002",
+  "siteId": "site_pilot_craft",
+  "createdAt": "2026-09-17T01:00:00.000Z",
+  "createdBy": "operator",
+  "layout": {
+    "archetype": "craft",
+    "hero": "split",
+    "edge": "hard",
+    "tone": "energetic",
+    "highlights": "credentials",
+    "menuKind": "services",
+    "gallery": "horizontal"
+  },
+  "emojis": ["🔧", "🚗", "🛞", "🔩", "⚙️", "🚙"],
+  "schemaTypes": ["AutoRepair"],
+  "assetSlug": "a1-auto",
+  "content": {
+    "kind": "demo-kit",
+    "kitRef": "a1-auto",
+    "overrides": {
+      "business": {
+        "name": "Pilot Craft Auto",
+        "shortName": "Pilot Craft",
+        "vertical": "Managed publish pilot — active revision"
+      },
+      "en": {
+        "meta": {
+          "title": "Pilot Craft Auto — Managed publish pilot",
+          "description": "Active published revision for the managed-platform pilot site."
+        }
+      },
+      "es": {
+        "meta": {
+          "title": "Pilot Craft Auto — Piloto de publicación",
+          "description": "Revisión publicada activa del sitio piloto."
+        }
+      }
+    }
+  },
+  "label": "Customer-approved copy v2 (active)"
+}

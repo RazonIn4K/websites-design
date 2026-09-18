@@ -1,0 +1,42 @@
+{
+  "id": "rev_001",
+  "siteId": "site_pilot_craft",
+  "createdAt": "2026-09-17T00:00:00.000Z",
+  "createdBy": "operator",
+  "layout": {
+    "archetype": "craft",
+    "hero": "split",
+    "edge": "hard",
+    "tone": "energetic",
+    "highlights": "credentials",
+    "menuKind": "services",
+    "gallery": "horizontal"
+  },
+  "emojis": ["🔧", "🚗", "🛞", "🔩", "⚙️", "🚙"],
+  "schemaTypes": ["AutoRepair"],
+  "assetSlug": "a1-auto",
+  "content": {
+    "kind": "demo-kit",
+    "kitRef": "a1-auto",
+    "overrides": {
+      "business": {
+        "name": "Pilot Craft Auto (v1)",
+        "shortName": "Pilot Craft",
+        "vertical": "Managed publish pilot — revision 1"
+      },
+      "en": {
+        "meta": {
+          "title": "Pilot Craft Auto (v1) — Managed publish rollback base",
+          "description": "Published revision 1 for managed-platform rollback proof."
+        }
+      },
+      "es": {
+        "meta": {
+          "title": "Pilot Craft Auto (v1) — Base de rollback",
+          "description": "Revisión publicada 1 para prueba de rollback."
+        }
+      }
+    }
+  },
+  "label": "Initial pilot publication"
+}

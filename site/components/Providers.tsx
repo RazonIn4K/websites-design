@@ -34,6 +34,7 @@ export function Providers({
   themeVars,
   blur,
   layout,
+  managedSiteId,
   children,
 }: {
   site: SiteContent;
@@ -42,6 +43,7 @@ export function Providers({
   themeVars?: Record<string, string>;
   blur?: Record<string, string>;
   layout?: SiteLayout;
+  managedSiteId?: string;
   children: React.ReactNode;
 }) {
   const vars =
@@ -49,7 +51,14 @@ export function Providers({
 
   return (
     <MotionConfig reducedMotion="user">
-      <LanguageProvider site={site} slug={slug} emojis={emojis} blur={blur} layout={layout}>
+      <LanguageProvider
+        site={site}
+        slug={slug}
+        emojis={emojis}
+        blur={blur}
+        layout={layout}
+        managedSiteId={managedSiteId}
+      >
         <div
           className="site-root min-h-dvh bg-bg text-ink"
           style={vars as CSSProperties}

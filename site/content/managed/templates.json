@@ -1,0 +1,18 @@
+[
+  {
+    "id": "tmpl_craft_services",
+    "name": "Craft Services",
+    "archetype": "craft",
+    "layout": {
+      "archetype": "craft",
+      "hero": "split",
+      "edge": "hard",
+      "tone": "energetic",
+      "highlights": "credentials",
+      "menuKind": "services",
+      "gallery": "horizontal"
+    },
+    "referenceDemoSlug": "a1-auto",
+    "notes": "Pilot template — craft archetype with services menu. Reuses a1-auto kit shape via ContentAdapter; not a sold customer."
+  }
+]
