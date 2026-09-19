@@ -153,13 +153,38 @@ curl -X POST "https://managed.razonworks.com/api/operator/rollback" \
 
 Local dev without Edge Config works as before — rollback is transient per process.
 
-## Still needs David (live prove)
+## Pilot acceptance (locked)
 
-1. Confirm Vercel env vars are set on this project and **redeploy** the PR branch so they bind
-2. Confirm the approved test hostname appears under project Domains (API still shows only `*.vercel.app` aliases) and `MANAGED_DOMAIN_MAP` / `domains.json` maps it → `site_pilot_craft`
-3. Prove on that host: lead without webhook fails; with webhook delivers; operator rollback to `rev_001`
-4. Commercial plan before selling managed A (still **hobby**)
-5. Durable lead store (Payload/Postgres step 3)
-6. Review/merge draft PR #3 when 1–3 are green
+**Status:** FULLY PASS as of 2026-09-19 CT
+
+All pilot gates (1–10) passed. Production host live at **https://managed.razonworks.com** → `site_pilot_craft`.
+
+| Gate | Status |
+| ---- | ------ |
+| Vercel env vars bound | PASS |
+| Custom domain attached | PASS |
+| Hostname → siteId routing | PASS |
+| Lead delivery (n8n webhook) | PASS |
+| Telegram owner alert | PASS |
+| Operator rollback (rev_001↔rev_002) | PASS |
+| Edge Config durable write | PASS |
+| durableWriteConfigured:true | PASS |
+| Title flip on rollback | PASS |
+| Production deploy stable | PASS |
+
+**Artifact:** PR #4 squash-merged, commit `9f4f60db17b0e5a782cc2f33042631291c4702f6`, deploy `dpl_HpuPHk5bcCysM62G8xMSQoGKZBFC` Ready.
+
+## Still needs David (remaining)
+
+Items 1–3 from the original checklist are **DONE** (see "Pilot acceptance" above):
+
+1. ~~Env vars~~ — DONE: `GLOBAL_CONFIG` auto-linked, `EDGE_CONFIG_ID`, `VERCEL_API_TOKEN`, `VERCEL_TEAM_ID` set; redeploy bound them.
+2. ~~Custom hostname~~ — DONE: `managed.razonworks.com` attached to project, maps → `site_pilot_craft`.
+3. ~~Live prove~~ — DONE: lead pipeline delivers to n8n (`LEAD_WEBHOOK_URL=https://34-172-247-12.sslip.io/webhook/managed-leads`, Header Auth Bearer via `LEAD_WEBHOOK_TOKEN`); Telegram alert confirmed; rollback to `rev_001` returns `durableWriteConfigured:true` and title flips; restored to `rev_002`.
+
+**Remaining:**
+
+4. Commercial Vercel plan before selling managed A (still **hobby** on `razs-projects-29d4f2e6`)
+5. Durable lead store (Postgres/Payload step 3) — optional NocoDB/table persist also deferred
 
 See also `site/.env.example`.
