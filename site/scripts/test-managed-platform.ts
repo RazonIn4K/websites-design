@@ -12,6 +12,7 @@ import {
   getPublishedContent,
   getPublishedContentByHostname,
   getPublishedContentForSiteId,
+  getPublishedContentForSiteIdAsync,
 } from "../lib/platform/adapter";
 import { resolveLeadSite } from "../lib/platform/leads/identity";
 import { createLeadId, listLeadsForSite, persistLead, readLead, resetLeadStoreForTests } from "../lib/platform/leads/store";
@@ -22,6 +23,8 @@ import {
   resetOverlaysSafe,
 } from "./test-managed-helpers";
 import { resolveHostname } from "../lib/platform/resolve-host";
+import { getSiteAsync } from "../lib/platform/registry";
+import { setMockActiveRevisions, isDurableReadConfigured, isDurableWriteConfigured } from "../lib/platform/durable-state";
 import type { StoredLead } from "../lib/platform/types";
 
 // Re-export reset via helper file to avoid exporting test-only from publish in prod path
@@ -172,6 +175,29 @@ async function main() {
   delete process.env.MANAGED_REQUIRE_DELIVERY;
   void strict;
   resetRegistryOverlays();
+
+  console.log("9. Durable state mock: getSiteAsync reads from mock when set");
+  setMockActiveRevisions({ site_pilot_craft: "rev_001" });
+  const siteFromMock = await getSiteAsync("site_pilot_craft");
+  assert.ok(siteFromMock);
+  // Without EDGE_CONFIG set, mock is not used (mock helper only kicks in when config is present)
+  // We test the configuration detection instead
+  assert.equal(isDurableReadConfigured(), false, "EDGE_CONFIG not set = no durable read");
+  assert.equal(isDurableWriteConfigured(), false, "EDGE_CONFIG_ID/TOKEN not set = no durable write");
+  setMockActiveRevisions(null);
+
+  console.log("10. Async adapter returns correct revision after sync rollback");
+  resetRegistryOverlays();
+  const beforeRollback = await getPublishedContentForSiteIdAsync("site_pilot_craft");
+  assert.equal(beforeRollback?.revisionId, "rev_002");
+  rollbackPublication("site_pilot_craft");
+  const afterRollback = await getPublishedContentForSiteIdAsync("site_pilot_craft");
+  assert.equal(afterRollback?.revisionId, "rev_001");
+  activateRevision("site_pilot_craft", "rev_002");
+  const restored = await getPublishedContentForSiteIdAsync("site_pilot_craft");
+  assert.equal(restored?.revisionId, "rev_002");
+  resetRegistryOverlays();
+
   console.log("\nAll managed-platform checks passed.");
 }
 

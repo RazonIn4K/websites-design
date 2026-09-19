@@ -3,10 +3,12 @@ import type { SiteContent } from "@/lib/content";
 import {
   getRevision,
   getSite,
+  getSiteAsync,
   getSiteBySlug,
+  getSiteBySlugAsync,
   getTemplate,
 } from "@/lib/platform/registry";
-import { resolveHostname } from "@/lib/platform/resolve-host";
+import { resolveHostname, resolveHostnameAsync } from "@/lib/platform/resolve-host";
 import type { PublishedContent, PublishedRevision } from "@/lib/platform/types";
 
 /**
@@ -111,12 +113,40 @@ export function getPublishedContentByRevisionId(
   return materializeRevision(revision, site.slug, opts?.canonicalOrigin ?? null);
 }
 
+/**
+ * Async variant that checks durable store for active revision.
+ */
+export async function getPublishedContentByRevisionIdAsync(
+  revisionId: string,
+  opts?: { canonicalOrigin?: string | null },
+): Promise<PublishedContent | null> {
+  const revision = getRevision(revisionId);
+  if (!revision) return null;
+  const site = await getSiteAsync(revision.siteId);
+  if (!site) return null;
+  return materializeRevision(revision, site.slug, opts?.canonicalOrigin ?? null);
+}
+
 /** Serve only the site's active published revision (draft never included). */
 export function getPublishedContentForSiteId(
   siteId: string,
   opts?: { canonicalOrigin?: string | null },
 ): PublishedContent | null {
   const site = getSite(siteId);
+  if (!site?.activePublishedRevisionId) return null;
+  if (site.status === "archived") return null;
+  return getPublishedContentByRevisionId(site.activePublishedRevisionId, opts);
+}
+
+/**
+ * Async variant that checks durable store for active revision.
+ * Use this in SSR/API routes for cross-instance durability.
+ */
+export async function getPublishedContentForSiteIdAsync(
+  siteId: string,
+  opts?: { canonicalOrigin?: string | null },
+): Promise<PublishedContent | null> {
+  const site = await getSiteAsync(siteId);
   if (!site?.activePublishedRevisionId) return null;
   if (site.status === "archived") return null;
   return getPublishedContentByRevisionId(site.activePublishedRevisionId, opts);
@@ -131,10 +161,35 @@ export function getPublishedContentBySlug(
   return getPublishedContentForSiteId(site.id, opts);
 }
 
+/**
+ * Async variant that checks durable store for active revision.
+ */
+export async function getPublishedContentBySlugAsync(
+  slug: string,
+  opts?: { canonicalOrigin?: string | null },
+): Promise<PublishedContent | null> {
+  const site = await getSiteBySlugAsync(slug);
+  if (!site) return null;
+  return getPublishedContentForSiteIdAsync(site.id, opts);
+}
+
 export function getPublishedContentByHostname(
   hostname: string,
 ): PublishedContent | null {
   const resolved = resolveHostname(hostname);
+  if (!resolved) return null;
+  const origin = `https://${resolved.hostname}`;
+  return materializeRevision(resolved.revision, resolved.site.slug, origin);
+}
+
+/**
+ * Async variant that checks durable store for active revision.
+ * This is the primary entry point for hostname-based lookups in production.
+ */
+export async function getPublishedContentByHostnameAsync(
+  hostname: string,
+): Promise<PublishedContent | null> {
+  const resolved = await resolveHostnameAsync(hostname);
   if (!resolved) return null;
   const origin = `https://${resolved.hostname}`;
   return materializeRevision(resolved.revision, resolved.site.slug, origin);
@@ -153,6 +208,22 @@ export function getPublishedContent(
   }
   if (key.siteId) return getPublishedContentForSiteId(key.siteId);
   if (key.slug) return getPublishedContentBySlug(key.slug);
+  return null;
+}
+
+/**
+ * Async lookup by hostname | siteId | managed slug.
+ * Checks durable store for active revision. Use in SSR/API routes.
+ */
+export async function getPublishedContentAsync(
+  key: { hostname?: string; siteId?: string; slug?: string },
+): Promise<PublishedContent | null> {
+  if (key.hostname) {
+    const byHost = await getPublishedContentByHostnameAsync(key.hostname);
+    if (byHost) return byHost;
+  }
+  if (key.siteId) return getPublishedContentForSiteIdAsync(key.siteId);
+  if (key.slug) return getPublishedContentBySlugAsync(key.slug);
   return null;
 }
 

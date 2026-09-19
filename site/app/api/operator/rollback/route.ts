@@ -2,9 +2,13 @@
  * Operator rollback API — activate a prior PublishedRevision.
  * POST { siteId, toRevisionId? }
  * Requires OPERATOR_PUBLISH_TOKEN.
+ *
+ * Uses async rollback that persists to Vercel Edge Config when configured,
+ * ensuring the active revision is durable across serverless instances.
  */
 
-import { publicationHistory, PublishError, rollbackPublication } from "@/lib/platform/publish";
+import { publicationHistory, PublishError, rollbackPublicationAsync } from "@/lib/platform/publish";
+import { isDurableWriteConfigured } from "@/lib/platform/durable-state";
 
 export const runtime = "nodejs";
 
@@ -45,11 +49,12 @@ export async function POST(request: Request) {
   }
 
   try {
-    const site = rollbackPublication(body.siteId, body.toRevisionId, "operator-api");
+    const site = await rollbackPublicationAsync(body.siteId, body.toRevisionId, "operator-api");
     return Response.json({
       ok: true,
       siteId: site.id,
       activePublishedRevisionId: site.activePublishedRevisionId,
+      durableWriteConfigured: isDurableWriteConfigured(),
       history: publicationHistory(site.id).map((r) => ({
         id: r.id,
         label: r.label,

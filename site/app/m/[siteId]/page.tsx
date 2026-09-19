@@ -5,8 +5,8 @@ import { Providers } from "@/components/Providers";
 import { SitePage } from "@/components/SitePage";
 import { StructuredData } from "@/components/StructuredData";
 import { getBlur } from "@/lib/blur";
-import { getPublishedContentForSiteId } from "@/lib/platform/adapter";
-import { getSite, listSites } from "@/lib/platform/registry";
+import { getPublishedContentForSiteIdAsync } from "@/lib/platform/adapter";
+import { getSiteAsync, listSites } from "@/lib/platform/registry";
 
 type Params = Promise<{ siteId: string }>;
 
@@ -26,7 +26,7 @@ export const dynamicParams = false;
 
 export async function generateViewport({ params }: { params: Params }): Promise<Viewport> {
   const { siteId } = await params;
-  const published = getPublishedContentForSiteId(siteId);
+  const published = await getPublishedContentForSiteIdAsync(siteId);
   return { themeColor: published?.themeVars["--color-primary"] ?? "#C13A0F" };
 }
 
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const { siteId } = await params;
   const hdrs = await headers();
   const managedHost = hdrs.get("x-managed-hostname");
-  const published = getPublishedContentForSiteId(siteId, {
+  const published = await getPublishedContentForSiteIdAsync(siteId, {
     canonicalOrigin: managedHost ? `https://${managedHost}` : null,
   });
   if (!published) return {};
@@ -77,12 +77,12 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 
 export default async function ManagedSitePage({ params }: { params: Params }) {
   const { siteId } = await params;
-  const site = getSite(siteId);
+  const site = await getSiteAsync(siteId);
   if (!site?.activePublishedRevisionId) notFound();
 
   const hdrs = await headers();
   const managedHost = hdrs.get("x-managed-hostname");
-  const published = getPublishedContentForSiteId(siteId, {
+  const published = await getPublishedContentForSiteIdAsync(siteId, {
     canonicalOrigin: managedHost ? `https://${managedHost}` : null,
   });
   if (!published) notFound();
