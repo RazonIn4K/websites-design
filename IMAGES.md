@@ -212,9 +212,10 @@ the design system the images must suit (§3a). Palette cue = from each site's
 | `star-34-cafe` | breakfast | warm | butter-yellow sunshine and buttermilk cream grounded by deep denim-blue booths, with a maple-toast secondary —… |
 | `delts-electric` | electrician | craft · hard-edge · energetic · hero:split | Graphite industrial palette with a safety-orange primary — high-contrast licensed-trade identity, clean gara… |
 | `votaw-plumbing` | plumber | craft · hard-edge · energetic · hero:split | Deep navy primary with a warm copper secondary — residential DeKalb trust on clean light surfaces, service va… |
+| `sanjuan-carpet` | carpetcleaning | craft · hard-edge · energetic · hero:split | Fresh aqua-teal primary with terracotta accent — clean, trustworthy carpet care; bilingual DeKalb County home services. |
 ## 6. Current status & re-shoot guidance (audited 2026-08-23)
 
-**All 74 sites have complete 8-slot kits (592/592 files), every slot ≥ 120KB.**
+**All 75 sites have complete 8-slot kits (600/600 files), every slot ≥ 120KB.**
 Verify any time with `cd site && python scripts/check_fleet.py`. Captions and
 photos were audited fleet-wide (24 Aug, all 444 gallery slots) and re-aligned
 by slot permutation + caption rewrites. The remaining **re-shoot queue** (HQ
@@ -254,7 +255,7 @@ When a slot does get re-shot, match the register it renders in:
 | **ink (dark pages)** | `kiss-the-sky`, `sapphire-tattoo`, `victory-mma`, `noon-whistle-brewing`, `riddlebox-escape`, `lisle-lanes` | Low-key rider (§3a): subjects lit against darkness, rich shadows — bright white backgrounds glare on near-black pages. |
 | **wellness / mono (CSS desaturates to ~70%)** | `leza-nail-spa`, `my1-hair`, `chicago-beauty`, `pilates-plus`, `mccoy-chiropractic` | Shape-and-light first, airy, generous negative space — color-led images lose their punch under the mono filter. |
 | **authority split hero (trust-critical)** | `cronauer-law`, `pardridge-insurance`, `white-oak-tax`, `friedrichs-eye`, `todd-curtis-orthodontist`, `genoa-animal-hospital`, `cortland-vet` + flagship `flamengo` | The split hero shows the photo as a large framed panel, so quality is most visible — premium generator only, people/hands over empty rooms. |
-| **craft split hero (trades)** | `a1-auto`, `dekalb-mechanical`, `lovells-tire`, `anderson-auto-body`, `delts-electric`, `votaw-plumbing`, `hinks-bar-and-grill` | Hard directional light, high contrast, technician + place; the photo column stretches to copy height, so keep the subject centered. |
+| **craft split hero (trades)** | `a1-auto`, `dekalb-mechanical`, `lovells-tire`, `anderson-auto-body`, `delts-electric`, `votaw-plumbing`, `sanjuan-carpet`, `hinks-bar-and-grill` | Hard directional light, high contrast, technician + place; the photo column stretches to copy height, so keep the subject centered. |
 | **editorial heroes** | `the-montcler`, `dearborn-cafe`, `south-moon-bbq`, `geneva-winery`, `arcada-theater`, `tapa-la-luna` | Chiaroscuro / candlelit magazine photography. |
 | everything else | remaining warm/craft sites | Replace opportunistically, or when a business becomes a live prospect (owner photos first). |
 

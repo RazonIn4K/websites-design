@@ -167,12 +167,16 @@ import rev001 from "@/content/managed/revisions/site_pilot_craft/rev_001.json";
 import rev002 from "@/content/managed/revisions/site_pilot_craft/rev_002.json";
 import mccabesRev001 from "@/content/managed/revisions/site_mccabes/rev_001.json";
 import mccabesRev002 from "@/content/managed/revisions/site_mccabes/rev_002.json";
+import sanjuanRev001 from "@/content/managed/revisions/site_sanjuan/rev_001.json";
+import sanjuanRev002 from "@/content/managed/revisions/site_sanjuan/rev_002.json";
 
 const committedRevisions: PublishedRevision[] = [
   rev001 as PublishedRevision,
   rev002 as PublishedRevision,
   mccabesRev001 as PublishedRevision,
   mccabesRev002 as PublishedRevision,
+  sanjuanRev001 as PublishedRevision,
+  sanjuanRev002 as PublishedRevision,
 ];
 
 /**

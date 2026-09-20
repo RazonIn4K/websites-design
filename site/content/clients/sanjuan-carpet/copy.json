@@ -1,0 +1,574 @@
+{
+  "business": {
+    "name": "San Juan Carpet Cleaning",
+    "shortName": "San Juan",
+    "vertical": "Carpet & Upholstery Cleaning",
+    "phone": "(779) 777-8330",
+    "phoneHref": "+17797778330",
+    "address": "",
+    "city": "DeKalb",
+    "state": "IL",
+    "zip": "",
+    "mapsQuery": "DeKalb, IL",
+    "lat": 41.9294,
+    "lon": -88.7503
+  },
+  "en": {
+    "meta": {
+      "title": "San Juan Carpet Cleaning | Bilingual Carpet & Upholstery Cleaning — DeKalb County IL",
+      "description": "Professional carpet and upholstery cleaning in DeKalb County, IL. Family-owned, bilingual service. Rooms from $50, living rooms from $85. Call (779) 777-8330 for a free estimate."
+    },
+    "nav": {
+      "home": "Home",
+      "menu": "Services",
+      "about": "About",
+      "gallery": "Our Work",
+      "visit": "Service Area",
+      "order": "Free Estimate"
+    },
+    "hero": {
+      "eyebrow": "Bilingual Carpet Care in DeKalb County",
+      "title": "Fresh Floors,",
+      "titleAccent": "Family Values.",
+      "subtitle": "Deep cleaning that lifts stains, removes odors, and brings your carpets back to life. Family-owned, bilingual service throughout DeKalb County with upfront pricing and fast turnaround.",
+      "ctaPrimary": "View Services",
+      "ctaSecondary": "Get a Free Estimate",
+      "badge": "Family-Owned · Bilingual · Fast Turnaround"
+    },
+    "highlights": [
+      {
+        "icon": "clock",
+        "title": "Same-Day Available",
+        "text": "Emergency texts OK 24/7. We work around your schedule and often fit in same-day or next-day appointments."
+      },
+      {
+        "icon": "sparkles",
+        "title": "Deep Clean Results",
+        "text": "Hot water extraction that removes ground-in dirt, pet stains, and odors other methods leave behind."
+      },
+      {
+        "icon": "home",
+        "title": "Whole-Home Service",
+        "text": "Carpets, rugs, upholstery, stairs, hallways — one call covers it all, room by room or the whole house."
+      },
+      {
+        "icon": "shield",
+        "title": "Upfront Pricing",
+        "text": "Clear quotes before we start, no hidden fees, and satisfaction guaranteed on every job."
+      }
+    ],
+    "menu": {
+      "heading": "Our Services",
+      "subheading": "Prices shown are starting rates. Every job starts with a free, no-obligation estimate.",
+      "categories": [
+        {
+          "id": "carpet-cleaning",
+          "name": "Carpet Cleaning",
+          "blurb": "Deep cleaning that restores color, removes stains, and eliminates odors.",
+          "items": [
+            {
+              "name": "Standard Room",
+              "desc": "Hot water extraction for bedrooms and standard-size rooms up to 200 sq ft.",
+              "price": "From $50",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Living Room",
+              "desc": "Deep cleaning for larger living areas, family rooms, and great rooms.",
+              "price": "From $85",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Hallway",
+              "desc": "High-traffic hallways and corridors cleaned and deodorized.",
+              "price": "$35–$45",
+              "tags": []
+            },
+            {
+              "name": "Stairs",
+              "desc": "Individual stair cleaning, including risers and landings.",
+              "price": "$7/step",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "specialty-cleaning",
+          "name": "Specialty Cleaning",
+          "blurb": "Targeted treatments for tough stains, pets, and problem areas.",
+          "items": [
+            {
+              "name": "Pet Stain Treatment",
+              "desc": "Enzyme treatment that breaks down pet urine and eliminates odors at the source.",
+              "price": "Free Estimate",
+              "tags": ["popular"]
+            },
+            {
+              "name": "High-Traffic Restoration",
+              "desc": "Extra attention to worn paths and heavily used areas that need deeper cleaning.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Spot & Stain Removal",
+              "desc": "Targeted treatment for wine, coffee, grease, and stubborn spots.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Deodorizing Treatment",
+              "desc": "Neutralize smoke, pet, and musty odors for a fresher-smelling home.",
+              "price": "Free Estimate",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "upholstery",
+          "name": "Upholstery & Rugs",
+          "blurb": "Fabric furniture and area rugs cleaned with the same care as your carpets.",
+          "items": [
+            {
+              "name": "Sofa Cleaning",
+              "desc": "Deep cleaning for sofas, sectionals, and couches of all sizes.",
+              "price": "Free Estimate",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Loveseat / Chair",
+              "desc": "Upholstered chairs, loveseats, and accent furniture refreshed.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Area Rug Cleaning",
+              "desc": "On-site or pickup cleaning for area rugs, runners, and decorative rugs.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Mattress Cleaning",
+              "desc": "Sanitize and deodorize mattresses for a cleaner, healthier sleep.",
+              "price": "Free Estimate",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "packages",
+          "name": "Packages",
+          "blurb": "Bundle rooms and services for the best value.",
+          "items": [
+            {
+              "name": "Whole-Home Package",
+              "desc": "All carpeted areas in your home cleaned at a bundled rate — stairs and hallways included.",
+              "price": "Free Estimate",
+              "tags": ["value"]
+            },
+            {
+              "name": "Move-In / Move-Out",
+              "desc": "Deep cleaning for empty homes before or after a move.",
+              "price": "Free Estimate",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Rental Turnover",
+              "desc": "Fast, thorough cleaning between tenants for landlords and property managers.",
+              "price": "Free Estimate",
+              "tags": []
+            },
+            {
+              "name": "Recurring Service",
+              "desc": "Scheduled cleanings every 6 or 12 months at a discounted rate.",
+              "price": "Free Estimate",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Your Neighbors in Carpet Care",
+      "lead": "San Juan Carpet Cleaning is a family-owned, bilingual cleaning company built on honest work, fair pricing, and treating your home like our own.",
+      "paragraphs": [
+        "Owner Luis Calderon started San Juan Carpet Cleaning to bring professional-grade carpet care to DeKalb County families at prices that make sense. We show up on time, explain exactly what we'll do, and leave your floors fresh, clean, and dry.",
+        "Whether it's a quick room refresh or a whole-home deep clean, we use hot water extraction and proven techniques that lift dirt, eliminate odors, and extend the life of your carpets. Hablamos español — and we're always happy to answer questions in whichever language you're most comfortable."
+      ],
+      "stats": [
+        {
+          "value": "Fast",
+          "label": "Turnaround"
+        },
+        {
+          "value": "Free",
+          "label": "Estimates"
+        },
+        {
+          "value": "100%",
+          "label": "Satisfaction Guarantee"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Our Work",
+      "subheading": "Before-and-after results from homes across DeKalb County.",
+      "captions": [
+        "Living room carpet restored to like-new",
+        "Pet stain removed, odor eliminated",
+        "High-traffic hallway refreshed",
+        "Upholstered sofa deep cleaned",
+        "Stairs cleaned step by step",
+        "Area rug color brought back to life"
+      ]
+    },
+    "testimonials": {
+      "heading": "What DeKalb County Homeowners Say",
+      "items": [
+        {
+          "quote": "Luis got out stains I thought were permanent. Fast, friendly, and the price was exactly what he quoted. Will call again.",
+          "name": "Maria G.",
+          "role": "DeKalb homeowner"
+        },
+        {
+          "quote": "Scheduled same-day after our dog had an accident. They showed up on time and the carpet looks and smells brand new.",
+          "name": "James T.",
+          "role": "Sycamore homeowner"
+        },
+        {
+          "quote": "I appreciate being able to ask questions in Spanish. Professional service, fair price, and my living room looks amazing.",
+          "name": "Rosa M.",
+          "role": "DeKalb homeowner"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Serving DeKalb County & Surrounding Areas",
+      "addressLabel": "Service Area",
+      "hoursLabel": "Hours",
+      "hours": [
+        {
+          "day": "Monday – Saturday",
+          "time": "7:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        },
+        {
+          "day": "Emergencies",
+          "time": "Text OK 24/7"
+        }
+      ],
+      "phoneLabel": "Get in Touch",
+      "directions": "We proudly serve homeowners throughout DeKalb, Sycamore, Cortland, Genoa, and the surrounding communities. Request a free estimate online or by phone and we'll respond fast.",
+      "neighborhood": "San Juan Carpet Cleaning is a mobile service — we come to you anywhere in DeKalb County and neighboring areas. No storefront to visit, just reliable service at your door."
+    },
+    "cta": {
+      "heading": "Ready for Fresh, Clean Carpets?",
+      "text": "Tell us about your space and we'll get back to you fast. Free estimates, upfront pricing, and same-day service when available.",
+      "button": "Get a Free Estimate"
+    },
+    "form": {
+      "heading": "Get a Free Estimate",
+      "subheading": "Share a few details about your home and what you need. We'll follow up quickly to schedule your cleaning.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "partySize": "Service Needed",
+      "date": "Preferred Date/Time",
+      "message": "How can we help? Describe the rooms or areas you'd like cleaned.",
+      "submit": "Request Free Estimate",
+      "sending": "Sending...",
+      "success": "Thanks! We received your request and will be in touch shortly.",
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting, you agree to be contacted about your request. No spam, ever."
+    },
+    "footer": {
+      "tagline": "Family-owned carpet care keeping DeKalb County homes fresh and clean.",
+      "rights": "© San Juan Carpet Cleaning. All rights reserved.",
+      "quickLinks": "Quick Links",
+      "hoursTitle": "Hours",
+      "demoNote": "Demo site · Prices illustrative",
+      "allSites": "All generated sites →"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "San Juan Carpet Cleaning | Limpieza Bilingüe de Alfombras y Tapicería — Condado de DeKalb IL",
+      "description": "Limpieza profesional de alfombras y tapicería en el Condado de DeKalb, IL. Servicio familiar y bilingüe. Habitaciones desde $50, salas desde $85. Llama al (779) 777-8330 para una cotización gratis."
+    },
+    "nav": {
+      "home": "Inicio",
+      "menu": "Servicios",
+      "about": "Nosotros",
+      "gallery": "Nuestro Trabajo",
+      "visit": "Área de Servicio",
+      "order": "Cotización Gratis"
+    },
+    "hero": {
+      "eyebrow": "Cuidado de Alfombras Bilingüe en el Condado de DeKalb",
+      "title": "Pisos Frescos,",
+      "titleAccent": "Valores Familiares.",
+      "subtitle": "Limpieza profunda que elimina manchas, quita olores y devuelve la vida a tus alfombras. Servicio familiar y bilingüe en todo el Condado de DeKalb con precios claros y respuesta rápida.",
+      "ctaPrimary": "Ver Servicios",
+      "ctaSecondary": "Pide tu Cotización",
+      "badge": "Empresa Familiar · Bilingüe · Respuesta Rápida"
+    },
+    "highlights": [
+      {
+        "icon": "clock",
+        "title": "Mismo Día Disponible",
+        "text": "Mensajes de emergencia OK 24/7. Nos adaptamos a tu horario y muchas veces podemos agendar el mismo día o el siguiente."
+      },
+      {
+        "icon": "sparkles",
+        "title": "Resultados Profundos",
+        "text": "Extracción con agua caliente que remueve suciedad, manchas de mascotas y olores que otros métodos dejan atrás."
+      },
+      {
+        "icon": "home",
+        "title": "Servicio de Toda la Casa",
+        "text": "Alfombras, tapetes, muebles, escaleras, pasillos — una llamada lo cubre todo, habitación por habitación o toda la casa."
+      },
+      {
+        "icon": "shield",
+        "title": "Precios Claros",
+        "text": "Cotizaciones claras antes de empezar, sin cargos ocultos, y satisfacción garantizada en cada trabajo."
+      }
+    ],
+    "menu": {
+      "heading": "Nuestros Servicios",
+      "subheading": "Los precios mostrados son tarifas iniciales. Cada trabajo comienza con una cotización gratis y sin compromiso.",
+      "categories": [
+        {
+          "id": "carpet-cleaning",
+          "name": "Limpieza de Alfombras",
+          "blurb": "Limpieza profunda que restaura el color, elimina manchas y quita olores.",
+          "items": [
+            {
+              "name": "Habitación Estándar",
+              "desc": "Extracción con agua caliente para recámaras y habitaciones de tamaño estándar hasta 200 pies cuadrados.",
+              "price": "Desde $50",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Sala",
+              "desc": "Limpieza profunda para salas grandes, cuartos familiares y áreas de estar.",
+              "price": "Desde $85",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Pasillo",
+              "desc": "Pasillos y corredores de alto tráfico limpiados y desodorizados.",
+              "price": "$35–$45",
+              "tags": []
+            },
+            {
+              "name": "Escaleras",
+              "desc": "Limpieza de escalones individuales, incluyendo contrahuellas y descansos.",
+              "price": "$7/escalón",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "specialty-cleaning",
+          "name": "Limpieza Especial",
+          "blurb": "Tratamientos específicos para manchas difíciles, mascotas y áreas problemáticas.",
+          "items": [
+            {
+              "name": "Tratamiento de Manchas de Mascotas",
+              "desc": "Tratamiento enzimático que descompone la orina de mascotas y elimina olores de raíz.",
+              "price": "Cotización Gratis",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Restauración de Alto Tráfico",
+              "desc": "Atención extra a caminos desgastados y áreas muy usadas que necesitan limpieza más profunda.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Remoción de Manchas",
+              "desc": "Tratamiento específico para vino, café, grasa y manchas difíciles.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Tratamiento Desodorizante",
+              "desc": "Neutraliza olores de humo, mascotas y humedad para un hogar más fresco.",
+              "price": "Cotización Gratis",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "upholstery",
+          "name": "Tapicería y Tapetes",
+          "blurb": "Muebles de tela y tapetes de área limpiados con el mismo cuidado que tus alfombras.",
+          "items": [
+            {
+              "name": "Limpieza de Sofá",
+              "desc": "Limpieza profunda para sofás, seccionales y sillones de todos los tamaños.",
+              "price": "Cotización Gratis",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Loveseat / Sillón",
+              "desc": "Sillones tapizados, loveseats y muebles decorativos renovados.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Limpieza de Tapetes",
+              "desc": "Limpieza en sitio o con recogida para tapetes de área, caminos y tapetes decorativos.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Limpieza de Colchón",
+              "desc": "Sanitiza y desodoriza colchones para un sueño más limpio y saludable.",
+              "price": "Cotización Gratis",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "packages",
+          "name": "Paquetes",
+          "blurb": "Combina habitaciones y servicios para el mejor valor.",
+          "items": [
+            {
+              "name": "Paquete de Toda la Casa",
+              "desc": "Todas las áreas alfombradas de tu hogar limpiadas a precio combinado — escaleras y pasillos incluidos.",
+              "price": "Cotización Gratis",
+              "tags": ["value"]
+            },
+            {
+              "name": "Mudanza / Entrega",
+              "desc": "Limpieza profunda para casas vacías antes o después de una mudanza.",
+              "price": "Cotización Gratis",
+              "tags": ["popular"]
+            },
+            {
+              "name": "Cambio de Inquilino",
+              "desc": "Limpieza rápida y completa entre inquilinos para arrendadores y administradores de propiedades.",
+              "price": "Cotización Gratis",
+              "tags": []
+            },
+            {
+              "name": "Servicio Recurrente",
+              "desc": "Limpiezas programadas cada 6 o 12 meses a tarifa con descuento.",
+              "price": "Cotización Gratis",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    "about": {
+      "heading": "Tus Vecinos en el Cuidado de Alfombras",
+      "lead": "San Juan Carpet Cleaning es una empresa familiar y bilingüe de limpieza construida sobre el trabajo honesto, precios justos y tratar tu hogar como el nuestro.",
+      "paragraphs": [
+        "El dueño Luis Calderón comenzó San Juan Carpet Cleaning para llevar el cuidado profesional de alfombras a las familias del Condado de DeKalb a precios que tienen sentido. Llegamos a tiempo, explicamos exactamente lo que haremos y dejamos tus pisos frescos, limpios y secos.",
+        "Ya sea un refresco rápido de una habitación o una limpieza profunda de toda la casa, usamos extracción con agua caliente y técnicas probadas que levantan la suciedad, eliminan olores y extienden la vida de tus alfombras. Hablamos español e inglés — y siempre estamos felices de responder preguntas en el idioma que prefieras."
+      ],
+      "stats": [
+        {
+          "value": "Rápido",
+          "label": "Respuesta"
+        },
+        {
+          "value": "Gratis",
+          "label": "Cotizaciones"
+        },
+        {
+          "value": "100%",
+          "label": "Satisfacción Garantizada"
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "Nuestro Trabajo",
+      "subheading": "Resultados de antes y después de hogares en todo el Condado de DeKalb.",
+      "captions": [
+        "Alfombra de sala restaurada como nueva",
+        "Mancha de mascota removida, olor eliminado",
+        "Pasillo de alto tráfico refrescado",
+        "Sofá tapizado limpiado a fondo",
+        "Escaleras limpiadas escalón por escalón",
+        "Color de tapete de área devuelto a la vida"
+      ]
+    },
+    "testimonials": {
+      "heading": "Lo Que Dicen los Hogares del Condado de DeKalb",
+      "items": [
+        {
+          "quote": "Luis quitó manchas que yo pensaba eran permanentes. Rápido, amable y el precio fue exactamente el que cotizó. Volveré a llamar.",
+          "name": "María G.",
+          "role": "Propietaria en DeKalb"
+        },
+        {
+          "quote": "Agenté el mismo día después de que nuestro perro tuvo un accidente. Llegaron a tiempo y la alfombra se ve y huele como nueva.",
+          "name": "James T.",
+          "role": "Propietario en Sycamore"
+        },
+        {
+          "quote": "Aprecio poder hacer preguntas en español. Servicio profesional, precio justo y mi sala se ve increíble.",
+          "name": "Rosa M.",
+          "role": "Propietaria en DeKalb"
+        }
+      ]
+    },
+    "visit": {
+      "heading": "Servimos al Condado de DeKalb y Áreas Cercanas",
+      "addressLabel": "Área de Servicio",
+      "hoursLabel": "Horario",
+      "hours": [
+        {
+          "day": "Lunes – Sábado",
+          "time": "7:00 AM – 5:00 PM"
+        },
+        {
+          "day": "Domingo",
+          "time": "Cerrado"
+        },
+        {
+          "day": "Emergencias",
+          "time": "Mensaje de texto OK 24/7"
+        }
+      ],
+      "phoneLabel": "Contáctanos",
+      "directions": "Servimos con orgullo a los hogares de DeKalb, Sycamore, Cortland, Genoa y las comunidades cercanas. Solicita una cotización gratis en línea o por teléfono y te responderemos rápido.",
+      "neighborhood": "San Juan Carpet Cleaning es un servicio móvil — vamos a ti a cualquier parte del Condado de DeKalb y áreas vecinas. Sin tienda que visitar, solo servicio confiable a tu puerta."
+    },
+    "cta": {
+      "heading": "¿Listo para Alfombras Frescas y Limpias?",
+      "text": "Cuéntanos sobre tu espacio y te responderemos rápido. Cotizaciones gratis, precios claros y servicio el mismo día cuando esté disponible.",
+      "button": "Pide tu Cotización"
+    },
+    "form": {
+      "heading": "Pide tu Cotización",
+      "subheading": "Comparte algunos detalles sobre tu hogar y lo que necesitas. Te contactaremos pronto para programar tu limpieza.",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "partySize": "Servicio que Necesitas",
+      "date": "Fecha/Hora Preferida",
+      "message": "¿Cómo podemos ayudarte? Describe las habitaciones o áreas que quieres limpiar.",
+      "submit": "Pedir Cotización",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Recibimos tu solicitud y te contactaremos pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
+      "consent": "Al enviar, aceptas que te contactemos sobre tu solicitud. Sin spam, nunca."
+    },
+    "footer": {
+      "tagline": "Cuidado familiar de alfombras que mantiene los hogares del Condado de DeKalb frescos y limpios.",
+      "rights": "© San Juan Carpet Cleaning. Todos los derechos reservados.",
+      "quickLinks": "Enlaces Rápidos",
+      "hoursTitle": "Horario",
+      "demoNote": "Sitio de demostración · Precios ilustrativos",
+      "allSites": "Todos los sitios generados →"
+    }
+  }
+}

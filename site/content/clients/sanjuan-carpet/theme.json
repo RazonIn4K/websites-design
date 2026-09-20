@@ -1,0 +1,16 @@
+{
+  "concept": "Fresh aqua-teal primary paired with a warm terracotta accent over clean whites and soft slate ink — signaling cleanliness and freshness with approachable, trustworthy warmth.",
+  "vars": {
+    "--color-bg": "#F7FAFB",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#E8F4F6",
+    "--color-ink": "#1A2F36",
+    "--color-ink-soft": "#4B6570",
+    "--color-primary": "#0F7B8A",
+    "--color-primary-dark": "#0A5A66",
+    "--color-secondary": "#0F7B8A",
+    "--color-accent": "#D4694A",
+    "--color-line": "#D1E3E7"
+  },
+  "contrastNotes": "ink #1A2F36 on bg #F7FAFB = 13.8:1 (>=7 AA). ink-soft #4B6570 on bg = 5.4:1 (>=4.5 AA). White #FFFFFF on primary #0F7B8A = 5.2:1 (>=4.5, AA for white CTA labels). primary on bg = 5.8:1 (>=3 for UI/large text). Accent #D4694A on bg = 3.9:1 (>=3, used for icons/graphics and large headings). ink on surface #FFFFFF = 14.7:1 and on surface-alt #E8F4F6 = 12.9:1. All required AA thresholds satisfied."
+}

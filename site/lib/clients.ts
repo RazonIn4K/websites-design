@@ -146,6 +146,8 @@ import deltsCopy from "@/content/clients/delts-electric/copy.json";
 import deltsTheme from "@/content/clients/delts-electric/theme.json";
 import votawCopy from "@/content/clients/votaw-plumbing/copy.json";
 import votawTheme from "@/content/clients/votaw-plumbing/theme.json";
+import carpetCopy from "@/content/clients/sanjuan-carpet/copy.json";
+import carpetTheme from "@/content/clients/sanjuan-carpet/theme.json";
 
 interface ThemeFile {
   concept: string;
@@ -812,6 +814,15 @@ export const CLIENTS: ClientSite[] = [
     emojis: ["🔧", "🚿", "🏠", "💧", "🔩", "🚐"],
     schemaTypes: ["Plumber"],
   },
+  // ── Managed-platform pilot: carpet cleaning (real customer, bilingual)
+  {
+    slug: "sanjuan-carpet",
+    vertical: "Carpet & Upholstery Cleaning",
+    site: carpetCopy as unknown as SiteContent,
+    themeVars: withFont((carpetTheme as ThemeFile).vars, ARCHIVO),
+    emojis: ["🧹", "✨", "🏠", "🛋️", "🧼", "💧"],
+    schemaTypes: ["HomeAndConstructionBusiness", "ProfessionalService"],
+  },
 ];
 
 /**
@@ -922,6 +933,9 @@ const LAYOUTS: Record<string, SiteLayout> = {
   // ── Aug 2026 factory slate (trades spec sites) ──
   "delts-electric": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" },
   "votaw-plumbing": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" },
+
+  // ── Managed-platform pilot: carpet cleaning (bilingual home services)
+  "sanjuan-carpet": { archetype: "craft", hero: "split", edge: "hard", tone: "energetic", highlights: "credentials", menuKind: "services", gallery: "horizontal" },
 };
 for (const c of CLIENTS) {
   if (LAYOUTS[c.slug]) c.layout = LAYOUTS[c.slug];

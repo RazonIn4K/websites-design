@@ -26,5 +26,19 @@
     "verification": "verified",
     "enabled": true,
     "notes": "Production hostname for McCabe's Event Venue. Same Vercel project (prj_p3yXTA3YM7m6kxdXbuBlhDbOTYAT). DNS attach pending David."
+  },
+  {
+    "hostname": "sanjuan.managed.localhost",
+    "siteId": "site_sanjuan",
+    "verification": "verified",
+    "enabled": true,
+    "notes": "Local/test mapping for San Juan Carpet Cleaning."
+  },
+  {
+    "hostname": "sanjuan.razonworks.com",
+    "siteId": "site_sanjuan",
+    "verification": "verified",
+    "enabled": true,
+    "notes": "Production hostname for San Juan Carpet Cleaning. Same Vercel project (prj_p3yXTA3YM7m6kxdXbuBlhDbOTYAT)."
   }
 ]
