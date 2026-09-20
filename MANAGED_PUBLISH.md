@@ -411,16 +411,22 @@ Third customer onboarded to the managed platform. Bilingual (EN/ES) residential 
 
 ### Business identity
 
-- **Business**: Carpet Cleaning San Juan LLC (dba San Juan Carpet Cleaning)
-- **Owner**: Luis Calderon (owner-direct)
-- **Primary phone**: (779) 777-8330
-- **Secondary phone**: (815) 995-8035
+- **Legal/brand**: Carpet Cleaning San Juan LLC / San Juan Carpet Cleaning
+- **Owner**: Luis Calderon (owner-direct, talk to Luis not a call center)
+- **Primary phone (CTA)**: (779) 777-8330 — use in all public primary CTAs
+- **Secondary phone**: (815) 995-8035 — contact block only if needed
 - **Email**: info@sanjuancarpet.com
-- **Hours**: Mon–Sat 7:00 AM–5:00 PM; emergency calls/texts 24/7
-- **Service areas**: DeKalb, Sycamore, Aurora, Rochelle, Elgin / northern Illinois
-- **Existing site**: https://sanjuancarpet.com/ (this managed site is a RazonWorks managed-platform host, not a replace of their domain yet)
-- **Tone**: local, bilingual (EN/ES), honest pricing, owner you can reach
-- **Pricing**: rooms from ~$50 (public info)
+- **Hours**: Mon–Sat 7:00 AM–5:00 PM America/Chicago; emergency calls/texts 24/7 (do NOT market as 24/7 service hours)
+- **City/state**: DeKalb, IL
+- **Service areas**: DeKalb, Sycamore, DeKalb County; also Aurora, Rochelle, Elgin
+- **Street address**: DO NOT publish (service-area business; Google hides street)
+- **Existing site**: https://sanjuancarpet.com/
+- **Vertical**: bilingual residential/commercial carpet cleaning; upholstery, pet stain/odor, move-out/apartment, deep stain treatment
+- **Tone**: local owner-operated, bilingual EN/ES, clear upfront quotes, text photos for a quote
+- **Pricing** (modest wording only): living room from $85, per room from $50, stairs $7/step, hallway $35–45, upholstery custom
+- **Social** (optional mention): Instagram/TikTok/YouTube @sanjuancarpet; Facebook "Carpet cleaning San Juan LLC"
+
+**Do not invent**: certifications, truck-mount claims, "steam cleaning" claims, Luis face photos, fake reviews, street address
 
 ### Files added
 

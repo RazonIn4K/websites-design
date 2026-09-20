@@ -22,20 +22,22 @@
       "business": {
         "name": "San Juan Carpet Cleaning",
         "shortName": "San Juan",
-        "vertical": "Residential & Commercial Carpet Cleaning",
+        "vertical": "Bilingual Carpet & Upholstery Cleaning",
         "phone": "(779) 777-8330",
-        "phoneHref": "+17797778330"
+        "phoneHref": "+17797778330",
+        "city": "DeKalb",
+        "state": "IL"
       },
       "en": {
         "meta": {
-          "title": "San Juan Carpet Cleaning | Bilingual Carpet & Upholstery Cleaning — DeKalb, Sycamore, Aurora IL",
-          "description": "Honest, bilingual carpet and upholstery cleaning for homes and businesses in DeKalb County & northern Illinois. Owner-direct service, rooms from ~$50. Call (779) 777-8330 or text 24/7."
+          "title": "San Juan Carpet Cleaning | Bilingual Carpet & Upholstery Cleaning — DeKalb County IL",
+          "description": "Owner-operated bilingual carpet cleaning in DeKalb, Sycamore, Aurora & northern Illinois. Residential, commercial, pet stains, move-out cleans. Text photos for a quote. Rooms from $50. Call (779) 777-8330."
         }
       },
       "es": {
         "meta": {
-          "title": "San Juan Carpet Cleaning | Limpieza de Alfombras y Tapicería Bilingüe — DeKalb, Sycamore, Aurora IL",
-          "description": "Limpieza de alfombras y tapicería honesta y bilingüe para hogares y negocios en el condado de DeKalb y el norte de Illinois. Servicio directo del dueño, cuartos desde ~$50. Llama al (779) 777-8330 o envía mensaje 24/7."
+          "title": "San Juan Carpet Cleaning | Limpieza de Alfombras Bilingüe — Condado de DeKalb IL",
+          "description": "Limpieza de alfombras bilingüe operada por el dueño en DeKalb, Sycamore, Aurora y el norte de Illinois. Residencial, comercial, manchas de mascotas, limpieza de mudanza. Envía fotos para cotización. Cuartos desde $50. Llama al (779) 777-8330."
         }
       }
     }

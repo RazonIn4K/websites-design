@@ -22,9 +22,11 @@
       "business": {
         "name": "San Juan Carpet Cleaning (v1)",
         "shortName": "San Juan",
-        "vertical": "Residential & Commercial Carpet Cleaning",
+        "vertical": "Bilingual Carpet & Upholstery Cleaning",
         "phone": "(779) 777-8330",
-        "phoneHref": "+17797778330"
+        "phoneHref": "+17797778330",
+        "city": "DeKalb",
+        "state": "IL"
       },
       "en": {
         "meta": {
