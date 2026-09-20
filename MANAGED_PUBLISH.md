@@ -280,18 +280,99 @@ Current production deploy: `dpl_7TWKyamChQhXyXcBf5WRGJGsVMHc`.
 
 ---
 
-## Second managed site (next packet)
+## Second managed site: McCabe's Event Venue
 
-Checklist for adding a second site without code changes:
+First non-pilot customer onboarded to the managed platform.
 
-- [ ] **Template / site JSON**: create `content/managed/templates/<tmpl_id>.json` and `content/managed/sites/<site_id>.json` with copy overrides
-- [ ] **Revisions**: add `content/managed/revisions/<rev_id>.json` entries; set `activeRevisionId` in site JSON
+### Site details
+
+| Field | Value |
+| ----- | ----- |
+| Site ID | `site_mccabes` |
+| Slug | `mccabes` |
+| Display name | McCabe's |
+| Template | `tmpl_event_venue` (editorial archetype, arcada-theater kit shape) |
+| Hostname | `mccabes.razonworks.com` (verified + enabled in `domains.json`) |
+| Local test | `mccabes.managed.localhost` |
+| Revisions | `rev_001` (rollback base), `rev_002` (active) |
+
+### Business identity
+
+- **Business**: McCabe's Event Venue
+- **Address**: 323–333 E Lincoln Highway, DeKalb, IL 60115 (downtown)
+- **Phone**: (815) 214-9010
+- **Email**: info@dekalbmccabes.com
+- **Owner**: David Long / Long Family Management
+- **Capacity**: ~8,000 sq ft; up to ~975 standing / ~475 seated
+- **Tone**: "DeKalb's #1 Social Center" — nightlife-first (club nights, NIU late nights) plus private events (weddings, reunions, corporate, community)
+- **Socials**: Instagram @mccabes_dekalb · Facebook McCabes - DeKalb · Luma https://luma.com/McCabes
+
+### Files added
+
+- `content/managed/templates.json` — added `tmpl_event_venue`
+- `content/managed/sites.json` — added `site_mccabes`
+- `content/managed/domains.json` — added `mccabes.razonworks.com` + `mccabes.managed.localhost`
+- `content/managed/revisions/site_mccabes/rev_001.json` — rollback base
+- `content/managed/revisions/site_mccabes/rev_002.json` — active copy
+- `content/managed/drafts/site_mccabes/README.json` — draft placeholder
+- `lib/platform/registry.ts` — imports for McCabe's revisions
+
+### Prove steps (after deploy)
+
+```bash
+# 1. Hostname resolves
+curl -I https://mccabes.razonworks.com
+# Should return 200 with McCabe's content
+
+# 2. Rollback test
+curl -X POST "https://mccabes.razonworks.com/api/operator/rollback" \
+  -H "Authorization: Bearer $OPERATOR_PUBLISH_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"siteId":"site_mccabes","toRevisionId":"rev_001"}'
+# Title should change to "McCabe's Event Venue (v1)"
+
+# 3. Restore active revision
+curl -X POST "https://mccabes.razonworks.com/api/operator/rollback" \
+  -H "Authorization: Bearer $OPERATOR_PUBLISH_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"siteId":"site_mccabes","toRevisionId":"rev_002"}'
+
+# 4. Lead submission test
+curl -X POST "https://mccabes.razonworks.com/api/lead" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "Test Lead",
+    "email": "test@example.com",
+    "phone": "555-1234",
+    "message": "McCabe'\''s lead test",
+    "lang": "en",
+    "business": {"name": "McCabe'\''s Event Venue", "city": "DeKalb", "state": "IL"}
+  }'
+# Should return delivered status + supabasePersisted: true
+```
+
+### Domain attach (David)
+
+The hostname `mccabes.razonworks.com` needs to be attached to the Vercel project `prj_p3yXTA3YM7m6kxdXbuBlhDbOTYAT` via the dashboard:
+
+1. Vercel Dashboard → Project → Settings → Domains
+2. Add `mccabes.razonworks.com`
+3. Configure DNS (CNAME to `cname.vercel-dns.com` or A record to Vercel IP)
+4. Wait for TLS provisioning
+
+---
+
+## Checklist for adding more sites
+
+For adding additional managed sites without code changes:
+
+- [ ] **Template / site JSON**: create `content/managed/templates/<tmpl_id>.json` (if needed) and add entry to `content/managed/sites.json` with copy overrides
+- [ ] **Revisions**: add `content/managed/revisions/site_<slug>/rev_*.json` entries; set `activePublishedRevisionId` in site JSON
+- [ ] **Registry import**: add imports for new revisions to `lib/platform/registry.ts`
 - [ ] **Domain map**: add `domains.json` entry or extend `MANAGED_DOMAIN_MAP` env; DNS / TLS via David
 - [ ] **Vercel env reuse**: same project env vars (`SUPABASE_*`, `LEAD_WEBHOOK_*`, `OPERATOR_*`, Edge Config) — no new secrets needed
 - [ ] **Lead prove**: submit lead → verify n8n delivery + Supabase row + Telegram arrival
 - [ ] **Rollback prove**: operator rollback to prior revision → visible change → restore
-
-No component or code changes required.
 
 ---
 

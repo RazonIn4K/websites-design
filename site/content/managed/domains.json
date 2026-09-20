@@ -12,5 +12,19 @@
     "verification": "pending",
     "enabled": false,
     "notes": "Placeholder only — do not invent a live domain. Enable after David verifies DNS on the Vercel project."
+  },
+  {
+    "hostname": "mccabes.managed.localhost",
+    "siteId": "site_mccabes",
+    "verification": "verified",
+    "enabled": true,
+    "notes": "Local/test mapping for McCabe's Event Venue."
+  },
+  {
+    "hostname": "mccabes.razonworks.com",
+    "siteId": "site_mccabes",
+    "verification": "verified",
+    "enabled": true,
+    "notes": "Production hostname for McCabe's Event Venue. Same Vercel project (prj_p3yXTA3YM7m6kxdXbuBlhDbOTYAT). DNS attach pending David."
   }
 ]

@@ -1,0 +1,51 @@
+{
+  "id": "rev_002",
+  "siteId": "site_mccabes",
+  "createdAt": "2026-09-20T01:00:00.000Z",
+  "createdBy": "operator",
+  "layout": {
+    "archetype": "editorial",
+    "hero": "editorial",
+    "tone": "editorial",
+    "menuKind": "carte",
+    "highlights": "index",
+    "gallery": "horizontal",
+    "story": "scrolly"
+  },
+  "emojis": ["🎉", "🎤", "🍸", "💃", "🎶", "✨"],
+  "schemaTypes": ["EventVenue", "NightClub", "BarOrPub"],
+  "assetSlug": "arcada-theater",
+  "content": {
+    "kind": "demo-kit",
+    "kitRef": "arcada-theater",
+    "overrides": {
+      "business": {
+        "name": "McCabe's Event Venue",
+        "shortName": "McCabe's",
+        "vertical": "Historic Event Venue & Nightlife",
+        "phone": "(815) 214-9010",
+        "phoneHref": "+18152149010",
+        "address": "323–333 E Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "zip": "60115",
+        "mapsQuery": "McCabe's Event Venue, 323 E Lincoln Highway, DeKalb, IL 60115",
+        "lat": 41.9317,
+        "lon": -88.7503
+      },
+      "en": {
+        "meta": {
+          "title": "McCabe's Event Venue | DeKalb's #1 Social Center — Nightlife & Private Events",
+          "description": "Downtown DeKalb's historic event hall — ~8,000 sq ft for club nights, NIU late nights, weddings, reunions & private buyouts. Up to 975 standing. Call (815) 214-9010."
+        }
+      },
+      "es": {
+        "meta": {
+          "title": "McCabe's Event Venue | El Centro Social #1 de DeKalb — Vida Nocturna y Eventos Privados",
+          "description": "El salón histórico del centro de DeKalb — ~8,000 pies cuadrados para noches de club, eventos NIU, bodas, reuniones y eventos privados. Hasta 975 de pie. Llama al (815) 214-9010."
+        }
+      }
+    }
+  },
+  "label": "Customer-approved copy v2 (active)"
+}
