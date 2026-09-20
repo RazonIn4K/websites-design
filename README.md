@@ -128,8 +128,9 @@ stats, and progressive-enhancement motion (no-JS/reduced-motion safe). QA harnes
 | `star-34-cafe` | Star 34 Cafè | Breakfast & Brunch Cafe · Sandwich |
 | `delts-electric` | Delts Electric | Licensed Electrical Contractor · DeKalb |
 | `votaw-plumbing` | Votaw Plumbing LLC | Residential & Light Commercial Plumbing · DeKalb |
+| `sanjuan-carpet` | San Juan Carpet Cleaning | Carpet & Upholstery Cleaning · DeKalb County |
 
-- **`/sites`** — filterable portfolio explorer of all 74 generated sites.
+- **`/sites`** — filterable portfolio explorer of all 75 generated sites.
 
 All 74 come from one template; only `content/clients/<slug>/copy.json` (bilingual),
 `theme.json` (palette), `blur.json` (LQIP), `public/img/<slug>/*` (photos), and the

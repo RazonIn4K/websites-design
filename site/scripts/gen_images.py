@@ -104,6 +104,8 @@ CLIENTS = [
     # Aug 2026 trades (bootstrap_aug2026_trades.py)
     {"slug": "delts-electric", "copy": "content/clients/delts-electric/copy.json", "vertical": "electrician"},
     {"slug": "votaw-plumbing", "copy": "content/clients/votaw-plumbing/copy.json", "vertical": "plumber"},
+    # Managed-platform pilot: carpet cleaning (real customer, bilingual)
+    {"slug": "sanjuan-carpet", "copy": "content/clients/sanjuan-carpet/copy.json", "vertical": "carpetcleaning"},
 ]
 
 STYLE = {
@@ -177,6 +179,7 @@ STYLE = {
     "paleteria": "professional Mexican paleteria photography, colorful fruit paletas, nieves and aguas frescas, bright cheerful lighting, ultra detailed, no text",
     "electrician": "professional electrician photography, licensed technician at a labeled residential panel, clean garage workshop, natural daylight, ultra detailed, no text",
     "plumber": "professional plumber photography, service van and residential plumbing work, clean trustworthy lighting, ultra detailed, no text",
+    "carpetcleaning": "professional carpet cleaning photography, clean refreshed carpet in a bright home, professional technician with extraction equipment, trustworthy lighting, ultra detailed, no text",
 }
 
 _LEFT = "wide cinematic composition with the main subject on the right and generous empty darker negative space on the left for text overlay"
@@ -252,6 +255,7 @@ HERO = {
     "paleteria": f"cinematic photograph, rows of colorful hand-made fruit paletas in a bright display case with a mangonada drizzled in chamoy, cheerful vivid light, {_LEFT}",
     "electrician": f"cinematic photograph, a licensed electrician in navy work clothes servicing a clean residential breaker panel in a bright Midwest garage, blue service van visible through the open door, {_LEFT}",
     "plumber": f"cinematic photograph, a professional plumber in uniform with a branded service truck parked outside a DeKalb Illinois home, copper pipes and clean tools, {_LEFT}",
+    "carpetcleaning": f"cinematic photograph, a professional carpet cleaning technician deep cleaning a living room carpet with an extraction wand, transformed clean carpet visible, bright Midwest home, {_LEFT}",
 }
 
 ABOUT = {
@@ -325,6 +329,7 @@ ABOUT = {
     "paleteria": "bright cheerful paleteria interior with a colorful ice-cream case, papel picado accents, and counter seating",
     "electrician": "friendly licensed electrician smiling with arms crossed in a clean bright workshop, approachable local contractor",
     "plumber": "friendly local plumber with a service van and tidy tools, trustworthy Midwest residential specialist",
+    "carpetcleaning": "friendly carpet cleaning technician smiling with professional equipment, clean refreshed carpets visible in a Midwest home, trustworthy family-owned service",
 }
 
 OUT = Path("public/img")
