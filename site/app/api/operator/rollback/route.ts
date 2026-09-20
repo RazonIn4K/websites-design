@@ -5,6 +5,12 @@
  *
  * Uses async rollback that persists to Vercel Edge Config when configured,
  * ensuring the active revision is durable across serverless instances.
+ *
+ * Response includes:
+ * - durableWriteConfigured: true if Edge Config write env vars are present
+ * - durableWriteOk: true if write succeeded OR write intentionally skipped (unconfigured)
+ *
+ * Note: Edge Config propagation to all edge locations takes ~15 seconds.
  */
 
 import { publicationHistory, PublishError, rollbackPublicationAsync } from "@/lib/platform/publish";
@@ -48,14 +54,17 @@ export async function POST(request: Request) {
     return Response.json({ ok: false, error: "siteId required" }, { status: 422 });
   }
 
+  const durableWriteConfigured = isDurableWriteConfigured();
+
   try {
-    const site = await rollbackPublicationAsync(body.siteId, body.toRevisionId, "operator-api");
+    const result = await rollbackPublicationAsync(body.siteId, body.toRevisionId, "operator-api");
     return Response.json({
       ok: true,
-      siteId: site.id,
-      activePublishedRevisionId: site.activePublishedRevisionId,
-      durableWriteConfigured: isDurableWriteConfigured(),
-      history: publicationHistory(site.id).map((r) => ({
+      siteId: result.site.id,
+      activePublishedRevisionId: result.site.activePublishedRevisionId,
+      durableWriteConfigured,
+      durableWriteOk: result.durableWriteOk,
+      history: publicationHistory(result.site.id).map((r) => ({
         id: r.id,
         label: r.label,
         createdAt: r.createdAt,
@@ -63,8 +72,18 @@ export async function POST(request: Request) {
     });
   } catch (err) {
     if (err instanceof PublishError) {
-      const status = err.code === "not_found" ? 404 : err.code === "conflict" ? 409 : 422;
-      return Response.json({ ok: false, error: err.message, code: err.code }, { status });
+      const isDurableFailure = err.code === "durable_write_failed";
+      const status = err.code === "not_found" ? 404
+        : err.code === "conflict" ? 409
+        : isDurableFailure ? 503
+        : 422;
+      return Response.json({
+        ok: false,
+        error: err.message,
+        code: err.code,
+        durableWriteConfigured,
+        durableWriteOk: false,
+      }, { status });
     }
     throw err;
   }
