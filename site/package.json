@@ -14,7 +14,8 @@
     "qa:reveal": "node qa/reveal-check.mjs",
     "qa:cta": "node qa/cta-fold-check.mjs",
     "qa:all": "node qa/overflow-check.mjs && node qa/es-check.mjs && node qa/behavior-check.mjs && node qa/reveal-check.mjs && node qa/cta-fold-check.mjs",
-    "test:managed": "npx tsx scripts/test-managed-platform.ts"
+    "test:managed": "npx tsx scripts/test-managed-platform.ts",
+    "prove:managed": "bash scripts/prove-managed-fleet.sh"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.116.0",

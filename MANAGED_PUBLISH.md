@@ -381,6 +381,47 @@ The hostname `mccabes.razonworks.com` needs to be attached to the Vercel project
 
 ---
 
+## Operator prove script
+
+Automated health check for the live managed fleet. Runs from `site/`:
+
+```bash
+npm run prove:managed              # host checks + title asserts
+npm run prove:managed -- --flip    # full rev toggle cycle (~32s total)
+npm run prove:managed -- --lead    # POST /api/lead smoke
+npm run prove:managed -- --flip --lead
+```
+
+### What it checks
+
+| Check | Always | --flip | --lead |
+| ----- | :----: | :----: | :----: |
+| Both hosts return HTTP 200 | ✓ | ✓ | ✓ |
+| Title contains expected substring | ✓ | ✓ | ✓ |
+| Rollback to already-active rev returns 409 + `durableWriteOk:false` | ✓* | — | — |
+| Full rev_001↔rev_002 cycle with title verification | — | ✓ | — |
+| Lead POST returns 200 + `ok:true` | — | — | ✓ |
+
+\* Requires `OPERATOR_PUBLISH_TOKEN` env var; skipped when unset.
+
+### Env overrides
+
+| Variable | Default | Purpose |
+| -------- | ------- | ------- |
+| `PILOT_HOST` | `managed.razonworks.com` | Pilot site hostname |
+| `MCCABES_HOST` | `mccabes.razonworks.com` | McCabe's hostname |
+| `PILOT_TITLE_ASSERT` | `Pilot Craft` | Substring expected in pilot title |
+| `MCCABES_TITLE_ASSERT` | `McCabe` | Substring expected in McCabe's title |
+| `OPERATOR_PUBLISH_TOKEN` | — | Required for rollback honesty/flip checks |
+
+### Notes
+
+- **Edge Config lag (~15s)**: The `--flip` flag waits 16s after each rollback to allow Edge Config propagation before verifying title changes. Without `--flip`, the honesty check does NOT alter content — it only confirms the API returns 409 when you try to rollback to the already-active revision.
+- **CI/cron safe**: Default mode (no flags) is non-destructive and safe to run frequently.
+- **Exit 1 on failure**: Any check failure exits non-zero with clear PASS/FAIL lines.
+
+---
+
 ## Checklist for adding more sites
 
 For adding additional managed sites without code changes:
