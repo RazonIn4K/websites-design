@@ -17,6 +17,7 @@
     "test:managed": "npx tsx scripts/test-managed-platform.ts"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.116.0",
     "@vercel/global-config": "^1.5.1",
     "motion": "^12.42.2",
     "next": "16.2.9",

@@ -12,6 +12,10 @@
 import { attemptDelivery, deliverLead } from "@/lib/platform/leads/delivery";
 import { resolveLeadSite } from "@/lib/platform/leads/identity";
 import { createLeadId, persistLead } from "@/lib/platform/leads/store";
+import {
+  persistLeadToSupabase,
+  updateLeadDeliveryInSupabase,
+} from "@/lib/platform/leads/supabase";
 import type { StoredLead } from "@/lib/platform/types";
 
 export const runtime = "nodejs";
@@ -205,6 +209,10 @@ export async function POST(request: Request) {
     );
   }
 
+  // Durable Supabase persist (non-blocking; webhook delivery proceeds even if this fails).
+  const supabaseResult = await persistLeadToSupabase(lead);
+  const supabasePersisted = supabaseResult.ok;
+
   if (!webhook) {
     // Managed preview without webhook should not reach here (productionLike guard),
     // but keep an honest stored response if ALLOW path exists.
@@ -215,6 +223,7 @@ export async function POST(request: Request) {
       leadId: lead.id,
       siteId: lead.siteId,
       persistBackend: backend,
+      supabasePersisted,
     });
   }
 
@@ -231,6 +240,13 @@ export async function POST(request: Request) {
     }
   }
 
+  // Sync final delivery status to Supabase (non-blocking).
+  if (status) {
+    updateLeadDeliveryInSupabase(lead.id, status).catch(() => {
+      // Logged inside the function; fire-and-forget.
+    });
+  }
+
   if (status === "delivered") {
     if (isFormPost) return redirectBack(request);
     return Response.json({
@@ -239,6 +255,7 @@ export async function POST(request: Request) {
       leadId: lead.id,
       siteId: lead.siteId,
       persistBackend: backend,
+      supabasePersisted,
     });
   }
 
@@ -256,6 +273,7 @@ export async function POST(request: Request) {
       siteId: lead.siteId,
       deliveryStatus: status,
       persistBackend: backend,
+      supabasePersisted,
     },
     { status: 502 },
   );

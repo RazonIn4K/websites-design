@@ -42,9 +42,11 @@ SSO: `all_except_custom_domains` — attach an approved custom host to unlock un
 1. Resolve site from `Host` (preferred) or managed `siteId`.
 2. Persist under `.data/leads/<siteId>/` when writable; on Vercel use `/tmp` then
    in-memory fallback so a read-only FS never blocks webhook delivery. Durable
-   store UNKNOWN until Postgres/Payload.
+   Vercel instances. When `SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY` are set,
+   leads also persist to Supabase `managed_leads` table for durable cross-instance storage.
 3. Attempt webhook delivery; failures set `deliveryStatus=failed|dead` with `nextRetryAt`.
-4. Production-like paths **never** return `{ ok: true, mode: "demo" }`.
+4. Delivery status is synced to Supabase after each attempt (non-blocking).
+5. Production-like paths **never** return `{ ok: true, mode: "demo" }`.
 
 Env:
 
@@ -58,6 +60,8 @@ Env:
 | `ALLOW_LEAD_DEMO_MODE=1` | Allow log-only demo on production NODE_ENV for `/sites/*` prospect fleet |
 | `OPERATOR_PUBLISH_TOKEN` | Publish / rollback / lead retry |
 | `MANAGED_DOMAIN_MAP` | `host:siteId` overrides/extends `domains.json` |
+| `SUPABASE_URL` | Supabase project URL (durable lead storage) |
+| `SUPABASE_SERVICE_ROLE_KEY` | Service role key — server-only, never expose |
 
 ## Silent-failure owners
 
@@ -153,13 +157,99 @@ curl -X POST "https://managed.razonworks.com/api/operator/rollback" \
 
 Local dev without Edge Config works as before — rollback is transient per process.
 
+## Durable lead storage (Supabase)
+
+Leads persist to **Supabase** `managed_leads` table so they survive Vercel `/tmp` ephemeral storage and cold starts.
+
+### Supabase project
+
+- **Project**: RazonWorks Managed Leads
+- **Project ref**: `sjpmcapkjnzkrymbrdgp`
+- **URL**: `https://sjpmcapkjnzkrymbrdgp.supabase.co`
+- **Table**: `public.managed_leads` (RLS on, service-role writes only)
+
+### Table schema
+
+| Column | Type | Notes |
+| ------ | ---- | ----- |
+| `id` | text PK | Lead ID (`lead_xxx`) — same as local StoredLead.id |
+| `site_id` | text | Site identifier |
+| `hostname` | text | Request hostname |
+| `revision_id` | text | Active revision at time of lead |
+| `source` | text | Always "website" |
+| `business_name` | text | Business name |
+| `business_city` | text | Business city |
+| `business_state` | text | Business state |
+| `contact_name` | text | Lead contact name |
+| `contact_email` | text | Lead contact email |
+| `contact_phone` | text | Lead contact phone |
+| `message` | text | Lead message |
+| `locale` | text | `en` or `es` |
+| `payload` | jsonb | Full StoredLead.payload |
+| `delivery_status` | text | `stored`, `queued`, `delivered`, `failed`, `dead` |
+| `received_at` | timestamptz | When lead was received |
+| `created_at` | timestamptz | Row creation time |
+
+### Setup on Vercel
+
+1. **Add env vars** (Vercel Dashboard → Project → Settings → Environment Variables):
+
+   | Variable | Value | Scope |
+   | -------- | ----- | ----- |
+   | `SUPABASE_URL` | `https://sjpmcapkjnzkrymbrdgp.supabase.co` | All |
+   | `SUPABASE_SERVICE_ROLE_KEY` | Service role key from Supabase Dashboard | Production + Preview |
+
+   **Never** use `NEXT_PUBLIC_` prefix — service role key must stay server-only.
+
+2. **Redeploy** so the new env vars bind.
+
+### Behavior
+
+| Env vars | Behavior |
+| -------- | -------- |
+| Both set | Leads persist to Supabase after local persist; delivery status synced after webhook |
+| Either unset | Logs warning once, continues without Supabase (webhook still works) |
+
+### Re-prove lead storage works
+
+```bash
+# Submit a test lead
+curl -X POST "$ORIGIN/api/lead" \
+  -H "Content-Type: application/json" \
+  -H "x-managed-site-id: site_pilot_craft" \
+  -d '{
+    "name": "Test Lead",
+    "email": "test@example.com",
+    "phone": "555-1234",
+    "message": "Supabase persist test",
+    "lang": "en",
+    "business": {"name": "Pilot Craft Auto", "city": "Sycamore", "state": "IL"}
+  }'
+
+# Response should include supabasePersisted: true (when configured)
+
+# Verify in Supabase (SQL Editor or Table Editor):
+SELECT id, site_id, contact_name, contact_email, delivery_status, received_at
+FROM managed_leads
+ORDER BY received_at DESC
+LIMIT 5;
+```
+
+### Fallback behavior
+
+If Supabase insert fails:
+- Error is logged with `owner=razonworks-ops`
+- Lead remains in local `/tmp` + memory store
+- Webhook delivery proceeds normally
+- Response `supabasePersisted: false`
+
 ## Still needs David (live prove)
 
 1. Confirm Vercel env vars are set on this project and **redeploy** the PR branch so they bind
 2. Confirm the approved test hostname appears under project Domains (API still shows only `*.vercel.app` aliases) and `MANAGED_DOMAIN_MAP` / `domains.json` maps it → `site_pilot_craft`
 3. Prove on that host: lead without webhook fails; with webhook delivers; operator rollback to `rev_001`
 4. Commercial plan before selling managed A (still **hobby**)
-5. Durable lead store (Payload/Postgres step 3)
+5. ~~Durable lead store (Payload/Postgres step 3)~~ — Now using Supabase `managed_leads`
 6. Review/merge draft PR #3 when 1–3 are green
 
 See also `site/.env.example`.

@@ -1,7 +1,7 @@
 /**
  * Lead persistence port for the managed pilot.
- * File-backed today (`./store`); Postgres/Payload should implement the same
- * function surface later without changing `/api/lead`.
+ * File-backed locally (`./store`), with optional durable Supabase persist
+ * (`./supabase`) when SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY are set.
  */
 export {
   createLeadId,
@@ -12,3 +12,10 @@ export {
   listRetryableLeads,
   resetLeadStoreForTests,
 } from "./store";
+
+export {
+  persistLeadToSupabase,
+  updateLeadDeliveryInSupabase,
+  isSupabaseConfigured,
+  resetSupabaseClientForTests,
+} from "./supabase";
