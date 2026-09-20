@@ -243,22 +243,21 @@ If Supabase insert fails:
 
 ## Pilot acceptance
 
-Pilot gates 1–10 PASS on production `https://managed.razonworks.com` → `site_pilot_craft` as of 2026-09-19.
+Pilot gates PASS on production `https://managed.razonworks.com` → `site_pilot_craft` as of 2026-09-19.
 
-| Gate | Description | Status |
-| ---- | ----------- | ------ |
-| 1 | Domain resolves / TLS valid | PASS |
-| 2 | Homepage renders `rev_002` (active) | PASS |
-| 3 | Rollback to `rev_001` → visible title change | PASS |
-| 4 | Restore `rev_002` | PASS |
-| 5 | `durableWriteConfigured: true` in rollback response | PASS |
-| 6 | Lead form submit → n8n webhook delivery | PASS |
-| 7 | Lead arrives in Telegram channel | PASS |
-| 8 | Language toggle EN ⇄ ES | PASS |
-| 9 | Navigation / scroll / accordion behavior | PASS |
-| 10 | Durable Supabase lead persist (PR #6 / `578fd5c`) | PASS |
-
-Live prove lead `lead_mu928r7u_r7jzyi` returned `supabasePersisted:true` and `delivery_status: delivered`.
+| # | Gate | Result |
+| - | ---- | ------ |
+| 1 | Custom host attached + serves Pilot Craft | PASS |
+| 2 | Domain → site_pilot_craft | PASS |
+| 3 | Lead without webhook auth rejected at n8n | PASS |
+| 4 | Lead with Bearer accepted at n8n | PASS |
+| 5 | Live site lead delivers (mode=delivered) | PASS |
+| 6 | Owner Telegram alert | PASS |
+| 7 | LEAD_WEBHOOK_TOKEN on Vercel Preview+Production | PASS |
+| 8 | Operator rollback API auth (401 without/wrong token) | PASS |
+| 9 | Operator rollback API activate (rev toggle + 404 missing) | PASS |
+| 10a | Visible content switch after rollback (Global Config) | PASS |
+| 10b | Durable Supabase lead persist (PR #6 / `578fd5c`; `lead_mu928r7u_r7jzyi` `supabasePersisted:true`) | PASS |
 
 ### Durable infrastructure in production
 
