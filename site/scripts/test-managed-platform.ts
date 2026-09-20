@@ -20,6 +20,7 @@ import { deliverLead } from "../lib/platform/leads/delivery";
 import {
   activateRevision,
   rollbackPublication,
+  rollbackPublicationAsync,
   resetOverlaysSafe,
 } from "./test-managed-helpers";
 import { resolveHostname } from "../lib/platform/resolve-host";
@@ -246,6 +247,43 @@ async function main() {
     "Pilot Craft Auto",
     "McCabe's hostname must not serve pilot content"
   );
+  resetRegistryOverlays();
+
+  console.log("13. rollbackPublicationAsync uses durable state, not stale sites.json");
+  // Scenario: durable state says rev_001 is active, but sites.json says rev_002.
+  // Rolling back TO rev_002 should succeed (rev_002 is NOT currently active).
+  // Before fix: rollbackPublicationAsync compared against stale sites.json → 409 conflict.
+  resetRegistryOverlays();
+  setMockActiveRevisions({ site_pilot_craft: "rev_001" });
+
+  // Verify mock is working — getSiteAsync should see rev_001 as active
+  const siteWithMock = await getSiteAsync("site_pilot_craft");
+  assert.ok(siteWithMock);
+  assert.equal(siteWithMock.activePublishedRevisionId, "rev_001", "mock should show rev_001 active");
+
+  // Now attempt rollback to rev_002 — this should succeed since rev_001 is active per durable state
+  const rolledBack = await rollbackPublicationAsync("site_pilot_craft", "rev_002", "test");
+  assert.equal(rolledBack.activePublishedRevisionId, "rev_002", "rollback to rev_002 should succeed");
+
+  // Update mock to reflect the new durable state (simulates Edge Config write)
+  setMockActiveRevisions({ site_pilot_craft: "rev_002" });
+
+  // Verify that rolling back to the currently-active revision throws conflict
+  let conflictThrown = false;
+  try {
+    await rollbackPublicationAsync("site_pilot_craft", "rev_002", "test");
+  } catch (err) {
+    if (err instanceof Error && err.message.includes("already active")) {
+      conflictThrown = true;
+    }
+  }
+  assert.equal(conflictThrown, true, "rollback to already-active rev_002 should throw conflict");
+
+  // Also verify rolling back to rev_001 succeeds (from rev_002 active state)
+  const rolledToRev1 = await rollbackPublicationAsync("site_pilot_craft", "rev_001", "test");
+  assert.equal(rolledToRev1.activePublishedRevisionId, "rev_001", "rollback to rev_001 should succeed");
+
+  setMockActiveRevisions(null);
   resetRegistryOverlays();
 
   console.log("\nAll managed-platform checks passed.");

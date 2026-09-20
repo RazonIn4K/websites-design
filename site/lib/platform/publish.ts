@@ -1,6 +1,7 @@
 import {
   getRevision,
   getSite,
+  getSiteAsync,
   getTemplate,
   listRevisionsForSite,
   writeRevisionOverlay,
@@ -99,22 +100,28 @@ export function activateRevision(siteId: string, revisionId: string, actor = "op
 /**
  * Roll back to the previous published revision (or a specific prior id).
  * Async version that persists to durable store. Use in API routes.
+ *
+ * This version uses getSiteAsync to read the durable active revision from
+ * Edge Config, avoiding conflicts when the durable state differs from the
+ * committed sites.json.
  */
 export async function rollbackPublicationAsync(
   siteId: string,
   toRevisionId?: string,
   actor = "operator",
 ): Promise<SiteRecord> {
-  const site = getSite(siteId);
+  const site = await getSiteAsync(siteId);
   if (!site) throw new PublishError(`Unknown site ${siteId}`, "not_found");
-  if (!site.activePublishedRevisionId) {
+
+  const durableActive = site.activePublishedRevisionId;
+  if (!durableActive) {
     throw new PublishError("Site has no active publication to roll back", "invalid");
   }
 
   let target = toRevisionId;
   if (!target) {
     const ids = site.publishedRevisionIds;
-    const idx = ids.indexOf(site.activePublishedRevisionId);
+    const idx = ids.indexOf(durableActive);
     if (idx <= 0) {
       throw new PublishError("No prior revision available for rollback", "invalid");
     }
@@ -123,7 +130,7 @@ export async function rollbackPublicationAsync(
   if (!target) {
     throw new PublishError("No prior revision available for rollback", "invalid");
   }
-  if (target === site.activePublishedRevisionId) {
+  if (target === durableActive) {
     throw new PublishError("Target revision is already active", "conflict");
   }
   return activateRevisionAsync(siteId, target, actor);
