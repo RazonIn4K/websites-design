@@ -393,6 +393,95 @@ The hostname `mccabes.razonworks.com` needs to be attached to the Vercel project
 
 ---
 
+## Third managed site: San Juan Carpet Cleaning
+
+Third customer onboarded to the managed platform. Bilingual (EN/ES) residential + commercial carpet & upholstery cleaning.
+
+### Site details
+
+| Field | Value |
+| ----- | ----- |
+| Site ID | `site_sanjuan` |
+| Slug | `sanjuan` |
+| Display name | San Juan Carpet Cleaning |
+| Template | `tmpl_craft_services` (craft archetype, a1-auto kit shape) |
+| Hostname | `sanjuan.razonworks.com` (verified + enabled in `domains.json`) |
+| Local test | `sanjuan.managed.localhost` |
+| Revisions | `rev_001` (rollback base), `rev_002` (active) |
+
+### Business identity
+
+- **Legal/brand**: Carpet Cleaning San Juan LLC / San Juan Carpet Cleaning
+- **Owner**: Luis Calderon (owner-direct, talk to Luis not a call center)
+- **Primary phone (CTA)**: (779) 777-8330 — use in all public primary CTAs
+- **Secondary phone**: (815) 995-8035 — contact block only if needed
+- **Email**: info@sanjuancarpet.com
+- **Hours**: Mon–Sat 7:00 AM–5:00 PM America/Chicago; emergency calls/texts 24/7 (do NOT market as 24/7 service hours)
+- **City/state**: DeKalb, IL
+- **Service areas**: DeKalb, Sycamore, DeKalb County; also Aurora, Rochelle, Elgin
+- **Street address**: DO NOT publish (service-area business; Google hides street)
+- **Existing site**: https://sanjuancarpet.com/
+- **Vertical**: bilingual residential/commercial carpet cleaning; upholstery, pet stain/odor, move-out/apartment, deep stain treatment
+- **Tone**: local owner-operated, bilingual EN/ES, clear upfront quotes, text photos for a quote
+- **Pricing** (modest wording only): living room from $85, per room from $50, stairs $7/step, hallway $35–45, upholstery custom
+- **Social** (optional mention): Instagram/TikTok/YouTube @sanjuancarpet; Facebook "Carpet cleaning San Juan LLC"
+
+**Do not invent**: certifications, truck-mount claims, "steam cleaning" claims, Luis face photos, fake reviews, street address
+
+### Files added
+
+- `content/managed/revisions/site_sanjuan/rev_001.json` — rollback base
+- `content/managed/revisions/site_sanjuan/rev_002.json` — active copy
+- `content/managed/drafts/site_sanjuan/README.json` — draft placeholder
+- `content/managed/sites.json` — added `site_sanjuan`
+- `content/managed/domains.json` — added `sanjuan.razonworks.com` + `sanjuan.managed.localhost`
+- `lib/platform/registry.ts` — imports for San Juan revisions
+
+### Prove steps (after deploy)
+
+```bash
+# 1. Hostname resolves
+curl -I https://sanjuan.razonworks.com
+# Should return 200 with San Juan content
+
+# 2. Rollback test
+curl -X POST "https://sanjuan.razonworks.com/api/operator/rollback" \
+  -H "Authorization: Bearer $OPERATOR_PUBLISH_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"siteId":"site_sanjuan","toRevisionId":"rev_001"}'
+# Title should change to "San Juan Carpet Cleaning (v1)"
+
+# 3. Restore active revision
+curl -X POST "https://sanjuan.razonworks.com/api/operator/rollback" \
+  -H "Authorization: Bearer $OPERATOR_PUBLISH_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"siteId":"site_sanjuan","toRevisionId":"rev_002"}'
+
+# 4. Lead submission test
+curl -X POST "https://sanjuan.razonworks.com/api/lead" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "Test Lead",
+    "email": "test@example.com",
+    "phone": "555-1234",
+    "message": "San Juan lead test",
+    "lang": "en",
+    "business": {"name": "San Juan Carpet Cleaning", "city": "DeKalb", "state": "IL"}
+  }'
+# Should return delivered status + supabasePersisted: true
+```
+
+### Domain attach (David)
+
+The hostname `sanjuan.razonworks.com` needs to be attached to the Vercel project `prj_p3yXTA3YM7m6kxdXbuBlhDbOTYAT` via the dashboard:
+
+1. Vercel Dashboard → Project → Settings → Domains
+2. Add `sanjuan.razonworks.com`
+3. Configure DNS (CNAME to `cname.vercel-dns.com` or A record to Vercel IP)
+4. Wait for TLS provisioning
+
+---
+
 ## Operator prove script
 
 Automated health check for the live managed fleet. Runs from `site/`:
@@ -408,7 +497,7 @@ npm run prove:managed -- --flip --lead
 
 | Check | Always | --flip | --lead |
 | ----- | :----: | :----: | :----: |
-| Both hosts return HTTP 200 | ✓ | ✓ | ✓ |
+| All hosts return HTTP 200 | ✓ | ✓ | ✓ |
 | Title contains expected substring | ✓ | ✓ | ✓ |
 | Rollback to already-active rev returns 409 + `durableWriteOk:false` | ✓* | — | — |
 | Full rev_001↔rev_002 cycle with title verification | — | ✓ | — |
@@ -422,8 +511,10 @@ npm run prove:managed -- --flip --lead
 | -------- | ------- | ------- |
 | `PILOT_HOST` | `managed.razonworks.com` | Pilot site hostname |
 | `MCCABES_HOST` | `mccabes.razonworks.com` | McCabe's hostname |
+| `SANJUAN_HOST` | `sanjuan.razonworks.com` | San Juan hostname |
 | `PILOT_TITLE_ASSERT` | `Pilot Craft` | Substring expected in pilot title |
 | `MCCABES_TITLE_ASSERT` | `McCabe` | Substring expected in McCabe's title |
+| `SANJUAN_TITLE_ASSERT` | `San Juan` | Substring expected in San Juan title |
 | `OPERATOR_PUBLISH_TOKEN` | — | Required for rollback honesty/flip checks |
 
 ### Notes

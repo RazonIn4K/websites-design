@@ -31,7 +31,8 @@
     "displayName": "San Juan Carpet Cleaning",
     "activePublishedRevisionId": "rev_002",
     "publishedRevisionIds": ["rev_001", "rev_002"],
-    "createdAt": "2026-09-20T12:00:00.000Z",
-    "updatedAt": "2026-09-20T12:00:00.000Z"
+    "draftKitPath": "content/managed/drafts/site_sanjuan",
+    "createdAt": "2026-09-20T00:00:00.000Z",
+    "updatedAt": "2026-09-20T00:00:00.000Z"
   }
 ]

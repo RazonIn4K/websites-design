@@ -1,7 +1,7 @@
 {
   "id": "rev_002",
   "siteId": "site_sanjuan",
-  "createdAt": "2026-09-20T13:00:00.000Z",
+  "createdAt": "2026-09-20T01:00:00.000Z",
   "createdBy": "operator",
   "layout": {
     "archetype": "craft",
@@ -12,12 +12,12 @@
     "menuKind": "services",
     "gallery": "horizontal"
   },
-  "emojis": ["🧹", "✨", "🏠", "🛋️", "🧼", "💧"],
-  "schemaTypes": ["HomeAndConstructionBusiness", "ProfessionalService"],
+  "emojis": ["🧹", "🛋️", "🏠", "✨", "🚐", "💧"],
+  "schemaTypes": ["HomeAndConstructionBusiness", "LocalBusiness"],
   "assetSlug": "sanjuan-carpet",
   "content": {
     "kind": "demo-kit",
     "kitRef": "sanjuan-carpet"
   },
-  "label": "San Juan Carpet Cleaning — active bilingual site"
+  "label": "Customer-approved copy v2 (active)"
 }
