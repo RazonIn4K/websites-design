@@ -5,6 +5,12 @@
  *
  * Uses async publish that persists to Vercel Edge Config when configured,
  * ensuring the active revision is durable across serverless instances.
+ *
+ * Response includes:
+ * - durableWriteConfigured: true if Edge Config write env vars are present
+ * - durableWriteOk: true if write succeeded OR write intentionally skipped (unconfigured or activate=false)
+ *
+ * Note: Edge Config propagation to all edge locations takes ~15 seconds.
  */
 
 import { createPublishedRevisionAsync, PublishError } from "@/lib/platform/publish";
@@ -53,6 +59,8 @@ export async function POST(request: Request) {
     return Response.json({ ok: false, error: "siteId required" }, { status: 422 });
   }
 
+  const durableWriteConfigured = isDurableWriteConfigured();
+
   try {
     const result = await createPublishedRevisionAsync({
       siteId: body.siteId,
@@ -66,12 +74,23 @@ export async function POST(request: Request) {
       revisionId: result.revision.id,
       activePublishedRevisionId: result.site.activePublishedRevisionId,
       siteId: result.site.id,
-      durableWriteConfigured: isDurableWriteConfigured(),
+      durableWriteConfigured,
+      durableWriteOk: result.durableWriteOk,
     });
   } catch (err) {
     if (err instanceof PublishError) {
-      const status = err.code === "not_found" ? 404 : err.code === "conflict" ? 409 : 422;
-      return Response.json({ ok: false, error: err.message, code: err.code }, { status });
+      const isDurableFailure = err.code === "durable_write_failed";
+      const status = err.code === "not_found" ? 404
+        : err.code === "conflict" ? 409
+        : isDurableFailure ? 503
+        : 422;
+      return Response.json({
+        ok: false,
+        error: err.message,
+        code: err.code,
+        durableWriteConfigured,
+        durableWriteOk: false,
+      }, { status });
     }
     throw err;
   }

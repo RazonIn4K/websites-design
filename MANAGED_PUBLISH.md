@@ -87,24 +87,35 @@ curl -X POST "$ORIGIN/api/operator/rollback" \
   -d '{"siteId":"site_pilot_craft","toRevisionId":"rev_001"}'
 ```
 
-Response includes `durableWriteConfigured: true` when Edge Config is set up.
+Response includes:
+- `durableWriteConfigured: true` when Edge Config env vars are set
+- `durableWriteOk: true` when write succeeded (or was intentionally skipped because unconfigured)
+
+If `durableWriteOk: false`, the API returns HTTP 503 and `ok: false` — the revision is NOT safely activated globally.
 
 ## Durable active-revision state
 
 Active revision is persisted to **Vercel Edge Config** so that operator rollback is visible across all serverless instances.
 
+### Per-site keys (race-free writes)
+
+Each site's active revision is stored in its own Edge Config key (`managed_active_<siteId>`), eliminating read-modify-write races when concurrent operators flip different sites. Legacy map key (`managed_active_revisions`) is read as fallback for sites not yet migrated to per-site keys.
+
 ### How it works
 
 1. **Write path**: When `/api/operator/rollback` (or `/publish`) activates a revision, it writes to:
    - Process-local overlay (immediate, for the responding instance)
-   - Vercel Edge Config (durable, globally replicated in ~50ms)
+   - Vercel Edge Config per-site key (durable, globally replicated)
 
 2. **Read path**: When a page renders, it reads active revision from:
-   - Edge Config (if `EDGE_CONFIG` is set) — preferred, cross-instance
+   - Edge Config per-site key (if `EDGE_CONFIG` is set) — preferred
+   - Edge Config legacy map fallback (for migration)
    - Process-local overlay (fallback for dev)
    - Committed `sites.json` (cold-start fallback when Edge Config is empty)
 
 3. **Cold start**: New instances always read from Edge Config first; committed JSON is only used when the durable store has no entry for the site.
+
+4. **Edge propagation lag**: Edge Config updates take approximately **~15 seconds** to propagate to all edge locations globally. During this window, some requests may see the previous revision.
 
 ### Setup on Vercel
 
@@ -150,10 +161,18 @@ curl -X POST "https://managed.razonworks.com/api/operator/rollback" \
 
 | GLOBAL_CONFIG / EDGE_CONFIG | Behavior |
 | --------------------------- | -------- |
-| Set | Reads from Edge Config; falls back to sites.json if key missing |
+| Set | Reads from Edge Config per-site key → legacy map → sites.json |
 | Unset | Reads from process overlay → sites.json (single-instance only) |
 
 Local dev without Edge Config works as before — rollback is transient per process.
+
+### Write honesty (durableWriteOk)
+
+The API responses now include `durableWriteOk: boolean`:
+- `true` when the Edge Config write succeeded, or when write was intentionally skipped (unconfigured)
+- `false` when write was configured but failed (API returns HTTP 503, `ok: false`)
+
+Operators should check `durableWriteOk` in CI/automation scripts. If `durableWriteOk: false`, the revision switch is NOT globally visible — other instances/edges may serve the old revision.
 
 ## Durable lead storage (Supabase)
 
@@ -280,9 +299,9 @@ Current production deploy: `dpl_7TWKyamChQhXyXcBf5WRGJGsVMHc`.
 
 ---
 
-## Second managed site: McCabe's Event Venue
+## Second managed site: McCabe's Event Venue ✓ DONE
 
-First non-pilot customer onboarded to the managed platform.
+First non-pilot customer onboarded to the managed platform. Site is live and operational.
 
 ### Site details
 
