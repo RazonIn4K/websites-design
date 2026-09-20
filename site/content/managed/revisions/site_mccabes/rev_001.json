@@ -1,0 +1,51 @@
+{
+  "id": "rev_001",
+  "siteId": "site_mccabes",
+  "createdAt": "2026-09-20T00:00:00.000Z",
+  "createdBy": "operator",
+  "layout": {
+    "archetype": "editorial",
+    "hero": "editorial",
+    "tone": "editorial",
+    "menuKind": "carte",
+    "highlights": "index",
+    "gallery": "horizontal",
+    "story": "scrolly"
+  },
+  "emojis": ["🎉", "🎤", "🍸", "💃", "🎶", "✨"],
+  "schemaTypes": ["EventVenue", "NightClub", "BarOrPub"],
+  "assetSlug": "arcada-theater",
+  "content": {
+    "kind": "demo-kit",
+    "kitRef": "arcada-theater",
+    "overrides": {
+      "business": {
+        "name": "McCabe's Event Venue (v1)",
+        "shortName": "McCabe's",
+        "vertical": "Historic Event Venue & Nightlife",
+        "phone": "(815) 214-9010",
+        "phoneHref": "+18152149010",
+        "address": "323–333 E Lincoln Highway",
+        "city": "DeKalb",
+        "state": "IL",
+        "zip": "60115",
+        "mapsQuery": "McCabe's Event Venue, 323 E Lincoln Highway, DeKalb, IL 60115",
+        "lat": 41.9317,
+        "lon": -88.7503
+      },
+      "en": {
+        "meta": {
+          "title": "McCabe's Event Venue (v1) — Rollback base",
+          "description": "Published revision 1 for McCabe's managed-platform rollback proof."
+        }
+      },
+      "es": {
+        "meta": {
+          "title": "McCabe's Event Venue (v1) — Base de rollback",
+          "description": "Revisión publicada 1 para prueba de rollback de McCabe's."
+        }
+      }
+    }
+  },
+  "label": "Initial rollback base"
+}

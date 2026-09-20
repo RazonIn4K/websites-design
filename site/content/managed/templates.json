@@ -14,5 +14,21 @@
     },
     "referenceDemoSlug": "a1-auto",
     "notes": "Pilot template — craft archetype with services menu. Reuses a1-auto kit shape via ContentAdapter; not a sold customer."
+  },
+  {
+    "id": "tmpl_event_venue",
+    "name": "Event Venue",
+    "archetype": "editorial",
+    "layout": {
+      "archetype": "editorial",
+      "hero": "editorial",
+      "tone": "editorial",
+      "menuKind": "carte",
+      "highlights": "index",
+      "gallery": "horizontal",
+      "story": "scrolly"
+    },
+    "referenceDemoSlug": "arcada-theater",
+    "notes": "Event venue / entertainment hall — editorial archetype with carte menu for event types. Reuses arcada-theater kit shape."
   }
 ]
