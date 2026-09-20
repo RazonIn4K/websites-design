@@ -15,6 +15,18 @@ Demo catalog at `/sites/<slug>` is unchanged. Managed sites use Template → Sit
 | `/api/operator/rollback` | Activate a prior revision |
 | `/api/operator/leads/retry` | Retry failed/queued deliveries for a site |
 
+## CI
+
+The managed fleet is verified by a GitHub Actions workflow:
+
+- **Workflow**: [`.github/workflows/prove-managed.yml`](.github/workflows/prove-managed.yml)
+- **Triggers**: `workflow_dispatch` (manual) + weekday cron at 14:32 UTC (9:32 America/Chicago)
+- **Checks**: Host availability (HTTP 200), title substring, and rollback honesty (409 when already active)
+
+When `OPERATOR_PUBLISH_TOKEN` is **not** set in repo secrets, the honesty check is skipped and the workflow passes on host+title checks alone. To enable full honesty verification, David can add the repo secret `OPERATOR_PUBLISH_TOKEN` in GitHub → Settings → Secrets and variables → Actions.
+
+The script never flips revisions or posts leads in CI (no `--flip`, no `--lead`).
+
 ## ContentAdapter
 
 `site/lib/platform/adapter.ts` → `getPublishedContent({ hostname | siteId | slug })`.
