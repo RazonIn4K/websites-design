@@ -40,11 +40,9 @@ SSO: `all_except_custom_domains` — attach an approved custom host to unlock un
 ## Lead pipeline
 
 1. Resolve site from `Host` (preferred) or managed `siteId`.
-2. Persist under `.data/leads/<siteId>/` when writable; on Vercel use `/tmp` then
-   in-memory fallback so a read-only FS never blocks webhook delivery. Durable
-   Vercel instances. When `SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY` are set,
-   leads also persist to Supabase `managed_leads` table for durable cross-instance storage.
-3. Attempt webhook delivery; failures set `deliveryStatus=failed|dead` with `nextRetryAt`.
+2. **Durable store**: Supabase `managed_leads` table (when `SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY` are set).
+   - Local fallbacks: `.data/leads/<siteId>/` when writable; on Vercel use `/tmp` then in-memory so a read-only FS never blocks webhook delivery.
+3. Attempt webhook delivery (n8n → Telegram); failures set `deliveryStatus=failed|dead` with `nextRetryAt`.
 4. Delivery status is synced to Supabase after each attempt (non-blocking).
 5. Production-like paths **never** return `{ ok: true, mode: "demo" }`.
 
@@ -243,13 +241,59 @@ If Supabase insert fails:
 - Webhook delivery proceeds normally
 - Response `supabasePersisted: false`
 
-## Still needs David (live prove)
+## Pilot acceptance
 
-1. Confirm Vercel env vars are set on this project and **redeploy** the PR branch so they bind
-2. Confirm the approved test hostname appears under project Domains (API still shows only `*.vercel.app` aliases) and `MANAGED_DOMAIN_MAP` / `domains.json` maps it → `site_pilot_craft`
-3. Prove on that host: lead without webhook fails; with webhook delivers; operator rollback to `rev_001`
-4. Commercial plan before selling managed A (still **hobby**)
-5. ~~Durable lead store (Payload/Postgres step 3)~~ — Now using Supabase `managed_leads`
-6. Review/merge draft PR #3 when 1–3 are green
+Pilot gates 1–10 PASS on production `https://managed.razonworks.com` → `site_pilot_craft` as of 2026-09-19.
+
+| Gate | Description | Status |
+| ---- | ----------- | ------ |
+| 1 | Domain resolves / TLS valid | PASS |
+| 2 | Homepage renders `rev_002` (active) | PASS |
+| 3 | Rollback to `rev_001` → visible title change | PASS |
+| 4 | Restore `rev_002` | PASS |
+| 5 | `durableWriteConfigured: true` in rollback response | PASS |
+| 6 | Lead form submit → n8n webhook delivery | PASS |
+| 7 | Lead arrives in Telegram channel | PASS |
+| 8 | Language toggle EN ⇄ ES | PASS |
+| 9 | Navigation / scroll / accordion behavior | PASS |
+| 10 | Durable Supabase lead persist (PR #6 / `578fd5c`) | PASS |
+
+Live prove lead `lead_mu928r7u_r7jzyi` returned `supabasePersisted:true` and `delivery_status: delivered`.
+
+### Durable infrastructure in production
+
+| Concern | Store | Vercel env vars |
+| ------- | ----- | --------------- |
+| Active revision | Edge Config `ecfg_n2z91iad0sshv8updg2hb8k6tdxh` | `GLOBAL_CONFIG`, `EDGE_CONFIG_ID`, `VERCEL_API_TOKEN` |
+| Lead persistence | Supabase `managed_leads` (`sjpmcapkjnzkrymbrdgp`) | `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` |
+| Lead delivery | n8n `https://34-172-247-12.sslip.io/webhook/managed-leads` | `LEAD_WEBHOOK_URL`, `LEAD_WEBHOOK_TOKEN` |
+
+Current production deploy: `dpl_7TWKyamChQhXyXcBf5WRGJGsVMHc`.
+
+---
+
+## Remaining (pre-sell)
+
+| Item | Blocker? | Notes |
+| ---- | -------- | ----- |
+| Commercial Vercel plan | **Yes** | Team `razs-projects-29d4f2e6` is still **hobby**; required before selling managed A |
+| Optional Payload / Postgres | No | Future CMS layer; not blocking managed A |
+
+---
+
+## Second managed site (next packet)
+
+Checklist for adding a second site without code changes:
+
+- [ ] **Template / site JSON**: create `content/managed/templates/<tmpl_id>.json` and `content/managed/sites/<site_id>.json` with copy overrides
+- [ ] **Revisions**: add `content/managed/revisions/<rev_id>.json` entries; set `activeRevisionId` in site JSON
+- [ ] **Domain map**: add `domains.json` entry or extend `MANAGED_DOMAIN_MAP` env; DNS / TLS via David
+- [ ] **Vercel env reuse**: same project env vars (`SUPABASE_*`, `LEAD_WEBHOOK_*`, `OPERATOR_*`, Edge Config) — no new secrets needed
+- [ ] **Lead prove**: submit lead → verify n8n delivery + Supabase row + Telegram arrival
+- [ ] **Rollback prove**: operator rollback to prior revision → visible change → restore
+
+No component or code changes required.
+
+---
 
 See also `site/.env.example`.
