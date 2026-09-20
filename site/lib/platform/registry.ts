@@ -7,7 +7,7 @@ import type {
   SiteRecord,
   TemplateRecord,
 } from "@/lib/platform/types";
-import { getDurableActiveRevision, isDurableReadConfigured } from "@/lib/platform/durable-state";
+import { getDurableActiveRevision, getMockActiveRevisions, isDurableReadConfigured } from "@/lib/platform/durable-state";
 
 /**
  * In-repo managed registry (JSON kits first). Payload can later implement the
@@ -57,10 +57,25 @@ export function getSite(id: string): SiteRecord | undefined {
  * Async site lookup that checks the durable store for the active revision.
  * Use this in SSR/API routes where the extra await is acceptable.
  * Falls back to sites.json when Edge Config is unconfigured or empty.
+ *
+ * Also checks test mock (setMockActiveRevisions) so unit tests can simulate
+ * durable state divergence without real Edge Config.
  */
 export async function getSiteAsync(id: string): Promise<SiteRecord | undefined> {
   const base = getSite(id);
   if (!base) return undefined;
+
+  const mockMap = getMockActiveRevisions();
+  if (mockMap !== null) {
+    const mockRevisionId = mockMap[id];
+    if (mockRevisionId) {
+      return {
+        ...base,
+        activePublishedRevisionId: mockRevisionId,
+      };
+    }
+    return base;
+  }
 
   if (isDurableReadConfigured()) {
     const durableRevisionId = await getDurableActiveRevision(id);
@@ -81,10 +96,23 @@ export function getSiteBySlug(slug: string): SiteRecord | undefined {
 
 /**
  * Async slug lookup that checks the durable store for the active revision.
+ * Also checks test mock for consistency with getSiteAsync.
  */
 export async function getSiteBySlugAsync(slug: string): Promise<SiteRecord | undefined> {
   const base = getSiteBySlug(slug);
   if (!base) return undefined;
+
+  const mockMap = getMockActiveRevisions();
+  if (mockMap !== null) {
+    const mockRevisionId = mockMap[base.id];
+    if (mockRevisionId) {
+      return {
+        ...base,
+        activePublishedRevisionId: mockRevisionId,
+      };
+    }
+    return base;
+  }
 
   if (isDurableReadConfigured()) {
     const durableRevisionId = await getDurableActiveRevision(base.id);

@@ -151,11 +151,17 @@ export function isDurableWriteConfigured(): boolean {
 
 /**
  * Test helper: mock the Edge Config client for unit tests.
+ * When set, getDurableActiveRevision will use the mock map instead of
+ * calling Edge Config, regardless of isDurableReadConfigured().
  */
 let mockActiveRevisions: ActiveRevisionMap | null = null;
 
 export function setMockActiveRevisions(map: ActiveRevisionMap | null): void {
   mockActiveRevisions = map;
+}
+
+export function getMockActiveRevisions(): ActiveRevisionMap | null {
+  return mockActiveRevisions;
 }
 
 export async function getDurableActiveRevisionWithMock(
