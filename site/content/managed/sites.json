@@ -22,5 +22,17 @@
     "draftKitPath": "content/managed/drafts/site_mccabes",
     "createdAt": "2026-09-20T00:00:00.000Z",
     "updatedAt": "2026-09-20T00:00:00.000Z"
+  },
+  {
+    "id": "site_sanjuan",
+    "slug": "sanjuan",
+    "templateId": "tmpl_craft_services",
+    "status": "published",
+    "displayName": "San Juan Carpet Cleaning",
+    "activePublishedRevisionId": "rev_002",
+    "publishedRevisionIds": ["rev_001", "rev_002"],
+    "draftKitPath": "content/managed/drafts/site_sanjuan",
+    "createdAt": "2026-09-20T00:00:00.000Z",
+    "updatedAt": "2026-09-20T00:00:00.000Z"
   }
 ]

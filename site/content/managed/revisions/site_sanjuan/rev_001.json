@@ -1,0 +1,44 @@
+{
+  "id": "rev_001",
+  "siteId": "site_sanjuan",
+  "createdAt": "2026-09-20T00:00:00.000Z",
+  "createdBy": "operator",
+  "layout": {
+    "archetype": "craft",
+    "hero": "split",
+    "edge": "hard",
+    "tone": "energetic",
+    "highlights": "credentials",
+    "menuKind": "services",
+    "gallery": "horizontal"
+  },
+  "emojis": ["🧹", "🛋️", "🏠", "✨", "🚐", "💧"],
+  "schemaTypes": ["HomeAndConstructionBusiness", "LocalBusiness"],
+  "assetSlug": "a1-auto",
+  "content": {
+    "kind": "demo-kit",
+    "kitRef": "a1-auto",
+    "overrides": {
+      "business": {
+        "name": "San Juan Carpet Cleaning (v1)",
+        "shortName": "San Juan",
+        "vertical": "Residential & Commercial Carpet Cleaning",
+        "phone": "(779) 777-8330",
+        "phoneHref": "+17797778330"
+      },
+      "en": {
+        "meta": {
+          "title": "San Juan Carpet Cleaning (v1) — Rollback base",
+          "description": "Published revision 1 for San Juan Carpet Cleaning managed-platform rollback proof."
+        }
+      },
+      "es": {
+        "meta": {
+          "title": "San Juan Carpet Cleaning (v1) — Base de rollback",
+          "description": "Revisión publicada 1 para prueba de rollback de San Juan Carpet Cleaning."
+        }
+      }
+    }
+  },
+  "label": "Initial rollback base"
+}
