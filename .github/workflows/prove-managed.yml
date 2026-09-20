@@ -1,0 +1,19 @@
+name: Prove managed fleet
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Weekdays at 14:32 UTC (9:32 America/Chicago)
+    - cron: '32 14 * * 1-5'
+
+jobs:
+  prove:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run managed fleet prove
+        working-directory: site
+        env:
+          OPERATOR_PUBLISH_TOKEN: ${{ secrets.OPERATOR_PUBLISH_TOKEN }}
+        run: bash scripts/prove-managed-fleet.sh
