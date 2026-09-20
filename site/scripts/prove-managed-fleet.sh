@@ -2,8 +2,9 @@
 #
 # prove-managed-fleet.sh — Operator prove script for LIVE managed platform
 #
-# Verifies managed.razonworks.com (site_pilot_craft) and mccabes.razonworks.com (site_mccabes)
-# are live, serving correct content, and that rollback API behaves honestly.
+# Verifies managed.razonworks.com (site_pilot_craft), mccabes.razonworks.com (site_mccabes),
+# and sanjuan.razonworks.com (site_sanjuan) are live, serving correct content, and that
+# rollback API behaves honestly.
 #
 # Usage:
 #   ./scripts/prove-managed-fleet.sh           # host checks + optional 409 honesty check
@@ -14,8 +15,10 @@
 # Env overrides:
 #   PILOT_HOST=managed.razonworks.com      (default)
 #   MCCABES_HOST=mccabes.razonworks.com    (default)
+#   SANJUAN_HOST=sanjuan.razonworks.com    (default)
 #   PILOT_TITLE_ASSERT="Pilot Craft"       (substring expected in title)
 #   MCCABES_TITLE_ASSERT="McCabe"          (substring expected in title)
+#   SANJUAN_TITLE_ASSERT="San Juan"        (substring expected in title)
 #   OPERATOR_PUBLISH_TOKEN                  (required for rollback honesty/flip checks)
 #
 # Exit 1 on any failure; prints clear PASS/FAIL lines.
@@ -25,8 +28,10 @@ set -euo pipefail
 # --- Config ------------------------------------------------------------------
 PILOT_HOST="${PILOT_HOST:-managed.razonworks.com}"
 MCCABES_HOST="${MCCABES_HOST:-mccabes.razonworks.com}"
+SANJUAN_HOST="${SANJUAN_HOST:-sanjuan.razonworks.com}"
 PILOT_TITLE_ASSERT="${PILOT_TITLE_ASSERT:-Pilot Craft}"
 MCCABES_TITLE_ASSERT="${MCCABES_TITLE_ASSERT:-McCabe}"
+SANJUAN_TITLE_ASSERT="${SANJUAN_TITLE_ASSERT:-San Juan}"
 
 # Flags
 DO_FLIP=false
@@ -76,6 +81,7 @@ check_host_200() {
 
 check_host_200 "$PILOT_HOST" "Pilot Craft"
 check_host_200 "$MCCABES_HOST" "McCabe's"
+check_host_200 "$SANJUAN_HOST" "San Juan"
 
 # --- Title substring checks --------------------------------------------------
 echo ""
@@ -96,6 +102,7 @@ check_title() {
 
 check_title "$PILOT_HOST" "Pilot Craft" "$PILOT_TITLE_ASSERT"
 check_title "$MCCABES_HOST" "McCabe's" "$MCCABES_TITLE_ASSERT"
+check_title "$SANJUAN_HOST" "San Juan" "$SANJUAN_TITLE_ASSERT"
 
 # --- Rollback honesty check (409 when already active) ------------------------
 if [[ -n "${OPERATOR_PUBLISH_TOKEN:-}" ]]; then
@@ -135,6 +142,7 @@ if [[ -n "${OPERATOR_PUBLISH_TOKEN:-}" ]]; then
 
   honesty_check "$PILOT_HOST" "site_pilot_craft" "Pilot Craft"
   honesty_check "$MCCABES_HOST" "site_mccabes" "McCabe's"
+  honesty_check "$SANJUAN_HOST" "site_sanjuan" "San Juan"
 else
   echo ""
   echo "SKIP  Rollback honesty check (OPERATOR_PUBLISH_TOKEN not set)"
