@@ -32,8 +32,8 @@ export function resolveHostname(hostname: string | null | undefined): HostResolu
   if (!site || site.status === "archived") return null;
   if (!site.activePublishedRevisionId) return null;
 
-  const revision = getRevision(site.activePublishedRevisionId);
-  if (!revision || revision.siteId !== site.id) return null;
+  const revision = getRevision(site.id, site.activePublishedRevisionId);
+  if (!revision) return null;
 
   return { hostname: host, domain, site, revision };
 }
@@ -57,8 +57,8 @@ export async function resolveHostnameAsync(
   if (!site || site.status === "archived") return null;
   if (!site.activePublishedRevisionId) return null;
 
-  const revision = getRevision(site.activePublishedRevisionId);
-  if (!revision || revision.siteId !== site.id) return null;
+  const revision = getRevision(site.id, site.activePublishedRevisionId);
+  if (!revision) return null;
 
   return { hostname: host, domain, site, revision };
 }

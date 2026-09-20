@@ -36,8 +36,8 @@ export async function activateRevisionAsync(
 ): Promise<SiteRecord> {
   const site = getSite(siteId);
   if (!site) throw new PublishError(`Unknown site ${siteId}`, "not_found");
-  const revision = getRevision(revisionId);
-  if (!revision || revision.siteId !== siteId) {
+  const revision = getRevision(siteId, revisionId);
+  if (!revision) {
     throw new PublishError(`Revision ${revisionId} not found for site`, "not_found");
   }
 
@@ -75,8 +75,8 @@ export async function activateRevisionAsync(
 export function activateRevision(siteId: string, revisionId: string, actor = "operator"): SiteRecord {
   const site = getSite(siteId);
   if (!site) throw new PublishError(`Unknown site ${siteId}`, "not_found");
-  const revision = getRevision(revisionId);
-  if (!revision || revision.siteId !== siteId) {
+  const revision = getRevision(siteId, revisionId);
+  if (!revision) {
     throw new PublishError(`Revision ${revisionId} not found for site`, "not_found");
   }
 

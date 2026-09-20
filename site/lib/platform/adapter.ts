@@ -102,13 +102,18 @@ function materializeRevision(
   };
 }
 
+/**
+ * Look up published content by (siteId, revisionId).
+ * Revision IDs are only unique within a site.
+ */
 export function getPublishedContentByRevisionId(
+  siteId: string,
   revisionId: string,
   opts?: { canonicalOrigin?: string | null },
 ): PublishedContent | null {
-  const revision = getRevision(revisionId);
+  const revision = getRevision(siteId, revisionId);
   if (!revision) return null;
-  const site = getSite(revision.siteId);
+  const site = getSite(siteId);
   if (!site) return null;
   return materializeRevision(revision, site.slug, opts?.canonicalOrigin ?? null);
 }
@@ -117,12 +122,13 @@ export function getPublishedContentByRevisionId(
  * Async variant that checks durable store for active revision.
  */
 export async function getPublishedContentByRevisionIdAsync(
+  siteId: string,
   revisionId: string,
   opts?: { canonicalOrigin?: string | null },
 ): Promise<PublishedContent | null> {
-  const revision = getRevision(revisionId);
+  const revision = getRevision(siteId, revisionId);
   if (!revision) return null;
-  const site = await getSiteAsync(revision.siteId);
+  const site = await getSiteAsync(siteId);
   if (!site) return null;
   return materializeRevision(revision, site.slug, opts?.canonicalOrigin ?? null);
 }
@@ -135,7 +141,7 @@ export function getPublishedContentForSiteId(
   const site = getSite(siteId);
   if (!site?.activePublishedRevisionId) return null;
   if (site.status === "archived") return null;
-  return getPublishedContentByRevisionId(site.activePublishedRevisionId, opts);
+  return getPublishedContentByRevisionId(siteId, site.activePublishedRevisionId, opts);
 }
 
 /**
@@ -149,7 +155,7 @@ export async function getPublishedContentForSiteIdAsync(
   const site = await getSiteAsync(siteId);
   if (!site?.activePublishedRevisionId) return null;
   if (site.status === "archived") return null;
-  return getPublishedContentByRevisionId(site.activePublishedRevisionId, opts);
+  return getPublishedContentByRevisionId(siteId, site.activePublishedRevisionId, opts);
 }
 
 export function getPublishedContentBySlug(

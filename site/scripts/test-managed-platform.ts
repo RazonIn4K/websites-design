@@ -198,6 +198,56 @@ async function main() {
   assert.equal(restored?.revisionId, "rev_002");
   resetRegistryOverlays();
 
+  console.log("11. Cross-site revision ID collision: two sites with same rev IDs resolve correctly");
+  resetRegistryOverlays();
+  // Both site_pilot_craft and site_mccabes have rev_001 and rev_002.
+  // Without site-scoped lookup, getRevision("rev_002") would return pilot's rev_002 for both.
+  const pilotContent = getPublishedContentForSiteId("site_pilot_craft");
+  const mccabesContent = getPublishedContentForSiteId("site_mccabes");
+  assert.ok(pilotContent, "pilot content should exist");
+  assert.ok(mccabesContent, "mccabes content should exist");
+  assert.equal(pilotContent.revisionId, "rev_002");
+  assert.equal(mccabesContent.revisionId, "rev_002");
+  // Critical: each site's content must match its own revision, not the other site's
+  assert.equal(pilotContent.siteId, "site_pilot_craft");
+  assert.equal(mccabesContent.siteId, "site_mccabes");
+  assert.equal(pilotContent.siteContent.business.name, "Pilot Craft Auto");
+  assert.equal(mccabesContent.siteContent.business.name, "McCabe's Event Venue");
+  assert.notEqual(
+    pilotContent.siteContent.business.name,
+    mccabesContent.siteContent.business.name,
+    "sites with same rev ID must not share content"
+  );
+  // Verify rollback isolation: rolling back McCabe's must not affect pilot
+  rollbackPublication("site_mccabes");
+  const mccabesRolledBack = getPublishedContentForSiteId("site_mccabes");
+  const pilotUnchanged = getPublishedContentForSiteId("site_pilot_craft");
+  assert.ok(mccabesRolledBack);
+  assert.ok(pilotUnchanged);
+  assert.equal(mccabesRolledBack.revisionId, "rev_001");
+  assert.equal(pilotUnchanged.revisionId, "rev_002", "pilot must stay on rev_002");
+  assert.equal(mccabesRolledBack.siteContent.business.name, "McCabe's Event Venue (v1)");
+  assert.equal(pilotUnchanged.siteContent.business.name, "Pilot Craft Auto");
+  resetRegistryOverlays();
+
+  console.log("12. McCabe's hostname resolves to McCabe's content (not pilot's)");
+  resetRegistryOverlays();
+  const mccabesHost = resolveHostname("mccabes.managed.localhost");
+  assert.ok(mccabesHost, "expected mccabes host resolution");
+  assert.equal(mccabesHost.site.id, "site_mccabes");
+  assert.equal(mccabesHost.revision.id, "rev_002");
+  assert.equal(mccabesHost.revision.siteId, "site_mccabes");
+  const mccabesPublished = getPublishedContentByHostname("mccabes.managed.localhost");
+  assert.ok(mccabesPublished);
+  assert.equal(mccabesPublished.siteId, "site_mccabes");
+  assert.equal(mccabesPublished.siteContent.business.name, "McCabe's Event Venue");
+  assert.notEqual(
+    mccabesPublished.siteContent.business.name,
+    "Pilot Craft Auto",
+    "McCabe's hostname must not serve pilot content"
+  );
+  resetRegistryOverlays();
+
   console.log("\nAll managed-platform checks passed.");
 }
 

@@ -147,19 +147,24 @@ const committedRevisions: PublishedRevision[] = [
   mccabesRev002 as PublishedRevision,
 ];
 
-export function getRevision(id: string): PublishedRevision | undefined {
-  const over = revisionOverlay.get(id);
+/**
+ * Look up a revision by (siteId, revisionId). Revision IDs are only unique
+ * within a site, so callers must provide the site context.
+ */
+export function getRevision(siteId: string, revisionId: string): PublishedRevision | undefined {
+  const overlayKey = `${siteId}:${revisionId}`;
+  const over = revisionOverlay.get(overlayKey);
   if (over) return over;
-  return committedRevisions.find((r) => r.id === id);
+  return committedRevisions.find((r) => r.siteId === siteId && r.id === revisionId);
 }
 
 export function listRevisionsForSite(siteId: string): PublishedRevision[] {
   const committed = committedRevisions.filter((r) => r.siteId === siteId);
   const extras = [...revisionOverlay.values()].filter((r) => r.siteId === siteId);
-  const byId = new Map<string, PublishedRevision>();
-  for (const r of committed) byId.set(r.id, r);
-  for (const r of extras) byId.set(r.id, r);
-  return [...byId.values()].sort((a, b) => a.createdAt.localeCompare(b.createdAt));
+  const byRevisionId = new Map<string, PublishedRevision>();
+  for (const r of committed) byRevisionId.set(r.id, r);
+  for (const r of extras) byRevisionId.set(r.id, r);
+  return [...byRevisionId.values()].sort((a, b) => a.createdAt.localeCompare(b.createdAt));
 }
 
 /** Mutate site active revision (publish / rollback). In-memory overlay only. */
@@ -172,7 +177,8 @@ export function writeSiteOverlay(site: SiteRecord): void {
 }
 
 export function writeRevisionOverlay(revision: PublishedRevision): void {
-  revisionOverlay.set(revision.id, revision);
+  const overlayKey = `${revision.siteId}:${revision.id}`;
+  revisionOverlay.set(overlayKey, revision);
 }
 
 /** Test helper — clear overlays between cases. */
