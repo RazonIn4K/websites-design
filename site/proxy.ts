@@ -7,9 +7,29 @@ import { getDomain, normalizeHostname } from "@/lib/platform/registry";
  * and API routes on the shared demo origin.
  *
  * Live custom-domain attach on Vercel still needs David (project ID UNKNOWN).
+ *
+ * ## Hostname isolation
+ *
+ * Managed CLIENT hostnames (mccabes.razonworks.com, sanjuan.razonworks.com, …)
+ * must NOT expose the demo factory portfolio at /sites or /sites/*. This keeps
+ * client demos clean and avoids confusing business owners.
+ *
+ * The factory remains fully available on:
+ *   - websites-design.vercel.app (and Vercel preview URLs)
+ *   - managed.razonworks.com (platform pilot / RazonWorks demo host)
+ *   - localhost (local dev)
+ *
+ * Implementation: if a verified managed domain resolves to a siteId OTHER than
+ * the platform pilot, requests to /sites or /sites/* return 404.
  */
 
-const PASSTHROUGH_PREFIXES = ["/sites", "/api", "/_next", "/img", "/favicon", "/robots", "/sitemap"];
+const PASSTHROUGH_PREFIXES = ["/api", "/_next", "/img", "/favicon", "/robots", "/sitemap"];
+
+/** Routes that expose the demo factory portfolio — blocked on client managed hosts. */
+const PORTFOLIO_PREFIXES = ["/sites"];
+
+/** Platform pilot siteId — this managed host still exposes the factory for sell demos. */
+const PLATFORM_PILOT_SITE_ID = "site_pilot_craft";
 
 /** Metadata/icon routes that must map to /m/<siteId>/… on customer hosts (not flagship). */
 const MANAGED_META_PATHS = new Set([
@@ -19,12 +39,27 @@ const MANAGED_META_PATHS = new Set([
   "/apple-icon",
 ]);
 
+/** Check if path matches portfolio routes that should be blocked on client managed hosts. */
+function isPortfolioPath(pathname: string): boolean {
+  return PORTFOLIO_PREFIXES.some((p) => pathname === p || pathname.startsWith(`${p}/`));
+}
+
 export function proxy(request: NextRequest) {
   const hostHeader = request.headers.get("host") ?? "";
   const hostname = normalizeHostname(hostHeader);
   const { pathname } = request.nextUrl;
 
   if (PASSTHROUGH_PREFIXES.some((p) => pathname === p || pathname.startsWith(`${p}/`))) {
+    return NextResponse.next();
+  }
+
+  // Hostname isolation: block portfolio routes on managed CLIENT hosts.
+  // Allow portfolio on the platform pilot and non-managed hosts (Vercel preview, localhost).
+  if (isPortfolioPath(pathname)) {
+    const domain = getDomain(hostname);
+    if (domain?.enabled && domain.verification === "verified" && domain.siteId !== PLATFORM_PILOT_SITE_ID) {
+      return new NextResponse(null, { status: 404 });
+    }
     return NextResponse.next();
   }
 
