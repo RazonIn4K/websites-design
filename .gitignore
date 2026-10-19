@@ -26,3 +26,11 @@ Thumbs.db
 # python
 __pycache__/
 *.pyc
+
+# Standalone curated static gallery
+gallery/node_modules/
+gallery/.next/
+gallery/out/
+gallery/next-env.d.ts
+gallery/tsconfig.tsbuildinfo
+.wrangler/

@@ -1,0 +1,8 @@
+"use client";
+import {useEffect,useRef,type CSSProperties,type ReactNode,type ElementType} from "react";
+type RevealTag="div"|"section"|"article"|"li"|"ul"|"figure";
+export function Reveal({children,className="",delay=0,as="div"}:{children:ReactNode;className?:string;delay?:number;as?:RevealTag}){
+ const ref=useRef<HTMLElement>(null);
+ useEffect(()=>{const el=ref.current;if(!el||typeof IntersectionObserver==="undefined"||typeof el.animate!=="function")return;const preference=matchMedia("(prefers-reduced-motion: reduce)");let active:Animation|undefined;let disposed=false;const stop=()=>active?.cancel();const io=new IntersectionObserver(entries=>{if(disposed||preference.matches)return;for(const entry of entries){if(!entry.isIntersecting)continue;io.disconnect();el.classList.add("is-visible");if(el.contains(document.activeElement)||el.matches(":target"))return;active=el.animate([{opacity:.9,transform:"translateY(14px)"},{opacity:1,transform:"none"}],{duration:520,delay:Math.min(delay*1000,240),easing:"cubic-bezier(.22,1,.36,1)"});}},{rootMargin:"0px 0px -4% 0px",threshold:.06});if(!preference.matches)io.observe(el);const preferenceChange=()=>{if(preference.matches){io.disconnect();stop();}};preference.addEventListener("change",preferenceChange);el.addEventListener("focusin",stop);window.addEventListener("beforeprint",stop);return()=>{disposed=true;io.disconnect();stop();preference.removeEventListener("change",preferenceChange);el.removeEventListener("focusin",stop);window.removeEventListener("beforeprint",stop);};},[delay]);
+ const style=delay?({"--reveal-delay":`${Math.round(delay*1000)}ms`} as CSSProperties):undefined;const Comp=as as ElementType;return <Comp ref={ref} className={`reveal ${className}`.trim()} style={style}>{children}</Comp>;
+}
