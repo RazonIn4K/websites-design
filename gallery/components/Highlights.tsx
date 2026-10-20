@@ -84,7 +84,7 @@ export function Highlights() {
                 className="hover-lift relative flex min-h-56 flex-col justify-end gap-3 overflow-hidden rounded-2xl p-6 shadow-card"
               >
                 <Image
-                  src={`${imgBase}/about.jpg`}
+                  src={`${imgBase}/about.webp`}
                   alt=""
                   fill
                   sizes="(min-width: 1024px) 60vw, 100vw"

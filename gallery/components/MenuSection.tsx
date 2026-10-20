@@ -161,7 +161,7 @@ export function MenuSection() {
                       transform would fight the CSS hover translate) */}
                   <TiltFigure className="group relative aspect-[4/5] overflow-hidden rounded-2xl shadow-card">
                     <Image
-                      src={`${imgBase}/g${idx + 1}.jpg`}
+                      src={`${imgBase}/g${idx + 1}.webp`}
                       alt=""
                       fill
                       sizes="(min-width: 640px) 30vw, 90vw"

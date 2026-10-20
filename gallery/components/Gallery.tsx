@@ -53,7 +53,7 @@ export function Gallery() {
                 className="group relative aspect-[4/5] w-[72vw] shrink-0 snap-start overflow-hidden rounded-2xl shadow-card sm:w-[300px]"
               >
                 <Image
-                  src={`${imgBase}/${img}.jpg`}
+                  src={`${imgBase}/${img}.webp`}
                   alt=""
                   fill
                   sizes="(min-width: 640px) 300px, 72vw"
@@ -85,7 +85,7 @@ export function Gallery() {
             className={`reveal-clip group hover-lift relative overflow-hidden rounded-2xl shadow-card ${tile.span}`}
           >
             <Image
-              src={`${imgBase}/${tile.img}.jpg`}
+              src={`${imgBase}/${tile.img}.webp`}
               alt=""
               fill
               sizes={tile.size}

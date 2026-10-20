@@ -25,7 +25,7 @@ export function About() {
       className={`reveal-clip hover-lift relative overflow-hidden rounded-2xl shadow-card ${cls}`}
     >
       <Image
-        src={`${imgBase}/${name}.jpg`}
+        src={`${imgBase}/${name}.webp`}
         alt=""
         fill
         sizes={sizes}

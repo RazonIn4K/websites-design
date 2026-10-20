@@ -7,6 +7,7 @@ import { createHash } from 'node:crypto';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const out = path.join(root, 'out');
 const slugs = ['flamengo', 'growing-place', 'arcada-theater', 'andersons-toyshop', 'leza-nail-spa', 'a1-auto'];
+const razonDestinations = ['https://razonworks.com/', 'https://razonworks.com/contact/', 'https://razonworks.com/es/', 'https://razonworks.com/es/contacto/'];
 async function walk(dir) {
   const entries = await readdir(dir, { withFileTypes: true });
   return (await Promise.all(entries.map(e => e.isDirectory() ? walk(path.join(dir, e.name)) : [path.join(dir, e.name)]))).flat();
@@ -29,7 +30,7 @@ for (const slug of slugs) {
   const source = JSON.parse(await readFile(path.join(root, slug === 'flamengo' ? 'content/copy.json' : `content/clients/${slug}/copy.json`), 'utf8'));
   check(`${slug}: no data-entry and only verified RazonWorks navigation`, () => {
     assert.doesNotMatch(html, /<(?:form|input|textarea|iframe)\b/i);
-    for (const match of html.matchAll(/href=["']((?:https?:|mailto:|tel:|\/\/)[^"']*)["']/gi)) assert.ok(['https://razonworks.com/','https://razonworks.com/contact/'].includes(match[1]));
+    for (const match of html.matchAll(/href=["']((?:https?:|mailto:|tel:|\/\/)[^"']*)["']/gi)) assert.ok(razonDestinations.includes(match[1]));
     for (const destination of ['https://razonworks.com/','https://razonworks.com/contact/']) assert.ok(html.includes(`href="${destination}"`));
   });
   check(`${slug}: no source phone in any exported payload`, () => {
@@ -49,6 +50,11 @@ for (const slug of slugs) {
 }
 check('exactly six public image kits', () => {
   assert.deepEqual([...new Set(assets.filter(a => a.path.startsWith('img/')).map(a => a.path.split('/')[1]))].sort(), [...slugs].sort());
+});
+check('all 48 public photographs use the verified smaller WebP assets', () => {
+  const photographs = assets.filter(a => a.path.startsWith('img/'));
+  assert.equal(photographs.length, 48);
+  assert.ok(photographs.every(a => a.path.endsWith('.webp')));
 });
 check('no operational/private export paths', () => assert.ok(assets.every(a => !/(?:^|\/)(?:api|managed|operator|\.env|\.data|recon|data)(?:\/|$)/.test(a.path))));
 check('robots excludes indexing', () => assert.match(allPayload, /Disallow: \/\n/));

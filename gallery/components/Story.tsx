@@ -62,7 +62,7 @@ export function Story() {
                 style={{ zIndex: i === active ? 1 : 0 }}
               >
                 <Image
-                  src={`${imgBase}/${img}.jpg`}
+                  src={`${imgBase}/${img}.webp`}
                   alt=""
                   fill
                   sizes="(min-width: 1024px) 45vw, 100vw"

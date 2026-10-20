@@ -177,7 +177,7 @@ export function Hero() {
               740px short-phone fold on the longest wellness copy (qa:cta). */}
           <div className="relative order-1 min-h-[28vh] max-h-[28rem] overflow-hidden lg:order-2 lg:min-h-[16rem] lg:max-h-none">
             <motion.div style={{ y: reduce ? 0 : yImg }} className="absolute inset-x-0 top-0 h-[110%] lg:h-[115%]">
-              <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="(min-width:1024px) 50vw, 100vw" className="animate-kenburns object-cover" {...blurProps} />
+              <Image src={`${imgBase}/hero.webp`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="(min-width:1024px) 50vw, 100vw" className="animate-kenburns object-cover" {...blurProps} />
             </motion.div>
           </div>
         </div>
@@ -217,7 +217,7 @@ export function Hero() {
               className="polaroid absolute left-0 top-[14%] z-10 w-[60%] rotate-[-4deg] animate-rise"
             >
               <div className="relative aspect-[4/5] overflow-hidden rounded-[inherit]">
-                <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="(min-width:1024px) 20rem, 60vw" className="object-cover" {...blurProps} />
+                <Image src={`${imgBase}/hero.webp`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="(min-width:1024px) 20rem, 60vw" className="object-cover" {...blurProps} />
               </div>
             </motion.figure>
             <motion.figure
@@ -225,7 +225,7 @@ export function Hero() {
               className="polaroid absolute right-0 top-[6%] z-20 w-[42%] rotate-[5deg] animate-rise"
             >
               <div className="relative aspect-square overflow-hidden rounded-[inherit]">
-                <Image src={`${imgBase}/g4.jpg`} alt="" fill sizes="(min-width:1024px) 14rem, 42vw" className="object-cover" {...blurFor("g4")} />
+                <Image src={`${imgBase}/g4.webp`} alt="" fill sizes="(min-width:1024px) 14rem, 42vw" className="object-cover" {...blurFor("g4")} />
               </div>
             </motion.figure>
             <motion.figure
@@ -233,7 +233,7 @@ export function Hero() {
               className="polaroid absolute bottom-[2%] right-[6%] z-30 w-[38%] rotate-[-7deg] animate-rise"
             >
               <div className="relative aspect-[5/4] overflow-hidden rounded-[inherit]">
-                <Image src={`${imgBase}/g5.jpg`} alt="" fill sizes="(min-width:1024px) 13rem, 38vw" className="object-cover" {...blurFor("g5")} />
+                <Image src={`${imgBase}/g5.webp`} alt="" fill sizes="(min-width:1024px) 13rem, 38vw" className="object-cover" {...blurFor("g5")} />
               </div>
             </motion.figure>
             {t.about?.stats?.[0] && (
@@ -266,7 +266,7 @@ export function Hero() {
               className="relative animate-rise overflow-hidden rounded-t-[999px] rounded-b-3xl border-[6px] border-bg shadow-lifted ring-1 ring-line"
             >
               <div className="relative aspect-[3/4] max-h-[min(52svh,26rem)]">
-                <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="(min-width:1024px) 24rem, 88vw" className="object-cover" {...blurProps} />
+                <Image src={`${imgBase}/hero.webp`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="(min-width:1024px) 24rem, 88vw" className="object-cover" {...blurProps} />
               </div>
             </motion.figure>
             {t.about?.stats?.[0] && <StatMark stat={t.about.stats[0]} position="-left-8 bottom-14" delay="560ms" />}
@@ -306,7 +306,7 @@ export function Hero() {
             above the fold on 800-900px-tall desktops (re-critique regression) */}
         <div className="relative mt-0 h-[24vh] min-h-[12rem] w-full overflow-hidden sm:h-[28vh]">
           <motion.div style={{ y: reduce ? 0 : yImg }} className="absolute inset-x-0 top-0 h-[112%]">
-            <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="100vw" className="animate-kenburns object-cover" {...blurProps} />
+            <Image src={`${imgBase}/hero.webp`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="100vw" className="animate-kenburns object-cover" {...blurProps} />
           </motion.div>
           {/* eased fade from the page background so the hanging accent stays
               legible without a hard gradient edge (re-critique v2) */}
@@ -351,7 +351,7 @@ export function Hero() {
               style={{ y: reduce ? 0 : yImg }}
               className="relative aspect-[4/5] max-h-[min(58svh,28rem)] w-full overflow-hidden rounded-2xl border border-line shadow-lifted lg:absolute lg:inset-0 lg:aspect-auto lg:max-h-none lg:h-full"
             >
-              <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="(min-width:1024px) 45vw, 100vw" className="object-cover" {...blurProps} />
+              <Image src={`${imgBase}/hero.webp`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="(min-width:1024px) 45vw, 100vw" className="object-cover" {...blurProps} />
             </motion.figure>
             {/* Proof marks break the seam for foreground depth (existing stat data, desktop only). */}
             {t.about?.stats?.[0] && <StatMark stat={t.about.stats[0]} position="-left-6 top-10" delay="560ms" />}
@@ -367,7 +367,7 @@ export function Hero() {
   return (
     <section ref={ref} id="top" className="relative w-full overflow-hidden">
       <motion.div style={{ y: reduce ? 0 : yImg }} className="absolute inset-x-0 top-0 h-[112%]">
-        <Image src={`${imgBase}/hero.jpg`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="100vw" className="animate-kenburns object-cover" {...blurProps} />
+        <Image src={`${imgBase}/hero.webp`} alt={`${biz.name} — ${t.hero.eyebrow}`} fill priority style={vtHero} sizes="100vw" className="animate-kenburns object-cover" {...blurProps} />
       </motion.div>
       {/* Two-layer scrim (was a 5-rectangle stack): one flat darken for overall
           legibility + one bottom-up gradient for the CTA/proof zone, then the

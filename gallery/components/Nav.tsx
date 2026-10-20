@@ -6,6 +6,7 @@ import { useLang } from "@/components/LanguageProvider";
 import { LANGS } from "@/lib/content";
 import { A11Y } from "@/lib/a11y";
 import { sectionOrder, type SectionKey } from "@/lib/sections";
+import { closeMenuOnDesktop, DESKTOP_MENU_QUERY } from "@/lib/navigation";
 import { Phone, Menu, Close } from "@/components/icons";
 
 function LangToggle({ scrolled }: { scrolled: boolean }) {
@@ -47,6 +48,7 @@ export function Nav() {
   const [open, setOpen] = useState(false);
   const openBtnRef = useRef<HTMLButtonElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
+  const brandRef = useRef<HTMLAnchorElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 80);
@@ -60,6 +62,15 @@ export function Nav() {
   useEffect(() => {
     if (!open) return;
     const opener = openBtnRef.current;
+    const brand = brandRef.current;
+    const desktop = window.matchMedia(DESKTOP_MENU_QUERY);
+    const releaseDesktop = closeMenuOnDesktop(desktop, () => setOpen(false));
+    // CSS hides this mobile panel at lg; do not leave an invisible scroll
+    // lock or focus trap behind after the viewport crosses that breakpoint.
+    if (desktop.matches) {
+      brand?.focus();
+      return releaseDesktop;
+    }
     const prevOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     const focusables = () =>
@@ -90,9 +101,10 @@ export function Nav() {
     };
     document.addEventListener("keydown", onKey);
     return () => {
+      releaseDesktop();
       document.removeEventListener("keydown", onKey);
       document.body.style.overflow = prevOverflow;
-      opener?.focus();
+      (desktop.matches ? brand : opener)?.focus();
     };
   }, [open]);
 
@@ -120,7 +132,7 @@ export function Nav() {
         {/* Typographic wordmark + brand full-stop — the letter-in-a-gradient-
             circle monogram was the most generic identity device on the page
             (and repeated in the footer of all 72 sites). */}
-        <a href="#top" className="no-underline">
+        <a ref={brandRef} href="#top" className="no-underline">
           <span className={`font-display text-xl font-black tracking-tight transition-colors ${solid ? "text-ink" : "text-white"}`}>
             {biz.shortName}
           </span>
