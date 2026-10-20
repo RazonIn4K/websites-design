@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import { motion } from "motion/react";
 import { useLang } from "@/components/LanguageProvider";
@@ -8,6 +8,7 @@ import { Reveal } from "@/components/motion";
 import { SectionHeader } from "@/components/SectionHeader";
 import { TiltFigure } from "@/components/TiltCard";
 import type { MenuItem } from "@/lib/content";
+import { useHydrated } from "@/lib/use-hydrated";
 
 const TAG_LABELS: Record<string, { en: string; es: string; cls: string }> = {
   popular: { en: "★ Popular", es: "★ Favorito", cls: "badge-accent" },
@@ -94,8 +95,7 @@ export function MenuSection() {
   const shelf = layout.menuKind === "shelf";
   const categories = t.menu.categories;
   const [active, setActive] = useState(categories[0].id);
-  const [ready, setReady] = useState(false);
-  useEffect(() => setReady(true), []);
+  const ready = useHydrated();
 
   const favorites = categories
     .flatMap((c) => c.items)

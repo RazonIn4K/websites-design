@@ -17,6 +17,7 @@ From the repository root, use Node 24 and the installed gallery dependencies:
 ```sh
 node --test tests/*.test.mjs
 cd gallery
+npm run lint
 npm run typecheck
 npm run build
 node scripts/check-export.mjs
@@ -34,6 +35,14 @@ with controlled fixtures. They verify desktop-breakpoint cleanup and English/
 Spanish return destinations. They do not establish native keyboard, focus,
 layout or browser behavior. The export check verifies the static safety
 boundary, asset references and absence of operational contact content.
+Readiness checks additionally use actual React server renders and controlled
+client-snapshot fixtures; they do not establish native browser hydration.
+
+Readiness uses a shared server/client snapshot: exported controls remain
+disabled until hydration, without setting state synchronously in an effect.
+The footer, disclosure and 404 collection links intentionally use native
+document navigation to reset page-level language state. Each has a documented
+line-level lint exception; the rule remains enabled for the package.
 
 Before publication, review all six demos at phone and desktop widths in both
 languages, menu focus/Escape/resize, visible disclosures, category controls,
