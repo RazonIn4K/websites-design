@@ -24,7 +24,7 @@ node scripts/check-export.mjs
 ```
 
 With Python 3 and the existing Pillow installation, verify retained originals,
-dimensions, output hashes and actual exported references from the repository root:
+dimensions and hashes of both public and exported image files from the repository root:
 
 ```sh
 python3 scripts/optimize-gallery-images.py --check --export-dir gallery/out
@@ -34,7 +34,13 @@ The navigation regression tests execute the actual component handlers/effects
 with controlled fixtures. They verify desktop-breakpoint cleanup and English/
 Spanish return destinations. They do not establish native keyboard, focus,
 layout or browser behavior. The export check verifies the static safety
-boundary, asset references and absence of operational contact content.
+boundary, absence of operational contact content, and that rendered HTML
+`img` `src` and `srcset` local URLs resolve to exported files. It resolves
+document-relative paths, HTML attribute entities and URL encoding, ignoring
+query strings and fragments. It does not check CSS backgrounds, images created
+only by JavaScript, remote image availability, visual quality or browser loading.
+Use `node scripts/check-export.mjs --out-dir <copied-export-directory>` for an
+isolated fixture; the normal command checks `gallery/out` without changing it.
 Readiness checks additionally use actual React server renders and controlled
 client-snapshot fixtures; they do not establish native browser hydration.
 
