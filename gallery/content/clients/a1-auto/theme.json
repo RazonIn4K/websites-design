@@ -1,0 +1,16 @@
+{
+  "concept": "Industrial garage-clean palette: graphite-blue ink and crisp light-gray surfaces grounded by a confident burnt safety-orange primary and a deep steel-blue secondary for a dependable, high-contrast automotive feel.",
+  "vars": {
+    "--color-bg": "#F6F7F9",
+    "--color-surface": "#FFFFFF",
+    "--color-surface-alt": "#E8ECF1",
+    "--color-ink": "#15212E",
+    "--color-ink-soft": "#4C5A67",
+    "--color-primary": "#C2410C",
+    "--color-primary-dark": "#9A3412",
+    "--color-secondary": "#1E3A5F",
+    "--color-accent": "#F59E0B",
+    "--color-line": "#D5DBE2"
+  },
+  "contrastNotes": "All AA requirements verified against bg #F6F7F9. ink #15212E on bg = 15.20:1 (>=7 AAA). ink-soft #4C5A67 on bg = 6.61:1 (>=4.5 AA). White #FFFFFF on primary #C2410C = 5.18:1 (>=4.5 AA, CTA labels safe); white on primary-dark #9A3412 = 7.31:1. Primary #C2410C on bg = 4.83:1 (>=3 AA for large/UI). Supporting: ink on surface #FFFFFF = 16.29:1; ink on surface-alt #E8ECF1 = 13.73:1; white on secondary #1E3A5F = 11.50:1; secondary on bg = 10.73:1. Accent #F59E0B is reserved for decorative/large non-text highlights."
+}

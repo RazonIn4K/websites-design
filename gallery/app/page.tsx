@@ -1,0 +1,54 @@
+import Image from "next/image";
+import { CLIENTS } from "@/lib/clients";
+export default function Gallery() {
+  return (
+    <main id="main" tabIndex={-1} className="demo-index">
+      <header>
+        <p className="demo-eyebrow">RazonWorks · Design collection</p>
+        <nav className="demo-links demo-index-links" aria-label="RazonWorks">
+          <a href="https://razonworks.com/">RazonWorks home</a>
+          <a href="https://razonworks.com/contact/">Contact RazonWorks</a>
+        </nav>
+        <h1>
+          Six directions.
+          <br />
+          Open one. Explore it.
+        </h1>
+        <p>
+          Interactive website concepts from one flexible design system. Try the
+          menus, galleries, language controls and page navigation.
+        </p>
+        <p className="demo-index-note">
+          These are independent concepts, not commissioned websites or business
+          endorsements. Images are generated. Copy, products, schedules and
+          prices are illustrative. No bookings, orders or inquiries are
+          accepted.
+        </p>
+      </header>
+      <div className="demo-index-grid">
+        {CLIENTS.map((c) => (
+          <a key={c.slug} href={`/gallery/${c.slug}/`}>
+            <Image
+              src={`/img/${c.slug}/hero.webp`}
+              width={1536}
+              height={960}
+              alt={`Generated illustration for the ${c.site.business.name} concept`}
+              loading="lazy"
+            />
+            <div>
+              <span>{c.vertical} · Concept</span>
+              <h2>{c.site.business.name}</h2>
+              <p>
+                Open interactive example <span aria-hidden="true">↗</span>
+              </p>
+            </div>
+          </a>
+        ))}
+      </div>
+      <footer>
+        Source: websites-design, revision c157bf4 · Curated October 19, 2026. No
+        personal-data fields, analytics or live providers.
+      </footer>
+    </main>
+  );
+}
